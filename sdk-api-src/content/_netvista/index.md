@@ -20,5 +20,4 @@ To develop Network Drivers, Windows Vista and Later, you need these headers:
  * [ndkinfo.h](../ndkinfo/index.md)
 
 For programming guidance for this technology, see:
-* [Network Drivers, Windows Vista and Later](https://docs.microsoft.com/windows-hardware/drivers/network/)
-
+* [Network Drivers, Windows Vista and Later](/windows-hardware/drivers/network/)

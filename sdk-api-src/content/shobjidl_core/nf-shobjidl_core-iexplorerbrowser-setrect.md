@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 392052ea-1053-4f55-96aa-2d64b0ee0390
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetRect method, IExplorerBrowser.SetRect, IExplorerBrowser::SetRect, SetRect, SetRect method [Windows Shell], SetRect method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetRect, shell.IExplorerBrowser_SetRect, shobjidl_core/IExplorerBrowser::SetRect
-f1_keywords:
-- shobjidl_core/IExplorerBrowser.SetRect
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerBrowser.SetRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerBrowser::SetRect
+ - shobjidl_core/IExplorerBrowser::SetRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerBrowser.SetRect
 ---
 
 # IExplorerBrowser::SetRect
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the size and position of the view windows created by the browser.
 
-
 ## -parameters
-
-
-
 
 ### -param phdwp [in, out]
 
 Type: <b>HDWP*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
-
+A pointer to a <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> handle. This parameter can be <b>NULL</b>.
 
 ### -param rcBrowser [in]
 
@@ -71,23 +66,12 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The coordinates that the browser will occupy.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-Coordinates are relative to the <i>hwndParent</i> passed in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-initialize">IExplorerBrowser::Initialize</a>.
-
-
-
+Coordinates are relative to the <i>hwndParent</i> passed in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-initialize">IExplorerBrowser::Initialize</a>.

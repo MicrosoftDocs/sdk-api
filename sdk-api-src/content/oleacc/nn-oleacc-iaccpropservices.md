@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
-f1_keywords:
-- oleacc/IAccPropServices
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oleacc.h
-api_name:
-- IAccPropServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccPropServices
+ - oleacc/IAccPropServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oleacc.h
+api_name:
+ - IAccPropServices
 ---
 
 # IAccPropServices interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods for annotating accessible elements and for manipulating identity strings. 
-
-
+Exposes methods for annotating accessible elements and for manipulating identity strings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccPropServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccPropServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccPropServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccPropServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IAccPropServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearhwndprops">ClearHwndProps</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearhwndprops">ClearHwndProps</a>
 </td>
 <td align="left" width="63%">
 Restores default values to properties of <b>HWND</b>-based accessible elements that have been annotated previously.
@@ -80,7 +78,7 @@ Restores default values to properties of <b>HWND</b>-based accessible elements t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
 </td>
 <td align="left" width="63%">
 Restores default values to properties of accessible elements that have been annotated previously. 
@@ -90,7 +88,7 @@ Restores default values to properties of accessible elements that have been anno
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-composehwndidentitystring">ComposeHwndIdentityString</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-composehwndidentitystring">ComposeHwndIdentityString</a>
 </td>
 <td align="left" width="63%">
 Retrieves an identity string.
@@ -99,7 +97,7 @@ Retrieves an identity string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">DecomposeHwndIdentityString</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">DecomposeHwndIdentityString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>HWND</b>, object ID, and child ID for the accessible element identified by an identity string. 
@@ -109,7 +107,7 @@ Retrieves the <b>HWND</b>, object ID, and child ID for the accessible element id
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">SetHwndProp</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">SetHwndProp</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a property on an <b>HWND</b>-based object.
@@ -118,7 +116,7 @@ Sets a new value for a property on an <b>HWND</b>-based object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">SetHwndPropServer</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">SetHwndPropServer</a>
 </td>
 <td align="left" width="63%">
 Specifies a callback object to be used to annotate an arrary of properties for an <b>HWND</b>-based accessible element.
@@ -127,7 +125,7 @@ Specifies a callback object to be used to annotate an arrary of properties for a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a string property on an <b>HWND</b>-based object.
@@ -136,7 +134,7 @@ Sets a new value for a string property on an <b>HWND</b>-based object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>
 </td>
 <td align="left" width="63%">
 Specifies a callback object to be used to annotate an arrary of properties for the accessible element.
@@ -145,12 +143,11 @@ Specifies a callback object to be used to annotate an arrary of properties for t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a property.
 
 </td>
 </tr>
-</table> 
-
+</table>

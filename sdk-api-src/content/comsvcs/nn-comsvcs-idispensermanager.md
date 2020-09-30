@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: a0465d78-f8b7-4934-9dc6-c8f0ead04bf1
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager
-f1_keywords:
-- comsvcs/IDispenserManager
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IDispenserManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispenserManager
+ - comsvcs/IDispenserManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IDispenserManager
 ---
 
 # IDispenserManager interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects to the dispenser manager.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IDispenserManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-getcontext">GetContext</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Determines the current context.
@@ -79,23 +78,15 @@ Determines the current context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">RegisterDispenser</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispensermanager-registerdispenser">RegisterDispenser</a>
 </td>
 <td align="left" width="63%">
 Registers the resource dispenser with the dispenser manager.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>

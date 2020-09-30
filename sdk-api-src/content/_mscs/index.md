@@ -22,5 +22,4 @@ To develop Windows Clustering, you need these headers:
  * [smbclnt.h](../smbclnt/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Clustering](https://docs.microsoft.com/previous-versions/windows/desktop/mscs)
-
+* [Windows Clustering](/previous-versions/windows/desktop/mscs)

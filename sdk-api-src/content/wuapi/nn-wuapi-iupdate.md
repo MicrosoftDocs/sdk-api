@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: d0feee2a-96f6-4c86-aaf8-f49d05616fc9
 ms.date: 12/05/2018
 ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], IUpdate interface [Windows Update Agent],described, wua.iupdate, wuapi/IUpdate
-f1_keywords:
-- wuapi/IUpdate
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate
+ - wuapi/IUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate
 ---
 
 # IUpdate interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the properties and methods that are available to an update.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUpdate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-accepteula">AcceptEula</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-accepteula">AcceptEula</a>
 </td>
 <td align="left" width="63%">
 Accepts the Microsoft Software License Terms that are associated with an update.
@@ -80,7 +79,7 @@ Accepts the Microsoft Software License Terms that are associated with an update.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">CopyFromCache</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">CopyFromCache</a>
 </td>
 <td align="left" width="63%">
 Copies the contents of an update into a specified path.
@@ -98,7 +97,7 @@ Copies the contents of an update into a specified path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_autoselectonwebsites">AutoSelectOnWebSites</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_autoselectonwebsites">AutoSelectOnWebSites</a>
 
 
 </td>
@@ -114,7 +113,7 @@ Gets a Boolean value that indicates whether the update is flagged to be automati
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_bundledupdates">BundledUpdates</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_bundledupdates">BundledUpdates</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Gets an interface that contains information about the ordered list of the bundle
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_canrequiresource">CanRequireSource</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_canrequiresource">CanRequireSource</a>
 
 
 </td>
@@ -146,7 +145,7 @@ Gets a Boolean value that indicates whether the source media of the update is re
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_categories">Categories</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_categories">Categories</a>
 
 
 </td>
@@ -162,7 +161,7 @@ Gets an interface that contains a  collection of categories to which the update 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deadline">Deadline</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deadline">Deadline</a>
 
 
 </td>
@@ -178,7 +177,7 @@ Gets the date by which the update must be installed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deltacompressedcontentavailable">DeltaCompressedContentAvailable</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deltacompressedcontentavailable">DeltaCompressedContentAvailable</a>
 
 
 </td>
@@ -194,7 +193,7 @@ Gets a Boolean value that indicates whether delta-compressed content is availabl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deltacompressedcontentpreferred">DeltaCompressedContentPreferred</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deltacompressedcontentpreferred">DeltaCompressedContentPreferred</a>
 
 
 </td>
@@ -210,7 +209,7 @@ Gets a Boolean value that indicates whether to prefer delta-compressed content d
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deploymentaction">DeploymentAction</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_deploymentaction">DeploymentAction</a>
 
 
 </td>
@@ -226,7 +225,7 @@ Gets the action for which the update is deployed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_description">Description</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_description">Description</a>
 
 
 </td>
@@ -242,7 +241,7 @@ Gets the localized description of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadcontents">DownloadContents</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadcontents">DownloadContents</a>
 
 
 </td>
@@ -258,7 +257,7 @@ Gets file information about the download contents of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadpriority">DownloadPriority</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadpriority">DownloadPriority</a>
 
 
 </td>
@@ -274,7 +273,7 @@ Gets the suggested download priority of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_eulaaccepted">EulaAccepted</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_eulaaccepted">EulaAccepted</a>
 
 
 </td>
@@ -290,7 +289,7 @@ Gets a Boolean value that indicates whether the Microsoft Software License Terms
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_eulatext">EulaText</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_eulatext">EulaText</a>
 
 
 </td>
@@ -306,7 +305,7 @@ Gets the full localized text of the Microsoft Software License Terms that are as
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_handlerid">HandlerID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_handlerid">HandlerID</a>
 
 
 </td>
@@ -322,7 +321,7 @@ Gets the install handler of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_identity">Identity</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_identity">Identity</a>
 
 
 </td>
@@ -338,7 +337,7 @@ Gets an interface that contains the unique identifier of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_image">Image</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_image">Image</a>
 
 
 </td>
@@ -354,7 +353,7 @@ Gets an interface that contains information about an image that is associated wi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_installationbehavior">InstallationBehavior</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_installationbehavior">InstallationBehavior</a>
 
 
 </td>
@@ -370,7 +369,7 @@ Gets an interface that contains the installation options of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isbeta">IsBeta</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isbeta">IsBeta</a>
 
 
 </td>
@@ -386,7 +385,7 @@ Gets a Boolean value that indicates whether the update is a beta release.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isdownloaded">IsDownloaded</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isdownloaded">IsDownloaded</a>
 
 
 </td>
@@ -402,7 +401,7 @@ Gets a Boolean value that indicates whether all the update content is cached on 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ishidden">IsHidden</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ishidden">IsHidden</a>
 
 
 </td>
@@ -418,7 +417,7 @@ Gets a Boolean value that indicates whether an update is hidden by a user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">IsInstalled</a>
 
 
 </td>
@@ -434,7 +433,7 @@ Gets a Boolean value that indicates whether the update is installed on a compute
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ismandatory">IsMandatory</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ismandatory">IsMandatory</a>
 
 
 </td>
@@ -450,7 +449,7 @@ Gets a Boolean value that indicates whether the installation of the update is ma
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isuninstallable">IsUninstallable</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isuninstallable">IsUninstallable</a>
 
 
 </td>
@@ -466,7 +465,7 @@ Gets a Boolean value that indicates whether a user can uninstall the update from
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_kbarticleids">KBArticleIDs</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_kbarticleids">KBArticleIDs</a>
 
 
 </td>
@@ -482,7 +481,7 @@ Gets a collection of Microsoft Knowledge Base article IDs that are associated wi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_languages">Languages</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_languages">Languages</a>
 
 
 </td>
@@ -498,7 +497,7 @@ Gets an interface that contains the languages that are supported by the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_lastdeploymentchangetime">LastDeploymentChangeTime</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_lastdeploymentchangetime">LastDeploymentChangeTime</a>
 
 
 </td>
@@ -514,7 +513,7 @@ Gets the last published date of the update,  in Coordinated Universal Time (UTC)
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_maxdownloadsize">MaxDownloadSize</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_maxdownloadsize">MaxDownloadSize</a>
 
 
 </td>
@@ -530,7 +529,7 @@ Gets the maximum download size of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_mindownloadsize">MinDownloadSize</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_mindownloadsize">MinDownloadSize</a>
 
 
 </td>
@@ -546,7 +545,7 @@ Gets the minimum download size of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_moreinfourls">MoreInfoUrls</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_moreinfourls">MoreInfoUrls</a>
 
 
 </td>
@@ -562,7 +561,7 @@ Gets a collection of language-specific strings that specify the hyperlinks to mo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_msrcseverity">MsrcSeverity</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_msrcseverity">MsrcSeverity</a>
 
 
 </td>
@@ -578,7 +577,7 @@ Gets the Microsoft Security Response Center severity rating of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedcpuspeed">RecommendedCPUSpeed</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedcpuspeed">RecommendedCPUSpeed</a>
 
 
 </td>
@@ -594,7 +593,7 @@ Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedharddiskspace">RecommendedHardDiskSpace</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedharddiskspace">RecommendedHardDiskSpace</a>
 
 
 </td>
@@ -610,7 +609,7 @@ Gets the recommended free space that should be available on the hard disk before
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedmemory">RecommendedMemory</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_recommendedmemory">RecommendedMemory</a>
 
 
 </td>
@@ -626,7 +625,7 @@ Gets the recommended physical memory size that should be available in your  comp
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_releasenotes">ReleaseNotes</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_releasenotes">ReleaseNotes</a>
 
 
 </td>
@@ -642,7 +641,7 @@ Gets the localized release notes for the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_securitybulletinids">SecurityBulletinIDs</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_securitybulletinids">SecurityBulletinIDs</a>
 
 
 </td>
@@ -658,7 +657,7 @@ Gets a collection of string values that contain the security bulletin IDs that a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_supersededupdateids">SupersededUpdateIDs</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_supersededupdateids">SupersededUpdateIDs</a>
 
 
 </td>
@@ -674,7 +673,7 @@ Gets a collection of update identifiers. This collection of identifiers specifie
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_supporturl">SupportUrl</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_supporturl">SupportUrl</a>
 
 
 </td>
@@ -690,7 +689,7 @@ Gets a hyperlink to the language-specific support information for the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_title">Title</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_title">Title</a>
 
 
 </td>
@@ -706,7 +705,7 @@ Gets the localized title of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">Type</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">Type</a>
 
 
 </td>
@@ -722,7 +721,7 @@ Gets the type of the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationbehavior">UninstallationBehavior</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationbehavior">UninstallationBehavior</a>
 
 
 </td>
@@ -738,7 +737,7 @@ Gets an interface that contains the uninstallation options for the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationnotes">UninstallationNotes</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationnotes">UninstallationNotes</a>
 
 
 </td>
@@ -754,7 +753,7 @@ Gets the uninstallation notes for the update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationsteps">UninstallationSteps</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_uninstallationsteps">UninstallationSteps</a>
 
 
 </td>
@@ -767,14 +766,8 @@ Gets an interface that contains the uninstallation steps for  the update.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_bundledupdates">BundledUpdates</a> property contains an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>, some properties and methods of the update may only be available on the bundled updates, for example, <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadcontents">DownloadContents</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">CopyFromCache</a>.
-
-
-
+If the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_bundledupdates">BundledUpdates</a> property contains an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>, some properties and methods of the update may only be available on the bundled updates, for example, <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_downloadcontents">DownloadContents</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-copyfromcache">CopyFromCache</a>.

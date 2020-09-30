@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: CAB1E4C6-5572-47D0-B96F-0479773B8106
 ms.date: 12/05/2018
 ms.keywords: AttachToBuffer, AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToBuffer
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+ - spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 ---
 
 # ISpatialAudioMetadataItemsBuffer::AttachToBuffer
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Attaches caller-provided memory for storage of <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects.
-
+Attaches caller-provided memory for storage of <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects.
 
 ## -parameters
-
-
-
 
 ### -param buffer [in]
 
 A pointer to memory to use for storage.
 
-
 ### -param bufferLength
 
 The length of the supplied buffer. This size must match the length required for the metadata format and maximum metadata item count.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -86,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> has not been opened for copying with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-open">Open</a> or the object has been closed for writing with a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-close">Close</a>.
+The <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> has not been opened for copying with a call to <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-open">Open</a> or the object has been closed for writing with a call to <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-close">Close</a>.
 
 </td>
 </tr>
@@ -97,7 +89,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> was created to use a media pipeline internal buffer, so an external buffer can't be attached.
+The <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> was created to use a media pipeline internal buffer, so an external buffer can't be attached.
 
 </td>
 </tr>
@@ -126,18 +118,7 @@ The supplied buffer is not large enough to hold the maximum number of metadata i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a>

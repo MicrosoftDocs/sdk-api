@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ae37e602-4a47-4234-a8d7-c757f3498308
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphs.GetGlyphIndexCount, IXpsOMGlyphs::GetGlyphIndexCount, xps.ixpsomglyphs_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.GetGlyphIndexCount
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.GetGlyphIndexCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::GetGlyphIndexCount
+ - xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndexCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.GetGlyphIndexCount
 ---
 
 # IXpsOMGlyphs::GetGlyphIndexCount
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of Glyph indices.
 
-
 ## -parameters
-
-
-
 
 ### -param indexCount [out, retval]
 
 The number of glyph  indices.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -97,31 +90,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a> gets the glyph indices.
-
-
-
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a> gets the glyph indices.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
@@ -129,8 +109,4 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

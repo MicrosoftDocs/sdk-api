@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
-f1_keywords:
-- usp10/SCRIPT_PROPERTIES
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_PROPERTIES
 targetos: Windows
 req.typenames: SCRIPT_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCRIPT_PROPERTIES
+ - usp10/SCRIPT_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_PROPERTIES
 ---
 
 # SCRIPT_PROPERTIES structure
@@ -49,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about special processing for each script.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field langid
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language identifier</a> for the language associated with the script. When a script is used for many languages, this member represents a default language. For example, Western script is represented by LANG_ENGLISH although it is also used for French, German, and other European languages.
-
+<a href="/windows/desktop/Intl/language-identifiers">Language identifier</a> for the language associated with the script. When a script is used for many languages, this member represents a default language. For example, Western script is represented by LANG_ENGLISH although it is also used for French, German, and other European languages.
 
 ### -field fNumeric
 
@@ -97,8 +88,6 @@ The script does not contain only digits and the other characters used in writing
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fComplex
 
@@ -130,8 +119,6 @@ The script contains no combining characters and requires no contextual shaping o
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsWordBreaking
 
@@ -148,7 +135,7 @@ Value indicating the type of word break placement for a language. Possible value
 </dl>
 </td>
 <td width="60%">
-The language has word break placement that requires the application to call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> and that includes character positions marked by the <b>fWordStop</b> member in <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a>.
+The language has word break placement that requires the application to call <a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> and that includes character positions marked by the <b>fWordStop</b> member in <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a>.
 
 </td>
 </tr>
@@ -163,14 +150,12 @@ Word break placement is identified by scanning for characters marked by the <b>f
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsCaretInfo
 
-Value indicating if a language, for example, Thai or Indian, restricts caret placement to cluster boundaries. Possible values are defined in the following table. To determine valid caret positions, the application inspects the <b>fCharStop</b> value in the logical attributes retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>, or compares adjacent values in the <i>pwLogClust</i> array retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
+Value indicating if a language, for example, Thai or Indian, restricts caret placement to cluster boundaries. Possible values are defined in the following table. To determine valid caret positions, the application inspects the <b>fCharStop</b> value in the logical attributes retrieved by <a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>, or compares adjacent values in the <i>pwLogClust</i> array retrieved by <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptcptox">ScriptCPtoX</a> automatically apply caret placement restrictions.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a> and <a href="/windows/desktop/api/usp10/nf-usp10-scriptcptox">ScriptCPtoX</a> automatically apply caret placement restrictions.</div>
 <div> </div>
 <table>
 <tr>
@@ -198,15 +183,12 @@ The language does not restrict caret placement to cluster boundaries.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bCharSet
 
-Nominal character set associated with the script. During creation of a font suitable for displaying the script, this character set can be used as the value of the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>.
+Nominal character set associated with the script. During creation of a font suitable for displaying the script, this character set can be used as the value of the <b>lfCharSet</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>.
 
 For a new script having no character set defined, the application should typically set <b>bCharSet</b> to DEFAULT_CHARSET. See the description of member <b>fAmbiguousCharSet</b>.
-
 
 ### -field fControl
 
@@ -238,8 +220,6 @@ Do not set only control characters in the script.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fPrivateUseArea
 
@@ -271,8 +251,6 @@ Do not use a private use area.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsCharacterJustify
 
@@ -304,12 +282,10 @@ Do not use character justification.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInvalidGlyph
 
-Value indicating if <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> generates an invalid glyph for a script to represent invalid sequences. Possible values are defined in the following table. The application can obtain the glyph index of the invalid glyph for a particular font by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>.
+Value indicating if <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> generates an invalid glyph for a script to represent invalid sequences. Possible values are defined in the following table. The application can obtain the glyph index of the invalid glyph for a particular font by calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>.
 
 <table>
 <tr>
@@ -337,12 +313,10 @@ Do not generate an invalid glyph to represent invalid sequences.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInvalidLogAttr
 
-Value indicating if <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> marks invalid combinations for a script by setting <b>fInvalid</b> in the logical attributes buffer. Possible values are defined in the following table. 
+Value indicating if <a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> marks invalid combinations for a script by setting <b>fInvalid</b> in the logical attributes buffer. Possible values are defined in the following table. 
 
 <table>
 <tr>
@@ -370,12 +344,10 @@ Do not mark invalid combinations for the script.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCDM
 
-Value indicating if a script contains an item that has been analyzed by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> as including Combining Diacritical Marks (U+0300 through U+36F). Possible values are defined in the following table. 
+Value indicating if a script contains an item that has been analyzed by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> as including Combining Diacritical Marks (U+0300 through U+36F). Possible values are defined in the following table. 
 
 <table>
 <tr>
@@ -403,8 +375,6 @@ The script does not contain an item that includes combining diacritical marks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fAmbiguousCharSet
 
@@ -421,7 +391,7 @@ Value indicating if a script contains characters that are supported by more than
 </dl>
 </td>
 <td width="60%">
-The script contains characters that are supported by more than one character set. In this case, the <b>bCharSet</b> member of this structure should be ignored, and the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> should be set to DEFAULT_CHARSET. See the Remarks section for more information.
+The script contains characters that are supported by more than one character set. In this case, the <b>bCharSet</b> member of this structure should be ignored, and the <b>lfCharSet</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> should be set to DEFAULT_CHARSET. See the Remarks section for more information.
 
 </td>
 </tr>
@@ -436,8 +406,6 @@ The script does not contain characters that are supported by more than one chara
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fClusterSizeVaries
 
@@ -469,8 +437,6 @@ Do not use a variable cluster size for contextual shaping.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fRejectInvalid
 
@@ -502,14 +468,10 @@ Do not reject invalid sequences.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-This structure is filled by the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a> function.
+This structure is filled by the <a href="/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a> function.
 
 Many Uniscribe scripts do not correspond directly to 8-bit character sets. When some of the characters in a script are supported by more than one character set, the <b>fAmbiguousCharSet</b> member is set. The application should do further processing to determine the character set to use when requesting a font suitable for the run. For example, it might determine that the run consists of multiple languages and split the run so that a different font is used for each language.
 
@@ -540,16 +502,9 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
+<a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
 
 
 
@@ -565,40 +520,36 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptcptox">ScriptCPtoX</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptcptox">ScriptCPtoX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

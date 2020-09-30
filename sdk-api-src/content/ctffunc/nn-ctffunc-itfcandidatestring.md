@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 82c77b59-a50c-42ae-ba1d-25a1c196662d
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Framework], ITfCandidateString interface [Text Services Framework],described, _tsf_itfcandidatestring_ref, ctffunc/ITfCandidateString, tsf.itfcandidatestring
-f1_keywords:
-- ctffunc/ITfCandidateString
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateString
+ - ctffunc/ITfCandidateString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateString
 ---
 
 # ITfCandidateString interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCandidateString</b> interface is implemented by a text service and is used by the TSF manager or a client to obtain information about a candidate string object.
 
 The TSF manager implements this interface to provide access to this interface to other clients. This enables the TSF manager to function as a mediator between the client and the text service.
 
-To obtain an instance of this interface, the TSF manager or client can call <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-getcandidate">ITfCandidateList::GetCandidate</a>.
-
+To obtain an instance of this interface, the TSF manager or client can call <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-getcandidate">ITfCandidateList::GetCandidate</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>ITfCandidateString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getindex">GetIndex</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getindex">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Obtains the index of the candidate string object within the candidate list.
@@ -83,12 +82,11 @@ Obtains the index of the candidate string object within the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getstring">GetString</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Obtains the text of the candidate string object.
 
 </td>
 </tr>
-</table> 
-
+</table>

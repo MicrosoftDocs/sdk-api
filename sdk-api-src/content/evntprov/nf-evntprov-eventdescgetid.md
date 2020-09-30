@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 33deea6e-27e0-44ae-8d18-e8c854bc1819
 ms.date: 12/05/2018
 ms.keywords: EventDescGetId, EventDescGetId function [ETW], base.eventdescgetid_func, etw.eventdescgetid_func, evntprov/EventDescGetId
-f1_keywords:
-- evntprov/EventDescGetId
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EventDescGetId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventDescGetId
+ - evntprov/EventDescGetId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EventDescGetId
 ---
 
 # EventDescGetId function
@@ -49,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves
 		
 		
 	
 	the event identifier from the event descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param EventDescriptor [in]
 
-Event descriptor from which to retrieve the event identifier. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
-
+Event descriptor from which to retrieve the event identifier. See <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ## -returns
 
-
-
 The event identifier.
-
-
-
 
 ## -remarks
 
-
-
-This is a convenience macro for retrieving the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
-
-
-
+This is a convenience macro for retrieving the member of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>

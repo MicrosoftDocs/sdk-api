@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent interface [TAPI 2.2],described, _tapi3_itrequestevent, tapi3.itrequestevent, tapi3if/ITRequestEvent
-f1_keywords:
-- tapi3if/ITRequestEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITRequestEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITRequestEvent
+ - tapi3if/ITRequestEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITRequestEvent
 ---
 
 # ITRequestEvent interface
@@ -49,20 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITRequestEvent</b> interface contains methods that allow an application to receive and process 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-overview">Assisted Telephony</a> request events. When the application's implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_REQUEST</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
+<a href="/windows/desktop/Tapi/assisted-telephony-overview">Assisted Telephony</a> request events. When the application's implementation of the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_REQUEST</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
 <b>ITRequestEvent</b> interface. The methods of this interface can be used to retrieve information concerning a request event that has occurred.
 <div class="alert"><b>Note</b>  You must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_REQUEST</b> event to enable reception of request events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_REQUEST</b> event to enable reception of request events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
+<a href="/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRequestEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRequestEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITRequestEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITRequestEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>ITRequestEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_appname">get_AppName</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_appname">get_AppName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the application.
@@ -86,7 +86,7 @@ Gets the name of the application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_calledparty">get_CalledParty</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_calledparty">get_CalledParty</a>
 </td>
 <td align="left" width="63%">
 Gets the called party.
@@ -95,7 +95,7 @@ Gets the called party.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_comment">get_Comment</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_comment">get_Comment</a>
 </td>
 <td align="left" width="63%">
 Gets a comment associated with the request event.
@@ -104,7 +104,7 @@ Gets a comment associated with the request event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_destaddress">get_DestAddress</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_destaddress">get_DestAddress</a>
 </td>
 <td align="left" width="63%">
 Gets the destination address.
@@ -113,7 +113,7 @@ Gets the destination address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_registrationinstance">get_RegistrationInstance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_registrationinstance">get_RegistrationInstance</a>
 </td>
 <td align="left" width="63%">
 Gets the registration instance.
@@ -122,40 +122,32 @@ Gets the registration instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_requestmode">get_RequestMode</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itrequestevent-get_requestmode">get_RequestMode</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linerequestmode--constants">request mode</a> descriptor.
+<a href="/windows/desktop/Tapi/linerequestmode--constants">request mode</a> descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequest">ITRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itrequest">ITRequest</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a>
+<a href="/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>

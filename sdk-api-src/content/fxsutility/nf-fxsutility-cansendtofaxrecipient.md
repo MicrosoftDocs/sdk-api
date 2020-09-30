@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_cansendtofaxrecipient.htm
 ms.date: 12/05/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
-f1_keywords:
-- fxsutility/CanSendToFaxRecipient
-dev_langs:
-- c++
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxsutility.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fxsutility.dll
-api_name:
-- CanSendToFaxRecipient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CanSendToFaxRecipient
+ - fxsutility/CanSendToFaxRecipient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fxsutility.dll
+api_name:
+ - CanSendToFaxRecipient
 ---
 
 # CanSendToFaxRecipient function
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>. 
-
+Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -73,31 +65,14 @@ Type: <b>BOOL</b>
 <li>The current user has a fax account setup with the fax service.</li>
 </ul>
 
-
-
-
-
 ## -remarks
 
-
-
-Typically, this function is called when the application launches.  
-        
-
-
-
+Typically, this function is called when the application launches.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistalignment.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListAlignment method, ITextPara.SetListAlignment, ITextPara::SetListAlignment, SetListAlignment, SetListAlignment method [Windows Controls], SetListAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListAlignment, _win32_ITextPara_SetListAlignment_cpp, controls.ITextPara_SetListAlignment, controls._win32_ITextPara_SetListAlignment, tom/ITextPara::SetListAlignment
-f1_keywords:
-- tom/ITextPara.SetListAlignment
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetListAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetListAlignment
+ - tom/ITextPara::SetListAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetListAlignment
 ---
 
 # ITextPara::SetListAlignment
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the alignment of bulleted or numbered text used for paragraphs. 
-
+Sets the alignment of bulleted or numbered text used for paragraphs.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-New list alignment value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistalignment">ITextPara::GetListAlignment</a>. 
-
+New list alignment value. For possible values, see <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlistalignment">ITextPara::GetListAlignment</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetListAlignment</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetListAlignment</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -134,25 +127,18 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistalignment">GetListAlignment</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlistalignment">GetListAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -160,8 +146,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -32,21 +32,28 @@ api_name:
  - _SCH_CREDENTIALS
  - SCH_CREDENTIALS
 f1_keywords:
+ - _SCH_CREDENTIALS
  - schannel/_SCH_CREDENTIALS
+ - PSCH_CREDENTIALS
+ - schannel/PSCH_CREDENTIALS
+ - SCH_CREDENTIALS
  - schannel/SCH_CREDENTIALS
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The SCH_CREDENTIALS structure contains initialization information for an Schannel credential.
 
 ## -struct-fields
 
 ### -field dwVersion
+
 Set to SCH_CREDENTIALS_VERSION.
 
 ### -field dwCredFormat
+
 Kernel-mode Schannel supports the following values.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP and Windows XP/2000:  </b>This flag is not supported and must be zero.
@@ -74,33 +81,40 @@ The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure passed in must
 </dl>
 </td>
 <td width="60%">
-The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
+The <b>paCred</b> member  of the <b>SCH_CREDENTIALS</b> structure points to a <a href="/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
 
 </td>
 </tr>
 </table>
 
 ### -field cCreds
+
 The number of structures in the paCred array.
 
 ### -field paCred
+
 An array of pointers to CERT_CONTEXT structures. Each pointer specifies a certificate that contains a private key to be used in authenticating the application. 
 
 Client applications often pass in an empty list and either depend on Schannel to find an appropriate certificate or create a certificate later if needed.
 
 ### -field hRootStore
+
 *Optional.* Valid for server applications only. Handle to a certificate store that contains self-signed root certificates for certification authorities (CAs) trusted by the application. This member is used only by server-side applications that require client authentication.
 
 ### -field cMappers
+
 Reserved.
 
 ### -field aphMappers
+
 Reserved.
 
 ### -field dwSessionLifespan
+
 The number of milliseconds that Schannel keeps the session in its session cache. After this time has passed, any new connections between the client and the server require a new Schannel session. Set the value of this member to zero to use the default value of 36000000 milliseconds (ten hours).
 
 ### -field dwFlags
+
 Contains bit flags that control the behavior of Schannel. This member can be zero or a combination of the following values.
 
 <table>
@@ -128,7 +142,7 @@ This flag is the opposite of SCH_CRED_MANUAL_CRED_VALIDATION and is part of the 
 </dl>
 </td>
 <td width="60%">
-Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
+Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function when validating the specified credentials during a call to <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (Schannel)</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>This flag is not supported.
 
@@ -143,7 +157,7 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 <td width="60%">
 Server only.
 
-If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
+If this flag is set, then full handshakes performed with this credential will not allow reconnects. A cache entry is created, so the session can be made resumable later by using the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 </td>
 </tr>
@@ -204,7 +218,7 @@ Prevent Schannel from attempting to automatically supply a certificate chain for
 <td width="60%">
 Client only.
 
-Prevent Schannel from comparing the supplied target name with the subject names in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server certificates</a>.
+Prevent Schannel from comparing the supplied target name with the subject names in <a href="/windows/desktop/SecGloss/s-gly">server certificates</a>.
 
 </td>
 </tr>
@@ -217,7 +231,7 @@ Prevent Schannel from comparing the supplied target name with the subject names 
 <td width="60%">
 Server only.
 
-Prevent Schannel from using the built-in system certificate mapping functions to map <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
+Prevent Schannel from using the built-in system certificate mapping functions to map <a href="/windows/desktop/SecGloss/c-gly">client certificates</a> to a user account.
 
 </td>
 </tr>
@@ -316,23 +330,25 @@ Instructs Schannel to select only PSK cipher suites and disable all other cipher
 </td>
 </tr>
 </table>
- 
 
 ### -field cTlsParameters
+
 The count of entries in the pTlsParameters array.
 
 It is an error to specify more than SCH_CRED_MAX_SUPPORTED_PARAMETERS.
 
 ### -field pTlsParameters
+
 Array of pointers to the TLS_PARAMETERS structures that indicate TLS parameter restrictions, if any. If no restrictions are specified, the system defaults are used. It is recommended that applications rely on the system defaults.
 
-It is an error to include more than one TLS_PARAMETERS structure with cAlpnIds == 0 and rgstrAlpnIds == NULL. 
+It is an error to include more than one TLS_PARAMETERS structure with cAlpnIds == 0 and rgstrAlpnIds == NULL.
 
 ## -remarks
 
 To use the SCH_CREDENTIALS structure, define SCHANNEL_USE_BLACKLISTS along with UNICODE_STRING and PUNICODE_STRING. Alternatively, include Ntdef.h, SubAuth.h or Winternl.h.
 
 ## -see-also
+
 [CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
 
 [TLS_PARAMETERS](ns-schannel-tls_parameters.md)

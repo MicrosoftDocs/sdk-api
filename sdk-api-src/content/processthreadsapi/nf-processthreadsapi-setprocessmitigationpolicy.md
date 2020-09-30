@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
 ms.date: 12/05/2018
 ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, ProcessUserShadowStackPolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
-f1_keywords:
-- processthreadsapi/SetProcessMitigationPolicy
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- SetProcessMitigationPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessMitigationPolicy
+ - processthreadsapi/SetProcessMitigationPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - SetProcessMitigationPolicy
 ---
 
 # SetProcessMitigationPolicy function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
 
-
 ## -parameters
-
-
-
 
 ### -param MitigationPolicy [in]
 
@@ -80,7 +76,7 @@ The mitigation policy to apply. This parameter can be one of the following value
 <td width="60%">
 The data execution prevention (DEP) policy of the process.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_dep_policy">PROCESS_MITIGATION_DEP_POLICY</a> structure that specifies the DEP policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_dep_policy">PROCESS_MITIGATION_DEP_POLICY</a> structure that specifies the DEP policy flags.
 
 </td>
 </tr>
@@ -92,7 +88,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The Address Space Layout Randomization (ASLR) policy of the process.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_aslr_policy">PROCESS_MITIGATION_ASLR_POLICY</a> structure that specifies the ASLR policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_aslr_policy">PROCESS_MITIGATION_ASLR_POLICY</a> structure that specifies the ASLR policy flags.
 
 </td>
 </tr>
@@ -104,7 +100,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The dynamic code policy of the process. When turned on, the process cannot generate dynamic code or modify existing executable code.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_dynamic_code_policy">PROCESS_MITIGATION_DYNAMIC_CODE_POLICY</a> structure that specifies the dynamic code policy flags.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_dynamic_code_policy">PROCESS_MITIGATION_DYNAMIC_CODE_POLICY</a> structure that specifies the dynamic code policy flags.
 
 </td>
 </tr>
@@ -188,7 +184,7 @@ he <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-wi
 <td width="60%">
 The policy regarding font loading for the process. When turned on, the process cannot load non-system fonts.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
 
 </td>
 </tr>
@@ -200,7 +196,7 @@ The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/wi
 <td width="60%">
 The policy regarding image loading for the process, which determines the types of executable images that are allowed to be mapped into the process. When turned on, images cannot be loaded from some locations, such a remote devices or files that have the low mandatory label.
 
-The <i>lpBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
+The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
 
 </td>
 </tr>
@@ -217,16 +213,14 @@ The <i>lpBuffer</i> parameter points to a <a href="/windows/win32/api/winnt/ns-w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [in]
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessDEPPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_dep_policy">PROCESS_MITIGATION_DEP_POLICY</a> structure that specifies the DEP policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessDEPPolicy</b>, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_dep_policy">PROCESS_MITIGATION_DEP_POLICY</a> structure that specifies the DEP policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessASLRPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_aslr_policy">PROCESS_MITIGATION_ASLR_POLICY</a> structure that specifies the ASLR policy flags.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessASLRPolicy</b>, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_aslr_policy">PROCESS_MITIGATION_ASLR_POLICY</a> structure that specifies the ASLR policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that receives the policy flags for image loading.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that receives the policy flags for image loading.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessStrictHandleCheckPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_strict_handle_check_policy">PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY</a> structure that specifies the handle check policy flags.
 
@@ -240,30 +234,21 @@ If the <i>MitigationPolicy</i> parameter is <b>ProcessControlFlowGuardPolicy</b>
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessSignaturePolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_binary_signature_policy">PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY</a> structure that specifies the signature policy flags.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessFontDisablePolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessFontDisablePolicy</b>, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_font_disable_policy">PROCESS_MITIGATION_FONT_DISABLE_POLICY</a> structure that specifies the policy flags for font loading.
 
-If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
+If the <i>MitigationPolicy</i> parameter is <b>ProcessImageLoadPolicy</b>, this parameter points to a <a href="/windows/desktop/api/winnt/ns-winnt-process_mitigation_image_load_policy">PROCESS_MITIGATION_IMAGE_LOAD_POLICY</a> structure that specifies the policy flags for image loading.
 
 If the <i>MitigationPolicy</i> parameter is <b>ProcessUserShadowStackPolicy</b>, this parameter points to a <a href="/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy">PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY</a> structure that specifies the policy flags for user-mode Hardware-enforced Stack Protection.
-
 
 ### -param dwLength [in]
 
 The size of <i>lpBuffer</i>, in bytes.
 
-
 ## -returns
 
-
-
-If the function succeeds, it returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function succeeds, it returns <b>TRUE</b>. If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Setting mitigation policy for a process helps prevent an attacker from exploiting security vulnerabilities. Use the <b>SetProcessMitigationPolicy</b> function to enable or disable security mitigation programmatically.
 
@@ -271,7 +256,4 @@ For maximum effectiveness, mitigation policies should be applied before or durin
 
 ASLR mitigation policies cannot be made less restrictive after they have been applied. 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

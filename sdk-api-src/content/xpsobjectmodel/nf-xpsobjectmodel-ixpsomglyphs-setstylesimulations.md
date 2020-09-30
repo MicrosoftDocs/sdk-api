@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2b87f12c-5d9b-47ea-99f0-e457c3e49c92
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetStyleSimulations method, IXpsOMGlyphs.SetStyleSimulations, IXpsOMGlyphs::SetStyleSimulations, SetStyleSimulations, SetStyleSimulations method [XPS Documents and Packaging], SetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setstylesimulations, xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.SetStyleSimulations
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.SetStyleSimulations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::SetStyleSimulations
+ - xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.SetStyleSimulations
 ---
 
 # IXpsOMGlyphs::SetStyleSimulations
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the style simulations that will be applied when the glyphs are rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param styleSimulations [in]
 
 The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -97,17 +90,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
@@ -115,12 +101,8 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
- 
-
- 
-

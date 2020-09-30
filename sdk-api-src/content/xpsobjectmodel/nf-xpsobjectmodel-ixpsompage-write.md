@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: ab586c7d-69e6-4ad7-93f1-3e1437c04856
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPage interface [XPS Documents and Packaging],Write method, IXpsOMPage.Write, IXpsOMPage::Write, TRUE, Write, Write method [XPS Documents and Packaging], Write method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_write, xpsobjectmodel/IXpsOMPage::Write
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.Write
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.Write
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::Write
+ - xpsobjectmodel/IXpsOMPage::Write
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.Write
 ---
 
 # IXpsOMPage::Write
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes the page to the specified stream.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
 The stream that receives the serialized contents of the page.
-
 
 ### -param optimizeMarkupSize [in]
 
@@ -93,14 +88,10 @@ The package writer will not attempt any optimization when writing the page to th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -130,32 +121,20 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To examine the XPS markup of a page before it is written to an XPS package, an application can call the <b>Write</b> method to write the page's contents to a stream. The application can then read that stream to examine the XPS markup as it would be serialized when it is written to the XPS package.
 
 The XPS markup that is  written to the stream by this method contains the page markup but none of the page's resources.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
@@ -163,8 +142,4 @@ The XPS markup that is  written to the stream by this method contains the page m
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

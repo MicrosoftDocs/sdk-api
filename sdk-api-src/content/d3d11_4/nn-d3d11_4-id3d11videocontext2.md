@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
-f1_keywords:
-- d3d11_4/ID3D11VideoContext2
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11_4.h
-api_name:
-- ID3D11VideoContext2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoContext2
+ - d3d11_4/ID3D11VideoContext2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11_4.h
+api_name:
+ - ID3D11VideoContext2
 ---
 
 # ID3D11VideoContext2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides the video functionality of a Microsoft Direct3D 11 device. 
-
+Provides the video functionality of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoContext2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>. <b>ID3D11VideoContext2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoContext2</b> interface inherits from <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>. <b>ID3D11VideoContext2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ID3D11VideoContext2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetoutputhdrmetadata">VideoProcessorGetOutputHDRMetaData</a>
+<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetoutputhdrmetadata">VideoProcessorGetOutputHDRMetaData</a>
 </td>
 <td align="left" width="63%">
 Gets the HDR metadata describing the display on which the content will be presented. 
@@ -79,7 +78,7 @@ Gets the HDR metadata describing the display on which the content will be presen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetstreamhdrmetadata">VideoProcessorGetStreamHDRMetaData</a>
+<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorgetstreamhdrmetadata">VideoProcessorGetStreamHDRMetaData</a>
 </td>
 <td align="left" width="63%">
 Gets the HDR metadata associated with the video stream.
@@ -88,7 +87,7 @@ Gets the HDR metadata associated with the video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetoutputhdrmetadata">VideoProcessorSetOutputHDRMetaData</a>
+<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetoutputhdrmetadata">VideoProcessorSetOutputHDRMetaData</a>
 </td>
 <td align="left" width="63%">
 Sets the HDR metadata describing the display on which the content will be presented.
@@ -97,23 +96,15 @@ Sets the HDR metadata describing the display on which the content will be presen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata">VideoProcessorSetStreamHDRMetaData</a>
+<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11videocontext2-videoprocessorsetstreamhdrmetadata">VideoProcessorSetStreamHDRMetaData</a>
 </td>
 <td align="left" width="63%">
 Sets the HDR metadata associated with the video stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

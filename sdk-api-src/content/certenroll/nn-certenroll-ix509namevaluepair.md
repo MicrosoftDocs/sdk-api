@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
-f1_keywords:
-- certenroll/IX509NameValuePair
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509NameValuePair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509NameValuePair
+ - certenroll/IX509NameValuePair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509NameValuePair
 ---
 
 # IX509NameValuePair interface
@@ -49,21 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Although there are a few common name-value pairs created by the certificate request and enrollment process, you can use this object to specify any name and value. An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> collection can be retrieved from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object and an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> object. The collections are not related.
+The <b>IX509NameValuePair</b> interface represents a generic name-value pair. Although there are a few common name-value pairs created by the certificate request and enrollment process, you can use this object to specify any name and value. An <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> collection can be retrieved from an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object and an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> object. The collections are not related.
 
 
 <dl>
 <dt><a id="name-value_pairs_and_the_enrollment_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_ENROLLMENT_OBJECT_"></a>name-value pairs and the enrollment object:</dt>
 <dd>
-Before an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>\<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_namevaluepairs">NameValuePairs</a> property. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> object to add name-value pairs to the collection.
+Before an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object submits a certificate request to a certification authority (CA), the name-value collection is encoded as a concatenated  attribute string that has the format <i>Name1</i>:<i>Value1</i>&#92;<i>Name2</i>:<i>Value2</i>\. You can retrieve the collection by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-get_namevaluepairs">NameValuePairs</a> property. You can use the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a> object to add name-value pairs to the collection.
 
 </dd>
 </dl>
 <dl>
 <dt><a id="name-value_pairs_and_the_CMC_request_object_"></a><a id="name-value_pairs_and_the_cmc_request_object_"></a><a id="NAME-VALUE_PAIRS_AND_THE_CMC_REQUEST_OBJECT_"></a>name-value pairs and the CMC request object:</dt>
 <dd>
-A CMC request object (<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>) contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>
+A CMC request object (<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>) contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. For more information,  see <a href="/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>
 
 
 The <b>TaggedAttribute</b> structure can contain a <b>RegInfo</b> attribute. This attribute consists of a byte array that contains the name-value pair collection. The byte array is created in the following manner:<ul>
@@ -96,7 +96,7 @@ The following example shows the ASN.1 output for a CMC certificate that contains
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509NameValuePair</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509NameValuePair</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -112,7 +112,7 @@ The <b>IX509NameValuePair</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from strings that contain the  name and associated value.
@@ -129,7 +129,7 @@ Initializes the object from strings that contain the  name and associated value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Retrieves the name portion of the name-value pair.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>
 
 
 </td>
@@ -150,24 +150,16 @@ Retrieves the value portion of the name-value pair.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a>

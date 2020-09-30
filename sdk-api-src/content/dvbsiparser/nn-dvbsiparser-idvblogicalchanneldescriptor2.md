@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1A554897-D223-4172-B71B-ACD11BCA290A
 ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannelDescriptor2, IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies], IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannelDescriptor2, mstv.idvblogicalchanneldescriptor2
-f1_keywords:
-- dvbsiparser/IDvbLogicalChannelDescriptor2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbLogicalChannelDescriptor2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbLogicalChannelDescriptor2
+ - dvbsiparser/IDvbLogicalChannelDescriptor2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbLogicalChannelDescriptor2
 ---
 
 # IDvbLogicalChannelDescriptor2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDvbLogicalChannelDescriptor2</b> interface enables the client to get a logical channel descriptor from a DVB stream. The logical channel descriptor may be present in the network information table (NIT).
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbLogicalChannelDescriptor2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>. <b>IDvbLogicalChannelDescriptor2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbLogicalChannelDescriptor2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>. <b>IDvbLogicalChannelDescriptor2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,23 +69,15 @@ The <b>IDvbLogicalChannelDescriptor2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistrecordlogicalchannelandvisibility">GetListRecordLogicalChannelAndVisibility</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistrecordlogicalchannelandvisibility">GetListRecordLogicalChannelAndVisibility</a>
 </td>
 <td align="left" width="63%">
 Gets a logical channel number and visibility flag  from a channel list in a logical channel descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>

@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_ACTIVATION_SHRINK_OPERATOR_DESC
 f1_keywords:
+ - DML_ACTIVATION_SHRINK_OPERATOR_DESC
  - directml/DML_ACTIVATION_SHRINK_OPERATOR_DESC
 dev_langs:
  - c++
@@ -49,20 +50,20 @@ For each x in InputTensor
 ```
 
 Shrink has no relation to slice, nor resize, despite the naming similarity. It actually 'shrinks' per-element values. And it doesn't always shrink; but can instead grow, depending on the bias sign.
- 
+
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to write the results to.
 
 ### -field Bias
 

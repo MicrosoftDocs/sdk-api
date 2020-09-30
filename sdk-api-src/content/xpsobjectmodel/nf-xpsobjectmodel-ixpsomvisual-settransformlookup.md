@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.SetTransformLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.SetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::SetTransformLookup
+ - xpsobjectmodel/IXpsOMVisual::SetTransformLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.SetTransformLookup
 ---
 
 # IXpsOMVisual::SetTransformLookup
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lookup key name of a shared matrix transform in a resource dictionary.
-
 
 ## -parameters
 
-
-
-
 ### -param key [in]
 
-The lookup key name of the matrix transform in the dictionary. 
-
+The lookup key name of the matrix transform in the dictionary.
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -119,41 +112,35 @@ No object could be found with a key name that matched the value passed in <i>key
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After you call <b>SetTransformLookup</b>, the local transform is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a> returns a <b>NULL</b> pointer in the <i>matrixTransform</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetTransformLookup</b>, the local transform is released and <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a> returns a <b>NULL</b> pointer in the <i>matrixTransform</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>transform</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransform">GetTransform</a>
+<th>Object that is returned in <i>transform</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransform">GetTransform</a>
 </th>
-<th>Object that is returned in <i>matrixTransform</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a>
+<th>Object that is returned in <i>matrixTransform</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlocal">GetTransformLocal</a>
 </th>
-<th>Object that is returned in <i>key</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlookup">GetTransformLookup</a>
+<th>Object that is returned in <i>key</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-gettransformlookup">GetTransformLookup</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>
 
 
 </td>
 <td>
-The local transform that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
+The local transform that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
 
 </td>
 <td>
-The local transform that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
+The local transform that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a>.
 
 </td>
 <td>
@@ -181,7 +168,7 @@ The lookup key that is set by <b>SetTransformLookup</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a> nor <b>SetTransformLookup</b> has been called yet.
+Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-settransformlocal">SetTransformLocal</a> nor <b>SetTransformLookup</b> has been called yet.
 
 </td>
 <td>
@@ -198,17 +185,10 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
@@ -216,8 +196,4 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

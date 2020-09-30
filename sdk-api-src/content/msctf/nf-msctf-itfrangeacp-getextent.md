@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
 ms.date: 12/05/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
-f1_keywords:
-- msctf/ITfRangeACP.GetExtent
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfRangeACP.GetExtent
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRangeACP::GetExtent
+ - msctf/ITfRangeACP::GetExtent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfRangeACP.GetExtent
 ---
 
 # ITfRangeACP::GetExtent
@@ -53,22 +54,15 @@ Obtains the application character position and length of the range object.
 
 ## -parameters
 
-
-
-
 ### -param pacpAnchor [out]
 
 Pointer to a <b>LONG</b> value that receives the application character position of the range start anchor.
-
 
 ### -param pcch [out]
 
 Pointer to a <b>LONG</b> value that receives the number of characters in the range.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,32 +105,16 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method should only be called by the owner of the ACP-based context because the character position and range length will only have meaning to a caller that recognizes the text store implementation.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">ITfRangeACP::SetExtent
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">ITfRangeACP::SetExtent
       </a>
- 
-
- 
-

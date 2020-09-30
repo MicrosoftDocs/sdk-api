@@ -4,8 +4,6 @@ title: DML_SCATTER_OPERATOR_DESC
 description: Describes a DirectML operator that copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,27 +21,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_SCATTER_OPERATOR_DESC
-f1_keywords:
- - directml/DML_SCATTER_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_SCATTER_OPERATOR_DESC
+f1_keywords:
+ - DML_SCATTER_OPERATOR_DESC
+ - directml/DML_SCATTER_OPERATOR_DESC
 ---
 
 ## -description
 
 Describes a DirectML operator that copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
 
-**DML_SCATTER_OPERATOR_DESC** is the inverse of [DML_GATHER_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_gather_operator_desc).
+**DML_SCATTER_OPERATOR_DESC** is the inverse of [DML_GATHER_OPERATOR_DESC](./ns-directml-dml_gather_operator_desc.md).
 
 If two output element indices overlap (which is invalid), then only the last write takes effect.
 

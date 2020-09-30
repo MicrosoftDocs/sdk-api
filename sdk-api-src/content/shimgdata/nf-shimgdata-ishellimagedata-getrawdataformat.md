@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1
 ms.date: 12/05/2018
 ms.keywords: GetRawDataFormat, GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetRawDataFormat method, IShellImageData.GetRawDataFormat, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
-f1_keywords:
-- shimgdata/IShellImageData.GetRawDataFormat
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.GetRawDataFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::GetRawDataFormat
+ - shimgdata/IShellImageData::GetRawDataFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.GetRawDataFormat
 ---
 
 # IShellImageData::GetRawDataFormat
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a GUID that identifies the format of the image.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataFormat [out]
 
@@ -64,10 +60,7 @@ Type: <b>GUID*</b>
 
 A pointer to a value indicating the format. This value is valid only when the method returns S_OK.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -90,16 +83,8 @@ The image has not been decoded or the decoding process failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 GUIDs that identify various file formats are defined in Gdiplusimaging.h.
-
-
 

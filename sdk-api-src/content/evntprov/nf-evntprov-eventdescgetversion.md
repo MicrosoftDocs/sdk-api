@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 3881f089-d0c6-4d46-929a-09777df13f61
 ms.date: 12/05/2018
 ms.keywords: EventDescGetVersion, EventDescGetVersion function [ETW], base.eventdescgetversion_func, etw.eventdescgetversion_func, evntprov/EventDescGetVersion
-f1_keywords:
-- evntprov/EventDescGetVersion
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EventDescGetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventDescGetVersion
+ - evntprov/EventDescGetVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EventDescGetVersion
 ---
 
 # EventDescGetVersion function
@@ -49,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves
 		
 		
 	
 	the version from the event descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param EventDescriptor [in]
 
-Event descriptor from which to retrieve the version. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
-
+Event descriptor from which to retrieve the version. See <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ## -returns
 
-
-
-Version that identifies the revision level of the event definition. 
-
-
-
+Version that identifies the revision level of the event definition.
 
 ## -remarks
 
-
-
-This is a convenience macro for retrieving the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
-
-
-
+This is a convenience macro for retrieving the member of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>

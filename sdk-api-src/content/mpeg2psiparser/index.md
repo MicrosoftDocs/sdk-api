@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mstv
 archived: true
+f1_keywords:
+ - mpeg2psiparser
+ - mpeg2psiparser/mpeg2psiparser
 ---
 
 # Mpeg2Psiparser.h header
 
 
 ## -description
-
 
 This header is used by Microsoft TV Technologies. For more information, see:
 

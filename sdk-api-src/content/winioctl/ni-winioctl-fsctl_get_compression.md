@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c9932867-4b86-4119-ad13-f99aadfa559a
 ms.date: 12/05/2018
 ms.keywords: COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, FSCTL_GET_COMPRESSION, FSCTL_GET_COMPRESSION control, FSCTL_GET_COMPRESSION control code [Files], _win32_fsctl_get_compression, all other values, base.fsctl_get_compression, fs.fsctl_get_compression, winioctl/FSCTL_GET_COMPRESSION
-f1_keywords:
-- winioctl/FSCTL_GET_COMPRESSION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_COMPRESSION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_GET_COMPRESSION
+ - winioctl/FSCTL_GET_COMPRESSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_COMPRESSION
 ---
 
 # FSCTL_GET_COMPRESSION IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -117,11 +112,10 @@ Resilient File System (ReFS) | No
 
 SMB 3.0 Transparent Failover and Scale-Out do not support NTFS compressed files. The FSCTL call is not blocked, but unsupported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_SET_COMPRESSION](ni-winioctl-fsctl_set_compression.md)
-* [File Compression and Decompression](https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [File Compression and Decompression](/windows/desktop/FileIO/file-compression-and-decompression)
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)
 * [GetFileAttributes](../fileapi/nf-fileapi-getfileattributesa.md)

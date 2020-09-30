@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
 ms.date: 12/05/2018
 ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetCenter method, IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
-f1_keywords:
-- xpsobjectmodel/IXpsOMRadialGradientBrush.GetCenter
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRadialGradientBrush.GetCenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRadialGradientBrush::GetCenter
+ - xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRadialGradientBrush.GetCenter
 ---
 
 # IXpsOMRadialGradientBrush::GetCenter
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the center point of the radial gradient region ellipse.
 
-
 ## -parameters
-
-
-
 
 ### -param center [out, retval]
 
 The x and y coordinates of the center point of the radial gradient region ellipse.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -97,29 +90,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The x and y coordinates that are specified in <i>center</i>  are relative to the page and are expressed in units of the transform that is in effect.
 
-The following illustration shows the parts of a radial gradient. <i>center</i> gets the location of the center point of the ellipse that bounds the radial gradient region.  For a more detailed description of this diagram, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
+The following illustration shows the parts of a radial gradient. <i>center</i> gets the location of the center point of the ellipse that bounds the radial gradient region.  For a more detailed description of this diagram, see <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
 
 
 
@@ -127,12 +109,8 @@ The following illustration shows the parts of a radial gradient. <i>center</i> g
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
- 
-
- 
-

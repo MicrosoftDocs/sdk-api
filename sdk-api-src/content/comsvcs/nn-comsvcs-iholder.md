@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3c852e72-2fdc-4fd0-b523-f5601154da2a
 ms.date: 12/05/2018
 ms.keywords: IHolder, IHolder interface [COM+], IHolder interface [COM+],described, _dtc_IHolder_Interface, comsvcs/IHolder, cos.iholder
-f1_keywords:
-- comsvcs/IHolder
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder
+ - comsvcs/IHolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder
 ---
 
 # IHolder interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates or frees resources for an installed Resource Dispenser. The Dispenser Manager exposes a different <b>IHolder</b> interface to each installed Resource Dispenser.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHolder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IHolder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">AllocResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">AllocResource</a>
 </td>
 <td align="left" width="63%">
 Allocates a resource from the inventory.
@@ -79,7 +78,7 @@ Allocates a resource from the inventory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-close">Close</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the Holder.
@@ -88,7 +87,7 @@ Closes the Holder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-freeresource">FreeResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-freeresource">FreeResource</a>
 </td>
 <td align="left" width="63%">
 Returns a resource to the inventory.
@@ -97,7 +96,7 @@ Returns a resource to the inventory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-requestdestroyresource">RequestDestroyResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-requestdestroyresource">RequestDestroyResource</a>
 </td>
 <td align="left" width="63%">
 Deletes a resource, calling its destructor to free memory and other associated system resources.
@@ -106,7 +105,7 @@ Deletes a resource, calling its destructor to free memory and other associated s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-trackresource">TrackResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-trackresource">TrackResource</a>
 </td>
 <td align="left" width="63%">
 Tracks the resource.
@@ -115,7 +114,7 @@ Tracks the resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-trackresources">TrackResourceS</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-trackresources">TrackResourceS</a>
 </td>
 <td align="left" width="63%">
 Tracks the resource (string version).
@@ -124,7 +123,7 @@ Tracks the resource (string version).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresource">UntrackResource</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresource">UntrackResource</a>
 </td>
 <td align="left" width="63%">
 Stops tracking a resource.
@@ -133,27 +132,19 @@ Stops tracking a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresources">UnTrackResourceS</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-untrackresources">UnTrackResourceS</a>
 </td>
 <td align="left" width="63%">
 Stops tracking a resource (string version).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>

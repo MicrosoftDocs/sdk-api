@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.date: 12/05/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
-f1_keywords:
-- msi/MsiOpenPackage
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiOpenPackage
-- MsiOpenPackageA
-- MsiOpenPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiOpenPackageA
+ - msi/MsiOpenPackageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiOpenPackage
+ - MsiOpenPackageA
+ - MsiOpenPackageW
 ---
 
 # MsiOpenPackageA function
@@ -51,32 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiOpenPackage</b> function opens a package to use with the functions that access the product database. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is not needed. <div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the  <b>MsiOpenPackage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is not needed. <div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the  <b>MsiOpenPackage</b>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param szPackagePath [in]
 
 The path to the package.
 
-
 ### -param hProduct [out]
 
 A pointer to a variable that receives the product handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -142,14 +133,9 @@ The function completes successfully.
  
 
 If this function fails, it may return a system error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
-
-
 
 MsiOpenPackage can accept an opened database handle in the form "#nnnn", where nnnn is the database handle in string form, i.e. #123, instead of a path to the package. This is intended for development tasks such as running validation actions, or for use with database management tools.
 
@@ -162,11 +148,4 @@ MsiOpenPackage can accept an opened database handle in the form "#nnnn", where n
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>

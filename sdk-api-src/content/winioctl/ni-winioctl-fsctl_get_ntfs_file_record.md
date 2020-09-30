@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a7308fa4-0f69-4b69-bb89-5d645e2a9f6e
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_NTFS_FILE_RECORD, FSCTL_GET_NTFS_FILE_RECORD control, FSCTL_GET_NTFS_FILE_RECORD control code [Files], _win32_fsctl_get_ntfs_file_record, base.fsctl_get_ntfs_file_record, fs.fsctl_get_ntfs_file_record, winioctl/FSCTL_GET_NTFS_FILE_RECORD
-f1_keywords:
-- winioctl/FSCTL_GET_NTFS_FILE_RECORD
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_NTFS_FILE_RECORD
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_GET_NTFS_FILE_RECORD
+ - winioctl/FSCTL_GET_NTFS_FILE_RECORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_NTFS_FILE_RECORD
 ---
 
 # FSCTL_GET_NTFS_FILE_RECORD IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -115,10 +110,9 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | No
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)
 * [NTFS_FILE_RECORD_INPUT_BUFFER](ns-winioctl-ntfs_file_record_input_buffer.md)
 * [NTFS_FILE_RECORD_OUTPUT_BUFFER](ns-winioctl-ntfs_file_record_output_buffer.md)

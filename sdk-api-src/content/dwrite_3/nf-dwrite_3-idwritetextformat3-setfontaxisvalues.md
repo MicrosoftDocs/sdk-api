@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetFontAxis
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
-f1_keywords:
-- dwrite_3/IDWriteTextFormat3.SetFontAxisValues
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteTextFormat3::SetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteTextFormat3::SetFontAxisValues
+ - dwrite_3/IDWriteTextFormat3::SetFontAxisValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::SetFontAxisValues
 ---
 
 ## -description
@@ -51,7 +52,7 @@ Sets values for the font axes of the format.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 

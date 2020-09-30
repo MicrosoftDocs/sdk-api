@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991
 ms.date: 12/05/2018
 ms.keywords: LCMapString, LCMapString function [Internationalization for Windows Applications], LCMapStringA, LCMapStringW, _win32_LCMapString, intl.lcmapstring, winnls/LCMapString, winnls/LCMapStringA, winnls/LCMapStringW
-f1_keywords:
-- winnls/LCMapString
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- LCMapString
-- LCMapStringA
-- LCMapStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LCMapStringW
+ - winnls/LCMapStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - LCMapString
+ - LCMapStringA
+ - LCMapStringW
 ---
 
 # LCMapStringW function
@@ -59,56 +60,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string. <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a> function to <b>LCMapString</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, including those created by Microsoft. Any application that will be run only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>. </div>
+For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string. <div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a> function to <b>LCMapString</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. This recommendation applies especially to custom locales, including those created by Microsoft. Any application that will be run only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>. </div>
 <div> </div>
-
-
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
 ### -param dwMapFlags [in]
 
-Flags specifying the type of transformation to use during string mapping or the type of sort key to generate. For detailed definitions, see the <i>dwMapFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
-
+Flags specifying the type of transformation to use during string mapping or the type of sort key to generate. For detailed definitions, see the <i>dwMapFlags</i> parameter of <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
 
 ### -param lpSrcStr [in]
 
 Pointer to a source string that the function maps or uses for sort key generation. This string cannot have a size of 0.
-
 
 ### -param cchSrc [in]
 
@@ -117,7 +109,6 @@ Size, in characters, of the source string indicated by <i>lpSrcStr</i>. The size
 The application can set the parameter to any negative value to specify that the source string is null-terminated. In this case, if <b>LCMapString</b> is being used in its string-mapping mode, the function calculates the string length itself, and null-terminates the mapped string indicated by <i>lpDestStr</i>.
 
 The application cannot set this parameter to 0.
-
 
 ### -param lpDestStr [out, optional]
 
@@ -136,14 +127,11 @@ If the application is using the function to generate a sort key, it supplies a b
 
 The application can set <i>cchDest</i> to 0. In this case, the function does not use the <i>lpDestStr</i> parameter and returns the required buffer size for the mapped string or sort key.
 
-
 ## -returns
-
-
 
 Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -151,13 +139,9 @@ This function returns 0 if it does not succeed. To get extended error informatio
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
+See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>.
 
 The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on the default Windows (ANSI) code page associated with the specified locale. When the ANSI version of this function is used with a Unicode-only locale, the function can succeed because the operating system uses the CP_ACP value, representing the system default Windows ANSI code page. However, characters that are undefined in the system code page appear in the string as a question mark (?).
 
@@ -170,35 +154,28 @@ The ANSI version of <b>LCMapString</b> maps strings to and from Unicode based on
 
 ## -see-also
 
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-findnlsstring">FindNLSString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstring">FindNLSString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
+<a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringex">LCMapStringEx</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

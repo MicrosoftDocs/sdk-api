@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.operator = (const XMFLOAT3)
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMFLOAT3.operator =, Use DirectX::::XMFLOAT3::operator =, XMFLOAT3 structure [DirectX Math Support APIs],operator = method, XMFLOAT3.operator =, XMFLOAT3.operator-assign, XMFLOAT3.operator=, XMFLOAT3::operator-assign, XMFLOAT3::operator=, dxmath.xmfloat3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3 structure, operator=
-f1_keywords:
-- directxmath/XMFLOAT3.operator =
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT3.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMFLOAT3::operator=
+ - directxmath/XMFLOAT3::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT3.operator =
 ---
 
 # XMFLOAT3::operator-assign
+
 
 ## -description
 
@@ -60,6 +62,7 @@ This operator assigns the vector component data from one instance of <a href="ht
 Instance of <code>XMFLOAT3</code> used to update the current <code>XMFLOAT3</code> structure.
 
 ## -returns
+
 The current instance of <code>XMFLOAT3</code> whose vector component data has been updated to match those of the <code>XMFLOAT3</code> instance specified by the <b>float3se</b> argument.
 
 ## -see-also
@@ -67,3 +70,4 @@ The current instance of <code>XMFLOAT3</code> whose vector component data has be
 <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a>
 
 <a href="https://msdn.microsoft.com/dc98a2ed-da87-4ba3-8394-682143b378b8">XMFLOAT3 Operators</a>
+

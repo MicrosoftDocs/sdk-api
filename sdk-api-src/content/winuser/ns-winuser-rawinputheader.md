@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputheader.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRAWINPUTHEADER, *PRAWINPUTHEADER, PRAWINPUTHEADER, PRAWINPUTHEADER structure pointer [Keyboard and Mouse Input], RAWINPUTHEADER, RAWINPUTHEADER structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTHEADER_str, _win32_rawinputheader_str_cpp, inputdev.rawinputheader, winui._win32_rawinputheader_str, winuser/PRAWINPUTHEADER, winuser/RAWINPUTHEADER'
-f1_keywords:
-- winuser/RAWINPUTHEADER
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RAWINPUTHEADER
 targetos: Windows
 req.typenames: RAWINPUTHEADER, *PRAWINPUTHEADER, *LPRAWINPUTHEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRAWINPUTHEADER
+ - winuser/tagRAWINPUTHEADER
+ - PRAWINPUTHEADER
+ - winuser/PRAWINPUTHEADER
+ - RAWINPUTHEADER
+ - winuser/RAWINPUTHEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RAWINPUTHEADER
 ---
 
 # RAWINPUTHEADER structure
 
+
 ## -description
 
-Contains the header information that is part of the raw input data. 
+Contains the header information that is part of the raw input data.
 
 ## -struct-fields
 
@@ -68,19 +74,19 @@ The type of raw input. It can be one of the following values:
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes [RAWINPUT](ns-winuser-rawinput.md) plus possible extra input reports in the [RAWHID](ns-winuser-rawhid.md) variable length array. 
+The size, in bytes, of the entire input packet of data. This includes [RAWINPUT](ns-winuser-rawinput.md) plus possible extra input reports in the [RAWHID](ns-winuser-rawhid.md) variable length array.
 
 ### -field hDevice
 
 Type: <b>HANDLE</b>
 
-A handle to the device generating the raw input data. 
+A handle to the device generating the raw input data.
 
 ### -field wParam
 
 Type: <b>WPARAM</b>
 
-The value passed in the <i>wParam</i> parameter of the [WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input) message. 
+The value passed in the <i>wParam</i> parameter of the [WM_INPUT](/windows/win32/inputdev/wm-input) message.
 
 ## -remarks
 
@@ -100,8 +106,8 @@ To get more information on the device, use <b>hDevice</b> in a call to [GetRawIn
 
 [RAWHID structure](ns-winuser-rawhid.md)
 
-[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
+[Raw Input](/windows/win32/inputdev/raw-input)
 
 <b>Reference</b>
 
-[WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input)
+[WM_INPUT](/windows/win32/inputdev/wm-input)

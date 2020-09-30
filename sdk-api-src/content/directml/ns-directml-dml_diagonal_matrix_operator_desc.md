@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_DIAGONAL_MATRIX_OPERATOR_DESC
 f1_keywords:
+ - DML_DIAGONAL_MATRIX_OPERATOR_DESC
  - directml/DML_DIAGONAL_MATRIX_OPERATOR_DESC
 dev_langs:
  - c++
@@ -95,3 +96,4 @@ TBD
 ## -remarks
 
 ## -see-also
+

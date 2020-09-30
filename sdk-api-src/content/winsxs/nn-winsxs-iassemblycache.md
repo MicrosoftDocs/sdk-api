@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
-f1_keywords:
-- winsxs/IAssemblyCache
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyCache
+ - winsxs/IAssemblyCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyCache
 ---
 
 # IAssemblyCache interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAssemblyCache</b> interface can be used to install, uninstall, or query a side-by-side assembly. An instance of <b>IAssemblyCache</b> is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblycache">CreateAssemblyCache</a> function.
-
+The <b>IAssemblyCache</b> interface can be used to install, uninstall, or query a side-by-side assembly. An instance of <b>IAssemblyCache</b> is obtained by calling the <a href="/windows/desktop/api/winsxs/nf-winsxs-createassemblycache">CreateAssemblyCache</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyCache</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAssemblyCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-createassemblycacheitem">CreateAssemblyCacheItem</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-createassemblycacheitem">CreateAssemblyCacheItem</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the assembly cache.
@@ -79,7 +78,7 @@ Adds an item to the assembly cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a>
 </td>
 <td align="left" width="63%">
 Adds an application reference to an assembly and copies the files of the assembly to the side-by-side store.
@@ -88,7 +87,7 @@ Adds an application reference to an assembly and copies the files of the assembl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a>
 </td>
 <td align="left" width="63%">
 Queries for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
@@ -97,12 +96,11 @@ Queries for assembly information and validates the files in the side-by-side ass
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a>
 </td>
 <td align="left" width="63%">
 Removes an application reference to an assembly from the side-by-side store. Removes the assembly's files if there are no other references to the assembly by other applications.
 
 </td>
 </tr>
-</table> 
-
+</table>

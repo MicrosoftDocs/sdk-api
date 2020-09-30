@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
-f1_keywords:
-- netlistmgr/INetworkConnectionCostEvents
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkConnectionCostEvents
-- INetworkConnectionCostEvents.ConnectionCostChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkConnectionCostEvents
+ - netlistmgr/INetworkConnectionCostEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkConnectionCostEvents
+ - INetworkConnectionCostEvents.ConnectionCostChanged
 ---
 
 # INetworkConnectionCostEvents interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Use this interface to notify an application of cost and data plan status change events for a connection. 
-
+Use this interface to notify an application of cost and data plan status change events for a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCostEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionCostEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCostEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnectionCostEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,12 +77,11 @@ Indicates a network cost change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectiondataplanstatuschanged">ConnectionDataPlanStatusChanged</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectiondataplanstatuschanged">ConnectionDataPlanStatusChanged</a>
 </td>
 <td align="left" width="63%">
 Indicates a data plan status change.
 
 </td>
 </tr>
-</table> 
-
+</table>

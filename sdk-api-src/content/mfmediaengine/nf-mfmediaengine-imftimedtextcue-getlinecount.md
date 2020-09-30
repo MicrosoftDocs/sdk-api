@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5930C8BB-5F00-4263-B3F6-B61EF6DBD0DA
 ms.date: 12/05/2018
 ms.keywords: GetLineCount, GetLineCount method [Media Foundation], GetLineCount method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLineCount method, IMFTimedTextCue.GetLineCount, IMFTimedTextCue::GetLineCount, mf.imftimedtextcue_getlinecount, mfmediaengine/IMFTimedTextCue::GetLineCount
-f1_keywords:
-- mfmediaengine/IMFTimedTextCue.GetLineCount
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextCue.GetLineCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextCue::GetLineCount
+ - mfmediaengine/IMFTimedTextCue::GetLineCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextCue.GetLineCount
 ---
 
 # IMFTimedTextCue::GetLineCount
@@ -49,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of lines of text in the timed-text cue.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
 Returns the number of lines of text.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>

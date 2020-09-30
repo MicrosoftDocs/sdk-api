@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
 ms.date: 12/05/2018
 ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, DVD_SUBPICTURE_CODING, DVD_SUBPICTURE_CODING , DVD_SUBPICTURE_CODING enumeration [DirectShow], DVD_SUBPICTURE_CODINGEnumeration, dshow.dvd_subpicture_coding, strmif/DVD_SPCoding_Extended, strmif/DVD_SPCoding_Other, strmif/DVD_SPCoding_RunLength, strmif/DVD_SUBPICTURE_CODING
-f1_keywords:
-- strmif/DVD_SUBPICTURE_CODING
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- DVD_SUBPICTURE_CODING
 targetos: Windows
 req.typenames: DVD_SUBPICTURE_CODING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDVD_SUBPICTURE_CODING
+ - strmif/tagDVD_SUBPICTURE_CODING
+ - DVD_SUBPICTURE_CODING
+ - strmif/DVD_SUBPICTURE_CODING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - DVD_SUBPICTURE_CODING
 ---
 
 # DVD_SUBPICTURE_CODING enumeration
@@ -49,56 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates what kind of content the subpicture stream contains.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field DVD_SPCoding_RunLength
 
 Indicates that the subpicture uses run length encoding.
-          
-
 
 ### -field DVD_SPCoding_Extended
 
 Indicates that subpicture uses extended encoding.
-          
-
 
 ### -field DVD_SPCoding_Other
 
 Indicates that the subpicture uses some other encoding scheme.
-          
-
 
 ## -remarks
 
-
-
 Most subpicture streams contain language-related content such as movie subtitles, but subpictures can also be used for the bouncing ball in karaoke or other non-language-related purposes.
-
-
-
 
 ## -see-also
 
+[DVD_SubpictureAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes)
 
 
 
-[DVD_SubpictureAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes)
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

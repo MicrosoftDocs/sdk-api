@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevice.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRAWINPUTDEVICE, *PRAWINPUTDEVICE, LPRAWINPUTDEVICE, LPRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], PRAWINPUTDEVICE, PRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICE, RAWINPUTDEVICE structure [Keyboard and Mouse Input], RIDEV_APPKEYS, RIDEV_CAPTUREMOUSE, RIDEV_DEVNOTIFY, RIDEV_EXCLUDE, RIDEV_EXINPUTSINK, RIDEV_INPUTSINK, RIDEV_NOHOTKEYS, RIDEV_NOLEGACY, RIDEV_PAGEONLY, RIDEV_REMOVE, _win32_RAWINPUTDEVICE_str, _win32_rawinputdevice_str_cpp, inputdev.rawinputdevice, winui._win32_rawinputdevice_str, winuser/LPRAWINPUTDEVICE, winuser/PRAWINPUTDEVICE, winuser/RAWINPUTDEVICE'
-f1_keywords:
-- winuser/RAWINPUTDEVICE
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RAWINPUTDEVICE
 targetos: Windows
 req.typenames: RAWINPUTDEVICE, *PRAWINPUTDEVICE, *LPRAWINPUTDEVICE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRAWINPUTDEVICE
+ - winuser/tagRAWINPUTDEVICE
+ - PRAWINPUTDEVICE
+ - winuser/PRAWINPUTDEVICE
+ - RAWINPUTDEVICE
+ - winuser/RAWINPUTDEVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RAWINPUTDEVICE
 ---
 
 # RAWINPUTDEVICE structure
 
+
 ## -description
 
-Defines information for the raw input devices. 
+Defines information for the raw input devices.
 
 ## -struct-fields
 
@@ -56,19 +62,19 @@ Defines information for the raw input devices.
 
 Type: <b>USHORT</b>
 
-[Top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) [Usage page](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-page) for the raw input device. See [HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
+[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage page](/windows-hardware/drivers/hid/hid-usages#usage-page) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
 
 ### -field usUsage
 
 Type: <b>USHORT</b>
 
-[Top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) [Usage ID](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages#usage-id) for the raw input device. See [HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
+[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage ID](/windows-hardware/drivers/hid/hid-usages#usage-id) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
 
 ### -field dwFlags
 
 Type: <b>DWORD</b>
 
-Mode flag that specifies how to interpret the information provided by <b>usUsagePage</b> and <b>usUsage</b>. It can be zero (the default) or one of the following values. By default, the operating system sends raw input from devices with the specified [top level collection](https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections) (TLC) to the registered application as long as it has the window focus. 
+Mode flag that specifies how to interpret the information provided by <b>usUsagePage</b> and <b>usUsage</b>. It can be zero (the default) or one of the following values. By default, the operating system sends raw input from devices with the specified [top level collection](/windows-hardware/drivers/hid/top-level-collections) (TLC) to the registered application as long as it has the window focus. 
 
 <table>
 <tr>
@@ -112,7 +118,7 @@ If set, this specifies all devices whose top level collection is from the specif
 </dl>
 </td>
 <td width="60%">
-If set, this prevents any devices specified by <b>usUsagePage</b> or <b>usUsage</b> from generating <a href="https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications">legacy messages</a>. This is only for the mouse and keyboard. See Remarks.
+If set, this prevents any devices specified by <b>usUsagePage</b> or <b>usUsage</b> from generating <a href="/windows/win32/inputdev/mouse-input-notifications">legacy messages</a>. This is only for the mouse and keyboard. See Remarks.
 </td>
 </tr>
 <tr>
@@ -173,7 +179,7 @@ If set, this enables the caller to receive input in the background only if the f
 </dl>
 </td>
 <td width="60%">
-If set, this enables the caller to receive <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> notifications for device arrival and device removal.
+If set, this enables the caller to receive <a href="/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> notifications for device arrival and device removal.
 <br><b>Windows XP:</b> This flag is not supported until Windows Vista
 </td>
 </tr>
@@ -187,7 +193,7 @@ A handle to the target window. If <b>NULL</b> it follows the keyboard focus.
 
 ## -remarks
 
-If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any legacy message for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_LBUTTONDOWN** and <a href="https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications">related legacy mouse messages</a> are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_KEYDOWN** and <a href="https://docs.microsoft.com/windows/win32/inputdev/keyboard-input-notifications">related legacy keyboard messages</a> are not generated.
+If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any legacy message for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_LBUTTONDOWN** and <a href="/windows/win32/inputdev/mouse-input-notifications">related legacy mouse messages</a> are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_KEYDOWN** and <a href="/windows/win32/inputdev/keyboard-input-notifications">related legacy keyboard messages</a> are not generated.
 
 If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>NULL</b>, then [RegisterRawInputDevices](nf-winuser-registerrawinputdevices.md) function will fail.
 
@@ -197,11 +203,11 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 [GetRegisteredRawInputDevices](nf-winuser-getregisteredrawinputdevices.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
-[Introduction to Human Interface Devices (HID)](https://docs.microsoft.com/windows-hardware/drivers/hid/)
+[Introduction to Human Interface Devices (HID)](/windows-hardware/drivers/hid/)
 
-[HID Clients Supported in Windows](https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows)
+[HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows)
 
 [HID USB homepage](https://www.usb.org/hid)
 

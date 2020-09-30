@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
-f1_keywords:
-- rtworkq/IRtwqAsyncCallback
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncCallback
+ - rtworkq/IRtwqAsyncCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncCallback
 ---
 
 # IRtwqAsyncCallback interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface to notify the application when an asynchronous method completes.
-        
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqAsyncCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqAsyncCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IRtwqAsyncCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-getparameters">GetParameters</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-getparameters">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Provides configuration information to the dispatching thread for a callback.
@@ -80,12 +78,11 @@ Provides configuration information to the dispatching thread for a callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">Invoke</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Called when an asynchronous operation is completed.
 
 </td>
 </tr>
-</table> 
-
+</table>

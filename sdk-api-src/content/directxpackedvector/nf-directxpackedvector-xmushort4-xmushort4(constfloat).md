@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: dc92c135-7775-4ce8-b3b8-396dfe2cf81f
 ms.date: 05/06/2019
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(), XMUSHORT4.XMUSHORT4(const float), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(const float), dxmath.xmushort4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUSHORT4.XMUSHORT4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUSHORT4.XMUSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUSHORT4::XMUSHORT4
+ - directxpackedvector/XMUSHORT4::XMUSHORT4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUSHORT4.XMUSHORT4
 ---
 
 # XMUSHORT4::XMUSHORT4(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUSHORT4** from a four element <code>float</code> array argument.
 
@@ -77,6 +79,6 @@ instance.w = (uint16_t)min( max( pArray[3] 0.0 ), 65535.0 );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushort4-ctor">XMUSHORT4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmushort4-ctor">XMUSHORT4 Constructors</a>

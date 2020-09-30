@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
 ms.date: 12/05/2018
 ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Failover Cluster], QuorumResourceLost, QuorumResourceLost callback, QuorumResourceLost callback function [Failover Cluster], _wolf_quorumresourcelost, mscs.quorumresourcelost, resapi/PQUORUM_RESOURCE_LOST, resapi/QuorumResourceLost
-f1_keywords:
-- resapi/QuorumResourceLost
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- QuorumResourceLost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PQUORUM_RESOURCE_LOST
+ - resapi/PQUORUM_RESOURCE_LOST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - QuorumResourceLost
 ---
 
 # PQUORUM_RESOURCE_LOST callback function
@@ -49,62 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called when control of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> has 
+Called when control of the <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> has 
     been lost. The <b>PQUORUM_RESOURCE_LOST</b> type defines a pointer to this 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource
 
-
-
-
-
-
-
-
 #### - ResourceHandle [in]
 
-Handle identifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> to which this callback 
+Handle identifying the <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> to which this callback 
        applies. The value for <i>ResourceHandle</i> should be the handle passed in during the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> call for this resource.
-
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> call for this resource.
 
 ## -remarks
 
-
-
 The <i>QuorumResourceLost</i> callback function is 
-     called by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to notify the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> that control of the quorum resource has 
+     called by a <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to notify the 
+     <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> that control of the quorum resource has 
      been lost after arbitration. A pointer to the Resource Monitor's 
      <i>QuorumResourceLost</i> callback function is passed to 
-     a quorum resource DLL in the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>.
-
-
-
+     a quorum resource DLL in the call to <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>

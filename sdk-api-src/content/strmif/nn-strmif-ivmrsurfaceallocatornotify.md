@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
-f1_keywords:
-- strmif/IVMRSurfaceAllocatorNotify
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRSurfaceAllocatorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRSurfaceAllocatorNotify
+ - strmif/IVMRSurfaceAllocatorNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRSurfaceAllocatorNotify
 ---
 
 # IVMRSurfaceAllocatorNotify interface
@@ -50,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>IVMRSurfaceAllocatorNotify</code> interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Applications use this interface to set a custom allocator-presenter and the allocator-presenter uses this interface to inform the VMR-7 of changes to the system environment that affect the DirectDraw surfaces.
+The <code>IVMRSurfaceAllocatorNotify</code> interface is implemented by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Applications use this interface to set a custom allocator-presenter and the allocator-presenter uses this interface to inform the VMR-7 of changes to the system environment that affect the DirectDraw surfaces.
 
 In order for an application to obtain this interface, the VMR must be in renderless mode.
 
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
-
-
-
+For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocatorNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurfaceAllocatorNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +74,7 @@ The <b>IVMRSurfaceAllocatorNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-advisesurfaceallocator">AdviseSurfaceAllocator</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-advisesurfaceallocator">AdviseSurfaceAllocator</a>
 </td>
 <td align="left" width="63%">
 Called by an application to instruct the VMR to use a custom allocator-presenter.
@@ -87,7 +83,7 @@ Called by an application to instruct the VMR to use a custom allocator-presenter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-changeddrawdevice">ChangeDDrawDevice</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-changeddrawdevice">ChangeDDrawDevice</a>
 </td>
 <td align="left" width="63%">
 Notifies the VMR that the DirectDraw playback device has changed.
@@ -96,7 +92,7 @@ Notifies the VMR that the DirectDraw playback device has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-notifyevent">NotifyEvent</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-notifyevent">NotifyEvent</a>
 </td>
 <td align="left" width="63%">
 Called by the allocator-presenter to inform the VMR of any significant DirectShow events during the allocation or presentation processes.
@@ -105,7 +101,7 @@ Called by the allocator-presenter to inform the VMR of any significant DirectSho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-restoreddrawsurfaces">RestoreDDrawSurfaces</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-restoreddrawsurfaces">RestoreDDrawSurfaces</a>
 </td>
 <td align="left" width="63%">
 Notifies the VMR that a DirectDraw surface "loss" has been detected.
@@ -114,7 +110,7 @@ Notifies the VMR that a DirectDraw surface "loss" has been detected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setbordercolor">SetBorderColor</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setbordercolor">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Specifies to the VMR which color to use in areas of the display rectangle which are not being used for video, for example when the video is letterboxed.
@@ -123,23 +119,15 @@ Specifies to the VMR which color to use in areas of the display rectangle which 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setddrawdevice">SetDDrawDevice</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrsurfaceallocatornotify-setddrawdevice">SetDDrawDevice</a>
 </td>
 <td align="left" width="63%">
 Sets the initial DirectDraw device and monitor to be used for video playback.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

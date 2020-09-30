@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: GetNetworkConnectivityHintForInterface, GetNetworkConnectivityHintForInterface function [IP Helper], netioapi.GetNetworkConnectivityHintForInterface, netioapi/GetNetworkConnectivityHintForInterface
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetNetworkConnectivityHintForInterface"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -27,6 +25,12 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - GetNetworkConnectivityHintForInterface
+ - netioapi/GetNetworkConnectivityHintForInterface
 topic_type:
  - APIRef
  - kbSyntax
@@ -36,9 +40,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - GetNetworkConnectivityHintForInterface
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 ## -description
@@ -53,7 +54,7 @@ A value of type **NET_IFINDEX** representing the index of the interface for whic
 
 ### -param ConnectivityHint [out]
 
-A pointer to a value of type [NL_NETWORK_CONNECTIVITY_HINT](/windows/win32/api/nldef/ns-nldef-nl_network_connectivity_hint). The function sets this value to the connectivity level and cost hints for the specified interface.
+A pointer to a value of type [NL_NETWORK_CONNECTIVITY_HINT](../nldef/ns-nldef-nl_network_connectivity_hint.md). The function sets this value to the connectivity level and cost hints for the specified interface.
 
 ## -returns
 

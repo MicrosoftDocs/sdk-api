@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: aacf1f1a-49c6-4caf-acd5-8bba0415d41a
 ms.date: 12/05/2018
 ms.keywords: WICJpegCommentProperties, WICJpegCommentProperties enumeration [Windows Imaging Component], WICJpegCommentText, _wic_codec_wicjpegcommentproperties, wic._wic_codec_wicjpegcommentproperties, wincodec/WICJpegCommentProperties, wincodec/WICJpegCommentText
-f1_keywords:
-- wincodec/WICJpegCommentProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICJpegCommentProperties
 targetos: Windows
 req.typenames: WICJpegCommentProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICJpegCommentProperties
+ - wincodec/WICJpegCommentProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICJpegCommentProperties
 ---
 
 # WICJpegCommentProperties enumeration
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the JPEG comment properties.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WICJpegCommentText
 
 Indicates the metadata property is comment text.
 
-
 ### -field WICJpegCommentProperties_FORCE_DWORD
-
-
 

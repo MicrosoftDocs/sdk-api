@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
-f1_keywords:
-- fsrmpipeline/IFsrmClassifierModuleImplementation
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassifierModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassifierModuleImplementation
+ - fsrmpipeline/IFsrmClassifierModuleImplementation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassifierModuleImplementation
 ---
 
 # IFsrmClassifierModuleImplementation interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Classifier modules implement this interface. FSRM calls the module's implementation when it runs 
     classification.
-
 
 ## -inheritance
 
@@ -72,29 +71,29 @@ The <b>IFsrmClassifierModuleImplementation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply">DoesPropertyValueApply</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply">DoesPropertyValueApply</a>
 </td>
 <td align="left" width="63%">
 Queries the classifier to find out whether the specified property value applies to the file most recently 
        specified by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a> method.
+       <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply">GetPropertyValueToApply</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply">GetPropertyValueToApply</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value from the classifier that should be applied for the specified property of the file most 
        recently specified by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a> method.
+       <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile">OnBeginFile</a>
 </td>
 <td align="left" width="63%">
 Instructs the classifier to prepare for processing a file with the specified property bag.
@@ -103,7 +102,7 @@ Instructs the classifier to prepare for processing a file with the specified pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onendfile">OnEndFile</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onendfile">OnEndFile</a>
 </td>
 <td align="left" width="63%">
 Instructs the classifier to perform any cleanup after processing a file.
@@ -112,7 +111,7 @@ Instructs the classifier to perform any cleanup after processing a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">OnLoad</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">OnLoad</a>
 </td>
 <td align="left" width="63%">
 Initializes the pipeline module.
@@ -121,7 +120,7 @@ Initializes the pipeline module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onunload">OnUnload</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onunload">OnUnload</a>
 </td>
 <td align="left" width="63%">
 Notifies the module to perform any cleanup tasks.
@@ -130,7 +129,7 @@ Notifies the module to perform any cleanup tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions">UseRulesAndDefinitions</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions">UseRulesAndDefinitions</a>
 </td>
 <td align="left" width="63%">
 Specifies the collection of rules and relevant property definitions the classifier should expect to 
@@ -149,7 +148,7 @@ Specifies the collection of rules and relevant property definitions the classifi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmclassifiermoduleimplementation-lastmodified">LastModified</a>
+<a href="/previous-versions/windows/desktop/fsrm/ifsrmclassifiermoduleimplementation-lastmodified">LastModified</a>
 
 
 </td>
@@ -159,24 +158,16 @@ Read-only
 </td>
 <td align="left" width="63%">
 The last time the classifier's internal rules were modified as a 64-bit 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>

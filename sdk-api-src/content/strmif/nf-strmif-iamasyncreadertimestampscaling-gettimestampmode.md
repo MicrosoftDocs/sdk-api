@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2fbadd9d-e741-482f-9ff1-655b149fec49
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetTimestampMode, GetTimestampMode method [DirectShow], GetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, IAMAsyncReaderTimestampScaling interface [DirectShow],GetTimestampMode method, IAMAsyncReaderTimestampScaling.GetTimestampMode, IAMAsyncReaderTimestampScaling::GetTimestampMode, TRUE, dshow.iamasyncreadertimestampscaling_gettimestampmode, strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode
-f1_keywords:
-- strmif/IAMAsyncReaderTimestampScaling.GetTimestampMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMAsyncReaderTimestampScaling.GetTimestampMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAsyncReaderTimestampScaling::GetTimestampMode
+ - strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMAsyncReaderTimestampScaling.GetTimestampMode
 ---
 
 # IAMAsyncReaderTimestampScaling::GetTimestampMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the filter's time-stamping mode.
 
-
 ## -parameters
-
-
-
 
 ### -param pfRaw [out]
 
@@ -88,25 +84,11 @@ Time stamps are in units of bytes × 10000000. To get the offset in bytes, divid
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamasyncreadertimestampscaling">IAMAsyncReaderTimestampScaling</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamasyncreadertimestampscaling">IAMAsyncReaderTimestampScaling</a>

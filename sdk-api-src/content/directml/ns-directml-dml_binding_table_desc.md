@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 4ABA8CBB-C298-4F98-8156-CD81F83BB657
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_TABLE_DESC, DML_BINDING_TABLE_DESC structure, direct3d12.dml_binding_table_desc, directml/DML_BINDING_TABLE_DESC
-f1_keywords:
-- directml/DML_BINDING_TABLE_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_BINDING_TABLE_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_BINDING_TABLE_DESC
+ - directml/DML_BINDING_TABLE_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_BINDING_TABLE_DESC
 ---
 
 # DML_BINDING_TABLE_DESC structure
@@ -49,18 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Specifies parameters to [IDMLDevice::CreateBindingTable](/windows/desktop/api/directml/nf-directml-idmldevice-createbindingtable) and [IDMLBindingTable::Reset](/windows/desktop/api/directml/nf-directml-idmlbindingtable-reset).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Dispatchable
 
@@ -70,21 +62,18 @@ A pointer to an [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idm
         [IDMLCompiledOperator](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) or an [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer). The binding table maintains a strong reference to this
         interface pointer. This value may not be null.
 
-
 ### -field CPUDescriptorHandle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 A valid CPU descriptor handle representing the start of a range into a constant buffer view (CBV)/shader resource view (SRV)/ unordered access view (UAV) descriptor heap into which
         DirectML may write descriptors.
 
-
 ### -field GPUDescriptorHandle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
 A valid GPU descriptor handle representing the start of a range into a constant buffer view (CBV)/shader resource view (SRV)/ unordered access view (UAV) descriptor heap that DirectML may use to bind resources to the pipeline.
-
 
 ### -field SizeInDescriptors
 
@@ -95,14 +84,6 @@ The size of the binding table, in descriptors. This is the maximum number of des
         [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) to determine the number of descriptors required to execute a
         dispatchable object.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
- 
-
- 
-

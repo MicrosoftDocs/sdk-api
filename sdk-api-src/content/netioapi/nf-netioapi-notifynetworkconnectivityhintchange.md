@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: NotifyNetworkConnectivityHintChange, NotifyNetworkConnectivityHintChange function [IP Helper], netioapi.NotifyNetworkConnectivityHintChange, netioapi/NotifyNetworkConnectivityHintChange
 ms.topic: function
-f1_keywords: 
- - "netioapi/NotifyNetworkConnectivityHintChange"
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -27,6 +25,12 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - NotifyNetworkConnectivityHintChange
+ - netioapi/NotifyNetworkConnectivityHintChange
 topic_type:
  - APIRef
  - kbSyntax
@@ -36,9 +40,6 @@ api_location:
  - Iphlpapi.dll
 api_name:
  - NotifyNetworkConnectivityHintChange
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 ## -description
@@ -49,7 +50,7 @@ Registers an application-defined callback function, to be called when the aggreg
 
 ### -param Callback [in]
 
-A function pointer of type [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](/windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback), which points to your application-defined callback function. The callback function will be invoked when a network connectivity level or cost change occurs.
+A function pointer of type [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md), which points to your application-defined callback function. The callback function will be invoked when a network connectivity level or cost change occurs.
 
 ### -param CallerContext [in]
 
@@ -69,4 +70,4 @@ A pointer to a **HANDLE**. The function sets the value to a handle to the notifi
 
 ## -see-also
 
-[PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](/windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback)
+[PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md)

@@ -44,35 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::ReleaseDC
-
-
 ## -description
 
-
-Releases the handle of a device context that was previously obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method.
-
-
+Releases the handle of a device context that was previously obtained by using the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method.
 
 ## -parameters
 
+### -param arg1 [in]
 
-
-
-
-
-#### - hDC [in]
-
-The handle of a device context that was previously obtained by <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>.
-
+The handle of a device context that was previously obtained by <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -84,26 +68,12 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
 
+<b>ReleaseDC</b> also unlocks the surface that was previously locked when the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method was called.
 
-
-<b>ReleaseDC</b> also unlocks the surface that was previously locked when the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method was called.
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>ReleaseDC</b> method.
-
-
-
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>ReleaseDC</b> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

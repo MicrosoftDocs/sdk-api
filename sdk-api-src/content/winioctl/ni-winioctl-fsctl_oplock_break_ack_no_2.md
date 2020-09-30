@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1624fa94-fcf4-4804-b659-84de5ccc77dc
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACK_NO_2, FSCTL_OPLOCK_BREAK_ACK_NO_2 control, FSCTL_OPLOCK_BREAK_ACK_NO_2 control code [Files], _win32_fsctl_oplock_break_ack_no_2, base.fsctl_oplock_break_ack_no_2, fs.fsctl_oplock_break_ack_no_2, winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
-f1_keywords:
-- winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_OPLOCK_BREAK_ACK_NO_2
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_OPLOCK_BREAK_ACK_NO_2
+ - winioctl/FSCTL_OPLOCK_BREAK_ACK_NO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_OPLOCK_BREAK_ACK_NO_2
 ---
 
 # FSCTL_OPLOCK_BREAK_ACK_NO_2 IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -117,7 +112,6 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -127,5 +121,5 @@ Resilient File System (ReFS) | Yes
 * [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md)
 * [HasOverlappedIoCompleted](../winbase/nf-winbase-hasoverlappediocompleted.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-* [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
-* [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+* [Oplock Semantics](/windows-hardware/drivers/ifs/oplock-semantics)
+* [Opportunistic Locks](/windows/desktop/FileIO/opportunistic-locks)

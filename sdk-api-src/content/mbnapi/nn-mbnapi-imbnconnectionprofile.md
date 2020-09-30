@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: f7730efe-e367-4642-8482-2a23052bab0c
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], IMbnConnectionProfile interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofile, mbnapi/IMbnConnectionProfile
-f1_keywords:
-- mbnapi/IMbnConnectionProfile
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionProfile
+ - mbnapi/IMbnConnectionProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionProfile
 ---
 
 # IMbnConnectionProfile interface
@@ -54,10 +55,9 @@ ms.custom: 19H1
 
 This interface accesses connection parameters and preferences stored in Mobile Broadband profiles.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMbnConnectionProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete">Delete</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the profile.
@@ -81,7 +81,7 @@ Deletes the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata">GetProfileXmlData</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-getprofilexmldata">GetProfileXmlData</a>
 </td>
 <td align="left" width="63%">
 Gets the XML data of the current profile.
@@ -90,21 +90,15 @@ Gets the XML data of the current profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile">UpdateProfile</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofile-updateprofile">UpdateProfile</a>
 </td>
 <td align="left" width="63%">
 Updates the contents of the profile.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-<b>IMbnConnectionProfile</b> objects are provided by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile">GetConnectionProfile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles">GetConnectionProfiles</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> interface.
-
-
-
+<b>IMbnConnectionProfile</b> objects are provided by calls to the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofile">GetConnectionProfile</a> and <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-getconnectionprofiles">GetConnectionProfiles</a> methods of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a> interface.

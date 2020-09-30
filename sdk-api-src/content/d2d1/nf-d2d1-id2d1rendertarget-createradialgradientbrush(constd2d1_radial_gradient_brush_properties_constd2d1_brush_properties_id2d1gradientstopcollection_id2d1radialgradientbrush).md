@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8
 ms.date: 12/05/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateRadialGradientBrush, ID2D1RenderTarget::CreateRadialGradientBrush, d2d1/CreateRadialGradientBrush, direct2d.id2d1rendertarget_createradialgradientbrush
-f1_keywords:
-- d2d1/ID2D1RenderTarget::CreateRadialGradientBrush
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget::CreateRadialGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::CreateRadialGradientBrush
+ - d2d1/ID2D1RenderTarget::CreateRadialGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget::CreateRadialGradientBrush
 ---
 
 ## -description
@@ -87,3 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <a href="/windows/win32/Direct2D/how-to-create-a-radial-gradient-brush">How to Create a Radial Gradient Brush</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

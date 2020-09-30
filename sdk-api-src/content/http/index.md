@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: http
+f1_keywords:
+ - http
+ - http/http
 ---
 
 # Http.h header
 
 
 ## -description
-
 
 This header is used by HTTP Server API. For more information, see:
 

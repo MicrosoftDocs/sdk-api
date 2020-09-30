@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],Revert method, IStream.Revert, IStream::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStream interface, _stg_istream_revert, objidl/IStream::Revert, stg.istream_revert
-f1_keywords:
-- objidl/IStream.Revert
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IStream.Revert
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStream::Revert
+ - objidl/IStream::Revert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IStream.Revert
 ---
 
 # IStream::Revert
@@ -49,47 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Revert</b> method discards all changes that have been made to a transacted stream since the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a> call. On streams open in direct mode and streams using the COM compound file implementation of <b>IStream::Revert</b>, this method has no effect.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Revert</b> method discards changes made to a transacted stream since the last commit operation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>

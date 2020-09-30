@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
 ms.date: 12/05/2018
 ms.keywords: '*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea'
-f1_keywords:
-- advpub/STRTABLEA
-dev_langs:
-- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library: Advpack.lib
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- advpack.lib
-api_name:
-- STRTABLEA
 targetos: Windows
 req.typenames: STRTABLEA, *LPSTRTABLEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _StrTableA
+ - advpub/_StrTableA
+ - LPSTRTABLEA
+ - advpub/LPSTRTABLEA
+ - STRTABLEA
+ - advpub/STRTABLEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - advpack.lib
+api_name:
+ - STRTABLEA
 ---
 
 # STRTABLEA structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a table of registry string replacements.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cEntries
 
 The number of entries in the table.
-
 
 ### -field pse
 

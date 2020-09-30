@@ -5,10 +5,6 @@ description: Describes the level of support for shared resources in the current 
 ms.date: 05/27/2020
 helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D11_OPTIONS5","D3D11_FEATURE_DATA_D3D11_OPTIONS5 structure [Direct3D 11]","d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS5","direct3d11.d3d11_feature_data_d3d11_options4"]
 tech.root: direct3d11
-f1_keywords:
-- d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS5
-dev_langs:
-- c++
 req.construct-type: structure
 req.header: d3d11.h
 req.include-header: 
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11.h
-api_name:
-- D3D11_FEATURE_DATA_D3D11_OPTIONS5
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS5
 req.redist: 
+f1_keywords:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS5
+ - d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11.h
+api_name:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS5
 ---
 
 ## -description
@@ -49,13 +50,13 @@ Describes the level of support for shared resources in the current graphics driv
 
 ### -field SharedResourceTier
 
-Type: **[D3D11_SHARED_RESOURCE_TIER](/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier)**
+Type: **[D3D11_SHARED_RESOURCE_TIER](./ne-d3d11-d3d11_shared_resource_tier.md)**
 
 A shared resource support tier.
 
 ## -remarks
 
-Use this structure with the **D3D11_FEATURE_D3D11_OPTIONS5** member of [D3D11_FEATURE](/windows/win32/api/d3d11/ne-d3d11-d3d11_feature).
+Use this structure with the **D3D11_FEATURE_D3D11_OPTIONS5** member of [D3D11_FEATURE](./ne-d3d11-d3d11_feature.md).
 
 ## -see-also
 

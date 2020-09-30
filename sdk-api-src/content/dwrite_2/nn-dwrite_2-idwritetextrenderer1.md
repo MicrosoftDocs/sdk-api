@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: A8C39C54-AF98-4A27-9BCF-9C132F4CD3B1
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextRenderer1, IDWriteTextRenderer1 interface [Direct Write], IDWriteTextRenderer1 interface [Direct Write],described, directwrite.idwritetextrenderer1, dwrite_2/IDWriteTextRenderer1
-f1_keywords:
-- dwrite_2/IDWriteTextRenderer1
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextRenderer1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextRenderer1
+ - dwrite_2/IDWriteTextRenderer1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextRenderer1
 ---
 
 # IDWriteTextRenderer1 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
- Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines. 
-
+ Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
 
 ## -inheritance
 
@@ -108,16 +107,9 @@ The <b>IDWriteTextRenderer1</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>
- 
-
- 
 

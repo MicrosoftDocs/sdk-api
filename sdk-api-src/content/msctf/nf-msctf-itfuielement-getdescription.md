@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1d6fad13-e90a-4c5a-a735-d6e54f53488f
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetDescription method, ITfUIElement.GetDescription, ITfUIElement::GetDescription, msctf/ITfUIElement::GetDescription, tsf.itfuielement_getdescription
-f1_keywords:
-- msctf/ITfUIElement.GetDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElement.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElement::GetDescription
+ - msctf/ITfUIElement::GetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElement.GetDescription
 ---
 
 # ITfUIElement::GetDescription
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElement::GetDescription</b> method returns the description of the UI element.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrDescription [in]
 
 [in] A pointer to BSTR that contains the description of the UI element.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,7 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

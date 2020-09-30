@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9d6e0865-4b4d-4334-855b-3fbd26832591
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_DISK_FORMAT_TRACKS control code [Files], _win32_ioctl_disk_format_tracks, base.ioctl_disk_format_tracks, fs.ioctl_disk_format_tracks, winioctl/IOCTL_DISK_FORMAT_TRACKS
-f1_keywords:
-- winioctl/IOCTL_DISK_FORMAT_TRACKS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_FORMAT_TRACKS
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_FORMAT_TRACKS
+ - winioctl/IOCTL_DISK_FORMAT_TRACKS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_FORMAT_TRACKS
 ---
 
 # IOCTL_DISK_FORMAT_TRACKS IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,12 +86,11 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [FORMAT_PARAMETERS](ns-winioctl-format_parameters.md)
 * [IOCTL_DISK_FORMAT_TRACKS_EX](ni-winioctl-ioctl_disk_format_tracks_ex.md)

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: a35aa7b1-273d-47ff-a705-298393f4abd2
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnStartCleanupContext method, ITfCleanupContextDurationSink.OnStartCleanupContext, ITfCleanupContextDurationSink::OnStartCleanupContext, OnStartCleanupContext, OnStartCleanupContext method [Text Services Framework], OnStartCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onstartcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnStartCleanupContext, tsf.itfcleanupcontextdurationsink_onstartcleanupcontext
-f1_keywords:
-- msctf/ITfCleanupContextDurationSink.OnStartCleanupContext
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfCleanupContextDurationSink.OnStartCleanupContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCleanupContextDurationSink::OnStartCleanupContext
+ - msctf/ITfCleanupContextDurationSink::OnStartCleanupContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfCleanupContextDurationSink.OnStartCleanupContext
 ---
 
 # ITfCleanupContextDurationSink::OnStartCleanupContext
+
 
 ## -description
 
@@ -68,3 +70,4 @@ A context cleanup occurs when:
 ## -see-also
 
 [ITfCleanupContextDurationSink interface](nn-msctf-itfcleanupcontextdurationsink.md), [ITfCleanupContextDurationSink::OnEndCleanupContext](nf-msctf-itfcleanupcontextdurationsink-onendcleanupcontext.md), [ITfCleanupContextSink::OnCleanupContext](nf-msctf-itfcleanupcontextsink-oncleanupcontext.md)
+

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::CreateSession
 f1_keywords:
+ - IMFContentDecryptionModule::CreateSession
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::CreateSession
 dev_langs:
  - c++
@@ -47,7 +48,7 @@ Creates a [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfco
 
 ### -param sessionType
 
-A member of the [MF_MEDIAKEYSESSION_TYPE](/windows/win32/api/mfidl/ne-mfidl-mf_mediakeysession_type) that specifies the type of CDM session to create.
+A member of the [MF_MEDIAKEYSESSION_TYPE](../mfidl/ne-mfidl-mf_mediakeysession_type.md) that specifies the type of CDM session to create.
 
 ### -param callbacks
 
@@ -66,4 +67,3 @@ Returns S_OK on success.
 **CreateSession** is based on the Encrypted Media Extension specification's [createSession](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeys-createsession).
 
 ## -see-also
-

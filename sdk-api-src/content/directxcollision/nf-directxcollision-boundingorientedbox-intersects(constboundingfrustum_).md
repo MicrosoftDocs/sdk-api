@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Intersects(BoundingFrustum)
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Intersects method, BoundingOrientedBox.Intersects, BoundingOrientedBox.Intersects(const BoundingFrustum &), BoundingOrientedBox.Intersects(const BoundingFrustum&), BoundingOrientedBox::Intersects, BoundingOrientedBox::Intersects(const BoundingFrustum &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_intersects_1
-f1_keywords:
-- directxcollision/BoundingOrientedBox.Intersects
-dev_langs:
-- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXCollision.h
-api_name:
-- BoundingOrientedBox.Intersects
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - BoundingOrientedBox::Intersects
+ - directxcollision/BoundingOrientedBox::Intersects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXCollision.h
+api_name:
+ - BoundingOrientedBox.Intersects
 ---
 
 # BoundingOrientedBox::Intersects(const BoundingFrustum &)
@@ -48,43 +49,24 @@ req.redist:
 
 ## -description
 
-
-Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
-
+Tests the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> for intersection with a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
-
-
-
 ### -param fr [in, ref]
 
-The [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to test for intersection.
-
+The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to test for intersection.
 
 ## -returns
 
-
-
-A boolean value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> intersects the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
-
-
-
+A boolean value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> intersects the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
 
@@ -95,7 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
- 
-
- 
-

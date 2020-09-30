@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
-f1_keywords:
-- spellcheck/ISpellChecker
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellChecker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellChecker
+ - spellcheck/ISpellChecker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellChecker
 ---
 
 # ISpellChecker interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a particular spell checker for a particular language.
 
 The <b>ISpellChecker</b> can be used to check text, get suggestions, update user dictionaries, and maintain options.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellChecker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellChecker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellChecker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellChecker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +72,7 @@ The <b>ISpellChecker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">Add</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">Add</a>
 </td>
 <td align="left" width="63%">
 Treats the provided word as though it were part of the original dictionary.
@@ -82,16 +81,16 @@ Treats the provided word as though it were part of the original dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add_spellcheckerchanged">add_SpellCheckerChanged</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add_spellcheckerchanged">add_SpellCheckerChanged</a>
 </td>
 <td align="left" width="63%">
-Adds an event handler (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) for the SpellCheckerChanged event.
+Adds an event handler (<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) for the SpellCheckerChanged event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-autocorrect">AutoCorrect</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-autocorrect">AutoCorrect</a>
 </td>
 <td align="left" width="63%">
 Causes occurrences of one word to be replaced by another.
@@ -100,7 +99,7 @@ Causes occurrences of one word to be replaced by another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">Check</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">Check</a>
 </td>
 <td align="left" width="63%">
 Checks the spelling of the supplied text and returns a collection of spelling errors.
@@ -109,16 +108,16 @@ Checks the spelling of the supplied text and returns a collection of spelling er
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck">ComprehensiveCheck</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck">ComprehensiveCheck</a>
 </td>
 <td align="left" width="63%">
-Checks the spelling of the supplied text in a more thorough manner than <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">ISpellChecker::Check</a>, and returns a collection of spelling errors.
+Checks the spelling of the supplied text in a more thorough manner than <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">ISpellChecker::Check</a>, and returns a collection of spelling errors.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-getoptiondescription">GetOptionDescription</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-getoptiondescription">GetOptionDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the information (id, description, heading and labels) of a specific option.
@@ -127,7 +126,7 @@ Retrieves the information (id, description, heading and labels) of a specific op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-getoptionvalue">GetOptionValue</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-getoptionvalue">GetOptionValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value associated with the given option.
@@ -136,7 +135,7 @@ Retrieves the value associated with the given option.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">Ignore</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">Ignore</a>
 </td>
 <td align="left" width="63%">
 Ignores the provided word for the rest of this session.
@@ -145,16 +144,16 @@ Ignores the provided word for the rest of this session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a>
 </td>
 <td align="left" width="63%">
-Removes an event handler (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) that has been added for the SpellCheckerChanged event.
+Removes an event handler (<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) that has been added for the SpellCheckerChanged event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-suggest">Suggest</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-suggest">Suggest</a>
 </td>
 <td align="left" width="63%">
 Retrieves spelling suggestions for the supplied text.
@@ -172,7 +171,7 @@ Retrieves spelling suggestions for the supplied text.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_id">Id</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_id">Id</a>
 
 
 </td>
@@ -188,7 +187,7 @@ Gets the identifier for this spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_languagetag">LanguageTag</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_languagetag">LanguageTag</a>
 
 
 </td>
@@ -204,7 +203,7 @@ Gets the <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag this 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_localizedname">LocalizedName</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_localizedname">LocalizedName</a>
 
 
 </td>
@@ -220,7 +219,7 @@ Gets text, suitable to display to the user, that describes this spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_optionids">OptionIds</a>
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-get_optionids">OptionIds</a>
 
 
 </td>
@@ -233,5 +232,4 @@ Gets all of the declared option identifiers.
 
 </td>
 </tr>
-</table> 
-
+</table>

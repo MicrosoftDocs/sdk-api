@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: b5f05e2a-ad60-4d4c-8bdd-1c03df3d508d
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], IAutomaticUpdates interface [Windows Update Agent],described, wua.iautomaticupdates, wuapi/IAutomaticUpdates
-f1_keywords:
-- wuapi/IAutomaticUpdates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdates
+ - wuapi/IAutomaticUpdates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdates
 ---
 
 # IAutomaticUpdates interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the functionality of Automatic Updates.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IAutomaticUpdates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-detectnow">DetectNow</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-detectnow">DetectNow</a>
 </td>
 <td align="left" width="63%">
 Begins automatic updating if it has not already started.
@@ -80,7 +79,7 @@ Begins automatic updating if it has not already started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-enableservice">EnableService</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-enableservice">EnableService</a>
 </td>
 <td align="left" width="63%">
 Enables all the components that Automatic Updates requires.
@@ -89,7 +88,7 @@ Enables all the components that Automatic Updates requires.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-pause">Pause</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses automatic updating.
@@ -98,7 +97,7 @@ Pauses automatic updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Restarts automatic updating if it is paused.
@@ -107,7 +106,7 @@ Restarts automatic updating if it is paused.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">ShowSettingsDialog</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">ShowSettingsDialog</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box that contains settings for Automatic Updates.
@@ -125,7 +124,7 @@ Displays a dialog box that contains settings for Automatic Updates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled">ServiceEnabled</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled">ServiceEnabled</a>
 
 
 </td>
@@ -141,7 +140,7 @@ Gets a Boolean value that indicates whether all the components that Automatic Up
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">Settings</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">Settings</a>
 
 
 </td>
@@ -154,25 +153,12 @@ Gets the configuration settings for Automatic Updates.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the AutomaticUpdates coclass. Use the Microsoft.Update.AutoUpdate program identifier to create the object.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates2">IAutomaticUpdates2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates2">IAutomaticUpdates2</a>

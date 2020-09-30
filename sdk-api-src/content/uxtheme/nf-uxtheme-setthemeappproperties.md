@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.date: 12/05/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
-f1_keywords:
-- uxtheme/SetThemeAppProperties
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- SetThemeAppProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThemeAppProperties
+ - uxtheme/SetThemeAppProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - SetThemeAppProperties
 ---
 
 # SetThemeAppProperties function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the flags that determine how visual styles are implemented in the calling application.
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>DWORD</b> that specifies one or more of the following bit flags, which can be combined with a logical OR.
 
@@ -103,14 +99,10 @@ Specifies that web content displayed in an application will have visual styles a
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-After you set the flags, send a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-themechanged">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
+After you set the flags, send a <a href="/windows/desktop/winmsg/wm-themechanged">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
 
 
 
@@ -126,17 +118,6 @@ SetThemeAppProperties(dwFlags);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemeappproperties">GetThemeAppProperties</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemeappproperties">GetThemeAppProperties</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: eaphost
+f1_keywords:
+ - eappapis
+ - eappapis/eappapis
 ---
 
 # Eappapis.h header
 
 
 ## -description
-
 
 This header is used by Extensible Authentication Protocol Host. For more information, see:
 

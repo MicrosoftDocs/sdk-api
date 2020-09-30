@@ -32,16 +32,23 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
  - DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
+f1_keywords:
+ - tagDIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
+ - DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
+ - diagnosticdataquerytypes/DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION
 ---
 
 ## -description
+
 A resource that represents a producer. A Producer is an OS component, application or service that emits events. For example, “Microsoft Edge” is the Producer ID for the Microsoft Edge browser.
 
 ## -struct-fields
 
 ### -field name
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
-The name of this producer. 
+The name of this producer.
 
 ## -remarks
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wincontacts
+f1_keywords:
+ - icontact
+ - icontact/icontact
 ---
 
 # Icontact.h header
 
 
 ## -description
-
 
 This header is used by Windows Contacts. For more information, see:
 

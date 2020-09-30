@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ceaf2274-01e6-422b-8762-a0527e9b9d57
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByName property, IX509CertificateTemplates.ItemByName, IX509CertificateTemplates.get_ItemByName, IX509CertificateTemplates::ItemByName, IX509CertificateTemplates::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByName, certenroll/IX509CertificateTemplates::get_ItemByName, get_ItemByName, security.ix509certificatetemplates_itembyname
-f1_keywords:
-- certenroll/IX509CertificateTemplates.ItemByName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateTemplates.ItemByName
-- IX509CertificateTemplates.get_ItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplates::get_ItemByName
+ - certenroll/IX509CertificateTemplates::get_ItemByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateTemplates.ItemByName
+ - IX509CertificateTemplates.get_ItemByName
 ---
 
 # IX509CertificateTemplates::get_ItemByName
@@ -50,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ItemByName</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by name. This property is web enabled.
+The <b>ItemByName</b> property retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by name. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>

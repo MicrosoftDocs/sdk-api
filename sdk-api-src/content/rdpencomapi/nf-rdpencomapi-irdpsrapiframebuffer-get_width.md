@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer.get_Width, IRDPSRAPIFrameBuffer::Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP],IRDPSRAPIFrameBuffer interface, get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
-f1_keywords:
-- rdpencomapi/IRDPSRAPIFrameBuffer.Width
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIFrameBuffer.Width
-- IRDPSRAPIFrameBuffer.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIFrameBuffer::get_Width
+ - rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIFrameBuffer.Width
+ - IRDPSRAPIFrameBuffer.get_Width
 ---
 
 # IRDPSRAPIFrameBuffer::get_Width
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Width, in pixels, of the frame buffer.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a>

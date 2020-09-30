@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 9893716b-5004-4886-9bed-49a447e97f42
 ms.date: 12/05/2018
 ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Packaging], CreateFontResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateFontResource method, IXpsOMObjectFactory.CreateFontResource, IXpsOMObjectFactory::CreateFontResource, TRUE, xps.ixpsomobjectfactory_createfontresource, xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMObjectFactory.CreateFontResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMObjectFactory.CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory::CreateFontResource
+ - xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMObjectFactory.CreateFontResource
 ---
 
 # IXpsOMObjectFactory::CreateFontResource
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface, which provides an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to the font resource.
-
+Creates an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface, which provides an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to the font resource.
 
 ## -parameters
 
-
-
-
 ### -param acquiredStream [in]
 
-The read-only <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to be associated with this font resource. This parameter must not be <b>NULL</b>.
+The read-only <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to be associated with this font resource. This parameter must not be <b>NULL</b>.
 
 <div class="alert"><b>Important</b>  Treat this stream as a Single-Threaded Apartment (STA) object; do not re-enter it.</div>
 <div> </div>
@@ -71,11 +67,9 @@ The read-only <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-
 
 The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a> value that specifies the stream's embedding option.
 
-
 ### -param partUri [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name to be assigned    to this resource. This parameter must not  be <b>NULL</b>.
-
+The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name to be assigned    to this resource. This parameter must not  be <b>NULL</b>.
 
 ### -param isObfSourceStream [in]
 
@@ -107,20 +101,14 @@ The stream referenced by <i>acquiredStream</i> is  not obfuscated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fontResource [out, retval]
 
-A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface.
-          
-
+A pointer to the new <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface.
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -165,16 +153,10 @@ One of the following errors  has occurred:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The value of <i>isObfSourceStream</i> describes the state of the <i>acquiredStream</i>-referenced stream  at  the time the font resource is created. All subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-getstream">GetStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-setcontent">SetContent</a> will operate on unobfuscated versions of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
+The value of <i>isObfSourceStream</i> describes the state of the <i>acquiredStream</i>-referenced stream  at  the time the font resource is created. All subsequent calls to <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-getstream">GetStream</a> or <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-setcontent">SetContent</a> will operate on unobfuscated versions of <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fontEmbedding</i> is set to <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING_NORMAL</a>, or if the name referenced by <i>partUri</i> does not conform to the syntax for obfuscated streams.
 
@@ -227,24 +209,17 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>
 
 
 
@@ -252,12 +227,8 @@ else
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
- 
-
- 
-

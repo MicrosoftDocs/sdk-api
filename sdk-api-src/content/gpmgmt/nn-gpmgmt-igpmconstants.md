@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
 ms.date: 12/05/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
-f1_keywords:
-- gpmgmt/IGPMConstants
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMConstants
-- GPMConstants
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMConstants
+ - gpmgmt/IGPMConstants
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMConstants
+ - GPMConstants
 ---
 
 # IGPMConstants interface
@@ -50,18 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMConstants</b> interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants. To create a <b>GPMConstants</b> object, call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getconstants">IGPM::GetConstants</a> method.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getconstants">IGPM::GetConstants</a> method.
 
 The <b>GPMConstants</b> object that implements the 
 <b>IGPMConstants</b> interface does not introduce new constants. All the constant values and enumeration types that are returned by the <b>GPMConstants</b> object can be found in either the GPMC header file (Gpmgmt.idl or Gpmgmt.h) or in the GPMC type library that is embedded in the Gpmgmt.dll dynamic-link library. Use the <b>GPMConstants</b> object only if you do not have access to the header or to the type library.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMConstants</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMConstants</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMConstants</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMConstants</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +76,7 @@ The <b>IGPMConstants</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">get_SearchhPropertyGPOComputerExtensions</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">get_SearchhPropertyGPOComputerExtensions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the constant value that corresponds to the <b>gpoComputerExtensions</b> search property.
@@ -94,7 +93,7 @@ Retrieves the constant value that corresponds to the <b>gpoComputerExtensions</b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionByRelativeName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionByRelativeName</a>
 
 
 </td>
@@ -106,7 +105,7 @@ Value that corresponds to the <b>GPMDestinationOption</b> of opDestinationByRela
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionNone</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionNone</a>
 
 
 </td>
@@ -118,7 +117,7 @@ Value that corresponds to the <b>GPMDestinationOption</b> of opDestinationNone.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSameAsSource</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSameAsSource</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Value that corresponds to the <b>GPMDestinationOption</b> of opDestinationSameAs
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a>
 
 
 </td>
@@ -142,7 +141,7 @@ Value that corresponds to the <b>GPMDestinationOption</b> of opDestinationSet.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DoNotUseW2KDC</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DoNotUseW2KDC</a>
 
 
 </td>
@@ -154,7 +153,7 @@ Constant value that corresponds to the <b>DoNotUseW2KDC</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DoNotValidateDC</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DoNotValidateDC</a>
 
 
 </td>
@@ -166,7 +165,7 @@ Constant value that corresponds to the <b>DoNotValidateDC</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeComputer</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeComputer</a>
 
 
 </td>
@@ -178,7 +177,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeComputer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeGlobalGroup</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeGlobalGroup</a>
 
 
 </td>
@@ -190,7 +189,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeGlobalGroup.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeLocalGroup</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeLocalGroup</a>
 
 
 </td>
@@ -202,7 +201,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeLocalGroup.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUNCPath</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUNCPath</a>
 
 
 </td>
@@ -214,7 +213,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeUNCPath.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUniversalGroup</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUniversalGroup</a>
 
 
 </td>
@@ -226,7 +225,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeUniversalGroup.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUnknown</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUnknown</a>
 
 
 </td>
@@ -238,7 +237,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeUnknown.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUser</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">EntryTypeUser</a>
 
 
 </td>
@@ -250,7 +249,7 @@ Value that corresponds to the <b>GPMEntryType</b> of typeUser.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">MigrationTableOnly</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">MigrationTableOnly</a>
 
 
 </td>
@@ -262,7 +261,7 @@ Value that corresponds to the <b>GPM_MIGRATIONTABLE_ONLY</b> constant.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOApply</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOApply</a>
 
 
 </td>
@@ -274,7 +273,7 @@ Constant value that corresponds to the <b>permGPOApply</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOCustom</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOCustom</a>
 
 
 </td>
@@ -286,7 +285,7 @@ Constant value that corresponds to the <b>permGPOCustom</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOEdit</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOEdit</a>
 
 
 </td>
@@ -298,7 +297,7 @@ Constant value that corresponds to the <b>permGPOEdit</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOEditSecurityAndDelete</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPOEditSecurityAndDelete</a>
 
 
 </td>
@@ -310,7 +309,7 @@ Constant value that corresponds to the <b>permGPOEditSecurityAndDelete</b> permi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPORead</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermGPORead</a>
 
 
 </td>
@@ -322,7 +321,7 @@ Constant value that corresponds to the <b>permGPORead</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMGPOCreate</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMGPOCreate</a>
 
 
 </td>
@@ -334,7 +333,7 @@ Constant value that corresponds to the <b>permSOMGPOCreate</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMLink</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMLink</a>
 
 
 </td>
@@ -346,7 +345,7 @@ Constant value that corresponds to the <b>permSOMLink</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMLogging</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMLogging</a>
 
 
 </td>
@@ -358,7 +357,7 @@ Constant value that corresponds to the <b>permSOMLogging</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMPlanning</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMPlanning</a>
 
 
 </td>
@@ -370,7 +369,7 @@ Constant value that corresponds to the <b>permSOMPlanning</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMWMICreate</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMWMICreate</a>
 
 
 </td>
@@ -382,7 +381,7 @@ Constant value that corresponds to the <b>permSOMWMICreate</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMWMIFullControl</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermSOMWMIFullControl</a>
 
 
 </td>
@@ -394,7 +393,7 @@ Constant value that corresponds to the <b>permSOMWMIFullControl</b> permission t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterCustom</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterCustom</a>
 
 
 </td>
@@ -406,7 +405,7 @@ Constant value that corresponds to the <b>permWMIFilterCustom</b> permission typ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterEdit</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterEdit</a>
 
 
 </td>
@@ -418,7 +417,7 @@ Constant value that corresponds to the <b>permWMIFilterEdit</b> permission type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterFullControl</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">PermWMIFilterFullControl</a>
 
 
 </td>
@@ -430,7 +429,7 @@ Constant value that corresponds to the <b>permWMIFilterFullControl</b> permissio
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ProcessSecurity</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ProcessSecurity</a>
 
 
 </td>
@@ -442,7 +441,7 @@ Value that corresponds to the <b>GPM_PROCESS_SECURITY</b> constant.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ReportHTML</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ReportHTML</a>
 
 
 </td>
@@ -454,7 +453,7 @@ Constant value that corresponds to the <b>ReportHTML</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ReportXML</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">ReportXML</a>
 
 
 </td>
@@ -466,7 +465,7 @@ Constant value that corresponds to the <b>ReportXML</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopLoggingNoComputer</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopLoggingNoComputer</a>
 
 
 </td>
@@ -478,7 +477,7 @@ Value that corresponds to the <b>RSOP_NO_USER</b> constant.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopLoggingNoUser</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopLoggingNoUser</a>
 
 
 </td>
@@ -490,7 +489,7 @@ Value that corresponds to the <b>RSOP_NO_USER</b> constant.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModeLogging</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModeLogging</a>
 
 
 </td>
@@ -502,7 +501,7 @@ Constant value that corresponds to the <b>RSOPModeLogging</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModePlanning</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModePlanning</a>
 
 
 </td>
@@ -514,7 +513,7 @@ Constant value that corresponds to the <b>RSOPModePlanning</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModeUnknown</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RSOPModeUnknown</a>
 
 
 </td>
@@ -526,7 +525,7 @@ Constant value that corresponds to the <b>RSOPModeUnknown</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeCompWQLFilterTrue</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeCompWQLFilterTrue</a>
 
 
 </td>
@@ -538,7 +537,7 @@ Value that corresponds to the <b>RSOP_PLANNING_ASSUME_COMP_WQLFILTER_TRUE</b> co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeSlowLink</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeSlowLink</a>
 
 
 </td>
@@ -550,7 +549,7 @@ Value that corresponds to the <b>RSOP_PLANNING_ASSUME_SLOW_LINK</b> constant.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeUserWQLFilterTrue</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningAssumeUserWQLFilterTrue</a>
 
 
 </td>
@@ -562,7 +561,7 @@ Value that corresponds to the <b>RSOP_PLANNING_ASSUME_USER_WQLFILTER_TRUE</b> co
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningLoopbackOption</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">RsopPlanningLoopbackOption</a>
 
 
 </td>
@@ -574,7 +573,7 @@ If <i>vbMerge</i> is <b>VARIANT_TRUE</b>, <i>pval</i> corresponds to the <b>RSOP
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpContains</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpContains</a>
 
 
 </td>
@@ -586,7 +585,7 @@ Constant value that corresponds to the <b>opContains</b> search operator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpEquals</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpEquals</a>
 
 
 </td>
@@ -598,7 +597,7 @@ Constant value that corresponds to the <b>opEquals</b> search operator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpNotContains</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpNotContains</a>
 
 
 </td>
@@ -610,7 +609,7 @@ Constant value that corresponds to the <b>opNotContains</b> search operator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpNotEquals</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchOpNotEquals</a>
 
 
 </td>
@@ -622,7 +621,7 @@ Constant value that corresponds to the <b>opNotEquals</b> search operator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyBackupMostRecent</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyBackupMostRecent</a>
 
 
 </td>
@@ -634,7 +633,7 @@ Constant value that corresponds to the <b>backupMostRecent</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOComputerExtensions</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOComputerExtensions</a>
 
 
 </td>
@@ -646,7 +645,7 @@ Constant value that corresponds to the <b>gpoComputerExtensions</b> search prope
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPODisplayName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPODisplayName</a>
 
 
 </td>
@@ -658,7 +657,7 @@ Constant value that corresponds to the <b>gpoDisplayName</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPODomain</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPODomain</a>
 
 
 </td>
@@ -670,7 +669,7 @@ Constant value that corresponds to the <b>gpoDomain</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOEffectivePermissions</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOEffectivePermissions</a>
 
 
 </td>
@@ -682,7 +681,7 @@ Constant value that corresponds to the <b>gpoEffectivePermissions</b> search pro
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOID</a>
 
 
 </td>
@@ -694,7 +693,7 @@ Constant value that corresponds to the <b>gpoID</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOPermissions</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOPermissions</a>
 
 
 </td>
@@ -706,7 +705,7 @@ Constant value that corresponds to the <b>gpoPermissions</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOUserExtensions</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOUserExtensions</a>
 
 
 </td>
@@ -718,7 +717,7 @@ Constant value that corresponds to the <b>gpoUserExtensions</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOWMIFilter</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertyGPOWMIFilter</a>
 
 
 </td>
@@ -730,7 +729,7 @@ Constant value that corresponds to the <b>gpoWMIFilter</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertySOMLinks</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SearchPropertySOMLinks</a>
 
 
 </td>
@@ -742,21 +741,21 @@ Constant value that corresponds to the <b>somLinks</b> search property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SecurityFlags</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SecurityFlags</a>
 
 
 </td>
 <td align="left" width="63%">
 Represents the portions of the security descriptor that you want to retrieve or set for a Group Policy object (GPO). These values are required to call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">IGPMGPO::GetSecurityDescriptor</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">IGPMGPO::SetSecurityDescriptor</a> functions (the <b>GPMGPO.GetSecurityDescriptor</b> and <b>GPMGPO.SetSecurityDescriptor</b> methods).
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">IGPMGPO::GetSecurityDescriptor</a> and 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">IGPMGPO::SetSecurityDescriptor</a> functions (the <b>GPMGPO.GetSecurityDescriptor</b> and <b>GPMGPO.SetSecurityDescriptor</b> methods).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMDomain</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMDomain</a>
 
 
 </td>
@@ -768,7 +767,7 @@ Constant value that corresponds to the somDomain scope of management (SOM) type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMOU</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMOU</a>
 
 
 </td>
@@ -780,7 +779,7 @@ Constant value that corresponds to the somOU SOM type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMSite</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">SOMSite</a>
 
 
 </td>
@@ -792,7 +791,7 @@ Constant value that corresponds to the somSite SOM type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">UseAnyDC</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">UseAnyDC</a>
 
 
 </td>
@@ -804,7 +803,7 @@ Constant value that corresponds to the <b>UseAnyDC</b> property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">UsePDC</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">UsePDC</a>
 
 
 </td>
@@ -813,28 +812,15 @@ Constant value that corresponds to the <b>UsePDC</b> property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Properties that begin with <b>PermGPO</b> apply only to GPOs. Properties that begin with <b>PermWMIFilter</b> apply only to Windows Management Instrumentation (WMI) filters.
 
 For more information about policy-related permissions, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a> (<b>GPM.CreatePermission</b>).
-
-
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a> (<b>GPM.CreatePermission</b>).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>

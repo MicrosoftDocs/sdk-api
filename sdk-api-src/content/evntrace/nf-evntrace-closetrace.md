@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 ms.date: 12/05/2018
 ms.keywords: CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closetrace, etw.closetrace, evntrace/CloseTrace
-f1_keywords:
-- evntrace/CloseTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- CloseTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseTrace
+ - evntrace/CloseTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - CloseTrace
 ---
 
 # CloseTrace function
@@ -53,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CloseTrace</b> function closes a trace.
-
 
 ## -parameters
 
-
-
-
 ### -param TraceHandle [in]
 
-Handle to the trace to close. The <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function 
+Handle to the trace to close. The <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function 
       returns this handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -105,7 +98,7 @@ One of the following is true:
 </dl>
 </td>
 <td width="60%">
-Prior to Windows Vista, you cannot close the trace until the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
+Prior to Windows Vista, you cannot close the trace until the <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
 
 </td>
 </tr>
@@ -116,24 +109,18 @@ Prior to Windows Vista, you cannot close the trace until the <a href="https://d
 </dl>
 </td>
 <td width="60%">
-The call was successful. The  <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
+The call was successful. The  <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consumers call this function.
 
 If you are processing events from a log file, you call this function only after the 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
+     <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
      processing real-time events, you can call this function before 
      <b>ProcessTrace</b> returns. If you call this function before 
      <b>ProcessTrace</b> returns, the 
@@ -144,33 +131,24 @@ If you are processing events from a log file, you call this function only after 
      (<b>ProcessTrace</b> will not receive any new events after you 
      call the <b>CloseTrace</b> function). You can call the 
      <b>CloseTrace</b> function from your 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
+     <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
+     <a href="/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
+     <a href="/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
 
-<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
+<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
 
 
 #### Examples
 
 For an example that uses <b>CloseTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+     <a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

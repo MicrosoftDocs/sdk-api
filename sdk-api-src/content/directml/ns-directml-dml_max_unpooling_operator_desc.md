@@ -4,8 +4,6 @@ title: DML_MAX_UNPOOLING_OPERATOR_DESC
 description: Describes a DirectML operator that fills the output tensor of the given shape (either explicit, or the input shape plus padding) with zeros, then writes each value from the input tensor into the output tensor at the element offset from the corresponding indices array.
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,30 +21,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_MAX_UNPOOLING_OPERATOR_DESC
-f1_keywords:
- - directml/DML_MAX_UNPOOLING_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_MAX_UNPOOLING_OPERATOR_DESC
+f1_keywords:
+ - DML_MAX_UNPOOLING_OPERATOR_DESC
+ - directml/DML_MAX_UNPOOLING_OPERATOR_DESC
 ---
 
 ## -description
 
 Describes a DirectML operator that fills the output tensor of the given shape (either explicit, or the input shape plus padding) with zeros, then writes each value from the input tensor into the output tensor at the element offset from the corresponding indices array.
 
-**DML_MAX_UNPOOLING_OPERATOR_DESC** is the inverse of [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
+**DML_MAX_UNPOOLING_OPERATOR_DESC** is the inverse of [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md).
 
 All indices should be unique, and within bounds. The value written for duplicate indices is not defined; out-of-bounds indices yield no write.
- 
+
 ## -struct-fields
 
 ### -field InputTensor

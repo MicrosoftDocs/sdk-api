@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart
-f1_keywords:
-- rtworkq/IRtwqPlatformEvents.ShutdownStart
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqPlatformEvents.ShutdownStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqPlatformEvents::ShutdownStart
+ - rtworkq/IRtwqPlatformEvents::ShutdownStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqPlatformEvents.ShutdownStart
 ---
 
 # IRtwqPlatformEvents::ShutdownStart
@@ -49,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called before the platform is about to shutdown. 
-
+Called before the platform is about to shutdown.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>

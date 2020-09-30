@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.date: 12/05/2018
 ms.keywords: IUpdate2, IUpdate2 interface [Windows Update Agent], IUpdate2 interface [Windows Update Agent],described, wua.iupdate2, wuapi/IUpdate2
-f1_keywords:
-- wuapi/IUpdate2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate2
+ - wuapi/IUpdate2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate2
 ---
 
 # IUpdate2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the  properties and methods that are available to an update.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdate2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>. <b>IUpdate2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUpdate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-copytocache">CopyToCache</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate2-copytocache">CopyToCache</a>
 </td>
 <td align="left" width="63%">
 Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
@@ -89,7 +88,7 @@ Copies files for an update from a specified source location to the internal Wind
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_cveids">CveIDs</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_cveids">CveIDs</a>
 
 
 </td>
@@ -105,7 +104,7 @@ Gets a collection of common vulnerabilities and exposures (CVE) IDs that are ass
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_ispresent">IsPresent</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_ispresent">IsPresent</a>
 
 
 </td>
@@ -121,7 +120,7 @@ Gets a Boolean value that indicates whether an update is present on a computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_rebootrequired">RebootRequired</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate2-get_rebootrequired">RebootRequired</a>
 
 
 </td>
@@ -134,16 +133,8 @@ Gets a Boolean value that indicates whether a system restart is required on a co
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

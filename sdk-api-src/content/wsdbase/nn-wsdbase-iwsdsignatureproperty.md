@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty, IWSDSignatureProperty interface, IWSDSignatureProperty interface,described, ncd.iwsdsignatureproperty, wsdbase/IWSDSignatureProperty
-f1_keywords:
-- wsdbase/IWSDSignatureProperty
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDSignatureProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDSignatureProperty
+ - wsdbase/IWSDSignatureProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDSignatureProperty
 ---
 
 # IWSDSignatureProperty interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides properties of signed messages.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSignatureProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSignatureProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSignatureProperty</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSignatureProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWSDSignatureProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd379728(v=vs.85)">GetKeyInfo</a>
+<a href="/previous-versions/windows/desktop/legacy/dd379728(v=vs.85)">GetKeyInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the subject key ID of the certificate for a signed message.
@@ -79,7 +78,7 @@ Gets the subject key ID of the certificate for a signed message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignature">GetSignature</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignature">GetSignature</a>
 </td>
 <td align="left" width="63%">
 Gets the signature of a message.
@@ -88,7 +87,7 @@ Gets the signature of a message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignedinfohash">GetSignedInfoHash</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-getsignedinfohash">GetSignedInfoHash</a>
 </td>
 <td align="left" width="63%">
 Gets the hash of a message signature.
@@ -97,7 +96,7 @@ Gets the hash of a message signature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesignaturetrusted">IsMessageSignatureTrusted</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesignaturetrusted">IsMessageSignatureTrusted</a>
 </td>
 <td align="left" width="63%">
 Specifies if a message signature is trusted.
@@ -106,23 +105,17 @@ Specifies if a message signature is trusted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesigned">IsMessageSigned</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsignatureproperty-ismessagesigned">IsMessageSigned</a>
 </td>
 <td align="left" width="63%">
 Specifies if a message is signed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+An application can acquire this interface by calling the <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>.
 
-
-An application can acquire this interface by calling the <a href="https://msdn2.microsoft.com/library/ms682521.aspx">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>.
-
-<b>IWSDSignatureProperty</b> is useful to an application that wants to perform its own signature validation.  By passing a <b>NULL</b> to the <i>pConfigParam</i> of <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider2">WSDCreateDiscoveryProvider2</a>, the internal signature validation is disabled and the provider can perform its own validation by examining these properties.
-
-
-
+<b>IWSDSignatureProperty</b> is useful to an application that wants to perform its own signature validation.  By passing a <b>NULL</b> to the <i>pConfigParam</i> of <a href="/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider2">WSDCreateDiscoveryProvider2</a>, the internal signature validation is disabled and the provider can perform its own validation by examining these properties.

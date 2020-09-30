@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget::DrawRectangle, d2d1_1/DrawRectangle, direct2d.id2d1rendertarget_drawrectangle
-f1_keywords:
-- d2d1/ID2D1RenderTarget::DrawRectangle
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget::DrawRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::DrawRectangle
+ - d2d1/ID2D1RenderTarget::DrawRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget::DrawRectangle
 ---
 
 ## -description
@@ -163,7 +164,7 @@ HRESULT DemoApp::OnRender()
 }
 ```
 
-For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
+For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>.
 
 ## -see-also
 
@@ -172,3 +173,4 @@ For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart
 <a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

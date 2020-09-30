@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
-f1_keywords:
-- wsdclient/IWSDServiceProxyEventing
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDServiceProxyEventing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxyEventing
+ - wsdclient/IWSDServiceProxyEventing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDServiceProxyEventing
 ---
 
 # IWSDServiceProxyEventing interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a remote WSD service for client applications and middleware.  This interface allows for the implementation of multiple asynchronous operations.
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IWSDServiceProxyEventing</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-begingetstatusformultipleoperations">BeginGetStatusForMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-begingetstatusformultipleoperations">BeginGetStatusForMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Initializes an asynchronous operation that retrieves the current status for a collection of event subscriptions.
@@ -79,7 +78,7 @@ Initializes an asynchronous operation that retrieves the current status for a co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginrenewmultipleoperations">BeginRenewMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginrenewmultipleoperations">BeginRenewMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Initializes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
@@ -88,7 +87,7 @@ Initializes an asynchronous operation that renews a collection of existing notif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginsubscribetomultipleoperations">BeginSubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginsubscribetomultipleoperations">BeginSubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Initializes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
@@ -97,7 +96,7 @@ Initializes an asynchronous operation that subscribes to a collection of notific
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginunsubscribetomultipleoperations">BeginUnsubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-beginunsubscribetomultipleoperations">BeginUnsubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Initializes an  asynchronous cancellation request for a subscription to  a collection of notifications or solicit/response events.
@@ -106,7 +105,7 @@ Initializes an  asynchronous cancellation request for a subscription to  a colle
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endgetstatusformultipleoperations">EndGetStatusForMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endgetstatusformultipleoperations">EndGetStatusForMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Initializes an asynchronous operation that retrieves the current status for a collection of event subscriptions.
@@ -115,7 +114,7 @@ Initializes an asynchronous operation that retrieves the current status for a co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endrenewmultipleoperations">EndRenewMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endrenewmultipleoperations">EndRenewMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
@@ -124,7 +123,7 @@ Completes an asynchronous operation that renews a collection of existing notific
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endsubscribetomultipleoperations">EndSubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endsubscribetomultipleoperations">EndSubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
@@ -133,7 +132,7 @@ Completes an asynchronous operation that subscribes to a collection of notificat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endunsubscribetomultipleoperations">EndUnsubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-endunsubscribetomultipleoperations">EndUnsubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Completes an  asynchronous cancellation request for a subscription to  a collection of notifications or solicit/response events.
@@ -142,7 +141,7 @@ Completes an  asynchronous cancellation request for a subscription to  a collect
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-getstatusformultipleoperations">GetStatusForMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-getstatusformultipleoperations">GetStatusForMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status for a collection of event subscriptions.
@@ -151,7 +150,7 @@ Retrieves the current status for a collection of event subscriptions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-renewmultipleoperations">RenewMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-renewmultipleoperations">RenewMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Renews a collection of existing notification subscriptions by submitting a new duration.
@@ -160,7 +159,7 @@ Renews a collection of existing notification subscriptions by submitting a new d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-subscribetomultipleoperations">SubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-subscribetomultipleoperations">SubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Subscribes to a collection of notifications or solicit/response events.
@@ -169,12 +168,11 @@ Subscribes to a collection of notifications or solicit/response events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-unsubscribetomultipleoperations">UnsubscribeToMultipleOperations</a>
+<a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxyeventing-unsubscribetomultipleoperations">UnsubscribeToMultipleOperations</a>
 </td>
 <td align="left" width="63%">
 Cancels a collection of subscriptions to notifications or solicit/request events.
 
 </td>
 </tr>
-</table> 
-
+</table>

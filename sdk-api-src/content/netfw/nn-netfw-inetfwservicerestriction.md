@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
-f1_keywords:
-- netfw/INetFwServiceRestriction
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwServiceRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwServiceRestriction
+ - netfw/INetFwServiceRestriction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwServiceRestriction
 ---
 
 # INetFwServiceRestriction interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetFwServiceRestriction</b> interface provides access to the Windows Service Hardening networking rules.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>INetFwServiceRestriction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">get_Rules</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">get_Rules</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of Windows Service Hardening network rules.
@@ -80,7 +79,7 @@ Retrieves the collection of Windows Service Hardening network rules.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-restrictservice">RestrictService</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-restrictservice">RestrictService</a>
 </td>
 <td align="left" width="63%">
 Turns service restriction on or off for a given service.
@@ -89,7 +88,7 @@ Turns service restriction on or off for a given service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-servicerestricted">ServiceRestricted</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-servicerestricted">ServiceRestricted</a>
 </td>
 <td align="left" width="63%">
 Queries the service restriction state of a given service.
@@ -106,7 +105,7 @@ Queries the service restriction state of a given service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">Rules</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservicerestriction-get_rules">Rules</a>
 
 
 </td>
@@ -115,29 +114,16 @@ Retrieves the collection of Windows Service Hardening network rules
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When adding rules, note that there may be a small time lag before the newly-added rule is applied.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

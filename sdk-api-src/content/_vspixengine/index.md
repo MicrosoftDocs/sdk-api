@@ -16,6 +16,5 @@ Overview of the Direct3D Diagnostics Capture Interface Portal technology.
 The Direct3D Diagnostics Capture Interface Portal technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Direct3D Diagnostics Capture Interface Reference](https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools)
-* [Direct3D Diagnostics Capture Interface Portal](https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools)
-
+* [Direct3D Diagnostics Capture Interface Reference](/windows/desktop/direct3dtools/dx-graphics-tools)
+* [Direct3D Diagnostics Capture Interface Portal](/windows/desktop/direct3dtools/dx-graphics-tools)

@@ -27,30 +27,38 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPRECVDISCONNECT
+ - LPWSPRECVDISCONNECT
+f1_keywords:
+ - LPWSPRECVDISCONNECT
+ - ws2spi/LPWSPRECVDISCONNECT
 ---
 
 ## -description
+
 The **LPWSPRecvDisconnect** function terminates reception on a socket and retrieves the disconnect data, if the socket is connection oriented.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying a socket.
 
 ### -param lpInboundDisconnectData [out]
+
 Pointer to a buffer into which disconnect data is to be copied.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPRecvDisconnect** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -127,6 +135,7 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
+
 **LPWSPRecvDisconnect** is used on connection-oriented sockets to disable reception, and retrieve any incoming disconnect data from the remote party.
 
 After this function has been successfully issued, subsequent receives on the socket will be disallowed. This has no effect on the lower protocol layers. For TCP, the TCP window is not changed and incoming data will be accepted (but not acknowledged) until the window is exhausted. For UDP, incoming datagrams are accepted and queued. In no case will an ICMP error packet be generated.
@@ -144,3 +153,4 @@ Note that **LPWSPRecvDisconnect** does not close the socket, and resources attac
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+

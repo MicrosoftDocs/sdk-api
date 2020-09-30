@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c30a8b33-7783-4987-aa65-ccba476ea937
 ms.date: 12/05/2018
 ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGraphBuilder interface [DirectShow],described, IXMLGraphBuilderInterface, amxmlgraphbuilder/IXMLGraphBuilder, dshow.ixmlgraphbuilder
-f1_keywords:
-- amxmlgraphbuilder/IXMLGraphBuilder
-dev_langs:
-- c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amxmlgraphbuilder.h
-api_name:
-- IXMLGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLGraphBuilder
+ - amxmlgraphbuilder/IXMLGraphBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amxmlgraphbuilder.h
+api_name:
+ - IXMLGraphBuilder
 ---
 
 # IXMLGraphBuilder interface
@@ -49,18 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IXMLGraphBuilder</b>  interface is used to persist a DirectShow filter graph using an XML file format.
 
 <div class="alert"><b>Note</b>  Support for this interface was removed in Windows 7. New applications should not use this interface.</div>
 <div> </div>
 
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLGraphBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLGraphBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLGraphBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +72,7 @@ The <b>IXMLGraphBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxml">BuildFromXML</a>
+<a href="/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxml">BuildFromXML</a>
 </td>
 <td align="left" width="63%">
 Loads a filter graph from an XML element.
@@ -84,7 +81,7 @@ Loads a filter graph from an XML element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxmlfile">BuildFromXMLFile</a>
+<a href="/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-buildfromxmlfile">BuildFromXMLFile</a>
 </td>
 <td align="left" width="63%">
 Loads a filter graph from an XML file.
@@ -93,19 +90,16 @@ Loads a filter graph from an XML file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-savetoxml">SaveToXML</a>
+<a href="/windows/desktop/api/amxmlgraphbuilder/nf-amxmlgraphbuilder-ixmlgraphbuilder-savetoxml">SaveToXML</a>
 </td>
 <td align="left" width="63%">
 Saves a filter graph to an XML element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  To get a pointer to this interface, call <b>CoCreateInstance</b> with the class identifier CLSID_XMLGraphBuilder.
 
@@ -113,13 +107,10 @@ The recommended way to save and load a filter graph is to use the GraphEdit file
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/saving-a-filter-graph-to-a-graphedit-file">Saving a Filter Graph to a GraphEdit File</a>
+<a href="/windows/desktop/DirectShow/saving-a-filter-graph-to-a-graphedit-file">Saving a Filter Graph to a GraphEdit File</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/loading-a-graphedit-file-programmatically">Loading a GraphEdit File Programmatically</a>
+<a href="/windows/desktop/DirectShow/loading-a-graphedit-file-programmatically">Loading a GraphEdit File Programmatically</a>
 </li>
 </ul>
 Generally, you should persist a filter graph only for testing purposes and not for production. There is no consistently reliable way to reload a filter graph from a file, because the user's hardware and software configurations can change between sessions. Therefore, except for testing, an application should always build a filter graph programmatically.
-
-
-

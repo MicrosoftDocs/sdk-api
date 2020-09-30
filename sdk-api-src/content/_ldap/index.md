@@ -19,5 +19,4 @@ To develop Lightweight Directory Access Protocol, you need these headers:
  * [winldap.h](../winldap/index.md)
 
 For programming guidance for this technology, see:
-* [Lightweight Directory Access Protocol](https://docs.microsoft.com/previous-versions/windows/desktop/ldap)
-
+* [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap)

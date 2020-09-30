@@ -44,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawClipper::IsClipListChanged
-
-
 ## -description
-
 
 Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - lpbChanged [out]
+### -param arg1 [out]
 
 A pointer to a variable that receives the status of the clip list. This parameter is TRUE if the clip list has changed, and FALSE otherwise.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -80,24 +65,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IsClipListChanged</b> method.
-
-
-
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>IsClipListChanged</b> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a>

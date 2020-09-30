@@ -8,10 +8,6 @@ tech.root: wincontacts
 ms.assetid: f7d47643-4ef2-41fb-9f75-2fe79fec2385
 ms.date: 12/05/2018
 ms.keywords: IContactCollection interface [Windows Contacts],Next method, IContactCollection.Next, IContactCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactCollection interface, _wincontacts_IContactCollection_Next, icontact/IContactCollection::Next, wincontacts._wincontacts_IContactCollection_Next
-f1_keywords:
-- icontact/IContactCollection.Next
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactCollection.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactCollection::Next
+ - icontact/IContactCollection::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactCollection.Next
 ---
 
 # IContactCollection::Next
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves to the next contact.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -96,16 +88,8 @@ Could not move, positioned at the end of the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After S_FALSE is returned, calls to GetCurrent will fail. 
-
-
+After S_FALSE is returned, calls to GetCurrent will fail.
 

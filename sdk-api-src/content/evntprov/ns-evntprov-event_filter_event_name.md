@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME'
-f1_keywords:
-- evntprov/EVENT_FILTER_EVENT_NAME
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EVENT_FILTER_EVENT_NAME
 targetos: Windows
 req.typenames: EVENT_FILTER_EVENT_NAME, *PEVENT_FILTER_EVENT_NAME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_FILTER_EVENT_NAME
+ - evntprov/_EVENT_FILTER_EVENT_NAME
+ - PEVENT_FILTER_EVENT_NAME
+ - evntprov/PEVENT_FILTER_EVENT_NAME
+ - EVENT_FILTER_EVENT_NAME
+ - evntprov/EVENT_FILTER_EVENT_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EVENT_FILTER_EVENT_NAME
 ---
 
 # EVENT_FILTER_EVENT_NAME structure
@@ -49,32 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
+The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
 
 This filter will only be applied to events that are otherwise enabled
 on the logging session, via level/keyword in the enable call.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MatchAnyKeyword
 
 Bitmask of keywords that determine the category of events to filter on.
 
-
 ### -field MatchAllKeyword
 
 This bitmask is optional. This mask further restricts the category of events that you want to filter on. If the event's keyword meets the <b>MatchAnyKeyword</b> condition, the provider will filter the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <b>MatchAnyKeyword</b> is zero.
 
-
 ### -field Level
 
 Defines the severity level of the event to filter on.
-
 
 ### -field FilterIn
 
@@ -82,23 +79,13 @@ Defines the severity level of the event to filter on.
 
 When used for the <b>EVENT_FILTER_TYPE_STACKWALK_NAME</b>filter type, the filtered in events will have stacks collected for them.
 
-
 ### -field NameCount
 
 The number of names in the <b>Names</b> member.
-
 
 ### -field Names
 
 An <b>NameCount</b> long array of null-terminated, UTF-8
 event names.
 
-
 ## -remarks
-
-
-
-
-
-
-

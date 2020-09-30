@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icondition2.htm
 ms.date: 12/05/2018
 ms.keywords: ICondition2, ICondition2 interface [search], ICondition2 interface [search],described, _search_ICondition2, search._search_ICondition2, structuredquerycondition/ICondition2
-f1_keywords:
-- structuredquerycondition/ICondition2
-dev_langs:
-- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquerycondition.h
-api_name:
-- ICondition2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICondition2
+ - structuredquerycondition/ICondition2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquerycondition.h
+api_name:
+ - ICondition2
 ---
 
 # ICondition2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface. <b>ICondition2</b> provides methods for retrieving information about a search condition.
-
+Extends the functionality of the <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface. <b>ICondition2</b> provides methods for retrieving information about a search condition.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>. <b>ICondition2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition2</b> interface inherits from <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>. <b>ICondition2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ICondition2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">GetLeafConditionInfo</a>
+<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getleafconditioninfo">GetLeafConditionInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property name, operation, and value from a leaf search condition node.
@@ -80,7 +79,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getlocale">GetLocale</a>
+<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition2-getlocale">GetLocale</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property name, operation, and value from a leaf search condition node.
@@ -88,22 +87,13 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
@@ -113,12 +103,8 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

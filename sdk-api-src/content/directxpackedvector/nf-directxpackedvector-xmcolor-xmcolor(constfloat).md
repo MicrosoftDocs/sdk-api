@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 1cd1f6e7-c596-47b4-8d28-f537060659bc
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR.XMCOLOR(const float), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(const float), dxmath.xmcolor_ctor_1
-f1_keywords:
-- directxpackedvector/XMCOLOR.XMCOLOR
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMCOLOR.XMCOLOR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMCOLOR::XMCOLOR
+ - directxpackedvector/XMCOLOR::XMCOLOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMCOLOR.XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMCOLOR** from a from a four element <code>float</code> array argument.
 
@@ -93,6 +95,6 @@ instance.v =  ( (uint32_t)_a1 << 24) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
+<a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>

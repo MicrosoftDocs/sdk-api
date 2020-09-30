@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.date: 12/05/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
-f1_keywords:
-- msiquery/MsiGetFeatureValidStates
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureValidStates
-- MsiGetFeatureValidStatesA
-- MsiGetFeatureValidStatesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureValidStatesA
+ - msiquery/MsiGetFeatureValidStatesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureValidStates
+ - MsiGetFeatureValidStatesA
+ - MsiGetFeatureValidStatesW
 ---
 
 # MsiGetFeatureValidStatesA function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureValidStates</b> function returns a valid installation state.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFeature [in]
 
 Specifies the feature name.
-
 
 ### -param lpInstallStates [out]
 
@@ -136,25 +130,16 @@ The feature can be configured to use the default location: local or source.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiGetFeatureValidStates</b> function returns the following values:
 
-
-
-
 ## -remarks
 
-
-
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 The <b>MsiGetFeatureValidStates</b> function determines state validity by querying all components that are linked to the specified feature without taking into account the current installed state of any component.  
 
@@ -178,7 +163,7 @@ If Feature1 has attributes of value 0 (favor local), and Feature1 has one compon
 
 ( ( dwValidStates &amp; ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) ) == ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) )
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -189,15 +174,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

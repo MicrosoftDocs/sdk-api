@@ -7,9 +7,13 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: directml
 ms.custom: 19H1
+f1_keywords:
+ - directml
+ - directml/directml
 ---
 
 # DirectML.h header
+
 
 ## -description
 

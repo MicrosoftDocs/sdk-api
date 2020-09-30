@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
 ms.date: 12/05/2018
 ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],CreateRelationship method, IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
-f1_keywords:
-- msopc/IOpcRelationshipSet.CreateRelationship
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationshipSet.CreateRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationshipSet::CreateRelationship
+ - msopc/IOpcRelationshipSet::CreateRelationship
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationshipSet.CreateRelationship
 ---
 
 # IOpcRelationshipSet::CreateRelationship
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a relationship object that represents a specified relationship, then adds to  the set a pointer to the object's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface.
-
+Creates a relationship object that represents a specified relationship, then adds to  the set a pointer to the object's <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param relationshipIdentifier [in]
 
@@ -64,11 +60,9 @@ A unique identifier of the relationship to be represented as the relationship ob
 
 Valid identifiers conform to the restrictions for <b>xsd:ID</b>, which are  documented in section 3.3.8 ID of the <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a> (http://www.w3.org/TR/xmlschema-2/#ID).
 
-
 ### -param relationshipType [in]
 
 The relationship type that defines the role of  the relationship to be represented as the relationship object.
-
 
 ### -param targetUri [in]
 
@@ -80,22 +74,17 @@ If the value in <i>targetMode</i> is <b>OPC_URI_TARGET_MODE_EXTERNAL</b>, target
 
 For more information about the URI of a relationship's target, see the <i>OPC</i>.
 
-
 ### -param targetMode [in]
 
 A value that indicates whether the target of the relationship to be represented as the relationship object is internal or external to  the package.
 
-
 ### -param relationship [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface  of the relationship object that represents the relationship. 
+A pointer to the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface  of the relationship object that represents the relationship. 
 
 This parameter can be <b>NULL</b> if a pointer to the  new object is not needed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -204,7 +193,7 @@ The <b>Type</b> attribute of a relationship does not conform to the rules specif
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>. 
 
 </td>
 </tr>
@@ -215,38 +204,26 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>. 
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When a relationship object is created and a pointer to it is added to the set, the relationship it represents is saved when the package is saved.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface provides access to relationship properties. For details about these properties, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a>.
+The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a> interface provides access to relationship properties. For details about these properties, see the <a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a> and <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
-
-
-
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -256,11 +233,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a>
 
 
 
@@ -268,7 +245,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
+<a href="/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
 
 
 
@@ -276,15 +253,15 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
@@ -292,12 +269,8 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
+<a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
 
 
 
 <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
- 
-
- 
-

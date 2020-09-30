@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine
-f1_keywords:
-- wincrypt/CertFreeCertificateChainEngine
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertFreeCertificateChainEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertFreeCertificateChainEngine
+ - wincrypt/CertFreeCertificateChainEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertFreeCertificateChainEngine
 ---
 
 # CertFreeCertificateChainEngine function
@@ -49,31 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertFreeCertificateChainEngine</b> function frees a certificate trust engine.
 
-
 ## -parameters
-
-
-
 
 ### -param hChainEngine [in]
 
 Handle of the chain engine to be freed.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>

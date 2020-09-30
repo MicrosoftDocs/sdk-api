@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9d93130c-12fb-4c76-98c1-cdfae113cf2c
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], IDVB_EIT2 interface [Microsoft TV Technologies],described, dvbsiparser/IDVB_EIT2, mstv.idvb_eit2
-f1_keywords:
-- dvbsiparser/IDVB_EIT2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT2
+ - dvbsiparser/IDVB_EIT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT2
 ---
 
 # IDVB_EIT2 interface
@@ -49,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDVB_EIT2</b> interface enables an application to get information from a Digital Video Broadcasting (DVB) event information table (EIT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IDvbSiParser2::GetEIT2</a> method returns a pointer to this interface. This interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a> interface.
+The <b>IDVB_EIT2</b> interface enables an application to get information from a Digital Video Broadcasting (DVB) event information table (EIT). The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IDvbSiParser2::GetEIT2</a> method returns a pointer to this interface. This interface extends the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a> interface.
 
 An EIT provides information about events in each service, such as the event name, the start time, and the duration. An EIT can hold information about the transport stream that carries it, or it can hold information about other transport streams. There are two types of EITs:
 <ul>
@@ -78,12 +78,11 @@ An EIT provides information about events in each service, such as the event name
 <td>0x60  – 0x6F</td>
 <td>Schedule EIT for another transport stream.</td>
 </tr>
-</table> 
-
+</table>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_EIT2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a>. <b>IDVB_EIT2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_EIT2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a>. <b>IDVB_EIT2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -98,7 +97,7 @@ The <b>IDVB_EIT2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit2-getrecordsection">GetRecordSection</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit2-getrecordsection">GetRecordSection</a>
 </td>
 <td align="left" width="63%">
 Gets the number of a section that contains an  EIT record.
@@ -107,27 +106,19 @@ Gets the number of a section that contains an  EIT record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-registerforwhencurrent">GetSegmentInfo</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-registerforwhencurrent">GetSegmentInfo</a>
 </td>
 <td align="left" width="63%">
 Gets data from a segment within an EIT record.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT</a>

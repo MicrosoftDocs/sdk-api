@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::ResourceBarrier
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::ResourceBarrier
  - d3d12video/ID3D12VideoEncodeCommandList::ResourceBarrier
 dev_langs:
  - c++
@@ -53,7 +54,7 @@ The number of submitted barrier descriptions.
 
 ### -param pBarriers
 
-Type: <b>const <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier">D3D12_RESOURCE_BARRIER</a>*</b>
 
 Pointer to an array of barrier descriptions.
 
@@ -62,4 +63,3 @@ Pointer to an array of barrier descriptions.
 This method returns void.
 
 ## -see-also
-

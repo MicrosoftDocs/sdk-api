@@ -28,6 +28,7 @@ api_location:
 api_name:
  - ID3D12VideoDecoder1
 f1_keywords:
+ - ID3D12VideoDecoder1
  - d3d12video/ID3D12VideoDecoder1
 dev_langs:
  - c++

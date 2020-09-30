@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputmacros\get_rawinput_code_wparam.htm
 ms.date: 12/05/2018
 ms.keywords: GET_RAWINPUT_CODE_WPARAM, GET_RAWINPUT_CODE_WPARAM macro [Keyboard and Mouse Input], RIM_INPUT, RIM_INPUTSINK, _win32_GET_RAWINPUT_CODE_WPARAM, _win32_get_rawinput_code_wparam_cpp, inputdev.get_rawinput_code_wparam, winui._win32_get_rawinput_code_wparam, winuser/GET_RAWINPUT_CODE_WPARAM
-f1_keywords:
-- winuser/GET_RAWINPUT_CODE_WPARAM
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- GET_RAWINPUT_CODE_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GET_RAWINPUT_CODE_WPARAM
+ - winuser/GET_RAWINPUT_CODE_WPARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - GET_RAWINPUT_CODE_WPARAM
 ---
 
 # GET_RAWINPUT_CODE_WPARAM macro
 
+
 ## -description
 
-Retrieves the input code from <i>wParam</i> in [WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input) message.
+Retrieves the input code from <i>wParam</i> in [WM_INPUT](/windows/desktop/inputdev/wm-input) message.
 
 ## -parameters
 
 ### -param wParam
 
-<i>wParam</i> from [WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input) message.
+<i>wParam</i> from [WM_INPUT](/windows/desktop/inputdev/wm-input) message.
 
 ## -returns
 
@@ -71,8 +73,8 @@ Input code value. Can be one of the following:
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
 **Reference**
 
-[WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input)
+[WM_INPUT](/windows/desktop/inputdev/wm-input)

@@ -36,26 +36,34 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticReportAtIndex
+f1_keywords:
+ - DdqGetDiagnosticReportAtIndex
+ - diagnosticdataquery/DdqGetDiagnosticReportAtIndex
 ---
 
 ## -description
-Fetches an error report and its information at the specified index in the resource pointed to by the HDIAGNOSTIC_REPORT_DATA handle. 
+
+Fetches an error report and its information at the specified index in the resource pointed to by the HDIAGNOSTIC_REPORT_DATA handle.
 
 ## -parameters
 
 ### -param hReport
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the resource with the set of problem reports.
 
 ### -param index
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
-The index of the error report to fetch. 
+The index of the error report to fetch.
 
 ### -param report
+
 Type: **[DIAGNOSTIC_DATA_REPORT_DATA\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)**
-This output parameter is a pointer to the resource that contains information about the fetched diagnostic report. 
+This output parameter is a pointer to the resource that contains information about the fetched diagnostic report.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

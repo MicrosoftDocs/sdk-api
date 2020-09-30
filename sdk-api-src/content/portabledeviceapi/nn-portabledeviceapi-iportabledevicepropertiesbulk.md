@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 57cda40a-8573-4b6c-981e-770f35186038
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesBulkInterface, portabledeviceapi/IPortableDevicePropertiesBulk, wpdsdk.iportabledevicepropertiesbulk
-f1_keywords:
-- portabledeviceapi/IPortableDevicePropertiesBulk
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevicePropertiesBulk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevicePropertiesBulk
+ - portabledeviceapi/IPortableDevicePropertiesBulk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevicePropertiesBulk
 ---
 
 # IPortableDevicePropertiesBulk interface
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IPortableDevicePropertiesBulk</b> interface queries or sets multiple properties on multiple objects on a device, asynchronously. Information is returned by an application-implemented <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback</a> interface.
+The <b>IPortableDevicePropertiesBulk</b> interface queries or sets multiple properties on multiple objects on a device, asynchronously. Information is returned by an application-implemented <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback</a> interface.
 
 To get this interface, call <b>QueryInterface</b> on <b>IPortableDeviceProperties</b>. If the device does not support bulk operations, this call will fail with E_NOINTERFACE.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevicePropertiesBulk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevicePropertiesBulk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevicePropertiesBulk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevicePropertiesBulk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +72,7 @@ The <b>IPortableDevicePropertiesBulk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending properties request.
@@ -85,7 +81,7 @@ Cancels a pending properties request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectformat">QueueGetValuesByObjectFormat</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectformat">QueueGetValuesByObjectFormat</a>
 </td>
 <td align="left" width="63%">
 Queues a request for properties of objects of a specific format on a device.
@@ -94,7 +90,7 @@ Queues a request for properties of objects of a specific format on a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist">QueueGetValuesByObjectList</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist">QueueGetValuesByObjectList</a>
 </td>
 <td align="left" width="63%">
 Queues a request for one or more specified properties from one or more specified objects on the device.
@@ -103,7 +99,7 @@ Queues a request for one or more specified properties from one or more specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist">QueueSetValuesByObjectList</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist">QueueSetValuesByObjectList</a>
 </td>
 <td align="left" width="63%">
 Queues a request to set one or more specified values on one or more specified objects on the device.
@@ -112,23 +108,15 @@ Queues a request to set one or more specified values on one or more specified ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">Start</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts a queued operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>

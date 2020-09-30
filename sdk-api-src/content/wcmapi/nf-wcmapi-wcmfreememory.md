@@ -8,10 +8,6 @@ tech.root: wcm
 ms.assetid: 43377f58-9702-472d-874a-898f29b743d8
 ms.date: 12/05/2018
 ms.keywords: WcmFreeMemory, WcmFreeMemory function [Windows Connection Manager], wcm.wcmfreememory, wcmapi/WcmFreeMemory
-f1_keywords:
-- wcmapi/WcmFreeMemory
-dev_langs:
-- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wcmapi.dll
-- Ext-MS-Win-networking-wcmapi-l1-1-0.dll
-api_name:
-- WcmFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WcmFreeMemory
+ - wcmapi/WcmFreeMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wcmapi.dll
+ - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+api_name:
+ - WcmFreeMemory
 ---
 
 # WcmFreeMemory function
@@ -50,17 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WcmFreeMemory</b> function is used to release memory resources allocated by the WCM functions.
 
-
 ## -parameters
-
-
-
 
 ### -param pMemory
 
 Pointer to the memory to be freed.
-
 

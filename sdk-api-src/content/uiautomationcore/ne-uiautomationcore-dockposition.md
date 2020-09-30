@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 36ed98c2-f111-4192-8ce2-b8dd7da47de5
 ms.date: 12/05/2018
 ms.keywords: DockPosition, DockPosition enumeration [Windows Accessibility], DockPosition_Bottom, DockPosition_Fill, DockPosition_Left, DockPosition_None, DockPosition_Right, DockPosition_Top, uiauto.uiauto_dock_pos_enum, uiauto_dock_pos_enum, uiautomationcore/DockPosition, uiautomationcore/DockPosition_Bottom, uiautomationcore/DockPosition_Fill, uiautomationcore/DockPosition_Left, uiautomationcore/DockPosition_None, uiautomationcore/DockPosition_Right, uiautomationcore/DockPosition_Top, winauto.uiauto_dock_pos_enum
-f1_keywords:
-- uiautomationcore/DockPosition
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- DockPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DockPosition
+ - uiautomationcore/DockPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - DockPosition
 ---
 
 # DockPosition enumeration
@@ -49,52 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains values that specify the location of a docking window represented by the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingdock">Dock</a> <i>control pattern</i>.
-
+Contains values that specify the location of a docking window represented by the <a href="/windows/desktop/WinAuto/uiauto-implementingdock">Dock</a> <i>control pattern</i>.
 
 ## -enum-fields
-
-
-
 
 ### -field DockPosition_Top
 
 The window is docked at the top.
 
-
 ### -field DockPosition_Left
 
 The window is docked at the left.
-
 
 ### -field DockPosition_Bottom
 
 The window is docked at the bottom.
 
-
 ### -field DockPosition_Right
 
 The window is docked at the right.
-
 
 ### -field DockPosition_Fill
 
 The window is docked on all four sides.
 
-
 ### -field DockPosition_None
 
 The window is not docked.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>

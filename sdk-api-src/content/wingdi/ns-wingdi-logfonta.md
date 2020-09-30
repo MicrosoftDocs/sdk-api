@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGFONTA, *NPLOGFONTA, *PLOGFONTA, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT'
-f1_keywords:
-- wingdi/LOGFONT
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- LOGFONT
-- LOGFONTA
-- LOGFONTW
 targetos: Windows
 req.typenames: LOGFONTA, *PLOGFONTA, *NPLOGFONTA, *LPLOGFONTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLOGFONTA
+ - wingdi/tagLOGFONTA
+ - PLOGFONTA
+ - wingdi/PLOGFONTA
+ - LOGFONTA
+ - wingdi/LOGFONTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - LOGFONT
+ - LOGFONTA
+ - LOGFONTW
 ---
 
 # LOGFONTA structure
@@ -51,17 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>LOGFONT</b> structure defines the attributes of a font.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field lfHeight
 
@@ -100,12 +97,9 @@ lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
 
 ```
 
-
-
 ### -field lfWidth
 
 The average width, in logical units, of characters in the font. If <b>lfWidth</b> is zero, the aspect ratio of the device is matched against the digitization aspect ratio of the available fonts to find the closest match, determined by the absolute value of the difference.
-
 
 ### -field lfEscapement
 
@@ -115,11 +109,9 @@ The angle, in tenths of degrees, between the escapement vector and the x-axis of
 
 When the graphics mode is set to GM_COMPATIBLE, <b>lfEscapement</b> specifies both the escapement and orientation. You should set <b>lfEscapement</b> and <b>lfOrientation</b> to the same value.
 
-
 ### -field lfOrientation
 
 The angle, in tenths of degrees, between each character's base line and the x-axis of the device.
-
 
 ### -field lfWeight
 
@@ -193,23 +185,18 @@ The following values are defined for convenience.
 <td>900</td>
 </tr>
 </table>
- 
-
 
 ### -field lfItalic
 
 An italic font if set to <b>TRUE</b>.
 
-
 ### -field lfUnderline
 
 An underlined font if set to <b>TRUE</b>.
 
-
 ### -field lfStrikeOut
 
 A strikeout font if set to <b>TRUE</b>.
-
 
 ### -field lfCharSet
 
@@ -258,7 +245,6 @@ The OEM_CHARSET value specifies a character set that is operating-system depende
 Fonts with other character sets may exist in the operating system. If an application uses a font with an unknown character set, it should not attempt to translate or interpret strings that are rendered with that font.
 
 This parameter is important in the font mapping process. To ensure consistent results, specify a specific character set. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
-
 
 ### -field lfOutPrecision
 
@@ -314,7 +300,6 @@ The output precision. The output precision defines how closely the output must m
 
 Applications can use the OUT_DEVICE_PRECIS, OUT_RASTER_PRECIS, OUT_TT_PRECIS, and OUT_PS_ONLY_PRECIS values to control how the font mapper chooses a font when the operating system contains more than one font with a specified name. For example, if an operating system contains a font named Symbol in raster and TrueType form, specifying OUT_TT_PRECIS forces the font mapper to choose the TrueType version. Specifying OUT_TT_ONLY_PRECIS forces the font mapper to choose a TrueType font, even if it must substitute a TrueType font of another name.
 
-
 ### -field lfClipPrecision
 
 The clipping precision. The clipping precision defines how to clip characters that are partially outside the clipping region. It can be one or more of the following values.
@@ -367,8 +352,6 @@ For more information about the orientation of coordinate systems, see the descri
 <td>Not used.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfQuality
 
@@ -407,7 +390,6 @@ The output quality. The output quality defines how carefully the graphics device
  
 
 If neither ANTIALIASED_QUALITY nor NONANTIALIASED_QUALITY is selected, the font is antialiased only if the user chooses smooth screen fonts in Control Panel.
-
 
 ### -field lfPitchAndFamily
 
@@ -462,17 +444,12 @@ Font families describe the look of a font in a general way. They are intended fo
 <td>Fonts with variable stroke width (proportional) and without serifs. MS Sans Serif is an example.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfFaceName
 
-A null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 <b>TCHAR</b> values, including the terminating <b>NULL</b>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
-
+A null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 <b>TCHAR</b> values, including the terminating <b>NULL</b>. The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
 
 ## -remarks
-
-
 
 The following situations do not support ClearType antialiasing:
 
@@ -492,27 +469,20 @@ The following situations do not support ClearType antialiasing:
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

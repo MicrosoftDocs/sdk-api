@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
-f1_keywords:
-- rdpencomapi/IRDPSRAPIInvitationManager
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIInvitationManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIInvitationManager
+ - rdpencomapi/IRDPSRAPIInvitationManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIInvitationManager
 ---
 
 # IRDPSRAPIInvitationManager interface
@@ -49,18 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages invitation objects.
 
-Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_invitations">IRDPSRAPISharingSession::get_Invitations</a>
+Applications obtain access to this object using <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_invitations">IRDPSRAPISharingSession::get_Invitations</a>
 
 
 This interface provides access to the <b>RDPSRAPIInvitationManager</b> object.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIInvitationManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIInvitationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIInvitationManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIInvitationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +75,7 @@ The <b>IRDPSRAPIInvitationManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">CreateInvitation</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">CreateInvitation</a>
 </td>
 <td align="left" width="63%">
 Creates an invitation.
@@ -94,7 +93,7 @@ Creates an invitation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -110,7 +109,7 @@ An enumerator interface for the invitation collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_count">Count</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_count">Count</a>
 
 
 </td>
@@ -126,7 +125,7 @@ The number of invitations in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_item">Item</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_item">Item</a>
 
 
 </td>
@@ -139,20 +138,12 @@ An item in the invitation collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>

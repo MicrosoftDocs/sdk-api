@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: d38c0d75-eb9c-4b8c-bf0e-7f05eb2f5116
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],put_Recorder method, IDiscFormat2Erase.put_Recorder, IDiscFormat2Erase::put_Recorder, imapi.idiscformat2erase_put_recorder, imapi2/IDiscFormat2Erase::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2Erase interface
-f1_keywords:
-- imapi2/IDiscFormat2Erase.put_Recorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Erase.put_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Erase::put_Recorder
+ - imapi2/IDiscFormat2Erase::put_Recorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Erase.put_Recorder
 ---
 
 # IDiscFormat2Erase::put_Recorder
@@ -49,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the recording device to use in the erase operation.
-
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the erase operation.
-
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the erase operation.
 
 ## -returns
 
-
-
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
-
-
-
 
 ## -remarks
 
-
-
-The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsRecorderSupported</a> method.
-
-
-
+The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsRecorderSupported</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_recorder">IDiscFormat2Erase::get_Recorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_recorder">IDiscFormat2Erase::get_Recorder</a>

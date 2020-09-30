@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
-f1_keywords:
-- strmif/IDvdControl2.SelectKaraokeAudioPresentationMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectKaraokeAudioPresentationMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectKaraokeAudioPresentationMode
+ - strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectKaraokeAudioPresentationMode
 ---
 
 # IDvdControl2::SelectKaraokeAudioPresentationMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxiliary channels to the left or right speakers.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ulMode [in]
 
-Bitwise OR of [DVD_KARAOKE_DOWNMIX](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
-
+Bitwise OR of [DVD_KARAOKE_DOWNMIX](/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix) enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -107,7 +97,7 @@ The audio decoder does not support downmixing.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is in an invalid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is in an invalid domain.
 
 </td>
 </tr>
@@ -123,14 +113,8 @@ UOP control prohibits the current operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the DVD Navigator enters karaoke mode, it queries the audio decoder to discover whether it supports karaoke downmixing. If the decoder supports it, then channels 2 through 4 (the karaoke auxiliary channels with the guide vocals, guide melodies, and sound effects) are muted. Use this method to turn individual channels on or off and direct them to channels 0 and 1.
 
@@ -157,30 +141,19 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-karaoke-property-set">DVD Karaoke Property Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-karaoke-property-set">DVD Karaoke Property Set</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: fd680016-1e6f-4d15-b1ca-cd2b6b210a71
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.SetInboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::SetInboundHttpHeaders
+ - wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.SetInboundHttpHeaders
 ---
 
 # IWSDHttpMessageParameters::SetInboundHttpHeaders
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.
 
-
 ## -parameters
-
-
-
 
 ### -param pszHeaders [in]
 
 The HTTP headers to be set.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -108,18 +101,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

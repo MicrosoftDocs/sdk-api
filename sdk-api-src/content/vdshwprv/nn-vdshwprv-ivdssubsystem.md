@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem
-f1_keywords:
-- vdshwprv/IVdsSubSystem
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystem
+ - vdshwprv/IVdsSubSystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystem
 ---
 
 # IVdsSubSystem interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing query and configuration operations on a subsystem.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +72,7 @@ The <b>IVdsSubSystem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">CreateLun</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">CreateLun</a>
 </td>
 <td align="left" width="63%">
 Creates a new LUN.
@@ -82,7 +81,7 @@ Creates a new LUN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">GetDrive</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">GetDrive</a>
 </td>
 <td align="left" width="63%">
 Returns the specified drive.
@@ -91,7 +90,7 @@ Returns the specified drive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the subsystem object.
@@ -100,7 +99,7 @@ Returns the properties of the subsystem object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getprovider">GetProvider</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getprovider">GetProvider</a>
 </td>
 <td align="left" width="63%">
 Returns the provider that manages the subsystem.
@@ -109,7 +108,7 @@ Returns the provider that manages the subsystem.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querycontrollers">QueryControllers</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querycontrollers">QueryControllers</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of the controllers.
@@ -118,7 +117,7 @@ Returns an enumeration of the controllers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">QueryDrives</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">QueryDrives</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of the drives.
@@ -127,7 +126,7 @@ Returns an enumeration of the drives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-queryluns">QueryLuns</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-queryluns">QueryLuns</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of LUNs surfaced by the subsystem.
@@ -136,7 +135,7 @@ Returns an enumeration of LUNs surfaced by the subsystem.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querymaxluncreatesize">QueryMaxLunCreateSize</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querymaxluncreatesize">QueryMaxLunCreateSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the maximum  LUN that can be created using the specified 
@@ -146,7 +145,7 @@ Returns the size of the maximum  LUN that can be created using the specified
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-reenumerate">Reenumerate</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-reenumerate">Reenumerate</a>
 </td>
 <td align="left" width="63%">
 Prompts the subsystem to scan its bus to discover newly connected drives or newly disconnected drives.
@@ -155,7 +154,7 @@ Prompts the subsystem to scan its bus to discover newly connected drives or newl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-replacedrive">ReplaceDrive</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-replacedrive">ReplaceDrive</a>
 </td>
 <td align="left" width="63%">
 Replaces or migrates one of the drives with another.
@@ -164,7 +163,7 @@ Replaces or migrates one of the drives with another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setcontrollerstatus">SetControllerStatus</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setcontrollerstatus">SetControllerStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the controllers to either online or offline.
@@ -173,43 +172,35 @@ Sets the controllers to either online or offline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the status of the subsystem to the specified value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getsubsystem">IVdsController::GetSubSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getsubsystem">IVdsController::GetSubSystem</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getsubsystem">IVdsDrive::GetSubSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getsubsystem">IVdsDrive::GetSubSystem</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-querysubsystems">IVdsHwProvider::QuerySubSystems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-querysubsystems">IVdsHwProvider::QuerySubSystems</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getsubsystem">IVdsLun::GetSubSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getsubsystem">IVdsLun::GetSubSystem</a>
+<a href="/windows/desktop/VDS/subsystem-object">Subsystem Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/subsystem-object">Subsystem Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX'
-f1_keywords:
-- winnt/ENCLAVE_CREATE_INFO_SGX
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- ENCLAVE_CREATE_INFO_SGX
 targetos: Windows
 req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ENCLAVE_CREATE_INFO_SGX
+ - winnt/_ENCLAVE_CREATE_INFO_SGX
+ - PENCLAVE_CREATE_INFO_SGX
+ - winnt/PENCLAVE_CREATE_INFO_SGX
+ - ENCLAVE_CREATE_INFO_SGX
+ - winnt/ENCLAVE_CREATE_INFO_SGX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - ENCLAVE_CREATE_INFO_SGX
 ---
 
 # ENCLAVE_CREATE_INFO_SGX structure
@@ -49,40 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains architecture-specific information to use to create an enclave when the enclave type is <b>ENCLAVE_TYPE_SGX</b>, which specifies an enclave for the Intel Software Guard Extensions (SGX) architecture extension.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Secs
 
 The SGX enclave control structure (<b>SECS</b>) to use to create the enclave.
 
-
 ## -remarks
-
-
 
 For more information about the <b>SECS</b> structure, see the Intel SGX Programming Reference that is available from <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.date: 12/05/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum
-f1_keywords:
-- certenroll/EnrollmentEnrollStatus
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- EnrollmentEnrollStatus
 targetos: Windows
 req.typenames: EnrollmentEnrollStatus
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnrollmentEnrollStatus
+ - certenroll/EnrollmentEnrollStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - EnrollmentEnrollStatus
 ---
 
 # EnrollmentEnrollStatus enumeration
@@ -49,69 +50,50 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> interface.
-
+The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a> interface.
 
 ## -enum-fields
-
-
-
 
 ### -field Enrolled
 
 The enrollment succeeded, and the certificate has been issued.
 
-
 ### -field EnrollPended
 
 The request has been submitted and the enrollment is pending, or the request has been issued out of band.
-
 
 ### -field EnrollUIDeferredEnrollmentRequired
 
 Enrollment must be deferred.
 
-
 ### -field EnrollError
 
 An error occurred.
-
 
 ### -field EnrollUnknown
 
 The enrollment status is unknown.
 
-
 ### -field EnrollSkipped
 
-The status information has been skipped. This can occur if a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> is not valid or has not been selected for monitoring.
-
+The status information has been skipped. This can occur if a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> is not valid or has not been selected for monitoring.
 
 ### -field EnrollDenied
 
 Enrollment has been denied.
 
-
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/api/certenroll/ne-certenroll-enrollmentselectionstatus">EnrollmentSelectionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-enrollmentselectionstatus">EnrollmentSelectionStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: a149466a-a274-495a-a6cd-1553205abc07
 ms.date: 12/05/2018
 ms.keywords: IVersionInfo, IVersionInfo interface [Windows Accessibility], IVersionInfo interface [Windows Accessibility],described, msaa.iversioninfo, msaatext/IVersionInfo, winauto.iversioninfo
-f1_keywords:
-- msaatext/IVersionInfo
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msaatext.h
-api_name:
-- IVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVersionInfo
+ - msaatext/IVersionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msaatext.h
+api_name:
+ - IVersionInfo
 ---
 
 # IVersionInfo interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods that supply version information for accessible elements.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVersionInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVersionInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVersionInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVersionInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>IVersionInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getbuildversion">GetBuildVersion</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getbuildversion">GetBuildVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the build version.
@@ -83,7 +82,7 @@ Retrieves the build version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getcomponentdescription">GetComponentDescription</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getcomponentdescription">GetComponentDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the component.
@@ -92,7 +91,7 @@ Retrieves a description of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getimplementationid">GetImplementationID</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getimplementationid">GetImplementationID</a>
 </td>
 <td align="left" width="63%">
 Retrieves an implementation identifier.
@@ -101,7 +100,7 @@ Retrieves an implementation identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getinstancedescription">GetInstanceDescription</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getinstancedescription">GetInstanceDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the instance.
@@ -110,12 +109,11 @@ Retrieves a description of the instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getsubcomponentcount">GetSubcomponentCount</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getsubcomponentcount">GetSubcomponentCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of subcomponents for which version information is returned.
 
 </td>
 </tr>
-</table> 
-
+</table>

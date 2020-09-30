@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash
-f1_keywords:
-- certenroll/ICertPropertyArchivedKeyHash
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyArchivedKeyHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyArchivedKeyHash
+ - certenroll/ICertPropertyArchivedKeyHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyArchivedKeyHash
 ---
 
 # ICertPropertyArchivedKeyHash interface
@@ -49,19 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertPropertyArchivedKeyHash</b> interface represents a SHA-1 hash of an encrypted private key submitted to a certification authority for archival.
 
 To archive a private key, a client first encrypts the key by using the public key from a CA exchange certificate. The client then places the encrypted private key into a PKCS #7 EnvelopedData structure and hashes the structure by using a SHA-1 hash algorithm. The resulting hash  is used to initialize an <b>ICertPropertyArchivedKeyHash</b> object and is included in a CMC certificate request. The property value is typically associated with the certificate after the certificate response is received from the CA and before the response is placed in a store.
 
-This property is initialized by the enrollment process and associated with the dummy certificate that is temporarily copied to the request store. If the CA denies the certificate request, the dummy certificate in the request store and all properties associated with it are deleted. If the CA issues the certificate and it is installed in the certificate store, this property is associated with the new certificate in the personal store and the dummy certificate is deleted.<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_ARCHIVED_KEY_HASH_PROP_IDD.</div>
+This property is initialized by the enrollment process and associated with the dummy certificate that is temporarily copied to the request store. If the CA denies the certificate request, the dummy certificate in the request store and all properties associated with it are deleted. If the CA issues the certificate and it is installed in the certificate store, this property is associated with the new certificate in the personal store and the dummy certificate is deleted.<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_ARCHIVED_KEY_HASH_PROP_IDD.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyArchivedKeyHash</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchivedKeyHash</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyArchivedKeyHash</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchivedKeyHash</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +75,7 @@ The <b>ICertPropertyArchivedKeyHash</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchivedkeyhash-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchivedkeyhash-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a  byte array that contains the hash.
@@ -95,7 +93,7 @@ Initializes the object from a  byte array that contains the hash.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchivedkeyhash-get_archivedkeyhash">ArchivedKeyHash</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchivedkeyhash-get_archivedkeyhash">ArchivedKeyHash</a>
 
 
 </td>
@@ -108,20 +106,12 @@ Retrieves a SHA-1 hash of the private key.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>

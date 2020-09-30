@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
-f1_keywords:
-- netfw/INetFwAuthorizedApplications.Item
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwAuthorizedApplications.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwAuthorizedApplications::Item
+ - netfw/INetFwAuthorizedApplications::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwAuthorizedApplications.Item
 ---
 
 # INetFwAuthorizedApplications::Item
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>Item</b> method returns the specified application if it is in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param imageFileName [in]
 
 Application to retrieve.
-
 
 ### -param app
 
@@ -80,14 +75,11 @@ Application to retrieve.
 
 #### - application [out]
 
-Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
+Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
 
-Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
-
+Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds the return value is S_OK.
@@ -223,22 +215,11 @@ The requested item does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>

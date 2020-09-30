@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: ea593b1c-0986-4969-8f6f-726987b7c4a6
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Reset, IInkTransform::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IInkTransform interface, ea593b1c-0986-4969-8f6f-726987b7c4a6, msinkaut/IInkTransform::Reset, tablet.inktransform_reset
-f1_keywords:
-- msinkaut/IInkTransform.Reset
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkTransform.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTransform::Reset
+ - msinkaut/IInkTransform::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkTransform.Reset
 ---
 
 # IInkTransform::Reset
@@ -50,40 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Resets the transform to its default state, the identity transform.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

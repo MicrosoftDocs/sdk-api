@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2b4f81f9-81ec-4288-a26c-8ed4d378358a
 ms.date: 12/05/2018
 ms.keywords: IVdsVDisk, IVdsVDisk interface, IVdsVDisk interface,described, base.ivdsvdisk, vds/IVdsVDisk
-f1_keywords:
-- vds/IVdsVDisk
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVDisk
+ - vds/IVdsVDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVDisk
 ---
 
 # IVdsVDisk interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines methods for managing a virtual disk.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +72,7 @@ The <b>IVdsVDisk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getdevicename">GetDeviceName</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getdevicename">GetDeviceName</a>
 </td>
 <td align="left" width="63%">
 Returns the device name for the volume where the virtual disk resides.
@@ -82,7 +81,7 @@ Returns the device name for the volume where the virtual disk resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-gethostvolume">GetHostVolume</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-gethostvolume">GetHostVolume</a>
 </td>
 <td align="left" width="63%">
 Returns an interface pointer to the volume object for the volume where the virtual disk resides.
@@ -91,7 +90,7 @@ Returns an interface pointer to the volume object for the volume where the virtu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns disk property information for the volume where the virtual disk resides.
@@ -100,27 +99,19 @@ Returns disk property information for the volume where the virtual disk resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-open">Open</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdisk-open">Open</a>
 </td>
 <td align="left" width="63%">
-Opens a handle to the specified virtual disk file and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.
+Opens a handle to the specified virtual disk file and returns an <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 85422EF5-8A8E-4e14-BD32-953C31A9D401
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderSetUserArray, ICredentialProviderSetUserArray interface [Windows Shell], ICredentialProviderSetUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderSetUserArray, shell.ICredentialProviderSetUserArray
-f1_keywords:
-- credentialprovider/ICredentialProviderSetUserArray
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderSetUserArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderSetUserArray
+ - credentialprovider/ICredentialProviderSetUserArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderSetUserArray
 ---
 
 # ICredentialProviderSetUserArray interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method that enables a credential provider to receive the set of users that will be shown in the logon or credential UI.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderSetUserArray</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderSetUserArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderSetUserArray</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderSetUserArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,19 +69,16 @@ The <b>ICredentialProviderSetUserArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidersetuserarray-setuserarray">SetUserArray</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidersetuserarray-setuserarray">SetUserArray</a>
 </td>
 <td align="left" width="63%">
 Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to implement</h3>
 Implement this interface for credential providers that have a need to know which users will appear in the logon or credential UI.
@@ -90,22 +86,10 @@ Implement this interface for credential providers that have a need to know which
 <h3><a id="When_to_use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to use</h3>
 This interface is used only by the Windows credential provider framework. Its method should not be called by other parties.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
 
 
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

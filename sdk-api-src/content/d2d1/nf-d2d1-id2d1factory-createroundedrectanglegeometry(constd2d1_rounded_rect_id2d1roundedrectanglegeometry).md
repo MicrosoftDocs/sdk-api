@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: b0f7ccb0-5733-4f96-a532-8f665fbc257e
 ms.date: 12/05/2018
 ms.keywords: CreateRoundedRectangleGeometry, CreateRoundedRectangleGeometry methods [Direct2D], ID2D1Factory.CreateRoundedRectangleGeometry, ID2D1Factory::CreateRoundedRectangleGeometry, d2d1/CreateRoundedRectangleGeometry, direct2d.id2d1factory_createroundedrectanglegeometry
-f1_keywords:
-- d2d1/ID2D1Factory::CreateRoundedRectangleGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory::CreateRoundedRectangleGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory::CreateRoundedRectangleGeometry
+ - d2d1/ID2D1Factory::CreateRoundedRectangleGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory::CreateRoundedRectangleGeometry
 ---
 
 ## -description
 
-Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>.
 
 ## -parameters
 
@@ -71,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 613d2c01-47d5-41c3-8dba-5b1e1feabdf3
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsTransparent method, IShellImageData.IsTransparent, IShellImageData::IsTransparent, IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
-f1_keywords:
-- shimgdata/IShellImageData.IsTransparent
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.IsTransparent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::IsTransparent
+ - shimgdata/IShellImageData::IsTransparent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.IsTransparent
 ---
 
 # IShellImageData::IsTransparent
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the image is transparent.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,16 +99,8 @@ The image has not been decoded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an image supports transparency but does not use it, the method returns S_FALSE.
-
-
 

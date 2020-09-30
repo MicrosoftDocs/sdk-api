@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidFeatures interface, IMSVidFeatures interface [Microsoft TV Technologies],Add method, IMSVidFeatures.Add, IMSVidFeatures::Add, IMSVidFeaturesAdd, mstv.imsvidfeatures_add, segment/IMSVidFeatures::Add
-f1_keywords:
-- segment/IMSVidFeatures.Add
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidFeatures.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidFeatures::Add
+ - segment/IMSVidFeatures::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidFeatures.Add
 ---
 
 # IMSVidFeatures::Add
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Add</b> method adds a feature to the collection.
-
 
 ## -parameters
 
-
-
-
 ### -param pDB [in]
 
-Specifies a pointer to the feature's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface.
-
+Specifies a pointer to the feature's <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -119,22 +112,11 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">IMSVidFeatures::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">IMSVidFeatures::Remove</a>

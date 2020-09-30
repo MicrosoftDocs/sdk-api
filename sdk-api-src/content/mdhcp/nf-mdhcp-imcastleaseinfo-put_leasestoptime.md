@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: dd171ebe-c436-46cf-9a4a-31f22acbaab2
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStopTime method, IMcastLeaseInfo.put_LeaseStopTime, IMcastLeaseInfo::put_LeaseStopTime, _tapi3_imcastleaseinfo_put_leasestoptime, mdhcp/IMcastLeaseInfo::put_LeaseStopTime, put_LeaseStopTime, put_LeaseStopTime method [TAPI 2.2], put_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, tapi3.imcastleaseinfo_put_leasestoptime
-f1_keywords:
-- mdhcp/IMcastLeaseInfo.put_LeaseStopTime
-dev_langs:
-- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mdhcp.dll
-api_name:
-- IMcastLeaseInfo.put_LeaseStopTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMcastLeaseInfo::put_LeaseStopTime
+ - mdhcp/IMcastLeaseInfo::put_LeaseStopTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mdhcp.dll
+api_name:
+ - IMcastLeaseInfo.put_LeaseStopTime
 ---
 
 # IMcastLeaseInfo::put_LeaseStopTime
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
  The 
 <b>put_LeaseStopTime</b> method sets the stop time of the lease. This method, along with 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestarttime">put_LeaseStartTime</a>, allows you to renew a lease without calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>.
-
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-put_leasestarttime">put_LeaseStartTime</a>, allows you to renew a lease without calling 
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-createleaseinfo">IMcastAddressAllocation::CreateLeaseInfo</a>.
 
 ## -parameters
-
-
-
 
 ### -param time [in]
 
 A <b>DATE</b> specifying the stop time of the lease.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -103,31 +96,15 @@ Format conversion failed for the start time or stop time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestoptime">get_LeaseStopTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_leasestoptime">get_LeaseStopTime</a>

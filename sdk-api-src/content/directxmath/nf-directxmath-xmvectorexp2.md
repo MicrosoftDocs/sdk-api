@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 1B04528B-532B-4555-B027-D5EC33DD9843
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExp2, XMVectorExp2, XMVectorExp2 method [DirectX Math Support APIs], dxmath.xmvectorexp2
-f1_keywords:
-- directxmath/XMVectorExp2
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVectorExp2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVectorExp2
+ - directxmath/XMVectorExp2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVectorExp2
 ---
 
 # XMVectorExp2 function
@@ -49,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes two raised to the power for each component.
 
-
 ## -parameters
-
-
-
 
 ### -param V [in]
 
 Vector used for the exponents of base two.
 
-
 ## -returns
-
-
 
 Returns a vector whose components are two raised to the power of the corresponding component of <i>V</i>.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8.1. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8. 
+<b>XMVectorExp2</b> is new for DirectXMath version 3.05, but it's just a renamed version of the existing <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp">XMVectorExp</a> function for Windows 8. 
 
 
 
@@ -96,23 +84,14 @@ Result.w = powf(2.0f, V.w);
 return Result;
 </code></pre>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a>

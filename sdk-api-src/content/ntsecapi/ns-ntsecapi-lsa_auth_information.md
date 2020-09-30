@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION structure [Security], PLSA_AUTH_INFORMATION, PLSA_AUTH_INFORMATION structure pointer [Security], TRUST_AUTH_TYPE_CLEAR, TRUST_AUTH_TYPE_NONE, TRUST_AUTH_TYPE_NT4OWF, TRUST_AUTH_TYPE_VERSION, _LSA_AUTH_INFORMATION, _lsa_lsa_auth_information, ntsecapi/LSA_AUTH_INFORMATION, ntsecapi/PLSA_AUTH_INFORMATION, security.lsa_auth_information'
-f1_keywords:
-- ntsecapi/LSA_AUTH_INFORMATION
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- LSA_AUTH_INFORMATION
 targetos: Windows
 req.typenames: LSA_AUTH_INFORMATION, *PLSA_AUTH_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _LSA_AUTH_INFORMATION
+ - ntsecapi/_LSA_AUTH_INFORMATION
+ - PLSA_AUTH_INFORMATION
+ - ntsecapi/PLSA_AUTH_INFORMATION
+ - LSA_AUTH_INFORMATION
+ - ntsecapi/LSA_AUTH_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - LSA_AUTH_INFORMATION
 ---
 
 # LSA_AUTH_INFORMATION structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LSA_AUTH_INFORMATION</b> structure contains authentication information for a trusted domain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LastUpdateTime
 
 A 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that uses the Coordinated Universal Time (Greenwich Mean Time) format to indicate the time that this value was set. For more information about Coordinated Universal Time, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ### -field AuthType
 
@@ -125,15 +124,11 @@ Plaintext password version number.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthInfoLength
 
 Specifies the size, in bytes, of the <b>AuthInfo</b> member.
 
-
 ### -field AuthInfo
 
 Pointer to an array of bytes that contains the type of authentication information indicated by the <b>AuthType</b> member.
-

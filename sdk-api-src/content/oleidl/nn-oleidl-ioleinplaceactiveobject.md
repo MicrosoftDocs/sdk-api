@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], IOleInPlaceActiveObject interface [COM],described, _ole_ioleinplaceactiveobject, com.ioleinplaceactiveobject, oleidl/IOleInPlaceActiveObject
-f1_keywords:
-- oleidl/IOleInPlaceActiveObject
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceActiveObject
+ - oleidl/IOleInPlaceActiveObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceActiveObject
 ---
 
 # IOleInPlaceActiveObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object. The communication involves the translation of messages, the state of the frame window (activated or deactivated), and the state of the document window (activated or deactivated). Also, it informs the object when it needs to resize its borders, and manages modeless dialog boxes.
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IOleInPlaceActiveObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a>
 </td>
 <td align="left" width="63%">
 Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
@@ -79,7 +78,7 @@ Enables or disables modeless dialog boxes when the container creates or destroys
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">OnDocWindowActivate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">OnDocWindowActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the active in-place object when the container's document window is activated or deactivated.
@@ -90,7 +89,7 @@ Notifies the active in-place object when the container's document window is acti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">OnFrameWindowActivate</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">OnFrameWindowActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the object when the container's top-level frame window is activated or deactivated.
@@ -99,7 +98,7 @@ Notifies the object when the container's top-level frame window is activated or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">ResizeBorder</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">ResizeBorder</a>
 </td>
 <td align="left" width="63%">
 Alerts the object that it needs to resize its border space.
@@ -108,23 +107,15 @@ Alerts the object that it needs to resize its border space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator">TranslateAccelerator</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator">TranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Processes menu accelerator-key messages from the container's message queue.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>

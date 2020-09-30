@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 3102007e-e9f7-46d8-ae10-cf156d2131f6
 ms.date: 12/05/2018
 ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPUSH, DFCS_BUTTONRADIO, DFCS_BUTTONRADIOIMAGE, DFCS_BUTTONRADIOMASK, DFCS_CAPTIONCLOSE, DFCS_CAPTIONHELP, DFCS_CAPTIONMAX, DFCS_CAPTIONMIN, DFCS_CAPTIONRESTORE, DFCS_CHECKED, DFCS_FLAT, DFCS_HOT, DFCS_INACTIVE, DFCS_MENUARROW, DFCS_MENUARROWRIGHT, DFCS_MENUBULLET, DFCS_MENUCHECK, DFCS_MONO, DFCS_PUSHED, DFCS_SCROLLCOMBOBOX, DFCS_SCROLLDOWN, DFCS_SCROLLLEFT, DFCS_SCROLLRIGHT, DFCS_SCROLLSIZEGRIP, DFCS_SCROLLSIZEGRIPRIGHT, DFCS_SCROLLUP, DFCS_TRANSPARENT, DFC_BUTTON, DFC_CAPTION, DFC_MENU, DFC_POPUPMENU, DFC_SCROLL, DrawFrameControl, DrawFrameControl function [Windows GDI], _win32_DrawFrameControl, gdi.drawframecontrol, winuser/DrawFrameControl
-f1_keywords:
-- winuser/DrawFrameControl
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- DrawFrameControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawFrameControl
+ - winuser/DrawFrameControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - DrawFrameControl
 ---
 
 # DrawFrameControl function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawFrameControl</b> function draws a frame control of the specified type and style.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 A handle to the device context of the window in which to draw the control.
 
-
 ### -param arg2 [in]
 
  A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the bounding rectangle for frame control.
-
 
 ### -param arg3 [in]
 
@@ -129,8 +123,6 @@ Scroll bar
 </td>
 </tr>
 </table>
- 
-
 
 ### -param arg4 [in]
 
@@ -492,48 +484,29 @@ The background remains untouched. This flag can only be combined with DFCS_MENUA
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
-If <i>uType</i> is either DFC_MENU or DFC_BUTTON and <i>uState</i> is not DFCS_BUTTONPUSH, the frame control is a black-on-white mask (that is, a black frame control on a white background). In such cases, the application must pass a handle to a bitmap memory device control. The application can then use the associated bitmap as the <i>hbmMask</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function, or it can use the device context as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function using ROPs such as SRCAND and SRCINVERT.
+If <i>uType</i> is either DFC_MENU or DFC_BUTTON and <i>uState</i> is not DFCS_BUTTONPUSH, the frame control is a black-on-white mask (that is, a black frame control on a white background). In such cases, the application must pass a handle to a bitmap memory device control. The application can then use the associated bitmap as the <i>hbmMask</i> parameter to the <a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function, or it can use the device context as a parameter to the <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function using ROPs such as SRCAND and SRCINVERT.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The input given is always in terms of physical pixels, and is not related to the calling context.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
- 
-
- 
-

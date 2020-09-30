@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetSubject method, IXpsOMCoreProperties.SetSubject, IXpsOMCoreProperties::SetSubject, SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties.SetSubject
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties.SetSubject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties::SetSubject
+ - xpsobjectmodel/IXpsOMCoreProperties::SetSubject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties.SetSubject
 ---
 
 # IXpsOMCoreProperties::SetSubject
@@ -49,44 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <b>subject</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param subject [in]
 
 The string to be written to the <b>subject</b> property. A <b>NULL</b> pointer clears the <b>subject</b> property.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>subject</b> property contains the topic of the resource content.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
 
 
@@ -95,7 +77,3 @@ The <b>subject</b> property contains the topic of the resource content.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
-

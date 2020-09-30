@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
-f1_keywords:
-- qnetwork/IAMNetShowConfig
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMNetShowConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMNetShowConfig
+ - qnetwork/IAMNetShowConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMNetShowConfig
 ---
 
 # IAMNetShowConfig interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>IAMNetShowConfig</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface.
-
-
-
+The <code>IAMNetShowConfig</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowConfig</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowConfig</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IAMNetShowConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_bufferingtime">get_BufferingTime</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_bufferingtime">get_BufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffering time.
@@ -82,7 +78,7 @@ Retrieves the buffering time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enableautoproxy">get_EnableAutoProxy</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enableautoproxy">get_EnableAutoProxy</a>
 </td>
 <td align="left" width="63%">
 Queries whether the control or filter should use the browser's proxy settings.
@@ -91,7 +87,7 @@ Queries whether the control or filter should use the browser's proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enablehttp">get_EnableHTTP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enablehttp">get_EnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Queries whether HTTP-type streaming is enabled.
@@ -100,7 +96,7 @@ Queries whether HTTP-type streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enablemulticast">get_EnableMulticast</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enablemulticast">get_EnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Queries whether multicast-type streaming is enabled.
@@ -109,7 +105,7 @@ Queries whether multicast-type streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enabletcp">get_EnableTCP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enabletcp">get_EnableTCP</a>
 </td>
 <td align="left" width="63%">
 Queries whether TCP-based streaming is enabled.
@@ -118,7 +114,7 @@ Queries whether TCP-based streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enableudp">get_EnableUDP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_enableudp">get_EnableUDP</a>
 </td>
 <td align="left" width="63%">
 Queries whether UDP-based streaming is enabled.
@@ -127,7 +123,7 @@ Queries whether UDP-based streaming is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_fixedudpport">get_FixedUDPPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_fixedudpport">get_FixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the fixed UDP port number.
@@ -136,7 +132,7 @@ Retrieves the fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyhost">get_HTTPProxyHost</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyhost">get_HTTPProxyHost</a>
 </td>
 <td align="left" width="63%">
 Retrieves the HTTP address of the proxy host.
@@ -145,7 +141,7 @@ Retrieves the HTTP address of the proxy host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyport">get_HTTPProxyPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_httpproxyport">get_HTTPProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the HTTP proxy port.
@@ -154,7 +150,7 @@ Retrieves the HTTP proxy port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_usefixedudpport">get_UseFixedUDPPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_usefixedudpport">get_UseFixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter should use the fixed UDP port.
@@ -163,7 +159,7 @@ Queries whether the filter should use the fixed UDP port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_usehttpproxy">get_UseHTTPProxy</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_usehttpproxy">get_UseHTTPProxy</a>
 </td>
 <td align="left" width="63%">
 Queries whether the filter should use the HTTP proxy server.
@@ -172,7 +168,7 @@ Queries whether the filter should use the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_bufferingtime">put_BufferingTime</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_bufferingtime">put_BufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the buffering time.
@@ -181,7 +177,7 @@ Specifies the buffering time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableautoproxy">put_EnableAutoProxy</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableautoproxy">put_EnableAutoProxy</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the control or filter should use the browser's proxy settings.
@@ -190,7 +186,7 @@ Specifies whether the control or filter should use the browser's proxy settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enablehttp">put_EnableHTTP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enablehttp">put_EnableHTTP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables HTTP-based streaming.
@@ -199,7 +195,7 @@ Enables or disables HTTP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enablemulticast">put_EnableMulticast</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enablemulticast">put_EnableMulticast</a>
 </td>
 <td align="left" width="63%">
 Enables or disables multicast-based streaming.
@@ -208,7 +204,7 @@ Enables or disables multicast-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enabletcp">put_EnableTCP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enabletcp">put_EnableTCP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables TCP-based streaming.
@@ -217,7 +213,7 @@ Enables or disables TCP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableudp">put_EnableUDP</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableudp">put_EnableUDP</a>
 </td>
 <td align="left" width="63%">
 Enables or disables UDP-based streaming.
@@ -226,7 +222,7 @@ Enables or disables UDP-based streaming.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_fixedudpport">put_FixedUDPPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_fixedudpport">put_FixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the fixed UDP port number.
@@ -235,7 +231,7 @@ Specifies the fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_httpproxyhost">put_HTTPProxyHost</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_httpproxyhost">put_HTTPProxyHost</a>
 </td>
 <td align="left" width="63%">
 Specifies the address of the HTTP proxy server.
@@ -244,7 +240,7 @@ Specifies the address of the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_httpproxyport">put_HTTPProxyPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_httpproxyport">put_HTTPProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the port for the HTTP proxy server.
@@ -253,7 +249,7 @@ Specifies the port for the HTTP proxy server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_usefixedudpport">put_UseFixedUDPPort</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_usefixedudpport">put_UseFixedUDPPort</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use a fixed UDP port number.
@@ -262,19 +258,16 @@ Specifies whether to use a fixed UDP port number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_usehttpproxy">put_UseHTTPProxy</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_usehttpproxy">put_UseHTTPProxy</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use an HTTP proxy server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -285,15 +278,6 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 2A3211C1-90EB-42AE-BCE7-BDDA1D1E6312
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace4 interface [Direct Write],ReleaseGlyphImageData method, IDWriteFontFace4.ReleaseGlyphImageData, IDWriteFontFace4::ReleaseGlyphImageData, ReleaseGlyphImageData, ReleaseGlyphImageData method [Direct Write], ReleaseGlyphImageData method [Direct Write],IDWriteFontFace4 interface, directwrite.idwritefontface4_releaseglyphimagedata, dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
-f1_keywords:
-- dwrite_3/IDWriteFontFace4.ReleaseGlyphImageData
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontFace4.ReleaseGlyphImageData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace4::ReleaseGlyphImageData
+ - dwrite_3/IDWriteFontFace4::ReleaseGlyphImageData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontFace4.ReleaseGlyphImageData
 ---
 
 # IDWriteFontFace4::ReleaseGlyphImageData
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases the table data obtained from ReadGlyphData.
 
-
 ## -parameters
-
-
-
 
 ### -param glyphDataContext
 
@@ -65,14 +61,7 @@ Type: <b>void*</b>
 
 Opaque context from ReadGlyphData.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
- 
-
- 
 

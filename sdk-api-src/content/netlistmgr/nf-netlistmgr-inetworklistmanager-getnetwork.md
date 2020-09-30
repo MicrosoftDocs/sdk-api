@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: a4418884-8df6-4f5b-b9ef-c3cae2bcee47
 ms.date: 12/05/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetwork method, INetworkListManager.GetNetwork, INetworkListManager::GetNetwork, netlistmgr/INetworkListManager::GetNetwork, nla.inetworklistmanager_getnetwork
-f1_keywords:
-- netlistmgr/INetworkListManager.GetNetwork
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkListManager.GetNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkListManager::GetNetwork
+ - netlistmgr/INetworkListManager::GetNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkListManager.GetNetwork
 ---
 
 # INetworkListManager::GetNetwork
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNetwork</b> method retrieves a network based on a supplied network ID.
 
-
 ## -parameters
-
-
-
 
 ### -param gdNetworkId [in]
 
 GUID that specifies the network ID.
 
-
 ### -param ppNetwork [out]
 
-Pointer to a pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface instance for this network.
-
+Pointer to a pointer that receives the <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface instance for this network.
 
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -102,18 +94,7 @@ The GUID is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>

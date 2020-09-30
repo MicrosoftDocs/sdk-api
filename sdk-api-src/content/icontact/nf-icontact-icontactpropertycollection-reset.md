@@ -8,10 +8,6 @@ tech.root: wincontacts
 ms.assetid: cef73e3c-56be-44b8-b05b-3c2081b71591
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Reset method, IContactPropertyCollection.Reset, IContactPropertyCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Reset, icontact/IContactPropertyCollection::Reset, wincontacts._wincontacts_IContactPropertyCollection_Reset
-f1_keywords:
-- icontact/IContactPropertyCollection.Reset
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactPropertyCollection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactPropertyCollection::Reset
+ - icontact/IContactPropertyCollection::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactPropertyCollection.Reset
 ---
 
 # IContactPropertyCollection::Reset
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets enumeration of properties.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -85,17 +77,9 @@ Reset is successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  Collection has been reset to the location before the first element (if any elements are present), 
-		so you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">IContactPropertyCollection::Next</a> to begin querying data.</div>
+		so you must call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">IContactPropertyCollection::Next</a> to begin querying data.</div>
 <div> </div>
-
-

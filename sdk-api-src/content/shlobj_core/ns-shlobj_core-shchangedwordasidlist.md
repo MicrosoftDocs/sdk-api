@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList'
-f1_keywords:
-- shlobj_core/SHChangeDWORDAsIDList
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- SHChangeDWORDAsIDList
 targetos: Windows
 req.typenames: SHChangeDWORDAsIDList, *LPSHChangeDWORDAsIDList
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHChangeDWORDAsIDList
+ - shlobj_core/_SHChangeDWORDAsIDList
+ - LPSHChangeDWORDAsIDList
+ - shlobj_core/LPSHChangeDWORDAsIDList
+ - SHChangeDWORDAsIDList
+ - shlobj_core/SHChangeDWORDAsIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - SHChangeDWORDAsIDList
 ---
 
 # SHChangeDWORDAsIDList structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHChangeDWORDAsIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Stores two <b>DWORD</b> values in a form mimicking an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
-
+Stores two <b>DWORD</b> values in a form mimicking an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> so that they can be used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field cb
 
@@ -66,13 +66,11 @@ Type: <b>USHORT</b>
 
 The size of the structure, in bytes.
 
-
 ### -field dwItem1
 
 Type: <b>DWORD</b>
 
 First <b>DWORD</b> value.
-
 
 ### -field dwItem2
 
@@ -80,17 +78,13 @@ Type: <b>DWORD</b>
 
 Second <b>DWORD</b> value.
 
-
 ### -field cbZero
 
 Type: <b>USHORT</b>
 
-
 ## -remarks
 
-
-
-This example demonstrates the use of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
+This example demonstrates the use of <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
 
                 
 
@@ -141,17 +135,6 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>

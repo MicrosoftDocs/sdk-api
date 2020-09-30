@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
 ms.date: 12/05/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
-f1_keywords:
-- comsvcs/IObjectContextTip
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContextTip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContextTip
+ - comsvcs/IObjectContextTip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContextTip
 ---
 
 # IObjectContextTip interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextTip</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextTip</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextTip</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextTip</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>IObjectContextTip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontexttip-gettipurl">GetTipUrl</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontexttip-gettipurl">GetTipUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL of the TIP context.
 
 </td>
 </tr>
-</table> 
-
+</table>

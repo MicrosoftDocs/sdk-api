@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: dc9864df-21f3-4b0b-b862-48055032c071
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],Initialize method, IShellMenu.Initialize, IShellMenu::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellMenu interface, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_Initialize, shell.IShellMenu_Initialize, shobjidl_core/IShellMenu::Initialize
-f1_keywords:
-- shobjidl_core/IShellMenu.Initialize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellMenu.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellMenu::Initialize
+ - shobjidl_core/IShellMenu::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellMenu.Initialize
 ---
 
 # IShellMenu::Initialize
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a menu band.
-
 
 ## -parameters
 
-
-
-
 ### -param psmc [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a> interface. This interface receives notifications from the menu. This value can be <b>NULL</b>.
-
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a> interface. This interface receives notifications from the menu. This value can be <b>NULL</b>.
 
 ### -param uId [in]
 
@@ -71,11 +66,9 @@ Type: <b>UINT</b>
 
 The identifier of the selected menu item. Set this parameter to -1 for the menu itself.
 
-
 ### -param uIdAncestor [in]
 
 Type: <b>UINT</b>
-
 
 ### -param dwFlags [in]
 
@@ -167,16 +160,9 @@ Specifies a horizontal band.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

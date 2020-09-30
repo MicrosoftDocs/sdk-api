@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_87x_y_width_height.htm
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL), RectF.RectF(REAL,REAL,REAL,REAL), RectF::RectF, RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_RectF_RectF_x_y_width_height_, gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_
-f1_keywords:
-- gdiplustypes/RectF.RectF
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- RectF.RectF
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - RectF::RectF
+ - gdiplustypes/RectF::RectF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - RectF.RectF
 ---
 
 # RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL)
@@ -50,70 +51,54 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object by using four integers to initialize the 
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object by using four integers to initialize the 
 			<b>X</b>, 
 			<b>Y</b>, 
 			<b>Width</b>, and 
 			<b>Height</b> data members.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 Type: <b>REAL</b>
 
-Real number used to initialize the x-coordinate of the upper-left corner of the rectangle. 
-
+Real number used to initialize the x-coordinate of the upper-left corner of the rectangle.
 
 ### -param y [in]
 
 Type: <b>REAL</b>
 
-Real number used to initialize the y-coordinate of the upper-left corner of the rectangle. 
-
+Real number used to initialize the y-coordinate of the upper-left corner of the rectangle.
 
 ### -param width [in]
 
 Type: <b>REAL</b>
 
-Real number used to initialize the width of this rectangle. 
-
+Real number used to initialize the width of this rectangle.
 
 ### -param height [in]
 
 Type: <b>REAL</b>
 
-Real number used to initialize the height of this rectangle. 
-
+Real number used to initialize the height of this rectangle.
 
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-class-rectf-constructors">RectF Constructors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-rectf-constructors">RectF Constructors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

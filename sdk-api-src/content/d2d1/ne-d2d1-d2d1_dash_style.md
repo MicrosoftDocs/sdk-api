@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 0c1807e3-51e6-440a-bd80-9b43ed7a39f5
 ms.date: 12/05/2018
 ms.keywords: D2D1_DASH_STYLE, D2D1_DASH_STYLE enumeration [Direct2D], D2D1_DASH_STYLE_CUSTOM, D2D1_DASH_STYLE_DASH, D2D1_DASH_STYLE_DASH_DOT, D2D1_DASH_STYLE_DASH_DOT_DOT, D2D1_DASH_STYLE_DOT, D2D1_DASH_STYLE_SOLID, d2d1/D2D1_DASH_STYLE, d2d1/D2D1_DASH_STYLE_CUSTOM, d2d1/D2D1_DASH_STYLE_DASH, d2d1/D2D1_DASH_STYLE_DASH_DOT, d2d1/D2D1_DASH_STYLE_DASH_DOT_DOT, d2d1/D2D1_DASH_STYLE_DOT, d2d1/D2D1_DASH_STYLE_SOLID, direct2d.D2D1_DASH_STYLE
-f1_keywords:
-- d2d1/D2D1_DASH_STYLE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_DASH_STYLE
 targetos: Windows
 req.typenames: D2D1_DASH_STYLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_DASH_STYLE
+ - d2d1/D2D1_DASH_STYLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_DASH_STYLE
 ---
 
 # D2D1_DASH_STYLE enumeration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the sequence of dashes and gaps in a stroke.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_DASH_STYLE_SOLID
 
 A solid line with no breaks.
-
 
 ### -field D2D1_DASH_STYLE_DASH
 
@@ -69,13 +64,11 @@ A dash followed by a gap of equal length. The dash and the gap are each twice as
 
 The equivalent dash  array for  <b>D2D1_DASH_STYLE_DASH</b> is {2, 2}.
 
-
 ### -field D2D1_DASH_STYLE_DOT
 
 A dot followed by a longer gap.
 
 The equivalent dash  array for  <b>D2D1_DASH_STYLE_DOT</b> is {0, 2}.
-
 
 ### -field D2D1_DASH_STYLE_DASH_DOT
 
@@ -83,27 +76,19 @@ A dash, followed by a gap, followed by a dot, followed by another gap.
 
 The equivalent dash array for  <b>D2D1_DASH_STYLE_DASH_DOT</b> is {2, 2, 0, 2}.
 
-
 ### -field D2D1_DASH_STYLE_DASH_DOT_DOT
 
 A dash, followed by a gap, followed by a dot, followed by another gap, followed by another dot, followed by another gap.
 
 The equivalent dash array for  <b>D2D1_DASH_STYLE_DASH_DOT_DOT</b> is {2, 2, 0, 2, 0, 2}.
 
-
 ### -field D2D1_DASH_STYLE_CUSTOM
 
 The dash pattern is specified by an array of floating-point values.
 
-
 ### -field D2D1_DASH_STYLE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 The following illustration shows several available dash styles. 
       
@@ -155,7 +140,4 @@ m_pRenderTarget->DrawLine(
     );
 
 ```
-
-
-
 

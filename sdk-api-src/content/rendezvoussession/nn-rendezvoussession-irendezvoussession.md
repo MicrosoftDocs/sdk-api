@@ -8,10 +8,6 @@ tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\iRendezvousSession.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], IRendezvousSession interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousSession, remoteassist_IRendezvousSession, rendezvoussession/IRendezvousSession
-f1_keywords:
-- rendezvoussession/IRendezvousSession
-dev_langs:
-- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RendezvousSession.tlb
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RendezvousSession.tlb
-api_name:
-- IRendezvousSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRendezvousSession
+ - rendezvoussession/IRendezvousSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RendezvousSession.tlb
+api_name:
+ - IRendezvousSession
 ---
 
 # IRendezvousSession interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods that send data about the session and that can terminate it.  
-
+Exposes methods that send data about the session and that can terminate it.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRendezvousSession</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRendezvousSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRendezvousSession</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRendezvousSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,19 +70,19 @@ The <b>IRendezvousSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-sendcontextdata">SendContextData</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-sendcontextdata">SendContextData</a>
 </td>
 <td align="left" width="63%">
-Sends the context data to the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
+Sends the context data to the remote <a href="/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-terminate">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
-Terminates the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
+Terminates the remote <a href="/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 </td>
 </tr>
@@ -98,7 +97,7 @@ Terminates the remote <a href="https://docs.microsoft.com/previous-versions/wind
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_flags">Flags</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_flags">Flags</a>
 
 
 </td>
@@ -114,7 +113,7 @@ Retrieves a value that indicates session information. For example, the session f
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_remoteuser">RemoteUser</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_remoteuser">RemoteUser</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Retrieves a pointer to a <b>BSTR</b> that contains the Windows Messenger contact
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_state">State</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvoussession-get_state">State</a>
 
 
 </td>
@@ -143,18 +142,12 @@ Retrieves a value that indicates the session state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+The instant messaging (IM) application implements this interface and passes the object that implements <b>IRendezvousSession</b> and supports the <a href="/previous-versions/ms715092(v=vs.85)">DRendezvousSessionEvents</a> connection point. 
 
+The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to retain the session after the call to <a href="/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvousapplication-setrendezvoussession">SetRendezvousSession</a> completes. 
 
-The instant messaging (IM) application implements this interface and passes the object that implements <b>IRendezvousSession</b> and supports the <a href="https://docs.microsoft.com/previous-versions/ms715092(v=vs.85)">DRendezvousSessionEvents</a> connection point. 
-
-The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to retain the session after the call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nf-rendezvoussession-irendezvousapplication-setrendezvoussession">SetRendezvousSession</a> completes. 
-
-The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the session is complete. 
-
-
-
+The Windows Remote Assistance application calls <b>IRendezvousSession</b>-&gt;<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the session is complete.

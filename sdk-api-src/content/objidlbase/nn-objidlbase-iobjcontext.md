@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
 ms.date: 12/05/2018
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
-f1_keywords:
-- objidlbase/IObjContext
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IObjContext
-- IObjContext.Reserved1
-- IObjContext.Reserved2
-- IObjContext.Reserved3
-- IObjContext.Reserved4
-- IObjContext.Reserved5
-- IObjContext.Reserved6
-- IObjContext.Reserved7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjContext
+ - objidlbase/IObjContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IObjContext
+ - IObjContext.Reserved1
+ - IObjContext.Reserved2
+ - IObjContext.Reserved3
+ - IObjContext.Reserved4
+ - IObjContext.Reserved5
+ - IObjContext.Reserved6
+ - IObjContext.Reserved7
 ---
 
 # IObjContext interface
@@ -56,10 +57,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs various operations on contexts.
-
-
 
 ## -inheritance
 
@@ -125,5 +123,5 @@ Reserved for future use.
 
 </td>
 </tr>
-</table> 
+</table>
 

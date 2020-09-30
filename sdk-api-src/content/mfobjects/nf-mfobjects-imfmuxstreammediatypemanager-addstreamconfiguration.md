@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
 ms.date: 12/05/2018
 ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
-f1_keywords:
-- mfobjects/IMFMuxStreamMediaTypeManager.AddStreamConfiguration
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamMediaTypeManager.AddStreamConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamMediaTypeManager::AddStreamConfiguration
+ - mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamMediaTypeManager.AddStreamConfiguration
 ---
 
 # IMFMuxStreamMediaTypeManager::AddStreamConfiguration
@@ -52,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a stream configuration, which defines a set of substreams that can be included  the  multiplexed output.
 
-
 ## -parameters
-
-
-
 
 ### -param ullStreamMask [in]
 
 A bitmask value where the bits that are on represent the indices of the substreams that are included in the stream configuration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -125,27 +118,11 @@ There is insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Stream configurations are ordered within the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a> by the numeric value of the bitmask.
-
-
-
+Stream configurations are ordered within the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a> by the numeric value of the bitmask.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>

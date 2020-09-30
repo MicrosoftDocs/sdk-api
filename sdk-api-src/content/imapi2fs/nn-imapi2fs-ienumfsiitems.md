@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
-f1_keywords:
-- imapi2fs/IEnumFsiItems
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IEnumFsiItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFsiItems
+ - imapi2fs/IEnumFsiItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IEnumFsiItems
 ---
 
 # IEnumFsiItems interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to enumerate the child directory and file items for a FsiDirectoryItem object.
 
-To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">IFsiDirectoryItem::get_EnumFsiItems</a> method.
-
+To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get_enumfsiitems">IFsiDirectoryItem::get_EnumFsiItems</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFsiItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFsiItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFsiItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFsiItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IEnumFsiItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-clone">Clone</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -81,7 +80,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-next">Next</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -90,7 +89,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/imapi/ienumfsiitems-remotenext">RemoteNext</a>
+<a href="/windows/desktop/imapi/ienumfsiitems-remotenext">RemoteNext</a>
 </td>
 <td align="left" width="63%">
 Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
@@ -99,7 +98,7 @@ Supports a remote client that wants to retrieve a specified number of items in t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-reset">Reset</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -108,36 +107,23 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-skip">Skip</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ienumfsiitems-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This is a <b>EnumFsiItems</b> object in script.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>

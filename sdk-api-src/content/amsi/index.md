@@ -6,9 +6,13 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: amsi
+f1_keywords:
+ - amsi
+ - amsi/amsi
 ---
 
 # Amsi.h header
+
 
 ## -description
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: d453ac8d-5bcb-4565-be95-17b8b45c8d98
 ms.date: 12/05/2018
 ms.keywords: NdrProxyErrorHandler, NdrProxyErrorHandler function [RPC], rpc.ndrproxyerrorhandler, rpcproxy/NdrProxyErrorHandler
-f1_keywords:
-- rpcproxy/NdrProxyErrorHandler
-dev_langs:
-- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrProxyErrorHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrProxyErrorHandler
+ - rpcproxy/NdrProxyErrorHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RpcRT4.dll
+api_name:
+ - NdrProxyErrorHandler
 ---
 
 # NdrProxyErrorHandler function
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdrProxyErrorHandler</b> function maps an exception into an HRESULT, with RPC facility code.
 
-
 ## -parameters
-
-
-
 
 ### -param dwExceptionCode [in]
 
 Exception code to be mapped.
 
-
 ## -returns
 
-
-
 Returns the HRESULT.
-
-
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\faxint_ifaxaccountoutgoingarchive.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingArchive, IFaxAccountOutgoingArchive interface [Fax Service], IFaxAccountOutgoingArchive interface [Fax Service],described, _mfax_faxaccountoutgoingarchive_cpp, fax._mfax_faxaccountoutgoingarchive_cpp, faxcomex/IFaxAccountOutgoingArchive
-f1_keywords:
-- faxcomex/IFaxAccountOutgoingArchive
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxAccountOutgoingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxAccountOutgoingArchive
+ - faxcomex/IFaxAccountOutgoingArchive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxAccountOutgoingArchive
 ---
 
 # IFaxAccountOutgoingArchive interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by a fax client application to access a specified fax account's archive of successfully sent outbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 
-A default implementation of <b>IFaxAccountOutgoingArchive</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a> object.
-
+A default implementation of <b>IFaxAccountOutgoingArchive</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingArchive</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingArchive</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingArchive</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingArchive</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +72,7 @@ The <b>IFaxAccountOutgoingArchive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessage-vb">GetMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessage-vb">GetMessage</a>
 </td>
 <td align="left" width="63%">
 Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.
@@ -82,7 +81,7 @@ Returns a fax message from the archive of outbound faxes for a particular fax ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessages-vb">GetMessages</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-getmessages-vb">GetMessages</a>
 </td>
 <td align="left" width="63%">
 Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.
@@ -91,10 +90,10 @@ Returns a new iterator (archive cursor) for the archive of outbound fax messages
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-refresh-vb">Refresh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a> object information for a particular fax account from the fax server. 
+Refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a> object information for a particular fax account from the fax server. 
 
 </td>
 </tr>
@@ -109,7 +108,7 @@ Refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-sizehigh-vb">SizeHigh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-sizehigh-vb">SizeHigh</a>
 
 
 </td>
@@ -125,7 +124,7 @@ Specifies the high-order 32-bit value of the size (in bytes) of the archive of o
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-sizelow-vb">SizeLow</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive-sizelow-vb">SizeLow</a>
 
 
 </td>
@@ -138,20 +137,12 @@ Specifies the low-order 32-bit value of the size (in bytes) of the archive of ou
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountoutgoingarchive">FaxAccountOutgoingArchive</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

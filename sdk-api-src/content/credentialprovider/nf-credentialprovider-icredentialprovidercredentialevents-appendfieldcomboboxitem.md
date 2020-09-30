@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048
 ms.date: 12/05/2018
 ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
-f1_keywords:
-- credentialprovider/ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
+ - credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 ---
 
 # ICredentialProviderCredentialEvents::AppendFieldComboBoxItem
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
-
 
 ## -parameters
 
-
-
-
 ### -param pcpc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>*</b>
+Type: <b><a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>*</b>
 
-The credential containing the combo box that needs an item added. This value should be set to <b>this</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents">ICredentialProviderCredentialEvents</a> for more information.
-                    
-
+The credential containing the combo box that needs an item added. This value should be set to <b>this</b>. See <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents">ICredentialProviderCredentialEvents</a> for more information.
 
 ### -param dwFieldID [in]
 
@@ -72,21 +66,14 @@ Type: <b>DWORD</b>
 
 The unique ID of the combo box.
 
-
 ### -param pszItem [in]
 
 Type: <b>LPCWSTR</b>
 
 The string that will be appended to the combo box as a new option.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

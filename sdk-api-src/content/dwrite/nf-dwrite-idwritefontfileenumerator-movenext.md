@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: ffacdf0b-2e37-4b69-a6b5-7c6552ecdb60
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator interface [Direct Write],MoveNext method, IDWriteFontFileEnumerator.MoveNext, IDWriteFontFileEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteFontFileEnumerator interface, directwrite.IDWriteFontFileEnumerator_MoveNext, dwrite/IDWriteFontFileEnumerator::MoveNext
-f1_keywords:
-- dwrite/IDWriteFontFileEnumerator.MoveNext
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFileEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFileEnumerator::MoveNext
+ - dwrite/IDWriteFontFileEnumerator::MoveNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFileEnumerator.MoveNext
 ---
 
 # IDWriteFontFileEnumerator::MoveNext
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
  Advances to the next font file in the collection. When it is first created, the enumerator is positioned
      before the first element of the collection and the first call to <b>MoveNext</b> advances to the first file.
 
-
 ## -parameters
-
-
-
 
 ### -param hasCurrentFile [out]
 
@@ -66,25 +62,13 @@ Type: <b>BOOL*</b>
 When the method returns, contains  the value <b>TRUE</b> if the enumerator advances to a file; otherwise, <b>FALSE</b> if
      the enumerator advances past the last file in the collection.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator">IDWriteFontFileEnumerator</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
 ms.date: 12/05/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
-f1_keywords:
-- wbemcli/IMofCompiler
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Mofd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mofd.dll
-api_name:
-- IMofCompiler
-- MofCompiler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMofCompiler
+ - wbemcli/IMofCompiler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mofd.dll
+api_name:
+ - IMofCompiler
+ - MofCompiler
 ---
 
 # IMofCompiler interface
@@ -50,14 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-m">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
-
+<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="/windows/desktop/WmiSdk/gloss-m">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMofCompiler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMofCompiler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Structures</a></li>
@@ -73,7 +72,7 @@ The <b>IMofCompiler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
 </td>
 <td align="left" width="63%">
 Takes the information in a buffer and stores it in Windows Management. The buffer must contain binary MOF data.
@@ -82,7 +81,7 @@ Takes the information in a buffer and stores it in Windows Management. The buffe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
 </td>
 <td align="left" width="63%">
 Compiles a particular MOF file.
@@ -91,7 +90,7 @@ Compiles a particular MOF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
 </td>
 <td align="left" width="63%">
 Reads a MOF file and outputs binary MOF data to another file.
@@ -114,12 +113,9 @@ Describes an error for the <b>IMofCompiler</b> interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>Windows 8:  </b>When installing a provider the <b>IMofCompiler</b> interface treats the [Key] and [Static] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
 
@@ -139,30 +135,19 @@ CoCreateInstance(
     (LPVOID *) &pMof);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mof-data-types">MOF Data Types</a>
+<a href="/windows/desktop/WmiSdk/mof-data-types">MOF Data Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/running-the-mof-compiler-on-a-file">Running the MOF Compiler on a File</a>
+<a href="/windows/desktop/WmiSdk/running-the-mof-compiler-on-a-file">Running the MOF Compiler on a File</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

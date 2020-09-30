@@ -36,23 +36,29 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqFreeDiagnosticRecordPage
+f1_keywords:
+ - DdqFreeDiagnosticRecordPage
+ - diagnosticdataquery/DdqFreeDiagnosticRecordPage
 ---
 
 ## -description
+
 Frees memory allocated for the diagnostic record page referenced by HDIAGNOSTIC_RECORD handle.
 
 ## -parameters
 
 ### -param hRecord
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the resource that contains the set of diagnostic records to be freed.  
+Handle to the resource that contains the set of diagnostic records to be freed.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
-For more information about the DIAGNOSTIC_RECORD datatype, see [**here**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record).
+
+For more information about the DIAGNOSTIC_RECORD datatype, see [**here**](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record.md).
 
 ## -see-also
-

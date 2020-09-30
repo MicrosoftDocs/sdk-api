@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c63084cb-f4cf-413b-a3f1-eb6b1400ac93
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguageCount method, IWMReaderAdvanced4.GetLanguageCount, IWMReaderAdvanced4::GetLanguageCount, IWMReaderAdvanced4GetLanguageCount, wmformat.iwmreaderadvanced4_getlanguagecount, wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced4.GetLanguageCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced4.GetLanguageCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced4::GetLanguageCount
+ - wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced4.GetLanguageCount
 ---
 
 # IWMReaderAdvanced4::GetLanguageCount
@@ -52,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLanguageCount</b> method retrieves the total number of languages supported by an output. Only outputs associated with streams mutually exclusive by language will have more than one supported language.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the output number.
 
-
 ### -param pwLanguageCount [out]
 
 Pointer to a <b>WORD</b> containing the language count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,31 +86,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method should not be confused with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount">IWMLanguageList::GetLanguageCount</a>. This method retrieves supported languages for a specific output. The methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist">IWMLanguageList</a> interface manipulate a list of languages at the file level. An individual output might not support all of the languages in the language list.
-
-
-
+This method should not be confused with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount">IWMLanguageList::GetLanguageCount</a>. This method retrieves supported languages for a specific output. The methods of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist">IWMLanguageList</a> interface manipulate a list of languages at the file level. An individual output might not support all of the languages in the language list.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-getlanguage">IWMReaderAdvanced4::GetLanguage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-getlanguage">IWMReaderAdvanced4::GetLanguage</a>

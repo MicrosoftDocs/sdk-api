@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
 ms.date: 12/05/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
-f1_keywords:
-- msinkaut15/IInkDivider
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut15.h
-api_name:
-- IInkDivider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivider
+ - msinkaut15/IInkDivider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut15.h
+api_name:
+ - IInkDivider
 ---
 
 # IInkDivider interface
@@ -53,7 +54,7 @@ Represents the ability to analyze the layout of a collection of ink strokes and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDivider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDivider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDivider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDivider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -69,10 +70,10 @@ The <b>IInkDivider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide">Divide</a>
+<a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-divide">Divide</a>
 </td>
 <td align="left" width="63%">
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
+Returns a <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
 
 </td>
 </tr>
@@ -87,7 +88,7 @@ Returns a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight">LineHeight</a>
+<a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_lineheight">LineHeight</a>
 
 
 </td>
@@ -103,7 +104,7 @@ Gets or sets the expected handwriting height, in HIMETRIC units.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext">RecognizerContext</a>
+<a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_recognizercontext">RecognizerContext</a>
 
 
 </td>
@@ -112,14 +113,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object that the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object uses for layout analysis.
+Gets or sets the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object that the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object uses for layout analysis.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes">Strokes</a>
+<a href="/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivider-get_strokes">Strokes</a>
 
 
 </td>
@@ -128,9 +129,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets or sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection on which the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object performs layout analysis.
+Gets or sets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection on which the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object performs layout analysis.
 
 </td>
 </tr>
-</table> 
-
+</table>

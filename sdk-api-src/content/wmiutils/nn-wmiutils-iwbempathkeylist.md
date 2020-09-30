@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
-f1_keywords:
-- wmiutils/IWbemPathKeyList
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemPathKeyList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemPathKeyList
+ - wmiutils/IWbemPathKeyList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemPathKeyList
 ---
 
 # IWbemPathKeyList interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemPathKeyList</b> interface is used to access the details of the path keys.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemPathKeyList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemPathKeyList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemPathKeyList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemPathKeyList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IWbemPathKeyList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getcount">GetCount</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of keys in the path.
@@ -80,7 +79,7 @@ Retrieves the number of keys in the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status bits for the key.
@@ -89,7 +88,7 @@ Retrieves the status bits for the key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getkey">GetKey</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getkey">GetKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves a key name or value.
@@ -98,7 +97,7 @@ Retrieves a key name or value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getkey2">GetKey2</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getkey2">GetKey2</a>
 </td>
 <td align="left" width="63%">
 Retrieves a key name or value returning the value as a VARIANT.
@@ -107,7 +106,7 @@ Retrieves a key name or value returning the value as a VARIANT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-gettext">GetText</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the key list as text.
@@ -116,7 +115,7 @@ Retrieves the key list as text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-makesingleton">MakeSingleton</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-makesingleton">MakeSingleton</a>
 </td>
 <td align="left" width="63%">
 Governs whether a key is singleton.
@@ -125,7 +124,7 @@ Governs whether a key is singleton.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys">RemoveAllKeys</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys">RemoveAllKeys</a>
 </td>
 <td align="left" width="63%">
 Removes all keys.
@@ -134,7 +133,7 @@ Removes all keys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removekey">RemoveKey</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removekey">RemoveKey</a>
 </td>
 <td align="left" width="63%">
 Removes a specified key.
@@ -143,7 +142,7 @@ Removes a specified key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-setkey">SetKey</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-setkey">SetKey</a>
 </td>
 <td align="left" width="63%">
 Sets the name or value pair for a key.
@@ -152,12 +151,11 @@ Sets the name or value pair for a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-setkey2">SetKey2</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-setkey2">SetKey2</a>
 </td>
 <td align="left" width="63%">
 Sets the name or value pair for a key using variants.
 
 </td>
 </tr>
-</table> 
-
+</table>

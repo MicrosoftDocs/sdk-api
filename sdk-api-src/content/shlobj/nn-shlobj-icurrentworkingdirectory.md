@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1fdbe616-3ca3-4f07-b89c-4c76561ba169
 ms.date: 12/05/2018
 ms.keywords: ICurrentWorkingDirectory, ICurrentWorkingDirectory interface [Windows Shell], ICurrentWorkingDirectory interface [Windows Shell],described, _win32_ICurrentWorkingDirectory, shell.ICurrentWorkingDirectory, shlobj/ICurrentWorkingDirectory
-f1_keywords:
-- shlobj/ICurrentWorkingDirectory
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICurrentWorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICurrentWorkingDirectory
+ - shlobj/ICurrentWorkingDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICurrentWorkingDirectory
 ---
 
 # ICurrentWorkingDirectory interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable a client to retrieve or set an object's current working directory.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICurrentWorkingDirectory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICurrentWorkingDirectory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICurrentWorkingDirectory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ICurrentWorkingDirectory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory">GetDirectory</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-getdirectory">GetDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the current working directory.
@@ -79,23 +78,17 @@ Gets the current working directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory">SetDirectory</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-icurrentworkingdirectory-setdirectory">SetDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the current working directory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implement this interface if your object allows clients to retrieve or set the current working directory.
 
 Use this interface to retrieve or set the working directory of the object that exports it.
-
-
-

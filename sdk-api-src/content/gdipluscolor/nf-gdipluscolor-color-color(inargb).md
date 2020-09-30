@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_63argb.htm
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(ARGB), Color.Color(IN ARGB), Color::Color, Color::Color(IN ARGB), _gdiplus_CLASS_Color_Color_argb_, gdiplus._gdiplus_CLASS_Color_Color_argb_
-f1_keywords:
-- gdipluscolor/Color.Color
-dev_langs:
-- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Color.Color
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Color::Color
+ - gdipluscolor/Color::Color
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Color.Color
 ---
 
 # Color::Color(IN ARGB)
@@ -50,49 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Color::Color</b> object by using an 
 			<b>ARGB</b> value.
 
-
 ## -parameters
-
-
-
 
 ### -param argb [in]
 
 Type: <b>ARGB</b>
 
-Value that specifies the alpha, red, green, and blue color components. 
-
+Value that specifies the alpha, red, green, and blue color components.
 
 ## -remarks
-
-
 
 An 
 				<b>ARGB</b> value is a <b>DWORD</b> that contains the alpha, red, green, and blue components of a color. 
 				<b>ARGB</b> is defined in Gdipluspixelformats.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>

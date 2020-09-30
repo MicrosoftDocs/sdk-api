@@ -5,10 +5,6 @@ description: Creates a video decoder instance that contains the resolution-indep
 tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDevice2::CreateVideoDecoder1
-f1_keywords:
-- ID3D12VideoDevice2::CreateVideoDecoder1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,14 +25,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice2::CreateVideoDecoder1
+ - d3d12video/ID3D12VideoDevice2::CreateVideoDecoder1
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- ID3D12VideoDevice2::CreateVideoDecoder1
+ - ID3D12VideoDevice2::CreateVideoDecoder1
 ---
 
 ## -description
@@ -51,7 +52,7 @@ A pointer to a [D3D12\_VIDEO\_DECODER\_DESC](ns-d3d12video-d3d12_video_decoder_d
 
 ### -param pProtectedResourceSession
 
-A [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) for managing access to protected resources.
+A [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) for managing access to protected resources.
 
 ### -param riid
 
@@ -70,4 +71,3 @@ This method returns HRESULT.
 Decoding a new stream requires instantiating a new decoder object.
 
 ## -see-also
-

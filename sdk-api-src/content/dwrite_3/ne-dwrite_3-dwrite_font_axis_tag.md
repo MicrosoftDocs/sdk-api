@@ -6,10 +6,6 @@ helpviewer_keywords: ["DWRITE_FONT_AXIS_TAG","DWRITE_FONT_AXIS_TAG enumeration [
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_TAG, DWRITE_FONT_AXIS_TAG enumeration [Direct Write], directwrite.dwrite_font_axis_tag, dwrite_3/DWRITE_FONT_AXIS_TAG
-f1_keywords:
-- dwrite_3/DWRITE_FONT_AXIS_TAG
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_AXIS_TAG
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_AXIS_TAG
+ - dwrite_3/DWRITE_FONT_AXIS_TAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_AXIS_TAG
 ---
 
 ## -description
@@ -78,5 +79,5 @@ DWRITE_MAKE_FONT_AXIS_TAG('c', 's', 't', 'm');
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_RANGE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
-[DWRITE_FONT_AXIS_VALUE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value)
+[DWRITE_FONT_AXIS_RANGE structure](./ns-dwrite_3-dwrite_font_axis_range.md)
+[DWRITE_FONT_AXIS_VALUE structure](./ns-dwrite_3-dwrite_font_axis_value.md)

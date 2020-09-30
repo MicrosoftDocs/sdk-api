@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: daa23f2c-8342-4387-800a-def5951896ee
 ms.date: 12/05/2018
 ms.keywords: DeleteUnusedDiffAreas, DeleteUnusedDiffAreas method, DeleteUnusedDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,DeleteUnusedDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas, IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas, base.ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes all shadow copy storage areas (also called diff areas) on the specified  volume that are not in use.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszDiffAreaVolumeName [in]
 
@@ -68,14 +64,10 @@ The name must be in one of the following formats and must include a trailing bac
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example,  D:\ 
          </li>
-<li>A volume GUID path in the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path in the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -139,7 +131,7 @@ The provider for the volume does not support shadow copy protection.
 </dl>
 </td>
 <td width="60%">
-An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -156,27 +148,11 @@ The specified volume was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Unused shadow copy storage area files are found on storage area volumes when the associated original volume is offline due to a protection fault. In certain cases, the original volume may be permanently lost, and calling the <b>DeleteUnusedDiffAreas</b> method is the only way to recover the abandoned storage area space.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>

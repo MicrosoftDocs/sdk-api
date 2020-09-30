@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 4575728c-79ca-4b3f-b068-3b0f8f976cf9
 ms.date: 12/05/2018
 ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Appearance property, IInkEdit.Appearance, IInkEdit.get_Appearance, IInkEdit::Appearance, IInkEdit::get_Appearance, IInkEdit::put_Appearance, InkEdit.get_Appearance, InkEdit.put_Appearance, get_Appearance, inked/IInkEdit::Appearance, inked/IInkEdit::get_Appearance, inked/IInkEdit::put_Appearance, put_Appearance, tablet.inkedit_appearance
-f1_keywords:
-- inked/IInkEdit.Appearance
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.Appearance
-- IInkEdit.get_Appearance
-- IInkEdit.put_Appearance
-- InkEdit.get_Appearance
-- InkEdit.put_Appearance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::get_Appearance
+ - inked/IInkEdit::get_Appearance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.Appearance
+ - IInkEdit.get_Appearance
+ - IInkEdit.put_Appearance
+ - InkEdit.get_Appearance
+ - InkEdit.put_Appearance
 ---
 
 # IInkEdit::get_Appearance
@@ -54,22 +55,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets or sets a value that determines the appearance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
+Gets or sets a value that determines the appearance of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-appearanceconstants">AppearanceConstants</a>
+<a href="/windows/desktop/api/inked/ne-inked-appearanceconstants">AppearanceConstants</a>
 
 
 
@@ -77,8 +72,4 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

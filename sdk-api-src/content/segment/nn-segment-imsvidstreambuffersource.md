@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 12160959-820b-4534-9392-a13ad229317d
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], IMSVidStreamBufferSource interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceInterface, mstv.imsvidstreambuffersource, segment/IMSVidStreamBufferSource
-f1_keywords:
-- segment/IMSVidStreamBufferSource
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSource
+ - segment/IMSVidStreamBufferSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSource
 ---
 
 # IMSVidStreamBufferSource interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMSVidStreamBufferSource</b> interface represents the Stream Buffer Source filter within the Video Control.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>. <b>IMSVidStreamBufferSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IMSVidStreamBufferSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-currentratings">CurrentRatings</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-currentratings">CurrentRatings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current ratings information from the data source.
@@ -82,7 +78,7 @@ Retrieves the current ratings information from the data source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_recordingattribute">get_RecordingAttribute</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_recordingattribute">get_RecordingAttribute</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Stream Buffer Source filter that this object manages.
@@ -91,7 +87,7 @@ Retrieves the Stream Buffer Source filter that this object manages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_sbesource">get_SBESource</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_sbesource">get_SBESource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the Stream Buffer Source filter.
@@ -100,7 +96,7 @@ Retrieves a pointer to the Stream Buffer Source filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_start">get_Start</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-get_start">get_Start</a>
 </td>
 <td align="left" width="63%">
 Retrieves the start time.
@@ -109,7 +105,7 @@ Retrieves the start time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-maxratingslevel">MaxRatingsLevel</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-maxratingslevel">MaxRatingsLevel</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum ratings level the object is permitted to play.
@@ -118,7 +114,7 @@ Specifies the maximum ratings level the object is permitted to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to block unrated content.
@@ -127,36 +123,23 @@ Specifies whether to block unrated content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">put_UnratedDelay</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_unrateddelay">put_UnratedDelay</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of time to play unrated content before blocking it.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidStreamBufferSource)</code>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

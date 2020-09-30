@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: fcb93d2a-2107-4aa9-9b3a-130044d7dc96
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumDevice, IWMDMEnumDevice interface [windows Media Device Manager], IWMDMEnumDevice interface [windows Media Device Manager],described, IWMDMEnumDeviceInterface, mswmdm/IWMDMEnumDevice, wmdm.iwmdmenumdevice
-f1_keywords:
-- mswmdm/IWMDMEnumDevice
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMEnumDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMEnumDevice
+ - mswmdm/IWMDMEnumDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMEnumDevice
 ---
 
 # IWMDMEnumDevice interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a computer. To obtain this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>.
-
-
-
+The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a computer. To obtain this interface, call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IWMDMEnumDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-clone">Clone</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Returns a copy of the <b>IWMDMEnumDevice</b> interface.
@@ -82,7 +78,7 @@ Returns a copy of the <b>IWMDMEnumDevice</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the next device.
@@ -91,7 +87,7 @@ Returns a pointer to the next device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-reset">Reset</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration so that <b>Next</b> returns a pointer to the first device.
@@ -100,27 +96,19 @@ Resets the enumeration so that <b>Next</b> returns a pointer to the first device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-skip">Skip</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of devices in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

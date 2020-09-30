@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D
 ms.date: 12/05/2018
 ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],DeleteCatalog method, ISearchManager2.DeleteCatalog, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
-f1_keywords:
-- searchapi/ISearchManager2.DeleteCatalog
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- searchapi.h
-api_name:
-- ISearchManager2.DeleteCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchManager2::DeleteCatalog
+ - searchapi/ISearchManager2::DeleteCatalog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - searchapi.h
+api_name:
+ - ISearchManager2.DeleteCatalog
 ---
 
 # ISearchManager2::DeleteCatalog
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
-
 
 ## -parameters
 
-
-
-
 ### -param pszCatalog [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Name of catalog to delete. The catalog must at some prior time have been created with a call to CreateCatalog().
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -105,16 +98,6 @@ Catalog did not previously existed, no change.
 
 FAILED HRESULT: Failure deleting catalog or invalid arguments passed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: DB09452D-725C-46EA-B74C-92C5E596BEF8
 ms.date: 12/05/2018
 ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IAppxFile interface [App packaging and management],described, appxpackaging/IAppxFile, appxpkg.iappxfile
-f1_keywords:
-- appxpackaging/IAppxFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFile
+ - appxpackaging/IAppxFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFile
 ---
 
 # IAppxFile interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a payload or footprint file in a package.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFile</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAppxFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcompressionoption">GetCompressionOption</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcompressionoption">GetCompressionOption</a>
 </td>
 <td align="left" width="63%">
 Retrieves the compression option that is used to store the file in the package.
@@ -79,7 +78,7 @@ Retrieves the compression option that is used to store the file in the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcontenttype">GetContentType</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getcontenttype">GetContentType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the content type of the file.
@@ -88,7 +87,7 @@ Retrieves the content type of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getname">GetName</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the file, including its path relative to the package root directory.
@@ -97,7 +96,7 @@ Retrieves the name of the file, including its path relative to the package root 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getsize">GetSize</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the uncompressed size of the file.
@@ -106,23 +105,15 @@ Retrieves the uncompressed size of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getstream">GetStream</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfile-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Gets a read-only stream that contains the uncompressed content of the file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfilesenumerator">IAppxFilesEnumerator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfilesenumerator">IAppxFilesEnumerator</a>

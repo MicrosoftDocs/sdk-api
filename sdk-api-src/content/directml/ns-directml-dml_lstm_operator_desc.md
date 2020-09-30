@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: B2225A27-EB5B-46BC-A224-6A07D869C001
 ms.date: 12/5/2018
 ms.keywords: DML_LSTM_OPERATOR_DESC, DML_LSTM_OPERATOR_DESC structure, direct3d12.dml_lstm_operator_desc, directml/DML_LSTM_OPERATOR_DESC
-f1_keywords:
-- directml/DML_LSTM_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_LSTM_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_LSTM_OPERATOR_DESC
+ - directml/DML_LSTM_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_LSTM_OPERATOR_DESC
 ---
 
 ## -description
@@ -205,12 +206,12 @@ The cell clip threshold. Clipping bounds the elements of a tensor in the range o
 
 ### -field UseClipThreshold
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if <i>ClipThreshold</i> should be used. Otherwise, <b>FALSE</b>.
 
 ### -field CoupleInputForget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the input and forget gates should be coupled. Otherwise, <b>FALSE</b>.

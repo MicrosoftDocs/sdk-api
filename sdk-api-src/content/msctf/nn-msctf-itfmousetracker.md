@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: aad07b35-99e0-4c76-ba65-93c2c972303d
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTracker, ITfMouseTracker interface [Text Services Framework], ITfMouseTracker interface [Text Services Framework],described, _tsf_itfmousetracker_ref, msctf/ITfMouseTracker, tsf.itfmousetracker
-f1_keywords:
-- msctf/ITfMouseTracker
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMouseTracker
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMouseTracker
+ - msctf/ITfMouseTracker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMouseTracker
 ---
 
 # ITfMouseTracker interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITfMouseTracker</b> interface is implemented by the TSF manager and is used by a text service to manage mouse event notification sinks. An instance of this interface is obtained by querying an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object for IID_ITfMouseTracker.
-
+The <b>ITfMouseTracker</b> interface is implemented by the TSF manager and is used by a text service to manage mouse event notification sinks. An instance of this interface is obtained by querying an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object for IID_ITfMouseTracker.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTracker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseTracker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseTracker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseTracker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITfMouseTracker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">AdviseMouseSink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">AdviseMouseSink</a>
 </td>
 <td align="left" width="63%">
 Installs a mouse event sink.
@@ -79,28 +78,20 @@ Installs a mouse event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-unadvisemousesink">UnadviseMouseSink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-unadvisemousesink">UnadviseMouseSink</a>
 </td>
 <td align="left" width="63%">
 Uninstalls a mouse event sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

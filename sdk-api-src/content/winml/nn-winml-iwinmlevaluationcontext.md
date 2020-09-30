@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: D4C9B16A-B351-41E4-AD42-20C25F3CC404
 ms.date: 12/05/2018
 ms.keywords: IWinMLEvaluationContext, IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,described, MachineLearning.iwinmlevaluationcontext, winml/IWinMLEvaluationContext
-f1_keywords:
-- winml/IWinMLEvaluationContext
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winml.dll
-api_name:
-- IWinMLEvaluationContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinMLEvaluationContext
+ - winml/IWinMLEvaluationContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winml.dll
+api_name:
+ - IWinMLEvaluationContext
 ---
 
 # IWinMLEvaluationContext interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Represents the context to bind inputs and outputs to a WinML model.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLEvaluationContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLEvaluationContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>IWinMLEvaluationContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-bindvalue">BindValue </a>
+<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-bindvalue">BindValue </a>
 </td>
 <td align="left" width="63%">
 Binds the input/output to the given model.
@@ -83,7 +82,7 @@ Binds the input/output to the given model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-clear">Clear</a>
+<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the bindings for a model.
@@ -92,12 +91,11 @@ Clears the bindings for a model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-getvaluebyname">GetValueByName</a>
+<a href="/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-getvaluebyname">GetValueByName</a>
 </td>
 <td align="left" width="63%">
 Returns the input/output description for the specific binding name.
 
 </td>
 </tr>
-</table> 
-
+</table>

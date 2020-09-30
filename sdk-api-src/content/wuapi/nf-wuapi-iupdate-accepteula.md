@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.date: 12/05/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
-f1_keywords:
-- wuapi/IUpdate.AcceptEula
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.AcceptEula
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::AcceptEula
+ - wuapi/IUpdate::AcceptEula
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.AcceptEula
 ---
 
 # IUpdate::AcceptEula
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Accepts the Microsoft Software License Terms that are associated with Windows Update. Administrators and power users can call this method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -109,18 +101,7 @@ The Microsoft Software License Terms for the update could not be located.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

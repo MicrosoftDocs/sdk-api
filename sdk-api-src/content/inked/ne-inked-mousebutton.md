@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: cfcbee55-3489-44da-a726-71dc615fa7f5
 ms.date: 12/05/2018
 ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [Tablet PC], NO_BUTTON, RIGHT_BUTTON, cfcbee55-3489-44da-a726-71dc615fa7f5, inked/LEFT_BUTTON, inked/MIDDLE_BUTTON, inked/MouseButton, inked/NO_BUTTON, inked/RIGHT_BUTTON, tablet.mousebutton
-f1_keywords:
-- inked/MouseButton
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- inked.h
-api_name:
-- MouseButton
 targetos: Windows
 req.typenames: MouseButton
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MouseButton
+ - inked/MouseButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - inked.h
+api_name:
+ - MouseButton
 ---
 
 # MouseButton enumeration
@@ -49,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies which mouse button was pressed.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field NO_BUTTON
 
 Default. No mouse button was pressed.
 
-
 ### -field LEFT_BUTTON
 
 The left mouse button was pressed.
-
 
 ### -field RIGHT_BUTTON
 
 The right mouse button was pressed.
 
-
 ### -field MIDDLE_BUTTON
 
 The middle mouse button was pressed.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>

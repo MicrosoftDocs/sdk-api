@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 8E9A059E-D7E2-4179-9ECA-D66BC9CD3757
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI],described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
-f1_keywords:
-- dxgi1_2/IDXGIDisplayControl
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIDisplayControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDisplayControl
+ - dxgi1_2/IDXGIDisplayControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIDisplayControl
 ---
 
 # IDXGIDisplayControl interface
@@ -50,20 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IDXGIDisplayControl</b> interface exposes methods to indicate user preference for the operating system's stereoscopic 3D display behavior and to set stereoscopic 3D display status to enable or disable.
         
 
 
 
-We recommend that you not use <b>IDXGIDisplayControl</b> to query or set system-wide stereoscopic 3D settings in your stereoscopic 3D apps. Instead, for your windowed apps, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-iswindowedstereoenabled">IDXGIFactory2::IsWindowedStereoEnabled</a> method to determine whether to render in stereo; for your full-screen apps, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1">IDXGIOutput1::GetDisplayModeList1</a> method and then determine whether any of the returned display modes support rendering in stereo.
-      
-
+We recommend that you not use <b>IDXGIDisplayControl</b> to query or set system-wide stereoscopic 3D settings in your stereoscopic 3D apps. Instead, for your windowed apps, call the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-iswindowedstereoenabled">IDXGIFactory2::IsWindowedStereoEnabled</a> method to determine whether to render in stereo; for your full-screen apps, call the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1">IDXGIOutput1::GetDisplayModeList1</a> method and then determine whether any of the returned display modes support rendering in stereo.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDisplayControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDisplayControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDisplayControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +75,7 @@ The <b>IDXGIDisplayControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled">IsStereoEnabled</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled">IsStereoEnabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value that indicates whether the operating system's stereoscopic 3D display behavior is enabled.
@@ -87,19 +84,16 @@ Retrieves a Boolean value that indicates whether the operating system's stereosc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-setstereoenabled">SetStereoEnabled</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-setstereoenabled">SetStereoEnabled</a>
 </td>
 <td align="left" width="63%">
 Set a Boolean value to either enable or disable the operating system's stereoscopic 3D display behavior.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <b>IDXGIDisplayControl</b> interface is only used by the <b>Display</b> app of the operating system's Control Panel or by control applets from third party graphics vendors. This interface is not meant for developers of end-user apps.
         </div>
@@ -107,7 +101,7 @@ Set a Boolean value to either enable or disable the operating system's stereosco
 <div class="alert"><b>Note</b>  The <b>IDXGIDisplayControl</b> interface does not exist for Windows Store apps.
         </div>
 <div> </div>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from a factory object (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>) to retrieve the <b>IDXGIDisplayControl</b> interface. The following code shows how.
+Call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from a factory object (<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>, <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a> or <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>) to retrieve the <b>IDXGIDisplayControl</b> interface. The following code shows how.
         
 
 
@@ -117,26 +111,15 @@ hr = g_pDXGIFactory->QueryInterface(__uuidof(IDXGIDisplayControl), (void **)&pDX
 ```
 
 
-The operating system processes changes to stereo-enabled configuration asynchronously. Therefore, these changes might not be immediately visible in every process that calls <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled">IDXGIDisplayControl::IsStereoEnabled</a> to query for stereo configuration.  Control applets can use the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatusevent">IDXGIFactory2::RegisterStereoStatusEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatuswindow">IDXGIFactory2::RegisterStereoStatusWindow</a> method to register for notifications of all stereo configuration changes.
+The operating system processes changes to stereo-enabled configuration asynchronously. Therefore, these changes might not be immediately visible in every process that calls <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidisplaycontrol-isstereoenabled">IDXGIDisplayControl::IsStereoEnabled</a> to query for stereo configuration.  Control applets can use the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatusevent">IDXGIFactory2::RegisterStereoStatusEvent</a> or <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerstereostatuswindow">IDXGIFactory2::RegisterStereoStatusWindow</a> method to register for notifications of all stereo configuration changes.
         
 
-<b>Platform Update for Windows 7:  </b>Stereoscopic 3D display behavior isn’t available with the Platform Update for Windows 7. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
-        
-
-
-
+<b>Platform Update for Windows 7:  </b>Stereoscopic 3D display behavior isn’t available with the Platform Update for Windows 7. For more info about the Platform Update for Windows 7, see <a href="/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

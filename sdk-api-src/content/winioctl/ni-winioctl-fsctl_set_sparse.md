@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: aa8f5880-f831-49b6-8359-fe07c78c032f
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_SPARSE, FSCTL_SET_SPARSE control, FSCTL_SET_SPARSE control code [Files], _win32_fsctl_set_sparse, base.fsctl_set_sparse, fs.fsctl_set_sparse, winioctl/FSCTL_SET_SPARSE
-f1_keywords:
-- winioctl/FSCTL_SET_SPARSE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_SET_SPARSE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_SET_SPARSE
+ - winioctl/FSCTL_SET_SPARSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_SET_SPARSE
 ---
 
 # FSCTL_SET_SPARSE IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -121,12 +116,11 @@ Resilient File System (ReFS) | Yes
 
 CsvFs will do redirected IO for sparse files. CsvFs allows making file sparse only when the file is opened exclusively by a node. SMB 3.0 Transparent Failover does not support buffered write.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FILE_SET_SPARSE_BUFFER](ns-winioctl-file_set_sparse_buffer.md)
 * [FSCTL_QUERY_ALLOCATED_RANGES](ni-winioctl-fsctl_query_allocated_ranges.md)
 * [FSCTL_SET_ZERO_DATA](ni-winioctl-fsctl_set_zero_data.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-* [Sparse Files](https://docs.microsoft.com/windows/desktop/FileIO/sparse-files)
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)
+* [Sparse Files](/windows/desktop/FileIO/sparse-files)

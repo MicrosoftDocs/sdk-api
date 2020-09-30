@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStatus method, ITfContext.GetStatus, ITfContext::GetStatus, _tsf_itfcontext_getstatus_ref, msctf/ITfContext::GetStatus, tsf.itfcontext_getstatus
-f1_keywords:
-- msctf/ITfContext.GetStatus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetStatus
+ - msctf/ITfContext::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetStatus
 ---
 
 # ITfContext::GetStatus
@@ -53,17 +54,11 @@ Obtains the document status.
 
 ## -parameters
 
-
-
-
 ### -param pdcs [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure that receives the document status data.
-
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure that receives the document status data.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,11 +101,7 @@ The context is not on a document stack.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))
+[ITfContext interface](nn-msctf-itfcontext.md), [TF_STATUS](/previous-versions/windows/desktop/legacy/ms629192(v=vs.85))

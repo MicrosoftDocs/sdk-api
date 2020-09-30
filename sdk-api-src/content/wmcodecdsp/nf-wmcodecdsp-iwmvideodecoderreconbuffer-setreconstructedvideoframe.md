@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
-f1_keywords:
-- wmcodecdsp/IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
+ - wmcodecdsp/IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
 ---
 
 # IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This method is obsolete and should not be used.</div>
 <div> </div>
 Restores the current reconstructed video frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pBuf [in]
 
 Address of an IMediaBuffer interface containing the reconstructed frame to restore.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,26 +81,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderreconbuffer">IWMVideoDecoderReconBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderreconbuffer">IWMVideoDecoderReconBuffer Interface</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframe">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframe">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframesize">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframesize">IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize</a>

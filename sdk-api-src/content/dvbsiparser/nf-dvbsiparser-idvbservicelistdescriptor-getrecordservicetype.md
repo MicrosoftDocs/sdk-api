@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceType method, IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
-f1_keywords:
-- dvbsiparser/IDvbServiceListDescriptor.GetRecordServiceType
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbServiceListDescriptor.GetRecordServiceType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbServiceListDescriptor::GetRecordServiceType
+ - dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbServiceListDescriptor.GetRecordServiceType
 ---
 
 # IDvbServiceListDescriptor::GetRecordServiceType
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor. 
-
+Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
 
 ## -parameters
-
-
-
 
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
-
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
 
 ### -param pbVal [out]
 
@@ -360,29 +355,15 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbservicelistdescriptor">IDvbServiceListDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbservicelistdescriptor">IDvbServiceListDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">IDvbServiceListDescriptor::GetCountOfRecords</a>

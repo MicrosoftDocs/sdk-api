@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 02574C7A-2607-4303-90C4-6FCC29AB22C2
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Deployment Services], Description property [Windows Deployment Services],IWdsTransportContentProvider interface, IWdsTransportContentProvider interface [Windows Deployment Services],Description property, IWdsTransportContentProvider.Description, IWdsTransportContentProvider.get_Description, IWdsTransportContentProvider::Description, IWdsTransportContentProvider::get_Description, get_Description, wds.iwdstransportcontentprovider_description, wdstptmgmt/IWdsTransportContentProvider::Description, wdstptmgmt/IWdsTransportContentProvider::get_Description
-f1_keywords:
-- wdstptmgmt/IWdsTransportContentProvider.Description
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportContentProvider.Description
-- IWdsTransportContentProvider.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportContentProvider::get_Description
+ - wdstptmgmt/IWdsTransportContentProvider::get_Description
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportContentProvider.Description
+ - IWdsTransportContentProvider.get_Description
 ---
 
 # IWdsTransportContentProvider::get_Description
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the description of the content provider.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontentprovider">IWdsTransportContentProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontentprovider">IWdsTransportContentProvider</a>

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 83529CFD-46D2-45A7-9B0D-F00FF43D911B
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], IUIAutomationStylesPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationStylesPattern, winauto.uiauto_IUIAutomationStylesPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationStylesPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationStylesPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationStylesPattern
+ - uiautomationclient/IUIAutomationStylesPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationStylesPattern
 ---
 
 # IUIAutomationStylesPattern interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables Microsoft UI Automation clients to retrieve the visual styles associated with an element in a document.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationStylesPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationStylesPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationStylesPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationStylesPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUIAutomationStylesPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)">GetCachedExtendedPropertiesArray </a>
+<a href="/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)">GetCachedExtendedPropertiesArray </a>
 </td>
 <td align="left" width="63%">
 Retrieves the cached extended properties for an element in a document.
@@ -82,7 +81,7 @@ Retrieves the cached extended properties for an element in a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)">GetCurrentExtendedPropertiesArray </a>
+<a href="/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)">GetCurrentExtendedPropertiesArray </a>
 </td>
 <td align="left" width="63%">
 Retrieves the extended properties for an element in a document.
@@ -102,7 +101,7 @@ Retrieves the extended properties for an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedextendedproperties">CachedExtendedProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedextendedproperties">CachedExtendedProperties</a>
 
 
 </td>
@@ -118,7 +117,7 @@ Retrieves a cached localized string that contains the list of extended propertie
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedfillcolor">CachedFillColor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedfillcolor">CachedFillColor</a>
 
 
 </td>
@@ -134,7 +133,7 @@ Retrieves the cached fill color of an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedfillpatterncolor">CachedFillPatternColor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedfillpatterncolor">CachedFillPatternColor</a>
 
 
 </td>
@@ -150,7 +149,7 @@ Retrieves the cached color of the pattern used to fill an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedshape">CachedShape</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedshape">CachedShape</a>
 
 
 </td>
@@ -166,7 +165,7 @@ Retrieves the cached shape of an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedstyleid">CachedStyleId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedstyleid">CachedStyleId</a>
 
 
 </td>
@@ -182,7 +181,7 @@ Retrieves the cached identifier of the visual style associated with an element i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedstylename">CachedStyleName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_cachedstylename">CachedStyleName</a>
 
 
 </td>
@@ -198,7 +197,7 @@ Retrieves the cached name of the visual style associated with an element in a do
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentextendedproperties">CurrentExtendedProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentextendedproperties">CurrentExtendedProperties</a>
 
 
 </td>
@@ -214,7 +213,7 @@ Retrieves a localized string that contains the list of extended properties for a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentfillcolor">CurrentFillColor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentfillcolor">CurrentFillColor</a>
 
 
 </td>
@@ -230,7 +229,7 @@ Retrieves the fill color of an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentfillpatterncolor">CurrentFillPatternColor</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentfillpatterncolor">CurrentFillPatternColor</a>
 
 
 </td>
@@ -246,7 +245,7 @@ Retrieves the color of the pattern used to fill an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentshape">CurrentShape</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentshape">CurrentShape</a>
 
 
 </td>
@@ -262,7 +261,7 @@ Retrieves the shape of an element in a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstyleid">CurrentStyleId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstyleid">CurrentStyleId</a>
 
 
 </td>
@@ -278,7 +277,7 @@ Retrieves the identifier of the visual style associated with an element in a doc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstylename">CurrentStyleName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationstylespattern-get_currentstylename">CurrentStyleName</a>
 
 
 </td>
@@ -291,16 +290,8 @@ Retrieves the name of the visual style associated with an element in a document.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

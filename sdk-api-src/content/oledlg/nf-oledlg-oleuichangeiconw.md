@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
-f1_keywords:
-- oledlg/OleUIChangeIcon
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIChangeIcon
-- OleUIChangeIconA
-- OleUIChangeIconW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIChangeIconW
+ - oledlg/OleUIChangeIconW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIChangeIcon
+ - OleUIChangeIconA
+ - OleUIChangeIconW
 ---
 
 # OleUIChangeIconW function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Change Icon</b> dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1 [in]
 
- Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure for this dialog box.
-
+ Pointer to the In/Out [OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md) structure for this dialog box.
 
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -299,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -310,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -332,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -394,16 +386,10 @@ The <i>szIconExe</i> value was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure.
+[OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md) structure.
 
 
 
@@ -415,11 +401,4 @@ The <i>szIconExe</i> value was invalid.
 
 ## -see-also
 
-
-
-
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
- 
-
- 
-
+[OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md)

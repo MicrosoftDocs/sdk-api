@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: dd078725-7fd8-4d6c-9b43-f6741b03f1e6
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
-f1_keywords:
-- winsync/ISyncChangeBatchBase.GetPrerequisiteKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.GetPrerequisiteKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::GetPrerequisiteKnowledge
+ - winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.GetPrerequisiteKnowledge
 ---
 
 # ISyncChangeBatchBase::GetPrerequisiteKnowledge
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the minimum knowledge that a destination provider is required to have to process this change batch.
 
-
 ## -parameters
-
-
-
 
 ### -param ppPrerequisteKnowledge [out]
 
 Returns the minimum knowledge that a destination provider is required to have to process this change batch.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -97,22 +90,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

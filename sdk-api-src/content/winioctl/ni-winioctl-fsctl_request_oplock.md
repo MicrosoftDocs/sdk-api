@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9df94089-137a-4540-9f46-119408b362ba
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK, FSCTL_REQUEST_OPLOCK control, FSCTL_REQUEST_OPLOCK control code [Files], fs.fsctl_request_oplock, winioctl/FSCTL_REQUEST_OPLOCK
-f1_keywords:
-- winioctl/FSCTL_REQUEST_OPLOCK
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_REQUEST_OPLOCK
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_REQUEST_OPLOCK
+ - winioctl/FSCTL_REQUEST_OPLOCK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_REQUEST_OPLOCK
 ---
 
 # FSCTL_REQUEST_OPLOCK IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -110,7 +104,7 @@ Alternative control code | Equivalent **RequestedOplockLevel** flags value | Opl
 
  
 
-Using the **FSCTL_REQUEST_OPLOCK** control code with the **RequestedOplockLevel** member set to `OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE` grants an oplock of type *RH*. An RH oplock is similar to the filter oplock granted by the [FSCTL_REQUEST_FILTER_OPLOCK](ni-winioctl-fsctl_request_filter_oplock.md) control code. However, note that the filter oplock allows only one client to hold an oplock on a file at a time; **FSCTL_REQUEST_OPLOCK** allows multiple clients at a time to have the *RH* lock on a file. Another difference is that **FSCTL_REQUEST_FILTER_OPLOCK** requires an oplock break acknowledgment before writes can occur, where **FSCTL_REQUEST_OPLOCK** does not because the oplock break notification is advisory-only and writes are allowed to go ahead without acknowledgment. For more information, see [Breaking Oplocks](https://docs.microsoft.com/windows-hardware/drivers/ifs/breaking-oplocks).
+Using the **FSCTL_REQUEST_OPLOCK** control code with the **RequestedOplockLevel** member set to `OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE` grants an oplock of type *RH*. An RH oplock is similar to the filter oplock granted by the [FSCTL_REQUEST_FILTER_OPLOCK](ni-winioctl-fsctl_request_filter_oplock.md) control code. However, note that the filter oplock allows only one client to hold an oplock on a file at a time; **FSCTL_REQUEST_OPLOCK** allows multiple clients at a time to have the *RH* lock on a file. Another difference is that **FSCTL_REQUEST_FILTER_OPLOCK** requires an oplock break acknowledgment before writes can occur, where **FSCTL_REQUEST_OPLOCK** does not because the oplock break notification is advisory-only and writes are allowed to go ahead without acknowledgment. For more information, see [Breaking Oplocks](/windows-hardware/drivers/ifs/breaking-oplocks).
 
 An **FSCTL_REQUEST_OPLOCK** control code fails if the file is opened in non-overlapped (synchronous) mode.
 
@@ -139,5 +133,5 @@ An RH oplock on a directory breaks to R when the directory itself is renamed or 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-* [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
-* [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+* [Oplock Semantics](/windows-hardware/drivers/ifs/oplock-semantics)
+* [Opportunistic Locks](/windows/desktop/FileIO/opportunistic-locks)

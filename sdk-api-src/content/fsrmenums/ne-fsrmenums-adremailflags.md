@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 149c0f4b-b30b-4439-b8a8-d0423be41c64
 ms.date: 12/05/2018
 ms.keywords: AdrEmailFlags, AdrEmailFlags enumeration [File Server Resource Manager], AdrEmailFlags_GenerateEventLog, AdrEmailFlags_IncludeDeviceClaims, AdrEmailFlags_IncludeUserInfo, AdrEmailFlags_PutAdminOnToLine, AdrEmailFlags_PutDataOwnerOnToLine, fs.adremailflags, fsrm.adremailflags, fsrmenums/AdrEmailFlags, fsrmenums/AdrEmailFlags_GenerateEventLog, fsrmenums/AdrEmailFlags_IncludeDeviceClaims, fsrmenums/AdrEmailFlags_IncludeUserInfo, fsrmenums/AdrEmailFlags_PutAdminOnToLine, fsrmenums/AdrEmailFlags_PutDataOwnerOnToLine
-f1_keywords:
-- fsrmenums/AdrEmailFlags
-dev_langs:
-- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FsrmEnums.h
-api_name:
-- AdrEmailFlags
 targetos: Windows
 req.typenames: AdrEmailFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AdrEmailFlags
+ - fsrmenums/_AdrEmailFlags
+ - AdrEmailFlags
+ - fsrmenums/AdrEmailFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FsrmEnums.h
+api_name:
+ - AdrEmailFlags
 ---
 
 # AdrEmailFlags enumeration
@@ -49,47 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the options for access denied remediation (ADR) email.
 
-
 ## -enum-fields
-
-
-
 
 ### -field AdrEmailFlags_PutDataOwnerOnToLine
 
 The ADR email will include the owner on the To: line.
 
-
 ### -field AdrEmailFlags_PutAdminOnToLine
 
 The ADR email will include the administrator on the To: line.
-
 
 ### -field AdrEmailFlags_IncludeDeviceClaims
 
 The ADR email will include the device claims.
 
-
 ### -field AdrEmailFlags_IncludeUserInfo
 
 The ADR email will include the user information.
-
 
 ### -field AdrEmailFlags_GenerateEventLog
 
 When the ADR email is sent, an entry will be added to the event log.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>

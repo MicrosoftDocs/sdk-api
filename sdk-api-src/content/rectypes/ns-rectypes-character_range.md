@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
 ms.date: 12/05/2018
 ms.keywords: '*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range'
-f1_keywords:
-- rectypes/CHARACTER_RANGE
-dev_langs:
-- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rectypes.h
-api_name:
-- CHARACTER_RANGE
 targetos: Windows
 req.typenames: CHARACTER_RANGE, *PCHARACTER_RANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCHARACTER_RANGE
+ - rectypes/tagCHARACTER_RANGE
+ - PCHARACTER_RANGE
+ - rectypes/PCHARACTER_RANGE
+ - CHARACTER_RANGE
+ - rectypes/CHARACTER_RANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rectypes.h
+api_name:
+ - CHARACTER_RANGE
 ---
 
 # CHARACTER_RANGE structure
@@ -49,43 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies a range of Unicode points (characters).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field wcLow
 
  The low Unicode code point in the range of supported Unicode points.
 
-
 ### -field cChars
 
  The number of supported Unicode points in this range.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>
- 
-
- 
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>

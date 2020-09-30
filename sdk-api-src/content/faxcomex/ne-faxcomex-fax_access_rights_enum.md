@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_60fh.htm
 ms.date: 12/05/2018
 ms.keywords: FAX_ACCESS_RIGHTS_ENUM, FAX_ACCESS_RIGHTS_ENUM enumeration [Fax Service], _mfax_fax_access_rights_enum, farMANAGE_CONFIG, farMANAGE_IN_ARCHIVE, farMANAGE_JOBS, farMANAGE_OUT_ARCHIVE, farQUERY_CONFIG, farQUERY_IN_ARCHIVE, farQUERY_JOBS, farQUERY_OUT_ARCHIVE, farSUBMIT_HIGH, farSUBMIT_LOW, farSUBMIT_NORMAL, fax._mfax_fax_access_rights_enum, faxcomex/FAX_ACCESS_RIGHTS_ENUM, faxcomex/farMANAGE_CONFIG, faxcomex/farMANAGE_IN_ARCHIVE, faxcomex/farMANAGE_JOBS, faxcomex/farMANAGE_OUT_ARCHIVE, faxcomex/farQUERY_CONFIG, faxcomex/farQUERY_IN_ARCHIVE, faxcomex/farQUERY_JOBS, faxcomex/farQUERY_OUT_ARCHIVE, faxcomex/farSUBMIT_HIGH, faxcomex/farSUBMIT_LOW, faxcomex/farSUBMIT_NORMAL
-f1_keywords:
-- faxcomex/FAX_ACCESS_RIGHTS_ENUM
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FaxComex.h
-api_name:
-- FAX_ACCESS_RIGHTS_ENUM
 targetos: Windows
 req.typenames: FAX_ACCESS_RIGHTS_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FAX_ACCESS_RIGHTS_ENUM
+ - faxcomex/FAX_ACCESS_RIGHTS_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FaxComex.h
+api_name:
+ - FAX_ACCESS_RIGHTS_ENUM
 ---
 
 # FAX_ACCESS_RIGHTS_ENUM enumeration
@@ -49,77 +50,54 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_ACCESS_RIGHTS_ENUM</b> enumeration defines access rights to the fax server.
 
-
 ## -enum-fields
-
-
-
 
 ### -field farSUBMIT_LOW
 
 The user can submit low-priority fax jobs. Users can view and manage their jobs in the fax server's queue and their messages in the outgoing fax archive.
 
-
 ### -field farSUBMIT_NORMAL
 
 The user can submit normal-priority and low-priority fax jobs. Users can view and manage their jobs in the fax server queue and their messages in the outgoing fax archive.
-
 
 ### -field farSUBMIT_HIGH
 
 The user can submit low-priority, normal-priority, and high-priority fax jobs. Users can view and manage their jobs in the fax server queue and their messages in the outgoing fax archive.
 
-
 ### -field farQUERY_JOBS
 
 The user can view all incoming and outgoing jobs in the fax server queue.
-
 
 ### -field farMANAGE_JOBS
 
 The user can manage all incoming and outgoing jobs in the fax server queue.
 
-
 ### -field farQUERY_CONFIG
 
 The user can view the fax server configuration data.
-
 
 ### -field farMANAGE_CONFIG
 
 The user can set the fax server configuration data.
 
-
 ### -field farQUERY_IN_ARCHIVE
 
 The user can view all fax messages in the incoming archive.
-
 
 ### -field farMANAGE_IN_ARCHIVE
 
 The user can manage all fax messages in the incoming archive.
 
-
 ### -field farQUERY_OUT_ARCHIVE
 
 The user can view all fax messages in the outgoing archive.
-
 
 ### -field farMANAGE_OUT_ARCHIVE
 
 The user can manage all fax messages in the outgoing archive.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">IFaxSecurity::get_GrantedRights</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-grantedrights-vb">IFaxSecurity::get_GrantedRights</a>

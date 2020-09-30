@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 48c3bf65-f077-45e6-a306-03d5760eeccb
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE, D3D11_FEATURE enumeration [Direct3D 11], D3D11_FEATURE_ARCHITECTURE_INFO, D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, D3D11_FEATURE_D3D11_OPTIONS, D3D11_FEATURE_D3D11_OPTIONS1, D3D11_FEATURE_D3D11_OPTIONS2, D3D11_FEATURE_D3D11_OPTIONS3, D3D11_FEATURE_D3D11_OPTIONS4, D3D11_FEATURE_D3D9_OPTIONS, D3D11_FEATURE_D3D9_OPTIONS1, D3D11_FEATURE_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT, D3D11_FEATURE_DOUBLES, D3D11_FEATURE_FORMAT_SUPPORT, D3D11_FEATURE_FORMAT_SUPPORT2, D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D11_FEATURE_MARKER_SUPPORT, D3D11_FEATURE_SHADER_CACHE, D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_THREADING, d3d11/D3D11_FEATURE, d3d11/D3D11_FEATURE_ARCHITECTURE_INFO, d3d11/D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS, d3d11/D3D11_FEATURE_D3D11_OPTIONS, d3d11/D3D11_FEATURE_D3D11_OPTIONS1, d3d11/D3D11_FEATURE_D3D11_OPTIONS2, d3d11/D3D11_FEATURE_D3D11_OPTIONS3, d3d11/D3D11_FEATURE_D3D11_OPTIONS4, d3d11/D3D11_FEATURE_D3D9_OPTIONS, d3d11/D3D11_FEATURE_D3D9_OPTIONS1, d3d11/D3D11_FEATURE_D3D9_SHADOW_SUPPORT, d3d11/D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT, d3d11/D3D11_FEATURE_DOUBLES, d3d11/D3D11_FEATURE_FORMAT_SUPPORT, d3d11/D3D11_FEATURE_FORMAT_SUPPORT2, d3d11/D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d11/D3D11_FEATURE_MARKER_SUPPORT, d3d11/D3D11_FEATURE_SHADER_CACHE, d3d11/D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT, d3d11/D3D11_FEATURE_THREADING, direct3d11.d3d11_feature, f0675a94-9721-1d35-a01a-535e5c64006d
-f1_keywords:
-- d3d11/D3D11_FEATURE
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_FEATURE
 targetos: Windows
 req.typenames: D3D11_FEATURE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_FEATURE
+ - d3d11/D3D11_FEATURE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_FEATURE
 ---
 
 ## -description
@@ -65,7 +66,6 @@ Supports the formats in <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_format_
 ### -field D3D11_FEATURE_FORMAT_SUPPORT2
 
 Supports the formats in <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_format_support2">D3D11_FORMAT_SUPPORT2</a>. Refer to <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_format_support2">D3D11_FEATURE_DATA_FORMAT_SUPPORT2</a>.
-
 
 ### -field D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS
 
@@ -131,7 +131,6 @@ Supports Direct3D 11.3 conservative rasterization feature options. Refer to <a h
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.3.
 
-
 ### -field D3D11_FEATURE_D3D11_OPTIONS3
 
 Supports Direct3D 11.4 conservative rasterization feature options. Refer to <a href="/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options3">D3D11_FEATURE_DATA_D3D11_OPTIONS3</a>.
@@ -163,3 +162,4 @@ This enumeration is used when querying a driver about support for these features
 ## -see-also
 
 <a href="/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core enumerations</a>
+

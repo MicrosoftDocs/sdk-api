@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
 ms.date: 12/05/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
-f1_keywords:
-- powrprof/DevicePowerClose
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- DevicePowerClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DevicePowerClose
+ - powrprof/DevicePowerClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - DevicePowerClose
 ---
 
 # DevicePowerClose function
@@ -49,36 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees all nodes in the device list and destroys the device list.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 
        zero.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/device-power-management">Device Power Management</a>

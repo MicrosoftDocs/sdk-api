@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 790fb0f4-4abd-4947-8e9a-68739657a8f8
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Next method, IEnumTfLanguageProfiles.Next, IEnumTfLanguageProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_next_ref, msctf/IEnumTfLanguageProfiles::Next, tsf.ienumtflanguageprofiles_next
-f1_keywords:
-- msctf/IEnumTfLanguageProfiles.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfLanguageProfiles.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLanguageProfiles::Next
+ - msctf/IEnumTfLanguageProfiles::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfLanguageProfiles.Next
 ---
 
 # IEnumTfLanguageProfiles::Next
+
 
 ## -description
 
@@ -56,20 +58,15 @@ Obtains, from the current position, the specified number of elements in the enum
 
 Specifies the number of elements to obtain.
 
-
 ### -param pProfile [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_languageprofile">TF_LANGUAGEPROFILE</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
-
+Pointer to an array of <a href="/windows/desktop/api/msctf/ns-msctf-tf_languageprofile">TF_LANGUAGEPROFILE</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetch [out]
 
 Pointer to a ULONG value that receives the number of elements obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 

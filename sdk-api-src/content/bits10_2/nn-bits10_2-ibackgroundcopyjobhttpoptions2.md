@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 6E8A32CF-99F6-4C4D-A6EE-A05A1E601793
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2, IBackgroundCopyJobHttpOptions2 interface [BITS], IBackgroundCopyJobHttpOptions2 interface [BITS],described, bits.ibackgroundcopyjobhttpoptions2, bits10_2/IBackgroundCopyJobHttpOptions2
-f1_keywords:
-- bits10_2/IBackgroundCopyJobHttpOptions2
-dev_langs:
-- c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions2
+ - bits10_2/IBackgroundCopyJobHttpOptions2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions2
 ---
 
 # IBackgroundCopyJobHttpOptions2 interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to retrieve and/or to override  the HTTP method used for a BITS transfer.
 
 To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using __uuidof(IBackgroundCopyJobHttpOptions2) for the interface identifier.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>. <b>IBackgroundCopyJobHttpOptions2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions2</b> interface inherits from <a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>. <b>IBackgroundCopyJobHttpOptions2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -89,16 +88,8 @@ Overrides the default HTTP method used for a BITS transfer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>

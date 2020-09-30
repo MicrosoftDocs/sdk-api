@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_GS_INPUT_PRIMITIVE, D3D11_TRACE_GS_INPUT_PRIMITIVE enumeration [Direct3D 11], D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE, D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ, D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT, D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE, D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ, D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ, d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED, direct3d11.d3d11_trace_gs_input_primitive
-f1_keywords:
-- d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11ShaderTracing.h
-api_name:
-- D3D11_TRACE_GS_INPUT_PRIMITIVE
 targetos: Windows
 req.typenames: D3D11_TRACE_GS_INPUT_PRIMITIVE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TRACE_GS_INPUT_PRIMITIVE
+ - d3d11shadertracing/D3D11_TRACE_GS_INPUT_PRIMITIVE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11ShaderTracing.h
+api_name:
+ - D3D11_TRACE_GS_INPUT_PRIMITIVE
 ---
 
 # D3D11_TRACE_GS_INPUT_PRIMITIVE enumeration
@@ -49,63 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the type of geometry shader input primitive.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED
 
 Identifies the geometry shader input primitive as undefined.
 
-
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_POINT
 
 Identifies the geometry shader input primitive as a point.
-
 
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE
 
 Identifies the geometry shader input primitive as a line.
 
-
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE
 
 Identifies the geometry shader input primitive as a triangle.
-
 
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_LINE_ADJ
 
 Identifies the geometry shader input primitive as an adjacent line.
 
-
 ### -field D3D11_TRACE_GS_INPUT_PRIMITIVE_TRIANGLE_ADJ
 
 Identifies the geometry shader input primitive as an adjacent triangle.
 
-
 ## -remarks
 
-
-
-<b>D3D11_TRACE_GS_INPUT_PRIMITIVE</b> identifies the type of geometry shader input primitive in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_stats">D3D11_TRACE_STATS</a> structure.
+<b>D3D11_TRACE_GS_INPUT_PRIMITIVE</b> identifies the type of geometry shader input primitive in a <a href="/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_stats">D3D11_TRACE_STATS</a> structure.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>

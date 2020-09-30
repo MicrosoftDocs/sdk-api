@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3be69be1-289c-466a-9271-5309fd1319fe
 ms.date: 12/05/2018
 ms.keywords: SL_GENUINE_STATE, SL_GENUINE_STATE enumeration [Security], SL_GEN_STATE_INVALID_LICENSE, SL_GEN_STATE_IS_GENUINE, SL_GEN_STATE_LAST, SL_GEN_STATE_OFFLINE, SL_GEN_STATE_TAMPERED, security.sl_genuine_state, slpublic/SL_GENUINE_STATE, slpublic/SL_GEN_STATE_INVALID_LICENSE, slpublic/SL_GEN_STATE_IS_GENUINE, slpublic/SL_GEN_STATE_LAST, slpublic/SL_GEN_STATE_OFFLINE, slpublic/SL_GEN_STATE_TAMPERED
-f1_keywords:
-- slpublic/SL_GENUINE_STATE
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Slpublic.h
-api_name:
-- SL_GENUINE_STATE
 targetos: Windows
 req.typenames: SL_GENUINE_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SL_GENUINE_STATE
+ - slpublic/_SL_GENUINE_STATE
+ - SL_GENUINE_STATE
+ - slpublic/SL_GENUINE_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Slpublic.h
+api_name:
+ - SL_GENUINE_STATE
 ---
 
 # SL_GENUINE_STATE enumeration
@@ -49,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the state of an application installation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SL_GEN_STATE_IS_GENUINE
 
 The installation is genuine.
 
-
 ### -field SL_GEN_STATE_INVALID_LICENSE
 
 The application does not have a valid license.
-
 
 ### -field SL_GEN_STATE_TAMPERED
 
 The <b>Tampered</b> flag of the license associated with the application is set.
 
-
 ### -field SL_GEN_STATE_OFFLINE
 
 The <b>Offline</b> flag of the license associated with the application is set.
-
 
 ### -field SL_GEN_STATE_LAST
 

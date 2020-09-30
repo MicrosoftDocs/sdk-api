@@ -1,17 +1,13 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerConfigurationInterop
 title: IRadialControllerConfigurationInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)�RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
+description: Enables interoperability with a Universal Windows Platform (UWP)�RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
 helpviewer_keywords: ["IRadialControllerConfigurationInterop","IRadialControllerConfigurationInterop interface","IRadialControllerConfigurationInterop interface","described","Input_Radial.iradialcontrollerconfigurationinterop","radialcontrollerinterop/IRadialControllerConfigurationInterop"]
 old-location: input_radial\iradialcontrollerconfigurationinterop.htm
 tech.root: input_radial
 ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
-f1_keywords:
-- radialcontrollerinterop/IRadialControllerConfigurationInterop
-dev_langs:
-- c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RadialControllerInterop.h
-api_name:
-- IRadialControllerConfigurationInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRadialControllerConfigurationInterop
+ - radialcontrollerinterop/IRadialControllerConfigurationInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RadialControllerInterop.h
+api_name:
+ - IRadialControllerConfigurationInterop
 ---
 
 # IRadialControllerConfigurationInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontroller">RadialController</a> menu.
-
+Enables interoperability with a Universal Windows Platform (UWP) <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> menu.
 
 ## -inheritance
 
@@ -70,26 +69,22 @@ The <b>IRadialControllerConfigurationInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow">GetForWindow</a>
+<a href="/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
+Retrieves a <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Developer and UX guidance</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
+<a href="/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
 
 
 
@@ -97,7 +92,7 @@ Retrieves a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialc
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/design/input/windows-wheel-interactions?redirectedfrom=MSDN">Surface Dial interactions</a>
+<a href="/windows/uwp/design/input/windows-wheel-interactions">Surface Dial interactions</a>
 
 
 
@@ -106,7 +101,3 @@ Retrieves a <a href="https://docs.microsoft.com/uwp/api/windows.ui.input.radialc
 
 
 <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>
- 
-
- 
-

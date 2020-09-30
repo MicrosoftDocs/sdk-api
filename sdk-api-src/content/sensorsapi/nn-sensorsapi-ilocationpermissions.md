@@ -8,10 +8,6 @@ tech.root: winsensors
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
 ms.date: 12/05/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
-f1_keywords:
-- sensorsapi/ILocationPermissions
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ILocationPermissions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationPermissions
+ - sensorsapi/ILocationPermissions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ILocationPermissions
 ---
 
 # ILocationPermissions interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the status of the system setting that allows users to change location settings.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPermissions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPermissions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,23 +69,17 @@ The <b>ILocationPermissions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission">GetGlobalLocationPermission</a>
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission">GetGlobalLocationPermission</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the system setting that allows users to change location settings.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <b>ILocationPermissions</b> is available in Windows 8.</div>
 <div> </div>
-For more information on location settings in Windows 8 see <a href="https://docs.microsoft.com/previous-versions/windows">Location settings</a>.
-
-
-
+For more information on location settings in Windows 8 see <a href="/previous-versions/windows">Location settings</a>.

@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 125E5CBE-8ADF-4725-9F1D-66C38CD7A567
 ms.date: 12/5/2018
 ms.keywords: BindInputs, BindInputs method, BindInputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindInputs method, IDMLBindingTable.BindInputs, IDMLBindingTable::BindInputs, direct3d12.idmlbindingtable_bindinputs, directml/IDMLBindingTable::BindInputs
-f1_keywords:
-- directml/IDMLBindingTable.BindInputs
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.dll
-api_name:
-- IDMLBindingTable.BindInputs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLBindingTable::BindInputs
+ - directml/IDMLBindingTable::BindInputs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.dll
+api_name:
+ - IDMLBindingTable.BindInputs
 ---
 
 # IDMLBindingTable::BindInputs
+
 
 ## -description
 
@@ -80,4 +82,4 @@ An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/a
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>
+<a href="/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>

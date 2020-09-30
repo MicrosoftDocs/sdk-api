@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 28c645cf-8c69-49d7-a95f-ced6467ad682
 ms.date: 12/05/2018
 ms.keywords: IEnumResources, IEnumResources interface [Windows Shell], IEnumResources interface [Windows Shell],described, _shell_IEnumResources, shell.IEnumResources, shobjidl_core/IEnumResources
-f1_keywords:
-- shobjidl_core/IEnumResources
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IEnumResources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumResources
+ - shobjidl_core/IEnumResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IEnumResources
 ---
 
 # IEnumResources interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes resource enumeration methods.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumResources</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumResources</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumResources</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumResources</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IEnumResources</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-clone">Clone</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones a resource enumerator.
@@ -79,16 +78,16 @@ Clones a resource enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-next">Next</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets the next <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shell_item_resource">SHELL_ITEM_RESOURCE</a> structure.
+Gets the next <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shell_item_resource">SHELL_ITEM_RESOURCE</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-reset">Reset</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration index to 0.
@@ -97,12 +96,11 @@ Resets the enumeration index to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-skip">Skip</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of resources.
 
 </td>
 </tr>
-</table> 
-
+</table>

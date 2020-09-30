@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: dec6eb10-1243-4888-9ccc-ab1f4cfb11e7
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader, IRdcSignatureReader interface [Remote Differential Compression], IRdcSignatureReader interface [Remote Differential Compression],described, fs.irdcsignaturereader, msrdc/IRdcSignatureReader, rdc.irdcsignaturereader
-f1_keywords:
-- msrdc/IRdcSignatureReader
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcSignatureReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcSignatureReader
+ - msrdc/IRdcSignatureReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcSignatureReader
 ---
 
 # IRdcSignatureReader interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcSignatureReader</b> interface reads the signatures and the parameters used to generate the signatures.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSignatureReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcSignatureReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSignatureReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcSignatureReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IRdcSignatureReader</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readheader">ReadHeader</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readheader">ReadHeader</a>
 </td>
 <td align="left" width="63%">
 Reads the signature header and returns a copy of the parameters
@@ -78,25 +77,17 @@ Reads the signature header and returns a copy of the parameters
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">ReadSignatures</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">ReadSignatures</a>
 </td>
 <td align="left" width="63%">
 Reads a block of signatures from the current position.</p> (Inherited from <b>IRdcSignatureReader</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>

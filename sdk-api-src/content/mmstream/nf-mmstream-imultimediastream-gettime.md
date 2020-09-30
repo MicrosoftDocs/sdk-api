@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: da92c68b-176c-4773-9ae1-63f803bc206e
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetTime method, IMultiMediaStream.GetTime, IMultiMediaStream::GetTime, IMultiMediaStreamGetTime, dshow.imultimediastream_gettime, mmstream/IMultiMediaStream::GetTime
-f1_keywords:
-- mmstream/IMultiMediaStream.GetTime
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMultiMediaStream.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiMediaStream::GetTime
+ - mmstream/IMultiMediaStream::GetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMultiMediaStream.GetTime
 ---
 
 # IMultiMediaStream::GetTime
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <b>GetTime</b> method retrieves the current stream time.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrentTime [out]
 
 Pointer to a variable that receives the stream time, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -113,18 +103,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>

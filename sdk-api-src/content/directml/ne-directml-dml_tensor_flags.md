@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 61704FFD-51F8-4872-8EAA-110F64B908B3
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_FLAGS, DML_TENSOR_FLAGS enumeration, DML_TENSOR_FLAG_NONE, DML_TENSOR_FLAG_OWNED_BY_DML, direct3d12.dml_tensor_flags, directml/DML_TENSOR_FLAGS, directml/DML_TENSOR_FLAG_NONE, directml/DML_TENSOR_FLAG_OWNED_BY_DML
-f1_keywords:
-- directml/DML_TENSOR_FLAGS
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_TENSOR_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_TENSOR_FLAGS
+ - directml/DML_TENSOR_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_TENSOR_FLAGS
 ---
 
 # DML_TENSOR_FLAGS enumeration
+
 
 ## -description
 
@@ -67,3 +69,4 @@ When this flag is set on a particular tensor description, the corresponding tens
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+

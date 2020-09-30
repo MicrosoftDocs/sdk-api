@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_Sort, DPA_Sort function [Windows Controls], _win32_DPA_Sort, _win32_DPA_Sort_cpp, controls.DPA_Sort, controls._win32_DPA_Sort, dpa_dsa/DPA_Sort
-f1_keywords:
-- dpa_dsa/DPA_Sort
-dev_langs:
-- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComCtl32.dll
-api_name:
-- DPA_Sort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DPA_Sort
+ - dpa_dsa/DPA_Sort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComCtl32.dll
+api_name:
+ - DPA_Sort
 ---
 
 # DPA_Sort function
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>DPA_Sort</b> is available for use in the operating 
 
@@ -58,11 +58,7 @@ subsequent versions.]
 
 Sorts the items in a Dynamic Pointer Array (DPA).
 
-
 ## -parameters
-
-
-
 
 ### -param hdpa
 
@@ -70,28 +66,20 @@ Type: <b>HDPA</b>
 
 A handle to a DPA.
 
-
 ### -param pfnCompare
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
 
-A comparison function pointer. See <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> for the comparison function prototype.
-
+A comparison function pointer. See <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> for the comparison function prototype.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An additional parameter to be passed to <i>pfnCmp</i>.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> on success or <b>FALSE</b> on failure.
-
-
-

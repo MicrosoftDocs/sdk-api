@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
 ms.date: 12/05/2018
 ms.keywords: IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], IMFAudioStreamVolume interface [Media Foundation],described, f06ed262-a2ec-4688-b477-877d04cf1892, mf.imfaudiostreamvolume, mfidl/IMFAudioStreamVolume
-f1_keywords:
-- mfidl/IMFAudioStreamVolume
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAudioStreamVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAudioStreamVolume
+ - mfidl/IMFAudioStreamVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAudioStreamVolume
 ---
 
 # IMFAudioStreamVolume interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the volume levels of individual audio channels.
 
-The streaming audio renderer (SAR) exposes this interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MR_STREAM_VOLUME_SERVICE</b>. You can call <b>GetService</b> directly on the SAR or call it on the Media Session.
-
+The streaming audio renderer (SAR) exposes this interface as a service. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MR_STREAM_VOLUME_SERVICE</b>. You can call <b>GetService</b> directly on the SAR or call it on the Media Session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioStreamVolume</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioStreamVolume</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioStreamVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAudioStreamVolume</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +72,7 @@ The <b>IMFAudioStreamVolume</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getallvolumes">GetAllVolumes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getallvolumes">GetAllVolumes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume levels for all of the channels in the audio stream.
@@ -83,7 +82,7 @@ Retrieves the volume levels for all of the channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelcount">GetChannelCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelcount">GetChannelCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of channels in the audio stream.
@@ -93,7 +92,7 @@ Retrieves the number of channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelvolume">GetChannelVolume</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-getchannelvolume">GetChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume level for a specified channel in the audio stream.
@@ -103,7 +102,7 @@ Retrieves the volume level for a specified channel in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setallvolumes">SetAllVolumes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setallvolumes">SetAllVolumes</a>
 </td>
 <td align="left" width="63%">
 Sets the individual volume levels for all of the channels in the audio stream.
@@ -113,7 +112,7 @@ Sets the individual volume levels for all of the channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setchannelvolume">SetChannelVolume</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfaudiostreamvolume-setchannelvolume">SetChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level for a specified channel in the audio stream.
@@ -121,14 +120,11 @@ Sets the volume level for a specified channel in the audio stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-If your application does not require channel-level volume control, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a> interface to control the master volume level of the audio session.
+If your application does not require channel-level volume control, you can use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume">IMFSimpleAudioVolume</a> interface to control the master volume level of the audio session.
 
 Volume is expressed as an attenuation level, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation). For each channel, the attenuation level is the product of:
 
@@ -146,20 +142,10 @@ Attenuation (dB) = 20 * log10(<i>Level</i>)
 
 For example, a volume level of 0.50 represents 6.02 dB of attenuation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

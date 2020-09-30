@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: fwp
+f1_keywords:
+ - fwpmtypes
+ - fwpmtypes/fwpmtypes
 ---
 
 # Fwpmtypes.h header
 
 
 ## -description
-
 
 This header is used by Windows Filtering Platform. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9435e41b-b2ec-4a2a-9058-82025f2c2e09
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IAzClientContext3 interface [Security],described, azroles/IAzClientContext3, security.iazclientcontext3
-f1_keywords:
-- azroles/IAzClientContext3
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzClientContext3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzClientContext3
+ - azroles/IAzClientContext3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzClientContext3
 ---
 
 # IAzClientContext3 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAzClientContext3</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> interface.
-
+The <b>IAzClientContext3</b> interface extends the <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>. <b>IAzClientContext3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext3</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>. <b>IAzClientContext3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IAzClientContext3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-accesscheck2">AccessCheck2</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-accesscheck2">AccessCheck2</a>
 </td>
 <td align="left" width="63%">
 Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
@@ -80,7 +79,7 @@ Returns a value that specifies whether the principal represented by the current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-getgroups">GetGroups</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-getgroups">GetGroups</a>
 </td>
 <td align="left" width="63%">
 Returns an array of the application groups associated with this client context.
@@ -89,7 +88,7 @@ Returns an array of the application groups associated with this client context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-getoperations">GetOperations</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-getoperations">GetOperations</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of the operations, within the specified scope, that the principal represented by the current client context has permission to perform.
@@ -98,7 +97,7 @@ Returns a collection of the operations, within the specified scope, that the pri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-gettasks">GetTasks</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-gettasks">GetTasks</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.
@@ -107,7 +106,7 @@ Returns a collection of the tasks, within the specified scope, that the principa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-isinroleassignment">IsInRoleAssignment</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-isinroleassignment">IsInRoleAssignment</a>
 </td>
 <td align="left" width="63%">
 Checks whether the principal represented by the current client context is a member of the specified role in the specified scope.
@@ -125,7 +124,7 @@ Checks whether the principal represented by the current client context is a memb
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleinterfaces">BizRuleInterfaces</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleinterfaces">BizRuleInterfaces</a>
 
 
 </td>
@@ -134,14 +133,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
+Gets the collection of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">BizRuleParameters</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">BizRuleParameters</a>
 
 
 </td>
@@ -157,7 +156,7 @@ Gets the collection of parameters that can be passed by the BizRule script assoc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_sids">Sids</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_sids">Sids</a>
 
 
 </td>
@@ -166,9 +165,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an array of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) associated with this client context.
+Gets an array of the <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) associated with this client context.
 
 </td>
 </tr>
-</table> 
-
+</table>

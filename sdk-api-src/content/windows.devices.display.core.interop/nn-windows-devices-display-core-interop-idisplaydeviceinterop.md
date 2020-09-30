@@ -5,8 +5,6 @@ description: Provides methods for interoperating between Direct3D (and other gra
 helpviewer_keywords: ["interop::IDisplayDeviceInterop"]
 ms.date: 02/10/2020
 tech.root: winrt
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -21,19 +19,26 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- windows.h
+ - windows.h
 api_name:
  - interop::IDisplayDeviceInterop
+f1_keywords:
+ - IDisplayDeviceInterop
+ - windows.devices.display.core.interop/IDisplayDeviceInterop
 ---
 
 ## -description
+
 Provides methods for interoperating between Direct3D (and other graphics APIs) and APIs in the Windows Runtime [Windows.Devices.Display.Core](/uwp/api/windows.devices.display.core) namespace.
 
 ## -remarks
 
 ## -see-also
+

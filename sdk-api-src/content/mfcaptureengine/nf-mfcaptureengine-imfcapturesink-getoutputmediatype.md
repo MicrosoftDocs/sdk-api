@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3F050964-9E71-45FC-9553-A2E7A397217E
 ms.date: 12/05/2018
 ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetOutputMediaType method, IMFCaptureSink.GetOutputMediaType, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink.GetOutputMediaType
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink.GetOutputMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink::GetOutputMediaType
+ - mfcaptureengine/IMFCaptureSink::GetOutputMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink.GetOutputMediaType
 ---
 
 # IMFCaptureSink::GetOutputMediaType
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the output format for a stream on this capture sink.
-
 
 ## -parameters
 
-
-
-
 ### -param dwSinkStreamIndex [in]
 
-The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
-
+The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the pointer.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the pointer.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,18 +94,7 @@ The <i>dwSinkStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

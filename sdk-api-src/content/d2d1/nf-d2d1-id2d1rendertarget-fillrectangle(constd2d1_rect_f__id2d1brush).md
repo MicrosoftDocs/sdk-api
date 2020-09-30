@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: b5d7ca28-0751-4799-8480-f221fd5fe276
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle method [Direct2D], FillRectangle method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillRectangle method, ID2D1RenderTarget.FillRectangle, ID2D1RenderTarget.FillRectangle(const D2D1_RECT_F &,ID2D1Brush), ID2D1RenderTarget::FillRectangle, ID2D1RenderTarget::FillRectangle(const D2D1_RECT_F &,ID2D1Brush), d2d1/ID2D1RenderTarget::FillRectangle, direct2d.ID2D1RenderTarget_FillRectangle_ref_D2D_RECT_F_ptr_ID2D1Brush
-f1_keywords:
-- d2d1/ID2D1RenderTarget.FillRectangle
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.FillRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::FillRectangle
+ - d2d1/ID2D1RenderTarget::FillRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.FillRectangle
 ---
 
 ## -description
@@ -151,10 +152,11 @@ HRESULT DemoApp::OnRender()
 }
 ```
 
-For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
+For a related tutorial, see <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>.
 
 ## -see-also
 
 <a href="/windows/win32/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

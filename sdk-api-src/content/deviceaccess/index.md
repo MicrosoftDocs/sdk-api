@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: deviceaccess
+f1_keywords:
+ - deviceaccess
+ - deviceaccess/deviceaccess
 ---
 
 # Deviceaccess.h header
 
 
 ## -description
-
 
 This header is used by Device Access API. For more information, see:
 

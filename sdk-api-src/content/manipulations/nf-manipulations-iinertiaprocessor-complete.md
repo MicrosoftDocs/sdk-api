@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: ff41789c-afc5-419b-9767-e99572b9b41e
 ms.date: 12/05/2018
 ms.keywords: Complete, Complete method [Windows Touch], Complete method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],Complete method, IInertiaProcessor.Complete, IInertiaProcessor::Complete, manipulations/IInertiaProcessor::Complete, wintouch.iinertiaprocessor_complete
-f1_keywords:
-- manipulations/IInertiaProcessor.Complete
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IInertiaProcessor.Complete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInertiaProcessor::Complete
+ - manipulations/IInertiaProcessor::Complete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IInertiaProcessor.Complete
 ---
 
 # IInertiaProcessor::Complete
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Complete</b> method finishes the current manipulation and stops inertia on the inertia processor.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAIL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Complete</b> method raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event	on an <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
 	 
@@ -97,25 +84,14 @@ The <b>Complete</b> method raises the <a href="/windows/win32/api/manipulations/
 		  
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime">CompleteTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime">CompleteTime</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>

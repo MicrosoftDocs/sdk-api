@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 32a1388a-b8b9-455b-af94-0a09e98f9108
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],Delete method, IGPMStarterGPOBackup.Delete, IGPMStarterGPOBackup::Delete, _win32_igpmstartergpobackup_delete, gpmc.igpmstartergpobackup_delete, gpmgmt/IGPMStarterGPOBackup::Delete
-f1_keywords:
-- gpmgmt/IGPMStarterGPOBackup.Delete
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStarterGPOBackup.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStarterGPOBackup::Delete
+ - gpmgmt/IGPMStarterGPOBackup::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStarterGPOBackup.Delete
 ---
 
 # IGPMStarterGPOBackup::Delete
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the Starter GPO backup from the backup directory, and from the file system.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -70,24 +62,14 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">IGPMStarterGPOBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">IGPMStarterGPOBackup</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection">IGPMStarterGPOBackupCollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection">IGPMStarterGPOBackupCollection</a>

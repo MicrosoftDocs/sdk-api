@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 3D8F193B-6EEA-4E40-A53C-EB0768E0DE83
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WdsTptTftpCapMaximumBlockSize, WdsTptTftpCapVariableWindow, wds.wdstransport_tftp_capability, wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, wdstptmgmt/WdsTptTftpCapMaximumBlockSize, wdstptmgmt/WdsTptTftpCapVariableWindow'
-f1_keywords:
-- wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdstptmgmt.h
-api_name:
-- WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 targetos: Windows
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012
+ - wdstptmgmt/__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012
+ - PWDSTRANSPORT_TFTP_CAPABILITY
+ - wdstptmgmt/PWDSTRANSPORT_TFTP_CAPABILITY
+ - WDSTRANSPORT_TFTP_CAPABILITY
+ - wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdstptmgmt.h
+api_name:
+ - WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 ---
 
 # WDSTRANSPORT_TFTP_CAPABILITY enumeration
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates which features are supported by the WDS TFTP server.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WdsTptTftpCapMaximumBlockSize
 
 Indicates that the maximum block size used by the server can be configured.
-
 
 ### -field WdsTptTftpCapVariableWindow
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
-f1_keywords:
-- mediaobj/IDMOVideoOutputOptimizations
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IDMOVideoOutputOptimizations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMOVideoOutputOptimizations
+ - mediaobj/IDMOVideoOutputOptimizations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IDMOVideoOutputOptimizations
 ---
 
 # IDMOVideoOutputOptimizations interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IDMOVideoOutputOptimizations</code> interface supports video optimizations on a Microsoft DirectX Media Object (DMO).
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOVideoOutputOptimizations</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOVideoOutputOptimizations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOVideoOutputOptimizations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOVideoOutputOptimizations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +70,7 @@ The <b>IDMOVideoOutputOptimizations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentoperationmode">GetCurrentOperationMode</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentoperationmode">GetCurrentOperationMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features in effect.
@@ -83,7 +79,7 @@ Retrieves the optimization features in effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentsamplerequirements">GetCurrentSampleRequirements</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentsamplerequirements">GetCurrentSampleRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
@@ -92,7 +88,7 @@ Retrieves the optimization features required to process the next sample, given t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-queryoperationmodepreferences">QueryOperationModePreferences</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-queryoperationmodepreferences">QueryOperationModePreferences</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DMO's preferred optimization features.
@@ -101,19 +97,16 @@ Retrieves the DMO's preferred optimization features.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">SetOperationMode</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">SetOperationMode</a>
 </td>
 <td align="left" width="63%">
 Notifies the DMO of the optimization features in effect.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface enables an application to negotiate with a DMO about video output optimizations. A DMO exposes this interface when it can perform optimizations that require support from the application. The application can query the DMO for its preferred features, and then agree (or not agree) to provide them. The DMO must process output even if the application rejects the optimizations.
 
@@ -149,7 +142,3 @@ while (there is input).
         pDMO->ProcessOutput(0, ...) // OK to use a new buffer.
 }
 ```
-
-
-
-

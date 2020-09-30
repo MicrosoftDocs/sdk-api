@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: abef13bc-0d63-4c71-a1cb-9ade26b41da3
 ms.date: 12/05/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
-f1_keywords:
-- certpoleng/PstGetUserNameForCertificate
-dev_langs:
-- c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certpoleng.dll
-api_name:
-- PstGetUserNameForCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PstGetUserNameForCertificate
+ - certpoleng/PstGetUserNameForCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certpoleng.dll
+api_name:
+ - PstGetUserNameForCertificate
 ---
 
 # PstGetUserNameForCertificate function
@@ -49,32 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user name associated with the specified certificate.
-
 
 ## -parameters
 
-
-
-
 ### -param pCertContext [in]
 
-A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
-
+A constant pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
 
 ### -param UserName [out]
 
 The user name associated with the certificate specified by the <i>pCertContext</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, return <b>STATUS_SUCCESS</b>.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-
-
-

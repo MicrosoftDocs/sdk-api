@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: b0942d23-9c49-4726-9d84-bf0d448124b3
 ms.date: 12/05/2018
 ms.keywords: GENERIC_READ, GENERIC_WRITE, IWICStream interface [Windows Imaging Component],InitializeFromFilename method, IWICStream.InitializeFromFilename, IWICStream::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromfilename, wic._wic_codec_iwicstream_initializefromfilename, wincodec/IWICStream::InitializeFromFilename
-f1_keywords:
-- wincodec/IWICStream.InitializeFromFilename
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICStream.InitializeFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICStream::InitializeFromFilename
+ - wincodec/IWICStream::InitializeFromFilename
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICStream.InitializeFromFilename
 ---
 
 # IWICStream::InitializeFromFilename
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a stream from a particular file.
 
-
 ## -parameters
-
-
-
 
 ### -param wzFileName [in]
 
 Type: <b>LPCWSTR</b>
 
 The file used to initialize the stream.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -97,27 +92,18 @@ Write access.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a> interface methods do not enable you to provide a file sharing option.
-            To create a shared file stream for an image, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> function.
-            This stream can then be used to create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream">CreateDecoderFromStream</a> method.
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a> interface methods do not enable you to provide a file sharing option.
+            To create a shared file stream for an image, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> function.
+            This stream can then be used to create an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream">CreateDecoderFromStream</a> method.
          
 
 
@@ -211,7 +197,3 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
         pDecoder->Release();
     }
 ```
-
-
-
-

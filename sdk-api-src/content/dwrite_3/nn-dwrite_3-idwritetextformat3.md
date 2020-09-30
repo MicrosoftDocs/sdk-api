@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteTextFormat3","IDWriteTextFormat3 interface [Direct
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteTextFormat3, IDWriteTextFormat3 interface [Direct Write], IDWriteTextFormat3 interface [Direct Write],described, directwrite.idwritetextformat3, dwrite_3/IDWriteTextFormat3
-f1_keywords:
-- IDWriteTextFormat3
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -25,16 +21,21 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteTextFormat3
+ - dwrite_3/IDWriteTextFormat3
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteTextFormat3
+ - IDWriteTextFormat3
 ---
 
 ## -description
@@ -46,3 +47,4 @@ This interface extends [IDWriteTextFormat2](/windows/win32/directwrite/idwritete
 ## -see-also
 
 [IDWriteTextFormat2](/windows/win32/directwrite/idwritetextformat2)
+

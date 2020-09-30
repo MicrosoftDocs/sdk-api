@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoDevice::CreateVideoDecoderHeap","CreateVideoDe
 tech.root: mf
 ms.assetid: 70b73a82-bbd2-490f-976a-ac7e4d23827c
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoDevice::CreateVideoDecoderHeap
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoDevice::CreateVideoDecoderHeap, CreateVideoDecoderHeap, ID3D12VideoDevice.CreateVideoDecoderHeap, ID3D12VideoDevice::CreateVideoDecoderHeap, ID3D12VideoDevice.CreateVideoDecoderHeap
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoDevice::CreateVideoDecoderHeap
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoDevice::CreateVideoDecoderHeap
+ - d3d12video/ID3D12VideoDevice::CreateVideoDecoderHeap
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoDevice::CreateVideoDecoderHeap
 ---
 
 # ID3D12VideoDevice::CreateVideoDecoderHeap
@@ -68,3 +69,4 @@ This method returns an HRESULT.
 ## -remarks
 
 ## -see-also
+

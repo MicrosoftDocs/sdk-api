@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex.htm
 ms.date: 12/05/2018
 ms.keywords: 6755c62f-1ee8-9783-0c97-7e582de29a4b, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], IDirect3DDevice9Ex interface [Direct3D 9],described, d3d9/IDirect3DDevice9Ex, direct3d9.idirect3ddevice9ex
-f1_keywords:
-- d3d9/IDirect3DDevice9Ex
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9Ex
+ - d3d9/IDirect3DDevice9Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9Ex
 ---
 
 # IDirect3DDevice9Ex interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders. The IDirect3DDevice9Ex interface derives from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface.
-
+Applications use the methods of the IDirect3DDevice9Ex interface to render primitives, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders. The IDirect3DDevice9Ex interface derives from the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Ex</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IDirect3DDevice9Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>
 </td>
 <td align="left" width="63%">
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
@@ -80,7 +79,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkresourceresidency">CheckResourceResidency</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkresourceresidency">CheckResourceResidency</a>
 </td>
 <td align="left" width="63%">
 Checks an array of resources to determine if it is likely that they will cause a large stall at Draw time because the system must make the resources GPU-accessible.
@@ -89,7 +88,7 @@ Checks an array of resources to determine if it is likely that they will cause a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects">ComposeRects</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects">ComposeRects</a>
 </td>
 <td align="left" width="63%">
 Copy a text string to one surface using an alphabet of glyphs on another surface. Composition is done by the GPU using bitwise operations.
@@ -98,7 +97,7 @@ Copy a text string to one surface using an alphabet of glyphs on another surface
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex">CreateDepthStencilSurfaceEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex">CreateDepthStencilSurfaceEx</a>
 </td>
 <td align="left" width="63%">
 Creates a depth-stencil surface.
@@ -107,7 +106,7 @@ Creates a depth-stencil surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex">CreateOffscreenPlainSurfaceEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex">CreateOffscreenPlainSurfaceEx</a>
 </td>
 <td align="left" width="63%">
 Create an off-screen surface.
@@ -116,7 +115,7 @@ Create an off-screen surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex">CreateRenderTargetEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex">CreateRenderTargetEx</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target surface.
@@ -125,7 +124,7 @@ Creates a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getdisplaymodeex">GetDisplayModeEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getdisplaymodeex">GetDisplayModeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
@@ -134,7 +133,7 @@ Retrieves the display mode's spatial resolution, color resolution, refresh frequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getgputhreadpriority">GetGPUThreadPriority</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getgputhreadpriority">GetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Get the priority of the GPU thread.
@@ -143,7 +142,7 @@ Get the priority of the GPU thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getmaximumframelatency">GetMaximumFrameLatency</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-getmaximumframelatency">GetMaximumFrameLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames of data that the system is allowed to queue.
@@ -152,7 +151,7 @@ Retrieves the number of frames of data that the system is allowed to queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">PresentEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex">PresentEx</a>
 </td>
 <td align="left" width="63%">
 Swap the swapchain's next buffer with the front buffer.
@@ -161,7 +160,7 @@ Swap the swapchain's next buffer with the front buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-resetex">ResetEx</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-resetex">ResetEx</a>
 </td>
 <td align="left" width="63%">
 Resets the type, size, and format of the swap chain with all other surfaces persistent.
@@ -170,7 +169,7 @@ Resets the type, size, and format of the swap chain with all other surfaces pers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setconvolutionmonokernel">SetConvolutionMonoKernel</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setconvolutionmonokernel">SetConvolutionMonoKernel</a>
 </td>
 <td align="left" width="63%">
 Prepare the texture sampler for monochrome convolution filtering on a single-color texture.
@@ -179,7 +178,7 @@ Prepare the texture sampler for monochrome convolution filtering on a single-col
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setgputhreadpriority">SetGPUThreadPriority</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setgputhreadpriority">SetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Set the priority on the GPU thread.
@@ -188,7 +187,7 @@ Set the priority on the GPU thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setmaximumframelatency">SetMaximumFrameLatency</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-setmaximumframelatency">SetMaximumFrameLatency</a>
 </td>
 <td align="left" width="63%">
 Set the number of frames that the system is allowed to queue for rendering.
@@ -197,11 +196,11 @@ Set the number of frames that the system is allowed to queue for rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-testcooperativelevel">TestCooperativeLevel</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-testcooperativelevel">TestCooperativeLevel</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-testcooperativelevel">TestCooperativeLevel</a> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>.</div>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-testcooperativelevel">TestCooperativeLevel</a> is no longer available for use. Instead, use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>.</div>
 <div> </div>
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
@@ -209,21 +208,18 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-waitforvblank">WaitForVBlank</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-waitforvblank">WaitForVBlank</a>
 </td>
 <td align="left" width="63%">
 Suspend execution of the calling thread until the next vertical blank signal.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The <b>IDirect3DDevice9Ex</b> interface is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex">IDirect3D9Ex::CreateDeviceEx</a>.
+The <b>IDirect3DDevice9Ex</b> interface is obtained by calling <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex">IDirect3D9Ex::CreateDeviceEx</a>.
 
 The LPDIRECT3DDEVICE9EX and PDIRECT3DDEVICE9EX types are defined as pointers to the IDirect3DDevice9Ex interface:
 
@@ -242,8 +238,8 @@ typedef struct IDirect3DDevice9Ex *LPDIRECT3DDEVICE9EX, *PDIRECT3DDEVICE9EX;
 Follow these two steps to initialize a Direct3D device:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-direct3dcreate9ex">Direct3DCreate9Ex</a> to create the Direct3D object.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex">CreateDeviceEx</a> to create the Direct3D device.</li>
+<li>Call <a href="/windows/desktop/api/d3d9/nf-d3d9-direct3dcreate9ex">Direct3DCreate9Ex</a> to create the Direct3D object.</li>
+<li>Call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex">CreateDeviceEx</a> to create the Direct3D device.</li>
 </ol>
 Here is an example:
 
@@ -260,23 +256,10 @@ pDirect3DEx->CreateDeviceEx(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd, behaviorFl
 
 ```
 
-
-
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

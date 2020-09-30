@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wmi_v2
+f1_keywords:
+ - mi
+ - mi/mi
 ---
 
 # Mi.h header
 
 
 ## -description
-
 
 This header is used by Windows Management Infrastructure (MI). For more information, see:
 

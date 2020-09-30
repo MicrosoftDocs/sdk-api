@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
 ms.date: 12/05/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
-f1_keywords:
-- vfw/IAVIStreaming.End
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIStreaming.End
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIStreaming::End
+ - vfw/IAVIStreaming::End
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIStreaming.End
 ---
 
 # IAVIStreaming::End
@@ -50,37 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>End</b> method ends the streaming operation. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamendstreaming">AVIStreamEndStreaming</a> function.
-
-
-
+The <b>End</b> method ends the streaming operation. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamendstreaming">AVIStreamEndStreaming</a> function.
 
 ## -parameters
-
-
-
-
-
 
 #### - ps
 
 Pointer to the interface to a stream.
 
-
 ## -returns
-
-
 
 Returns the HRESULT defined by OLE.
 
-
-
-
 ## -remarks
-
-
 
 For handlers written in C++, <b>End</b> has the following syntax:
 
@@ -92,21 +75,10 @@ HRESULT End(VOID);
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

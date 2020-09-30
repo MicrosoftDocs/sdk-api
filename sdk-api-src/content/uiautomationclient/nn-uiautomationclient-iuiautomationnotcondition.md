@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 63745e87-1571-47cb-b4d2-6909d834e97b
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationNotCondition, IUIAutomationNotCondition interface [Windows Accessibility], IUIAutomationNotCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationNotCondition, uiauto_IUIAutomationNotCondition, uiautomationclient/IUIAutomationNotCondition, winauto.uiauto_IUIAutomationNotCondition
-f1_keywords:
-- uiautomationclient/IUIAutomationNotCondition
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationNotCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationNotCondition
+ - uiautomationclient/IUIAutomationNotCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationNotCondition
 ---
 
 # IUIAutomationNotCondition interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a condition that is the negative of another condition.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationNotCondition</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationNotCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationNotCondition</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationNotCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,27 +69,19 @@ The <b>IUIAutomationNotCondition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationnotcondition-getchild">GetChild</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationnotcondition-getchild">GetChild</a>
 </td>
 <td align="left" width="63%">
 Retrieves the condition of which this condition is the negative.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>

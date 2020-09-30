@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
 ms.date: 12/05/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
-f1_keywords:
-- wcsplugin/BlackInformation
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WcsPlugIn.h
-api_name:
-- BlackInformation
 targetos: Windows
 req.typenames: BlackInformation
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BlackInformation
+ - wcsplugin/_BlackInformation
+ - BlackInformation
+ - wcsplugin/BlackInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - BlackInformation
 ---
 
 # BlackInformation structure
@@ -49,22 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information for device models that have a black color channel.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field fBlackOnly
-
- 
-
 
 ### -field blackWeight
 
@@ -77,12 +69,10 @@ An indicator whether the source color contains only black. This value can only b
 
 <ul>
 <li>the source device has a black channel</li>
-<li>the <a href="https://docs.microsoft.com/previous-versions/ms536577(v=vs.85)">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
+<li>the <a href="/previous-versions/ms536577(v=vs.85)">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
 </ul>
 
 ## -remarks
-
-
 
 If the source device does not support a black channel, then WCS sets <b>bBlackOnly</b> to <b>FALSE</b>.
 
@@ -112,20 +102,10 @@ If <b>bBlackOnly</b> is <b>FALSE</b>, then the baseline device models for device
 
 You can set plug-ins to either support or ignore the <b>BlackInformation</b>.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>

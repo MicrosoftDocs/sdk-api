@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMSELCHANGE, *LPNMSELECT, LPNMSELCHANGE, LPNMSELCHANGE structure pointer [Windows Controls], NMSELCHANGE, NMSELCHANGE structure [Windows Controls], NMSELECT, _win32_NMSELCHANGE, _win32_NMSELCHANGE_cpp, commctrl/LPNMSELCHANGE, commctrl/NMSELCHANGE, controls.NMSELCHANGE, controls._win32_NMSELCHANGE'
-f1_keywords:
-- commctrl/NMSELCHANGE
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMSELCHANGE
 targetos: Windows
 req.typenames: NMSELCHANGE, *LPNMSELCHANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMSELCHANGE
+ - commctrl/tagNMSELCHANGE
+ - LPNMSELCHANGE
+ - commctrl/LPNMSELCHANGE
+ - NMSELCHANGE
+ - commctrl/NMSELCHANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMSELCHANGE
 ---
 
 # NMSELCHANGE structure
@@ -49,35 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Carries information required to process the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcn-selchange">MCN_SELCHANGE</a> notification code. 
-
+Carries information required to process the <a href="/windows/desktop/Controls/mcn-selchange">MCN_SELCHANGE</a> notification code.
 
 ## -struct-fields
 
-
-
-
 ### -field nmhdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification.
 
 ### -field stSelStart
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date for the first day in the user's selection range. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date for the first day in the user's selection range.
 
 ### -field stSelEnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date for the last day in the user's selection range. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date for the last day in the user's selection range.

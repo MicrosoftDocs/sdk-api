@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
-f1_keywords:
-- certenroll/ISignerCertificates
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISignerCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISignerCertificates
+ - certenroll/ISignerCertificates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISignerCertificates
 ---
 
 # ISignerCertificates interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ISignerCertificates</b> interface defines the following methods and properties to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects.
-
+The <b>ISignerCertificates</b> interface defines the following methods and properties to manage a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,37 +70,37 @@ The <b>ISignerCertificates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-add">Add</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object to the collection.
+Adds an <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-clear">Clear</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects from the collection.
+Removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-find">Find</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-find">Find</a>
 </td>
 <td align="left" width="63%">
-Retrieves the index number of an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object.
+Retrieves the index number of an <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-remove">Remove</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object from the collection by index number.
+Removes an <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -115,7 +114,7 @@ Removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -127,45 +126,37 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get_count">Count</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get_count">Count</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects in the collection.
+Retrieves the number of <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get_itembyindex">ItemByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificates-get_itembyindex">ItemByIndex</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object from the collection by index number.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object from the collection by index number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 5A6969E1-2350-4418-B02A-0C92D8A246A1
 ms.date: 12/05/2018
 ms.keywords: NotificationProcessing, NotificationProcessing enumeration [Windows Accessibility], NotificationProcessing_All, NotificationProcessing_CurrentThenMostRecent, NotificationProcessing_ImportantAll, NotificationProcessing_ImportantMostRecent, NotificationProcessing_MostRecent, uiautomationclient/NotificationProcessing, uiautomationclient/NotificationProcessing_All, uiautomationclient/NotificationProcessing_CurrentThenMostRecent, uiautomationclient/NotificationProcessing_ImportantAll, uiautomationclient/NotificationProcessing_ImportantMostRecent, uiautomationclient/NotificationProcessing_MostRecent, winauto.uiauto_NotificationProcessing
-f1_keywords:
-- uiautomationcore/NotificationProcessing
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationClient.h
-api_name:
-- NotificationProcessing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotificationProcessing
+ - uiautomationcore/NotificationProcessing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - NotificationProcessing
 ---
 
 # NotificationProcessing enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines values that indicate how a notification should be processed.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NotificationProcessing_ImportantAll
 
@@ -71,19 +67,16 @@ all of the notifications from this source should be delivered to the user.
 These notifications 
 should be presented to the user as soon as possible. The most recent notification from this source should be delivered to the user because it supersedes all of the other notifications.
 
-
 ### -field NotificationProcessing_All
 
 These notifications 
 should be presented to the user when possible. 
 All of the notifications from this source should be delivered to the user.
 
-
 ### -field NotificationProcessing_MostRecent
 
 These notifications 
 should be presented to the user when possible. The most recent notification from this source should be delivered to the user because it supersedes all of the other notifications.
-
 
 ### -field NotificationProcessing_CurrentThenMostRecent
 

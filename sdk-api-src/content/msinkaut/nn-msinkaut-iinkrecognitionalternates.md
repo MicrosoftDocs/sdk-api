@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 39f49762-de86-4a1a-ac7b-327b65c3eb54
 ms.date: 12/05/2018
 ms.keywords: 39f49762-de86-4a1a-ac7b-327b65c3eb54, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], IInkRecognitionAlternates interface [Tablet PC],described, msinkaut/IInkRecognitionAlternates, tablet.iinkrecognitionalternates
-f1_keywords:
-- msinkaut/IInkRecognitionAlternates
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionAlternates
-- IInkRecognitionAlternates._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionAlternates
+ - msinkaut/IInkRecognitionAlternates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionAlternates
+ - IInkRecognitionAlternates._NewEnum
 ---
 
 # IInkRecognitionAlternates interface
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Contains the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> objects that represent possible word matches for segments of ink.
-
-
-
+Contains the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> objects that represent possible word matches for segments of ink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognitionAlternates</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognitionAlternates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognitionAlternates</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognitionAlternates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +72,7 @@ The <b>IInkRecognitionAlternates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-item">Item</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-item">Item</a>
 </td>
 <td align="left" width="63%">
 Specifies the alternate at the known index in the collection.
@@ -101,7 +97,7 @@ Specifies the alternate at the known index in the collection.
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b> property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces.
 
@@ -110,7 +106,7 @@ The <b>_NewEnum</b> property is marked restricted in the Interface Definition La
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_count">Count</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_count">Count</a>
 
 
 </td>
@@ -126,7 +122,7 @@ Gets the number of alternates in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_strokes">Strokes</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternates-get_strokes">Strokes</a>
 
 
 </td>
@@ -139,35 +135,22 @@ Gets the strokes that were used to create the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-For more information about collections in COM, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about collections in COM, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

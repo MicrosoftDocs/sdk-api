@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9.htm
 ms.date: 12/05/2018
 ms.keywords: 28be25f8-38cf-f9e4-3aac-15cad98cac63, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], IDirect3DDevice9 interface [Direct3D 9],described, d3d9helper/IDirect3DDevice9, direct3d9.idirect3ddevice9
-f1_keywords:
-- d3d9/IDirect3DDevice9
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.lib
-- d3d9.dll
-api_name:
-- IDirect3DDevice9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9
+ - d3d9/IDirect3DDevice9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.lib
+ - d3d9.dll
+api_name:
+ - IDirect3DDevice9
 ---
 
 # IDirect3DDevice9 interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the IDirect3DDevice9 interface to perform DrawPrimitive-based rendering, create resources, work with system-level variables, adjust gamma ramp levels, work with palettes, and create shaders.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IDirect3DDevice9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">BeginScene</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">BeginScene</a>
 </td>
 <td align="left" width="63%">
 Begins a scene. 
@@ -80,7 +79,7 @@ Begins a scene.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginstateblock">BeginStateBlock</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginstateblock">BeginStateBlock</a>
 </td>
 <td align="left" width="63%">
 Signals Direct3D to begin recording a device-state block.
@@ -89,16 +88,16 @@ Signals Direct3D to begin recording a device-state block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-clear">Clear</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-clear">Clear</a>
 </td>
 <td align="left" width="63%">
-Clears one or more surfaces such as a render target, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/multiple-render-targets">multiple render targets</a>, a stencil buffer, and a depth buffer.
+Clears one or more surfaces such as a render target, <a href="/windows/desktop/direct3d9/multiple-render-targets">multiple render targets</a>, a stencil buffer, and a depth buffer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-colorfill">ColorFill</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-colorfill">ColorFill</a>
 </td>
 <td align="left" width="63%">
 Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface with a specified color.
@@ -107,7 +106,7 @@ Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">CreateAdditionalSwapChain</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">CreateAdditionalSwapChain</a>
 </td>
 <td align="left" width="63%">
 Creates an additional swap chain for rendering multiple views.
@@ -116,7 +115,7 @@ Creates an additional swap chain for rendering multiple views.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">CreateCubeTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createcubetexture">CreateCubeTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a cube texture resource.
@@ -125,7 +124,7 @@ Creates a cube texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createdepthstencilsurface">CreateDepthStencilSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createdepthstencilsurface">CreateDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a depth-stencil resource.
@@ -134,7 +133,7 @@ Creates a depth-stencil resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createindexbuffer">CreateIndexBuffer</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createindexbuffer">CreateIndexBuffer</a>
 </td>
 <td align="left" width="63%">
 Creates an index buffer.
@@ -143,7 +142,7 @@ Creates an index buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createoffscreenplainsurface">CreateOffscreenPlainSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createoffscreenplainsurface">CreateOffscreenPlainSurface</a>
 </td>
 <td align="left" width="63%">
 Create an off-screen surface.
@@ -152,7 +151,7 @@ Create an off-screen surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createpixelshader">CreatePixelShader</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createpixelshader">CreatePixelShader</a>
 </td>
 <td align="left" width="63%">
 Creates a pixel shader.
@@ -161,7 +160,7 @@ Creates a pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createquery">CreateQuery</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createquery">CreateQuery</a>
 </td>
 <td align="left" width="63%">
 Creates a status query.
@@ -170,7 +169,7 @@ Creates a status query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createrendertarget">CreateRenderTarget</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createrendertarget">CreateRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Creates a render-target surface.
@@ -179,7 +178,7 @@ Creates a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createstateblock">CreateStateBlock</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createstateblock">CreateStateBlock</a>
 </td>
 <td align="left" width="63%">
 Creates a new state block that contains the values for all device states, vertex-related states, or pixel-related states.
@@ -188,7 +187,7 @@ Creates a new state block that contains the values for all device states, vertex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">CreateTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createtexture">CreateTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a texture resource.
@@ -197,7 +196,7 @@ Creates a texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">CreateVertexBuffer</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">CreateVertexBuffer</a>
 </td>
 <td align="left" width="63%">
 Creates a vertex buffer.
@@ -206,7 +205,7 @@ Creates a vertex buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexdeclaration">CreateVertexDeclaration</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexdeclaration">CreateVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
 Create a vertex shader declaration from the device and the vertex elements.
@@ -215,7 +214,7 @@ Create a vertex shader declaration from the device and the vertex elements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexshader">CreateVertexShader</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexshader">CreateVertexShader</a>
 </td>
 <td align="left" width="63%">
 Creates a vertex shader.
@@ -224,7 +223,7 @@ Creates a vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvolumetexture">CreateVolumeTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvolumetexture">CreateVolumeTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a volume texture resource.
@@ -233,7 +232,7 @@ Creates a volume texture resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-deletepatch">DeletePatch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-deletepatch">DeletePatch</a>
 </td>
 <td align="left" width="63%">
 Frees a cached high-order patch.
@@ -242,7 +241,7 @@ Frees a cached high-order patch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawindexedprimitive">DrawIndexedPrimitive</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawindexedprimitive">DrawIndexedPrimitive</a>
 </td>
 <td align="left" width="63%">
 Based on indexing, renders the specified geometric primitive into an array of vertices.
@@ -251,7 +250,7 @@ Based on indexing, renders the specified geometric primitive into an array of ve
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawindexedprimitiveup">DrawIndexedPrimitiveUP</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawindexedprimitiveup">DrawIndexedPrimitiveUP</a>
 </td>
 <td align="left" width="63%">
 Renders the specified geometric primitive with data specified by a user memory pointer.
@@ -260,7 +259,7 @@ Renders the specified geometric primitive with data specified by a user memory p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawprimitive">DrawPrimitive</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawprimitive">DrawPrimitive</a>
 </td>
 <td align="left" width="63%">
 Renders a sequence of nonindexed, geometric primitives of the specified type from the current set of data input streams.
@@ -269,7 +268,7 @@ Renders a sequence of nonindexed, geometric primitives of the specified type fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawprimitiveup">DrawPrimitiveUP</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawprimitiveup">DrawPrimitiveUP</a>
 </td>
 <td align="left" width="63%">
 Renders data specified by a user memory pointer as a sequence of geometric primitives of the specified type.
@@ -278,7 +277,7 @@ Renders data specified by a user memory pointer as a sequence of geometric primi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawrectpatch">DrawRectPatch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawrectpatch">DrawRectPatch</a>
 </td>
 <td align="left" width="63%">
 Draws a rectangular patch using the currently set streams.
@@ -287,7 +286,7 @@ Draws a rectangular patch using the currently set streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawtripatch">DrawTriPatch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawtripatch">DrawTriPatch</a>
 </td>
 <td align="left" width="63%">
 Draws a triangular patch using the currently set streams.
@@ -296,16 +295,16 @@ Draws a triangular patch using the currently set streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">EndScene</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endscene">EndScene</a>
 </td>
 <td align="left" width="63%">
-Ends a scene that was begun by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>.
+Ends a scene that was begun by calling <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">EndStateBlock</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">EndStateBlock</a>
 </td>
 <td align="left" width="63%">
 Signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
@@ -314,7 +313,7 @@ Signals Direct3D to stop recording a device-state block and retrieve a pointer t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources">EvictManagedResources</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-evictmanagedresources">EvictManagedResources</a>
 </td>
 <td align="left" width="63%">
 Evicts all managed resources, including both Direct3D and driver-managed resources.
@@ -323,7 +322,7 @@ Evicts all managed resources, including both Direct3D and driver-managed resourc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getavailabletexturemem">GetAvailableTextureMem</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getavailabletexturemem">GetAvailableTextureMem</a>
 </td>
 <td align="left" width="63%">
 Returns an estimate of the amount of available texture memory.
@@ -332,7 +331,7 @@ Returns an estimate of the amount of available texture memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getbackbuffer">GetBackBuffer</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getbackbuffer">GetBackBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a back buffer from the device's swap chain.
@@ -341,7 +340,7 @@ Retrieves a back buffer from the device's swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane">GetClipPlane</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane">GetClipPlane</a>
 </td>
 <td align="left" width="63%">
 Retrieves the coefficients of a user-defined clipping plane for the device.
@@ -350,7 +349,7 @@ Retrieves the coefficients of a user-defined clipping plane for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus">GetClipStatus</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus">GetClipStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clip status.
@@ -359,7 +358,7 @@ Retrieves the clip status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcreationparameters">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the creation parameters of the device.
@@ -368,7 +367,7 @@ Retrieves the creation parameters of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcurrenttexturepalette">GetCurrentTexturePalette</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcurrenttexturepalette">GetCurrentTexturePalette</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current texture palette.
@@ -377,7 +376,7 @@ Retrieves the current texture palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdepthstencilsurface">GetDepthStencilSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdepthstencilsurface">GetDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Gets the depth-stencil surface owned by the Direct3DDevice object.
@@ -386,7 +385,7 @@ Gets the depth-stencil surface owned by the Direct3DDevice object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps">GetDeviceCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the rendering device.
@@ -395,7 +394,7 @@ Retrieves the capabilities of the rendering device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdirect3d">GetDirect3D</a>
 </td>
 <td align="left" width="63%">
 Returns an interface to the instance of the Direct3D object that created the device.
@@ -404,7 +403,7 @@ Returns an interface to the instance of the Direct3D object that created the dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdisplaymode">GetDisplayMode</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdisplaymode">GetDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display mode's spatial resolution, color resolution, and refresh frequency.
@@ -413,7 +412,7 @@ Retrieves the display mode's spatial resolution, color resolution, and refresh f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfrontbufferdata">GetFrontBufferData</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfrontbufferdata">GetFrontBufferData</a>
 </td>
 <td align="left" width="63%">
 Generates a copy of the device's front buffer and places that copy in a system memory buffer provided by the application. 
@@ -422,7 +421,7 @@ Generates a copy of the device's front buffer and places that copy in a system m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">GetFVF</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">GetFVF</a>
 </td>
 <td align="left" width="63%">
 Gets the fixed vertex function declaration.
@@ -431,7 +430,7 @@ Gets the fixed vertex function declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getgammaramp">GetGammaRamp</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getgammaramp">GetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Retrieves the gamma correction ramp for the swap chain.
@@ -440,7 +439,7 @@ Retrieves the gamma correction ramp for the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getindices">GetIndices</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getindices">GetIndices</a>
 </td>
 <td align="left" width="63%">
 Retrieves index data.
@@ -449,7 +448,7 @@ Retrieves index data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">GetLight</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">GetLight</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of lighting properties that this device uses.
@@ -458,7 +457,7 @@ Retrieves a set of lighting properties that this device uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">GetLightEnable</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">GetLightEnable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device.
@@ -467,7 +466,7 @@ Retrieves the activity status - enabled or disabled - for a set of lighting para
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">GetMaterial</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial">GetMaterial</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current material properties for the device.
@@ -476,7 +475,7 @@ Retrieves the current material properties for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getnpatchmode">GetNPatchMode</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getnpatchmode">GetNPatchMode</a>
 </td>
 <td align="left" width="63%">
 Gets the N-patch mode segments.
@@ -485,7 +484,7 @@ Gets the N-patch mode segments.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getnumberofswapchains">GetNumberOfSwapChains</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getnumberofswapchains">GetNumberOfSwapChains</a>
 </td>
 <td align="left" width="63%">
 Gets the number of implicit swap chains.
@@ -494,7 +493,7 @@ Gets the number of implicit swap chains.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpaletteentries">GetPaletteEntries</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpaletteentries">GetPaletteEntries</a>
 </td>
 <td align="left" width="63%">
 Retrieves palette entries.
@@ -503,7 +502,7 @@ Retrieves palette entries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshader">GetPixelShader</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshader">GetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently set pixel shader.
@@ -512,7 +511,7 @@ Retrieves the currently set pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantb">GetPixelShaderConstantB</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantb">GetPixelShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean shader constant.
@@ -521,7 +520,7 @@ Gets a Boolean shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantf">GetPixelShaderConstantF</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantf">GetPixelShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Gets a floating-point shader constant.
@@ -530,7 +529,7 @@ Gets a floating-point shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstanti">GetPixelShaderConstantI</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstanti">GetPixelShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Gets an integer shader constant.
@@ -539,7 +538,7 @@ Gets an integer shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrasterstatus">GetRasterStatus</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrasterstatus">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.
@@ -548,7 +547,7 @@ Returns information describing the raster of the monitor on which the swap chain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate">GetRenderState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate">GetRenderState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a render-state value for a device.
@@ -557,7 +556,7 @@ Retrieves a render-state value for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertarget">GetRenderTarget</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertarget">GetRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Retrieves a render-target surface.
@@ -566,7 +565,7 @@ Retrieves a render-target surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">GetRenderTargetData</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">GetRenderTargetData</a>
 </td>
 <td align="left" width="63%">
 Copies the render-target data from device memory to system memory.
@@ -575,7 +574,7 @@ Copies the render-target data from device memory to system memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate">GetSamplerState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate">GetSamplerState</a>
 </td>
 <td align="left" width="63%">
 Gets the sampler state value.
@@ -584,7 +583,7 @@ Gets the sampler state value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getscissorrect">GetScissorRect</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getscissorrect">GetScissorRect</a>
 </td>
 <td align="left" width="63%">
 Gets the scissor rectangle.
@@ -593,7 +592,7 @@ Gets the scissor rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">GetSoftwareVertexProcessing</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsoftwarevertexprocessing">GetSoftwareVertexProcessing</a>
 </td>
 <td align="left" width="63%">
 Gets the vertex processing (hardware or software) mode.
@@ -602,7 +601,7 @@ Gets the vertex processing (hardware or software) mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getstreamsource">GetStreamSource</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getstreamsource">GetStreamSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves a vertex buffer bound to the specified data stream.
@@ -611,7 +610,7 @@ Retrieves a vertex buffer bound to the specified data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getstreamsourcefreq">GetStreamSourceFreq</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getstreamsourcefreq">GetStreamSourceFreq</a>
 </td>
 <td align="left" width="63%">
 Gets the stream source frequency divider value.
@@ -620,7 +619,7 @@ Gets the stream source frequency divider value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getswapchain">GetSwapChain</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getswapchain">GetSwapChain</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a swap chain.
@@ -629,7 +628,7 @@ Gets a pointer to a swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">GetTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">GetTexture</a>
 </td>
 <td align="left" width="63%">
 Retrieves a texture assigned to a stage for a device.
@@ -638,7 +637,7 @@ Retrieves a texture assigned to a stage for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">GetTextureStageState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">GetTextureStageState</a>
 </td>
 <td align="left" width="63%">
 Retrieves a state value for an assigned texture.
@@ -647,7 +646,7 @@ Retrieves a state value for an assigned texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform">GetTransform</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Retrieves a matrix describing a transformation state.
@@ -656,7 +655,7 @@ Retrieves a matrix describing a transformation state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">GetVertexDeclaration</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">GetVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
 Gets a vertex shader declaration.
@@ -665,7 +664,7 @@ Gets a vertex shader declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshader">GetVertexShader</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshader">GetVertexShader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently set vertex shader.
@@ -674,7 +673,7 @@ Retrieves the currently set vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantb">GetVertexShaderConstantB</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantb">GetVertexShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean vertex shader constant.
@@ -683,7 +682,7 @@ Gets a Boolean vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantf">GetVertexShaderConstantF</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantf">GetVertexShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Gets a floating-point vertex shader constant.
@@ -692,7 +691,7 @@ Gets a floating-point vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstanti">GetVertexShaderConstantI</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstanti">GetVertexShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Gets an integer vertex shader constant.
@@ -701,7 +700,7 @@ Gets an integer vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getviewport">GetViewport</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getviewport">GetViewport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the viewport parameters currently set for the device.
@@ -710,7 +709,7 @@ Retrieves the viewport parameters currently set for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">LightEnable</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">LightEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables a set of lighting parameters within a device.
@@ -719,7 +718,7 @@ Enables or disables a set of lighting parameters within a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-multiplytransform">MultiplyTransform</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-multiplytransform">MultiplyTransform</a>
 </td>
 <td align="left" width="63%">
 Multiplies a device's world, view, or projection matrices by a specified matrix. 
@@ -728,7 +727,7 @@ Multiplies a device's world, view, or projection matrices by a specified matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-present">Present</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-present">Present</a>
 </td>
 <td align="left" width="63%">
 Presents the contents of the next buffer in the sequence of back buffers owned by the device.
@@ -737,7 +736,7 @@ Presents the contents of the next buffer in the sequence of back buffers owned b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-processvertices">ProcessVertices</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-processvertices">ProcessVertices</a>
 </td>
 <td align="left" width="63%">
 Applies the vertex processing defined by the vertex shader to the set of input data streams, generating a single stream of interleaved vertex data to the destination vertex buffer. 
@@ -746,7 +745,7 @@ Applies the vertex processing defined by the vertex shader to the set of input d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset">Reset</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the type, size, and format of the swap chain.
@@ -755,7 +754,7 @@ Resets the type, size, and format of the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane">SetClipPlane</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane">SetClipPlane</a>
 </td>
 <td align="left" width="63%">
 Sets the coefficients of a user-defined clipping plane for the device.
@@ -764,7 +763,7 @@ Sets the coefficients of a user-defined clipping plane for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipstatus">SetClipStatus</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipstatus">SetClipStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the clip status.
@@ -773,7 +772,7 @@ Sets the clip status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcurrenttexturepalette">SetCurrentTexturePalette</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcurrenttexturepalette">SetCurrentTexturePalette</a>
 </td>
 <td align="left" width="63%">
 Sets the current texture palette.
@@ -782,7 +781,7 @@ Sets the current texture palette.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorposition">SetCursorPosition</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorposition">SetCursorPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the cursor position and update options.
@@ -791,7 +790,7 @@ Sets the cursor position and update options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorproperties">SetCursorProperties</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setcursorproperties">SetCursorProperties</a>
 </td>
 <td align="left" width="63%">
 Sets properties for the cursor.
@@ -800,7 +799,7 @@ Sets properties for the cursor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdepthstencilsurface">SetDepthStencilSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdepthstencilsurface">SetDepthStencilSurface</a>
 </td>
 <td align="left" width="63%">
 Sets the depth stencil surface.
@@ -809,7 +808,7 @@ Sets the depth stencil surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdialogboxmode">SetDialogBoxMode</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setdialogboxmode">SetDialogBoxMode</a>
 </td>
 <td align="left" width="63%">
 This method allows the use of GDI dialog boxes in full-screen mode applications.
@@ -818,7 +817,7 @@ This method allows the use of GDI dialog boxes in full-screen mode applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">SetFVF</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">SetFVF</a>
 </td>
 <td align="left" width="63%">
 Sets the current vertex stream declaration.
@@ -827,7 +826,7 @@ Sets the current vertex stream declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setgammaramp">SetGammaRamp</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setgammaramp">SetGammaRamp</a>
 </td>
 <td align="left" width="63%">
 Sets the gamma correction ramp for the implicit swap chain. This method will affect the entire screen (not just the active window if you are running in windowed mode).
@@ -836,7 +835,7 @@ Sets the gamma correction ramp for the implicit swap chain. This method will aff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setindices">SetIndices</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setindices">SetIndices</a>
 </td>
 <td align="left" width="63%">
 Sets index data.
@@ -845,7 +844,7 @@ Sets index data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">SetLight</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">SetLight</a>
 </td>
 <td align="left" width="63%">
 Assigns a set of lighting properties for this device.
@@ -854,7 +853,7 @@ Assigns a set of lighting properties for this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial">SetMaterial</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setmaterial">SetMaterial</a>
 </td>
 <td align="left" width="63%">
 Sets the material properties for the device.
@@ -863,7 +862,7 @@ Sets the material properties for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode">SetNPatchMode</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode">SetNPatchMode</a>
 </td>
 <td align="left" width="63%">
 Enable or disable N-patches.
@@ -872,7 +871,7 @@ Enable or disable N-patches.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpaletteentries">SetPaletteEntries</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpaletteentries">SetPaletteEntries</a>
 </td>
 <td align="left" width="63%">
 Sets palette entries.
@@ -881,7 +880,7 @@ Sets palette entries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader">SetPixelShader</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshader">SetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Sets the current pixel shader to a previously created pixel shader.
@@ -890,7 +889,7 @@ Sets the current pixel shader to a previously created pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb">SetPixelShaderConstantB</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb">SetPixelShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Sets a Boolean shader constant.
@@ -899,7 +898,7 @@ Sets a Boolean shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf">SetPixelShaderConstantF</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf">SetPixelShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Sets a floating-point shader constant.
@@ -908,7 +907,7 @@ Sets a floating-point shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti">SetPixelShaderConstantI</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstanti">SetPixelShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Sets an integer shader constant.
@@ -917,7 +916,7 @@ Sets an integer shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">SetRenderState</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate">SetRenderState</a>
 </td>
 <td align="left" width="63%">
 Sets a single device render-state parameter.
@@ -926,7 +925,7 @@ Sets a single device render-state parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrendertarget">SetRenderTarget</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrendertarget">SetRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Sets a new color buffer for the device.
@@ -935,7 +934,7 @@ Sets a new color buffer for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate">SetSamplerState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setsamplerstate">SetSamplerState</a>
 </td>
 <td align="left" width="63%">
 Sets the sampler state value.
@@ -944,7 +943,7 @@ Sets the sampler state value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setscissorrect">SetScissorRect</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setscissorrect">SetScissorRect</a>
 </td>
 <td align="left" width="63%">
 Sets the scissor rectangle.
@@ -953,7 +952,7 @@ Sets the scissor rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsoftwarevertexprocessing">SetSoftwareVertexProcessing</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsoftwarevertexprocessing">SetSoftwareVertexProcessing</a>
 </td>
 <td align="left" width="63%">
 Use this method to switch between software and hardware vertex processing.
@@ -962,16 +961,16 @@ Use this method to switch between software and hardware vertex processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsource">SetStreamSource</a>
 </td>
 <td align="left" width="63%">
-Binds a vertex buffer to a device data stream. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/setting-the-stream-source">Setting the Stream Source (Direct3D 9)</a>.
+Binds a vertex buffer to a device data stream. For more information, see <a href="/windows/desktop/direct3d9/setting-the-stream-source">Setting the Stream Source (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">SetStreamSourceFreq</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setstreamsourcefreq">SetStreamSourceFreq</a>
 </td>
 <td align="left" width="63%">
 Sets the stream source frequency divider value. This may be used to draw several instances of geometry.
@@ -980,7 +979,7 @@ Sets the stream source frequency divider value. This may be used to draw several
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">SetTexture</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">SetTexture</a>
 </td>
 <td align="left" width="63%">
 Assigns a texture to a stage for a device.
@@ -989,7 +988,7 @@ Assigns a texture to a stage for a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">SetTextureStageState</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">SetTextureStageState</a>
 </td>
 <td align="left" width="63%">
 Sets the state value for the currently assigned texture.
@@ -998,7 +997,7 @@ Sets the state value for the currently assigned texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform">SetTransform</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform">SetTransform</a>
 </td>
 <td align="left" width="63%">
 Sets a single device transformation-related state.
@@ -1007,16 +1006,16 @@ Sets a single device transformation-related state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexdeclaration">SetVertexDeclaration</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexdeclaration">SetVertexDeclaration</a>
 </td>
 <td align="left" width="63%">
-Sets a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-declaration">Vertex Declaration (Direct3D 9)</a>.
+Sets a <a href="/windows/desktop/direct3d9/vertex-declaration">Vertex Declaration (Direct3D 9)</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshader">SetVertexShader</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshader">SetVertexShader</a>
 </td>
 <td align="left" width="63%">
 Sets the vertex shader.
@@ -1025,7 +1024,7 @@ Sets the vertex shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb">SetVertexShaderConstantB</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantb">SetVertexShaderConstantB</a>
 </td>
 <td align="left" width="63%">
 Sets a Boolean vertex shader constant.
@@ -1034,7 +1033,7 @@ Sets a Boolean vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf">SetVertexShaderConstantF</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstantf">SetVertexShaderConstantF</a>
 </td>
 <td align="left" width="63%">
 Sets a floating-point vertex shader constant.
@@ -1043,7 +1042,7 @@ Sets a floating-point vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti">SetVertexShaderConstantI</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexshaderconstanti">SetVertexShaderConstantI</a>
 </td>
 <td align="left" width="63%">
 Sets an integer vertex shader constant.
@@ -1052,7 +1051,7 @@ Sets an integer vertex shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport">SetViewport</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setviewport">SetViewport</a>
 </td>
 <td align="left" width="63%">
 Sets the viewport parameters for the device.
@@ -1061,7 +1060,7 @@ Sets the viewport parameters for the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor">ShowCursor</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor">ShowCursor</a>
 </td>
 <td align="left" width="63%">
 Displays or hides the cursor.
@@ -1070,7 +1069,7 @@ Displays or hides the cursor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-stretchrect">StretchRect</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-stretchrect">StretchRect</a>
 </td>
 <td align="left" width="63%">
 Copy the contents of the source rectangle to the destination rectangle. The source rectangle can be stretched and filtered by the copy. This function is often used to change the aspect ratio of a video stream.
@@ -1079,7 +1078,7 @@ Copy the contents of the source rectangle to the destination rectangle. The sour
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel">TestCooperativeLevel</a>
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-testcooperativelevel">TestCooperativeLevel</a>
 </td>
 <td align="left" width="63%">
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
@@ -1088,7 +1087,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface">UpdateSurface</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface">UpdateSurface</a>
 </td>
 <td align="left" width="63%">
 Copies rectangular subsets of pixels from one surface to another. 
@@ -1097,7 +1096,7 @@ Copies rectangular subsets of pixels from one surface to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">UpdateTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatetexture">UpdateTexture</a>
 </td>
 <td align="left" width="63%">
 Updates the dirty portions of a texture.
@@ -1106,23 +1105,20 @@ Updates the dirty portions of a texture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-validatedevice">ValidateDevice</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-validatedevice">ValidateDevice</a>
 </td>
 <td align="left" width="63%">
 Reports the device's ability to render the current texture-blending operations and arguments in a single pass.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+The <b>IDirect3DDevice9</b> interface is obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a> method.
 
-
-The <b>IDirect3DDevice9</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a> method.
-
-This interface, like all COM interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods.
+This interface, like all COM interfaces, inherits the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods.
 
 The LPDIRECT3DDEVICE9 and PDIRECT3DDEVICE9 types are defined as pointers to the <b>IDirect3DDevice9</b> interface.
 
@@ -1133,21 +1129,10 @@ typedef struct IDirect3DDevice9 *LPDIRECT3DDEVICE9, *PDIRECT3DDEVICE9;
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">IDirect3D9::CreateDevice</a>

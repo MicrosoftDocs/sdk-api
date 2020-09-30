@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9
 ms.date: 12/05/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
-f1_keywords:
-- comsvcs/IGetAppTrackerData
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IGetAppTrackerData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetAppTrackerData
+ - comsvcs/IGetAppTrackerData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IGetAppTrackerData
 ---
 
 # IGetAppTrackerData interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables administrative applications to retrieve statistical information about running COM+ applications.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetAppTrackerData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetAppTrackerData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetAppTrackerData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetAppTrackerData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IGetAppTrackerData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocessdetails">GetApplicationProcessDetails</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocessdetails">GetApplicationProcessDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves detailed information about a single process hosting COM+ applications.
@@ -79,7 +78,7 @@ Retrieves detailed information about a single process hosting COM+ applications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocesses">GetApplicationProcesses</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationprocesses">GetApplicationProcesses</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
@@ -88,7 +87,7 @@ Retrieves summary information for all processes that are hosting COM+ applicatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationsinprocess">GetApplicationsInProcess</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getapplicationsinprocess">GetApplicationsInProcess</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all COM+ applications hosted in a single process, or for a specified subset of these applications.
@@ -97,7 +96,7 @@ Retrieves summary information for all COM+ applications hosted in a single proce
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentdetails">GetComponentDetails</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentdetails">GetComponentDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves detailed information about a single COM+ component hosted in a process.
@@ -106,7 +105,7 @@ Retrieves detailed information about a single COM+ component hosted in a process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentsinprocess">GetComponentsInProcess</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getcomponentsinprocess">GetComponentsInProcess</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for all COM+ components hosted in a single process, or for a specified subset of these components.
@@ -115,7 +114,7 @@ Retrieves summary information for all COM+ components hosted in a single process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">GetSuggestedPollingInterval</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">GetSuggestedPollingInterval</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum interval for polling suggested by the Tracker Server.
@@ -124,19 +123,16 @@ Retrieves the minimum interval for polling suggested by the Tracker Server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-gettrackerdataascollectionobject">GetTrackerDataAsCollectionObject</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-gettrackerdataascollectionobject">GetTrackerDataAsCollectionObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves tracking data for all COM+ applications in the form of a collection object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Applications that use tracker data will usually need to poll the Tracker Server periodically to ensure that this data is up-to-date. For example, an administrative application that displays tracking data to the user would typically want this data to be near as possible to real-time. However, polling too frequently can degrade overall system performance. Also keep in mind that the COM+ applications updating the data do not send updates to the Tracker Server immediately, so even in the best case there will be some delay (typically only a few seconds).
 
@@ -145,9 +141,4 @@ Polling frequency is a global policy that administrators can adjust, if necessar
 The polling interval is by default equal to the tracking event frequency (three seconds). This value can be adjusted by writing the following DWORD registry value:
 
 
-<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3</b>\<b>TrackingInfoPollingFrequency</b> = <i>minimum polling interval in seconds</i>
-
-
-
-
-
+<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3</b>&#92;<b>TrackingInfoPollingFrequency</b> = <i>minimum polling interval in seconds</i>

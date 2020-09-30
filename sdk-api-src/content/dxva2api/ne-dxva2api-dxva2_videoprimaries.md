@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a
 ms.date: 12/05/2018
 ms.keywords: 4534a198-cf6c-4689-9fe4-0e5cdc7ce26a, DXVA2_VideoPrimaries, DXVA2_VideoPrimaries enumeration [Media Foundation], DXVA2_VideoPrimariesMask, DXVA2_VideoPrimaries_BT470_2_SysBG, DXVA2_VideoPrimaries_BT470_2_SysM, DXVA2_VideoPrimaries_BT709, DXVA2_VideoPrimaries_EBU3213, DXVA2_VideoPrimaries_SMPTE170M, DXVA2_VideoPrimaries_SMPTE240M, DXVA2_VideoPrimaries_SMPTE_C, DXVA2_VideoPrimaries_Unknown, DXVA2_VideoPrimaries_reserved, dxva2api/DXVA2_VideoPrimaries, dxva2api/DXVA2_VideoPrimariesMask, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysBG, dxva2api/DXVA2_VideoPrimaries_BT470_2_SysM, dxva2api/DXVA2_VideoPrimaries_BT709, dxva2api/DXVA2_VideoPrimaries_EBU3213, dxva2api/DXVA2_VideoPrimaries_SMPTE170M, dxva2api/DXVA2_VideoPrimaries_SMPTE240M, dxva2api/DXVA2_VideoPrimaries_SMPTE_C, dxva2api/DXVA2_VideoPrimaries_Unknown, dxva2api/DXVA2_VideoPrimaries_reserved, mf.dxva2_videoprimaries
-f1_keywords:
-- dxva2api/DXVA2_VideoPrimaries
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_VideoPrimaries
 targetos: Windows
 req.typenames: DXVA2_VideoPrimaries
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_VideoPrimaries
+ - dxva2api/_DXVA2_VideoPrimaries
+ - DXVA2_VideoPrimaries
+ - dxva2api/DXVA2_VideoPrimaries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_VideoPrimaries
 ---
 
 # DXVA2_VideoPrimaries enumeration
@@ -49,78 +52,51 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the color primaries of a video source. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
-
+Specifies the color primaries of a video source. These flags are used in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 ## -enum-fields
-
-
-
 
 ### -field DXVA2_VideoPrimariesMask
 
 Bitmask to validate flag values. This value is not a valid flag.
-          
-
 
 ### -field DXVA2_VideoPrimaries_Unknown
 
 Unknown. Treat as <b>DXVA2_VideoPrimaries_BT709</b>.
-          
-
 
 ### -field DXVA2_VideoPrimaries_reserved
 
 Reserved. Do not use.
-          
-
 
 ### -field DXVA2_VideoPrimaries_BT709
 
 ITU-R BT.709. Also used for sRGB and scRGB.
-          
-
 
 ### -field DXVA2_VideoPrimaries_BT470_2_SysM
 
 ITU-R BT.470-4 System M (NTSC).
-          
-
 
 ### -field DXVA2_VideoPrimaries_BT470_2_SysBG
 
 ITU-R BT.470-4 System B,G (PAL).
-          
-
 
 ### -field DXVA2_VideoPrimaries_SMPTE170M
 
 SMPTE 170M.
-          
-
 
 ### -field DXVA2_VideoPrimaries_SMPTE240M
 
 SMPTE 240M.
-          
-
 
 ### -field DXVA2_VideoPrimaries_EBU3213
 
 EBU Tech. 3213.
-          
-
 
 ### -field DXVA2_VideoPrimaries_SMPTE_C
 
 SMPTE C (SMPTE RP 145).
-          
-
 
 ## -remarks
-
-
 
 Color primaries define how to convert RGB colors into the CIE XYZ color space, and can be used to translate colors between different RGB color spaces. An RGB color space is defined by the chromaticity coordinates (x,y) of the RGB primaries plus the white point, as listed in the following table.
 
@@ -189,23 +165,12 @@ For a derivation of these formulas, refer to Charles Poynton, Digital Video and 
 This enumeration is equivalent to the <b>DXVA_VideoPrimaries</b> enumeration used in DXVA 1.0.
       
 
-If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
-      
-
-
-
+If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the color primaries are specified in the <a href="/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

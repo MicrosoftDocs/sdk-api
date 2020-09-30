@@ -7,10 +7,6 @@ helpviewer_keywords: ["Font::GetHeight"]
 ms.assetid: 4cfe970e-332c-461b-9b75-0d0802fad86f
 ms.date: 05/20/2019
 ms.keywords: Font::GetHeight
-f1_keywords:
-- gdiplusheaders/Font::GetHeight
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,21 +27,27 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Font::GetHeight
+ - gdiplusheaders/Font::GetHeight
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Font::GetHeight
+ - Font::GetHeight
 ---
 
 # Font::GetHeight(Graphics*)
 
+
 ## -description
 
-The **Font::GetHeight** method gets the line spacing of this font in the current unit of a specified <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
+The **Font::GetHeight** method gets the line spacing of this font in the current unit of a specified <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 The line spacing is the vertical distance between the base lines of two consecutive lines of text.
 Thus, the line spacing includes the blank space between lines along with the height of the character itself.
 
@@ -57,11 +59,11 @@ Pointer to a **Graphics** object whose unit and vertical resolution are used in 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -107,8 +109,8 @@ VOID Example_GetHeight(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

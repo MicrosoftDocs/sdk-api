@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::Graphics"]
 ms.assetid: f048c2f7-27b4-48dc-b6d8-871f010603f5
 ms.date: 05/13/2019
 ms.keywords: Graphics::Graphics
-f1_keywords:
-- gdiplusgraphics/Graphics::Graphics
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::Graphics
+ - gdiplusgraphics/Graphics::Graphics
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::Graphics
+ - Graphics::Graphics
 ---
 
 # Graphics(HDC)
+
 
 ## -description
 
@@ -59,10 +61,10 @@ When you use this constructor to create a **Graphics::Graphics** object, make su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-changes-in-the-programming-model-about">Changes in the Programming Model</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-changes-in-the-programming-model-about">Changes in the Programming Model</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(constgraphics_)">Graphics Constructors</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(constgraphics_)">Graphics Constructors</a>

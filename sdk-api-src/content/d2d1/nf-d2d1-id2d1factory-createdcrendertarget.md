@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: de062068-d2b5-4576-a475-a0e2c9840506
 ms.date: 12/05/2018
 ms.keywords: CreateDCRenderTarget, CreateDCRenderTarget method [Direct2D], CreateDCRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDCRenderTarget method, ID2D1Factory.CreateDCRenderTarget, ID2D1Factory::CreateDCRenderTarget, d2d1/ID2D1Factory::CreateDCRenderTarget, direct2d.ID2D1Factory_CreateDCRenderTarget
-f1_keywords:
-- d2d1/ID2D1Factory.CreateDCRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory.CreateDCRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory::CreateDCRenderTarget
+ - d2d1/ID2D1Factory::CreateDCRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory.CreateDCRenderTarget
 ---
 
 # ID2D1Factory::CreateDCRenderTarget
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
 
-
 ## -parameters
-
-
-
 
 ### -param renderTargetProperties [in]
 
@@ -64,28 +60,19 @@ Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_prope
 
 The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  To enable the device context (DC) render target to work with GDI, set the DXGI format to <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> and the alpha mode to <a href="/windows/win32/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a> or <b>D2D1_ALPHA_MODE_IGNORE</b>. For more information about pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 
-
 ### -param dcRenderTarget [out]
 
 Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>**</b>
 
 When this method returns, <i>dcRenderTarget</i> contains the address of the pointer to the  <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a> created by the method.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
-
-
-
 ## -remarks
-
-
 
 Before you can render with a DC render target, you must use the render target's <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc">BindDC</a> method to associate it with a GDI DC.  Do this for each different DC and whenever there is a change in the size of the area you want to draw to.
 
@@ -140,14 +127,7 @@ hr = m_pDCRT->BindDC(ps.hdc, &rc);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-and-gdi-interoperation-overview">Direct2D and GDI Interoperation Overview</a>
 
@@ -158,7 +138,4 @@ hr = m_pDCRT->BindDC(ps.hdc, &rc);
 
 
 <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>
- 
-
- 
 

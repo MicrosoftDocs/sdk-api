@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
-f1_keywords:
-- segment/IMSVidVideoRendererEvent
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRendererEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRendererEvent
+ - segment/IMSVidVideoRendererEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRendererEvent
 ---
 
 # IMSVidVideoRendererEvent interface
@@ -49,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows XP or later.
         
 
 The <b>IMSVidVideoRendererEvent</b> interface is used to receive events from the video renderer.
 
-This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object to establish a connection.
-
-
-
+This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="/previous-versions/windows/desktop/legacy/dd695138(v=vs.85)">MSVidVideoRenderer</a> object to establish a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererEvent</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>. <b>IMSVidVideoRendererEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererEvent</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>. <b>IMSVidVideoRendererEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,36 +74,23 @@ The <b>IMSVidVideoRendererEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererevent-overlayunavailable">OverlayUnavailable</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererevent-overlayunavailable">OverlayUnavailable</a>
 </td>
 <td align="left" width="63%">
 Called when the overlay surface on the graphics card is not available.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidVideoRendererEvent)</code>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,described, parcon.iwindowsparentalcontrolscore, wpcapi/IWindowsParentalControlsCore
-f1_keywords:
-- wpcapi/IWindowsParentalControlsCore
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControlsCore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControlsCore
+ - wpcapi/IWindowsParentalControlsCore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControlsCore
 ---
 
 # IWindowsParentalControlsCore interface
@@ -51,10 +52,9 @@ ms.custom: 19H1
 
 The **IWindowsParentalControlsCore** interface is used to retrieve pointers for general and web restriction settings as well as identifiers for active Web Content Filters.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControlsCore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControlsCore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowsParentalControlsCore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWindowsParentalControlsCore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for general settings for the specified user.
@@ -78,7 +78,7 @@ Retrieves a pointer to an interface for general settings for the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
 </td>
 <td align="left" width="63%">
 Indicates the visibility of the Parental Controls user interface.
@@ -87,7 +87,7 @@ Indicates the visibility of the Parental Controls user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name and identifier of the currently active Web Content Filter.
@@ -96,11 +96,11 @@ Retrieves the name and identifier of the currently active Web Content Filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for web restrictions settings for the specified user.
 
 </td>
 </tr>
-</table> 
+</table>

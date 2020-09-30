@@ -111,7 +111,7 @@ The requested interface isn't implemented on the registered object.
 
 
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
+Call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
 
 
 
@@ -121,12 +121,11 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
  
 
  
-

@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn
-f1_keywords:
-- winbase/lstrcpyn
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- lstrcpyn
-- lstrcpynA
-- lstrcpynW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lstrcpynA
+ - winbase/lstrcpynA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - lstrcpyn
+ - lstrcpynA
+ - lstrcpynW
 ---
 
 # lstrcpynA function
@@ -58,14 +59,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a specified number of characters from a source string into a buffer.
-<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead. See Remarks.</div><div> </div>
+<div class="alert"><b>Warning</b>  Do not use. Consider using <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead. See Remarks.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpString1 [out]
 
@@ -76,13 +73,11 @@ The destination buffer, which receives the copied characters. The buffer
 				specified by <i>iMaxLength</i>, including room 
 				for a terminating null character.
 
-
 ### -param lpString2 [in]
 
 Type: <b>LPCTSTR</b>
 
 The source string from which the function is to copy characters.
-
 
 ### -param iMaxLength [in]
 
@@ -91,12 +86,9 @@ Type: <b>int</b>
 The number of <b>TCHAR</b> values to be copied from the 
 				string pointed to by <i>lpString2</i> into the 
 				buffer pointed to by <i>lpString1</i>, including 
-				a terminating null character. 
-
+				a terminating null character.
 
 ## -returns
-
-
 
 Type: <b>LPTSTR</b>
 
@@ -107,12 +99,7 @@ If the function succeeds, the return value is a pointer to the buffer.
 If the function fails, the return value is <b>NULL</b> 
                     and <i>lpString1</i> may not be null-terminated.
 
-
-
-
 ## -remarks
-
-
 
 The buffer pointed to by <i>lpString1</i> must 
 			be large enough to include a terminating null character, and the string length 
@@ -148,14 +135,14 @@ Buffer overflow situations are the cause
 Using <code>sizeof(szString1)/sizeof(szString1[0])</code> 
 				gives the proper size of the buffer. 
 
-Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead; use either 
+Consider using <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a> instead; use either 
 				<code>StringCchCopy(buffer, sizeof(buffer)/sizeof(buffer[0]), src);</code>, 
 				being aware that <code>buffer</code> must not be a pointer or 
 				use <code>StringCchCopy(buffer, ARRAYSIZE(buffer), src);</code>, 
 				being aware that, when copying to a pointer, the caller is responsible for 
 				passing in the size of the pointed-to memory in characters. 
 
-Review <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a> before continuing.
+Review <a href="/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a> before continuing.
 
 
 
@@ -166,9 +153,6 @@ Review <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Se
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -177,60 +161,56 @@ Review <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopya">StringCbCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyexa">StringCbCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopynexa">StringCbCopyNEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyna">StringCchCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>

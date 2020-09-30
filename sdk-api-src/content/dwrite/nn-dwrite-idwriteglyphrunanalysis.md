@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: d4739b55-1a9b-4346-9b47-d8adb98df163
 ms.date: 12/05/2018
 ms.keywords: IDWriteGlyphRunAnalysis, IDWriteGlyphRunAnalysis interface [Direct Write], IDWriteGlyphRunAnalysis interface [Direct Write],described, directwrite.IDWriteGlyphRunAnalysis, dwrite/IDWriteGlyphRunAnalysis
-f1_keywords:
-- dwrite/IDWriteGlyphRunAnalysis
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteGlyphRunAnalysis
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteGlyphRunAnalysis
+ - dwrite/IDWriteGlyphRunAnalysis
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteGlyphRunAnalysis
 ---
 
 # IDWriteGlyphRunAnalysis interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Contains low-level information used to render a glyph run.
-
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ The <b>IDWriteGlyphRunAnalysis</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The alpha texture can be a   bi-level alpha  texture or a ClearType alpha texture.  
 
@@ -159,7 +155,4 @@ HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalys
 }
 
 ```
-
-
-
 

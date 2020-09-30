@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 50a426b5-a526-4d3d-a20a-67050229f02e
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder3 interface [Windows Shell],InitializeEx method, IPersistFolder3.InitializeEx, IPersistFolder3::InitializeEx, InitializeEx, InitializeEx method [Windows Shell], InitializeEx method [Windows Shell],IPersistFolder3 interface, _win32_IPersistFolder3_InitializeEx, shell.IPersistFolder3_InitializeEx, shobjidl_core/IPersistFolder3::InitializeEx
-f1_keywords:
-- shobjidl_core/IPersistFolder3.InitializeEx
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IPersistFolder3.InitializeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistFolder3::InitializeEx
+ - shobjidl_core/IPersistFolder3::InitializeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IPersistFolder3.InitializeEx
 ---
 
 # IPersistFolder3::InitializeEx
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
-
 
 ## -parameters
 
-
-
-
 ### -param pbc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> object that provides the bind context. This parameter can be <b>NULL</b>.
-
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> object that provides the bind context. This parameter can be <b>NULL</b>.
 
 ### -param pidlRoot [in]
 
 Type: <b>LPCITEMIDLIST</b>
 
 A pointer to a fully qualified PIDL that specifies the absolute location of a folder or folder shortcut. The calling application is responsible for allocating and freeing this PIDL.
-
 
 ### -param ppfti [in]
 
@@ -82,25 +76,14 @@ A pointer to a <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-persis
 
 If <i>ppfti</i> points to a valid structure, <i>pidlRoot</i> represents a folder shortcut.
 
-If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">Initialize</a> had been called.
-
+If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">Initialize</a> had been called.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-This function is an extended version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">IPersistFolder::Initialize</a>. It allows the Shell to initialize folder shortcuts as well as normal folders.
-
-
-
+This function is an extended version of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">IPersistFolder::Initialize</a>. It allows the Shell to initialize folder shortcuts as well as normal folders.

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: eff76633-10c0-4f71-a267-b2e454dcfa6c
 ms.date: 12/05/2018
 ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetControlNode method, IBDA_Topology.GetControlNode, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
-f1_keywords:
-- bdaiface/IBDA_Topology.GetControlNode
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_Topology.GetControlNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_Topology::GetControlNode
+ - bdaiface/IBDA_Topology::GetControlNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_Topology.GetControlNode
 ---
 
 # IBDA_Topology::GetControlNode
@@ -49,58 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetControlNode</b> method retrieves an <b>IUnknown</b> interface pointer for a specified control node.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulInputPinId [in]
 
 Specifies the identifier of the input pin for which a topology should be created.
 
-
 ### -param ulOutputPinId [in]
 
 Specifies the identifier of the output pin for which a topology should be created.
-
 
 ### -param ulNodeType [in]
 
 The type of node to be opened.
 
-
 ### -param ppControlNode [out]
 
 Pointer to a pointer to the control node's <b>IUnknown</b> interface
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_topology">IBDA_Topology Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_topology">IBDA_Topology Interface</a>

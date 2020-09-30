@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ca44bd57-6af0-45b3-9331-914e93360743
 ms.date: 12/05/2018
 ms.keywords: SHFind_InitMenuPopup, SHFind_InitMenuPopup function [Windows Shell], _win32_SHFind_InitMenuPopup, shell.SHFind_InitMenuPopup, shlobj_core/SHFind_InitMenuPopup
-f1_keywords:
-- shlobj_core/SHFind_InitMenuPopup
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHFind_InitMenuPopup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHFind_InitMenuPopup
+ - shlobj_core/SHFind_InitMenuPopup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHFind_InitMenuPopup
 ---
 
 # SHFind_InitMenuPopup function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHFind_InitMenuPopup</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> instance for the submenu of options displayed for the <b>Search</b> entry in the Classic style Start menu.
-
+Retrieves the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> instance for the submenu of options displayed for the <b>Search</b> entry in the Classic style Start menu.
 
 ## -parameters
-
-
-
 
 ### -param hmenu [in]
 
@@ -66,13 +62,11 @@ Type: <b>HMENU</b>
 
 The handle of the popup menu.
 
-
 ### -param hwndOwner [in, optional]
 
 Type: <b>HWND</b>
 
 The handle of the popup menu's owner window. This value can be <b>NULL</b>.
-
 
 ### -param idCmdFirst
 
@@ -80,21 +74,14 @@ Type: <b>UINT</b>
 
 The ID of the first menu item.
 
-
 ### -param idCmdLast
 
 Type: <b>UINT</b>
 
 The ID of the last menu item.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>*</b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>*</b>
-
-If successful, returns an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> pointer. On failure, returns <b>NULL</b>.
-
-
-
+If successful, returns an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> pointer. On failure, returns <b>NULL</b>.

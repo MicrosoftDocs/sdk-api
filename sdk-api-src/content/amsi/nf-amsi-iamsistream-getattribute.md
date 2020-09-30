@@ -8,10 +8,6 @@ tech.root: AMSI
 ms.assetid: 7AD74D85-1A1E-4AFD-91C1-670AC7280285
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Antimalware Scan Interface], GetAttribute method [Antimalware Scan Interface],IAmsiStream interface, IAmsiStream interface [Antimalware Scan Interface],GetAttribute method, IAmsiStream.GetAttribute, IAmsiStream::GetAttribute, amsi.iamsistream_getattribute, amsi/IAmsiStream::GetAttribute
-f1_keywords:
-- amsi/IAmsiStream.GetAttribute
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amsi.h
-api_name:
-- IAmsiStream.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAmsiStream::GetAttribute
+ - amsi/IAmsiStream::GetAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amsi.h
+api_name:
+ - IAmsiStream.GetAttribute
 ---
 
 # IAmsiStream::GetAttribute
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a requested attribute from the stream.
 
-
 ## -parameters
-
-
-
 
 ### -param attribute [in]
 
 Specifies the type of attribute to be returned. See Remarks.
 
-
 ### -param dataSize [in]
 
 The size of the output buffer, <i>data</i>, in bytes.
-
 
 ### -param data [out]
 
 Buffer to receive the requested attribute. <i>data</i> must be set to its size in bytes.
 
-
 ### -param retData [out]
 
 The number of bytes returned in <i>data</i>. If this method returns <b>E_NOT_SUFFICIENT_BUFFER</b>, <i>retData</i> contains the number of bytes required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,14 +135,8 @@ The object is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on the attribute requested in <i>attribute</i>, the following data should be copied to <i>data</i>:
 
@@ -184,22 +168,11 @@ Depending on the attribute requested in <i>attribute</i>, the following data sho
     is self-contained.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/amsi/ne-amsi-amsi_attribute">AMSI_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/ne-amsi-amsi_attribute">AMSI_ATTRIBUTE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>

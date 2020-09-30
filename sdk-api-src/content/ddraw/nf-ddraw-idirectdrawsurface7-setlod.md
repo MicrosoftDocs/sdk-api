@@ -44,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::SetLOD
-
-
 ## -description
-
 
 Sets the maximum level of detail (LOD) for a managed mipmap surface. This method succeeds only on managed textures.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - dwMaxLOD [in]
+### -param arg1 [in]
 
 The maximum LOD value to be set for the mipmap chain if the call succeeds.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -80,11 +65,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Applications can call this method only for managed textures (those surfaces that were created with the DDSCAPS2_TEXTUREMANAGE flag). If you call <b>SetLOD</b> on a nonmanaged texture, <b>SetLOD</b> fails and returns DDERR_INVALIDOBJECT.
 
@@ -92,7 +73,7 @@ Applications can call this method only for managed textures (those surfaces that
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetLOD</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetLOD</b> method.
 
 
 
@@ -102,8 +83,7 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  
-

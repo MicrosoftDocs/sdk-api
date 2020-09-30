@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8d5fc7ee-93ee-4297-ba24-0eed63bec1ea
 ms.date: 12/05/2018
 ms.keywords: IVPNotify2, IVPNotify2 interface [DirectShow], IVPNotify2 interface [DirectShow],described, IVPNotify2Interface, dshow.ivpnotify2, vpnotify/IVPNotify2
-f1_keywords:
-- vpnotify/IVPNotify2
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVPNotify2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPNotify2
+ - vpnotify/IVPNotify2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVPNotify2
 ---
 
 # IVPNotify2 interface
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>IVPNotify2</code> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
+The <code>IVPNotify2</code> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> and is implemented by the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter. This interface enables the Overlay Mixer to communicate with a video port (on a hardware device such as a decoder) that implements <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>.
 
 Applications should never use this interface.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify2</b> interface inherits from <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>. <b>IVPNotify2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +72,7 @@ The <b>IVPNotify2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
+<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-getvpsyncmaster">GetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Checks whether the video port controls the synchronization of the VGA.
@@ -85,32 +81,19 @@ Checks whether the video port controls the synchronization of the VGA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
+<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify2-setvpsyncmaster">SetVPSyncMaster</a>
 </td>
 <td align="left" width="63%">
 Sets whether the video port controls vertical synchronization of the VGA.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Include Vptype.h before Vpnotify.h.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fecf1f8f-ea76-4a3d-a6cf-faa3e400f5e4
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], IThumbnailCapture interface [Windows Shell],described, _shell_IThumbnailCapture, shell.IThumbnailCapture, shlobj/IThumbnailCapture
-f1_keywords:
-- shlobj/IThumbnailCapture
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IThumbnailCapture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailCapture
+ - shlobj/IThumbnailCapture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IThumbnailCapture
 ---
 
 # IThumbnailCapture interface
 
 
 ## -description
-
 
 Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
         
@@ -57,7 +57,7 @@ Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCapture</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCapture</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCapture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCapture</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,10 +72,10 @@ The <b>IThumbnailCapture</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ithumbnailcapture-capturethumbnail">CaptureThumbnail</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ithumbnailcapture-capturethumbnail">CaptureThumbnail</a>
 </td>
 <td align="left" width="63%">
-Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/en-us/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> document.
+Retrieves a thumbnail representation of an <a href="/dotnet/api/mshtml.ihtmldocument2?view=powershellsdk-1.1.0">IHTMLDocument2</a> document.
         
             
 
@@ -83,5 +83,4 @@ Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/e
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>

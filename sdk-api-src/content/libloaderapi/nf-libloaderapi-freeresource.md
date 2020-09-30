@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\freeresource.htm
 ms.date: 12/05/2018
 ms.keywords: FreeResource, FreeResource function [Menus and Other Resources], _win32_FreeResource, _win32_freeresource_cpp, libloaderapi/FreeResource, menurc.freeresource, winui._win32_freeresource
-f1_keywords:
-- libloaderapi/FreeResource
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,62 +25,49 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- FreeResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeResource
+ - libloaderapi/FreeResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - FreeResource
 ---
 
-# FreeResource function
-
-
 ## -description
-
 
 <p class="CCE_Message">[This  function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>. If used on 32 or 64-bit Windows systems, this function will return <b>FALSE</b>.]
 
 Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.
 
-
 ## -parameters
 
-
-
-
-### -param hResData
-
-TBD
-
-
-
-
-#### - hglbResource [in]
+### -param hResData [in]
 
 Type: <b>HGLOBAL</b>
 
 A handle of the resource. It is assumed that <i>hglbResource</i> was created by <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -92,12 +75,7 @@ If the function succeeds, the return value is zero.
 
 If the function fails, the return value is nonzero, which indicates that the resource has not been freed.
 
-
-
-
 ## -remarks
-
-
 
 For resources loaded with other functions, <b>FreeResource</b> has been replaced by the following functions:
 
@@ -115,7 +93,7 @@ For resources loaded with other functions, <b>FreeResource</b> has been replaced
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
@@ -143,15 +121,9 @@ The reference count for a resource is incremented (increased by one) each time a
 
 The system automatically deletes these resources when the process that created them terminates. However, calling the appropriate function saves memory.  For more information, see <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
@@ -180,7 +152,3 @@ The system automatically deletes these resources when the process that created t
 
 
 <b>Reference</b>
- 
-
- 
-

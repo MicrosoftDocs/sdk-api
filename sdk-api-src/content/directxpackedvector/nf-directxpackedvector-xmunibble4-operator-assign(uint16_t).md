@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.operator = (const uint16_t)
 ms.date: 12/05/2018
 ms.keywords: XMUNIBBLE4 structure [DirectX Math Support APIs],operator = method, XMUNIBBLE4.operator =(const uint16_t), XMUNIBBLE4.operator-assign(uint16_t), XMUNIBBLE4.operator=, XMUNIBBLE4::operator-assign(uint16_t), XMUNIBBLE4::operator=, dxmath.xmunibble4_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUNIBBLE4 structure, operator=
-f1_keywords:
-- directxpackedvector/XMUNIBBLE4.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUNIBBLE4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUNIBBLE4::operator=
+ - directxpackedvector/XMUNIBBLE4::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUNIBBLE4.operator =
 ---
 
 # XMUNIBBLE4::operator-assign(uint16_t)
 
 
 ## -description
-
 
 Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current
 	instance of <code>XMUNIBBLE4</code>.
@@ -57,30 +57,17 @@ Assigns the vector component data packed in an instance of <code>uint16_t</code>
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
-The values of four vector components in a packed format.		
-	    
-
+The values of four vector components in a packed format.
 
 ## -returns
-
-
 
 The current instance of <code>XMUNIBBLE4</code> whose vector component data has been
 		updated to the component values packed in the <code>uint16_t</code> instance specified
 		by the <b>Packed</b> argument.
-	    
-
-
-
 
 ## -remarks
-
-
 
 The format of <b>Packed</b> is:
 	
@@ -109,12 +96,7 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned to the <b>w</b>member of 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -125,7 +107,4 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned to the <b>w</b>member of 
 
 
 <a href="https://msdn.microsoft.com/03b4f870-696e-4719-8115-9becb307dd10">operator = </a>
- 
-
- 
 

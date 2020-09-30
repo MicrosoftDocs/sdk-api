@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
-f1_keywords:
-- propsys/IPropertyEnumType
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyEnumType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyEnumType
+ - propsys/IPropertyEnumType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyEnumType
 ---
 
 # IPropertyEnumType interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods that extract data from enumeration information. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> gives access to the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enum">enum</a> and <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumrange">enumRange</a> elements in the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">property schema</a> in a programmatic way at run time.
-
+Exposes methods that extract data from enumeration information. <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> gives access to the <a href="/windows/desktop/properties/propdesc-schema-enum">enum</a> and <a href="/windows/desktop/properties/propdesc-schema-enumrange">enumRange</a> elements in the <a href="/windows/desktop/properties/propdesc-schema-entry">property schema</a> in a programmatic way at run time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IPropertyEnumType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>
 </td>
 <td align="left" width="63%">
 Gets display text from an enumeration information structure.
@@ -79,7 +78,7 @@ Gets display text from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getenumtype">GetEnumType</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getenumtype">GetEnumType</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration type from an enumeration information structure.
@@ -88,7 +87,7 @@ Gets an enumeration type from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>
 </td>
 <td align="left" width="63%">
 Gets a minimum value from an enumeration information structure.
@@ -97,7 +96,7 @@ Gets a minimum value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a set value from an enumeration information structure.
@@ -106,21 +105,15 @@ Gets a set value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value from an enumeration information structure.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-For additional information, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.
-
-
-
+For additional information, see <a href="/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.

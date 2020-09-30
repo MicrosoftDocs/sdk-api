@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFamily, IDWriteFontFamily interface [Direct Write], IDWriteFontFamily interface [Direct Write],described, directwrite.IDWriteFontFamily, dwrite/IDWriteFontFamily
-f1_keywords:
-- dwrite/IDWriteFontFamily
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFamily
+ - dwrite/IDWriteFontFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily
 ---
 
 # IDWriteFontFamily interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a family of related fonts.
-
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ The <b>IDWriteFontFamily</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A font family is a set of fonts that share the same family name, such as "Times New Roman", but that differ in features. These feature differences include style, such as italic, and weight, such as bold. 
 
@@ -136,17 +132,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
- 
-
- 
 

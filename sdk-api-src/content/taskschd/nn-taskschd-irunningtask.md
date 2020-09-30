@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
 ms.date: 12/05/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
-f1_keywords:
-- taskschd/IRunningTask
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRunningTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningTask
+ - taskschd/IRunningTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRunningTask
 ---
 
 # IRunningTask interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods to get information from and control a running task.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunningTask</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRunningTask</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunningTask</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRunningTask</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IRunningTask</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">Refresh</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes all of the local instance variables of the task.
@@ -80,7 +79,7 @@ Refreshes all of the local instance variables of the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-stop">Stop</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops this instance of the task.
@@ -98,7 +97,7 @@ Stops this instance of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_currentaction">CurrentAction</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_currentaction">CurrentAction</a>
 
 
 </td>
@@ -114,7 +113,7 @@ Gets the name of the current action that the running task is performing.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_enginepid">EnginePID</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_enginepid">EnginePID</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Gets the process ID for the engine (process) which is running the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_instanceguid">InstanceGuid</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_instanceguid">InstanceGuid</a>
 
 
 </td>
@@ -146,7 +145,7 @@ Gets the GUID identifier for this instance of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_name">Name</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_name">Name</a>
 
 
 </td>
@@ -162,7 +161,7 @@ Gets the name of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_path">Path</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_path">Path</a>
 
 
 </td>
@@ -178,7 +177,7 @@ Gets the path to where the task is stored.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_state">State</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-get_state">State</a>
 
 
 </td>
@@ -191,32 +190,24 @@ Gets the state of the running task.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">IRegisteredTask::Run</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">IRegisteredTask::Run</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex">IRegisteredTask::RunEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex">IRegisteredTask::RunEx</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 1DFE0E7A-FD83-47CD-9B1D-F70D8518FA29
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder, IDMLCommandRecorder interface, IDMLCommandRecorder interface,described, direct3d12.idmlcommandrecorder, directml/IDMLCommandRecorder
-f1_keywords:
-- directml/IDMLCommandRecorder
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLCommandRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLCommandRecorder
+ - directml/IDMLCommandRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLCommandRecorder
 ---
 
 # IDMLCommandRecorder interface
+
 
 ## -description
 
@@ -59,4 +61,6 @@ The command recorder is a stateless object whose purpose is to record commands i
 This object is thread-safe.
 
 ## -see-also
+
 [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)
+

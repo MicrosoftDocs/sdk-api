@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: cc3c6cb9-9e98-4d45-bf73-ee625fb17e8c
 ms.date: 12/05/2018
 ms.keywords: GetFontFromFontFace, GetFontFromFontFace method [Direct Write], GetFontFromFontFace method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFromFontFace method, IDWriteFontCollection.GetFontFromFontFace, IDWriteFontCollection::GetFontFromFontFace, directwrite.IDWriteFontCollection_GetFontFromFontFace, dwrite/IDWriteFontCollection::GetFontFromFontFace
-f1_keywords:
-- dwrite/IDWriteFontCollection.GetFontFromFontFace
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontCollection.GetFontFromFontFace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontCollection::GetFontFromFontFace
+ - dwrite/IDWriteFontCollection::GetFontFromFontFace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontCollection.GetFontFromFontFace
 ---
 
 # IDWriteFontCollection::GetFontFromFontFace
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong 
      to the font collection.
 
-
 ## -parameters
-
-
-
 
 ### -param fontFace
 
@@ -65,32 +61,19 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFo
 
 A font face object that specifies the physical font.
 
-
 ### -param font [out]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>**</b>
 
 When this method returns, contains the address of a pointer to the newly created font object if successful; otherwise, <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: FC5B37C0-8512-441B-AC33-FAE378C8C3EC
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, D3D11_SHADER_CACHE_SUPPORT_FLAGS, D3D11_SHADER_CACHE_SUPPORT_FLAGS enumeration [Direct3D 11], D3D11_SHADER_CACHE_SUPPORT_NONE, d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_DISK_CACHE, d3d11/D3D11_SHADER_CACHE_SUPPORT_AUTOMATIC_INPROC_CACHE, d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS, d3d11/D3D11_SHADER_CACHE_SUPPORT_NONE, direct3d11.d3d11_shader_cache_support_flags
-f1_keywords:
-- d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11.h
-api_name:
-- D3D11_SHADER_CACHE_SUPPORT_FLAGS
 targetos: Windows
 req.typenames: D3D11_SHADER_CACHE_SUPPORT_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_SHADER_CACHE_SUPPORT_FLAGS
+ - d3d11/D3D11_SHADER_CACHE_SUPPORT_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11.h
+api_name:
+ - D3D11_SHADER_CACHE_SUPPORT_FLAGS
 ---
 
 # D3D11_SHADER_CACHE_SUPPORT_FLAGS enumeration
+
 
 ## -description
 
@@ -66,7 +68,7 @@ Indicates that the driver supports an OS-managed shader cache that stores compil
 
 ## -remarks
 
-This enum is used by the [D3D11_FEATURE_DATA_SHADER_CACHE](/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache) structure.
+This enum is used by the [D3D11_FEATURE_DATA_SHADER_CACHE](./ns-d3d11-d3d11_feature_data_shader_cache.md) structure.
 
 ## -see-also
 

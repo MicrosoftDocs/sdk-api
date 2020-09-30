@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 467E0100-F00B-4D2D-BF2A-8138765C787E
 ms.date: 12/05/2018
 ms.keywords: ClearIndexing, ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],ClearIndexing method, IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
-f1_keywords:
-- wincodec/IWICJpegFrameDecode.ClearIndexing
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICJpegFrameDecode.ClearIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICJpegFrameDecode::ClearIndexing
+ - wincodec/IWICJpegFrameDecode::ClearIndexing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICJpegFrameDecode.ClearIndexing
 ---
 
 # IWICJpegFrameDecode::ClearIndexing
@@ -49,39 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Removes the indexing from a JPEG that has been indexed using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
-
+Removes the indexing from a JPEG that has been indexed using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns S_OK upons successful completion.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>

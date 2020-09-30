@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
 ms.date: 12/05/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream
-f1_keywords:
-- mfidl/IMFSensorStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorStream
+ - mfidl/IMFSensorStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorStream
 ---
 
 # IMFSensorStream interface
@@ -52,13 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for cloning and querying the properties of a sensor stream.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFSensorStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorStream</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFSensorStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +72,7 @@ The <b>IMFSensorStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-clonesensorstream">CloneSensorStream</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-clonesensorstream">CloneSensorStream</a>
 </td>
 <td align="left" width="63%">
 Clones the <b>IMFSensorStream</b>.
@@ -82,31 +81,27 @@ Clones the <b>IMFSensorStream</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-getmediatype">GetMediaType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-getmediatype">GetMediaType</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> representing a supported media type for the sensor stream.
+Retrieves an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> representing a supported media type for the sensor stream.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-getmediatypecount">GetMediaTypeCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorstream-getmediatypecount">GetMediaTypeCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of media types supported by the sensor stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
  
 
  

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [Media Foundation], IMFDXGIDeviceManagerSource interface [Media Foundation],described, mf.imfdxgidevicemanagersource, mfidl/IMFDXGIDeviceManagerSource
-f1_keywords:
-- mfidl/IMFDXGIDeviceManagerSource
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFDXGIDeviceManagerSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIDeviceManagerSource
+ - mfidl/IMFDXGIDeviceManagerSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFDXGIDeviceManagerSource
 ---
 
 # IMFDXGIDeviceManagerSource interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides functionality for getting the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
-
+Provides functionality for getting the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDXGIDeviceManagerSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDXGIDeviceManagerSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFDXGIDeviceManagerSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFDXGIDeviceManagerSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,23 +69,15 @@ The <b>IMFDXGIDeviceManagerSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfdxgidevicemanagersource-getmanager">GetManager</a>
+<a href="/windows/desktop/medfound/imfdxgidevicemanagersource-getmanager">GetManager</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Media Foundation video rendering sink.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Media Foundation video rendering sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

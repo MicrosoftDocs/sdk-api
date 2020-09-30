@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 14A2A516-47CB-4AE0-AD9C-046426AE60E7
 ms.date: 12/05/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingActivity interface, TraceLoggingActivity interface,Provider method, TraceLoggingActivity.Provider, TraceLoggingActivity::Provider, tracelogging.traceloggingactivity_provider, traceloggingactivity/TraceLoggingActivity::Provider
-f1_keywords:
-- traceloggingactivity/TraceLoggingActivity.Provider
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingActivity.Provider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingActivity::Provider
+ - traceloggingactivity/TraceLoggingActivity::Provider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingActivity.Provider
 ---
 
 # TraceLoggingActivity::Provider
@@ -49,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the handle to the TraceLogging provider associated with this activity.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The handle to the TraceLogging provider associated with this activity.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>

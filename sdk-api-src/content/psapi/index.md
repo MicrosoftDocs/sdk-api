@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: psapi
+f1_keywords:
+ - psapi
+ - psapi/psapi
 ---
 
 # Psapi.h header
 
 
 ## -description
-
 
 This header is used by Process Status API (PSAPI). For more information, see:
 

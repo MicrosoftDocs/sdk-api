@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_69f7_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules, IFaxOutboundRoutingRules interface [Fax Service], IFaxOutboundRoutingRules interface [Fax Service],described, _mfax_faxoutboundroutingrules_cpp, fax._mfax_faxoutboundroutingrules_cpp, faxcomex/IFaxOutboundRoutingRules
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingRules
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingRules
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingRules
+ - faxcomex/IFaxOutboundRoutingRules
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingRules
 ---
 
 # IFaxOutboundRoutingRules interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IFaxOutboundRoutingRules</b> interface describes a configuration collection that is used by a fax client application to manage the fax outbound routing rules. The collection also includes methods to add and remove rules from the collection. Each outbound routing rule is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface.
-		
-
+The <b>IFaxOutboundRoutingRules</b> interface describes a configuration collection that is used by a fax client application to manage the fax outbound routing rules. The collection also includes methods to add and remove rules from the collection. Each outbound routing rule is represented by a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRules</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRoutingRules</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutboundRoutingRules</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutboundRoutingRules</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,55 +70,55 @@ The <b>IFaxOutboundRoutingRules</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-add">Add</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-add">IFaxOutboundRoutingRules::Add</a> method adds an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <b>IFaxOutboundRoutingRules</b> interface.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-add">IFaxOutboundRoutingRules::Add</a> method adds an outbound routing rule (<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <b>IFaxOutboundRoutingRules</b> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get__newenum">IFaxOutboundRoutingRules::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get__newenum">IFaxOutboundRoutingRules::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get_item">Item</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get_item">Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get_item">IFaxOutboundRoutingRules::get_Item</a> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface from the <b>IFaxOutboundRoutingRules</b> interface using the routing rule's index.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutboundroutingrules-get_item">IFaxOutboundRoutingRules::get_Item</a> method returns a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a> interface from the <b>IFaxOutboundRoutingRules</b> interface using the routing rule's index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-itembycountryandarea-vb">ItemByCountryAndArea</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-itembycountryandarea-vb">ItemByCountryAndArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-itembycountryandarea-vb">IFaxOutboundRoutingRules::get_ItemByCountryAndArea</a> method returns an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-itembycountryandarea-vb">IFaxOutboundRoutingRules::get_ItemByCountryAndArea</a> method returns an outbound routing rule (<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-remove-vb">Remove</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-remove-vb">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-remove-vb">IFaxOutboundRoutingRules::Remove</a> method removes an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection using the routing rule's index.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-remove-vb">IFaxOutboundRoutingRules::Remove</a> method removes an outbound routing rule (<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection using the routing rule's index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-removebycountryandarea-vb">RemoveByCountryAndArea</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-removebycountryandarea-vb">RemoveByCountryAndArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-removebycountryandarea-vb">IFaxOutboundRoutingRules::RemoveByCountryAndArea</a> method removes an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-removebycountryandarea-vb">IFaxOutboundRoutingRules::RemoveByCountryAndArea</a> method removes an outbound routing rule (<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 </td>
 </tr>
@@ -135,7 +133,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-count-vb">Count</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-count-vb">Count</a>
 
 
 </td>
@@ -144,18 +142,12 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-count-vb">IFaxOutboundRoutingRules::get_Count</a> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection. This is the total number of outbound routing rules associated with the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules-count-vb">IFaxOutboundRoutingRules::get_Count</a> property represents the number of objects in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> collection. This is the total number of outbound routing rules associated with the fax server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-A default implementation of <b>IFaxOutboundRoutingRules</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> object.
-
-
-
+A default implementation of <b>IFaxOutboundRoutingRules</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a> object.

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7197a225-b2dc-47bb-8843-d3fb4bf95811
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], IX509CertificateRequestCertificate interface [Security],described, certenroll/IX509CertificateRequestCertificate, security.ix509certificaterequestcertificate
-f1_keywords:
-- certenroll/IX509CertificateRequestCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCertificate
+ - certenroll/IX509CertificateRequestCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCertificate
 ---
 
 # IX509CertificateRequestCertificate interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509CertificateRequestCertificate</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. The following illustration shows the inheritance structure for this object.
 
 <img alt="Inheritance diagram for a self-generated certificate" src="./images/X509Inherit_Requestcertificate.png"/>
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestCertificate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>. <b>IX509CertificateRequestCertificate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +72,7 @@ The <b>IX509CertificateRequestCertificate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature">CheckPublicKeySignature</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-checkpublickeysignature">CheckPublicKeySignature</a>
 </td>
 <td align="left" width="63%">
 Verifies the certificate signature by using the public key of the signing certificate.
@@ -90,7 +89,7 @@ Verifies the certificate signature by using the public key of the signing certif
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer">Issuer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_issuer">Issuer</a>
 
 
 </td>
@@ -102,7 +101,7 @@ Specifies or retrieves the name of the certificate issuer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter">NotAfter</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notafter">NotAfter</a>
 
 
 </td>
@@ -114,7 +113,7 @@ Specifies the date and time after which the certificate is no longer valid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore">NotBefore</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_notbefore">NotBefore</a>
 
 
 </td>
@@ -126,7 +125,7 @@ Specifies the date and time before which the certificate is not valid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber">SerialNumber</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_serialnumber">SerialNumber</a>
 
 
 </td>
@@ -138,33 +137,25 @@ Specifies and retrieves a string that contains the certificate serial number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate">SignerCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate-get_signercertificate">SignerCertificate</a>
 
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object used to sign the certificate.
+Specifies or retrieves the  <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> object used to sign the certificate.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

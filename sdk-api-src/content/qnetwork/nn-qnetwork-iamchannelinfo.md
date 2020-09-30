@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 779d1c0a-f838-4d02-8254-d66916d3b790
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
-f1_keywords:
-- qnetwork/IAMChannelInfo
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMChannelInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMChannelInfo
+ - qnetwork/IAMChannelInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMChannelInfo
 ---
 
 # IAMChannelInfo interface
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMChannelInfo</b> interface gets and sets channel information for Windows Media Station (.nsc) files.
 
-This interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter only when the filter is reading Windows Media Station (.nsc) files. The Windows Media Source filter uses .nsc files to get the information it needs to receive multicast content over the Internet. These files contain information such as stream location and rollover URL, as well as descriptive information about the station.
-
-
-
+This interface is exposed by the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter only when the filter is reading Windows Media Station (.nsc) files. The Windows Media Source filter uses .nsc files to get the information it needs to receive multicast content over the Internet. These files contain information such as stream location and rollover URL, as well as descriptive information about the station.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +71,7 @@ The <b>IAMChannelInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channeldescription">get_ChannelDescription</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channeldescription">get_ChannelDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description of the channel.
@@ -84,7 +80,7 @@ Gets the description of the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelname">get_ChannelName</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelname">get_ChannelName</a>
 </td>
 <td align="left" width="63%">
 Gets the channel name.
@@ -93,7 +89,7 @@ Gets the channel name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelurl">get_ChannelURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelurl">get_ChannelURL</a>
 </td>
 <td align="left" width="63%">
 Gets the channel URL.
@@ -102,7 +98,7 @@ Gets the channel URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactaddress">get_ContactAddress</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactaddress">get_ContactAddress</a>
 </td>
 <td align="left" width="63%">
 Gets the contact address.
@@ -111,7 +107,7 @@ Gets the contact address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactemail">get_ContactEmail</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactemail">get_ContactEmail</a>
 </td>
 <td align="left" width="63%">
 Gets the contact email address.
@@ -120,19 +116,16 @@ Gets the contact email address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactphone">get_ContactPhone</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactphone">get_ContactPhone</a>
 </td>
 <td align="left" width="63%">
 Gets the contact phone number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -143,19 +136,10 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

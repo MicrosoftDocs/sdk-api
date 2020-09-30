@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framework],TerminateComposition method, ITfContextOwnerCompositionServices.TerminateComposition, ITfContextOwnerCompositionServices::TerminateComposition, TerminateComposition, TerminateComposition method [Text Services Framework], TerminateComposition method [Text Services Framework],ITfContextOwnerCompositionServices interface, _tsf_itfcontextownercompositionservices_terminatecomposition_ref, msctf/ITfContextOwnerCompositionServices::TerminateComposition, tsf.itfcontextownercompositionservices_terminatecomposition
-f1_keywords:
-- msctf/ITfContextOwnerCompositionServices.TerminateComposition
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextOwnerCompositionServices.TerminateComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerCompositionServices::TerminateComposition
+ - msctf/ITfContextOwnerCompositionServices::TerminateComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextOwnerCompositionServices.TerminateComposition
 ---
 
 # ITfContextOwnerCompositionServices::TerminateComposition
@@ -53,17 +54,11 @@ Terminates a composition.
 
 ## -parameters
 
-
-
-
 ### -param pComposition [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> interface that represents the composition to terminate. If this value is <b>NULL</b>, all compositions in the context are terminated.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> interface that represents the composition to terminate. If this value is <b>NULL</b>, all compositions in the context are terminated.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,28 +123,20 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A text service uses <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition</a> to terminate a composition that it created.
+A text service uses <a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition</a> to terminate a composition that it created.
 
 If the context owner implements the text store, the context owner must be able to grant a synchronous write lock before calling this method.
 
 This method also does the following:
 
 <ul>
-<li>For each composition terminated, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated</a> is called for all installed composition advise sinks.</li>
-<li>If the context owner installed a context owner composition advise sink, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition</a> is called for each terminated composition.</li>
+<li>For each composition terminated, <a href="/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated</a> is called for all installed composition advise sinks.</li>
+<li>If the context owner installed a context owner composition advise sink, <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition</a> is called for each terminated composition.</li>
 <li>The GUID_PROP_COMPOSING property will be cleared for the text covered by each terminated composition.</li>
 </ul>
-
-
 
 ## -see-also
 

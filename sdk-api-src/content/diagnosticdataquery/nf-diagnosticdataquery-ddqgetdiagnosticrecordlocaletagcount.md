@@ -36,26 +36,34 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticRecordLocaleTagCount
+f1_keywords:
+ - DdqGetDiagnosticRecordLocaleTagCount
+ - diagnosticdataquery/DdqGetDiagnosticRecordLocaleTagCount
 ---
 
 ## -description
+
 Fetches the number (size) of tags in the resource pointed to by the HDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION handle.
 
 ## -parameters
 
 ### -param hTagDescription
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the resource that contains the list of tag descriptions.
 
 ### -param tagDescriptionCount
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
-This output parameter is the number of tags in the list of tag descriptions. 
+This output parameter is the number of tags in the list of tag descriptions.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
+
 For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
 For details about what a privacy tag is, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
 

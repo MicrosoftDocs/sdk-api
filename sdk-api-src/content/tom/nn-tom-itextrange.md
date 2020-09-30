@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange, ITextRange interface [Windows Controls], ITextRange interface [Windows Controls],described, _win32_ITextRange, _win32_ITextRange_cpp, controls.ITextRange, controls._win32_ITextRange, tom/ITextRange
-f1_keywords:
-- tom/ITextRange
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange
+ - tom/ITextRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange
 ---
 
 # ITextRange interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextRange</b> objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITextRange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-canedit">CanEdit</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-canedit">CanEdit</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified range can be edited.
@@ -79,7 +78,7 @@ Determines whether the specified range can be edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-canpaste">CanPaste</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-canpaste">CanPaste</a>
 </td>
 <td align="left" width="63%">
 Determines if a data object can be pasted, using a specified format, into the current range. 
@@ -88,7 +87,7 @@ Determines if a data object can be pasted, using a specified format, into the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-changecase">ChangeCase</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-changecase">ChangeCase</a>
 </td>
 <td align="left" width="63%">
 Changes the case of letters in this range according to the 
@@ -98,7 +97,7 @@ Changes the case of letters in this range according to the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-collapse">Collapse</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-collapse">Collapse</a>
 </td>
 <td align="left" width="63%">
 Collapses the specified text range into a degenerate point at either the beginning or end of the range. 
@@ -107,7 +106,7 @@ Collapses the specified text range into a degenerate point at either the beginni
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies the text to a data object. 
@@ -116,7 +115,7 @@ Copies the text to a data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-cut">Cut</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-cut">Cut</a>
 </td>
 <td align="left" width="63%">
 Cuts the plain or rich text to a data object or to the Clipboard, depending on the 
@@ -126,7 +125,7 @@ Cuts the plain or rich text to a data object or to the Clipboard, depending on t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed. 
@@ -135,7 +134,7 @@ Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
 </td>
 <td align="left" width="63%">
 Moves this range's ends to the end of the last overlapping <i>Unit</i> in the range. 
@@ -144,7 +143,7 @@ Moves this range's ends to the end of the last overlapping <i>Unit</i> in the ra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-expand">Expand</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-expand">Expand</a>
 </td>
 <td align="left" width="63%">
 Expands this range so that any partial units it contains are completely contained. 
@@ -153,7 +152,7 @@ Expands this range so that any partial units it contains are completely containe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtext">FindText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtext">FindText</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The starting position and direction are also specified by <i>Count</i>, and the matching criteria are given by <i>Flags</i>. 
@@ -162,7 +161,7 @@ Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextend">FindTextEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextend">FindTextEnd</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting from the range's End <i>cp</i>. The search is subject to the comparison parameter, <i>Flags</i>. If the string is found, the End <i>cp</i> is changed to be the end of the matched string, and <i>pLength</i> is set equal to the length of the string. If the string is not found, the range is unchanged and <i>pLength</i> is set equal to zero.
@@ -171,7 +170,7 @@ Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">FindTextStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">FindTextStart</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at the range's Start 
@@ -183,7 +182,7 @@ Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>
 </td>
 <td align="left" width="63%">
 Gets the character at the start position of the range.
@@ -192,7 +191,7 @@ Gets the character at the start position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Gets a duplicate of this range object. 
@@ -201,7 +200,7 @@ Gets a duplicate of this range object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getembeddedobject">GetEmbeddedObject</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getembeddedobject">GetEmbeddedObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the embedded object at the start of the specified range, that is, at <i>cpFirst</i>. The range must either be an insertion point or it must select only the embedded object. 
@@ -210,7 +209,7 @@ Retrieves a pointer to the embedded object at the start of the specified range, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getend">GetEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getend">GetEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the end character position of the range.
@@ -219,16 +218,16 @@ Gets the end character position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getfont">GetFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getfont">GetFont</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object with the character attributes of the specified range.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object with the character attributes of the specified range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">GetFormattedText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">GetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Gets an <b>ITextRange</b> object with the specified range's formatted text.
@@ -237,7 +236,7 @@ Gets an <b>ITextRange</b> object with the specified range's formatted text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getindex">GetIndex</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getindex">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the story index of the <i>Unit</i> parameter at the specified range Start character position. The first <i>Unit</i> in a story has an index value of 1. The index of a <i>Unit</i> is the same for all character positions from that immediately preceding the <i>Unit</i> up to the last character in the <i>Unit</i>.
@@ -246,16 +245,16 @@ Retrieves the story index of the <i>Unit</i> parameter at the specified range St
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpara">GetPara</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getpara">GetPara</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object with the paragraph attributes of the specified range.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object with the paragraph attributes of the specified range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getpoint">GetPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
@@ -264,7 +263,7 @@ Retrieves screen coordinates for the start or end character position in the text
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
 </td>
 <td align="left" width="63%">
 Gets the start character position of the range.
@@ -273,7 +272,7 @@ Gets the start character position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstorylength">GetStoryLength</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getstorylength">GetStoryLength</a>
 </td>
 <td align="left" width="63%">
 Gets the count of characters in the range's story.
@@ -282,7 +281,7 @@ Gets the count of characters in the range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstorytype">GetStoryType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getstorytype">GetStoryType</a>
 </td>
 <td align="left" width="63%">
 Get the type of the range's story.
@@ -291,7 +290,7 @@ Get the type of the range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the plain text in this range. The Text property is the default property of the <b>ITextRange</b> interface.
@@ -300,7 +299,7 @@ Gets the plain text in this range. The Text property is the default property of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-inrange">InRange</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-inrange">InRange</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range is within or at the same text as a specified range. 
@@ -309,7 +308,7 @@ Determines whether this range is within or at the same text as a specified range
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-instory">InStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-instory">InStory</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range's story is the same as a specified range's story. 
@@ -318,7 +317,7 @@ Determines whether this range's story is the same as a specified range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-isequal">IsEqual</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range has the same character positions and story as those of a specified range. 
@@ -327,7 +326,7 @@ Determines whether this range has the same character positions and story as thos
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on <i>Count</i>, and then is moved. 
@@ -336,7 +335,7 @@ Moves the insertion point forward or backward a specified number of units. If th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>
 </td>
 <td align="left" width="63%">
 Moves the end position of the range. 
@@ -345,7 +344,7 @@ Moves the end position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a>
 </td>
 <td align="left" width="63%">
 Moves the range's end to the character position of the first character found that is in the set of characters specified by <i>Cset</i>, provided that the character is found within <i>Count</i> characters of the range's end.
@@ -354,7 +353,7 @@ Moves the range's end to the character position of the first character found tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>
 </td>
 <td align="left" width="63%">
 Moves the end of the range either <i>Count</i> characters or just past all contiguous characters that are found in the set of characters specified by <i>Cset</i>, whichever is less. 
@@ -363,7 +362,7 @@ Moves the end of the range either <i>Count</i> characters or just past all conti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>
 </td>
 <td align="left" width="63%">
 Moves the start postion of the range the specified number of units in the specified direction. 
@@ -372,7 +371,7 @@ Moves the start postion of the range the specified number of units in the specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a>
 </td>
 <td align="left" width="63%">
 Moves the start position of the range the position of the first character found that is in the set of characters specified by <i>Cset</i>, provided that the character is found within <i>Count</i> characters of the start position.
@@ -381,7 +380,7 @@ Moves the start position of the range the position of the first character found 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>
 </td>
 <td align="left" width="63%">
 Moves the start position of the range either <i>Count</i> characters, or just past all contiguous characters that are found in the set of characters specified by <i>Cset</i>, whichever is less. 
@@ -390,7 +389,7 @@ Moves the start position of the range either <i>Count</i> characters, or just pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the first character in the set of characters specified by <i>Cset</i>. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by <i>Count</i>. 
@@ -399,7 +398,7 @@ Searches up to <i>Count</i> characters for the first character in the set of cha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
 </td>
 <td align="left" width="63%">
 Starts at a specified end of a range and searches while the characters belong to the set specified by <i>Cset</i> and while the number of characters is less than or equal to <i>Count</i>. The range is collapsed to an insertion point when a non-matching character is found.
@@ -408,7 +407,7 @@ Starts at a specified end of a range and searches while the characters belong to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-paste">Paste</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-paste">Paste</a>
 </td>
 <td align="left" width="63%">
 Pastes text from a specified data object. 
@@ -417,7 +416,7 @@ Pastes text from a specified data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-scrollintoview">ScrollIntoView</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-scrollintoview">ScrollIntoView</a>
 </td>
 <td align="left" width="63%">
 Scrolls the specified range into view. 
@@ -426,7 +425,7 @@ Scrolls the specified range into view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-select">Select</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-select">Select</a>
 </td>
 <td align="left" width="63%">
 Sets the start and end positions, and story values of the active selection, to those of this range. 
@@ -435,7 +434,7 @@ Sets the start and end positions, and story values of the active selection, to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setchar">SetChar</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setchar">SetChar</a>
 </td>
 <td align="left" width="63%">
 Sets the character at the starting position of the range.
@@ -444,7 +443,7 @@ Sets the character at the starting position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
 </td>
 <td align="left" width="63%">
 Sets the end position of the range.
@@ -453,16 +452,16 @@ Sets the end position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
 </td>
 <td align="left" width="63%">
-Sets this range's character attributes to those of the specified <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
+Sets this range's character attributes to those of the specified <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setformattedtext">SetFormattedText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setformattedtext">SetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Sets the formatted text of this range text to the formatted text of the specified range.
@@ -471,7 +470,7 @@ Sets the formatted text of this range text to the formatted text of the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setindex">SetIndex</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setindex">SetIndex</a>
 </td>
 <td align="left" width="63%">
 Changes this range to the specified unit of the story. 
@@ -480,16 +479,16 @@ Changes this range to the specified unit of the story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setpara">SetPara</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setpara">SetPara</a>
 </td>
 <td align="left" width="63%">
-Sets the paragraph attributes of this range to those of the specified <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
+Sets the paragraph attributes of this range to those of the specified <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
 </td>
 <td align="left" width="63%">
 Changes the range based on a specified point at or up through (depending on <i>Extend</i>) the point (<i>x</i>, <i>y</i>) aligned according to <i>Type</i>. 
@@ -498,7 +497,7 @@ Changes the range based on a specified point at or up through (depending on <i>E
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
 </td>
 <td align="left" width="63%">
 Adjusts the range endpoints to the specified values. 
@@ -507,7 +506,7 @@ Adjusts the range endpoints to the specified values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setstart">SetStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setstart">SetStart</a>
 </td>
 <td align="left" width="63%">
 Sets the character  position for the start of this range.
@@ -516,7 +515,7 @@ Sets the character  position for the start of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in this range.
@@ -525,21 +524,18 @@ Sets the text in this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
 </td>
 <td align="left" width="63%">
 Moves the range ends to the start of the first overlapping <i>Unit</i> in the range. 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-Multiple text ranges can be active and work cooperatively on the same story and evolve with the story. For example, if one text range deletes specified text before another text range, the latter tracks the change. In this sense, text ranges are similar to Microsoft Word bookmarks, which also track editing changes. However, bookmarks cannot edit text, while text ranges can. In addition, ranges let you manipulate text without changing the selection or Clipboard, both of which are valuable to end users. The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> interface inherits from <b>ITextRange</b> and adds some UI-oriented methods and properties as described in the section on <b>ITextSelection</b>.
+Multiple text ranges can be active and work cooperatively on the same story and evolve with the story. For example, if one text range deletes specified text before another text range, the latter tracks the change. In this sense, text ranges are similar to Microsoft Word bookmarks, which also track editing changes. However, bookmarks cannot edit text, while text ranges can. In addition, ranges let you manipulate text without changing the selection or Clipboard, both of which are valuable to end users. The <a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> interface inherits from <b>ITextRange</b> and adds some UI-oriented methods and properties as described in the section on <b>ITextSelection</b>.
 
 You can look at a text range using methods based on character positions. Specifically, a text range is characterized by:
 
@@ -554,7 +550,7 @@ In the following figure, character positions are represented by the lines separa
 <img alt="Diagram of a 30-character text string, with two of the five words shaded" src="./images/textpos1.png"/>
 The <i>length</i> of a range is given by <i>cpLim</i> - <i>cpFirst</i> or equivalently by End - Start. A range with zero length is called a <i>degenerate</i> or <i>empty</i> range and has equal <i>cp</i>* values, that is, <i>cpFirst</i> = <i>cpLim</i>. An example of a degenerate range is the current insertion point. A non-null selection is an example of a nondegenerate range.
 
-Suppose that the range from 5 to 7 indicated by shaded cells in the preceding figure is told to delete its text (see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>), thereby turning itself into an insertion point. The range from 25 to 29 would automatically track its contents, namely the word text. The following figure shows the result.
+Suppose that the range from 5 to 7 indicated by shaded cells in the preceding figure is told to delete its text (see <a href="/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>), thereby turning itself into an insertion point. The range from 25 to 29 would automatically track its contents, namely the word text. The following figure shows the result.
 
 <img alt="Diagram of a 28-character text string, with one of the four words shaded" src="./images/textpos2.png"/>
 In this figure, the range for text now has been <i>automatically</i> adjusted to have <i>cpFirst</i> = 23 and <i>cpLim</i> = 27. The owner of the range does not have to worry about updating the range character position values in the face of editing.
@@ -565,7 +561,7 @@ The names of the move methods indicate which end to move, but note that if any m
 
 or equivalently for a range <i>r</i>, 0 &lt;= <i>r</i>.Start &lt;= <i>r</i>.End &lt;= <i>r</i>.StoryLength, which is what you would expect from the names of these quantities.
 
-Another important feature is that all stories contain an undeletable final CR (0xD) character at the end. So even an empty story has a single character, namely the final CR. A range can select this character, but cannot become an insertion point beyond it. To see how this works, try selecting the final CR in a Word document and then press the RIGHT ARROW key to collapse it. The directory tree will collapse before the final CR, but the CR cannot be deleted. The Text Object Model (TOM) functions the same way. So, if <i>r</i>.Start &lt;= <i>r</i>.End, then <i>r</i>.End &lt;= (<i>r</i>.StoryLength – 1). For a discussion about deleting a CR, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>.
+Another important feature is that all stories contain an undeletable final CR (0xD) character at the end. So even an empty story has a single character, namely the final CR. A range can select this character, but cannot become an insertion point beyond it. To see how this works, try selecting the final CR in a Word document and then press the RIGHT ARROW key to collapse it. The directory tree will collapse before the final CR, but the CR cannot be deleted. The Text Object Model (TOM) functions the same way. So, if <i>r</i>.Start &lt;= <i>r</i>.End, then <i>r</i>.End &lt;= (<i>r</i>.StoryLength – 1). For a discussion about deleting a CR, see <a href="/windows/desktop/api/tom/nf-tom-itextrange-delete">Delete</a>.
 
 Some methods depend on a <i>Unit</i> argument, which can take on the predefined values listed in the following table.
 
@@ -670,44 +666,34 @@ The tomSentence constant describes a string of text that ends with a period, que
 The tomParagraph constant is a string of text terminated by an end-of-paragraph mark (CRLF, CR, VT (for SHIFT+ENTER), LF, FF, or 0x2029). TOM engines always have an undeletable end-of-paragraph mark at the end of a story. Thus, all TOM stories automatically have at least one tomWord, one tomSentence, and one tomParagraph.
 
 <h3><a id="tomLine"></a><a id="tomline"></a><a id="TOMLINE"></a>tomLine</h3>
-The tomLine constant corresponds to one line of text on a display, provided that a display is associated with the range. If no display is associated with a range, tomLine is treated as tomParagraph. A selection automatically has a display and a range that is a duplicate (see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>). Other ranges may not have a display, depending on the TOM engine and context.
+The tomLine constant corresponds to one line of text on a display, provided that a display is associated with the range. If no display is associated with a range, tomLine is treated as tomParagraph. A selection automatically has a display and a range that is a duplicate (see <a href="/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>). Other ranges may not have a display, depending on the TOM engine and context.
 
-Methods that move one or both ends in terms of <i>Unit</i>, such as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>, depend on the signed <i>Count</i> argument. Except for the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> geometrical movement commands, if <i>Count</i> is greater than zero, the ends to be moved are moved forward (toward the end of the story), and if <i>Count</i> is less than zero, the ends are moved backward (toward the beginning). The default value of <i>Count</i> for these <b>Move</b> methods is 1. These methods attempt to move <i>Count Units</i>, but movement is never beyond the ends of the story.
+Methods that move one or both ends in terms of <i>Unit</i>, such as <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>, and <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>, depend on the signed <i>Count</i> argument. Except for the <a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> geometrical movement commands, if <i>Count</i> is greater than zero, the ends to be moved are moved forward (toward the end of the story), and if <i>Count</i> is less than zero, the ends are moved backward (toward the beginning). The default value of <i>Count</i> for these <b>Move</b> methods is 1. These methods attempt to move <i>Count Units</i>, but movement is never beyond the ends of the story.
 
-Methods that move one or both ends by matching character strings or string patterns, such as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>, can move up to a maximum number of characters given by the signed <i>Count</i> argument. If <i>Count</i> is greater than zero, the ends to be moved are moved forward, and if <i>Count</i> is less than zero, the ends are moved backward. Two special <i>Count</i> values, tomForward and tomBackward, are defined. These values are guaranteed to reach the end and the start of the story, respectively. The default value of <i>Count</i> is tomForward.
+Methods that move one or both ends by matching character strings or string patterns, such as <a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>, and <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>, can move up to a maximum number of characters given by the signed <i>Count</i> argument. If <i>Count</i> is greater than zero, the ends to be moved are moved forward, and if <i>Count</i> is less than zero, the ends are moved backward. Two special <i>Count</i> values, tomForward and tomBackward, are defined. These values are guaranteed to reach the end and the start of the story, respectively. The default value of <i>Count</i> is tomForward.
 
-In <b>Move</b>* methods that turn a nondegenerate range into a degenerate one, such as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>, <i>cpFirst</i> is changed if <i>Count</i> is negative and <i>cpLim</i> is changed if <i>Count</i> is positive. After this movement, the other end of the range is also moved to the new location. See the individual methods for more specific <i>Count</i> information. For nondegenerate ranges, the methods <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a> move either the starting position (Start) or the ending position (End).
+In <b>Move</b>* methods that turn a nondegenerate range into a degenerate one, such as <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>, and <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>, <i>cpFirst</i> is changed if <i>Count</i> is negative and <i>cpLim</i> is changed if <i>Count</i> is positive. After this movement, the other end of the range is also moved to the new location. See the individual methods for more specific <i>Count</i> information. For nondegenerate ranges, the methods <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestart">MoveStart</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartwhile">MoveStartWhile</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveendwhile">MoveEndWhile</a>, <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a> move either the starting position (Start) or the ending position (End).
 
-To select a unit that corresponds to a contiguous range, such as a tomWord, tomSentence, and tomParagraph, use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a> method. To select a unit that corresponds to a noncontiguous range, such as tomObject, use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> method, since the next object may occur after substantial intermediate text, if at all. To select a tomCell unit, the range must be inside a table.
+To select a unit that corresponds to a contiguous range, such as a tomWord, tomSentence, and tomParagraph, use the <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveend">MoveEnd</a> method. To select a unit that corresponds to a noncontiguous range, such as tomObject, use the <a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> method, since the next object may occur after substantial intermediate text, if at all. To select a tomCell unit, the range must be inside a table.
 
 Examples and further explanation of the <i>Count</i> and <i>Unit</i> arguments follow. Note that TOM engines may not support all of the units in the table above. For example, rich edit controls do not offer the concepts of sections, but rather return E_NOTIMPL when given tomSection. However if a TOM engine does support a unit, it has the index value given in the table.
 
 Applications typically do not implement the <b>ITextRange</b> interface. Microsoft text solutions, such as rich edit controls, implement <b>ITextRange</b> as part of their TOM implementation.
 
-Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-range">Range</a> method.
-
-
-
+Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="/windows/desktop/api/tom/nf-tom-itextdocument-range">Range</a> method.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>

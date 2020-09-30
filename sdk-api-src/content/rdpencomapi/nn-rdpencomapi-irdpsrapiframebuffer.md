@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
-f1_keywords:
-- rdpencomapi/IRDPSRAPIFrameBuffer
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIFrameBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIFrameBuffer
+ - rdpencomapi/IRDPSRAPIFrameBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIFrameBuffer
 ---
 
 # IRDPSRAPIFrameBuffer interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides data about the frame buffer size and format and allows the contents to be retrieved.
 
-Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a> interface. 
-
+Applications can get a pointer to this interface from the <b>FrameBuffer</b> property of the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +72,7 @@ The <b>IRDPSRAPIFrameBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-getframebufferbits">GetFrameBufferBits</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-getframebufferbits">GetFrameBufferBits</a>
 </td>
 <td align="left" width="63%">
 Gets a specified area of the frame buffer.
@@ -91,7 +90,7 @@ Gets a specified area of the frame buffer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_bpp">Bpp</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_bpp">Bpp</a>
 
 
 </td>
@@ -107,7 +106,7 @@ Bits per pixel.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_height">Height</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_height">Height</a>
 
 
 </td>
@@ -123,7 +122,7 @@ The height of the frame in pixels.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_width">Width</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiframebuffer-get_width">Width</a>
 
 
 </td>
@@ -136,5 +135,4 @@ The width of the frame in pixels.
 
 </td>
 </tr>
-</table> 
-
+</table>

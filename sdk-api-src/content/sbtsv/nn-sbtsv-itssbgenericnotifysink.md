@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 03a895ef-6c67-4537-bc1c-838b65ae3487
 ms.date: 12/05/2018
 ms.keywords: ITsSbGenericNotifySink, ITsSbGenericNotifySink interface [Remote Desktop Services], ITsSbGenericNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbGenericNotifySink, termserv.itssbgenericnotifysink
-f1_keywords:
-- sbtsv/ITsSbGenericNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbGenericNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbGenericNotifySink
+ - sbtsv/ITsSbGenericNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbGenericNotifySink
 ---
 
 # ITsSbGenericNotifySink interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGenericNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGenericNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITsSbGenericNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-getwaittimeout">GetWaitTimeout</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-getwaittimeout">GetWaitTimeout</a>
 </td>
 <td align="left" width="63%">
 Retrieves the wait timeout.
@@ -79,12 +78,11 @@ Retrieves the wait timeout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-oncompleted">OnCompleted</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbgenericnotifysink-oncompleted">OnCompleted</a>
 </td>
 <td align="left" width="63%">
 Reports completion to RD Connection Broker. 
 
 </td>
 </tr>
-</table> 
-
+</table>

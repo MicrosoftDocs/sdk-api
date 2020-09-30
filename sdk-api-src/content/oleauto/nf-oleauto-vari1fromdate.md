@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 248dff64-8847-40ef-a081-7653e459d3d1
 ms.date: 12/05/2018
 ms.keywords: VarI1FromDate, VarI1FromDate function [Automation], _oa96_VarI1FromDate, automat.vari1fromdate, oleauto/VarI1FromDate
-f1_keywords:
-- oleauto/VarI1FromDate
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI1FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI1FromDate
+ - oleauto/VarI1FromDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI1FromDate
 ---
 
 # VarI1FromDate function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a date value to a char value.
 
-
 ## -parameters
-
-
-
 
 ### -param dateIn [in]
 
 The value to convert.
 
-
 ### -param pcOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

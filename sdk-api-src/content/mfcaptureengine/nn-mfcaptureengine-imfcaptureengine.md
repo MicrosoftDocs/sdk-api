@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4A2A0536-4255-40AB-BCAB-228B09343583
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IMFCaptureEngine interface [Media Foundation],described, mf.imfcaptureengine, mfcaptureengine/IMFCaptureEngine
-f1_keywords:
-- mfcaptureengine/IMFCaptureEngine
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureEngine
+ - mfcaptureengine/IMFCaptureEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureEngine
 ---
 
 # IMFCaptureEngine interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Controls one or more capture devices. The capture engine implements this interface. To get a pointer to this interface, call either <a href="https://docs.microsoft.com/windows/desktop/medfound/mfcreatecaptureengine">MFCreateCaptureEngine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineclassfactory-createinstance">IMFCaptureEngineClassFactory::CreateInstance</a>.
-
+Controls one or more capture devices. The capture engine implements this interface. To get a pointer to this interface, call either <a href="/windows/desktop/medfound/mfcreatecaptureengine">MFCreateCaptureEngine</a> or <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineclassfactory-createinstance">IMFCaptureEngineClassFactory::CreateInstance</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMFCaptureEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">GetSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">GetSink</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to one of the capture sink objects.
@@ -79,7 +78,7 @@ Gets a pointer to one of the capture sink objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsource">GetSource</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the capture source object.
@@ -88,7 +87,7 @@ Gets a pointer to the capture source object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize">Initialize</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the capture engine.
@@ -97,7 +96,7 @@ Initializes the capture engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">StartPreview</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">StartPreview</a>
 </td>
 <td align="left" width="63%">
 Starts preview.
@@ -106,7 +105,7 @@ Starts preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">StartRecord</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">StartRecord</a>
 </td>
 <td align="left" width="63%">
 Starts recording audio and/or video to a file.
@@ -115,7 +114,7 @@ Starts recording audio and/or video to a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoppreview">StopPreview</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoppreview">StopPreview</a>
 </td>
 <td align="left" width="63%">
 Stops preview.
@@ -124,7 +123,7 @@ Stops preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoprecord">StopRecord</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoprecord">StopRecord</a>
 </td>
 <td align="left" width="63%">
 Stops recording.
@@ -133,32 +132,19 @@ Stops recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-takephoto">TakePhoto</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-takephoto">TakePhoto</a>
 </td>
 <td align="left" width="63%">
 Captures a still image from the video stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IMFCaptureEngine</b> only supports one pass CBR encoding.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

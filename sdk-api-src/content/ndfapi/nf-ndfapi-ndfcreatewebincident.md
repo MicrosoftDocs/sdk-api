@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 28ca2949-6867-4c9a-aebc-bf2a57627c04
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWebIncident, NdfCreateWebIncident function [NDF], ndf.ndfcreatewebincident, ndfapi/NdfCreateWebIncident
-f1_keywords:
-- ndfapi/NdfCreateWebIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateWebIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateWebIncident
+ - ndfapi/NdfCreateWebIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateWebIncident
 ---
 
 # NdfCreateWebIncident function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCreateWebIncident</b> function diagnoses web connectivity problems concerning a specific URL.
 
-
 ## -parameters
-
-
-
 
 ### -param url [in]
 
@@ -64,17 +60,13 @@ Type: <b>LPCWSTR</b>
 
 The URL with which there is a connectivity issue.
 
-
 ### -param handle [out]
 
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -130,7 +122,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

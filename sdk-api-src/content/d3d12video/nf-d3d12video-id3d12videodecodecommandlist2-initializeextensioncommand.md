@@ -4,7 +4,7 @@ title: ID3D12VideoDecodeCommandList2::InitializeExtensionCommand
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Records a command to initializes or re-initializes a video extension command into a video decode command list. 
+description: Records a command to initializes or re-initializes a video extension command into a video decode command list.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoDecodeCommandList2::InitializeExtensionCommand
 f1_keywords:
+ - ID3D12VideoDecodeCommandList2::InitializeExtensionCommand
  - d3d12video/ID3D12VideoDecodeCommandList2::InitializeExtensionCommand
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Records a command to initializes or re-initializes a video extension command into a video decode command list. 
+Records a command to initializes or re-initializes a video extension command into a video decode command list.
 
 ## -parameters
 
@@ -52,7 +53,6 @@ Pointer to an [ID3D12VideoExtensionCommand](nn-d3d12video-id3d12videoextensionco
 ### -param pInitializationParameters
 
 A pointer to the creation parameters structure, which is defined by the command.  The parameters structure must match the parameters enumerated by a call to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) with the feature value of [D3D12_FEATURE_VIDEO_EXTENSION_COMMAND_PARAMETERS](ne-d3d12video-d3d12_feature_video.md) and a parameter stage value of [D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_INITIALIZATION](ne-d3d12video-d3d12_video_extension_command_parameter_stage.md).
-
 
 ### -param InitializationParametersSizeInBytes
 

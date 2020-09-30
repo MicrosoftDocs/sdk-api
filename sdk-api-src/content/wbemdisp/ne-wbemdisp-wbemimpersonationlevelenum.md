@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 4a6d92a6-82d1-4426-8175-89cf9495c448
 ms.date: 12/05/2018
 ms.keywords: WbemImpersonationLevelEnum, WbemImpersonationLevelEnum enumeration [Windows Management Instrumentation], _hmm_wbemimpersonationlevelenum, wbemImpersonationLevelAnonymous, wbemImpersonationLevelDelegate, wbemImpersonationLevelIdentify, wbemImpersonationLevelImpersonate, wbemdisp/WbemImpersonationLevelEnum, wbemdisp/wbemImpersonationLevelAnonymous, wbemdisp/wbemImpersonationLevelDelegate, wbemdisp/wbemImpersonationLevelIdentify, wbemdisp/wbemImpersonationLevelImpersonate, wmi.wbemimpersonationlevelenum
-f1_keywords:
-- wbemdisp/WbemImpersonationLevelEnum
-dev_langs:
-- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wbemdisp.h
-api_name:
-- WbemImpersonationLevelEnum
 targetos: Windows
 req.typenames: WbemImpersonationLevelEnum
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WbemImpersonationLevelEnum
+ - wbemdisp/WbemImpersonationLevelEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wbemdisp.h
+api_name:
+ - WbemImpersonationLevelEnum
 ---
 
 # WbemImpersonationLevelEnum enumeration
@@ -49,10 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 WbemImpersonationLevelEnum constants define the security impersonation levels. These constants are used with 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>.
+<a href="/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library.
 
@@ -94,15 +94,12 @@ The following WSH script sets the impersonation level. To run the script, save t
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 </li>
 </ul>
 
 ## -enum-fields
-
-
-
 
 ### -field wbemImpersonationLevelAnonymous
 
@@ -110,13 +107,11 @@ Short name: Anonymous
 
 Hides the credentials of the caller. Calls to WMI may fail with this impersonation level.
 
-
 ### -field wbemImpersonationLevelIdentify
 
 Short name: Identify
 
 Allows objects to query the credentials of the caller. Calls to WMI may fail with this impersonation level.
-
 
 ### -field wbemImpersonationLevelImpersonate
 
@@ -124,30 +119,21 @@ Short name: Impersonate
 
 Allows objects to use the credentials of the caller. This is the recommended impersonation level for Scripting API for WMI calls.
 
-
 ### -field wbemImpersonationLevelDelegate
 
 Short name: Delegate
 
 Allows objects to permit other objects to use the credentials of the caller. This impersonation will work with Scripting API for WMI calls but may constitute an unnecessary security risk.
 
-
 ## -see-also
 
+<a href="/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API
     Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-client-application-process-security">Setting Client_Application_Process Security</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/setting-client-application-process-security">Setting Client_Application_Process Security</a>

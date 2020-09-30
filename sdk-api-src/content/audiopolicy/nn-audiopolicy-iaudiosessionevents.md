@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
-f1_keywords:
-- audiopolicy/IAudioSessionEvents
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionEvents
+ - audiopolicy/IAudioSessionEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionEvents
 ---
 
 # IAudioSessionEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IAudioSessionEvents</b> interface provides notifications of session-related events such as changes in the volume level, display name, and session state. Unlike the other interfaces in this section, which are implemented by the WASAPI system component, a WASAPI client implements the <b>IAudioSessionEvents</b> interface. To receive event notifications, the client passes a pointer to its <b>IAudioSessionEvents</b> interface to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification">IAudioSessionControl::RegisterAudioSessionNotification</a> method.
+The <b>IAudioSessionEvents</b> interface provides notifications of session-related events such as changes in the volume level, display name, and session state. Unlike the other interfaces in this section, which are implemented by the WASAPI system component, a WASAPI client implements the <b>IAudioSessionEvents</b> interface. To receive event notifications, the client passes a pointer to its <b>IAudioSessionEvents</b> interface to the <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification">IAudioSessionControl::RegisterAudioSessionNotification</a> method.
 
 After registering its <b>IAudioClientSessionEvents</b> interface, the client receives event notifications in the form of callbacks through the methods in the interface.
 
@@ -59,17 +58,14 @@ In implementing the <b>IAudioSessionEvents</b> interface, the client should obse
 
 <ul>
 <li>The methods in the interface must be nonblocking. The client should never wait on a synchronization object during an event callback.</li>
-<li>The client should never call the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification">IAudioSessionControl::UnregisterAudioSessionNotification</a> method during an event callback.</li>
+<li>The client should never call the <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification">IAudioSessionControl::UnregisterAudioSessionNotification</a> method during an event callback.</li>
 <li>The client should never release the final reference on a WASAPI object during an event callback.</li>
 </ul>
-For a code example that implements an <b>IAudioSessionEvents</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>. For a code example that registers a client's <b>IAudioSessionEvents</b> interface to receive notifications, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
-
-
-
+For a code example that implements an <b>IAudioSessionEvents</b> interface, see <a href="/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>. For a code example that registers a client's <b>IAudioSessionEvents</b> interface to receive notifications, see <a href="/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +80,7 @@ The <b>IAudioSessionEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged">OnChannelVolumeChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged">OnChannelVolumeChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the volume level of an audio channel in the session submix has changed.
@@ -93,7 +89,7 @@ Notifies the client that the volume level of an audio channel in the session sub
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ondisplaynamechanged">OnDisplayNameChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ondisplaynamechanged">OnDisplayNameChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the display name for the session has changed.
@@ -102,7 +98,7 @@ Notifies the client that the display name for the session has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ongroupingparamchanged">OnGroupingParamChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-ongroupingparamchanged">OnGroupingParamChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the grouping parameter for the session has changed.
@@ -111,7 +107,7 @@ Notifies the client that the grouping parameter for the session has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-oniconpathchanged">OnIconPathChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-oniconpathchanged">OnIconPathChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the display icon for the session has changed.
@@ -120,7 +116,7 @@ Notifies the client that the display icon for the session has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected">OnSessionDisconnected</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected">OnSessionDisconnected</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the session has been disconnected.
@@ -129,7 +125,7 @@ Notifies the client that the session has been disconnected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged">OnSimpleVolumeChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged">OnSimpleVolumeChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the volume level or muting state of the session has changed.
@@ -138,35 +134,27 @@ Notifies the client that the volume level or muting state of the session has cha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged">OnStateChanged</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged">OnStateChanged</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the stream-activity state of the session has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification">IAudioSessionControl::RegisterAudioSessionNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification">IAudioSessionControl::RegisterAudioSessionNotification</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification">IAudioSessionControl::UnregisterAudioSessionNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification">IAudioSessionControl::UnregisterAudioSessionNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
-
+<a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a>

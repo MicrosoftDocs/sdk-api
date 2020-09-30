@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: b492e93c-73f2-4d68-ae1a-c82e9ec36a72
 ms.date: 12/05/2018
 ms.keywords: IASSEMBLYCACHE_UNINSTALL_DISPOSITION_ALREADY_UNINSTALLED, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_DELETE_PENDING, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_HAS_INSTALL_REFERENCES, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_STILL_IN_USE, IASSEMBLYCACHE_UNINSTALL_DISPOSITION_UNINSTALLED, IAssemblyCache interface [Side-by-side Assemblies],UninstallAssembly method, IAssemblyCache.UninstallAssembly, IAssemblyCache::UninstallAssembly, UninstallAssembly, UninstallAssembly method [Side-by-side Assemblies], UninstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_uninstallassembly, winsxs/IAssemblyCache::UninstallAssembly
-f1_keywords:
-- winsxs/IAssemblyCache.UninstallAssembly
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyCache.UninstallAssembly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyCache::UninstallAssembly
+ - winsxs/IAssemblyCache::UninstallAssembly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyCache.UninstallAssembly
 ---
 
 # IAssemblyCache::UninstallAssembly
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>UnistallAssembly</b> method removes an application reference to an assembly from the side-by-side store. If there are no other references to the assembly by other applications, the assembly becomes unusable. Windows may remove the assembly's files from the side-by-side store and reclaim disk space at a later time. 
-
+The <b>UnistallAssembly</b> method removes an application reference to an assembly from the side-by-side store. If there are no other references to the assembly by other applications, the assembly becomes unusable. Windows may remove the assembly's files from the side-by-side store and reclaim disk space at a later time.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 This parameter must be 0.
 
-
 ### -param pszAssemblyName [in]
 
 A pointer to a null-terminated string value that contains the fully-specified strong name of the assembly. If the full name is not provided, the result is undefined.
-
 
 ### -param pRefData [in]
 
@@ -150,12 +144,8 @@ The reference specified in <i>pRefData</i> does not exist in the side-by-side st
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -187,18 +177,7 @@ The operation succeeded and the reference to the assembly was removed. The assem
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>

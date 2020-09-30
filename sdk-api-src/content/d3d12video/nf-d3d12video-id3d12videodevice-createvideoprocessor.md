@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoDevice::CreateVideoProcessor","CreateVideoProc
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoDevice::CreateVideoProcessor
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoDevice::CreateVideoProcessor, CreateVideoProcessor, ID3D12VideoDevice.CreateVideoProcessor, ID3D12VideoDevice::CreateVideoProcessor, ID3D12VideoDevice.CreateVideoProcessor
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoDevice::CreateVideoProcessor
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoDevice::CreateVideoProcessor
+ - d3d12video/ID3D12VideoDevice::CreateVideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoDevice::CreateVideoProcessor
 ---
 
 # ID3D12VideoDevice::CreateVideoProcessor
@@ -74,6 +75,7 @@ The globally unique identifier (GUID) for the video processor interface.
 A pointer to a memory block that receives a pointer to the [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface
 
 ## -returns
+
 This method returns HRESULT.
 
 ## -remarks

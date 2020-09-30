@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 4fa1b8a6-8172-4047-9ee2-fe00f0924487
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
-f1_keywords:
-- winddi/FLOATOBJ_SetLong
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- FLOATOBJ_SetLong
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FLOATOBJ_SetLong
+ - winddi/FLOATOBJ_SetLong
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - FLOATOBJ_SetLong
 ---
 
 # FLOATOBJ_SetLong function
@@ -49,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
-
+The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
 
 ## -parameters
-
-
-
 
 ### -param arg1 [out]
 
 Pointer to the FLOATOBJ that will receive the value of <i>l</i>.
 
-
 ### -param arg2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the assignment.
 
-
 ## -remarks
-
-
 
 The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floating-point arithmetic. An NT-based operating system does not support kernel-mode floating-point operations on some systems.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

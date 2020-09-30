@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 29b3e552-b717-4d10-9fa4-1386da3c5460
 ms.date: 12/05/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], IEventSystem interface [COM+],described, _cos_IEventSystem, cos.ieventsystem, eventsys/IEventSystem
-f1_keywords:
-- eventsys/IEventSystem
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSystem
+ - eventsys/IEventSystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSystem
 ---
 
 # IEventSystem interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the event data store.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSystem</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventSystem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSystem</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventSystem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IEventSystem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">Query</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of subscription or event objects from the event data store.
@@ -80,7 +79,7 @@ Retrieves a collection of subscription or event objects from the event data stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-querys">QueryS</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-querys">QueryS</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of subscription or event objects from the event data store.
@@ -89,7 +88,7 @@ Retrieves a collection of subscription or event objects from the event data stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-remove">Remove</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes one or more subscription or event objects from the event data store.
@@ -98,7 +97,7 @@ Removes one or more subscription or event objects from the event data store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-removes">RemoveS</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-removes">RemoveS</a>
 </td>
 <td align="left" width="63%">
 Removes one or more subscription or event objects from the event data store.
@@ -107,7 +106,7 @@ Removes one or more subscription or event objects from the event data store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-store">Store</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-store">Store</a>
 </td>
 <td align="left" width="63%">
 Creates or modifies an event or subscription object within the event system.
@@ -125,7 +124,7 @@ Creates or modifies an event or subscription object within the event system.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-get_eventobjectchangeeventclassid">EventObjectChangeEventClassID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-get_eventobjectchangeeventclassid">EventObjectChangeEventClassID</a>
 
 
 </td>
@@ -138,5 +137,4 @@ The CLSID of an event class object that notifies the caller of changes to the ev
 
 </td>
 </tr>
-</table> 
-
+</table>

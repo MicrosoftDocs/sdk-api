@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: b8b956a7-98dd-41b9-bd1e-2391985613c1
 ms.date: 05/13/2019
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics::BeginContainer, _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
-f1_keywords:
-- gdiplusgraphics/Graphics.BeginContainer
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.BeginContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::BeginContainer
+ - gdiplusgraphics/Graphics::BeginContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.BeginContainer
 ---
 
 # Graphics::BeginContainer
+
 
 ## -description
 
@@ -100,7 +102,7 @@ Just as an **Graphics::EndContainer** call is paired with a **Graphics::BeginCon
 When you call **Graphics::EndContainer**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::BeginContainer** are removed from the stack.
 Likewise, when you call **Graphics::Restore**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::Save** are removed from the stack.
 
-For more information about graphics containers, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-nested-graphics-containers-use">Nested Graphics Containers</a>.
+For more information about graphics containers, see <a href="/windows/desktop/gdiplus/-gdiplus-nested-graphics-containers-use">Nested Graphics Containers</a>.
 
 #### Examples
 
@@ -136,14 +138,14 @@ VOID Example_BeginContainer3(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-graphics-containers-about">Graphics Containers</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-graphics-containers-about">Graphics Containers</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>

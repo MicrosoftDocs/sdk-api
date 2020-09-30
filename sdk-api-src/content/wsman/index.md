@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winrm
+f1_keywords:
+ - wsman
+ - wsman/wsman
 ---
 
 # Wsman.h header
 
 
 ## -description
-
 
 This header is used by Windows Remote Management. For more information, see:
 

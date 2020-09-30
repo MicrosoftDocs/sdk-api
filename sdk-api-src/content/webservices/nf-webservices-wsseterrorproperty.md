@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 5193eaf4-29f7-4e97-a3b0-97441b26399c
 ms.date: 12/05/2018
 ms.keywords: WsSetErrorProperty, WsSetErrorProperty function [Web Services for Windows], webservices/WsSetErrorProperty, wsw.wsseterrorproperty
-f1_keywords:
-- webservices/WsSetErrorProperty
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetErrorProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetErrorProperty
+ - webservices/WsSetErrorProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetErrorProperty
 ---
 
 # WsSetErrorProperty function
@@ -49,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object property. 
-
+Sets an <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object property.
 
 ## -parameters
 
-
-
-
 ### -param error [in]
 
-A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
-                
-
+A pointer to the <b>Error</b> object in which to set the property.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
 
 ### -param id [in]
 
 Identifier of the property to set.
-                
-
 
 ### -param value
 
 A pointer to the property value to set.
                     The pointer must have an alignment compatible with the type
                     of the property.
-                
-
 
 ### -param valueSize [in]
 
 The size in bytes of the property value.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -131,7 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

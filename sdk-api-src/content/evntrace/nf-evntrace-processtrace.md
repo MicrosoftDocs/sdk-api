@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: aea25a95-f435-4068-9b15-7473f31ebf16
 ms.date: 12/05/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
-f1_keywords:
-- evntrace/ProcessTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- ProcessTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ProcessTrace
+ - evntrace/ProcessTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - ProcessTrace
 ---
 
 # ProcessTrace function
@@ -53,54 +54,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ProcessTrace</b> function delivers events from one or 
    more event tracing sessions to the consumer.
 
-
 ## -parameters
-
-
-
 
 ### -param HandleArray [in]
 
 Pointer to an array of trace handles obtained from earlier calls to the 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function. The number of handles that you can 
+       <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function. The number of handles that you can 
        specify is limited to 64.
 
 The array can contain the handles to multiple log files, but only one real-time trace session.
-
 
 ### -param HandleCount [in]
 
 Number of elements in <i>HandleArray</i>.
 
-
 ### -param StartTime [in]
 
-Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
+Pointer to an optional <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
       specifies the beginning time period for which you want to receive events. The function does not deliver events 
       recorded prior to <i>StartTime</i>.
 
-
 ### -param EndTime [in]
 
-Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
+Pointer to an optional <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
        specifies the ending time period for which you want to receive events. The function does not deliver events 
        recorded after  <i>EndTime</i>.
 
 <b>Windows Server 2003:  </b>This value is ignored for real-time event delivery.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -172,7 +162,7 @@ An exception occurred in one of the callback functions that receives the events.
 </td>
 <td width="60%">
 Indicates the consumer canceled processing by returning <b>FALSE</b> in their 
-        <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> function.
+        <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a> function.
 
 </td>
 </tr>
@@ -201,24 +191,18 @@ The <i>HandleArray</i> parameter contains the handle to more than one real-time
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Consumers call this function.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function prior to 
+You must call the <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function prior to 
     calling <b>ProcessTrace</b>.
 
 The <b>ProcessTrace</b> function delivers the events to the 
-    consumer's  <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback functions.
+    consumer's  <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
+    <a href="/windows/desktop/ETW/eventcallback">EventCallback</a>, and 
+    <a href="/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback functions.
 
 The <b>ProcessTrace</b> function sorts the events 
     chronologically and delivers all events generated between <i>StartTime</i> and 
@@ -228,50 +212,41 @@ The <b>ProcessTrace</b> function sorts the events
     those events.
 
 The <b>ProcessTrace</b> function blocks the thread until it 
-     delivers all events, the <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> 
+     delivers all events, the <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a> 
      function returns <b>FALSE</b>, or you call 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>. If the consumer is consuming events in real 
+     <a href="/windows/desktop/ETW/closetrace">CloseTrace</a>. If the consumer is consuming events in real 
      time, the <b>ProcessTrace</b> function returns after the 
      controller stops the trace session. (Note that there may be a several-second delay before the function 
      returns.)
 
-<b>Windows Server 2003:  </b>You can call <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a> only after 
+<b>Windows Server 2003:  </b>You can call <a href="/windows/desktop/ETW/closetrace">CloseTrace</a> only after 
       <b>ProcessTrace</b> returns.
 
 
 #### Examples
 
 For an example that uses <b>ProcessTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
-     or <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+     <a href="/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
+     or <a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
+<a href="/windows/desktop/ETW/eventcallback">EventCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>
+<a href="/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/settracecallback">SetTraceCallback</a>

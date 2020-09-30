@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 9e5a8f2c-4115-42bd-a541-d0ce75c45b72
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
-f1_keywords:
-- comsvcs/ICrmCompensator
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmCompensator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmCompensator
+ - comsvcs/ICrmCompensator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmCompensator
 ---
 
 # ICrmCompensator interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Delivers unstructured log records to the CRM Compensator when using Microsoft Visual C++.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmCompensator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmCompensator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmCompensator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmCompensator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>ICrmCompensator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-abortrecord">AbortRecord</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-abortrecord">AbortRecord</a>
 </td>
 <td align="left" width="63%">
 Delivers a log record to the CRM Compensator during the abort phase.
@@ -80,7 +78,7 @@ Delivers a log record to the CRM Compensator during the abort phase.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginabort">BeginAbort</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginabort">BeginAbort</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator of the abort phase of the transaction completion and that records are about to be delivered.
@@ -89,7 +87,7 @@ Notifies the CRM Compensator of the abort phase of the transaction completion an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-begincommit">BeginCommit</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-begincommit">BeginCommit</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator of the commit phase of the transaction completion and that records are about to be delivered.
@@ -98,7 +96,7 @@ Notifies the CRM Compensator of the commit phase of the transaction completion a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginprepare">BeginPrepare</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-beginprepare">BeginPrepare</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
@@ -107,7 +105,7 @@ Notifies the CRM Compensator of the prepare phase of the transaction completion 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-commitrecord">CommitRecord</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-commitrecord">CommitRecord</a>
 </td>
 <td align="left" width="63%">
 Delivers a log record in forward order during the commit phase.
@@ -116,7 +114,7 @@ Delivers a log record in forward order during the commit phase.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endabort">EndAbort</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endabort">EndAbort</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator that it has received all the log records available during the abort phase.
@@ -125,7 +123,7 @@ Notifies the CRM Compensator that it has received all the log records available 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endcommit">EndCommit</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endcommit">EndCommit</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
@@ -134,7 +132,7 @@ Notifies the CRM Compensator that it has delivered all the log records available
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endprepare">EndPrepare</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endprepare">EndPrepare</a>
 </td>
 <td align="left" width="63%">
 Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
@@ -144,7 +142,7 @@ Notifies the CRM Compensator that it has had all the log records available durin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-preparerecord">PrepareRecord</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-preparerecord">PrepareRecord</a>
 </td>
 <td align="left" width="63%">
 Delivers a log record in forward order during the prepare phase.
@@ -153,36 +151,23 @@ Delivers a log record in forward order during the prepare phase.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-setlogcontrol">SetLogControl</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-setlogcontrol">SetLogControl</a>
 </td>
 <td align="left" width="63%">
-Delivers an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface to the CRM Compensator so that it can write further log records during transaction completion.
+Delivers an <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface to the CRM Compensator so that it can write further log records during transaction completion.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The CRM clerk determines the CLSID of the CRM Compensator using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">ICrmLogControl::RegisterCompensator</a> method. It next calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> specifying the CLSID of this CRM Compensator, and then it calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for both the <b>ICrmCompensator</b> interface and the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a> interface.
-
-
-
+The CRM clerk determines the CLSID of the CRM Compensator using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">ICrmLogControl::RegisterCompensator</a> method. It next calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> specifying the CLSID of this CRM Compensator, and then it calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for both the <b>ICrmCompensator</b> interface and the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>

@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
 ms.date: 12/05/2018
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
-f1_keywords:
-- winperf/CollectPerformanceData
-dev_langs:
-- c++
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winperf.h
-api_name:
-- CollectPerformanceData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PM_COLLECT_PROC
+ - winperf/PM_COLLECT_PROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winperf.h
+api_name:
+ - CollectPerformanceData
 ---
 
 # PM_COLLECT_PROC callback function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Collects the performance data and returns it to the consumer. Implement and export this function if you are writing a performance DLL to provide performance data. The system calls this function whenever a consumer queries the registry for performance data. 
 
 The <b>CollectPerformanceData</b> function is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param lpValueName
 
-Null-terminated string that contains the query string (for example, "Global" or "238") passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> function. For possible query string values, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data">Using the Registry Functions to Consume Counter Data</a>.
-
+Null-terminated string that contains the query string (for example, "Global" or "238") passed to the <a href="/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> function. For possible query string values, see <a href="/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data">Using the Registry Functions to Consume Counter Data</a>.
 
 ### -param *lppData
-
 
 ### -param lpcbTotalBytes
 
@@ -75,7 +69,6 @@ On input, specifies the size, in bytes, of the <i>pData</i> buffer.
 On output, set <i>pcbData</i> to the size, in bytes, of the data written to the <i>pData</i> buffer. The size must be 8-byte aligned. 
 
 If this function fails, set <i>pcbData</i> to zero.
-
 
 ### -param lpNumObjectTypes
 
@@ -89,14 +82,11 @@ If this function fails, set <i>pObjectsReturned</i> to zero.
 Consumer-allocated buffer that will contain the performance data. 
 
 On output, set <i>pData</i> to one byte past the end of your data. The data must conform to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure.
+<a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure.
 
 If this function fails, leave the <i>pData</i> pointer value unchanged.
 
-
 ## -returns
-
-
 
 Return one of the following return values only.
 
@@ -128,14 +118,8 @@ Return this value in all cases other than the ERROR_MORE_DATA case, even if no d
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the requested objects specified in the <i>pQuery</i> parameter do not correspond to any of the object indexes that your performance DLL supports, leave the <i>pData</i> parameter unchanged, and set the <i>pcbData</i> and <i>pObjectsReturned</i> parameters to zero. This indicates that no data is returned. 
 
@@ -143,7 +127,7 @@ If you support one or more of the queried objects, determine whether the size of
 
 If your data collection is time-consuming, you should respond only to queries for specific objects and Costly queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance.
 
-If the consumer is running on another computer (remotely), then the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>, and <b>CollectPerformanceData</b> functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
+If the consumer is running on another computer (remotely), then the <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, <a href="/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>, and <b>CollectPerformanceData</b> functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
 
 After your function returns successfully, the system can perform some basic tests to ensure the integrity of the data. By default, no tests are performed. If a test fails, the system generates an event log message and the data is discarded to prevent any further problems due to pointers that are not valid. The following registry value controls the test level.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
@@ -203,23 +187,14 @@ The following tests are performed at levels 1 and 2:
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/implementing-collectperformancedata">Implementing CollectPerformanceData</a>.
+For an example, see <a href="/windows/desktop/PerfCtrs/implementing-collectperformancedata">Implementing CollectPerformanceData</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>

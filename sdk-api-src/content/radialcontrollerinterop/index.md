@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: input_radial
 archived: true
+f1_keywords:
+ - radialcontrollerinterop
+ - radialcontrollerinterop/radialcontrollerinterop
 ---
 
 # Radialcontrollerinterop.h header
 
 
 ## -description
-
 
 This header is used by Radial controller input. For more information, see:
 

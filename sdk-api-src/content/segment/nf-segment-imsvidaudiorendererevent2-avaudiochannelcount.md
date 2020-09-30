@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 5cfb27d0-eda9-4fef-9256-636ef0c6ebe8
 ms.date: 12/05/2018
 ms.keywords: AVAudioChannelCount, AVAudioChannelCount method [Microsoft TV Technologies], AVAudioChannelCount method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioChannelCount method, IMSVidAudioRendererEvent2.AVAudioChannelCount, IMSVidAudioRendererEvent2::AVAudioChannelCount, mstv.imsvidaudiorendererevent2_avaudiochannelcount, segment/IMSVidAudioRendererEvent2::AVAudioChannelCount
-f1_keywords:
-- segment/IMSVidAudioRendererEvent2.AVAudioChannelCount
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidAudioRendererEvent2.AVAudioChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidAudioRendererEvent2::AVAudioChannelCount
+ - segment/IMSVidAudioRendererEvent2::AVAudioChannelCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidAudioRendererEvent2.AVAudioChannelCount
 ---
 
 # IMSVidAudioRendererEvent2::AVAudioChannelCount
@@ -49,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> codec  property.
-
+Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> codec  property.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder
-f1_keywords:
-- strmif/IStreamBuilder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IStreamBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBuilder
+ - strmif/IStreamBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IStreamBuilder
 ---
 
 # IStreamBuilder interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IStreamBuilder</code> interface enables an output pin to notify the filter graph manager that the pin itself will build the downstream section of the filter graph. Output pins with special connection needs can implement this interface to override the default pin connection process used by the filter graph manager.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +70,7 @@ The <b>IStreamBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-istreambuilder-backout">Backout</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-backout">Backout</a>
 </td>
 <td align="left" width="63%">
 Undoes steps taken in <b>Render</b>. This includes disconnecting and removing any filters that were added inside <b>Render</b>.
@@ -83,12 +79,11 @@ Undoes steps taken in <b>Render</b>. This includes disconnecting and removing an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">Render</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">Render</a>
 </td>
 <td align="left" width="63%">
 Completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
 
 </td>
 </tr>
-</table> 
-
+</table>

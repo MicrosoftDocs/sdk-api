@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d28c16a8-4a74-40c3-be95-ff7e4b1cdc09
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], IMFMediaKeySessionNotify interface [Media Foundation],described, mf.imfmediakeysessionnotify, mfmediaengine/IMFMediaKeySessionNotify
-f1_keywords:
-- mfmediaengine/IMFMediaKeySessionNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeySessionNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeySessionNotify
+ - mfmediaengine/IMFMediaKeySessionNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeySessionNotify
 ---
 
 # IMFMediaKeySessionNotify interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a mechanism for notifying the app about information regarding the media key session. 
-
+Provides a mechanism for notifying the app about information regarding the media key session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaKeySessionNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaKeySessionNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMFMediaKeySessionNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyadded">KeyAdded</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyadded">KeyAdded</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that the key has been added.  
@@ -79,7 +78,7 @@ Notifies the application that the key has been added.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">KeyError</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">KeyError</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that an error occurred while processing the key.
@@ -88,23 +87,15 @@ Notifies the application that an error occurred while processing the key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keymessage">KeyMessage</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keymessage">KeyMessage</a>
 </td>
 <td align="left" width="63%">
 Passes information to the application so it can initiate a key acquisition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

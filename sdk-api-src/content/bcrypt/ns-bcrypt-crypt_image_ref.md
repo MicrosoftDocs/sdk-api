@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_IMAGE_REF, CRYPT_IMAGE_REF, CRYPT_IMAGE_REF structure [Security], CRYPT_MIN_DEPENDENCIES, CRYPT_PROCESS_ISOLATE, PCRYPT_IMAGE_REF, PCRYPT_IMAGE_REF structure pointer [Security], bcrypt/CRYPT_IMAGE_REF, bcrypt/PCRYPT_IMAGE_REF, security.crypt_image_ref'
-f1_keywords:
-- bcrypt/CRYPT_IMAGE_REF
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- CRYPT_IMAGE_REF
 targetos: Windows
 req.typenames: CRYPT_IMAGE_REF, *PCRYPT_IMAGE_REF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_IMAGE_REF
+ - bcrypt/_CRYPT_IMAGE_REF
+ - PCRYPT_IMAGE_REF
+ - bcrypt/PCRYPT_IMAGE_REF
+ - CRYPT_IMAGE_REF
+ - bcrypt/CRYPT_IMAGE_REF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - CRYPT_IMAGE_REF
 ---
 
 # CRYPT_IMAGE_REF structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_IMAGE_REF</b> structure contains information about a CNG provider module.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszImage
 
 A pointer to a null-terminated Unicode string that contains the name of the provider module.
-
 
 ### -field dwFlags
 
@@ -93,20 +92,11 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptresolveproviders">BCryptResolveProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptresolveproviders">BCryptResolveProviders</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>

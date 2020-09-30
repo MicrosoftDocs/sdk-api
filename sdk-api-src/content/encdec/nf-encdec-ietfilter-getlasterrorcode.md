@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
-f1_keywords:
-- encdec/IETFilter.GetLastErrorCode
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EncDec.h
-api_name:
-- IETFilter.GetLastErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IETFilter::GetLastErrorCode
+ - encdec/IETFilter::GetLastErrorCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EncDec.h
+api_name:
+ - IETFilter.GetLastErrorCode
 ---
 
 # IETFilter::GetLastErrorCode
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -83,18 +75,7 @@ Not implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>

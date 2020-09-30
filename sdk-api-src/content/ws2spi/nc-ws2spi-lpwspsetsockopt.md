@@ -27,39 +27,50 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSETSOCKOPT
+ - LPWSPSETSOCKOPT
+f1_keywords:
+ - LPWSPSETSOCKOPT
+ - ws2spi/LPWSPSETSOCKOPT
 ---
 
 ## -description
+
 The **LPWSPSetSockOpt** function sets a socket option.
 
 ## -parameters
 
 ### -param s [in]
+
 The descriptor that identifies a socket.
 
 ### -param level [in]
+
 The level at which the option is defined; the supported levels include <b><a href="/windows/win32/winsock/sol-socket-socket-options">SOL_SOCKET</a></b>. For more information, see [Winsock Annexes](winsock-annexes.md).
 
 ### -param optname [in]
+
 The socket option for which the value is to be set.
 
 ### -param optval [in]
+
 A pointer to the buffer in which the value for the requested option is supplied.
 
 ### -param optlen [in]
+
 The size, in bytes, of the <i>optval</i> buffer.
 
 ### -param lpErrno [out]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPSetSockOpt** returns zero. Otherwise, a value of **SOCKET_ERROR** is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -166,8 +177,9 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
+
 The **LPWSPSetSockOpt** function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether broadcast messages can be sent on the socket.
 
 There are two types of socket options: Boolean options that enable or disable a feature or behavior, and options that require an integer value or structure. To enable a Boolean option, <i>optval</i> points to a nonzero integer. To disable the option, <i>optval</i> points to an integer equal to zero. The <i>optlen</i> parameter should be equal to sizeof (int) for Boolean options. For other options, <i>optval</i> points to an integer or structure that contains the desired value for the option, and <i>optlen</i> is the length of the integer or structure.
@@ -260,6 +272,7 @@ When a Windows Sockets implementation supports the **SO_RCVBUF** and **SO_SNDBUF
 This object stores the configuration information for the service provider associated with socket <i>s</i>. The exact format of this data structure is service provider specific.
 
 ## -see-also
+
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>
    
 
@@ -272,4 +285,4 @@ This object stores the configuration information for the service provider associ
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-  
+

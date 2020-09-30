@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 55cea655-09ac-410e-b802-f54b797ac609
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],ServiceID property, IUpdateService.ServiceID, IUpdateService.get_ServiceID, IUpdateService::ServiceID, IUpdateService::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateService interface, get_ServiceID, wua.iupdateservice_serviceid, wuapi/IUpdateService::ServiceID, wuapi/IUpdateService::get_ServiceID
-f1_keywords:
-- wuapi/IUpdateService.ServiceID
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.ServiceID
-- IUpdateService.get_ServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_ServiceID
+ - wuapi/IUpdateService::get_ServiceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.ServiceID
+ - IUpdateService.get_ServiceID
 ---
 
 # IUpdateService::get_ServiceID
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ServiceID</b> property retrieves or sets the identifier for a service.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

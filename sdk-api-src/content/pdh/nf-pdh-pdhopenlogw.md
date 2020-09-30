@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: a8457959-af3a-497f-91ca-0876cbb552cc
 ms.date: 12/05/2018
 ms.keywords: PDH_LOG_CREATE_ALWAYS, PDH_LOG_CREATE_NEW, PDH_LOG_OPEN_ALWAYS, PDH_LOG_OPEN_EXISTING, PDH_LOG_OPT_CIRCULAR, PDH_LOG_READ_ACCESS, PDH_LOG_TYPE_BINARY, PDH_LOG_TYPE_CSV, PDH_LOG_TYPE_SQL, PDH_LOG_TYPE_TSV, PDH_LOG_TYPE_UNDEFINED, PDH_LOG_UPDATE_ACCESS, PDH_LOG_USER_STRING, PDH_LOG_WRITE_ACCESS, PdhOpenLog, PdhOpenLog function [Perf], PdhOpenLogA, PdhOpenLogW, _win32_pdhopenlog, base.pdhopenlog, pdh/PdhOpenLog, pdh/PdhOpenLogA, pdh/PdhOpenLogW, perf.pdhopenlog
-f1_keywords:
-- pdh/PdhOpenLog
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhOpenLog
-- PdhOpenLogA
-- PdhOpenLogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhOpenLogW
+ - pdh/PdhOpenLogW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhOpenLog
+ - PdhOpenLogA
+ - PdhOpenLogW
 ---
 
 # PdhOpenLogW function
@@ -51,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the specified log file for reading or writing.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szLogFileName [in]
 
@@ -68,8 +63,7 @@ Opens the specified log file for reading or writing.
 
 
 
-If the <i>lpdwLogType</i> parameter is <b>PDH_LOG_TYPE_SQL</b>, specify the name of the log file in the form, <b>SQL:</b><i>DataSourceName</i><b>!</b><i>LogFileName</i>. 
-
+If the <i>lpdwLogType</i> parameter is <b>PDH_LOG_TYPE_SQL</b>, specify the name of the log file in the form, <b>SQL:</b><i>DataSourceName</i><b>!</b><i>LogFileName</i>.
 
 ### -param dwAccessFlags [in]
 
@@ -178,13 +172,11 @@ Creates a circular log file with the specified name. When the file reaches the v
 </dl>
 </td>
 <td width="60%">
-Used with <b>PDH_LOG_TYPE_TSV</b> to write the user caption or log file description indicated by the <i>szUserString</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a> or <b>PdhOpenLog</b>. The user caption or log file description is written  as the  last column in the first line of the text log.
+Used with <b>PDH_LOG_TYPE_TSV</b> to write the user caption or log file description indicated by the <i>szUserString</i> parameter of <a href="/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a> or <b>PdhOpenLog</b>. The user caption or log file description is written  as the  last column in the first line of the text log.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwLogType [in]
 
@@ -252,19 +244,16 @@ Binary log file format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hQuery [in]
 
 Specify a query handle if you are writing query data to a log file. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle. 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle. 
 
 
 
 
 This parameter is ignored and should be <b>NULL</b> if you are reading from the log file.
-
 
 ### -param dwMaxSize [in]
 
@@ -272,39 +261,27 @@ Maximum size of the log file, in bytes. Specify the maximum size if you want to 
 
 For circular log files, you must specify a value large enough to hold at least one sample.   Sample size depends on data being collected. However, specifying a value of at least one megabyte will cover most samples.
 
-
-
-
 ### -param szUserCaption [in]
 
 <b>Null</b>-terminated string that specifies the user-defined caption of the log file. A log file caption generally describes the contents of the log file. When an existing log file is opened, the value of this parameter is ignored.
-
 
 ### -param phLog [out]
 
 Handle to the opened log file.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. 
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 ## -remarks
 
-
-
 To use this function to write performance data to a log file, you must open a query using 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> and add the desired counters to it, before calling this function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> and add the desired counters to it, before calling this function.
 
 Newer operating systems can read log files that were generated on older operating systems; however, log files that were created on Windows Vista and later operating systems cannot be read on earlier operating systems.
 
@@ -319,7 +296,7 @@ The following rules apply to log files
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
+<a href="/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
 
 <div class="code"></div>
 
@@ -331,23 +308,16 @@ For an example, see
 
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>

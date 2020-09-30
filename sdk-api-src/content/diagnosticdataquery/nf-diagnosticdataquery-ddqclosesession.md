@@ -36,18 +36,24 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqCloseSession
+f1_keywords:
+ - DdqCloseSession
+ - diagnosticdataquery/DdqCloseSession
 ---
 
 ## -description
+
 Closes a Diagnostic Data Query session handle.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the Diagnostic Data Query session.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

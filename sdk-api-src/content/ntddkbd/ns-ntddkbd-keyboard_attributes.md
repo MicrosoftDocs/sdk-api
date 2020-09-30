@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
 ms.date: 08/06/2020
 ms.keywords: '*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES'
-f1_keywords:
-- ntddkbd/KEYBOARD_ATTRIBUTES
-dev_langs:
-- c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -29,22 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddkbd.h
-api_name:
-- KEYBOARD_ATTRIBUTES
 targetos: Windows
 req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KEYBOARD_ATTRIBUTES
+ - ntddkbd/_KEYBOARD_ATTRIBUTES
+ - PKEYBOARD_ATTRIBUTES
+ - ntddkbd/PKEYBOARD_ATTRIBUTES
+ - KEYBOARD_ATTRIBUTES
+ - ntddkbd/KEYBOARD_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddkbd.h
+api_name:
+ - KEYBOARD_ATTRIBUTES
 ---
 
 # KEYBOARD_ATTRIBUTES structure
+
 
 ## -description
 
@@ -103,9 +109,9 @@ Specifies the maximum possible value for the keyboard typematic rate and delay i
 
 This structure is used with a [IOCTL_KEYBOARD_QUERY_ATTRIBUTES IOCTL](ni-ntddkbd-ioctl_keyboard_query_attributes.md) request to return information about the attributes that a keyboard supports.
 
-For more information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see [Keyboard and mouse HID client drivers](https://docs.microsoft.com/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) in our drivers documentation.
+For more information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see [Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) in our drivers documentation.
 
-More details can also be found in the *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in the Windows SDK, the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
+More details can also be found in the *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in the Windows SDK, the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft, and the [Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
 
 ## -see-also
 

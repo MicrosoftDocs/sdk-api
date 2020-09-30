@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
 ms.date: 12/05/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
-f1_keywords:
-- msctf/ITfCategoryMgr.GetGUIDDWORD
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.GetGUIDDWORD
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::GetGUIDDWORD
+ - msctf/ITfCategoryMgr::GetGUIDDWORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.GetGUIDDWORD
 ---
 
 # ITfCategoryMgr::GetGUIDDWORD
+
 
 ## -description
 
@@ -103,7 +105,8 @@ The specified <i>pdw</i> parameter was <b>NULL</b> on input.
 </td>
 </tr>
 </table>
- 
+
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::RegisterGUIDDWORD](nf-msctf-itfcategorymgr-registerguiddword.md), [ITfCategoryMgr::UnregisterGUIDDWORD](nf-msctf-itfcategorymgr-unregisterguiddword.md)
+

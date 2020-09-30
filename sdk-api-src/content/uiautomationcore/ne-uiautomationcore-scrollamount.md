@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 94d84a66-5222-48e4-9675-444eb04558a4
 ms.date: 12/05/2018
 ms.keywords: ScrollAmount, ScrollAmount enumeration [Windows Accessibility], ScrollAmount_LargeDecrement, ScrollAmount_LargeIncrement, ScrollAmount_NoAmount, ScrollAmount_SmallDecrement, ScrollAmount_SmallIncrement, uiauto.uiauto_ScrollAmount, uiauto_ScrollAmount, uiautomationcore/ScrollAmount, uiautomationcore/ScrollAmount_LargeDecrement, uiautomationcore/ScrollAmount_LargeIncrement, uiautomationcore/ScrollAmount_NoAmount, uiautomationcore/ScrollAmount_SmallDecrement, uiautomationcore/ScrollAmount_SmallIncrement, winauto.uiauto_ScrollAmount
-f1_keywords:
-- uiautomationcore/ScrollAmount
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- ScrollAmount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScrollAmount
+ - uiautomationcore/ScrollAmount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ScrollAmount
 ---
 
 # ScrollAmount enumeration
@@ -49,49 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains values that specify the direction and distance to scroll.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ScrollAmount_LargeDecrement
 
 Scrolling is done in large decrements, equivalent to pressing the PAGE UP key or clicking on a blank part of a scroll bar. If one page up is not a relevant amount for the control and no scroll bar exists, the value represents an amount equal to the current visible window.
 
-
 ### -field ScrollAmount_SmallDecrement
 
 Scrolling is done in small decrements, equivalent to pressing an arrow key or clicking the arrow button on a scroll bar.
 
-
 ### -field ScrollAmount_NoAmount
 
-No scrolling is done. 
-
+No scrolling is done.
 
 ### -field ScrollAmount_LargeIncrement
 
 Scrolling is done in large increments, equivalent to pressing the PAGE DOWN or PAGE UP key or clicking on a blank part of a scroll bar. 
 			If one page is not a relevant amount for the control and no scroll bar exists, the value represents an amount equal to the current visible window.
 
-
 ### -field ScrollAmount_SmallIncrement
 
 Scrolling is done in small increments, equivalent to pressing an arrow key or clicking the arrow 
 			button on a scroll bar.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>

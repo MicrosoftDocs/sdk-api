@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 379c236d-c6f5-4a12-8adc-aa6377e81e6c
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code, _win32_ioctl_storage_get_media_serial_number, base.ioctl_storage_get_media_serial_number, winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-f1_keywords:
-- winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
+ - winioctl/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 ---
 
 # IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,11 +86,10 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
-* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [MEDIA_SERIAL_NUMBER_DATA](https://docs.microsoft.com/windows/desktop/DevIO/media-serial-number-data-str)
+* [MEDIA_SERIAL_NUMBER_DATA](/windows/desktop/DevIO/media-serial-number-data-str)

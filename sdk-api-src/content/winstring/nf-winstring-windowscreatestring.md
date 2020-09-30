@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
-f1_keywords:
-- winstring/WindowsCreateString
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsCreateString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsCreateString
+ - winstring/WindowsCreateString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsCreateString
 ---
 
 ## -description
@@ -143,3 +144,4 @@ If <i>sourceString</i> has embedded null characters, the <b>WindowsCreateString<
 <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
+

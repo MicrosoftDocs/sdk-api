@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2deeb14b-2665-4970-923c-9da1f561979f
 ms.date: 12/05/2018
 ms.keywords: ATTACHMENT_ACTION, ATTACHMENT_ACTION enumeration [Windows Shell], ATTACHMENT_ACTION_CANCEL, ATTACHMENT_ACTION_EXEC, ATTACHMENT_ACTION_SAVE, _win32_ATTACHMENT_ACTION, shell.ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION, shobjidl_core/ATTACHMENT_ACTION_CANCEL, shobjidl_core/ATTACHMENT_ACTION_EXEC, shobjidl_core/ATTACHMENT_ACTION_SAVE
-f1_keywords:
-- shobjidl_core/ATTACHMENT_ACTION
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- ATTACHMENT_ACTION
 targetos: Windows
 req.typenames: ATTACHMENT_ACTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ATTACHMENT_ACTION
+ - shobjidl_core/ATTACHMENT_ACTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ATTACHMENT_ACTION
 ---
 
 # ATTACHMENT_ACTION enumeration
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
-
+Provides a set of flags to be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> to indicate the action to be performed upon user confirmation.
 
 ## -enum-fields
-
-
-
 
 ### -field ATTACHMENT_ACTION_CANCEL
 
 Cancel
 
-
 ### -field ATTACHMENT_ACTION_SAVE
 
 Save
 
-
 ### -field ATTACHMENT_ACTION_EXEC
 
 Execute
-

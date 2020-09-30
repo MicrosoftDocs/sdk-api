@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
-f1_keywords:
-- strmif/IVMRMixerControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl
+ - strmif/IVMRMixerControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl
 ---
 
 # IVMRMixerControl interface
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
+The <code>IVMRMixerControl</code> interface is enables an application to manipulate the incoming video streams on the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Although this interface is implemented on the filter, it is actually the mixer component that is being configured. For this reason, this interface is only available when the mixer has been loaded through a call to <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a>. This interface is intended for use by applications only; it should not be used by upstream filters.
 
-
-The <code>IVMRMixerControl</code> interface is enables an application to manipulate the incoming video streams on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Although this interface is implemented on the filter, it is actually the mixer component that is being configured. For this reason, this interface is only available when the mixer has been loaded through a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a>. This interface is intended for use by applications only; it should not be used by upstream filters.
-
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9</a> interface.
-
-
-
+For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +72,7 @@ The <b>IVMRMixerControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getalpha">GetAlpha</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getalpha">GetAlpha</a>
 </td>
 <td align="left" width="63%">
 Retrieves the constant alpha value that is applie to this video stream.
@@ -85,7 +81,7 @@ Retrieves the constant alpha value that is applie to this video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getbackgroundclr">GetBackgroundClr</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getbackgroundclr">GetBackgroundClr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color of the output rectangle.
@@ -94,7 +90,7 @@ Retrieves the background color of the output rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getmixingprefs">GetMixingPrefs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getmixingprefs">GetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the mixing preferences for the stream.
@@ -103,7 +99,7 @@ Retrieves the mixing preferences for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getoutputrect">GetOutputRect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getoutputrect">GetOutputRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of this stream's video rectangle within the composition rectangle.
@@ -112,7 +108,7 @@ Retrieves the position of this stream's video rectangle within the composition r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getzorder">GetZOrder</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getzorder">GetZOrder</a>
 </td>
 <td align="left" width="63%">
 Retrieves this video stream's position in the Z order.
@@ -121,7 +117,7 @@ Retrieves this video stream's position in the Z order.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setalpha">SetAlpha</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setalpha">SetAlpha</a>
 </td>
 <td align="left" width="63%">
 Sets a constant alpha value that is applied to this video stream.
@@ -130,7 +126,7 @@ Sets a constant alpha value that is applied to this video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setbackgroundclr">SetBackgroundClr</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setbackgroundclr">SetBackgroundClr</a>
 </td>
 <td align="left" width="63%">
 Sets the background color of the output rectangle.
@@ -139,7 +135,7 @@ Sets the background color of the output rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetMixingPrefs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the mixing preferences for the stream.
@@ -148,7 +144,7 @@ Sets the mixing preferences for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetOutputRect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setoutputrect">SetOutputRect</a>
 </td>
 <td align="left" width="63%">
 Sets the position of this stream within the composition rectangle.
@@ -157,23 +153,15 @@ Sets the position of this stream within the composition rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setzorder">SetZOrder</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setzorder">SetZOrder</a>
 </td>
 <td align="left" width="63%">
 Sets this video stream's position in the Z-order.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0smd.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],InitErrorCode property, IFaxDeviceProvider.InitErrorCode, IFaxDeviceProvider.get_InitErrorCode, IFaxDeviceProvider::InitErrorCode, IFaxDeviceProvider::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.initerrorcode, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_initerrorcode_cpp, fax._mfax_faxdeviceprovider_initerrorcode, faxcomex/IFaxDeviceProvider::InitErrorCode, faxcomex/IFaxDeviceProvider::get_InitErrorCode, get_InitErrorCode
-f1_keywords:
-- faxcomex/IFaxDeviceProvider.InitErrorCode
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDeviceProvider.InitErrorCode
-- IFaxDeviceProvider.get_InitErrorCode
-- IFaxDeviceProvider.get_InitErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDeviceProvider::get_InitErrorCode
+ - faxcomex/IFaxDeviceProvider::get_InitErrorCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDeviceProvider.InitErrorCode
+ - IFaxDeviceProvider.get_InitErrorCode
+ - IFaxDeviceProvider.get_InitErrorCode
 ---
 
 # IFaxDeviceProvider::get_InitErrorCode
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDeviceProvider::get_InitErrorCode</b> property is a value that specifies the last error code that the fax service provider (FSP) returned while the fax service was loading and initializing the FSPÂ DLL. This may be an HRESULT value or a Win32 error code.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider">FaxDeviceProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider">FaxDeviceProvider</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdeviceprovider">IFaxDeviceProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdeviceprovider">IFaxDeviceProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>

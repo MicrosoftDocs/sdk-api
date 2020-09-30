@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509EnrollmentPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer
+ - certenroll/IX509EnrollmentPolicyServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509EnrollmentPolicyServer
 ---
 
 # IX509EnrollmentPolicyServer interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509EnrollmentPolicyServer</b> interface represents a certificate enrollment policy (CEP) server.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentPolicyServer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentPolicyServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentPolicyServer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentPolicyServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IX509EnrollmentPolicyServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-export">Export</a>
 </td>
 <td align="left" width="63%">
 Exports templates and object identifiers associated with the CEP server to a buffer.
@@ -80,7 +79,7 @@ Exports templates and object identifiers associated with the CEP server to a buf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getallowuntrustedca">GetAllowUnTrustedCA</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getallowuntrustedca">GetAllowUnTrustedCA</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies whether to allow an untrusted certification authority certificate.
@@ -89,7 +88,7 @@ Retrieves a value that specifies whether to allow an untrusted certification aut
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getauthflags">GetAuthFlags</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getauthflags">GetAuthFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the authentication type used by the client to authenticate itself to the CEP server.
@@ -98,7 +97,7 @@ Retrieves a value that specifies the authentication type used by the client to a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachedir">GetCacheDir</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachedir">GetCacheDir</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the directory on the CEP server that contains the policy cache file.
@@ -107,7 +106,7 @@ Retrieves the name of the directory on the CEP server that contains the policy c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachepath">GetCachePath</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcachepath">GetCachePath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of the policy cache file on the CEP server.
@@ -116,7 +115,7 @@ Retrieves the path of the policy cache file on the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of certification enrollment servers included in the policy.
@@ -125,7 +124,7 @@ Retrieves a collection of certification enrollment servers included in the polic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcasfortemplate">GetCAsForTemplate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcasfortemplate">GetCAsForTemplate</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of certificate enrollment servers that support a specified template.
@@ -134,7 +133,7 @@ Retrieves a collection of certificate enrollment servers that support a specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcustomoids">GetCustomOids</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcustomoids">GetCustomOids</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -143,7 +142,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getfriendlyname">GetFriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getfriendlyname">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a display name for the CEP server.
@@ -152,7 +151,7 @@ Retrieves a display name for the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getisdefaultcep">GetIsDefaultCEP</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getisdefaultcep">GetIsDefaultCEP</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Boolean value that specifies whether this is the default CEP server.
@@ -161,7 +160,7 @@ Retrieves a Boolean value that specifies whether this is the default CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getlastupdatetime">GetLastUpdateTime</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getlastupdatetime">GetLastUpdateTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time at which the policy was last downloaded.
@@ -170,7 +169,7 @@ Retrieves the date and time at which the policy was last downloaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getnextupdatetime">GetNextUpdateTime</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getnextupdatetime">GetNextUpdateTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time at which the policy expires and should be refreshed.
@@ -179,7 +178,7 @@ Retrieves the date and time at which the policy expires and should be refreshed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverid">GetPolicyServerId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverid">GetPolicyServerId</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string value that uniquely identifies the CEP server.
@@ -188,7 +187,7 @@ Retrieves a string value that uniquely identifies the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string value that contains the URL for the CEP server.
@@ -197,7 +196,7 @@ Retrieves a string value that contains the URL for the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-gettemplates">GetTemplates</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-gettemplates">GetTemplates</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of the templates supported by the CEP server.
@@ -206,7 +205,7 @@ Retrieves a collection of the templates supported by the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getuseclientid">GetUseClientId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getuseclientid">GetUseClientId</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies whether the <b>ClientId</b> attribute is set in the policy server flags of the CEP server.
@@ -215,7 +214,7 @@ Retrieves a value that specifies whether the <b>ClientId</b> attribute is set in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509EnrollmentPolicyServer</b> object.
@@ -224,7 +223,7 @@ Initializes an <b>IX509EnrollmentPolicyServer</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initializeimport">InitializeImport</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-initializeimport">InitializeImport</a>
 </td>
 <td align="left" width="63%">
 Initializes the CEP server from a collection of templates and object identifiers.
@@ -233,7 +232,7 @@ Initializes the CEP server from a collection of templates and object identifiers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves policy information from the CEP server.
@@ -242,7 +241,7 @@ Retrieves policy information from the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-querychanges">QueryChanges</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-querychanges">QueryChanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies whether the template or certification authority collections have changed in Active Directory.
@@ -251,7 +250,7 @@ Retrieves a value that specifies whether the template or certification authority
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-setcredential">SetCredential</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-setcredential">SetCredential</a>
 </td>
 <td align="left" width="63%">
 Sets the credential used to contact the CEP server.
@@ -260,7 +259,7 @@ Sets the credential used to contact the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-validate">Validate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-validate">Validate</a>
 </td>
 <td align="left" width="63%">
 Validates the current policy information.
@@ -278,7 +277,7 @@ Validates the current policy information.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-get_cost">Cost</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-get_cost">Cost</a>
 
 
 </td>
@@ -291,5 +290,4 @@ Specifies and retrieves an arbitrary  cost for contacting the certificate enroll
 
 </td>
 </tr>
-</table> 
-
+</table>

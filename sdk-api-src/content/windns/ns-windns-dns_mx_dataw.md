@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_MX_DATA, *PDNS_MX_DATAW, DNS_MX_DATA, DNS_MX_DATA structure [DNS], DNS_MX_DATAW, PDNS_MX_DATA, PDNS_MX_DATA structure pointer [DNS], _dns_dns_mx_data, dns.dns_mx_data, windns/DNS_MX_DATA, windns/PDNS_MX_DATA'
-f1_keywords:
-- windns/DNS_MX_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_MX_DATA
 targetos: Windows
 req.typenames: DNS_MX_DATAW, *PDNS_MX_DATAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_MX_DATAW
+ - windns/PDNS_MX_DATAW
+ - DNS_MX_DATAW
+ - windns/DNS_MX_DATAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_MX_DATA
 ---
 
 # DNS_MX_DATAW structure
@@ -49,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DNS_MX_DATA</b> structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pNameExchange
 
 A pointer to a string that represents the fully qualified domain name (FQDN) of the host willing to act as a mail exchange.
 
-
 ### -field wPreference
 
 A preference given to this resource record among others of the same owner. Lower values are preferred.
-
 
 ### -field Pad
 
 Reserved for padding. Do not use.
 
-
 ## -remarks
-
-
 
 The 
 <b>DNS_MX_DATA</b> structure is used in conjunction with the 
@@ -91,11 +84,5 @@ The
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
 

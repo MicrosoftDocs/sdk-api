@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
-f1_keywords:
-- ctffunc/ITfIntegratableCandidateListUIElement
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfIntegratableCandidateListUIElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfIntegratableCandidateListUIElement
+ - ctffunc/ITfIntegratableCandidateListUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfIntegratableCandidateListUIElement
 ---
 
 # ITfIntegratableCandidateListUIElement interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior. 
-
+Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITfIntegratableCandidateListUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-finalizeexactcompositionstring">FinalizeExactCompositionString</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-finalizeexactcompositionstring">FinalizeExactCompositionString</a>
 </td>
 <td align="left" width="63%">
 Finalizes the current composition with the value currently shown to the user.
@@ -79,7 +78,7 @@ Finalizes the current composition with the value currently shown to the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the selection style.
@@ -88,7 +87,7 @@ Retrieves the selection style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-onkeydown">OnKeyDown</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-onkeydown">OnKeyDown</a>
 </td>
 <td align="left" width="63%">
 Processes a key press.
@@ -97,7 +96,7 @@ Processes a key press.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-setintegrationstyle">SetIntegrationStyle</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-setintegrationstyle">SetIntegrationStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the integration style.
@@ -106,58 +105,45 @@ Sets the integration style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-showcandidatenumbers">ShowCandidateNumbers</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-showcandidatenumbers">ShowCandidateNumbers</a>
 </td>
 <td align="left" width="63%">
 Specifies whether candidate numbers should be shown.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The <b>ITfIntegratableCandidateListUIElement</b> interface is implemented by text services and Input Method Editors (IMEs) to adjust UI-less mode behavior for a better UI and keyboarding experience in IME-integrated controls, like the Windows 8 Search box.  The interface is used by apps that need a more streamlined UI and keyboarding experience with IME languages. 
 
-You can get an <b>ITfIntegratableCandidateListUIElement</b> interface pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface pointer that's provided by using the <i>dwUIElementId</i> parameters of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElementSink</a> callback functions to obtain the interface from  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a>.
+You can get an <b>ITfIntegratableCandidateListUIElement</b> interface pointer by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface pointer that's provided by using the <i>dwUIElementId</i> parameters of the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElementSink</a> callback functions to obtain the interface from  <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a>.
 
 The <b>ITfIntegratableCandidateListUIElement</b> interface is an optional interface that's implemented by a text service or IME that needs greater control over how its UI is presented in UI-less mode.  Apps can use it to implement more streamlined, special-purpose input controls, as in auto-complete or search suggestions.
 
-Implement the <b>ITfIntegratableCandidateListUIElement</b> interface in the same class that implements the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielementbehavior">ITfCandidateListUIElementBehavior</a> interfaces.  These interfaces work together to create a fully integrated experience in which the app renders candidate list UI for the text service or IME and can also have some IME-specific UI customization and keyboard interaction behavior.
-
-
-
+Implement the <b>ITfIntegratableCandidateListUIElement</b> interface in the same class that implements the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>, <a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a>, and <a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielementbehavior">ITfCandidateListUIElementBehavior</a> interfaces.  These interfaces work together to create a fully integrated experience in which the app renders candidate list UI for the text service or IME and can also have some IME-specific UI customization and keyboard interaction behavior.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielementbehavior">ITfCandidateListUIElementBehavior</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielementbehavior">ITfCandidateListUIElementBehavior</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElementSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElementSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

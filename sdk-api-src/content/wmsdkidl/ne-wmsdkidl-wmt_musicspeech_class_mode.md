@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45
 ms.date: 12/05/2018
 ms.keywords: WMT_MS_CLASS_MIXED, WMT_MS_CLASS_MUSIC, WMT_MS_CLASS_SPEECH, WMT_MUSICSPEECH_CLASS_MODE, WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format], wmformat.wmt_musicspeech_class_mode, wmsdkidl/WMT_MS_CLASS_MIXED, wmsdkidl/WMT_MS_CLASS_MUSIC, wmsdkidl/WMT_MS_CLASS_SPEECH, wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
-f1_keywords:
-- wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_MUSICSPEECH_CLASS_MODE
 targetos: Windows
 req.typenames: WMT_MUSICSPEECH_CLASS_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWMT_MUSICSPEECH_CLASS_MODE
+ - wmsdkidl/tagWMT_MUSICSPEECH_CLASS_MODE
+ - WMT_MUSICSPEECH_CLASS_MODE
+ - wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_MUSICSPEECH_CLASS_MODE
 ---
 
 # WMT_MUSICSPEECH_CLASS_MODE enumeration
@@ -49,40 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMT_MUSICSPEECH_CLASS_MODE</b> enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field WMT_MS_CLASS_MUSIC
 
 Not currently supported. Do not use.
 
-
 ### -field WMT_MS_CLASS_SPEECH
 
 Compression optimized for speech.
-
 
 ### -field WMT_MS_CLASS_MIXED
 
 Compression optimized for a mixture of music and speech.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

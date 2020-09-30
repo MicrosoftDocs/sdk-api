@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
-f1_keywords:
-- uiautomationcore/IToggleProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IToggleProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToggleProvider
+ - uiautomationcore/IToggleProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IToggleProvider
 ---
 
 # IToggleProvider interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to 
         controls that can cycle through a set of states and maintain a state after it is set.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IToggleProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IToggleProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IToggleProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IToggleProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +71,7 @@ The <b>IToggleProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-toggle">Toggle</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-toggle">Toggle</a>
 </td>
 <td align="left" width="63%">
 Cycles through the toggle states of a control.
@@ -91,7 +90,7 @@ Cycles through the toggle states of a control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-get_togglestate">ToggleState</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itoggleprovider-get_togglestate">ToggleState</a>
 
 
 </td>
@@ -104,26 +103,12 @@ The toggle state of the control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> control pattern.
-			
-
-
-
+Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingtoggle">Toggle</a> control pattern.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

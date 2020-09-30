@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
-f1_keywords:
-- xpsobjectmodel/IXpsOMPath
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPath
+ - xpsobjectmodel/IXpsOMPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPath
 ---
 
 # IXpsOMPath interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a non-text visual item.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPath</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>. <b>IXpsOMPath</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPath</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>. <b>IXpsOMPath</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IXpsOMPath</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-clone">Clone</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface.
@@ -79,7 +78,7 @@ Makes a deep copy of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getaccessibilitylongdescription">GetAccessibilityLongDescription</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getaccessibilitylongdescription">GetAccessibilityLongDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the long (detailed) textual description of the object's contents.
@@ -88,7 +87,7 @@ Gets the long (detailed) textual description of the object's contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getaccessibilityshortdescription">GetAccessibilityShortDescription</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getaccessibilityshortdescription">GetAccessibilityShortDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the short textual description of the object's contents.
@@ -97,27 +96,27 @@ Gets the short textual description of the object's contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrush">GetFillBrush</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrush">GetFillBrush</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the resolved <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the fill brush for the path.
+Gets a pointer to the resolved <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the fill brush for the path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrushlocal">GetFillBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrushlocal">GetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the local, unshared <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the fill brush for the path.
+Gets a pointer to the local, unshared <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the fill brush for the path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrushlookup">GetFillBrushLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getfillbrushlookup">GetFillBrushLookup</a>
 </td>
 <td align="left" width="63%">
 Gets the lookup key of the brush that is stored in a resource dictionary and used as the fill brush for the path.
@@ -126,17 +125,17 @@ Gets the lookup key of the brush that is stored in a resource dictionary and use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometry">GetGeometry</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometry">GetGeometry</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the path's <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface, which describes the  resolved fill area for this path.
+Gets a pointer to the path's <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface, which describes the  resolved fill area for this path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometrylocal">GetGeometryLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometrylocal">GetGeometryLocal</a>
 </td>
 <td align="left" width="63%">
 Gets the local, unshared geometry of the  resolved fill area for this path.
@@ -145,7 +144,7 @@ Gets the local, unshared geometry of the  resolved fill area for this path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometrylookup">GetGeometryLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getgeometrylookup">GetGeometryLookup</a>
 </td>
 <td align="left" width="63%">
 Gets the lookup key of a shared geometry object that is stored in a resource dictionary and that describes the  resolved fill area for this path.
@@ -154,7 +153,7 @@ Gets the lookup key of a shared geometry object that is stored in a resource dic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getsnapstopixels">GetSnapsToPixels</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getsnapstopixels">GetSnapsToPixels</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean value that indicates whether the path is to  be snapped to device pixels when the path is rendered.
@@ -163,27 +162,27 @@ Gets a Boolean value that indicates whether the path is to  be snapped to device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrush">GetStrokeBrush</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrush">GetStrokeBrush</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the resolved <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the stroke brush that has been set for the path.
+Gets a pointer to the resolved <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the stroke brush that has been set for the path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the local, unshared <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the stroke brush for the path.
+Gets a pointer to the local, unshared <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface that contains the stroke brush for the path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlookup">GetStrokeBrushLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlookup">GetStrokeBrushLookup</a>
 </td>
 <td align="left" width="63%">
 Gets the lookup key of the brush  that is stored in a resource dictionary and is to be used as the stroke brush for the path.
@@ -192,7 +191,7 @@ Gets the lookup key of the brush  that is stored in a resource dictionary and is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashcap">GetStrokeDashCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashcap">GetStrokeDashCap</a>
 </td>
 <td align="left" width="63%">
 Gets the style of the end cap to be used on the stroke dash.
@@ -201,17 +200,17 @@ Gets the style of the end cap to be used on the stroke dash.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashes">GetStrokeDashes</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashes">GetStrokeDashes</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a> interface that contains the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+Gets a pointer to the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a> interface that contains the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashoffset">GetStrokeDashOffset</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashoffset">GetStrokeDashOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset from the origin of the stroke to the starting point of the dash array pattern.
@@ -220,7 +219,7 @@ Gets the offset from the origin of the stroke to the starting point of the dash 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokeendlinecap">GetStrokeEndLineCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokeendlinecap">GetStrokeEndLineCap</a>
 </td>
 <td align="left" width="63%">
 Gets the style of the stroke line's  end cap.
@@ -229,7 +228,7 @@ Gets the style of the stroke line's  end cap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokelinejoin">GetStrokeLineJoin</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokelinejoin">GetStrokeLineJoin</a>
 </td>
 <td align="left" width="63%">
 Gets the style for joining stroke lines.
@@ -238,7 +237,7 @@ Gets the style for joining stroke lines.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokemiterlimit">GetStrokeMiterLimit</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokemiterlimit">GetStrokeMiterLimit</a>
 </td>
 <td align="left" width="63%">
 Gets the miter limit value that is  set for the stroke.
@@ -247,7 +246,7 @@ Gets the miter limit value that is  set for the stroke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokestartlinecap">GetStrokeStartLineCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokestartlinecap">GetStrokeStartLineCap</a>
 </td>
 <td align="left" width="63%">
 Gets the style of the  line cap at the start of the stroke line.
@@ -256,7 +255,7 @@ Gets the style of the  line cap at the start of the stroke line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokethickness">GetStrokeThickness</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokethickness">GetStrokeThickness</a>
 </td>
 <td align="left" width="63%">
 Gets the stroke thickness.
@@ -265,7 +264,7 @@ Gets the stroke thickness.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilitylongdescription">SetAccessibilityLongDescription</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilitylongdescription">SetAccessibilityLongDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the long (detailed) textual description of the object's contents.
@@ -274,7 +273,7 @@ Sets the long (detailed) textual description of the object's contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilityshortdescription">SetAccessibilityShortDescription</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilityshortdescription">SetAccessibilityShortDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the short textual description of the object's contents.
@@ -283,17 +282,17 @@ Sets the short textual description of the object's contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setfillbrushlocal">SetFillBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setfillbrushlocal">SetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-Sets the pointer to the local, unshared <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface to be used as the fill brush.
+Sets the pointer to the local, unshared <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface to be used as the fill brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setfillbrushlookup">SetFillBrushLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setfillbrushlookup">SetFillBrushLookup</a>
 </td>
 <td align="left" width="63%">
 Sets the lookup key name of a shared brush in a resource dictionary, to be used as the fill brush.
@@ -302,17 +301,17 @@ Sets the lookup key name of a shared brush in a resource dictionary, to be used 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setgeometrylocal">SetGeometryLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setgeometrylocal">SetGeometryLocal</a>
 </td>
 <td align="left" width="63%">
-Sets the pointer to the local, unshared <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface that contains the  geometry of the resolved fill area to be set for this path.
+Sets the pointer to the local, unshared <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface that contains the  geometry of the resolved fill area to be set for this path.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setgeometrylookup">SetGeometryLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setgeometrylookup">SetGeometryLookup</a>
 </td>
 <td align="left" width="63%">
 Sets the lookup key name of a shared geometry in a resource dictionary. 
@@ -321,7 +320,7 @@ Sets the lookup key name of a shared geometry in a resource dictionary.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setsnapstopixels">SetSnapsToPixels</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setsnapstopixels">SetSnapsToPixels</a>
 </td>
 <td align="left" width="63%">
 Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.
@@ -330,17 +329,17 @@ Sets a Boolean value that indicates whether the path will be snapped to device p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>
 </td>
 <td align="left" width="63%">
-Sets a pointer to a local, unshared <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface to be used as a stroke brush.
+Sets a pointer to a local, unshared <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a> interface to be used as a stroke brush.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlookup">SetStrokeBrushLookup</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlookup">SetStrokeBrushLookup</a>
 </td>
 <td align="left" width="63%">
 Sets the lookup key name of a shared brush to be used as the stroke brush.
@@ -349,7 +348,7 @@ Sets the lookup key name of a shared brush to be used as the stroke brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokedashcap">SetStrokeDashCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokedashcap">SetStrokeDashCap</a>
 </td>
 <td align="left" width="63%">
 Sets the style of the stroke's dash cap.
@@ -358,7 +357,7 @@ Sets the style of the stroke's dash cap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokedashoffset">SetStrokeDashOffset</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokedashoffset">SetStrokeDashOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset from the origin of the stroke to the starting point of the dash array pattern.
@@ -367,7 +366,7 @@ Sets the offset from the origin of the stroke to the starting point of the dash 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokeendlinecap">SetStrokeEndLineCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokeendlinecap">SetStrokeEndLineCap</a>
 </td>
 <td align="left" width="63%">
 Sets the style of the stroke line's end cap.
@@ -376,7 +375,7 @@ Sets the style of the stroke line's end cap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokelinejoin">SetStrokeLineJoin</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokelinejoin">SetStrokeLineJoin</a>
 </td>
 <td align="left" width="63%">
 Sets the  style for joining stroke lines.
@@ -385,7 +384,7 @@ Sets the  style for joining stroke lines.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokemiterlimit">SetStrokeMiterLimit</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokemiterlimit">SetStrokeMiterLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the miter limit of the path.
@@ -394,7 +393,7 @@ Sets the miter limit of the path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokestartlinecap">SetStrokeStartLineCap</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokestartlinecap">SetStrokeStartLineCap</a>
 </td>
 <td align="left" width="63%">
 Sets the style of the stroke's line cap at the  start of the stroke line.
@@ -403,19 +402,16 @@ Sets the style of the stroke's line cap at the  start of the stroke line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokethickness">SetStrokeThickness</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokethickness">SetStrokeThickness</a>
 </td>
 <td align="left" width="63%">
 Sets the stroke thickness.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -454,29 +450,18 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpath">IXpsOMObjectFactory::CreatePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpath">IXpsOMObjectFactory::CreatePath</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
+<a href="/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
-

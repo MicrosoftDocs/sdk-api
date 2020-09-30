@@ -44,35 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetUniquenessValue
-
-
 ## -description
-
 
 Retrieves the current uniqueness value for this surface.
 
-
-
 ## -parameters
 
-
-
-
-
-
-#### - lpValue [out]
+### -param arg1 [out]
 
 A pointer to a variable that receives the surface's current uniqueness value if the call succeeds.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -81,15 +65,11 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The only defined uniqueness value is 0, which indicates that the surface is likely to be changing beyond the control of DirectDraw. Other uniqueness values are significant only if they differ from a previously cached uniqueness value. If the current value is different from a cached value, the contents of the surface have changed.
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetUniquenessValue</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetUniquenessValue</b> method.
 
 
 
@@ -99,8 +79,7 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  
-

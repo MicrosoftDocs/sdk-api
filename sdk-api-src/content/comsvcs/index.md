@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winmessenger
+f1_keywords:
+ - comsvcs
+ - comsvcs/comsvcs
 ---
 
 # Comsvcs.h header
 
 
 ## -description
-
 
 This header is used by Windows Messenger. For more information, see:
 

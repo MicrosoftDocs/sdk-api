@@ -4,10 +4,6 @@ title: ID3D12GraphicsCommandList5::RSSetShadingRate
 tech.root: direct3d12
 ms.date: 01/31/19
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRate
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList5::RSSetShadingRate
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,14 +24,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12GraphicsCommandList5::RSSetShadingRate
+ - d3d12/ID3D12GraphicsCommandList5::RSSetShadingRate
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- ID3D12GraphicsCommandList5::RSSetShadingRate
+ - ID3D12GraphicsCommandList5::RSSetShadingRate
 ---
 
 ## -description
@@ -61,3 +62,4 @@ An optional pointer to a constant array of [D3D12_SHADING_RATE_COMBINER](/window
 ## -see-also
 
 [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs)
+

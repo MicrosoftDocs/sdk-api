@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 2fbb805d-d38b-4918-a291-fe1000ac2ea2
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER0, FWPM_NET_EVENT_HEADER0 structure [Filtering], fwp.fwpm_net_event_header0, fwpmtypes/FWPM_NET_EVENT_HEADER0
-f1_keywords:
-- fwpmtypes/FWPM_NET_EVENT_HEADER0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_NET_EVENT_HEADER0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_HEADER0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_NET_EVENT_HEADER0_
+ - fwpmtypes/FWPM_NET_EVENT_HEADER0_
+ - FWPM_NET_EVENT_HEADER0
+ - fwpmtypes/FWPM_NET_EVENT_HEADER0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_NET_EVENT_HEADER0
 ---
 
 # FWPM_NET_EVENT_HEADER0 structure
@@ -49,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_NET_EVENT_HEADER0</b> structure contains information common to all events.
-[FWPM_NET_EVENT_HEADER2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) is available.</div><div> </div>
+[FWPM_NET_EVENT_HEADER2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2) is available.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field timeStamp
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time the event occurred
-
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time the event occurred
 
 ### -field flags
 
@@ -167,18 +165,14 @@ The <b>ipVersion</b> member is set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ipVersion
 
-A [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that specifies the IP version being used. 
-
+A [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that specifies the IP version being used.
 
 ### -field ipProtocol
 
-IP protocol specified as an IPPROTO value. See the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
-
+IP protocol specified as an IPPROTO value. See the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> reference topic for more information on possible protocol values.
 
 ### -field localAddrV4
 
@@ -186,13 +180,11 @@ Specifies an IPv4 local address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
-
 ### -field localAddrV6
 
-A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) that contains an IPv6 local address.
+A [FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) that contains an IPv6 local address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
 
 ### -field remoteAddrV4
 
@@ -200,70 +192,56 @@ Specifies an IPv4 remote address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
-
 ### -field remoteAddrV6
 
-A [FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) that contains an IPv6 remote address.
+A [FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16) that contains an IPv6 remote address.
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
 
 ### -field localPort
 
 Specifies a local port.
 
-
 ### -field remotePort
 
 Specifies a remote port.
-
 
 ### -field scopeId
 
 IPv6 scope ID.
 
-
 ### -field appId
 
-A [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) that contains the application ID of the local application associated with the event.
-
+A [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) that contains the application ID of the local application associated with the event.
 
 ### -field userId
 
 Contains a user ID that corresponds to the traffic.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+[FWPM_NET_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)
 
 
 
-[FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)
+[FWP_BYTE_ARRAY16](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
 
 
 
-[FWP_BYTE_ARRAY16](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array16)
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

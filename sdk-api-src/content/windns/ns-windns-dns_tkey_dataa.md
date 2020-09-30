@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TKEY_DATA, *PDNS_TKEY_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TKEY_DATA, DNS_TKEY_DATA structure [DNS], DNS_TKEY_DATAA, DNS_TKEY_MODE_DIFFIE_HELLMAN, DNS_TKEY_MODE_GSS, DNS_TKEY_MODE_RESOLVER_ASSIGN, DNS_TKEY_MODE_SERVER_ASSIGN, PDNS_TKEY_DATA, PDNS_TKEY_DATA structure pointer [DNS], _dns_dns_tkey_data, dns.dns_tkey_data, windns/DNS_TKEY_DATA, windns/PDNS_TKEY_DATA'
-f1_keywords:
-- windns/DNS_TKEY_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_TKEY_DATA
 targetos: Windows
 req.typenames: DNS_TKEY_DATAA, *PDNS_TKEY_DATAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_TKEY_DATAA
+ - windns/PDNS_TKEY_DATAA
+ - DNS_TKEY_DATAA
+ - windns/DNS_TKEY_DATAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_TKEY_DATA
 ---
 
 # DNS_TKEY_DATAA structure
@@ -49,45 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pNameAlgorithm
 
 A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
-
 ### -field pAlgorithmPacket
 
 A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
-
 
 ### -field pKey
 
 A pointer to the variable-length shared-secret key.
 
-
 ### -field pOtherData
 
 Reserved. Do not use.
-
 
 ### -field dwCreateTime
 
 The date and time at which the key was created, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
 
-
 ### -field dwExpireTime
 
 The expiration date of the key, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
-
 
 ### -field wMode
 
@@ -139,8 +131,6 @@ The key is assigned by the DNS resolver and is not negotiated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wError
 
@@ -182,32 +172,24 @@ A timestamp is bad.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wKeyLength
 
 Length, in bytes, of the <b>pKey</b> member.
 
-
 ### -field wOtherLength
 
 The length, in bytes, of the <b>pOtherData</b> member.
-
 
 ### -field cAlgNameLength
 
 The length, in bytes, of the <b>pNameAlgorithm</b> member.
 
-
 ### -field bPacketPointers
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 The 
 <b>DNS_TKEY_DATA</b> structure is used in conjunction with the 
@@ -222,15 +204,9 @@ The
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
- 
-
- 
 

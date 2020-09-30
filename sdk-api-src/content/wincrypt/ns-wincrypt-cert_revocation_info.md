@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 798aa2d7-bf8a-425f-bc36-98a44ba3a9d6
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_REVOCATION_INFO, CERT_REVOCATION_INFO, CERT_REVOCATION_INFO structure [Security], PCERT_REVOCATION_INFO, PCERT_REVOCATION_INFO structure pointer [Security], _crypto2_cert_revocation_info, security.cert_revocation_info, wincrypt/CERT_REVOCATION_INFO, wincrypt/PCERT_REVOCATION_INFO'
-f1_keywords:
-- wincrypt/CERT_REVOCATION_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_REVOCATION_INFO
 targetos: Windows
 req.typenames: CERT_REVOCATION_INFO, *PCERT_REVOCATION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_REVOCATION_INFO
+ - wincrypt/_CERT_REVOCATION_INFO
+ - PCERT_REVOCATION_INFO
+ - wincrypt/PCERT_REVOCATION_INFO
+ - CERT_REVOCATION_INFO
+ - wincrypt/CERT_REVOCATION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_REVOCATION_INFO
 ---
 
 # CERT_REVOCATION_INFO structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_REVOCATION_INFO</b> structure indicates the revocation status of a certificate in a CERT_CHAIN_ELEMENT.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of this structure in bytes.
-
 
 ### -field dwRevocationResult
 
@@ -76,34 +75,22 @@ Currently defined values are:
 
 Not currently used and is set to <b>NULL</b>.
 
-
 ### -field pvOidSpecificInfo
 
 Not currently used and is set to <b>NULL</b>.
-
 
 ### -field fHasFreshnessTime
 
 BOOL set to <b>TRUE</b> if dwFreshnessTime has been updated.
 
-
 ### -field dwFreshnessTime
 
-If <b>fHasFreshnessTime</b> is <b>TRUE</b>, holds the CurrentTime minus the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list's</a> (CRL's). This time is in seconds.
-
+If <b>fHasFreshnessTime</b> is <b>TRUE</b>, holds the CurrentTime minus the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list's</a> (CRL's). This time is in seconds.
 
 ### -field pCrlInfo
 
 For CRL base revocation checking, a non-<b>NULL</b> pointer to a CERT_REVOCATION_CRL_INFO structure.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>

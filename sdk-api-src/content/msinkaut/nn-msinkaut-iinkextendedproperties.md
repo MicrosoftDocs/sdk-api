@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c7b7f40f-0c28-4848-83d6-d5db73eef998
 ms.date: 12/05/2018
 ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], IInkExtendedProperties interface [Tablet PC],described, c7b7f40f-0c28-4848-83d6-d5db73eef998, msinkaut/IInkExtendedProperties, tablet.iinkextendedproperties
-f1_keywords:
-- msinkaut/IInkExtendedProperties
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkExtendedProperties
-- IInkExtendedProperties._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkExtendedProperties
+ - msinkaut/IInkExtendedProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkExtendedProperties
+ - IInkExtendedProperties._NewEnum
 ---
 
 # IInkExtendedProperties interface
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects that contain application-defined data.
-
-
-
+Represents a collection of <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects that contain application-defined data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkExtendedProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkExtendedProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkExtendedProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkExtendedProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +72,7 @@ The <b>IInkExtendedProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-add">Add</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-add">Add</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to add to the collection.
@@ -85,7 +81,7 @@ Specifies the extended property to add to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-clear">Clear</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all of the extended properties from the collection.
@@ -94,7 +90,7 @@ Clears all of the extended properties from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-doespropertyexist">DoesPropertyExist</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-doespropertyexist">DoesPropertyExist</a>
 </td>
 <td align="left" width="63%">
 Specifies whether an extended property exists within a collection of extended properties.
@@ -103,7 +99,7 @@ Specifies whether an extended property exists within a collection of extended pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-item">Item</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-item">Item</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to return at the known index in the collection.
@@ -112,7 +108,7 @@ Specifies the extended property to return at the known index in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Specifies the extended property to remove from the collection.
@@ -137,7 +133,7 @@ Specifies the extended property to remove from the collection.
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b> property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces. 
 
@@ -146,7 +142,7 @@ The <b>_NewEnum</b> property is marked restricted in the Interface Definition La
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-get_count">Count</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-get_count">Count</a>
 
 
 </td>
@@ -155,41 +151,28 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects in the collection.
+Gets the number of <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> objects in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The extended property data is indexed by an application-specific globally unique identifier (GUID).
 
 <div class="alert"><b>Note</b>  You cannot store an empty <b>IInkExtendedProperties</b> object. The object must contain data before it can be stored. For example, if you try to add extended properties to a stroke for later use, an exception is thrown if the extended property contains no data.</div>
 <div> </div>
-<b>IInkExtendedProperties</b> collections may be added to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a>, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a>, and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects.
+<b>IInkExtendedProperties</b> collections may be added to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a>, the <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a>, and the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects.
 
-For more information about collections in Automation, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about collections in Automation, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties">ExtendedProperties Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties">ExtendedProperties Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>

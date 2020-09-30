@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
-f1_keywords:
-- wmp/IWMPErrorItem2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPErrorItem2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPErrorItem2
+ - wmp/IWMPErrorItem2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPErrorItem2
 ---
 
 # IWMPErrorItem2 interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPErrorItem2</b> interface provides a method that supplements the <b>IWMPErrorItem</b> interface.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IWMPErrorItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperroritem2-get_condition">get_condition</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmperroritem2-get_condition">get_condition</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the condition for the error.
@@ -82,21 +78,12 @@ Retrieves a value indicating the condition for the error.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a> interface.
-	
-
+Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.date: 12/05/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
-f1_keywords:
-- shobjidl/IDesktopGadget.RunGadget
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IDesktopGadget.RunGadget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopGadget::RunGadget
+ - shobjidl/IDesktopGadget::RunGadget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IDesktopGadget.RunGadget
 ---
 
 # IDesktopGadget::RunGadget
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds an installed gadget to the desktop.
 
-
 ## -parameters
-
-
-
 
 ### -param gadgetPath [in]
 
@@ -66,7 +62,7 @@ Pointer to the full (absolute) path of a .gadget folder. A gadget that is not pa
 
                     
 
-<div class="alert"><b>Note</b>  This path should not contain environment variables; the fully expanded path must be provided. <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> can be used to expand the path to the form required in this parameter.</div>
+<div class="alert"><b>Note</b>  This path should not contain environment variables; the fully expanded path must be provided. <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> can be used to expand the path to the form required in this parameter.</div>
 <div> </div>
 
 
@@ -80,10 +76,7 @@ This is the recommended path for non-Microsoft gadget installation, available to
 
 This location should be used for a single-user installation of the gadget.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -117,14 +110,8 @@ An error occurred involving the path of the gadget folder pointed to by <i>gadge
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 "Running" a gadget here means that the gadget is added to the desktop.
 
@@ -162,7 +149,3 @@ HRESULT RunMyGadget(PCWSTR pszGadgetPath)
     return hr;
 }
 ```
-
-
-
-

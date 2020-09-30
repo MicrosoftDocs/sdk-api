@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d1337a8a-0a7a-41a1-b57b-f20d8a616113
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUInt8, IntPtrToUInt8 function [Windows Shell], intsafe/IntPtrToUInt8, shell.IntPtrToUInt8
-f1_keywords:
-- intsafe/IntPtrToUInt8
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- IntPtrToUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IntPtrToUInt8
+ - intsafe/IntPtrToUInt8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - IntPtrToUInt8
 ---
 
 # IntPtrToUInt8 function
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>INT_PTR</b> to a value of type <b>UINT8</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param iOperand [in]
 
 The value to convert.
 
-
 ### -param pui8Result [out]
 
 The converted value.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

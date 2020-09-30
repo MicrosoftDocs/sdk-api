@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
-f1_keywords:
-- wuapi/IDownloadResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadResult
+ - wuapi/IDownloadResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadResult
 ---
 
 # IDownloadResult interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDownloadResult</b> interface represents the result of a download operation.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadResult</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDownloadResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadResult</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDownloadResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,10 +70,10 @@ The <b>IDownloadResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-getupdateresult">GetUpdateResult</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-getupdateresult">GetUpdateResult</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains download information for the specified update.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadresult">IUpdateDownloadResult</a> interface that contains download information for the specified update.
 
 </td>
 </tr>
@@ -89,7 +88,7 @@ Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuap
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_hresult">HResult</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_hresult">HResult</a>
 
 
 </td>
@@ -105,7 +104,7 @@ Gets the exception code number if an exception code number is raised during a do
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_resultcode">ResultCode</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadresult-get_resultcode">ResultCode</a>
 
 
 </td>
@@ -114,9 +113,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration that specifies the result of a download.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration that specifies the result of a download.
 
 </td>
 </tr>
-</table> 
-
+</table>

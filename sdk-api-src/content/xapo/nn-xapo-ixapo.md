@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.date: 12/05/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
-f1_keywords:
-- xapo/IXAPO
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XAPO.h
-api_name:
-- IXAPO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPO
+ - xapo/IXAPO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XAPO.h
+api_name:
+ - IXAPO
 ---
 
 # IXAPO interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The interface for an Audio Processing Object which be used in an XAudio2 effect chain.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPO</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAPO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IXAPO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes">CalcInputFrames</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-calcinputframes">CalcInputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of input frames required to generate the given number of output frames.
@@ -79,7 +78,7 @@ Returns the number of input frames required to generate the given number of outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes">CalcOutputFrames</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-calcoutputframes">CalcOutputFrames</a>
 </td>
 <td align="left" width="63%">
 Returns the number of output frames that will be generated from a given number of input frames.
@@ -88,7 +87,7 @@ Returns the number of output frames that will be generated from a given number o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">GetRegistrationProperties</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">GetRegistrationProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the registration properties of an XAPO. 
@@ -97,7 +96,7 @@ Returns the registration properties of an XAPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-initialize">Initialize</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Performs any effect-specific initialization.
@@ -106,7 +105,7 @@ Performs any effect-specific initialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported">IsInputFormatSupported</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-isinputformatsupported">IsInputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific input format is supported for a given output format.
@@ -115,7 +114,7 @@ Queries if a specific input format is supported for a given output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported">IsOutputFormatSupported</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-isoutputformatsupported">IsOutputFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Queries if a specific output format is supported for a given input format.
@@ -124,16 +123,16 @@ Queries if a specific output format is supported for a given input format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a>
 </td>
 <td align="left" width="63%">
-Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a> is called on the realtime thread.
+Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a> is called on the realtime thread.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">Process</a>
 </td>
 <td align="left" width="63%">
 Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
@@ -142,7 +141,7 @@ Runs the XAPO's digital signal processing (DSP) code on the given input and outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-reset">Reset</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets variables dependent on frame history.
@@ -151,33 +150,20 @@ Resets variables dependent on frame history.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess">UnlockForProcess</a>
+<a href="/windows/desktop/api/xapo/nf-xapo-ixapo-unlockforprocess">UnlockForProcess</a>
 </td>
 <td align="left" width="63%">
-Deallocates variables that were allocated with the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
+Deallocates variables that were allocated with the <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-lockforprocess">LockForProcess</a> method.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/interfaces">Interfaces</a>

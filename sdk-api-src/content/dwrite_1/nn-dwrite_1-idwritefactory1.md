@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 43FA7E32-FFAD-4F26-A225-811C2CC507DF
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory1, IDWriteFactory1 interface [Direct Write], IDWriteFactory1 interface [Direct Write],described, directwrite.idwritefactory1, dwrite_1/IDWriteFactory1
-f1_keywords:
-- dwrite_1/IDWriteFactory1
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFactory1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory1
+ - dwrite_1/IDWriteFactory1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory1
 ---
 
 # IDWriteFactory1 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The root factory interface for all <a href="/windows/win32/DirectWrite/direct-write-portal">DirectWrite</a> objects.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Gets a font collection representing the set of EUDC (end-user defined characters
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
- 
-
- 
 

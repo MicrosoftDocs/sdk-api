@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcolor.htm
 ms.date: 12/05/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_GetColor, MonthCal_GetColor macro [Windows Controls], _win32_MonthCal_GetColor, _win32_MonthCal_GetColor_cpp, commctrl/MonthCal_GetColor, controls.MonthCal_GetColor, controls._win32_MonthCal_GetColor
-f1_keywords:
-- commctrl/MonthCal_GetColor
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_GetColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_GetColor
+ - commctrl/MonthCal_GetColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_GetColor
 ---
 
 # MonthCal_GetColor macro
@@ -49,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getcolor">MCM_GETCOLOR</a> message explicitly. 
-
+Retrieves the color for a given portion of a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-getcolor">MCM_GETCOLOR</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to a month calendar control. 
-
+Handle to a month calendar control.
 
 ### -param iColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value of type <b>int</b> specifying which month calendar color to retrieve. This value can be one of the following: 
 
@@ -137,5 +132,3 @@ Retrieve the color used to display header day and trailing day text. Header and 
 </td>
 </tr>
 </table>
- 
-

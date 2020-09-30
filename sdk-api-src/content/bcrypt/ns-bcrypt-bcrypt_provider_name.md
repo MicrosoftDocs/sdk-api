@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0c57aa3f-1d9a-4bb2-b142-bce9c054e658
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PROVIDER_NAME, BCRYPT_PROVIDER_NAME structure [Security], bcrypt/BCRYPT_PROVIDER_NAME, security.bcrypt_provider_name_struct
-f1_keywords:
-- bcrypt/BCRYPT_PROVIDER_NAME
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_PROVIDER_NAME
 targetos: Windows
 req.typenames: BCRYPT_PROVIDER_NAME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_PROVIDER_NAME
+ - bcrypt/_BCRYPT_PROVIDER_NAME
+ - BCRYPT_PROVIDER_NAME
+ - bcrypt/BCRYPT_PROVIDER_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_PROVIDER_NAME
 ---
 
 # BCRYPT_PROVIDER_NAME structure
@@ -49,27 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCRYPT_PROVIDER_NAME</b> structure contains the name of a CNG provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszProviderName
 
 A pointer to a null-terminated Unicode string that contains the name of the provider.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumproviders">BCryptEnumProviders</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumproviders">BCryptEnumProviders</a>

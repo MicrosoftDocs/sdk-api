@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 76764dbb-7de0-4b95-a210-60b8e6a4b24b
 ms.date: 12/05/2018
 ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], IMbnPin interface [Microsoft Broadband Networks],described, mbn.imbnpin, mbnapi/IMbnPin
-f1_keywords:
-- mbnapi/IMbnPin
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnPin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnPin
+ - mbnapi/IMbnPin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnPin
 ---
 
 # IMbnPin interface
@@ -54,10 +55,9 @@ ms.custom: 19H1
 
 Represents the device PIN.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnPin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IMbnPin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-change">Change</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-change">Change</a>
 </td>
 <td align="left" width="63%">
 Changes the PIN.
@@ -82,7 +82,7 @@ Changes the PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-disable">Disable</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-disable">Disable</a>
 </td>
 <td align="left" width="63%">
 Disables a PIN.
@@ -91,7 +91,7 @@ Disables a PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable">Enable</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables a PIN.
@@ -100,7 +100,7 @@ Enables a PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter">Enter</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enter">Enter</a>
 </td>
 <td align="left" width="63%">
 Enters a PIN.
@@ -109,16 +109,16 @@ Enters a PIN.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-getpinmanager">GetPinManager</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-getpinmanager">GetPinManager</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.
+Gets the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock">Unblock</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock">Unblock</a>
 </td>
 <td align="left" width="63%">
 Unblocks a blocked PIN.
@@ -136,7 +136,7 @@ Unblocks a blocked PIN.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinformat">PinFormat</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinformat">PinFormat</a>
 
 
 </td>
@@ -152,7 +152,7 @@ The PIN format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmax">PinLengthMax</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmax">PinLengthMax</a>
 
 
 </td>
@@ -168,7 +168,7 @@ The maximum length of the PIN.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmin">PinLengthMin</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinlengthmin">PinLengthMin</a>
 
 
 </td>
@@ -184,7 +184,7 @@ The minimum length of the PIN.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinmode">PinMode</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pinmode">PinMode</a>
 
 
 </td>
@@ -200,7 +200,7 @@ The PIN mode.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pintype">PinType</a>
+<a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-get_pintype">PinType</a>
 
 
 </td>
@@ -213,14 +213,8 @@ Read-only
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-<b>IMbnPin</b> objects are provided by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpin">GetPin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinlist">GetPinList</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> interface.
-
-
-
+<b>IMbnPin</b> objects are provided by calls to the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpin">GetPin</a> and <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinlist">GetPinList</a> methods of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> interface.

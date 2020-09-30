@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.date: 12/05/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
-f1_keywords:
-- bdaiface/IBDA_EventingService
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_EventingService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_EventingService
+ - bdaiface/IBDA_EventingService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_EventingService
 ---
 
 # IBDA_EventingService interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a device's Eventing Service.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,21 +69,15 @@ The <b>IBDA_EventingService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_eventingservice-completeevent">CompleteEvent</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_eventingservice-completeevent">CompleteEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the media transform device (MTD) in a graph when a media sink device (MSD) completes an event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_EventingService)</code>.
-
-
-

@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_OP","D3D12_AUTO_BREADCRUMB_OP enumeration","d3d12/D3D12_AUTO_BREADCRUMB_OP","d3d12/D3D12_AUTO_BREADCRUMB_OP enumeration","direct3d12.d3d12_auto_breadcrumb_op"]
 ms.date: 02/07/2019
 ms.keywords: D3D12_AUTO_BREADCRUMB_OP, D3D12_AUTO_BREADCRUMB_OP enumeration, d3d12/D3D12_AUTO_BREADCRUMB_OP, d3d12/D3D12_AUTO_BREADCRUMB_OP enumeration, direct3d12.d3d12_auto_breadcrumb_op
-f1_keywords:
-- d3d12/D3D12_AUTO_BREADCRUMB_OP
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,15 +18,20 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: D3D12_AUTO_BREADCRUMB_OP
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_AUTO_BREADCRUMB_OP
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_AUTO_BREADCRUMB_OP
+ - d3d12/D3D12_AUTO_BREADCRUMB_OP
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_AUTO_BREADCRUMB_OP
 ---
 
 ## -description
@@ -129,3 +130,4 @@ Defines constants that specify render/compute GPU operations.
 
 * [Core enumerations](/windows/desktop/direct3d12/direct3d-12-enumerations)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

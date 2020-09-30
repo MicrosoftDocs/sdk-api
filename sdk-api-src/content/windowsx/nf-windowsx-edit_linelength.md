@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linelength.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_Edit_LineLength, _win32_Edit_LineLength_cpp, controls.Edit_LineLength, controls._win32_Edit_LineLength, windowsx/Edit_LineLength
-f1_keywords:
-- windowsx/Edit_LineLength
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Edit_LineLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_LineLength
+ - windowsx/Edit_LineLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Edit_LineLength
 ---
 
 # Edit_LineLength macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a> message explicitly.
-
+Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-
 
 ### -param line
 
@@ -71,12 +66,6 @@ Type: <b>int</b>
 
 The zero-based index of the line.
 
-
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>.
-
-
-
+For more information, see <a href="/windows/desktop/Controls/em-linelength">EM_LINELENGTH</a>.

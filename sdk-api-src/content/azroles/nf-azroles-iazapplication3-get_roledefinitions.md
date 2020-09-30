@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9b17c315-4a46-4a74-983f-b07593ff0517
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],RoleDefinitions property, IAzApplication3.RoleDefinitions, IAzApplication3.get_RoleDefinitions, IAzApplication3::RoleDefinitions, IAzApplication3::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleDefinitions, azroles/IAzApplication3::get_RoleDefinitions, get_RoleDefinitions, security.iazapplication3_roledefinitions
-f1_keywords:
-- azroles/IAzApplication3.RoleDefinitions
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication3.RoleDefinitions
-- IAzApplication3.get_RoleDefinitions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication3::get_RoleDefinitions
+ - azroles/IAzApplication3::get_RoleDefinitions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication3.RoleDefinitions
+ - IAzApplication3.get_RoleDefinitions
 ---
 
 # IAzApplication3::get_RoleDefinitions
@@ -50,11 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>RoleDefinitions</b> property gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> object that represents the collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects associated with the current <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication3">IAzApplication3</a> object.
+The <b>RoleDefinitions</b> property gets an <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> object that represents the collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects associated with the current <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication3">IAzApplication3</a> object.
 
 This property is read-only.
 
-
 ## -parameters
-

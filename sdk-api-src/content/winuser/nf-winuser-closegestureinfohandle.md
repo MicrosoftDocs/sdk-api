@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
 ms.date: 12/05/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
-f1_keywords:
-- winuser/CloseGestureInfoHandle
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- CloseGestureInfoHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseGestureInfoHandle
+ - winuser/CloseGestureInfoHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - CloseGestureInfoHandle
 ---
 
 # CloseGestureInfoHandle function
@@ -55,44 +56,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes resources associated with a gesture information handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hGestureInfo
 
 The gesture information handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
      
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-
-
-If an application processes a <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message, it is responsible for
+If an application processes a <a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message, it is responsible for
    closing the handle using this function. Failure to do so may result in
    process memory leaks.
   
 
-If the message is passed to <a href="https://msdn.microsoft.com/library/ms633572.aspx">DefWindowProc</a>, or is forwarded using
+If the message is passed to <a href="/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a>, or is forwarded using
    one of the PostMessage or SendMessage classes of API functions, the handle
    is transferred with the message and need not be closed by the application.
   
@@ -100,7 +88,7 @@ If the message is passed to <a href="https://msdn.microsoft.com/library/ms633572
 
 #### Examples
 
-The following code shows a handler that closes the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle if the gesture has been handled.
+The following code shows a handler that closes the <a href="/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle if the gesture has been handled.
 
 
 ```cpp
@@ -157,21 +145,10 @@ The following code shows a handler that closes the <a href="https://docs.microso
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>

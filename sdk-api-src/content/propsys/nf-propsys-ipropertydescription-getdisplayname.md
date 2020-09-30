@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
-f1_keywords:
-- propsys/IPropertyDescription.GetDisplayName
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescription.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescription::GetDisplayName
+ - propsys/IPropertyDescription::GetDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescription.GetDisplayName
 ---
 
 # IPropertyDescription::GetDisplayName
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the display name of the property as it is shown in any UI.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszName [out]
 
@@ -63,10 +59,7 @@ Type: <b>LPWSTR*</b>
 
 Contains the address of a pointer to the property's name as a null-terminated Unicode string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,33 +104,17 @@ Memory allocation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The information retrieved by this method comes from the <i>singularLabel</i> and <i>pluralLabel</i> attributes of the <a href="/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propdesc file.
 
-
-The information retrieved by this method comes from the <i>singularLabel</i> and <i>pluralLabel</i> attributes of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propdesc file.
-
-It is the responsibility of the calling application to use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the string referred to by <i>ppszDisplayName</i> when it is no longer needed.
-
-
-
+It is the responsibility of the calling application to use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the string referred to by <i>ppszDisplayName</i> when it is no longer needed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
 ms.date: 12/05/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
-f1_keywords:
-- d3d12/ID3D12Device.CreateSharedHandle
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreateSharedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreateSharedHandle
+ - d3d12/ID3D12Device::CreateSharedHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreateSharedHandle
 ---
 
 # ID3D12Device::CreateSharedHandle
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a shared handle to an heap, resource, or fence object.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pObject [in]
 
@@ -97,15 +92,12 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
               Set this member to <b>NULL</b> if you want the runtime to assign a default security descriptor to the resource that is associated with the returned handle.
               The ACLs in the default security descriptor for the resource come from the primary or impersonation token of the creator.
               For more info, see <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
-            
-
 
 ### -param Access
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Currently the only value this parameter accepts is GENERIC_ALL.
-
 
 ### -param Name [in, optional]
 
@@ -130,8 +122,6 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 
 The object can be created in a private namespace.
               For more information, see <a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
-            
-
 
 ### -param pHandle [out]
 
@@ -139,12 +129,8 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HANDLE</a>*</b>
 
 A pointer to a variable that receives the NT HANDLE value to the resource to share.
             You can use this handle in calls to access the resource.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -173,3 +159,4 @@ For Direct3D 12, a shared handle is opened with the <a href="/windows/win32/api/
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

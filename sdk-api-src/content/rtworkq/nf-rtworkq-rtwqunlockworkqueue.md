@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: a7c4c8e2-ad35-4b39-9174-41e2a605304e
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue
-f1_keywords:
-- rtworkq/RtwqUnlockWorkQueue
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqUnlockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqUnlockWorkQueue
+ - rtworkq/RtwqUnlockWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqUnlockWorkQueue
 ---
 
 # RtwqUnlockWorkQueue function
@@ -49,25 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unlocks a work queue.
-
 
 ## -parameters
 
-
-
-
 ### -param workQueueId [in]
 
-Identifier for the work queue to be unlocked. This identifier is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateserialworkqueue">RtwqAllocateSerialWorkQueue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue">RtwqLockSharedWorkQueue</a> functions.
-
+Identifier for the work queue to be unlocked. This identifier is returned by the  <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateserialworkqueue">RtwqAllocateSerialWorkQueue</a>, <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a>, or <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue">RtwqLockSharedWorkQueue</a> functions.
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

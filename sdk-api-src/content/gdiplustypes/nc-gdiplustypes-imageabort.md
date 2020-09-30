@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ImageAbort
 f1_keywords:
+ - ImageAbort
  - gdiplustypes/ImageAbort
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ dev_langs:
 
 **ImageAbort** is the signature of a callback function that you implement in your application. During the process of creating or retrieving a thumbnail image, or drawing an image, GDI+ calls this function to give you the opportunity to abort the process.
 
-Examples of the callback function in use are the corresponding parameters of the [Image::GetThumbnailImage method](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage), and the [Graphics::DrawImage method](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid)).
+Examples of the callback function in use are the corresponding parameters of the [Image::GetThumbnailImage method](../gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage.md), and the [Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid).md).
 
 ## -parameters
 
@@ -63,6 +64,6 @@ Return **TRUE** to abort; otherwise **FALSE**.
 
 ## -see-also
 
-[Image::GetThumbnailImage method](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage)
+[Image::GetThumbnailImage method](../gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage.md)
 
-[Graphics::DrawImage method](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid))
+[Graphics::DrawImage method](../gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid).md)

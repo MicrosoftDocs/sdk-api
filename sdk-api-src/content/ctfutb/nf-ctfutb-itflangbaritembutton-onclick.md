@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
-f1_keywords:
-- ctfutb/ITfLangBarItemButton.OnClick
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemButton.OnClick
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemButton::OnClick
+ - ctfutb/ITfLangBarItemButton::OnClick
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemButton.OnClick
 ---
 
 # ITfLangBarItemButton::OnClick
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
 
-
 ## -parameters
-
-
-
 
 ### -param click [in]
 
 Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the button.
 
-
 ### -param pt [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
-
+Pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
 
 ### -param prcArea [in]
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the bounding rectangle, in screen coordinates, of the button.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,21 +98,14 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembutton">ITfLangBarItemButton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembutton">ITfLangBarItemButton</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -131,7 +115,3 @@ One or more parameters are invalid.
 
 <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
- 
-
- 
-

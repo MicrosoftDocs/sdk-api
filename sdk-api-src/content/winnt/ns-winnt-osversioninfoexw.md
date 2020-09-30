@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 4ab07a72-404d-459b-b061-b3b06b5db37e
 ms.date: 12/05/2018
 ms.keywords: '*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, LPOSVERSIONINFOEX, LPOSVERSIONINFOEX structure pointer, OSVERSIONINFOEX, OSVERSIONINFOEX structure, OSVERSIONINFOEXA, OSVERSIONINFOEXW, POSVERSIONINFOEX, POSVERSIONINFOEX structure pointer, RTL_OSVERSIONINFOEXW, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_MULTIUSERTS, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, VER_SUITE_WH_SERVER, _OSVERSIONINFOEXA, _OSVERSIONINFOEXW, _win32_osversioninfoex_str, base.osversioninfoex_str, winnt/LPOSVERSIONINFOEX, winnt/OSVERSIONINFOEX, winnt/OSVERSIONINFOEXA, winnt/OSVERSIONINFOEXW, winnt/POSVERSIONINFOEX'
-f1_keywords:
-- winnt/OSVERSIONINFOEX
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- OSVERSIONINFOEX
-- OSVERSIONINFOEXA
-- OSVERSIONINFOEXW
 targetos: Windows
 req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OSVERSIONINFOEXW
+ - winnt/_OSVERSIONINFOEXW
+ - POSVERSIONINFOEXW
+ - winnt/POSVERSIONINFOEXW
+ - OSVERSIONINFOEXW
+ - winnt/OSVERSIONINFOEXW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - OSVERSIONINFOEX
+ - OSVERSIONINFOEXA
+ - OSVERSIONINFOEXW
 ---
 
 # OSVERSIONINFOEXW structure
@@ -51,62 +56,49 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains operating system version information. The information includes major and minor version 
     numbers, a build number, a platform identifier, and information about product suites and the latest Service Pack 
     installed on the system. This structure is used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> functions.
-
+    <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> and 
+    <a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field dwOSVersionInfoSize
 
 The size of this data structure, in bytes. Set this member to 
       <code>sizeof(OSVERSIONINFOEX)</code>.
 
-
 ### -field dwMajorVersion
 
-The major version number of the operating system. For more information, see Remarks. 
-
+The major version number of the operating system. For more information, see Remarks.
 
 ### -field dwMinorVersion
 
-The minor version number of the operating system. For more information, see Remarks. 
-
+The minor version number of the operating system. For more information, see Remarks.
 
 ### -field dwBuildNumber
 
 The build number of the operating system.
 
-
 ### -field dwPlatformId
 
 The operating system platform. This member can be <b>VER_PLATFORM_WIN32_NT</b> (2).
-
 
 ### -field szCSDVersion
 
 A null-terminated string, such as "Service Pack 3", that indicates the latest Service Pack 
       installed on the system. If no Service Pack has been installed, the string is empty.
 
-
 ### -field wServicePackMajor
 
 The major version number of the latest Service Pack installed on the system. For example, for Service Pack 
       3, the major version number is 3. If no Service Pack has been installed, the value is zero.
 
-
 ### -field wServicePackMinor
 
 The minor version number of the latest Service Pack installed on the system. For example, for Service Pack 
       3, the minor version number is 0.
-
 
 ### -field wSuiteMask
 
@@ -283,8 +275,6 @@ AppServer mode is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wProductType
 
@@ -335,21 +325,16 @@ The operating system is Windows 8, Windows 7, Windows Vista, Windows XP Prof
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wReserved
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 Relying on version information is not the best way to test for a feature. Instead, refer to the documentation 
     for the feature of interest. For more information on common techniques for feature detection, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
+    <a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
 
 If you must require a particular operating system, be sure to use it as a minimum supported version, rather 
     than design the test for the one operating system. This way, your detection code will continue to work on future 
@@ -479,7 +464,7 @@ The following table summarizes the values returned by supported versions of Wind
 </tr>
 <tr>
 <td colspan="5">
-<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
+<b>*</b> For applications that have been manifested for Windows 8.1 or Windows 10. Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2). To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 </td>
 </tr>
@@ -495,12 +480,12 @@ You should not  rely upon only the <b>VER_SUITE_SMALLBUSINESS</b> flag to determ
     Business Server was once installed on this system. If this installation is further upgraded to Windows Server, 
     Enterprise Edition, the <b>VER_SUITE_SMALLBUSINESS</b> flag will remain set.
 
-If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="https://msdn.microsoft.com/library/bb757005.aspx">application compatibility</a>.
+If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contains information about the operating system that is selected for <a href="/previous-versions/bb757005(v=msdn.10)">application compatibility</a>.
 
 To determine whether a Win32-based application is running on WOW64, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function provides the 
+The <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function provides the 
     following additional information about the current operating system. 
 
 <table>
@@ -531,7 +516,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-g
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
+     <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
@@ -543,19 +528,12 @@ For an example, see
 
 ## -see-also
 
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process">IsWow64Process</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper APIs</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: parcon
+f1_keywords:
+ - wpcapi
+ - wpcapi/wpcapi
 ---
 
 # Wpcapi.h header
 
 
 ## -description
-
 
 This header is used by Parental Controls. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: C9DC823D-46D5-4459-A20A-0969D20C6E9E
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfo, appxpkg.iappxbundlemanifestoptionalbundleinfo
-f1_keywords:
-- appxpackaging/IAppxBundleManifestOptionalBundleInfo
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestOptionalBundleInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestOptionalBundleInfo
+ - appxpackaging/IAppxBundleManifestOptionalBundleInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestOptionalBundleInfo
 ---
 
 # IAppxBundleManifestOptionalBundleInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest. 
-
+Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAppxBundleManifestOptionalBundleInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename">GetFileName</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
@@ -79,7 +78,7 @@ Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid">GetPackageId</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageid">GetPackageId</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
@@ -88,12 +87,11 @@ Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems">GetPackageInfoItems</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfo-getpackageinfoitems">GetPackageInfoItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves optional packages in the bundle.
 
 </td>
 </tr>
-</table> 
-
+</table>

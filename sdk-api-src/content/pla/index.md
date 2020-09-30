@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: pla
+f1_keywords:
+ - pla
+ - pla/pla
 ---
 
 # Pla.h header
 
 
 ## -description
-
 
 This header is used by Performance Logs and Alerts. For more information, see:
 

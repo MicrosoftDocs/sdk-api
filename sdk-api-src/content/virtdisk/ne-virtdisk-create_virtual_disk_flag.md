@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 35dba6c6-2825-425a-b432-a6ac8ad4ea4b
 ms.date: 12/05/2018
 ms.keywords: CREATE_VIRTUAL_DISK_FLAG, CREATE_VIRTUAL_DISK_FLAG enumeration [VHD], CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vdssys/CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, vdssys/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, vdssys/CREATE_VIRTUAL_DISK_FLAG_NONE, vdssys/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vhd.create_virtual_disk_flag, virtdisk/CREATE_VIRTUAL_DISK_FLAG, virtdisk/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, virtdisk/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, virtdisk/CREATE_VIRTUAL_DISK_FLAG_NONE, virtdisk/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK
-f1_keywords:
-- virtdisk/CREATE_VIRTUAL_DISK_FLAG
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VirtDisk.h
-- vdssys.h
-api_name:
-- CREATE_VIRTUAL_DISK_FLAG
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREATE_VIRTUAL_DISK_FLAG
+ - virtdisk/_CREATE_VIRTUAL_DISK_FLAG
+ - CREATE_VIRTUAL_DISK_FLAG
+ - virtdisk/CREATE_VIRTUAL_DISK_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VirtDisk.h
+ - vdssys.h
+api_name:
+ - CREATE_VIRTUAL_DISK_FLAG
 ---
 
 # CREATE_VIRTUAL_DISK_FLAG enumeration
@@ -50,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains virtual hard disk (VHD) creation flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CREATE_VIRTUAL_DISK_FLAG_NONE
 
 No special creation conditions; system defaults are used.
 
-
 ### -field CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION
 
 Pre-allocate all physical space necessary for the size of the virtual disk.
-
 
 ### -field CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK
 
@@ -81,7 +77,6 @@ Take ownership of the source disk during create from source disk, to insure the 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-
 ### -field CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT
 
 Do not copy initial virtual disk metadata or block states from the parent VHD; this is useful if the parent 
@@ -90,47 +85,26 @@ Do not copy initial virtual disk metadata or block states from the parent VHD; t
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-
 ### -field CREATE_VIRTUAL_DISK_FLAG_CREATE_BACKING_STORAGE
-
 
 ### -field CREATE_VIRTUAL_DISK_FLAG_USE_CHANGE_TRACKING_SOURCE_LIMIT
 
-
 ### -field CREATE_VIRTUAL_DISK_FLAG_PRESERVE_PARENT_CHANGE_TRACKING_STATE
-
 
 ### -field CREATE_VIRTUAL_DISK_FLAG_VHD_SET_USE_ORIGINAL_BACKING_STORAGE
 
-
 ### -field CREATE_VIRTUAL_DISK_FLAG_SPARSE_FILE
-
 
 ### -field CREATE_VIRTUAL_DISK_FLAG_PMEM_COMPATIBLE
 
-
-
-
 ## -remarks
-
-
 
 The <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b> flag is used for the creation of a fixed VHD.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

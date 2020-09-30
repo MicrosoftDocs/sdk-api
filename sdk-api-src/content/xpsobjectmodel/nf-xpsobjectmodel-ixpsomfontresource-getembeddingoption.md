@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 8c4b3741-2c9c-4964-ae51-53dd738e8d9b
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddingOption, GetEmbeddingOption method [XPS Documents and Packaging], GetEmbeddingOption method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetEmbeddingOption method, IXpsOMFontResource.GetEmbeddingOption, IXpsOMFontResource::GetEmbeddingOption, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_getembeddingoption, xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption
-f1_keywords:
-- xpsobjectmodel/IXpsOMFontResource.GetEmbeddingOption
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMFontResource.GetEmbeddingOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMFontResource::GetEmbeddingOption
+ - xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMFontResource.GetEmbeddingOption
 ---
 
 # IXpsOMFontResource::GetEmbeddingOption
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the embedding option that will be applied when the resource is serialized.
 
-
 ## -parameters
-
-
-
 
 ### -param embeddingOption [out, retval]
 
@@ -100,24 +96,14 @@ Font resource is both obfuscated and restricted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a>
 
 
 
@@ -126,7 +112,3 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
- 
-
- 
-

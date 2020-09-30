@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
 ms.date: 12/05/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
-f1_keywords:
-- wmcodecdsp/IWMCodecLeakyBucket
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMCodecLeakyBucket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecLeakyBucket
+ - wmcodecdsp/IWMCodecLeakyBucket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMCodecLeakyBucket
 ---
 
 # IWMCodecLeakyBucket interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the "leaky bucket" parameters on a video encoder.
 
-This interface is implemented by all of the encoder objects. You can get a pointer to the <b>IWMCodecLeakyBucket</b> interface for a Windows Media video encoder by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface on the object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>. This interface is not  implemented on any of the decoders.
-
+This interface is implemented by all of the encoder objects. You can get a pointer to the <b>IWMCodecLeakyBucket</b> interface for a Windows Media video encoder by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface on the object, such as <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>. This interface is not  implemented on any of the decoders.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecLeakyBucket</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecLeakyBucket</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecLeakyBucket</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecLeakyBucket</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IWMCodecLeakyBucket</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbufferfullnessbits">GetBufferFullnessBits</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbufferfullnessbits">GetBufferFullnessBits</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
@@ -81,7 +80,7 @@ Not implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbuffersizebits">GetBufferSizeBits</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbuffersizebits">GetBufferSizeBits</a>
 </td>
 <td align="left" width="63%">
 Retrieves the  current size of the buffer in bits.
@@ -90,7 +89,7 @@ Retrieves the  current size of the buffer in bits.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbufferfullnessbits">SetBufferFullnessBits</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbufferfullnessbits">SetBufferFullnessBits</a>
 </td>
 <td align="left" width="63%">
 Not  implemented in this release.
@@ -99,27 +98,19 @@ Not  implemented in this release.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbuffersizebits">SetBufferSizeBits</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbuffersizebits">SetBufferSizeBits</a>
 </td>
 <td align="left" width="63%">
 Sets the buffer size in bits.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/the-leaky-bucket-buffer-model">The Leaky Bucket Buffer Model</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/the-leaky-bucket-buffer-model">The Leaky Bucket Buffer Model</a>

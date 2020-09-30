@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: mbn
+f1_keywords:
+ - mbnapi
+ - mbnapi/mbnapi
 ---
 
 # Mbnapi.h header
 
 
 ## -description
-
 
 This header is used by Mobile Broadband. For more information, see:
 

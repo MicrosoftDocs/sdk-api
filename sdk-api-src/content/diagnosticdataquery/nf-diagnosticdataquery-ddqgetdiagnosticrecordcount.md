@@ -4,7 +4,7 @@ title: DdqGetDiagnosticRecordCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordCount
 ms.topic: language-reference
-description: Fetches number (size) of elements in the resource pointed to by the HDIAGNOSTIC_DATA_RECORD handle. 
+description: Fetches number (size) of elements in the resource pointed to by the HDIAGNOSTIC_DATA_RECORD handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
@@ -36,27 +36,34 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticRecordCount
+f1_keywords:
+ - DdqGetDiagnosticRecordCount
+ - diagnosticdataquery/DdqGetDiagnosticRecordCount
 ---
 
 ## -description
+
 Fetches number (size) of diagnostic records in the resource pointed to by the HDIAGNOSTIC_DATA_RECORD handle.
 
 ## -parameters
 
 ### -param hRecord
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the resource that contains the DIAGNOSTIC_DATA_RECORD list. 
+Handle to the resource that contains the DIAGNOSTIC_DATA_RECORD list.
 
 ### -param recordCount
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
 Number of items in the DIAGNOSTIC_DATA_RECORD list.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
-For more information about diagnostic data record data type, see [**DIAGNOSTIC_DATA_RECORD**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record)
+
+For more information about diagnostic data record data type, see [**DIAGNOSTIC_DATA_RECORD**](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record.md)
 
 ## -see-also
-

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods\fillpie.htm
 ms.date: 12/05/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), Graphics.FillPie(const Brush*,const Rect&,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_
-f1_keywords:
-- gdiplusgraphics/Graphics.FillPie
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.FillPie
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::FillPie
+ - gdiplusgraphics/Graphics::FillPie
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.FillPie
 ---
 
 # Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL)
@@ -50,60 +51,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Graphics::FillPie</b> method uses a brush to fill the interior of a pie. 
-
+The <b>Graphics::FillPie</b> method uses a brush to fill the interior of a pie.
 
 ## -parameters
 
-
-
-
 ### -param brush [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
 
 Pointer to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that is used to paint the interior of the pie. 
-
+					<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that is used to paint the interior of the pie.
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that bounds the ellipse. A curved portion of the ellipse is the arc of the pie. 
-
+Reference to a rectangle that bounds the ellipse. A curved portion of the ellipse is the arc of the pie.
 
 ### -param startAngle [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the angle, in degrees, between the x-axis and the starting point of the pie's arc. 
-
+Real number that specifies the angle, in degrees, between the x-axis and the starting point of the pie's arc.
 
 ### -param sweepAngle [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the angle, in degrees, between the starting and ending points of the pie's arc. 
-
+Real number that specifies the angle, in degrees, between the starting and ending points of the pie's arc.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
-
-
 
 A pie is a portion of the interior of an ellipse (it is bounded by an elliptical curve and two radial lines). The 
 				<i>startAngle</i> and 
@@ -135,29 +120,18 @@ VOID Example_FillPie(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

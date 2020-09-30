@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d
 ms.date: 12/05/2018
 ms.keywords: GPMSOMCollection, IGPMSOMCollection, IGPMSOMCollection interface [GPMC], IGPMSOMCollection interface [GPMC],described, _win32_igpmsomcollection, gpmc.igpmsomcollection, gpmgmt/IGPMSOMCollection
-f1_keywords:
-- gpmgmt/IGPMSOMCollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSOMCollection
-- IGPMSOMCollection.Count
-- IGPMSOMCollection.get_Count
-- IGPMSOMCollection.Item
-- IGPMSOMCollection.get_Item
-- GPMSOMCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSOMCollection
+ - gpmgmt/IGPMSOMCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSOMCollection
+ - IGPMSOMCollection.Count
+ - IGPMSOMCollection.get_Count
+ - IGPMSOMCollection.Item
+ - IGPMSOMCollection.get_Item
+ - GPMSOMCollection
 ---
 
 # IGPMSOMCollection interface
@@ -54,15 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMSOMCollection</b> interface represents a collection of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">GPMSOM</a> objects.
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">GPMSOM</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOMCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSOMCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOMCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSOMCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -78,7 +77,7 @@ The <b>IGPMSOMCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsomcollection-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsomcollection-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface on an enumerator object for the collection.
@@ -112,24 +111,16 @@ A specific element from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>

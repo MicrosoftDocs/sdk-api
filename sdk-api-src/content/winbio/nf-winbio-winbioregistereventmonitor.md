@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
 ms.date: 12/05/2018
 ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
-f1_keywords:
-- winbio/WinBioRegisterEventMonitor
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioRegisterEventMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioRegisterEventMonitor
+ - winbio/WinBioRegisterEventMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioRegisterEventMonitor
 ---
 
 # WinBioRegisterEventMonitor function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinBioRegisterEventMonitor</b> function Registers a callback function to receive event notifications from the service provider associated with an open session.
-
 
 ## -parameters
 
-
-
-
 ### -param SessionHandle [in]
 
-A <b>WINBIO_SESSION_HANDLE</b> value that identifies the open biometric session. Open the session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
-
+A <b>WINBIO_SESSION_HANDLE</b> value that identifies the open biometric session. Open the session handle by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
 
 ### -param EventMask [in]
 
@@ -78,22 +73,17 @@ A value that specifies the types of events to monitor. Only the fingerprint prov
 
 ###### )
 
-
 ### -param EventCallback [in]
 
 Address of a callback function that receives the event notifications sent by the Windows Biometric Framework. You must define this function.
-
 
 ### -param EventCallbackContext [in]
 
 An optional application-defined value that is returned in the <i>pvContext</i> parameter of the callback function. This value can contain any data that the custom callback function is designed to handle.
 
-
 ## -returns
 
-
-
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -156,26 +146,20 @@ The service provider does not support event notification.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is only valid for sessions connected to a System sensor pool.
 
 Event callbacks are delivered to the client application serially. Therefore, subsequent event notifications will not  be delivered until the client returns from the current callback. Events that occur while a callback is still executing may be discarded by the system. To avoid losing events, you should not perform any time-consuming work in your callback routine.
 
-The client application should be prepared to receive events as soon as <b>WinBioRegisterEventMonitor</b> is called. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the structure returned in the <i>Event</i> argument of the callback. Failure to do so will result in a memory leak in the calling process.
+The client application should be prepared to receive events as soon as <b>WinBioRegisterEventMonitor</b> is called. The application must call <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the structure returned in the <i>Event</i> argument of the callback. Failure to do so will result in a memory leak in the calling process.
 
 After  an event monitor has been started, the session with which the monitor is associated will not be able to process other Windows Biometric Framework API calls until the event monitor has been stopped. If your application needs to perform other API calls while still receiving event monitor notifications, you should open two sessions - one for the event monitor and another for other operations.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a> to stop sending event notifications to your callback function.
+Call <a href="/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a> to stop sending event notifications to your callback function.
 
-If an application registers a <b>WinBio</b> event monitor and leaves that monitor active during a sleep/wake cycle, systems that implement biometric pre-boot authentication (PBA)/single sign-on features may not always work. The problem is that the PBA biometric call is intercepted by the event monitor before the system's biometric credential provider has a chance to perform its first <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a> operation. Apps that use the <b>WinBio</b> event monitoring feature should unregister their monitors before the system sleeps, and re-register them after system wakeup. For more information on handling events during power state changes, see  <a href="https://docs.microsoft.com/windows/desktop/Power/about-power-management">About Power Management</a>.
+If an application registers a <b>WinBio</b> event monitor and leaves that monitor active during a sleep/wake cycle, systems that implement biometric pre-boot authentication (PBA)/single sign-on features may not always work. The problem is that the PBA biometric call is intercepted by the event monitor before the system's biometric credential provider has a chance to perform its first <a href="/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a> operation. Apps that use the <b>WinBio</b> event monitoring feature should unregister their monitors before the system sleeps, and re-register them after system wakeup. For more information on handling events during power state changes, see  <a href="/windows/desktop/Power/about-power-management">About Power Management</a>.
 
 The callback routine must have the following signature:
 
@@ -365,21 +349,10 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiounregistereventmonitor">WinBioUnregisterEventMonitor</a>

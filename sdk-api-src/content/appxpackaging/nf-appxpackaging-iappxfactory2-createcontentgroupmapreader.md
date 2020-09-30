@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 42453BD7-AB65-49E0-86C0-4F96B4234397
 ms.date: 12/05/2018
 ms.keywords: CreateContentGroupMapReader, CreateContentGroupMapReader method [App packaging and management], CreateContentGroupMapReader method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapReader method, IAppxFactory2.CreateContentGroupMapReader, IAppxFactory2::CreateContentGroupMapReader, appxpackaging/IAppxFactory2::CreateContentGroupMapReader, appxpkg.iappxfactory2_createcontentgroupmapreader
-f1_keywords:
-- appxpackaging/IAppxFactory2.CreateContentGroupMapReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFactory2.CreateContentGroupMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFactory2::CreateContentGroupMapReader
+ - appxpackaging/IAppxFactory2::CreateContentGroupMapReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFactory2.CreateContentGroupMapReader
 ---
 
 # IAppxFactory2::CreateContentGroupMapReader
@@ -49,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupmapreader">IAppxContentGroupMapReader</a>.
-
+Creates an <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupmapreader">IAppxContentGroupMapReader</a>.
 
 ## -parameters
-
-
-
 
 ### -param inputStream [in]
 
 The stream that delivers the content group map XML for reading.
 
-
 ### -param contentGroupMapReader [out, retval]
 
 The content group map reader.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory2">IAppxFactory2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory2">IAppxFactory2</a>

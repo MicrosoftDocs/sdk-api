@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: e62e2bde-485d-42d4-b824-a682ab9e16ca
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetErrorDescription method, IBackgroundCopyManager.GetErrorDescription, IBackgroundCopyManager::GetErrorDescription, _drz_ibackgroundcopymanager_geterrordescription, bits.ibackgroundcopymanager_geterrordescription, bits/IBackgroundCopyManager::GetErrorDescription
-f1_keywords:
-- bits/IBackgroundCopyManager.GetErrorDescription
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyManager.GetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyManager::GetErrorDescription
+ - bits/IBackgroundCopyManager::GetErrorDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyManager.GetErrorDescription
 ---
 
 # IBackgroundCopyManager::GetErrorDescription
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a description for the specified error code.
 
-
 ## -parameters
-
-
-
 
 ### -param hResult [in]
 
 Error code from a previous call to a BITS method.
 
-
 ### -param LanguageId [in]
 
 Identifies the language identifier to use to generate the description. To create the language identifier, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -77,16 +72,12 @@ To retrieve the system's default user language identifier, use the following cal
 
 <code>LANGIDFROMLCID(GetThreadLocale())</code>
 
-
 ### -param pErrorDescription [out]
 
 Null-terminated string that contains a description of the error. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppErrorDescription</i> when done.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -118,14 +109,8 @@ No string is available for the locale.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Descriptions for HTTP errors are  localized.
 
@@ -135,9 +120,9 @@ Descriptions for HTTP errors are  localized.
 #### Examples
 
 The following example shows how to retrieve the description associated with an error code. The g_XferManager variable in the example is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a> interface pointer. For details on creating the 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager</a> interface pointer. For details on creating the 
 <b>IBackgroundCopyManager</b> interface pointer, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
+<a href="/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
 
 
 ```cpp
@@ -158,25 +143,14 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Bits/handling-errors">Handling Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/handling-errors">Handling Errors</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlastactivepopup.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastActivePopup, GetLastActivePopup function [Windows and Messages], _win32_GetLastActivePopup, _win32_getlastactivepopup_cpp, winmsg.getlastactivepopup, winui._win32_getlastactivepopup, winuser/GetLastActivePopup
-f1_keywords:
-- winuser/GetLastActivePopup
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- GetLastActivePopup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLastActivePopup
+ - winuser/GetLastActivePopup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - GetLastActivePopup
 ---
 
 # GetLastActivePopup function
@@ -51,25 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines which pop-up window owned by the specified window was most recently active. 
-
+Determines which pop-up window owned by the specified window was most recently active.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the owner window. 
-
+A handle to the owner window.
 
 ## -returns
-
-
 
 Type: <b>HWND</b>
 
@@ -81,14 +74,9 @@ The return value identifies the most recently active pop-up window. The return v
 <li>The window identifies by hWnd is not a top-level window, or it is owned by another window.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-anypopup">AnyPopup</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-anypopup">AnyPopup</a>
 
 
 
@@ -100,12 +88,8 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 385b2f9d-659e-451d-97da-15be70180e1f
 ms.date: 12/05/2018
 ms.keywords: ACT_AUTHORIZATION_STATE, ACT_AUTHORIZATION_STATE structure [Enhanced Storage], PACT_AUTHORIZATION_STATE, PACT_AUTHORIZATION_STATE structure pointer [Enhanced Storage], ehstorapi/ACT_AUTHORIZATION_STATE, ehstorapi/PACT_AUTHORIZATION_STATE, enstor.act_authorization_state
-f1_keywords:
-- ehstorapi/ACT_AUTHORIZATION_STATE
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorAPI.h
-api_name:
-- ACT_AUTHORIZATION_STATE
 targetos: Windows
 req.typenames: ACT_AUTHORIZATION_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ACT_AUTHORIZATION_STATE
+ - ehstorapi/_ACT_AUTHORIZATION_STATE
+ - ACT_AUTHORIZATION_STATE
+ - ehstorapi/ACT_AUTHORIZATION_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorAPI.h
+api_name:
+ - ACT_AUTHORIZATION_STATE
 ---
 
 # ACT_AUTHORIZATION_STATE structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ACT_AUTHORIZATION_STATE</b> structure contains data that describes the current authorization state of a Addressable Command Target (ACT).
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulState
 
@@ -90,5 +88,4 @@ The ACT is authorized
 </td>
 </tr>
 </table>
- 
 

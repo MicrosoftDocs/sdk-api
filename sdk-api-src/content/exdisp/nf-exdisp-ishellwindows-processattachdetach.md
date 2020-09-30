@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 79bc04f0-7b03-40aa-8324-7b4eccc8c527
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],ProcessAttachDetach method, IShellWindows.ProcessAttachDetach, IShellWindows::ProcessAttachDetach, ProcessAttachDetach, ProcessAttachDetach method [Windows Shell], ProcessAttachDetach method [Windows Shell],IShellWindows interface, _win32_IShellWindows_ProcessAttachDetach, exdisp/IShellWindows::ProcessAttachDetach, shell.IShellWindows_ProcessAttachDetach
-f1_keywords:
-- exdisp/IShellWindows.ProcessAttachDetach
-dev_langs:
-- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IShellWindows.ProcessAttachDetach
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5
 ms.custom: 19H1
+f1_keywords:
+ - IShellWindows::ProcessAttachDetach
+ - exdisp/IShellWindows::ProcessAttachDetach
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IShellWindows.ProcessAttachDetach
 ---
 
 # IShellWindows::ProcessAttachDetach
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Always returns S_OK.
 
-
 ## -parameters
-
-
-
 
 ### -param fAttach [in]
 
@@ -65,14 +61,9 @@ Type: <b>VARIANT_BOOL</b>
 
 Not used.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-
-
 

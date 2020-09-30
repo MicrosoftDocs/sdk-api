@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: CEA749C5-1DD0-4207-83BA-905B8838A923
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory2, IAppxEncryptionFactory2 interface [App packaging and management], IAppxEncryptionFactory2 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory2, appxpkg.iappxencryptionfactory2
-f1_keywords:
-- appxpackaging/IAppxEncryptionFactory2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptionFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptionFactory2
+ - appxpackaging/IAppxEncryptionFactory2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptionFactory2
 ---
 
 # IAppxEncryptionFactory2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects for encrypting, decrypting,  reading, and writing Windows app packages and bundles.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptionFactory2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptionFactory2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptionFactory2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptionFactory2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>IAppxEncryptionFactory2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory2-createencryptedpackagewriter">CreateEncryptedPackageWriter</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory2-createencryptedpackagewriter">CreateEncryptedPackageWriter</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance of an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>.
+Creates a new instance of an <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>.
 
 </td>
 </tr>
-</table> 
-
+</table>

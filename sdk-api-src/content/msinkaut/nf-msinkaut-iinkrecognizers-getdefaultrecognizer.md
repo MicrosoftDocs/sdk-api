@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 499a257d-72de-4121-a98f-c827a3fef611
 ms.date: 12/05/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
-f1_keywords:
-- msinkaut/IInkRecognizers.GetDefaultRecognizer
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizers.GetDefaultRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizers::GetDefaultRecognizer
+ - msinkaut/IInkRecognizers::GetDefaultRecognizer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizers.GetDefaultRecognizer
 ---
 
 # IInkRecognizers::GetDefaultRecognizer
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the default recognizer for a known language, specified by a national language support (NLS) language code identifier (LCID).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lcid [in]
 
  The LCID locale identifier of the language for which you are retrieving the default recognizer. If <i>lcid</i> is 0, the method uses the user's locale setting to determine which default recognizer to retrieve. If the user has not specified a locale in Regional Options, the method uses the locale that was specified for the computer. The default value is 0.
 
-
 ### -param DefaultRecognizer [out, retval]
 
 When this method returns, contains a pointer to the requested recognizer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,14 +128,8 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each language can have a default recognizer. For example, a user can have a default recognizer for U.S. English and a default recognizer for French. If no locale is specified, this method returns the recognizer for the active input locale. To select the active input locale, in the Regional and Language Options in ControlPanel, on the Languages tab, users click Details, and then select the Default input language.
 
@@ -156,17 +139,11 @@ This method generates an error if the <i>lcid</i> parameter is not a known local
 
 <b>GetDefaultRecognizer</b> first checks if there is a matching recognizer for the user's input locale. If there is none, it checks if there is a matching recognizer for the current system locale.
 
-For more information about NLS, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
-
-
-
+For more information about NLS, see <a href="/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
@@ -174,8 +151,4 @@ For more information about NLS, see <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>

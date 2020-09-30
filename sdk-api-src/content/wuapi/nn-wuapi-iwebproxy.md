@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.date: 12/05/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
-f1_keywords:
-- wuapi/IWebProxy
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWebProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebProxy
+ - wuapi/IWebProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWebProxy
 ---
 
 # IWebProxy interface
@@ -49,13 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the HTTP proxy settings.
 <div class="alert"><b>Important</b>  This interface is not supported on Windows 10 and Windows Server 2016. See the remarks for more details.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IWebProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentials">PromptForCredentials</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentials">PromptForCredentials</a>
 </td>
 <td align="left" width="63%">
 Prompts the user for the password to use for proxy authentication.
@@ -80,7 +80,7 @@ Prompts the user for the password to use for proxy authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentialsfromhwnd">PromptForCredentialsFromHwnd</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentialsfromhwnd">PromptForCredentialsFromHwnd</a>
 </td>
 <td align="left" width="63%">
 Prompts the user for the password to use for proxy authentication.
@@ -89,7 +89,7 @@ Prompts the user for the password to use for proxy authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-setpassword">SetPassword</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Sets the password to submit to the proxy server for authentication.
@@ -107,7 +107,7 @@ Sets the password to submit to the proxy server for authentication.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_address">Address</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_address">Address</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Gets and sets the address and the decimal port number of the proxy server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_autodetect">AutoDetect</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_autodetect">AutoDetect</a>
 
 
 </td>
@@ -139,7 +139,7 @@ Gets and sets a Boolean value that indicates whether <b>IWebProxy</b>  automatic
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypasslist">BypassList</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypasslist">BypassList</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Gets and sets a collection of addresses that do not use the proxy server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal">BypassProxyOnLocal</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal">BypassProxyOnLocal</a>
 
 
 </td>
@@ -171,7 +171,7 @@ Gets and sets a Boolean value that indicates whether local addresses  bypass the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_readonly">ReadOnly</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -187,7 +187,7 @@ Gets a Boolean value that indicates whether the <b>WebProxy</b> object is read-o
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_username">UserName</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_username">UserName</a>
 
 
 </td>
@@ -200,16 +200,11 @@ Gets and sets the user name to submit to the proxy server for authentication.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can create an instance of this interface by using the WebProxy coclass. Use the Microsoft.Update.WebProxy program identifier to create the object.
 
 <div class="alert"><b>Important</b>  This interface is not supported on Windows 10 and Windows Server 2016. To configure proxy settings on  these operating systems (including proxy settings for  Windows Update Agent), use the  <b>Proxy</b> page of the <b>Network &amp; Internet</b> section in <b>Settings</b>. You can optionally use a <a href="https://en.wikipedia.org/wiki/Proxy_auto-config">proxy auto-config script</a> to apply settings. If you configure proxy settings, be sure to allow access to the domains used by Windows Update listed in <a href="https://support.microsoft.com/help/3084568/">this article</a>.</div>
 <div> </div>
-
-

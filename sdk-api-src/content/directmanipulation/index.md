@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: directmanipulation
+f1_keywords:
+ - directmanipulation
+ - directmanipulation/directmanipulation
 ---
 
 # Directmanipulation.h header
 
 
 ## -description
-
 
 This header is used by Direct Manipulation. For more information, see:
 

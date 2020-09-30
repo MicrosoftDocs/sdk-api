@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 27ef4cab-9aa5-4aa2-9e2e-fb16aae99045
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [NativeWIFI], Clone method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Clone method, IEnumDot11AdHocSecuritySettings.Clone, IEnumDot11AdHocSecuritySettings::Clone, adhoc/IEnumDot11AdHocSecuritySettings::Clone, nwifi.ienumdot11adhocsecuritysettings_clone
-f1_keywords:
-- adhoc/IEnumDot11AdHocSecuritySettings.Clone
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocSecuritySettings.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocSecuritySettings::Clone
+ - adhoc/IEnumDot11AdHocSecuritySettings::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocSecuritySettings.Clone
 ---
 
 # IEnumDot11AdHocSecuritySettings::Clone
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new enumeration interface.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-A pointer that, on successful return, points to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>interface.
-
+A pointer that, on successful return, points to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>interface.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -141,18 +134,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>

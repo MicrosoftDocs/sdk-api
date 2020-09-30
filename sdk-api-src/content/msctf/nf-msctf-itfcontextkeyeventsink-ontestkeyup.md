@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0905b5e0-077e-4867-affa-9b2b542ec53d
 ms.date: 12/05/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfContextKeyEventSink.OnTestKeyUp, ITfContextKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_ontestkeyup_ref, msctf/ITfContextKeyEventSink::OnTestKeyUp, tsf.itfcontextkeyeventsink_ontestkeyup
-f1_keywords:
-- msctf/ITfContextKeyEventSink.OnTestKeyUp
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mscandui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mscandui.dll
-api_name:
-- ITfContextKeyEventSink.OnTestKeyUp
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextKeyEventSink::OnTestKeyUp
+ - msctf/ITfContextKeyEventSink::OnTestKeyUp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mscandui.dll
+api_name:
+ - ITfContextKeyEventSink.OnTestKeyUp
 ---
 
 # ITfContextKeyEventSink::OnTestKeyUp
@@ -53,27 +54,19 @@ Called to determine if a text service will handle a key up event.
 
 ## -parameters
 
-
-
-
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
-
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
-
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param pfEaten [out]
 
 Pointer to a BOOL value that, on exit, indicates if the key event is handled. If this value receives <b>TRUE</b>, the key event is handled. If this value receives <b>FALSE</b>, the key event would is not handled.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,10 +87,6 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 

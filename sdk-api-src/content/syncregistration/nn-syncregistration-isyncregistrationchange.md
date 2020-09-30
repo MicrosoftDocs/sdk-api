@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c
 ms.date: 12/05/2018
 ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows Sync], ISyncRegistrationChange interface [Windows Sync],described, syncregistration/ISyncRegistrationChange, winsync.isyncregistrationchange
-f1_keywords:
-- syncregistration/ISyncRegistrationChange
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncRegistrationChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncRegistrationChange
+ - syncregistration/ISyncRegistrationChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncRegistrationChange
 ---
 
 # ISyncRegistrationChange interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISyncRegistrationChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Gets the next pending registration event.
@@ -79,23 +78,15 @@ Gets the next pending registration event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
 </td>
 <td align="left" width="63%">
 Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>

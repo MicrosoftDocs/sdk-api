@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
-f1_keywords:
-- msvidctl/IMSVidCtl
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl
+ - msvidctl/IMSVidCtl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl
 ---
 
 # IMSVidCtl interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IMSVidCtl</b> interface is the main interface for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a>. It contains methods to enumerate available devices and features, and to select which features and devices will be active. It also contains methods to build, stop, start, and pause the filter graph.
-
-
-
+The <b>IMSVidCtl</b> interface is the main interface for the <a href="/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a>. It contains methods to enumerate available devices and features, and to select which features and devices will be active. It also contains methods to build, stop, start, and pause the filter graph.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidCtl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidCtl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidCtl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidCtl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IMSVidCtl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a>
 </td>
 <td align="left" width="63%">
 Builds the underlying filter graph and connects all the filters.
@@ -82,7 +78,7 @@ Builds the underlying filter graph and connects all the filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-decompose">Decompose</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-decompose">Decompose</a>
 </td>
 <td align="left" width="63%">
 Disassembles the filter graph.
@@ -91,7 +87,7 @@ Disassembles the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-disableaudio">DisableAudio</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-disableaudio">DisableAudio</a>
 </td>
 <td align="left" width="63%">
 Disables the audio output device.
@@ -100,7 +96,7 @@ Disables the audio output device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-disablevideo">DisableVideo</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-disablevideo">DisableVideo</a>
 </td>
 <td align="left" width="63%">
 Disables the video output device.
@@ -109,7 +105,7 @@ Disables the video output device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get__inputsavailable">get__InputsAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get__inputsavailable">get__InputsAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of inputs available on the local system.
@@ -118,7 +114,7 @@ Retrieves a collection of inputs available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get__outputsavailable">get__OutputsAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get__outputsavailable">get__OutputsAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of outputs for a specified category that are available on the local system.
@@ -127,7 +123,7 @@ Retrieves a collection of outputs for a specified category that are available on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">get_AudioRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">get_AudioRendererActive</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently active audio renderer.
@@ -136,7 +132,7 @@ Retrieves the currently active audio renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">get_AudioRenderersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">get_AudioRenderersAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection containing the available audio renderers.
@@ -145,7 +141,7 @@ Retrieves a collection containing the available audio renderers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_autosize">get_AutoSize</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_autosize">get_AutoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that determines whether the Video Control is automatically resized to display its entire contents.
@@ -154,7 +150,7 @@ Retrieves a value that determines whether the Video Control is automatically res
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_backcolor">get_BackColor</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_backcolor">get_BackColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color of the Video Control.
@@ -163,7 +159,7 @@ Retrieves the background color of the Video Control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_colorkey">get_ColorKey</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_colorkey">get_ColorKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color key.
@@ -172,7 +168,7 @@ Retrieves the color key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_displaysize">get_DisplaySize</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_displaysize">get_DisplaySize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display size.
@@ -181,7 +177,7 @@ Retrieves the display size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_enabled">get_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that determines whether the Video Control can respond to user-generated events.
@@ -190,7 +186,7 @@ Retrieves a value that determines whether the Video Control can respond to user-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_featuresactive">get_FeaturesActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_featuresactive">get_FeaturesActive</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of the features that are currently active.
@@ -199,7 +195,7 @@ Retrieves a collection of the features that are currently active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable">get_FeaturesAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable">get_FeaturesAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of features available on the local system.
@@ -208,7 +204,7 @@ Retrieves a collection of features available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">get_InputActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">get_InputActive</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently active input device.
@@ -217,7 +213,7 @@ Retrieves the currently active input device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">get_InputsAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">get_InputsAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of inputs available on the local system.
@@ -226,7 +222,7 @@ Retrieves a collection of inputs available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_maintainaspectratio">get_MaintainAspectRatio</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_maintainaspectratio">get_MaintainAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the Video Control should maintain the aspect ratio of the source video when resizing its own rectangle.
@@ -235,7 +231,7 @@ Retrieves a value indicating whether the Video Control should maintain the aspec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_outputsactive">get_OutputsActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_outputsactive">get_OutputsActive</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently active output device collection.
@@ -244,7 +240,7 @@ Retrieves the currently active output device collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_outputsavailable">get_OutputsAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_outputsavailable">get_OutputsAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of outputs for a specified category that are available on the local system.
@@ -253,7 +249,7 @@ Retrieves a collection of outputs for a specified category that are available on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_state">get_State</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the Video Control.
@@ -262,7 +258,7 @@ Retrieves the state of the Video Control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_tabstop">get_TabStop</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_tabstop">get_TabStop</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether a user can use the TAB key to give the focus to the Video Control.
@@ -271,7 +267,7 @@ Retrieves a value indicating whether a user can use the TAB key to give the focu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">get_VideoRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">get_VideoRendererActive</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently active video renderer.
@@ -280,7 +276,7 @@ Retrieves the currently active video renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">get_VideoRenderersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">get_VideoRenderersAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of video renderers available on the local system.
@@ -289,7 +285,7 @@ Retrieves a collection of video renderers available on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_window">get_Window</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_window">get_Window</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window handle associated with the Video Control.
@@ -298,7 +294,7 @@ Retrieves the window handle associated with the Video Control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-pause">Pause</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the filter graph.
@@ -307,7 +303,7 @@ Pauses the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_audiorendereractive">put_AudioRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_audiorendereractive">put_AudioRendererActive</a>
 </td>
 <td align="left" width="63%">
 Sets the currently active audio renderer.
@@ -316,7 +312,7 @@ Sets the currently active audio renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_autosize">put_AutoSize</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_autosize">put_AutoSize</a>
 </td>
 <td align="left" width="63%">
 Sets a value that determines whether the Video Control is automatically resized to display its entire contents.
@@ -325,7 +321,7 @@ Sets a value that determines whether the Video Control is automatically resized 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_backcolor">put_BackColor</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_backcolor">put_BackColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color of the Video Control.
@@ -334,7 +330,7 @@ Sets the background color of the Video Control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_colorkey">put_ColorKey</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_colorkey">put_ColorKey</a>
 </td>
 <td align="left" width="63%">
 Sets the color key.
@@ -343,7 +339,7 @@ Sets the color key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_displaysize">put_DisplaySize</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_displaysize">put_DisplaySize</a>
 </td>
 <td align="left" width="63%">
 Sets the display size.
@@ -352,7 +348,7 @@ Sets the display size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_enabled">put_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_enabled">put_Enabled</a>
 </td>
 <td align="left" width="63%">
 Sets a value that determines whether the Video Control can respond to user-generated events.
@@ -361,7 +357,7 @@ Sets a value that determines whether the Video Control can respond to user-gener
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_featuresactive">put_FeaturesActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_featuresactive">put_FeaturesActive</a>
 </td>
 <td align="left" width="63%">
 Sets a collection of the features that are currently active.
@@ -370,7 +366,7 @@ Sets a collection of the features that are currently active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">put_InputActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">put_InputActive</a>
 </td>
 <td align="left" width="63%">
 Sets the currently active input device.
@@ -379,7 +375,7 @@ Sets the currently active input device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_maintainaspectratio">put_MaintainAspectRatio</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_maintainaspectratio">put_MaintainAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether the Video Control should maintain the aspect ratio of the source video when resizing its own rectangle.
@@ -388,7 +384,7 @@ Sets a value indicating whether the Video Control should maintain the aspect rat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_outputsactive">put_OutputsActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_outputsactive">put_OutputsActive</a>
 </td>
 <td align="left" width="63%">
 Sets the currently active output device collection.
@@ -397,7 +393,7 @@ Sets the currently active output device collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_tabstop">put_TabStop</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_tabstop">put_TabStop</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether a user can use the TAB key to give the focus to the Video Control.
@@ -406,7 +402,7 @@ Sets a value indicating whether a user can use the TAB key to give the focus to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_videorendereractive">put_VideoRendererActive</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_videorendereractive">put_VideoRendererActive</a>
 </td>
 <td align="left" width="63%">
 Sets the currently active video renderer.
@@ -415,7 +411,7 @@ Sets the currently active video renderer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-refresh">Refresh</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the graph configuration and the video display rectangle.
@@ -424,7 +420,7 @@ Refreshes the graph configuration and the video display rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">Run</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the filter graph.
@@ -433,7 +429,7 @@ Runs the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-stop">Stop</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the filter graph.
@@ -442,7 +438,7 @@ Stops the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">View</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">View</a>
 </td>
 <td align="left" width="63%">
 Selects an input device that is capable of handling a specified tune request.
@@ -451,40 +447,27 @@ Selects an input device that is capable of handling a specified tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-viewnext">ViewNext</a>
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-viewnext">ViewNext</a>
 </td>
 <td align="left" width="63%">
 Finds another input device for viewing the specified item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidCtl)</code>.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/mstv/using-the-video-control">Using the Video Control</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/using-the-video-control">Using the Video Control</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Count property, IFaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_count_cpp, faxcomex/IFaxOutboundRoutingGroups::Count, faxcomex/IFaxOutboundRoutingGroups::get_Count, get_Count
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingGroups.Count
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingGroups.Count
-- IFaxOutboundRoutingGroups.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingGroups::get_Count
+ - faxcomex/IFaxOutboundRoutingGroups::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingGroups.Count
+ - IFaxOutboundRoutingGroups.get_Count
 ---
 
 # IFaxOutboundRoutingGroups::get_Count
@@ -50,30 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Count</b> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroups">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroups">FaxOutboundRoutingGroups</a> collection. This is the total number of outbound routing groups associated with the fax server.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroups">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroups">FaxOutboundRoutingGroups</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutinggroups">IFaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutinggroups">IFaxOutboundRoutingGroups</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>

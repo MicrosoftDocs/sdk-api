@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 9b3e2788-176c-41be-8ae3-244ed93ff4f8
 ms.date: 12/05/2018
 ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDRAW_NOTKEYFRAME, ICDRAW_NULLFRAME, ICDRAW_PREROLL, ICDRAW_UPDATE, multimedia.icdraw_COLLISION9, multimedia.icdraw_struct, vfw/ICDRAW
-f1_keywords:
-- vfw/ICDRAW
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDRAW
 targetos: Windows
 req.typenames: ICDRAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDRAW
+ - vfw/ICDRAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDRAW
 ---
 
 # ICDRAW structure
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ICDRAW</b> structure contains parameters for drawing video data to the screen. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a> message.
-
-
-
+The <b>ICDRAW</b> structure contains parameters for drawing video data to the screen. This structure is used with the <a href="/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -127,48 +120,31 @@ Updates the screen based on data previously received. In this case, <b>lpData</b
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpFormat
 
-Pointer to a structure containing the data format. For video streams, this is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
-          
-
+Pointer to a structure containing the data format. For video streams, this is a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ### -field lpData
 
 Pointer to the data to render.
-          
-
 
 ### -field cbData
 
 Number of data bytes to render.
-          
-
 
 ### -field lTime
 
 Time, in samples, when this data should be drawn. For video data this is normally a frame number.
-          
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw">ICM_DRAW</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

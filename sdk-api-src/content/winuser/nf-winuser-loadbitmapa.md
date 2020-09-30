@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
 ms.date: 12/05/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
-f1_keywords:
-- winuser/LoadBitmap
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- LoadBitmap
-- LoadBitmapA
-- LoadBitmapW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadBitmapA
+ - winuser/LoadBitmapA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - LoadBitmap
+ - LoadBitmapA
+ - LoadBitmapW
 ---
 
 # LoadBitmapA function
@@ -53,45 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>LoadBitmap</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawframecontrol">DrawFrameControl</a>.]
+<p class="CCE_Message">[<b>LoadBitmap</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> and <a href="/windows/desktop/api/winuser/nf-winuser-drawframecontrol">DrawFrameControl</a>.]
 
 The <b>LoadBitmap</b> function loads the specified bitmap resource from a module's executable file.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstance [in]
 
 A handle to the instance of the module whose executable file contains the bitmap to be loaded.
 
-
 ### -param lpBitmapName [in]
 
-A pointer to a null-terminated string that contains the name of the bitmap resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro can be used to create this value.
-
+A pointer to a null-terminated string that contains the name of the bitmap resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. The <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro can be used to create this value.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to the specified bitmap.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the bitmap pointed to by the <i>lpBitmapName</i> parameter does not exist or there is insufficient memory to load the bitmap, the function fails.
 
-<b>LoadBitmap</b> creates a compatible bitmap of the display, which cannot be selected to a printer. To load a bitmap that you can select to a printer, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> and specify LR_CREATEDIBSECTION to create a DIB section. A DIB section can be selected to any device.
+<b>LoadBitmap</b> creates a compatible bitmap of the display, which cannot be selected to a printer. To load a bitmap that you can select to a printer, call <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> and specify LR_CREATEDIBSECTION to create a DIB section. A DIB section can be selected to any device.
 
 An application can use the <b>LoadBitmap</b> function to access predefined bitmaps. To do so, the application must set the <i>hInstance</i> parameter to <b>NULL</b> and the <i>lpBitmapName</i> parameter to one of the following values.
 
@@ -175,12 +162,12 @@ Bitmap names that begin with OBM_OLD represent bitmaps used by 16-bit versions o
 
 For an application to use any of the OBM_ constants, the constant OEMRESOURCE must be defined before the Windows.h header file is included.
 
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete each bitmap handle returned by the <b>LoadBitmap</b> function.
+The application must call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete each bitmap handle returned by the <b>LoadBitmap</b> function.
 
 
 #### Examples
 
-For an example, see Example of Menu-Item Bitmaps in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For an example, see Example of Menu-Item Bitmaps in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -192,43 +179,36 @@ For an example, see Example of Menu-Item Bitmaps in <a href="https://docs.micros
 
 ## -see-also
 
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawframecontrol">DrawFrameControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawframecontrol">DrawFrameControl</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>

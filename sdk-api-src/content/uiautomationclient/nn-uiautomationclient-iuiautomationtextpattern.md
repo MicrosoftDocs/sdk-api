@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], IUIAutomationTextPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextPattern, uiauto_IUIAutomationTextPattern, uiautomationclient/IUIAutomationTextPattern, winauto.uiauto_IUIAutomationTextPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationTextPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationTextPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextPattern
+ - uiautomationclient/IUIAutomationTextPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationTextPattern
 ---
 
 # IUIAutomationTextPattern interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a control that contains text.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTextPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTextPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTextPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUIAutomationTextPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getselection">GetSelection</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
@@ -80,7 +79,7 @@ Retrieves a collection of text ranges that represents the currently selected tex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-getvisibleranges">GetVisibleRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
@@ -89,7 +88,7 @@ Retrieves an array of disjoint text ranges from a text-based control where each 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild">RangeFromChild</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild">RangeFromChild</a>
 </td>
 <td align="left" width="63%">
 Retrieves a text range enclosing a child element such as an image, hyperlink, Microsoft Excel spreadsheet, or other embedded object.
@@ -98,7 +97,7 @@ Retrieves a text range enclosing a child element such as an image, hyperlink, Mi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefrompoint">RangeFromPoint</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefrompoint">RangeFromPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
@@ -116,7 +115,7 @@ Retrieves the degenerate (empty) text range nearest to the specified screen coor
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_documentrange">DocumentRange</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_documentrange">DocumentRange</a>
 
 
 </td>
@@ -132,7 +131,7 @@ Retrieves a text range that encloses the main text of a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_supportedtextselection">SupportedTextSelection</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-get_supportedtextselection">SupportedTextSelection</a>
 
 
 </td>
@@ -146,16 +145,8 @@ Retrieves a value that specifies the type of text selection that is supported by
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
-f1_keywords:
-- mfmediaengine/IMFSourceBufferNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferNotify
+ - mfmediaengine/IMFSourceBufferNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferNotify
 ---
 
 # IMFSourceBufferNotify interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides functionality for raising events associated with <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
-
+Provides functionality for raising events associated with <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMFSourceBufferNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onabort">OnAbort</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has been aborted.
@@ -79,7 +78,7 @@ Used to indicate that the source buffer has been aborted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onerror">OnError</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that an error has occurred with the  source buffer.
@@ -88,7 +87,7 @@ Used to indicate that an error has occurred with the  source buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
+<a href="/windows/desktop/medfound/imfsourcebuffernotify-onupdate">OnUpdate</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer is updating.
@@ -97,7 +96,7 @@ Used to indicate that the source buffer is updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdateend">OnUpdateEnd</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has finished updating.
@@ -106,23 +105,15 @@ Used to indicate that the source buffer has finished updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffernotify-onupdatestart">OnUpdateStart</a>
 </td>
 <td align="left" width="63%">
 Used to indicate that the source buffer has started updating.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -44,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDraw7::GetMonitorFrequency
-
-
 ## -description
-
 
 Retrieves the frequency of the monitor that the DirectDraw object controls.
 
-
 ## -parameters
 
+### -param arg1 [out]
 
-
-
-
-
-#### - lpdwFrequency [out]
-
-A pointer to a variable that receives the monitor frequency, in Hz.
-
+A pointer to a variable that receives the monitor frequency, in Hertz (Hz).
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -81,24 +66,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetMonitorFrequency</b> method.
-
-
-
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetMonitorFrequency</b> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

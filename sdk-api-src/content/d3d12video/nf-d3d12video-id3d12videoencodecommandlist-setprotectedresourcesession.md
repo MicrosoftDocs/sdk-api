@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::SetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::SetProtectedResourceSession
  - d3d12video/ID3D12VideoEncodeCommandList::SetProtectedResourceSession
 dev_langs:
  - c++
@@ -47,9 +48,8 @@ Specifies whether or not protected resources can be accessed by subsequent comma
 
 ### -param pProtectedResourceSession
 
-An optional pointer to an [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession). You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession).
+An optional pointer to an [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md). You can obtain an **ID3D12ProtectedResourceSession** by calling [ID3D12Device4::CreateProtectedResourceSession](../d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession.md).
 
 ## -remarks
 
 ## -see-also
-

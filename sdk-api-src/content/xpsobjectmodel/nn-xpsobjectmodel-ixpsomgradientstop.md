@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
-f1_keywords:
-- xpsobjectmodel/IXpsOMGradientStop
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGradientStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGradientStop
+ - xpsobjectmodel/IXpsOMGradientStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGradientStop
 ---
 
 # IXpsOMGradientStop interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a single color and location within a gradient.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGradientStop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMGradientStop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGradientStop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMGradientStop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IXpsOMGradientStop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-clone">Clone</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
@@ -80,7 +79,7 @@ Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getcolor">GetColor</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Gets the color value and color profile of the gradient stop.
@@ -89,7 +88,7 @@ Gets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getoffset">GetOffset</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getoffset">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the offset value of the gradient stop.
@@ -98,17 +97,17 @@ Gets the offset value of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getowner">GetOwner</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-getowner">GetOwner</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a> interface that contains the gradient stop.
+Gets a pointer to the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a> interface that contains the gradient stop.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setcolor">SetColor</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setcolor">SetColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color value and color profile of the gradient stop.
@@ -117,19 +116,16 @@ Sets the color value and color profile of the gradient stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setoffset">SetOffset</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstop-setoffset">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the offset location of the gradient stop.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A gradient stop is a specific color that  is defined for a location within the gradient region. The color of the gradient changes between the gradient stops of the gradient. The area and absolute location of the gradient is defined by the gradient interface.   The offset is a relative location within the gradient region and is measured between 0.0 and 1.0. An offset of  0.0 is the beginning of the gradient and 1.0 is the end. Gradient stops can be defined for any offset within the range, including the end points. This interface describes one and only one stop in a gradient.
 
@@ -193,29 +189,18 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creategradientstop">IXpsOMObjectFactory::CreateGradientStop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creategradientstop">IXpsOMObjectFactory::CreateGradientStop</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
+<a href="/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
-

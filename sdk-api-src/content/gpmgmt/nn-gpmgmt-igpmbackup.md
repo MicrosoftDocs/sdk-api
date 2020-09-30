@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
 ms.date: 12/05/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
-f1_keywords:
-- gpmgmt/IGPMBackup
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackup
-- GPMBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackup
+ - gpmgmt/IGPMBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackup
+ - GPMBackup
 ---
 
 # IGPMBackup interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMBackup</b> interface supports methods that allow you to delete 
 <b>GPMBackup</b> objects and to retrieve various properties of <b>GPMBackup</b> objects.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +73,7 @@ The <b>IGPMBackup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-delete">Delete</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes the GPO backup from the backup directory.
@@ -83,7 +82,7 @@ Removes the GPO backup from the backup directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereport">GenerateReport</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereport">GenerateReport</a>
 </td>
 <td align="left" width="63%">
 Gets the report for the backup GPO.
@@ -92,7 +91,7 @@ Gets the report for the backup GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereporttofile">GenerateReportToFile</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereporttofile">GenerateReportToFile</a>
 </td>
 <td align="left" width="63%">
 Gets the report for the backup GPO and then saves it to a file in a specified path.
@@ -109,7 +108,7 @@ Gets the report for the backup GPO and then saves it to a file in a specified pa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">BackupDir</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">BackupDir</a>
 
 
 </td>
@@ -121,7 +120,7 @@ The directory in which the <b>GPMBackup</b> object exists.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Comment</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Comment</a>
 
 
 </td>
@@ -133,7 +132,7 @@ Comment associated with the <b>GPMBackup</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPODisplayName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPODisplayName</a>
 
 
 </td>
@@ -145,7 +144,7 @@ Friendly display name of the backed-up GPO. More than one GPO can have the same 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPODomain</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPODomain</a>
 
 
 </td>
@@ -157,7 +156,7 @@ Name of the domain in which the GPO existed when it was backed up. This is a ful
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPOID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">GPOID</a>
 
 
 </td>
@@ -169,7 +168,7 @@ ID of the backed-up GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">ID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">ID</a>
 
 
 </td>
@@ -181,7 +180,7 @@ GUID that uniquely identifies the <b>GPMBackup</b> object within its backup dire
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Timestamp</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Timestamp</a>
 
 
 </td>
@@ -190,28 +189,20 @@ Date and time when the <b>GPMBackup</b> object was created, in local time.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>

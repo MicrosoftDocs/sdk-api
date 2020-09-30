@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
-f1_keywords:
-- rdpencomapi/IRDPSRAPIWindow
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIWindow
+ - rdpencomapi/IRDPSRAPIWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIWindow
 ---
 
 # IRDPSRAPIWindow interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a one-to-one mapping to a sharable window. A sharable window is usually a top-level window that does not have an owner. Sharing the content of a window can be enabled or disabled by setting the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a> property on the window object to <b>TRUE</b> or <b>FALSE</b>. Applications can use this window object to display a list of windows that can be shared.
-
+Represents a one-to-one mapping to a sharable window. A sharable window is usually a top-level window that does not have an owner. Sharing the content of a window can be enabled or disabled by setting the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a> property on the window object to <b>TRUE</b> or <b>FALSE</b>. Applications can use this window object to display a list of windows that can be shared.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIWindow</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIWindow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IRDPSRAPIWindow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-show">Show</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-show">Show</a>
 </td>
 <td align="left" width="63%">
 Brings the current window to the foreground.
@@ -89,7 +88,7 @@ Brings the current window to the foreground.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_application">Application</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_application">Application</a>
 
 
 </td>
@@ -105,7 +104,7 @@ An application object that owns the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_flags">Flags</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_flags">Flags</a>
 
 
 </td>
@@ -121,7 +120,7 @@ The flags on the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_id">Id</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_id">Id</a>
 
 
 </td>
@@ -137,7 +136,7 @@ The ID of the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_name">Name</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_name">Name</a>
 
 
 </td>
@@ -153,7 +152,7 @@ The name of the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a>
 
 
 </td>
@@ -166,20 +165,12 @@ The shared state of the window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist">IRDPSRAPIWindowList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist">IRDPSRAPIWindowList</a>

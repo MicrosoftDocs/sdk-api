@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: FE60AF0D-15B0-4223-8AE1-3E65483A1C5F
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetIpNetworkConnectionBandwidthEstimates, GetIpNetworkConnectionBandwidthEstimates function [IP Helper], iphlp.getipnetworkconnectionbandwidthestimates, netioapi/GetIpNetworkConnectionBandwidthEstimates
-f1_keywords:
-- netioapi/GetIpNetworkConnectionBandwidthEstimates
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpNetworkConnectionBandwidthEstimates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpNetworkConnectionBandwidthEstimates
+ - netioapi/GetIpNetworkConnectionBandwidthEstimates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpNetworkConnectionBandwidthEstimates
 ---
 
 # GetIpNetworkConnectionBandwidthEstimates function
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpNetworkConnectionBandwidthEstimates</b> function  retrieves historical bandwidth estimates for a  network connection on the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 The local index value for the network interface. 
 
 This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
-
 
 ### -param AddressFamily [in]
 
@@ -103,17 +98,12 @@ The Internet Protocol version 6 (IPv6) address family.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param BandwidthEstimates [out]
 
 A pointer to a buffer that returns the historical bandwidth estimates maintained for the point of attachment to which the interface is currently connected.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -165,19 +155,13 @@ Element not found. This error is returned if the  network interface specified by
 </td>
 <td width="60%">
 Use 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpNetworkConnectionBandwidthEstimates</b> function is defined on Windows 8  and later. 
 
@@ -193,22 +177,15 @@ It is possible that the true available bandwidth changes over  time as more band
 
 It is possible that the TCP/IP stack has not built up any estimates for the given interface,  in a particular or both directions. In this case the estimate returned will be zero. The application should be prepared to handle such cases by picking reasonable defaults and fine tuning if required.
 
-The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h</i> header file. The <i>Netioapi.h</i> header file should never be used directly. 
-
-
-
-
+The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h</i> header file. The <i>Netioapi.h</i> header file should never be used directly.
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
@@ -216,12 +193,8 @@ The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_bandwidth_information">NL_BANDWIDTH_INFORMATION</a>
+<a href="/windows/desktop/api/nldef/ns-nldef-nl_bandwidth_information">NL_BANDWIDTH_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>

@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\imilbitmapeffectrendercontextimpl.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontextimpl, mileffects/IMILBitmapEffectRenderContextImpl, wibe._wibe_imilbitmapeffectrendercontextimpl
-f1_keywords:
-- mileffects/IMILBitmapEffectRenderContextImpl
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mileffects.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.dll
-api_name:
-- IMILBitmapEffectRenderContextImpl
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectRenderContextImpl
+ - mileffects/IMILBitmapEffectRenderContextImpl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.dll
+api_name:
+ - IMILBitmapEffectRenderContextImpl
 ---
 
 # IMILBitmapEffectRenderContextImpl interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods that define a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>.
-
+Exposes methods that define a <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectrendercontext">IMILBitmapEffectRenderContext</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContextImpl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectRenderContextImpl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectRenderContextImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectRenderContextImpl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMILBitmapEffectRenderContextImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getoutputbounds">GetOutputBounds</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getoutputbounds">GetOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Gets the output bounds of the render context.
@@ -79,7 +78,7 @@ Gets the output bounds of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-gettransform">GetTransform</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the matrix transform of the render context.
@@ -88,7 +87,7 @@ Gets the matrix transform of the render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getusesoftwarerenderer">GetUseSoftwareRenderer</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-getusesoftwarerenderer">GetUseSoftwareRenderer</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether to use software rendering.
@@ -97,7 +96,7 @@ Gets a value that indicates whether to use software rendering.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updateoutputbounds">UpdateOutputBounds</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updateoutputbounds">UpdateOutputBounds</a>
 </td>
 <td align="left" width="63%">
 Updates the output bounds with the given region.
@@ -106,12 +105,11 @@ Updates the output bounds with the given region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updatetransform">UpdateTransform</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectrendercontextimpl-updatetransform">UpdateTransform</a>
 </td>
 <td align="left" width="63%">
 Updates the output transform with the new matrix.
 
 </td>
 </tr>
-</table> 
-
+</table>

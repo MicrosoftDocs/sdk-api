@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3d10
+f1_keywords:
+ - d3d10_1shader
+ - d3d10_1shader/d3d10_1shader
 ---
 
 # D3D10_1Shader.h header
 
 
 ## -description
-
 
 This header is used by Direct3D 10 Graphics. For more information, see:
 

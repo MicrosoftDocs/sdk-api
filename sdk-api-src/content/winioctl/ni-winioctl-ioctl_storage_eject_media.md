@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e1eeb3b8-b52b-4570-a3bc-e245ae58464f
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code, _win32_ioctl_storage_eject_media, base.ioctl_storage_eject_media, winioctl/IOCTL_STORAGE_EJECT_MEDIA
-f1_keywords:
-- winioctl/IOCTL_STORAGE_EJECT_MEDIA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_EJECT_MEDIA
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_EJECT_MEDIA
+ - winioctl/IOCTL_STORAGE_EJECT_MEDIA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_EJECT_MEDIA
 ---
 
 # IOCTL_STORAGE_EJECT_MEDIA IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,17 +86,15 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 **IOCTL_STORAGE_EJECT_MEDIA** may or may not be supported on SCSI devices that support removable media.
 
-
 ## -see-also
 
-* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [IOCTL_STORAGE_LOAD_MEDIA](ni-winioctl-ioctl_storage_load_media.md)
 * [IOCTL_STORAGE_MEDIA_REMOVAL](ni-winioctl-ioctl_storage_media_removal.md)

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 80629db8-0040-4545-a313-5cf7aa3d7f8b
 ms.date: 12/05/2018
 ms.keywords: IWPCWebSettings, IWPCWebSettings interface, IWPCWebSettings interface,described, parcon.iwpcwebsettings, wpcapi/IWPCWebSettings
-f1_keywords:
-- wpcapi/IWPCWebSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCWebSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCWebSettings
+ - wpcapi/IWPCWebSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCWebSettings
 ---
 
 # IWPCWebSettings interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Accesses web restrictions settings for the user.
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IWPCWebSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-getsettings">GetSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-getsettings">GetSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the web restrictions settings.
@@ -79,12 +78,11 @@ Retrieves the web restrictions settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-requesturloverride">RequestURLOverride</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-requesturloverride">RequestURLOverride</a>
 </td>
 <td align="left" width="63%">
 Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.
 
 </td>
 </tr>
-</table> 
-
+</table>

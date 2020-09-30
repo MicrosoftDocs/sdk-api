@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
 ms.date: 12/05/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
-f1_keywords:
-- comsvcs/IManagedActivationEvents
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IManagedActivationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManagedActivationEvents
+ - comsvcs/IManagedActivationEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IManagedActivationEvents
 ---
 
 # IManagedActivationEvents interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to create and destroy stubs for managed objects within the current COM+ context.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedActivationEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedActivationEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedActivationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedActivationEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IManagedActivationEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>
 </td>
 <td align="left" width="63%">
 Creates a stub for a managed object within the current COM+ context.
@@ -79,35 +78,27 @@ Creates a stub for a managed object within the current COM+ context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-destroymanagedstub">DestroyManagedStub</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-destroymanagedstub">DestroyManagedStub</a>
 </td>
 <td align="left" width="63%">
-Destroys a stub that was created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>.
+Destroys a stub that was created by <a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedactivationevents-createmanagedstub">CreateManagedStub</a>.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-getmanagedextensions">GetManagedExtensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-getmanagedextensions">GetManagedExtensions</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpoolaction">IManagedPoolAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpoolaction">IManagedPoolAction</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation2, ISecurityInformation2 interface [Security], ISecurityInformation2 interface [Security],described, _win32_isecurityinformation2, aclui/ISecurityInformation2, security.isecurityinformation2
-f1_keywords:
-- aclui/ISecurityInformation2
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation2
+ - aclui/ISecurityInformation2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation2
 ---
 
 # ISecurityInformation2 interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISecurityInformation2</b> interface enables the access control editor to obtain information from the client that is not provided by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The client does not need to implement <b>ISecurityInformation2</b> unless the default behavior of the access control editor is unsuitable for the client.
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The client does not need to implement <b>ISecurityInformation2</b> unless the default behavior of the access control editor is unsuitable for the client.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>ISecurityInformation2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical">IsDaclCanonical</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical">IsDaclCanonical</a>
 </td>
 <td align="left" width="63%">
 Checks the specified DACL for canonical ordering of the ACEs contained within it.
@@ -80,27 +79,19 @@ Checks the specified DACL for canonical ordering of the ACEs contained within it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">LookupSids</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">LookupSids</a>
 </td>
 <td align="left" width="63%">
 Retrieves the common names corresponding to the specified SIDs.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>

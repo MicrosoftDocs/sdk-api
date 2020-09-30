@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 0129ABDA-E634-4236-A3A9-76C94D35D052
 ms.date: 12/05/2018
 ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePair interface [Media Streaming API],described, mediastreaming.idevicepair, windows/IDevicePair
-f1_keywords:
-- windows.media.streaming/IDevicePair
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: PlayToDevice.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PlayToDevice.dll
-api_name:
-- IDevicePair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDevicePair
+ - windows.media.streaming/IDevicePair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PlayToDevice.dll
+api_name:
+ - IDevicePair
 ---
 
 # IDevicePair interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a pair of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> objects which is comprised of a renderer and a server.
-
+Represents a pair of <a href="/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> objects which is comprised of a renderer and a server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDevicePair</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDevicePair</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDevicePair</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDevicePair</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IDevicePair</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_renderer">Renderer</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_renderer">Renderer</a>
 </td>
 <td align="left" width="63%">
 Gets the renderer for the active basic device pair.
@@ -79,31 +78,23 @@ Gets the renderer for the active basic device pair.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_server">Server</a>
+<a href="/previous-versions/windows/desktop/api/windows.media.streaming/nf-windows-media-streaming-idevicepair-get_server">Server</a>
 </td>
 <td align="left" width="63%">
 Gets the server for the active basic device pair.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828813(v=vs.85)">BasicDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

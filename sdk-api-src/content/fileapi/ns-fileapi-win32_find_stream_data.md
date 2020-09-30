@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
 ms.date: 12/05/2018
 ms.keywords: '*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA structure pointer [Files], WIN32_FIND_STREAM_DATA, WIN32_FIND_STREAM_DATA structure [Files], _win32_win32_find_stream_data_str, base.win32_find_stream_data_str, fileapi/PWIN32_FIND_STREAM_DATA, fileapi/WIN32_FIND_STREAM_DATA, fs.win32_find_stream_data_str'
-f1_keywords:
-- fileapi/WIN32_FIND_STREAM_DATA
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fileapi.h
-api_name:
-- WIN32_FIND_STREAM_DATA
 targetos: Windows
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WIN32_FIND_STREAM_DATA
+ - fileapi/_WIN32_FIND_STREAM_DATA
+ - PWIN32_FIND_STREAM_DATA
+ - fileapi/PWIN32_FIND_STREAM_DATA
+ - WIN32_FIND_STREAM_DATA
+ - fileapi/WIN32_FIND_STREAM_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fileapi.h
+api_name:
+ - WIN32_FIND_STREAM_DATA
 ---
 
 # WIN32_FIND_STREAM_DATA structure
@@ -49,44 +54,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the stream found by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function.
-
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> or 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field StreamSize
 
 A <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> value that specifies the 
       size of the stream, in bytes.
 
-
 ### -field cStreamName
 
 The name of the stream. The string name format is 
       ":<i>streamname</i>:$<i>streamtype</i>".
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
- 
-
- 
-

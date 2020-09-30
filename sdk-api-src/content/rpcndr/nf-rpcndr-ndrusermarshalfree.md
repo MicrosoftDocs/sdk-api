@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
 ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
-f1_keywords:
-- rpcndr/NdrUserMarshalFree
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrUserMarshalFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrUserMarshalFree
+ - rpcndr/NdrUserMarshalFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RpcRT4.dll
+api_name:
+ - NdrUserMarshalFree
 ---
 
 # NdrUserMarshalFree function
@@ -49,36 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdrUserMarshalFree</b> function frees the user marshal object.
-
-
 
 ## -parameters
 
-
-
-
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
-
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 ### -param pMemory [in]
 
 Pointer to be freed.
 
-
 ### -param pFormat [in]
 
 Pointer's format string description.
 
-
 ## -remarks
 
-
-
 You should never free the top level object, it is freed by the system.
-
-
-

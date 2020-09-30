@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
-f1_keywords:
-- winuser/RegisterPowerSettingNotification
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
-api_name:
-- RegisterPowerSettingNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterPowerSettingNotification
+ - winuser/RegisterPowerSettingNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
+api_name:
+ - RegisterPowerSettingNotification
 ---
 
 # RegisterPowerSettingNotification function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the application to receive power setting notifications for the specific power setting event.
 
-
 ## -parameters
-
-
-
 
 ### -param hRecipient [in]
 
@@ -68,14 +64,12 @@ Handle indicating where the power setting notifications are to be sent. For inte
      should be a window handle. For services, the <i>Flags</i> parameter should be one, and the 
      <i>hRecipient</i> parameter should be a <b>SERVICE_STATUS_HANDLE</b> 
      as returned from 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>.
-
+     <a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>.
 
 ### -param PowerSettingGuid [in]
 
-The <b>GUID</b> of the power setting for which notifications are to be sent. For more information see <a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power 
+The <b>GUID</b> of the power setting for which notifications are to be sent. For more information see <a href="/windows/desktop/Power/registering-for-power-events">Registering for Power 
       Events</a>.
-
 
 ### -param Flags [in]
 
@@ -91,9 +85,9 @@ The <b>GUID</b> of the power setting for which notifications are to be sent. For
 </dl>
 </td>
 <td width="60%">
-Notifications are sent using <a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a> 
+Notifications are sent using <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a> 
        messages with a <i>wParam</i> parameter of 
-       <a href="https://docs.microsoft.com/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>.
+       <a href="/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>.
 
 </td>
 </tr>
@@ -104,42 +98,28 @@ Notifications are sent using <a href="https://docs.microsoft.com/windows/desktop
 </dl>
 </td>
 <td width="60%">
-Notifications are sent to the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> callback 
+Notifications are sent to the <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> callback 
        function with a <i>dwControl</i> parameter of 
        <b>SERVICE_CONTROL_POWEREVENT</b> and a <i>dwEventType</i> of 
-       <a href="https://docs.microsoft.com/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>.
+       <a href="/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a notification handle for unregistering for power notifications. If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpowersettingnotification">UnregisterPowerSettingNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterpowersettingnotification">UnregisterPowerSettingNotification</a>

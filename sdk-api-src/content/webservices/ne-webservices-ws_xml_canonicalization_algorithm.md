@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
 ms.date: 12/05/2018
 ms.keywords: WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows], webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_XML_CANONICALIZATION_ALGORITHM, wsw.ws_xml_canonicalization_algorithm
-f1_keywords:
-- webservices/WS_XML_CANONICALIZATION_ALGORITHM
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_CANONICALIZATION_ALGORITHM
 targetos: Windows
 req.typenames: WS_XML_CANONICALIZATION_ALGORITHM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_XML_CANONICALIZATION_ALGORITHM
+ - webservices/WS_XML_CANONICALIZATION_ALGORITHM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_CANONICALIZATION_ALGORITHM
 ---
 
 # WS_XML_CANONICALIZATION_ALGORITHM enumeration
@@ -49,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The values for the XML canonicalization algorithms.
-      
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM
 
 The exclusive XML canonicalization algorithm
           represented by the URI 'http://www.w3.org/2001/10/xml-exc-c14n#' and
           defined in <a href="http://tools.ietf.org/html/rfc3741">RFC 3741</a>.
-        
-
 
 ### -field WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
 
 The exclusive XML canonicalization with comments algorithm
           defined in <a href="http://tools.ietf.org/html/rfc3741">RFC 3741</a>.
-        
-
 
 ### -field WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM
 
@@ -82,8 +73,6 @@ Version 1.0</a>.
         
 
 Inclusive canonicalization can only be applied to entire xml documents.
-        
-
 
 ### -field WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
 
@@ -94,5 +83,4 @@ Version 1.0</a>.
         
 
 Inclusive canonicalization can only be applied to entire xml documents.
-        
 

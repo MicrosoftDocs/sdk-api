@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
+ - certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetPolicyServerUrl</b> method retrieves a string that contains the URL for the certificate enrollment policy (CEP) server. This value is set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
-
+The <b>GetPolicyServerUrl</b> method retrieves a string that contains the URL for the certificate enrollment policy (CEP) server. This value is set by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
 Pointer to a <b>BSTR</b> that receives the URL.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -111,18 +104,7 @@ The property value has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>

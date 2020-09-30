@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wsl
+f1_keywords:
+ - wslapi
+ - wslapi/wslapi
 ---
 
 # Wslapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Subsystem for Linux. For more information, see:
 

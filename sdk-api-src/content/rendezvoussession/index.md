@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: remoteassist
+f1_keywords:
+ - rendezvoussession
+ - rendezvoussession/rendezvoussession
 ---
 
 # Rendezvoussession.h header
 
 
 ## -description
-
 
 This header is used by Remote Assistance. For more information, see:
 

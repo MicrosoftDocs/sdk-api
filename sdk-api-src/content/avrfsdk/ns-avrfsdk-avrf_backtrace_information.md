@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
 ms.date: 12/05/2018
 ms.keywords: '*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information'
-f1_keywords:
-- avrfsdk/AVRF_BACKTRACE_INFORMATION
-dev_langs:
-- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Avrfsdk.h
-api_name:
-- AVRF_BACKTRACE_INFORMATION
 targetos: Windows
 req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AVRF_BACKTRACE_INFORMATION
+ - avrfsdk/_AVRF_BACKTRACE_INFORMATION
+ - PAVRF_BACKTRACE_INFORMATION
+ - avrfsdk/PAVRF_BACKTRACE_INFORMATION
+ - AVRF_BACKTRACE_INFORMATION
+ - avrfsdk/AVRF_BACKTRACE_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Avrfsdk.h
+api_name:
+ - AVRF_BACKTRACE_INFORMATION
 ---
 
 # AVRF_BACKTRACE_INFORMATION structure
@@ -49,41 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about backtraces performed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Depth
 
 The number of traces that have been collected.
 
-
 ### -field Index
 
 A unique identifier associated with the entire set of returned addresses.
-
 
 ### -field ReturnAddresses
 
 An array of addresses returned traces. The number cannot exceed AVRF_MAX_TRACES, which is defined as 32.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

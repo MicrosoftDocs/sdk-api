@@ -35,6 +35,9 @@ api_location:
  - sechost.dll
 api_name:
  - GetServiceDirectory
+f1_keywords:
+ - GetServiceDirectory
+ - winsvc/GetServiceDirectory
 ---
 
 ## -description
@@ -45,11 +48,11 @@ Returns a path for a per-service filesystem location for a service to read and/o
 
 ### -param hServiceStatus
 
-A handle to the status information structure for the current service. This handle is returned by the [RegisterServiceCtrlHandler](/windows/win32/api/winsvc/nf-winsvc-registerservicectrlhandlera) function.
+A handle to the status information structure for the current service. This handle is returned by the [RegisterServiceCtrlHandler](./nf-winsvc-registerservicectrlhandlera.md) function.
 
 ### -param eDirectoryType
 
-A member of the [SERVICE_DIRECTORY_TYPE](/windows/win32/api/winsvc/ne-winsvc-service_directory_type) enumeration that identifies the type of per-service directory path to retrieve.
+A member of the [SERVICE_DIRECTORY_TYPE](./ne-winsvc-service_directory_type.md) enumeration that identifies the type of per-service directory path to retrieve.
 
 ### -param lpPathBuffer
 
@@ -69,12 +72,11 @@ Returns ERROR_SUCCESS when all operations complete successfully and the NULL-ter
 
 ## -remarks
 
-For **ServiceDirectoryPersistentState**, the security of the directory is set to only provide write access to the local system account and the service SID. Ensure service SIDs are enabled for any service that calls this API. For more information, see [SERVICE_SID_INFO](/windows/win32/api/winsvc/ns-winsvc-service_sid_info).
+For **ServiceDirectoryPersistentState**, the security of the directory is set to only provide write access to the local system account and the service SID. Ensure service SIDs are enabled for any service that calls this API. For more information, see [SERVICE_SID_INFO](./ns-winsvc-service_sid_info.md).
 
 All service state directories are deleted by the service control manager once the service is uninstalled.
 
 ## -see-also
 
-[RegisterServiceCtrlHandler](/windows/win32/api/winsvc/nf-winsvc-registerservicectrlhandlera)
-[SERVICE_SID_INFO](/windows/win32/api/winsvc/ns-winsvc-service_sid_info)
-
+[RegisterServiceCtrlHandler](./nf-winsvc-registerservicectrlhandlera.md)
+[SERVICE_SID_INFO](./ns-winsvc-service_sid_info.md)

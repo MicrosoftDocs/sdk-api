@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\mapvirtualkeyex.htm
 ms.date: 12/05/2018
 ms.keywords: MAPVK_VK_TO_CHAR, MAPVK_VK_TO_VSC, MAPVK_VK_TO_VSC_EX, MAPVK_VSC_TO_VK, MAPVK_VSC_TO_VK_EX, MapVirtualKeyEx, MapVirtualKeyEx function [Keyboard and Mouse Input], MapVirtualKeyExA, MapVirtualKeyExW, _win32_MapVirtualKeyEx, _win32_mapvirtualkeyex_cpp, inputdev.mapvirtualkeyex, winui._win32_mapvirtualkeyex, winuser/MapVirtualKeyEx, winuser/MapVirtualKeyExA, winuser/MapVirtualKeyExW
-f1_keywords:
-- winuser/MapVirtualKeyEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- MapVirtualKeyEx
-- MapVirtualKeyExA
-- MapVirtualKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapVirtualKeyExW
+ - winuser/MapVirtualKeyExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - MapVirtualKeyEx
+ - MapVirtualKeyExA
+ - MapVirtualKeyExW
 ---
 
 # MapVirtualKeyExW function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param uCode [in]
 
@@ -75,7 +71,6 @@ Type: <b>UINT</b>
 The virtual-key code or scan code for a key. How this value is interpreted depends on the value of the <i>uMapType</i> parameter.
 
 Starting with Windows Vista, the high byte of the <i>uCode</i> value can contain either 0xe0 or 0xe1 to specify the extended scan code.
-
 
 ### -param uMapType [in]
 
@@ -144,30 +139,20 @@ The <i>uCode</i> parameter is a scan code and is translated into a virtual-key c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwhkl [in, out, optional]
 
 Type: <b>HKL</b>
 
-Input locale identifier to use for translating the specified code. This parameter can be any input locale identifier previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
-
+Input locale identifier to use for translating the specified code. This parameter can be any input locale identifier previously returned by the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 The return value is either a scan code, a virtual-key code, or a character value, depending on the value of <i>uCode</i> and <i>uMapType</i>. If there is no translation, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input.
 
@@ -183,7 +168,7 @@ An application can get the scan code corresponding to the left or right instance
 <li><b>VK_LMENU</b></li>
 <li><b>VK_RMENU</b></li>
 </ul>
-These left- and right-distinguishing constants are available to an application only through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>, and <b>MapVirtualKeyEx</b> functions. For list complete table of virtual key codes, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>.
+These left- and right-distinguishing constants are available to an application only through the <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>, and <b>MapVirtualKeyEx</b> functions. For list complete table of virtual key codes, see <a href="/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>.
 
 
 
@@ -194,30 +179,27 @@ These left- and right-distinguishing constants are available to an application o
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
@@ -225,8 +207,4 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>

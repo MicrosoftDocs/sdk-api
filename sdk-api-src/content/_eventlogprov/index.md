@@ -16,5 +16,4 @@ Overview of the Event Log Provider technology.
 The Event Log Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Event Log Provider](https://docs.microsoft.com/previous-versions/windows/desktop/eventlogprov)
-
+* [Event Log Provider](/previous-versions/windows/desktop/eventlogprov)

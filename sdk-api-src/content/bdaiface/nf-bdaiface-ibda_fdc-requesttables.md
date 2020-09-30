@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ff8483d3-6c4c-4786-a99b-bf3575a18fdb
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RequestTables method, IBDA_FDC.RequestTables, IBDA_FDC::RequestTables, RequestTables, RequestTables method [Microsoft TV Technologies], RequestTables method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RequestTables, mstv.ibda_fdc_requesttables
-f1_keywords:
-- bdaiface/IBDA_FDC.RequestTables
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_FDC.RequestTables
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_FDC::RequestTables
+ - bdaiface/IBDA_FDC::RequestTables
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_FDC.RequestTables
 ---
 
 # IBDA_FDC::RequestTables
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests MPEG-2 table sections, filtered by table identifier (TID).
 
-
 ## -parameters
-
-
-
 
 ### -param TableIDs [in]
 
 A comma-separated list of TIDs.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_fdc">IBDA_FDC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_fdc">IBDA_FDC</a>

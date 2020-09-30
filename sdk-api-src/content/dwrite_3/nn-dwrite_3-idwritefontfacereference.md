@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 04242508-7439-43B6-B3E7-07617B782038
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFaceReference, IDWriteFontFaceReference interface [Direct Write], IDWriteFontFaceReference interface [Direct Write],described, directwrite.idwritefontfacereference, dwrite_3/IDWriteFontFaceReference
-f1_keywords:
-- dwrite_3/IDWriteFontFaceReference
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFaceReference
+ - dwrite_3/IDWriteFontFaceReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFaceReference
 ---
 
 # IDWriteFontFaceReference interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a reference to a font face.
   A uniquely identifying reference to a font, from which you can create a font
   face to query font metrics and use for rendering. A font face reference
   consists of a font file, font face index, and font face simulation. The file
   data may or may not be physically present on the local machine yet.
-  
-
 
 ## -inheritance
 
@@ -193,5 +191,5 @@ Obtains the algorithmic style simulation flags of a font face.
 
 </td>
 </tr>
-</table> 
+</table>
 

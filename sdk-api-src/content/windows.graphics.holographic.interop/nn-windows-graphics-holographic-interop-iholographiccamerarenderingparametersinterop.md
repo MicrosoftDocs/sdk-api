@@ -29,20 +29,24 @@ api_name:
  - interop::IHolographicCameraRenderingParametersInterop
  - IHolographicCameraRenderingParametersInterop
 f1_keywords:
- - windows/interop::IHolographicCameraRenderingParametersInterop
+ - IHolographicCameraRenderingParametersInterop
+ - windows.graphics.holographic.interop/IHolographicCameraRenderingParametersInterop
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The **IHolographicCameraRenderingParametersInterop** interface is a nano-COM interface, used to commit Direct3D 12 buffer resources for presentation during the corresponding [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe).
 
 The interface allows COM interop with the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) Windows Runtime class for applications that use Direct3D 12 for holographic rendering. Nano-COM allows Direct3D 12 objects to be used directly as parameters for API calls, rather than going through a container object.
 
 ## -inheritance
-The **IHolographicCameraRenderingParametersInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
+
+The **IHolographicCameraRenderingParametersInterop** interface inherits from the [IInspectable](../inspectable/nn-inspectable-iinspectable.md) interface.
 
 ## -remarks
+
 To use this interface in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), retrieve the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) object from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), and then **QueryInterface** for the **IHolographicCameraRenderingParametersInterop** interface.
 
 ```cppwinrt
@@ -53,7 +57,7 @@ winrt::com_ptr<IHolographicCameraRenderingParametersInterop> holographicCameraRe
 };
 ```
 
-To use this interface in C++/CX, first cast the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\*. Then **QueryInterface** for the **IHolographicCameraRenderingParametersInterop** interface from the **IInspectable** pointer.
+To use this interface in C++/CX, first cast the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](../inspectable/nn-inspectable-iinspectable.md)\*. Then **QueryInterface** for the **IHolographicCameraRenderingParametersInterop** interface from the **IInspectable** pointer.
 
 ```cppcx
 auto holographicCameraRenderingParameters = 

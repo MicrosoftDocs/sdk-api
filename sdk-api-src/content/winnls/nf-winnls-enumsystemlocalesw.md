@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
-f1_keywords:
-- winnls/EnumSystemLocales
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- EnumSystemLocales
-- EnumSystemLocalesA
-- EnumSystemLocalesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumSystemLocalesW
+ - winnls/EnumSystemLocalesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - EnumSystemLocales
+ - EnumSystemLocalesA
+ - EnumSystemLocalesW
 ---
 
 # EnumSystemLocalesW function
@@ -58,19 +59,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the locales that are either installed on or supported by an operating system.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function to <b>EnumSystemLocales</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function to <b>EnumSystemLocales</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpLocaleEnumProc [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317822(v=vs.85)">EnumLocalesProc</a>.
-
+Pointer to an application-defined callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/dd317822(v=vs.85)">EnumLocalesProc</a>.
 
 ### -param dwFlags [in]
 
@@ -112,14 +108,10 @@ Enumerate only the alternate sort locale identifiers. If this value is used with
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -127,11 +119,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The function enumerates locales by passing locale identifiers, one at a time, to the specified application-defined callback function. This continues until all of the installed or supported locale identifiers have been passed to the callback function or the callback function returns <b>FALSE</b>.
 
@@ -144,23 +132,16 @@ The function enumerates locales by passing locale identifiers, one at a time, to
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd317822(v=vs.85)">EnumLocalesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317822(v=vs.85)">EnumLocalesProc</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

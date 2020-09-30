@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 947313e1-6c95-4751-997f-d5172acaa5d5
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetBleedBox method, IXpsOMPage.SetBleedBox, IXpsOMPage::SetBleedBox, SetBleedBox, SetBleedBox method [XPS Documents and Packaging], SetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, bleedBox.height, bleedBox.width, bleedBox.x, bleedBox.y, xps.ixpsompage_setbleedbox, xpsobjectmodel/IXpsOMPage::SetBleedBox
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.SetBleedBox
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.SetBleedBox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::SetBleedBox
+ - xpsobjectmodel/IXpsOMPage::SetBleedBox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.SetBleedBox
 ---
 
 # IXpsOMPage::SetBleedBox
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the dimensions of the page's bleed box.
 
-
 ## -parameters
-
-
-
 
 ### -param bleedBox [in]
 
@@ -80,12 +76,9 @@ A valid bleed box has the following properties:
 
 ###### 0)
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -126,26 +119,14 @@ The rectangle described by <i>bleedBox</i> contains one or more values that are 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The bleed box dimensions are not checked against the page dimensions until the page is serialized.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
@@ -153,12 +134,8 @@ The bleed box dimensions are not checked against the page dimensions until the p
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
- 
-
- 
-

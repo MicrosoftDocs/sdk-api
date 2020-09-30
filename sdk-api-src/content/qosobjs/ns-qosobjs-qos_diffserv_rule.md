@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 732cfbec-4175-4397-854f-0d2a930e11bc
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE structure pointer [QOS], QOS_DIFFSERV_RULE, QOS_DIFFSERV_RULE structure [QOS], _gqos_qos_diffserv_rule, qos.qos_diffserv_rule, qosobjs/LPQOS_DIFFSERV_RULE, qosobjs/QOS_DIFFSERV_RULE'
-f1_keywords:
-- qosobjs/QOS_DIFFSERV_RULE
-dev_langs:
-- c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- QosObjs.h
-api_name:
-- QOS_DIFFSERV_RULE
 targetos: Windows
 req.typenames: QOS_DIFFSERV_RULE, *LPQOS_DIFFSERV_RULE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_DIFFSERV_RULE
+ - qosobjs/_QOS_DIFFSERV_RULE
+ - LPQOS_DIFFSERV_RULE
+ - qosobjs/LPQOS_DIFFSERV_RULE
+ - QOS_DIFFSERV_RULE
+ - qosobjs/QOS_DIFFSERV_RULE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - QosObjs.h
+api_name:
+ - QOS_DIFFSERV_RULE
 ---
 
 # QOS_DIFFSERV_RULE structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QOS_DIFFSERV_RULE</b> structure is used in conjunction with the traffic control object 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> to provide Diffserv rules for a given flow.
-
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> to provide Diffserv rules for a given flow.
 
 ## -struct-fields
-
-
-
 
 ### -field InboundDSField
 
@@ -69,7 +69,6 @@ Diffserv code point (DSCP) on the inbound packet. <b>InboundDSField</b> must be 
 
 Valid range is 0x00 - 0x3F.
 
-
 ### -field ConformingOutboundDSField
 
 Diffserv code point (DSCP) marked on all conforming packets on the flow. This member can be used to remark the packet before it is forwarded. 
@@ -78,7 +77,6 @@ Diffserv code point (DSCP) marked on all conforming packets on the flow. This me
 
 
 Valid range is 0x00 - 0x3F.
-
 
 ### -field NonConformingOutboundDSField
 
@@ -89,7 +87,6 @@ Diffserv code point (DSCP) marked on all nonconforming packets on the flow. This
 
 Valid range is 0x00 - 0x3F.
 
-
 ### -field ConformingUserPriority
 
 UserPriority value marked on all conforming packets on the flow. This member can be used to remark the packet before it is forwarded. 
@@ -98,7 +95,6 @@ UserPriority value marked on all conforming packets on the flow. This member can
 
 
 Valid range is 0-7
-
 
 ### -field NonConformingUserPriority
 
@@ -109,14 +105,6 @@ UserPriority value marked on all nonconforming packets on the flow. This member 
 
 Valid range is 0-7
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
-f1_keywords:
-- ctffunc/IEnumTfCandidates.Skip
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IEnumTfCandidates.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfCandidates::Skip
+ - ctffunc/IEnumTfCandidates::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IEnumTfCandidates.Skip
 ---
 
 # IEnumTfCandidates::Skip
@@ -53,17 +54,11 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 ## -parameters
 
-
-
-
 ### -param ulCount [in]
 
 Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,4 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
 

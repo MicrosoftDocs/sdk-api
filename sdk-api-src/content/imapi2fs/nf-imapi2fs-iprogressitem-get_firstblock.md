@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 9c1c5932-0301-4752-871d-609d3c128906
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_FirstBlock method, IProgressItem.get_FirstBlock, IProgressItem::get_FirstBlock, get_FirstBlock, get_FirstBlock method [IMAPI], get_FirstBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_firstblock, imapi2fs/IProgressItem::get_FirstBlock
-f1_keywords:
-- imapi2fs/IProgressItem.get_FirstBlock
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItem.get_FirstBlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItem::get_FirstBlock
+ - imapi2fs/IProgressItem::get_FirstBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItem.get_FirstBlock
 ---
 
 # IProgressItem::get_FirstBlock
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the first block number in this segment of the result image.
 
-
 ## -parameters
-
-
-
 
 ### -param block [out]
 
 First block number of this segment.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -88,26 +81,15 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">IProgressItem::get_BlockCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_blockcount">IProgressItem::get_BlockCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">IProgressItem::get_LastBlock</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_lastblock">IProgressItem::get_LastBlock</a>

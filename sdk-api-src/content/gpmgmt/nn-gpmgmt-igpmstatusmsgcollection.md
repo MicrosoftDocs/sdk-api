@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection, IGPMStatusMsgCollection, IGPMStatusMsgCollection interface [GPMC], IGPMStatusMsgCollection interface [GPMC],described, _win32_igpmstatusmsgcollection, gpmc.igpmstatusmsgcollection, gpmgmt/IGPMStatusMsgCollection
-f1_keywords:
-- gpmgmt/IGPMStatusMsgCollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStatusMsgCollection
-- IGPMStatusMsgCollection.Count
-- IGPMStatusMsgCollection.get_Count
-- IGPMStatusMsgCollection.Item
-- IGPMStatusMsgCollection.get_Item
-- GPMStatusMsgCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStatusMsgCollection
+ - gpmgmt/IGPMStatusMsgCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStatusMsgCollection
+ - IGPMStatusMsgCollection.Count
+ - IGPMStatusMsgCollection.get_Count
+ - IGPMStatusMsgCollection.Item
+ - IGPMStatusMsgCollection.get_Item
+ - GPMStatusMsgCollection
 ---
 
 # IGPMStatusMsgCollection interface
@@ -54,14 +55,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMStatusMsgCollection</b> interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMsgCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMsgCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMsgCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMsgCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +76,7 @@ The <b>IGPMStatusMsgCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmsgcollection-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmsgcollection-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface on an enumerator object for the collection.
@@ -111,24 +110,16 @@ A specific message from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>

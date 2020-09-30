@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: b660d111-7bd1-4345-b229-1825d830bab4
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorInputFormats, GetVideoProcessorInputFormats method [Media Foundation], GetVideoProcessorInputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorInputFormats method, IDXVAHD_Device.GetVideoProcessorInputFormats, IDXVAHD_Device::GetVideoProcessorInputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorInputFormats, mf.idxvahd_device_getvideoprocessorinputformats
-f1_keywords:
-- dxvahd/IDXVAHD_Device.GetVideoProcessorInputFormats
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxvahd.h
-api_name:
-- IDXVAHD_Device.GetVideoProcessorInputFormats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXVAHD_Device::GetVideoProcessorInputFormats
+ - dxvahd/IDXVAHD_Device::GetVideoProcessorInputFormats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxvahd.h
+api_name:
+ - IDXVAHD_Device.GetVideoProcessorInputFormats
 ---
 
 # IDXVAHD_Device::GetVideoProcessorInputFormats
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of the input formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
-
 
 ## -parameters
 
-
-
-
 ### -param Count [in]
 
-The number of formats to retrieve. This parameter must equal the <b>InputFormatCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
-
+The number of formats to retrieve. This parameter must equal the <b>InputFormatCount</b> member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method to get this value.
 
 ### -param pFormats [out]
 
 A pointer to an array of <b>D3DFORMAT</b> values. The <i>Count</i> parameter specifies the number of elements in the array. The method fills the array with a list of input formats.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-The list of formats can include both <b>D3DFORMAT</b> values, such as <b>D3DFMT_X8R8G8B8</b>, and FOURCC codes, such as 'NV12'. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-fourccs">Video FOURCCs</a>.
+The list of formats can include both <b>D3DFORMAT</b> values, such as <b>D3DFMT_X8R8G8B8</b>, and FOURCC codes, such as 'NV12'. For more information, see <a href="/windows/desktop/medfound/video-fourccs">Video FOURCCs</a>.
 
 
 #### Examples
@@ -132,21 +119,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>

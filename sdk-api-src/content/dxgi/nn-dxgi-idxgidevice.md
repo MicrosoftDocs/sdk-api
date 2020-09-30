@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice.htm
 ms.date: 12/05/2018
 ms.keywords: 99cdbe06-c52d-a562-8d0a-c42fe333f947, IDXGIDevice, IDXGIDevice interface [DXGI], IDXGIDevice interface [DXGI],described, direct3ddxgi.idxgidevice, dxgi/IDXGIDevice
-f1_keywords:
-- dxgi/IDXGIDevice
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDevice
+ - dxgi/IDXGIDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIDevice
 ---
 
 # IDXGIDevice interface
@@ -50,14 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>IDXGIDevice</b> interface implements a derived class for DXGI objects that produce image data.
-      
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +70,7 @@ The <b>IDXGIDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-createsurface">CreateSurface</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-createsurface">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Returns a surface. This method is used internally and you should not call it directly in your application.
@@ -81,7 +79,7 @@ Returns a surface. This method is used internally and you should not call it dir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter">GetAdapter</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter">GetAdapter</a>
 </td>
 <td align="left" width="63%">
 Returns the adapter for the specified device.
@@ -90,7 +88,7 @@ Returns the adapter for the specified device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">GetGPUThreadPriority</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">GetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Gets the GPU thread priority.
@@ -99,7 +97,7 @@ Gets the GPU thread priority.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-queryresourceresidency">QueryResourceResidency</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-queryresourceresidency">QueryResourceResidency</a>
 </td>
 <td align="left" width="63%">
 Gets the residency status of an array of resources.
@@ -108,25 +106,22 @@ Gets the residency status of an array of resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-setgputhreadpriority">SetGPUThreadPriority</a>
+<a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-setgputhreadpriority">SetGPUThreadPriority</a>
 </td>
 <td align="left" width="63%">
 Sets the GPU thread priority.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IDXGIDevice</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to
           applications that do not use Direct3D to communicate with DXGI.
         
 
-The Direct3D create device functions return a Direct3D device object. This Direct3D device object implements the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. You can query this Direct3D device object for the device's
+The Direct3D create device functions return a Direct3D device object. This Direct3D device object implements the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. You can query this Direct3D device object for the device's
           corresponding <b>IDXGIDevice</b> interface. To retrieve the <b>IDXGIDevice</b>  interface of a Direct3D device, use the following code:
         
 
@@ -140,22 +135,11 @@ hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d00695e6-2c3d-4eff-b5cd-f4f81954fb0f
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID_DESCRIPTION, WS_UNIQUE_ID_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNIQUE_ID_DESCRIPTION, wsw.ws_unique_id_description
-f1_keywords:
-- webservices/WS_UNIQUE_ID_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_UNIQUE_ID_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UNIQUE_ID_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_UNIQUE_ID_DESCRIPTION
+ - webservices/_WS_UNIQUE_ID_DESCRIPTION
+ - WS_UNIQUE_ID_DESCRIPTION
+ - webservices/WS_UNIQUE_ID_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_UNIQUE_ID_DESCRIPTION
 ---
 
 # WS_UNIQUE_ID_DESCRIPTION structure
@@ -49,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNIQUE_ID_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field minCharCount
 
 The minimum number of characters.  This only pertains 
                     to the case where the unique ID is represented as a string.
-                
-
 
 ### -field maxCharCount
 
 The maximum number of characters.  This only pertains
                     to the case where the unique ID is represented as a string.
-                
-

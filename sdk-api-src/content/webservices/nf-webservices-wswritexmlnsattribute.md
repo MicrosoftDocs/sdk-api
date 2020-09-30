@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3
 ms.date: 12/05/2018
 ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services for Windows], webservices/WsWriteXmlnsAttribute, wsw.wswritexmlnsattribute
-f1_keywords:
-- webservices/WsWriteXmlnsAttribute
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsWriteXmlnsAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsWriteXmlnsAttribute
+ - webservices/WsWriteXmlnsAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsWriteXmlnsAttribute
 ---
 
 # WsWriteXmlnsAttribute function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes an Xmlns attribute to the current element.
-      <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written and if the number of attributes exceeds the maximum number of attributes permitted for the writer the function returns <b>WS_E_QUOTA_EXCEEDED</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+      <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written and if the number of attributes exceeds the maximum number of attributes permitted for the writer the function returns <b>WS_E_QUOTA_EXCEEDED</b>.
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 
-
-
-
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the Xmlns attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
-                
-
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the Xmlns attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param prefix [in, optional]
 
@@ -72,14 +66,10 @@ A WS_XML_STRING pointer to the prefix to use for the start element.  If the valu
         
 
 Specifies the prefix to use for the xmlns attribute.
-        
-
 
 ### -param ns [in]
 
 A WS_XML_STRING pointer to the namespace to bind to the prefix.
-        
-
 
 ### -param singleQuote [in]
 
@@ -89,17 +79,11 @@ Determines whether to use a single or a double quote for the attribute value.
         </div>
 <div> </div>
 
-
-
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -153,14 +137,8 @@ A quota was exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following conditions apply:<ul>
 <li>If an empty prefix is specified then the default namespace is assigned.
@@ -172,7 +150,3 @@ The following conditions apply:<ul>
 <li>If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
 </ul>
-
-
-
-

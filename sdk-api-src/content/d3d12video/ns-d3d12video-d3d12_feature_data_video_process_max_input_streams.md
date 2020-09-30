@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS","D3D1
 tech.root: mf
 ms.assetid: 7c4f3ea1-e62d-41d2-b277-7e1f08d30dc0
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
-dev_langs:
-- c++
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS, D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS,
 req.header: d3d12video.h
 req.include-header: 
@@ -25,18 +21,24 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.max-support: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
 targetos: Windows
+f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
+ - d3d12video/D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS
 ---
 
 # D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS structure
+
 
 ## -description
 
@@ -49,9 +51,11 @@ Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12vide
 An integer indicating which physical adapter of the device the operation applies to, in a multi-adapter operation.
 
 ### -field MaxInputStreams
+
  
 The maximum number of streams that can be enabled for the video processor at the same time.
 
 ## -remarks
 
 ## -see-also
+

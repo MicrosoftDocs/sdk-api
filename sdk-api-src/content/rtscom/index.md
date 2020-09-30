@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: tablet
+f1_keywords:
+ - rtscom
+ - rtscom/rtscom
 ---
 
 # Rtscom.h header
 
 
 ## -description
-
 
 This header is used by Tablet PC. For more information, see:
 

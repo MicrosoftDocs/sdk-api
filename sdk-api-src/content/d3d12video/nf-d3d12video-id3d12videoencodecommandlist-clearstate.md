@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::ClearState
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::ClearState
  - d3d12video/ID3D12VideoEncodeCommandList::ClearState
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Resets the state of a direct command list back to the state it was in when the command list was created. 
+Resets the state of a direct command list back to the state it was in when the command list was created.
 
 ## -remarks
 

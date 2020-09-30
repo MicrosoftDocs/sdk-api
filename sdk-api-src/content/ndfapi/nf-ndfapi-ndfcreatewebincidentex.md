@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: ba378672-7ec4-4a5c-a900-fb8486a15ba3
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWebIncidentEx, NdfCreateWebIncidentEx function [NDF], ndf.ndfcreatewebincidentex, ndfapi/NdfCreateWebIncidentEx
-f1_keywords:
-- ndfapi/NdfCreateWebIncidentEx
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateWebIncidentEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateWebIncidentEx
+ - ndfapi/NdfCreateWebIncidentEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateWebIncidentEx
 ---
 
 # NdfCreateWebIncidentEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>NdfCreateWebIncidentEx</b> function diagnoses web connectivity problems concerning a specific URL.  This function allows for more control over the underlying diagnosis than the <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> function.
-
+The <b>NdfCreateWebIncidentEx</b> function diagnoses web connectivity problems concerning a specific URL.  This function allows for more control over the underlying diagnosis than the <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> function.
 
 ## -parameters
-
-
-
 
 ### -param url [in]
 
@@ -64,13 +60,11 @@ Type: <b>LPCWSTR</b>
 
 The URL with which there is a connectivity issue.
 
-
 ### -param useWinHTTP [in]
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if diagnosis will be performed using the WinHTTP APIs;  <b>FALSE</b> if the WinInet APIs will be used. 
-
+<b>TRUE</b> if diagnosis will be performed using the WinHTTP APIs;  <b>FALSE</b> if the WinInet APIs will be used.
 
 ### -param moduleName [in]
 
@@ -78,17 +72,13 @@ Type: <b>LPWSTR</b>
 
 The module name to use when checking against application-specific filtering rules (for example, "C:\Program Files\Internet Explorer\iexplorer.exe").  If <b>NULL</b>, the value is autodetected during the diagnosis.
 
-
 ### -param handle [out]
 
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -144,18 +134,7 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a>

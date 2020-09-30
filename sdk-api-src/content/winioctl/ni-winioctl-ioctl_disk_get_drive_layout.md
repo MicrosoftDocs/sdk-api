@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_DRIVE_LAYOUT
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_DRIVE_LAYOUT
+ - winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_DRIVE_LAYOUT
 ---
 
 # IOCTL_DISK_GET_DRIVE_LAYOUT IOCTL
+
 
 ## -description
 
@@ -124,3 +126,4 @@ This operation retrieves information for each primary partition as well as each 
 * [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
 * [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md)
 * [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md)
+

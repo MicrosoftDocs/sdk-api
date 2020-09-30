@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemtext.htm
 ms.date: 12/05/2018
 ms.keywords: SetDlgItemText, SetDlgItemText function [Dialog Boxes], SetDlgItemTextA, SetDlgItemTextW, _win32_SetDlgItemText, _win32_setdlgitemtext_cpp, dlgbox.setdlgitemtext, winui._win32_setdlgitemtext, winuser/SetDlgItemText, winuser/SetDlgItemTextA, winuser/SetDlgItemTextW
-f1_keywords:
-- winuser/SetDlgItemText
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- SetDlgItemText
-- SetDlgItemTextA
-- SetDlgItemTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDlgItemTextA
+ - winuser/SetDlgItemTextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - SetDlgItemText
+ - SetDlgItemTextA
+ - SetDlgItemTextW
 ---
 
 # SetDlgItemTextA function
@@ -54,59 +55,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the title or text of a control in a dialog box. 
-
+Sets the title or text of a control in a dialog box.
 
 ## -parameters
-
-
-
 
 ### -param hDlg [in]
 
 Type: <b>HWND</b>
 
-A handle to the dialog box that contains the control. 
-
+A handle to the dialog box that contains the control.
 
 ### -param nIDDlgItem [in]
 
 Type: <b>int</b>
 
-The control with a title or text to be set. 
-
+The control with a title or text to be set.
 
 ### -param lpString [in]
 
 Type: <b>LPCTSTR</b>
 
-The text to be copied to the control. 
-
+The text to be copied to the control.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-The <b>SetDlgItemText</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control. 
+The <b>SetDlgItemText</b> function sends a <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>. 
+For an example, see <a href="/windows/desktop/Controls/using-list-boxes">Using List Boxes</a>. 
 
 <div class="code"></div>
 
@@ -118,22 +104,19 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
 
 
 
@@ -141,12 +124,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>

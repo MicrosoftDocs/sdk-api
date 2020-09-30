@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 4fea0a48-df5f-4f34-a3ea-d52883f6f8b1
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], ITfContextOwnerCompositionSink interface [Text Services Framework],described, _tsf_itfcontextownercompositionsink_ref, msctf/ITfContextOwnerCompositionSink, tsf.itfcontextownercompositionsink
-f1_keywords:
-- msctf/ITfContextOwnerCompositionSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msimtf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msimtf.dll
-api_name:
-- ITfContextOwnerCompositionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerCompositionSink
+ - msctf/ITfContextOwnerCompositionSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msimtf.dll
+api_name:
+ - ITfContextOwnerCompositionSink
 ---
 
 # ITfContextOwnerCompositionSink interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITfContextOwnerCompositionSink</b> interface is implemented by an application to receive composition-related notifications. When the application calls <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a>, the TSF manager queries the object for this interface. If the object supports this interface, the advise sink is installed.
-
+The <b>ITfContextOwnerCompositionSink</b> interface is implemented by an application to receive composition-related notifications. When the application calls <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a>, the TSF manager queries the object for this interface. If the object supports this interface, the advise sink is installed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerCompositionSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextOwnerCompositionSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerCompositionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextOwnerCompositionSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITfContextOwnerCompositionSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">OnEndComposition</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">OnEndComposition</a>
 </td>
 <td align="left" width="63%">
 Called when a composition is terminated.
@@ -79,7 +78,7 @@ Called when a composition is terminated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">OnStartComposition</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">OnStartComposition</a>
 </td>
 <td align="left" width="63%">
 Called when a composition is started.
@@ -88,28 +87,20 @@ Called when a composition is started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onupdatecomposition">OnUpdateComposition</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onupdatecomposition">OnUpdateComposition</a>
 </td>
 <td align="left" width="63%">
 Called when an existing composition is changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

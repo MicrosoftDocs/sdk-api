@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
-f1_keywords:
-- d3d12/D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,21 +18,26 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
+ - d3d12/D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
+ - D3D12_SHARED_RESOURCE_COMPATIBILITY_TIER
 ---
 
 ## -description
 
 Defines constants that specify a cross-API sharing support tier.
 
-The resource data formats mentioned are members of the [DXGI_FORMAT enumeration](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The resource data formats mentioned are members of the [DXGI_FORMAT enumeration](../dxgiformat/ne-dxgiformat-dxgi_format.md).
 
 ## -enum-fields
 

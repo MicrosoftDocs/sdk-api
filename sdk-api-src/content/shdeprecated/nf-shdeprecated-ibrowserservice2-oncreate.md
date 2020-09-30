@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: abfcb67a-c383-4480-9da9-788fb9cebf5e
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCreate method, IBrowserService2.OnCreate, IBrowserService2::OnCreate, OnCreate, OnCreate method [Windows Shell], OnCreate method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCreate, shell.IBrowserService2_OnCreate, zone_IBrowserService2_OnCreate
-f1_keywords:
-- shdeprecated/IBrowserService2.OnCreate
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.OnCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::OnCreate
+ - shdeprecated/IBrowserService2::OnCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.OnCreate
 ---
 
 # IBrowserService2::OnCreate
@@ -50,30 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. The derived class handles the message.
-
+Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. The derived class handles the message.
 
 ## -parameters
-
-
-
 
 ### -param pcs [in]
 
 Type: <b>tagCREATESTRUCTW*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
-        
-
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

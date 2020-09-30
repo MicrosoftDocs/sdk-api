@@ -30,7 +30,11 @@ api_name:
  - _PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
  - PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
 f1_keywords:
+ - _PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
  - winnt/_PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ - PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ - winnt/PPROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
+ - PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
  - winnt/PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY
 dev_langs:
  - c++
@@ -40,7 +44,6 @@ dev_langs:
 
 Contains process mitigation policy settings for user-mode Hardware-enforced Stack Protection (HSP). The [GetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy) and [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy) functions use this structure.
 
-
 ## -struct-fields
 
 ### -field DUMMYUNIONNAME
@@ -48,7 +51,6 @@ Contains process mitigation policy settings for user-mode Hardware-enforced Stac
 ### -field DUMMYUNIONNAME.Flags
 
 This member is reserved for system use.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
@@ -59,17 +61,17 @@ This means that the CPU verifies function return addresses at runtime by employi
 In compatibility mode, only shadow stack violations occurring in modules compiled with [CETCOMPAT](/cpp/build/reference/cetcompat) are fatal.
 This field cannot be changed via [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy).
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
 
-
 ## -remarks
 
 ## -see-also
+
 [CETCOMPAT](/cpp/build/reference/cetcompat)
 
 [GetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy)
 
 [SetProcessMitigationPolicy](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy)
+

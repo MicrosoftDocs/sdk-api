@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
-f1_keywords:
-- directml/DML_BUFFER_TENSOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_BUFFER_TENSOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_BUFFER_TENSOR_DESC
+ - directml/DML_BUFFER_TENSOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_BUFFER_TENSOR_DESC
 ---
 
 # DML_BUFFER_TENSOR_DESC structure
+
 
 ## -description
 
@@ -88,7 +90,7 @@ If <i>Strides</i> is not specified, each dimension in the tensor is considered t
 
 ### -field TotalTensorSizeInBytes
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
 ms.date: 12/05/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_ERROR_VIEWTRANSFORM, MsiDatabaseApplyTransform, MsiDatabaseApplyTransform function, MsiDatabaseApplyTransformA, MsiDatabaseApplyTransformW, _msi_msidatabaseapplytransform, msiquery/MsiDatabaseApplyTransform, msiquery/MsiDatabaseApplyTransformA, msiquery/MsiDatabaseApplyTransformW, setup.msidatabaseapplytransform
-f1_keywords:
-- msiquery/MsiDatabaseApplyTransform
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseApplyTransform
-- MsiDatabaseApplyTransformA
-- MsiDatabaseApplyTransformW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseApplyTransformW
+ - msiquery/MsiDatabaseApplyTransformW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseApplyTransform
+ - MsiDatabaseApplyTransformA
+ - MsiDatabaseApplyTransformW
 ---
 
 # MsiDatabaseApplyTransformW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiDatabaseApplyTransform</b> function applies a transform to a database.
 
-
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to the transform.
-
+Handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to the transform.
 
 ### -param szTransformFile [in]
 
 Specifies the name of the transform file to apply.
-
 
 ### -param iErrorConditions [in]
 
@@ -156,27 +150,18 @@ Transform and database code pages do not match and neither has a neutral code pa
 </td>
 <td width="60%">
 Create the temporary 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/-transformview-table">_TransformView table</a>.
+<a href="/windows/desktop/Msi/-transformview-table">_TransformView table</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseApplyTransform</b> function returns one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiDatabaseApplyTransform</b> function delays transforming tables until it is necessary. Any tables to be added or dropped are processed immediately. However, changes to the existing table are delayed until the table is loaded or the database is committed.
@@ -188,7 +173,7 @@ Because the list delimiter for transforms, sources and patches is a semicolon, t
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -199,15 +184,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>

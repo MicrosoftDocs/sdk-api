@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_15surface.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IDirectDrawSurface7*), Bitmap.Bitmap(IN IDirectDrawSurface7), Bitmap::Bitmap, Bitmap::Bitmap(IN IDirectDrawSurface7), _gdiplus_CLASS_Bitmap_Bitmap_surface_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_surface_
-f1_keywords:
-- gdiplusheaders/Bitmap.Bitmap
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Bitmap.Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Bitmap::Bitmap
+ - gdiplusheaders/Bitmap::Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(IN IDirectDrawSurface7)
@@ -50,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Bitmap::Bitmap</b> object based on a DirectDraw surface. The <b>Bitmap::Bitmap</b> object maintains a reference to the DirectDraw surface until the <b>Bitmap::Bitmap</b> object is deleted or goes out of scope.
 
-
 ## -parameters
-
-
-
 
 ### -param surface [in]
 
 Type: <b>IDirectDrawSurface7*</b>
 
 Pointer to an 
-					<b>IDrectDrawSurface7</b> COM interface. 
-
+					<b>IDrectDrawSurface7</b> COM interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
 
 
@@ -80,20 +72,16 @@ Pointer to an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromdirectdrawsurface7">Bitmap::FromDirectDrawSurface7</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-fromdirectdrawsurface7">Bitmap::FromDirectDrawSurface7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>

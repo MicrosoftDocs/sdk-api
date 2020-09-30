@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumCategories method, IKsTopologyInfo.get_NumCategories, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumCategories
-f1_keywords:
-- vidcap/IKsTopologyInfo.get_NumCategories
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vidcap.h
-api_name:
-- IKsTopologyInfo.get_NumCategories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsTopologyInfo::get_NumCategories
+ - vidcap/IKsTopologyInfo::get_NumCategories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vidcap.h
+api_name:
+ - IKsTopologyInfo.get_NumCategories
 ---
 
 # IKsTopologyInfo::get_NumCategories
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>get_NumCategories</code> method returns the number of categories for this filter.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwNumCategories [out]
 
 Receives the number of categories.
 
-
 ## -returns
-
-
 
 The method returns an HRES<b></b>ULT. Possible values include, but are not limited to, those in the following table.
 
@@ -86,22 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>

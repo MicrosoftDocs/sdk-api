@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: edp
 archived: true
+f1_keywords:
+ - efswrtinterop
+ - efswrtinterop/efswrtinterop
 ---
 
 # Efswrtinterop.h header
 
 
 ## -description
-
 
 This header is used by Windows Information Protection (WIP). For more information, see:
 

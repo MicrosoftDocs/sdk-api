@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
-f1_keywords:
-- eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
-dev_langs:
-- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- eapmethodauthenticatorapis.h
-api_name:
-- EapMethodAuthenticatorFreeErrorMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EapMethodAuthenticatorFreeErrorMemory
+ - eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - eapmethodauthenticatorapis.h
+api_name:
+ - EapMethodAuthenticatorFreeErrorMemory
 ---
 
 # EapMethodAuthenticatorFreeErrorMemory function
@@ -49,29 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases error-specific memory allocated by the EAP authenticator method.
 
 <b>EapMethodAuthenticatorFreeErrorMemory</b> is a function prototype.
 
-
 ## -parameters
-
-
-
 
 ### -param pEapError [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains the error data to free.
-
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains the error data to free.
 
 ## -see-also
 
-
-
-
 [EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
- 
-
- 
-

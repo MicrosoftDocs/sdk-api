@@ -30,6 +30,5 @@ To develop Other Devices Technologies, you need these headers:
  * [wsdxmldom.h](../wsdxmldom/index.md)
 
 For programming guidance for this technology, see:
-* [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal)
+* [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal)
 * [Web Services on Devices](/windows/desktop/wsdapi)
-

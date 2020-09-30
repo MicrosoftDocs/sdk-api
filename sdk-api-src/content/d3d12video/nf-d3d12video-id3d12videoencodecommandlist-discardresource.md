@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::DiscardResource
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::DiscardResource
  - d3d12video/ID3D12VideoEncodeCommandList::DiscardResource
 dev_langs:
  - c++
@@ -45,17 +46,14 @@ Indicate that the current contents of a resource can be discarded.  The current 
 
 ## -parameters
 
-
-
 ### -param pResource
 
-A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface for the resource to discard.
+A pointer to the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface for the resource to discard.
 
 ### -param pRegion
 
-A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
+A pointer to a <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_discard_region">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
 
 ## -remarks
 
 ## -see-also
-

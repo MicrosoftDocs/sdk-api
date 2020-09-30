@@ -44,56 +44,29 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D2D_MATRIX_3X2_F structure
-
-
 ## -description
-
 
 Represents a 3-by-2 matrix.
 
-
 ## -struct-fields
-
-
-
 
 ### -field m11
 
- 
-
-
 ### -field m12
-
- 
-
 
 ### -field m21
 
- 
-
-
 ### -field m22
-
- 
-
 
 ### -field dx
 
- 
-
-
 ### -field dy
-
- 
-
 
 ### -field _11
 
 Type: <b>FLOAT</b>
 
- The value in the first row and first column of the matrix.
-
+The value in the first row and first column of the matrix.
 
 ### -field _12
 
@@ -101,13 +74,11 @@ Type: <b>FLOAT</b>
 
 The value in the first row and second column of the matrix.
 
-
 ### -field _21
 
 Type: <b>FLOAT</b>
 
 The value in the second row and first column of the matrix.
-
 
 ### -field _22
 
@@ -115,13 +86,11 @@ Type: <b>FLOAT</b>
 
 The value in the second row and second column of the matrix.
 
-
 ### -field _31
 
 Type: <b>FLOAT</b>
 
 The value in the third row and first column of the matrix.
-
 
 ### -field _32
 
@@ -129,10 +98,6 @@ Type: <b>FLOAT</b>
 
 The value in the third row and second column of the matrix.
 
-
 ### -field m
 
- 
-
-
-
+An array that describes the matrix.

@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 5ACD5075-BD96-41FC-AE36-8D5D03F2EB54
 ms.date: 12/05/2018
 ms.keywords: GetBaseline, GetBaseline method [Direct Write], GetBaseline method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetBaseline method, IDWriteTextAnalyzer1.GetBaseline, IDWriteTextAnalyzer1::GetBaseline, directwrite.idwritetextanalyzer1_getbaseline, dwrite_1/IDWriteTextAnalyzer1::GetBaseline
-f1_keywords:
-- dwrite_1/IDWriteTextAnalyzer1.GetBaseline
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextAnalyzer1.GetBaseline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextAnalyzer1::GetBaseline
+ - dwrite_1/IDWriteTextAnalyzer1::GetBaseline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextAnalyzer1.GetBaseline
 ---
 
 # IDWriteTextAnalyzer1::GetBaseline
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the given baseline from the font.
 
-
 ## -parameters
-
-
-
 
 ### -param fontFace
 
@@ -64,13 +60,11 @@ Type: <b><a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWr
 
 The font face to read.
 
-
 ### -param baseline
 
 Type: <b><a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_baseline">DWRITE_BASELINE</a></b>
 
 A <a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_baseline">DWRITE_BASELINE</a>-typed value that specifies the baseline of interest.
-
 
 ### -param isVertical
 
@@ -78,13 +72,11 @@ Type: <b>BOOL</b>
 
 Whether the baseline is vertical or horizontal.
 
-
 ### -param isSimulationAllowed
 
 Type: <b>BOOL</b>
 
 Simulate the baseline if it is missing in the font.
-
 
 ### -param scriptAnalysis
 
@@ -101,13 +93,11 @@ Type: <b>const WCHAR*</b>
 
 The language of the run.
 
-
 ### -param baselineCoordinate [out]
 
 Type: <b>INT32*</b>
 
 The baseline coordinate value in design units.
-
 
 ### -param exists [out]
 
@@ -115,21 +105,13 @@ Type: <b>BOOL*</b>
 
 Whether the returned baseline exists in the font.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If the baseline does not exist in the font, it is not considered an
     error, but the function will return exists = false. You may then use
@@ -137,16 +119,7 @@ If the baseline does not exist in the font, it is not considered an
     simulationAllowed is true, the function will compute a reasonable
     approximation for you.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
- 
-
- 
 

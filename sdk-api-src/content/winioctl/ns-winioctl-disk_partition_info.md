@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 34a086fc-72ea-46ed-adb3-c084abcb3c74
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Files], PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Files], _win32_disk_partition_info_str, base.disk_partition_info_str, fs.disk_partition_info_str, winioctl/DISK_PARTITION_INFO, winioctl/PDISK_PARTITION_INFO'
-f1_keywords:
-- winioctl/DISK_PARTITION_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DISK_PARTITION_INFO
 targetos: Windows
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 req.redist: 
+f1_keywords:
+ - _DISK_PARTITION_INFO
+ - winioctl/_DISK_PARTITION_INFO
+ - PDISK_PARTITION_INFO
+ - winioctl/PDISK_PARTITION_INFO
+ - DISK_PARTITION_INFO
+ - winioctl/DISK_PARTITION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DISK_PARTITION_INFO
 ---
 
 # DISK_PARTITION_INFO structure
+
 
 ## -description
 
@@ -84,3 +90,4 @@ If **PartitionStyle** is **PARTITION_STYLE_GPT** (1), the union is a structure t
 ## -see-also
 
 [DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md), [PARTITION_STYLE](ne-winioctl-partition_style.md)
+

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: B3DAB59B-15A5-42A0-8545-94F585D8FF09
 ms.date: 12/05/2018
 ms.keywords: PINSPECT_HSTRING_CALLBACK, PINSPECT_HSTRING_CALLBACK function, PINSPECT_HSTRING_CALLBACK function pointer [Windows Runtime], winrt.pinspect_hstring_callback, winstring/PINSPECT_HSTRING_CALLBACK
-f1_keywords:
-- winstring/PINSPECT_HSTRING_CALLBACK
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winstring.h
-api_name:
-- PINSPECT_HSTRING_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PINSPECT_HSTRING_CALLBACK
+ - winstring/PINSPECT_HSTRING_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winstring.h
+api_name:
+ - PINSPECT_HSTRING_CALLBACK
 ---
 
 ## -description
@@ -66,7 +67,7 @@ The address to read data from.
 
 [in]
 
-The number of bytes to read, starting at <i>readAddress</i>. 
+The number of bytes to read, starting at <i>readAddress</i>.
 
 ### -param buffer
 
@@ -85,3 +86,4 @@ Implement this callback when you use the <a href="/windows/desktop/api/winstring
 ## -see-also
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a>
+

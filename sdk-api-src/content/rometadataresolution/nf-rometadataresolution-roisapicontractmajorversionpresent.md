@@ -35,12 +35,14 @@ api_location:
 api_name:
  - RoIsApiContractMajorVersionPresent
 f1_keywords:
+ - RoIsApiContractMajorVersionPresent
  - rometadataresolution/RoIsApiContractMajorVersionPresent
 dev_langs:
  - c++
 ---
 
 # RoIsApiContractMajorVersionPresent function
+
 
 ## -description
 
@@ -124,3 +126,4 @@ The function was called from a process that is not in a UWP app container.
 This function was introduced in Windows 10, version 1809 (build 17763).
 
 ## -see-also
+

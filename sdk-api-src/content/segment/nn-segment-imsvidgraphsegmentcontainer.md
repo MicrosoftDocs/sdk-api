@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: a314693f-8fc2-4816-b64b-d5f8886da39e
 ms.date: 12/05/2018
 ms.keywords: IMSVidGraphSegmentContainer, IMSVidGraphSegmentContainer interface [Microsoft TV Technologies], IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],described, IMSVidGraphSegmentContainerInterface, mstv.imsvidgraphsegmentcontainer, segment/IMSVidGraphSegmentContainer
-f1_keywords:
-- segment/IMSVidGraphSegmentContainer
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidGraphSegmentContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidGraphSegmentContainer
+ - segment/IMSVidGraphSegmentContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidGraphSegmentContainer
 ---
 
 # IMSVidGraphSegmentContainer interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>, which obtains a pointer to the Filter Graph Manager. 
-
-
-
+The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>, which obtains a pointer to the Filter Graph Manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGraphSegmentContainer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMSVidGraphSegmentContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGraphSegmentContainer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMSVidGraphSegmentContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,34 +69,21 @@ The <b>IMSVidGraphSegmentContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the Filter Graph Manager.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface has additional methods besides the one shown here, but they are not supported.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidGraphSegmentContainer)</code>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

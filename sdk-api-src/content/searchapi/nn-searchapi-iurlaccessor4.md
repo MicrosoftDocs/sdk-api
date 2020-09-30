@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\iurlaccessor4.htm
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], IUrlAccessor4 interface [search],described, _search_IUrlAccessor4, search._search_IUrlAccessor4, searchapi/IUrlAccessor4
-f1_keywords:
-- searchapi/IUrlAccessor4
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IUrlAccessor4
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IUrlAccessor4
+ - searchapi/IUrlAccessor4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IUrlAccessor4
 ---
 
 # IUrlAccessor4 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a> interface with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed. 
-
+Extends the functionality of the <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a> interface with the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor4</b> interface inherits from <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>. <b>IUrlAccessor4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IUrlAccessor4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getcodepage">GetCodePage</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getcodepage">GetCodePage</a>
 </td>
 <td align="left" width="63%">
 Gets the code page for properties of the URL item.
@@ -80,7 +79,7 @@ Gets the code page for properties of the URL item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getdisplayurl">GetDisplayUrl</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-getdisplayurl">GetDisplayUrl</a>
 </td>
 <td align="left" width="63%">
 Gets the user-friendly path for the URL item.
@@ -90,7 +89,7 @@ Gets the user-friendly path for the URL item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">GetImpersonationSidBlobs</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs">GetImpersonationSidBlobs</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of user SIDs for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
@@ -100,7 +99,7 @@ Retrieves an array of user SIDs for a specified URL. This method enables protoco
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-isdocument">IsDocument</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor2-isdocument">IsDocument</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether an item URL is a document or directory.
@@ -109,7 +108,7 @@ Ascertains whether an item URL is a document or directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">ShouldIndexItemContent</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">ShouldIndexItemContent</a>
 </td>
 <td align="left" width="63%">
 Identifies whether the item's content should be indexed. 
@@ -119,34 +118,30 @@ Identifies whether the item's content should be indexed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexproperty">ShouldIndexProperty</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexproperty">ShouldIndexProperty</a>
 </td>
 <td align="left" width="63%">
 Identifies whether a property should be indexed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>
 
 
 
@@ -154,8 +149,4 @@ Identifies whether a property should be indexed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

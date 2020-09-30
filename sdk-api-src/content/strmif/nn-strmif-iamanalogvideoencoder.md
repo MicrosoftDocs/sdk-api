@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], IAMAnalogVideoEncoder interface [DirectShow],described, IAMAnalogVideoEncoderInterface, dshow.iamanalogvideoencoder, strmif/IAMAnalogVideoEncoder
-f1_keywords:
-- strmif/IAMAnalogVideoEncoder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMAnalogVideoEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoEncoder
+ - strmif/IAMAnalogVideoEncoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMAnalogVideoEncoder
 ---
 
 # IAMAnalogVideoEncoder interface
@@ -49,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface has been deprecated.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  Microsoft does not provide an implementation of this interface. Third parties might implement it.</div>
 <div> </div>
-The <b>IAMAnalogVideoEncoder</b> interface might be implemented by a hardware video encoder in video capture operations when an application is streaming data to disk and sending it back out to videotape. 
-
-
-
+The <b>IAMAnalogVideoEncoder</b> interface might be implemented by a hardware video encoder in video capture operations when an application is streaming data to disk and sending it back out to videotape.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoEncoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +73,7 @@ The <b>IAMAnalogVideoEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_availabletvformats">get_AvailableTVFormats</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_availabletvformats">get_AvailableTVFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) supported by the encoder.
@@ -86,7 +82,7 @@ Retrieves the analog video standards (NTSC/M, PAL/B, SECAM/K1, and so on) suppor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_ccenable">get_CCEnable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_ccenable">get_CCEnable</a>
 </td>
 <td align="left" width="63%">
 Determines whether closed captioning is currently enabled.
@@ -95,7 +91,7 @@ Determines whether closed captioning is currently enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_copyprotection">get_CopyProtection</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_copyprotection">get_CopyProtection</a>
 </td>
 <td align="left" width="63%">
 Determines whether copy protection is currently enabled.
@@ -104,7 +100,7 @@ Determines whether copy protection is currently enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_tvformat">get_TVFormat</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-get_tvformat">get_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the analog video standard that the encoder is currently set to.
@@ -113,7 +109,7 @@ Retrieves the analog video standard that the encoder is currently set to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_ccenable">put_CCEnable</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_ccenable">put_CCEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captioning.
@@ -122,7 +118,7 @@ Enables or disables closed captioning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_copyprotection">put_CopyProtection</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_copyprotection">put_CopyProtection</a>
 </td>
 <td align="left" width="63%">
 Sets the level of copy protection for the encoder.
@@ -131,23 +127,15 @@ Sets the level of copy protection for the encoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_tvformat">put_TVFormat</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamanalogvideoencoder-put_tvformat">put_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the encoder to a particular analog video standard.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

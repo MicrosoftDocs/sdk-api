@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::Reset
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::Reset
  - d3d12video/ID3D12VideoEncodeCommandList::Reset
 dev_langs:
  - c++
@@ -49,8 +50,7 @@ Resets a command list back to its initial state as if a new command list was jus
 
 Type: <b>ID3D12CommandAllocator*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
-  
+A pointer to the <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a> object that the device creates command lists from.
 
 ## -returns
 
@@ -67,11 +67,10 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 <li><b>E_INVALIDARG</b> if the allocator is currently being used with another command list in the "recording" state or if the specified allocator was created with the wrong type.
               </li>
 </ul>
-See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
+See <a href="/windows/win32/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 ## -remarks
 
-For additional information and examples of using this method, see [ID3D12GraphicsCommandList::Reset method](https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
+For additional information and examples of using this method, see [ID3D12GraphicsCommandList::Reset method](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
 
 ## -see-also
-

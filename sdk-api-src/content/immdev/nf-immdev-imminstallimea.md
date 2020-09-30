@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
 ms.date: 12/05/2018
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
-f1_keywords:
-- immdev/ImmInstallIME
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmInstallIME
-- ImmInstallIMEA
-- ImmInstallIMEW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmInstallIMEA
+ - immdev/ImmInstallIMEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmInstallIME
+ - ImmInstallIMEA
+ - ImmInstallIMEW
 ---
 
 # ImmInstallIMEA function
@@ -51,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Installs an IME.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszIMEFileName [in]
 
 Pointer to a null-terminated string that specifies the full path of the IME.
 
-
 ### -param lpszLayoutText [in]
 
 Pointer to a null-terminated string that specifies the name of the IME and the associated layout text.
 
-
 ## -returns
-
-
 
 Returns the input locale identifier for the IME.
 
-
-
-
 ## -remarks
-
-
 
 This function is intended to be used by IME setup applications only.
 
@@ -94,15 +81,8 @@ This function is intended to be used by IME setup applications only.
 
 ## -see-also
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

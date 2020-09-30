@@ -8,10 +8,6 @@ tech.root: serports
 ms.assetid: f1c5fdc5-b84b-4c7f-832a-44151df39721
 ms.date: 12/05/2018
 ms.keywords: ComDBGetCurrentPortUsage, ComDBGetCurrentPortUsage function [Serial Ports], comdb_b4de1b55-d769-424f-842a-21a8cb28ef1d.xml, msports/ComDBGetCurrentPortUsage, serports.comdbgetcurrentportusage
-f1_keywords:
-- msports/ComDBGetCurrentPortUsage
-dev_langs:
-- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msports.dll
-api_name:
-- ComDBGetCurrentPortUsage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComDBGetCurrentPortUsage
+ - msports/ComDBGetCurrentPortUsage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msports.dll
+api_name:
+ - ComDBGetCurrentPortUsage
 ---
 
 # ComDBGetCurrentPortUsage function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ComDBGetCurrentPortUsage</b> returns information about the COM port numbers that are currently logged as "in use" in the COM port database.
-
 
 ## -parameters
 
-
-
-
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
-
+Handle to the COM port database that was returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param Buffer [out, optional]
 
 Pointer to a caller-allocated buffer in which the routine returns information about COM port number. See the Remarks section for more information.
 
-
 ### -param BufferSize [in]
 
-Specifies the size, in bytes, of a caller-allocated buffer at <i>Buffer</i>. 
-
+Specifies the size, in bytes, of a caller-allocated buffer at <i>Buffer</i>.
 
 ### -param ReportType [in]
 
@@ -103,17 +96,12 @@ The routine returns a byte array at <i>Buffer</i> that specifies port number usa
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MaxPortsReported [out, optional]
 
 Pointer to the value that the routine uses to return the number of ports for which the routine returns information at <i>Buffer</i>. See the Remarks section for more information.
 
-
 ## -returns
-
-
 
 <b>ComDBGetCurrentPortUsage</b> returns one of the following status values.
 
@@ -156,14 +144,8 @@ The routine could not access the database. To get extended error information, ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By setting <i>Buffer</i> to <b>NULL</b> and <i>MaxPortsReported</i> to a valid pointer, a caller can determine the current COM port database size, which is the number of COM port numbers that are currently arbitrated in the database. In this case, the routine sets *<i>MaxPortsReported</i> to the database size. <i>ReportType</i> is not used. 
 
@@ -181,24 +163,14 @@ If <i>ReportType</i> is CDB_REPORT_BYTES, the routine returns a byte array that 
 </ul>
 <b>ComDBGetCurrentPortUsage</b> runs in user mode.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbresizedatabase">ComDBResizeDatabase</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbresizedatabase">ComDBResizeDatabase</a>

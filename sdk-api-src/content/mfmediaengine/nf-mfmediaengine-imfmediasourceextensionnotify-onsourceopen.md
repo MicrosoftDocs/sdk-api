@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 45120acf-48e1-4b4a-af50-f6052acdb533
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceOpen method, IMFMediaSourceExtensionNotify.OnSourceOpen, IMFMediaSourceExtensionNotify::OnSourceOpen, OnSourceOpen, OnSourceOpen method [Media Foundation], OnSourceOpen method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceopen, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
-f1_keywords:
-- mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceOpen
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaSourceExtensionNotify.OnSourceOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceExtensionNotify::OnSourceOpen
+ - mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaSourceExtensionNotify.OnSourceOpen
 ---
 
 # IMFMediaSourceExtensionNotify::OnSourceOpen
@@ -49,24 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to indicate that the  media source has opened.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>

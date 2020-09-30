@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 00f42c0d-56c3-478e-ab54-4c7c8741a9ab
 ms.date: 12/05/2018
 ms.keywords: VarDecFromI1, VarDecFromI1 function [Automation], _oa96_VarDecFromI1, automat.vardecfromi1, oleauto/VarDecFromI1
-f1_keywords:
-- oleauto/VarDecFromI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecFromI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecFromI1
+ - oleauto/VarDecFromI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecFromI1
 ---
 
 # VarDecFromI1 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a char value to a decimal value.
 
-
 ## -parameters
-
-
-
 
 ### -param cIn [in]
 
 The value to convert.
 
-
 ### -param pdecOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

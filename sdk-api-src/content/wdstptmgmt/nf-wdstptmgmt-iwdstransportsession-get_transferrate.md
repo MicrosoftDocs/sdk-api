@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: cc346743-b2be-43c1-8b68-495bd0aa99d9
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],TransferRate property, IWdsTransportSession.TransferRate, IWdsTransportSession.get_TransferRate, IWdsTransportSession::TransferRate, IWdsTransportSession::get_TransferRate, TransferRate property [Windows Deployment Services], TransferRate property [Windows Deployment Services],IWdsTransportSession interface, get_TransferRate, wds.iwdstransportsession_transferrate, wdstptmgmt/IWdsTransportSession::TransferRate, wdstptmgmt/IWdsTransportSession::get_TransferRate
-f1_keywords:
-- wdstptmgmt/IWdsTransportSession.TransferRate
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportSession.TransferRate
-- IWdsTransportSession.get_TransferRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportSession::get_TransferRate
+ - wdstptmgmt/IWdsTransportSession::get_TransferRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportSession.TransferRate
+ - IWdsTransportSession.get_TransferRate
 ---
 
 # IWdsTransportSession::get_TransferRate
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives the data transfer rate for this session in bytes per second.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>

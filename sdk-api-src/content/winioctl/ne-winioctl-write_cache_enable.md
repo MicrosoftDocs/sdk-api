@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_ENABLE, WRITE_CACHE_ENABLE enumeration [Files], WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, fs.write_cache_enable, winioctl/WRITE_CACHE_ENABLE, winioctl/WriteCacheDisabled, winioctl/WriteCacheEnableUnknown, winioctl/WriteCacheEnabled
-f1_keywords:
-- winioctl/WRITE_CACHE_ENABLE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- WRITE_CACHE_ENABLE
 targetos: Windows
 req.typenames: WRITE_CACHE_ENABLE
 req.redist: 
+f1_keywords:
+ - _WRITE_CACHE_ENABLE
+ - winioctl/_WRITE_CACHE_ENABLE
+ - WRITE_CACHE_ENABLE
+ - winioctl/WRITE_CACHE_ENABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - WRITE_CACHE_ENABLE
 ---
 
 # WRITE_CACHE_ENABLE enumeration
 
+
 ## -description
 
 Indicates whether the write cache is enabled or disabled.
-
 
 ## -enum-fields
 
@@ -56,24 +59,20 @@ Indicates whether the write cache is enabled or disabled.
 
 The system cannot report whether the device's write cache is enabled or disabled.
 
-
 ### -field WriteCacheDisabled
 
 The device's write cache is disabled.
-
 
 ### -field WriteCacheEnabled
 
 The device's write cache is enabled.
 
-
 ## -remarks
 
 The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) control code reports a **WRITE_CACHE_ENABLE** value in the [STORAGE_WRITE_CACHE_PROPERTY](/ns-winioctl-storage_write_cache_property.md) structure.
 
-
 ## -see-also
 
-* [Disk Management Enumeration Types](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types)
+* [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)

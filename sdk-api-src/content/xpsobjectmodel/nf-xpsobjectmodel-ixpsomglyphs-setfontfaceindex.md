@@ -8,10 +8,6 @@ tech.root: printdocs
 ms.assetid: 9430474d-b874-47c7-b916-089280da8873
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontFaceIndex method, IXpsOMGlyphs.SetFontFaceIndex, IXpsOMGlyphs::SetFontFaceIndex, SetFontFaceIndex, SetFontFaceIndex method [XPS Documents and Packaging], SetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.SetFontFaceIndex
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.SetFontFaceIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::SetFontFaceIndex
+ - xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.SetFontFaceIndex
 ---
 
 # IXpsOMGlyphs::SetFontFaceIndex
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the index of the font face to be used.
 
-This value is only used when <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfontresource">GetFontResource</a> returns an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface that  represents a <b>TrueType</b> font collection.
-
+This value is only used when <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getfontresource">GetFontResource</a> returns an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface that  represents a <b>TrueType</b> font collection.
 
 ## -parameters
-
-
-
 
 ### -param fontFaceIndex [in]
 
 The index value of the font face to be used.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -99,14 +92,8 @@ The value of <i>fontFaceIndex</i> is not valid; it must be an integer that is gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The default value of the font face index property is –1, which means that a font index has not been set or the font resource is not a  <b>TrueType</b> font collection.
 
@@ -124,14 +111,9 @@ The following markup of a FixedPage shows the result of setting the <i>fontFaceI
       FontRenderingEmSize="16" /&gt;
     &lt;/FixedPage&gt;</code></pre>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
@@ -139,8 +121,4 @@ The following markup of a FixedPage shows the result of setting the <i>fontFaceI
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

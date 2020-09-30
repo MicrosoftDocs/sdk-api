@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: d8137b53-b1fd-4c25-909a-d0ed671848df
 ms.date: 12/05/2018
 ms.keywords: AvSetMmMaxThreadCharacteristics, AvSetMmMaxThreadCharacteristics function, AvSetMmMaxThreadCharacteristicsA, AvSetMmMaxThreadCharacteristicsW, avrt/AvSetMmMaxThreadCharacteristics, avrt/AvSetMmMaxThreadCharacteristicsA, avrt/AvSetMmMaxThreadCharacteristicsW, base.avsetmmmaxthreadcharacteristics
-f1_keywords:
-- avrt/AvSetMmMaxThreadCharacteristics
-dev_langs:
-- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avrt.dll
-api_name:
-- AvSetMmMaxThreadCharacteristics
-- AvSetMmMaxThreadCharacteristicsA
-- AvSetMmMaxThreadCharacteristicsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AvSetMmMaxThreadCharacteristicsW
+ - avrt/AvSetMmMaxThreadCharacteristicsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avrt.dll
+api_name:
+ - AvSetMmMaxThreadCharacteristics
+ - AvSetMmMaxThreadCharacteristicsA
+ - AvSetMmMaxThreadCharacteristicsW
 ---
 
 # AvSetMmMaxThreadCharacteristicsW function
@@ -51,37 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates the calling thread with the specified tasks.
 
-
 ## -parameters
-
-
-
 
 ### -param FirstTask [in]
 
 The name of the first task to be performed. This name must match the name of one of the subkeys of the following key <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks</b>.
 
-
 ### -param SecondTask [in]
 
 The name of the second task to be performed. This name must match the name of one of the subkeys of the following key <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks</b>.
-
 
 ### -param TaskIndex [in, out]
 
 The unique task identifier. The first time this function is called, this value must be 0 on input. The index value is returned on output and can be used as input in subsequent calls.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the task. 
 
-If the function fails, it returns 0. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns 0. To retrieve extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 The following are possible error codes.
@@ -127,18 +118,12 @@ The caller does not have sufficient privilege.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The resulting characteristics of the thread performing the tasks reflect the task with the highest priority.
 
-When the task is completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrevertmmthreadcharacteristics">AvRevertMmThreadCharacteristics</a> function.
+When the task is completed, call the <a href="/windows/desktop/api/avrt/nf-avrt-avrevertmmthreadcharacteristics">AvRevertMmThreadCharacteristics</a> function.
 
 
 
@@ -149,11 +134,4 @@ When the task is completed, call the <a href="https://docs.microsoft.com/windows
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>
- 
-
- 
-
+<a href="/windows/desktop/ProcThread/multimedia-class-scheduler-service">Multimedia Class Scheduler Service</a>

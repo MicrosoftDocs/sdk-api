@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
-f1_keywords:
-- imapi/IDiscRecorder
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder
-- IDiscRecorder.Init
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder
+ - imapi/IDiscRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder
+ - IDiscRecorder.Init
 ---
 
 # IDiscRecorder interface
@@ -50,19 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IDiscRecorder</b> interface enables access to a single disc recorder device, labeled the active disc recorder. An IMAPI object such as <b>MSDiscMasterObj</b> maintains an active disc recorder.
 
 An 
 <b>IDiscRecorder</b> object represents a single hardware device, but there can be multiple instances of 
 <b>IDiscRecorder</b> all referencing the same hardware device. In this case, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-openexclusive">OpenExclusive</a> to access that device.
-
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-openexclusive">OpenExclusive</a> to access that device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiscRecorder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiscRecorder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +76,7 @@ The <b>IDiscRecorder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a recorder after exclusive access.
@@ -86,7 +85,7 @@ Closes a recorder after exclusive access.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-eject">Eject</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-eject">Eject</a>
 </td>
 <td align="left" width="63%">
 Ejects a recorder's tray, if possible.
@@ -95,7 +94,7 @@ Ejects a recorder's tray, if possible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">Erase</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">Erase</a>
 </td>
 <td align="left" width="63%">
 Erases CD-RW media, if possible.
@@ -104,7 +103,7 @@ Erases CD-RW media, if possible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getbasepnpid">GetBasePnPID</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getbasepnpid">GetBasePnPID</a>
 </td>
 <td align="left" width="63%">
 Retrieves identifier unique to device class.
@@ -113,7 +112,7 @@ Retrieves identifier unique to device class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getdisplaynames">GetDisplayNames</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getdisplaynames">GetDisplayNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves a name suitable for GUI display.
@@ -122,7 +121,7 @@ Retrieves a name suitable for GUI display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getpath">GetPath</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves a path to the device.
@@ -131,7 +130,7 @@ Retrieves a path to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderguid">GetRecorderGUID</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderguid">GetRecorderGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the underlying device GUID.
@@ -140,17 +139,17 @@ Retrieves the underlying device GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderproperties">GetRecorderProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface for the recorder.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface for the recorder.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderstate">GetRecorderState</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecorderstate">GetRecorderState</a>
 </td>
 <td align="left" width="63%">
 Checks if recorder is ready to burn.
@@ -159,7 +158,7 @@ Checks if recorder is ready to burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecordertype">GetRecorderType</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getrecordertype">GetRecorderType</a>
 </td>
 <td align="left" width="63%">
 Identifies a device as CD-R or CD-RW.
@@ -180,7 +179,7 @@ Used internally only.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-openexclusive">OpenExclusive</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-openexclusive">OpenExclusive</a>
 </td>
 <td align="left" width="63%">
 Opens a device for exclusive use.
@@ -189,7 +188,7 @@ Opens a device for exclusive use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediainfo">QueryMediaInfo</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediainfo">QueryMediaInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves media properties.
@@ -198,7 +197,7 @@ Retrieves media properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediatype">QueryMediaType</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediatype">QueryMediaType</a>
 </td>
 <td align="left" width="63%">
 Identifies the type of media in the recorder.
@@ -207,24 +206,18 @@ Identifies the type of media in the recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-setrecorderproperties">SetRecorderProperties</a>
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-setrecorderproperties">SetRecorderProperties</a>
 </td>
 <td align="left" width="63%">
 Sets properties for the recorder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 All 
 <b>IDiscRecorder</b> interfaces may be used on an 
 <b>IDiscRecorder</b> object even if the disc recorder is not the active disc recorder. The IMAPI client does not have to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">IDiscMaster::SetActiveDiscRecorder</a> first.
-
-
-
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">IDiscMaster::SetActiveDiscRecorder</a> first.

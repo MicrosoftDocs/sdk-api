@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 72558E7E-0ECB-4641-949F-07C43A6E2507
 ms.date: 12/05/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_TYPE, DISPATCHERQUEUE_THREAD_TYPE enumeration, DQTYPE_THREAD_CURRENT, DQTYPE_THREAD_DEDICATED, base.dispatcherqueue_thread_type, dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE, dispatcherqueue/DQTYPE_THREAD_CURRENT, dispatcherqueue/DQTYPE_THREAD_DEDICATED
-f1_keywords:
-- dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE
-dev_langs:
-- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DispatcherQueue.h
-api_name:
-- DISPATCHERQUEUE_THREAD_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DISPATCHERQUEUE_THREAD_TYPE
+ - dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DispatcherQueue.h
+api_name:
+ - DISPATCHERQUEUE_THREAD_TYPE
 ---
 
 # DISPATCHERQUEUE_THREAD_TYPE enumeration
@@ -49,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the thread affinity for a new <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
-
+Specifies the thread affinity for a new <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>.
 
 ## -enum-fields
 
-
-
-
 ### -field DQTYPE_THREAD_DEDICATED
 
- Specifies that the <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> be created on a dedicated thread. With this option, <a href="https://docs.microsoft.com/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a> creates a thread, the <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> instance, and runs the dispatcher queue event loop on the newly created thread.
-
+ Specifies that the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> be created on a dedicated thread. With this option, <a href="/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a> creates a thread, the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> instance, and runs the dispatcher queue event loop on the newly created thread.
 
 ### -field DQTYPE_THREAD_CURRENT
 
-Specifies that the <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> will be created on the caller's thread.
-
+Specifies that the <a href="/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> will be created on the caller's thread.
 
 ## -remarks
 
-
-
 Introduced in Windows 10, version 1709.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller">CreateDispatcherQueueController</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dispatcherqueue/ns-dispatcherqueue-dispatcherqueueoptions">DispatcherQueueOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dispatcherqueue/ns-dispatcherqueue-dispatcherqueueoptions">DispatcherQueueOptions</a>

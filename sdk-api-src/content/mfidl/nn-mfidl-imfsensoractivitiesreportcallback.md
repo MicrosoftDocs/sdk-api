@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
-f1_keywords:
-- mfidl/IMFSensorActivitiesReportCallback
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorActivitiesReportCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorActivitiesReportCallback
+ - mfidl/IMFSensorActivitiesReportCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorActivitiesReportCallback
 ---
 
 # IMFSensorActivitiesReportCallback interface
@@ -52,13 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Interface implemented by the client to receive callbacks when sensor activity reports are available.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivitiesReportCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReportCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivitiesReportCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivitiesReportCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,21 +72,15 @@ The <b>IMFSensorActivitiesReportCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a>
 </td>
 <td align="left" width="63%">
-Raised by the media pipeline when a new <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a> is available.
+Raised by the media pipeline when a new <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a> is available.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-Register the callback by passing an implementation of this interface into <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a>.
-
-
-
+Register the callback by passing an implementation of this interface into <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a>.

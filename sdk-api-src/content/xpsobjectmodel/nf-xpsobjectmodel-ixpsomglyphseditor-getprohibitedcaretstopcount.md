@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 8aeb4868-f52e-4e80-b0c6-c8f759066fb2
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphsEditor.GetProhibitedCaretStopCount, IXpsOMGlyphsEditor::GetProhibitedCaretStopCount, xps.ixpsomglyphseditor_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
+ - xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 ---
 
 # IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of prohibited caret stops.
 
-
 ## -parameters
-
-
-
 
 ### -param prohibitedCaretStopCount [out, retval]
 
 The number of prohibited caret stops.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -97,28 +90,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To get the prohibited caret stops, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-getprohibitedcaretstops">GetProhibitedCaretStops</a>.  
+To get the prohibited caret stops, call <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-getprohibitedcaretstops">GetProhibitedCaretStops</a>.  
 
 Each caret stop index corresponds to the scalar values of a UTF-16  <b>UnicodeString</b> property.  Index 0 represents the location just before the first UTF-16 scalar value of <b>UnicodeString</b>; index 1 represents the location between the first and second UTF-16 scalar values, and so on. There is an additional index at the end of <b>UnicodeString</b>. Any unspecified index is a valid caret stop location.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
 
 
 
@@ -126,8 +107,4 @@ Each caret stop index corresponds to the scalar values of a UTF-16  <b>UnicodeSt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

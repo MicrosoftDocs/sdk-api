@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 682fa0c7-8f17-457f-9f8a-dc9190866152
 ms.date: 12/05/2018
 ms.keywords: 682fa0c7-8f17-457f-9f8a-dc9190866152, DXVA2_VideoTransferMatrix, DXVA2_VideoTransferMatrix enumeration [Media Foundation], DXVA2_VideoTransferMatrixMask, DXVA2_VideoTransferMatrix_BT601, DXVA2_VideoTransferMatrix_BT709, DXVA2_VideoTransferMatrix_SMPTE240M, DXVA2_VideoTransferMatrix_Unknown, dxva2api/DXVA2_VideoTransferMatrix, dxva2api/DXVA2_VideoTransferMatrixMask, dxva2api/DXVA2_VideoTransferMatrix_BT601, dxva2api/DXVA2_VideoTransferMatrix_BT709, dxva2api/DXVA2_VideoTransferMatrix_SMPTE240M, dxva2api/DXVA2_VideoTransferMatrix_Unknown, mf.dxva2_videotransfermatrix
-f1_keywords:
-- dxva2api/DXVA2_VideoTransferMatrix
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_VideoTransferMatrix
 targetos: Windows
 req.typenames: DXVA2_VideoTransferMatrix
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_VideoTransferMatrix
+ - dxva2api/_DXVA2_VideoTransferMatrix
+ - DXVA2_VideoTransferMatrix
+ - dxva2api/DXVA2_VideoTransferMatrix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_VideoTransferMatrix
 ---
 
 # DXVA2_VideoTransferMatrix enumeration
@@ -49,48 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
-
+Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 ## -enum-fields
-
-
-
 
 ### -field DXVA2_VideoTransferMatrixMask
 
 Bitmask to validate flag values. This value is not a valid flag.
-          
-
 
 ### -field DXVA2_VideoTransferMatrix_Unknown
 
 Unknown. For standard-definition content, treat as DXVA2_VideoTransferMatrix_BT601. For high-definition content, treat as DXVA2_VideoTransferMatrix_BT709. (High-definition content is defined for this purpose as anything with a source height greater than 576 lines.)
-          
-
 
 ### -field DXVA2_VideoTransferMatrix_BT709
 
 ITU-R BT.709 transfer matrix.
-          
-
 
 ### -field DXVA2_VideoTransferMatrix_BT601
 
 ITU-R BT.601 transfer matrix. Also used for SMPTE 170 and ITU-R BT.470-2 System B,G.
-          
-
 
 ### -field DXVA2_VideoTransferMatrix_SMPTE240M
 
 SMPTE 240M transfer matrix.
-          
-
 
 ## -remarks
-
-
 
 The transfer matrices are defined as follows.
 
@@ -126,22 +112,12 @@ B'        1.000000    1.826000    0.000000       Pr
 </code></pre>
 This enumeration is equivalent to the <b>DXVA_VideoTransferMatrix</b> enumeration used in DXVA 1.0.
 
-If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the video transfer matrix is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-yuv-matrix-attribute">MF_MT_YUV_MATRIX</a> attribute.
-
-
-
+If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the video transfer matrix is specified in the <a href="/windows/desktop/medfound/mf-mt-yuv-matrix-attribute">MF_MT_YUV_MATRIX</a> attribute.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

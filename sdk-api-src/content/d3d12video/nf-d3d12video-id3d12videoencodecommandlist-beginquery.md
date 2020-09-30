@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::BeginQuery
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::BeginQuery
  - d3d12video/ID3D12VideoEncodeCommandList::BeginQuery
 dev_langs:
  - c++
@@ -47,11 +48,11 @@ Starts a query running.
 
 ### -param pQueryHeap
 
-A pointer to an [ID3D12QueryHeap](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap) specifying the storage for this query.
+A pointer to an [ID3D12QueryHeap](/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap) specifying the storage for this query.
 
 ### -param Type
 
-A member of the [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) enumeration specifying the type of the query.
+A member of the [D3D12_QUERY_TYPE](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) enumeration specifying the type of the query.
 
 ### -param Index
 
@@ -59,7 +60,6 @@ The index of the query within the query heap.
 
 ## -remarks
 
-Some queries do not use **BeginQuery** and only have an **EndQuery**.  See each query type in [D3D12_QUERY_TYPE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) to determine proper usage.
+Some queries do not use **BeginQuery** and only have an **EndQuery**.  See each query type in [D3D12_QUERY_TYPE](/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type) to determine proper usage.
 
 ## -see-also
-

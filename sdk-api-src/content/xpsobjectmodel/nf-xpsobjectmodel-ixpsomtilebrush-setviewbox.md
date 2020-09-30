@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: a4a0a9c7-15d5-493e-8ed3-9644f59796fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetViewbox method, IXpsOMTileBrush.SetViewbox, IXpsOMTileBrush::SetViewbox, SetViewbox, SetViewbox method [XPS Documents and Packaging], SetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_setviewbox, xpsobjectmodel/IXpsOMTileBrush::SetViewbox
-f1_keywords:
-- xpsobjectmodel/IXpsOMTileBrush.SetViewbox
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMTileBrush.SetViewbox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMTileBrush::SetViewbox
+ - xpsobjectmodel/IXpsOMTileBrush::SetViewbox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMTileBrush.SetViewbox
 ---
 
 # IXpsOMTileBrush::SetViewbox
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the portion of the source content to be used as the tile image.
 
-
 ## -parameters
-
-
-
 
 ### -param viewbox [in]
 
 An <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the source content   to be used as the tile image.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -108,14 +101,8 @@ The rectangle described in <i>viewbox</i> was not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The brush's viewbox specifies the portion of a source image or visual to be used as the tile image.
 
@@ -133,16 +120,9 @@ The preceding parameter values correspond to the  source image as:<dl>
 <dd>SourceHeight = 96 * 48 / 96 = 48 pixels high</dd>
 </dl>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomtilebrush">IXpsOMTileBrush</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomtilebrush">IXpsOMTileBrush</a>
 
 
 
@@ -150,12 +130,8 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
- 
-
- 
-

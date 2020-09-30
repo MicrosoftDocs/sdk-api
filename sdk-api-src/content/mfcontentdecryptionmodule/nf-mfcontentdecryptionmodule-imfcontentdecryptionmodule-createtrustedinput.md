@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::CreateTrustedInput
 f1_keywords:
+ - IMFContentDecryptionModule::CreateTrustedInput
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::CreateTrustedInput
 dev_langs:
  - c++
@@ -41,15 +42,13 @@ dev_langs:
 
 ## -description
 
-Creates an [IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput) object that implements the decryption of content.
+Creates an [IMFTrustedInput](../mfidl/nn-mfidl-imftrustedinput.md) object that implements the decryption of content.
 
 ## -parameters
 
 ### -param contentInitData
 
 A **BYTE** array containing initialization data. *contentInitData* will only be used if initData from [IMFContentDecryptionModuleSession::GenerateRequest](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-generaterequest) is not provided or incomplete. Initialization Data should be structured in PSSH Box Format. For more details, see the Encrypted Media Extension specification's [Common SystemID and PSSH Box Format](https://www.w3.org/TR/eme-initdata-cenc/#common-system).
-
-
 
 ### -param contentInitDataSize
 
@@ -65,7 +64,7 @@ Returns S_OK on success.
 
 ## -remarks
 
-An implementation of a Content Decryption Module (CDM) may include an implementation of [IMFInputTrustAuthority](/windows/win32/api/mfidl/nn-mfidl-imfinputtrustauthority) obtained by calling **CreateTrustedInput**.
+An implementation of a Content Decryption Module (CDM) may include an implementation of [IMFInputTrustAuthority](../mfidl/nn-mfidl-imfinputtrustauthority.md) obtained by calling **CreateTrustedInput**.
 
 
 The following attributes are supported for **IMFInputTrustAuthority** decrypter.
@@ -77,5 +76,4 @@ The following attributes are supported for **IMFInputTrustAuthority** decrypter.
 
 ## -see-also
 
-[IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput)
-
+[IMFTrustedInput](../mfidl/nn-mfidl-imftrustedinput.md)

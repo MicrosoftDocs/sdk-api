@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 18356eda-42b1-4b29-8fd8-cff4a3f6d234
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnStartComposition method, ITfContextOwnerCompositionSink.OnStartComposition, ITfContextOwnerCompositionSink::OnStartComposition, OnStartComposition, OnStartComposition method [Text Services Framework], OnStartComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onstartcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnStartComposition, tsf.itfcontextownercompositionsink_onstartcomposition
-f1_keywords:
-- msctf/ITfContextOwnerCompositionSink.OnStartComposition
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msimtf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msimtf.dll
-api_name:
-- ITfContextOwnerCompositionSink.OnStartComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerCompositionSink::OnStartComposition
+ - msctf/ITfContextOwnerCompositionSink::OnStartComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msimtf.dll
+api_name:
+ - ITfContextOwnerCompositionSink.OnStartComposition
 ---
 
 # ITfContextOwnerCompositionSink::OnStartComposition
@@ -53,22 +54,15 @@ Called when a composition is started.
 
 ## -parameters
 
-
-
-
 ### -param pComposition [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the new composition.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the new composition.
 
 ### -param pfOk [out]
 
 Pointer to a <b>BOOL</b> value that receives a value that allows or denies the new composition. Receives a nonzero value to allow the composition or zero to deny the composition.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -89,10 +83,6 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 793bbc22-4a8b-4ab3-8cfe-7d81f42a6b7f
 ms.date: 12/05/2018
 ms.keywords: IWbemEventConsumerProvider, IWbemEventConsumerProvider interface [Windows Management Instrumentation], IWbemEventConsumerProvider interface [Windows Management Instrumentation],described, _hmm_iwbemeventconsumerprovider, wbemprov/IWbemEventConsumerProvider, wmi.iwbemeventconsumerprovider
-f1_keywords:
-- wbemprov/IWbemEventConsumerProvider
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventConsumerProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventConsumerProvider
+ - wbemprov/IWbemEventConsumerProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventConsumerProvider
 ---
 
 # IWbemEventConsumerProvider interface
@@ -49,21 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemEventConsumerProvider</b> interface provides the primary interface for an event consumer provider. Through 
 this interface and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> method, an event consumer provider can indicate which event consumers should receive a given event. The first time WMI delivers an event to a particular consumer, WMI calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> to retrieve a pointer to the sink for that physical consumer. WMI then sends all subsequent occurrences of the event the sink provided by 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> method, an event consumer provider can indicate which event consumers should receive a given event. The first time WMI delivers an event to a particular consumer, WMI calls 
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a> to retrieve a pointer to the sink for that physical consumer. WMI then sends all subsequent occurrences of the event the sink provided by 
 <b>FindConsumer</b>.
 
 If you implement a permanent event consumer, you must implement 
 <b>IWbemEventConsumerProvider</b> so that WMI can deliver events to your physical consumer.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventConsumerProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventConsumerProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventConsumerProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventConsumerProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,13 +77,12 @@ The <b>IWbemEventConsumerProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer">FindConsumer</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Management to retrieve an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> object for a particular logical consumer.
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a> object for a particular logical consumer.
 
 </td>
 </tr>
-</table> 
-
+</table>

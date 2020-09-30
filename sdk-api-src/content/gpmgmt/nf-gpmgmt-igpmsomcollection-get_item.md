@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: c1dae546-bee3-425c-a436-0931ac837f15
 ms.date: 12/05/2018
 ms.keywords: GPMSOMCollection class [GPMC],Item property, IGPMSOMCollection interface [GPMC],Item property, IGPMSOMCollection.Item, IGPMSOMCollection.get_Item, IGPMSOMCollection::Item, IGPMSOMCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMSOMCollection class, Item property [GPMC],IGPMSOMCollection interface, _win32_igpmsomcollection_get_item, get_Item, gpmc.igpmsomcollection_get_item, gpmgmt/IGPMSOMCollection::Item, gpmgmt/IGPMSOMCollection::get_Item
-f1_keywords:
-- gpmgmt/IGPMSOMCollection.Item
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSOMCollection.Item
-- IGPMSOMCollection.get_Item
-- GPMSOMCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSOMCollection::get_Item
+ - gpmgmt/IGPMSOMCollection::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSOMCollection.Item
+ - IGPMSOMCollection.get_Item
+ - GPMSOMCollection.Item
 ---
 
 # IGPMSOMCollection::get_Item
@@ -51,26 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Given an index, returns a SOM from the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a>

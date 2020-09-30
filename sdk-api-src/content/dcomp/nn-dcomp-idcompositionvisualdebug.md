@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisualDebug, IDCompositionVisualDebug interface [DirectComposition], IDCompositionVisualDebug interface [DirectComposition],described, dcomp/IDCompositionVisualDebug, directcomp.idcompositionvisualdebug
-f1_keywords:
-- dcomp/IDCompositionVisualDebug
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisualDebug
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisualDebug
+ - dcomp/IDCompositionVisualDebug
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisualDebug
 ---
 
 # IDCompositionVisualDebug interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a debug visual.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IDCompositionVisualDebug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableheatmap">DisableHeatMap</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableheatmap">DisableHeatMap</a>
 </td>
 <td align="left" width="63%">
 Disables visual heatmaps.
@@ -79,7 +78,7 @@ Disables visual heatmaps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableredrawregions">DisableRedrawRegions</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableredrawregions">DisableRedrawRegions</a>
 </td>
 <td align="left" width="63%">
 Disables visual redraw regions.
@@ -88,7 +87,7 @@ Disables visual redraw regions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableheatmap">EnableHeatMap</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableheatmap">EnableHeatMap</a>
 </td>
 <td align="left" width="63%">
 Enables a visual heatmap that represents overdraw regions.
@@ -97,23 +96,15 @@ Enables a visual heatmap that represents overdraw regions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableredrawregions">EnableRedrawRegions</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-enableredrawregions">EnableRedrawRegions</a>
 </td>
 <td align="left" width="63%">
 Enables highlighting visuals when content is being redrawn.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>

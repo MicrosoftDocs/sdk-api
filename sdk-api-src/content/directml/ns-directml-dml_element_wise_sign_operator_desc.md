@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
 f1_keywords:
+ - DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
  - directml/DML_ELEMENT_WISE_SIGN_OPERATOR_DESC
 dev_langs:
  - c++
@@ -51,15 +52,15 @@ For each x in InputTensor
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+A pointer to a constant [DML_TENSOR_DESC](./ns-directml-dml_tensor_desc.md) containing the description of the tensor to write the results to.
 
 ## -remarks
 

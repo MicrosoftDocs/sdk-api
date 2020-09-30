@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 4BF0813E-4D24-4F88-BAA1-32C950B66408
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_ELU_OPERATOR_DESC, DML_ACTIVATION_ELU_OPERATOR_DESC structure, direct3d12.dml_activation_elu_operator_desc, directml/DML_ACTIVATION_ELU_OPERATOR_DESC
-f1_keywords:
-- directml/DML_ACTIVATION_ELU_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_ACTIVATION_ELU_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_ACTIVATION_ELU_OPERATOR_DESC
+ - directml/DML_ACTIVATION_ELU_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_ACTIVATION_ELU_OPERATOR_DESC
 ---
 
 # DML_ACTIVATION_ELU_OPERATOR_DESC structure
+
 
 ## -description
 
@@ -68,6 +70,6 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 
 ### -field Alpha
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The coefficient of ELU.

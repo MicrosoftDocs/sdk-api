@@ -7,10 +7,6 @@ helpviewer_keywords: ["Region::GetRegionScans"]
 ms.assetid: 0bfb4eed-80f8-4a98-a264-1f47c60f58b8
 ms.date: 05/20/2019
 ms.keywords: Region::GetRegionScans
-f1_keywords:
-- gdiplusheaders/Region::GetRegionScans
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Region::GetRegionScans
+ - gdiplusheaders/Region::GetRegionScans
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Region::GetRegionScans
+ - Region::GetRegionScans
 ---
 
 # Region::GetRegionScans(Matrix*,RectF*,INT*)
+
 
 ## -description
 
@@ -52,11 +54,11 @@ The region is transformed by a specified matrix before the rectangles are calcul
 
 ### -param matrix
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is used to transform the region.
+Pointer to a <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that is used to transform the region.
 
 ### -param rects
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> objects that receives the rectangles.
+Pointer to an array of <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> objects that receives the rectangles.
 
 ### -param count
 
@@ -65,11 +67,11 @@ The value is valid even if **rects** is a **NULL** pointer.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -114,16 +116,16 @@ VOID Example_GetRegionScansRectF(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
+<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscanscount">Region::GetRegionScansCount</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-hit-testing-with-a-region-use">Hit Testing with a Region</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-hit-testing-with-a-region-use">Hit Testing with a Region</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>

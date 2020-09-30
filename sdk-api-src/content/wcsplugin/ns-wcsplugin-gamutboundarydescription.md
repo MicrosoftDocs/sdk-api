@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
 ms.date: 12/05/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
-f1_keywords:
-- wcsplugin/GamutBoundaryDescription
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WcsPlugIn.h
-api_name:
-- GamutBoundaryDescription
 targetos: Windows
 req.typenames: GamutBoundaryDescription
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GamutBoundaryDescription
+ - wcsplugin/_GamutBoundaryDescription
+ - GamutBoundaryDescription
+ - wcsplugin/GamutBoundaryDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - GamutBoundaryDescription
 ---
 
 # GamutBoundaryDescription structure
@@ -49,42 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines a gamut boundary.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field pPrimaries
-
- 
-
 
 ### -field cNeutralSamples
 
 The number of neutral samples.
 
-
 ### -field pNeutralSamples
-
- 
-
 
 ### -field pReferenceShell
 
- 
-
-
 ### -field pPlausibleShell
-
- 
-
 
 ### -field pPossibleShell
 
@@ -117,22 +99,14 @@ A pointer to the reference shell.
 
 The primary colors.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>

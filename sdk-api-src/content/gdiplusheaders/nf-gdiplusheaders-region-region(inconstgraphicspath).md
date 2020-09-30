@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_57path.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const GraphicsPath), Region.Region(const GraphicsPath*), Region::Region, Region::Region(IN const GraphicsPath), _gdiplus_CLASS_Region_Region_path_, gdiplus._gdiplus_CLASS_Region_Region_path_
-f1_keywords:
-- gdiplusheaders/Region.Region
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Region
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Region
+ - gdiplusheaders/Region::Region
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Region
 ---
 
 # Region::Region(IN const GraphicsPath)
@@ -50,45 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a region that is defined by a path (a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object) and has a fill mode that is contained in the <b>GraphicsPath</b> object.
-
+Creates a region that is defined by a path (a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object) and has a fill mode that is contained in the <b>GraphicsPath</b> object.
 
 ## -parameters
 
-
-
-
 ### -param path [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that specifies the path. 
-
+Pointer to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that specifies the path.
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-regions-use">Using Regions</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-regions-use">Using Regions</a>

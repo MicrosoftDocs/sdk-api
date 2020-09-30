@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm
 ms.date: 12/05/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book],described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
-f1_keywords:
-- wabdefs/IMailUser
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IMailUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IMailUser
+ - wabdefs/IMailUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IMailUser
 ---
 
 # IMailUser interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface provides access to a mail user object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMailUser</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IMailUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMailUser</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IMailUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IMailUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-copyprops">CopyProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-copyprops">CopyProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -80,7 +79,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-copyto">CopyTo</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -89,7 +88,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops">DeleteProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops">DeleteProps</a>
 </td>
 <td align="left" width="63%">
 Deletes property values from a mail user object.
@@ -98,7 +97,7 @@ Deletes property values from a mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getidsfromnames">GetIDsFromNames</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-getidsfromnames">GetIDsFromNames</a>
 </td>
 <td align="left" width="63%">
 Registers named properties with the mail user object.
@@ -107,7 +106,7 @@ Registers named properties with the mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getlasterror">GetLastError</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -116,7 +115,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getnamesfromids">GetNamesFromIDs</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-getnamesfromids">GetNamesFromIDs</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -125,7 +124,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getproplist">GetPropList</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-getproplist">GetPropList</a>
 </td>
 <td align="left" width="63%">
 Gets a list of property tags on the object.
@@ -134,7 +133,7 @@ Gets a list of property tags on the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getprops">GetProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-getprops">GetProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves property values from a mail user object.
@@ -143,7 +142,7 @@ Retrieves property values from a mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-openproperty">OpenProperty</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-openproperty">OpenProperty</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -152,7 +151,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-savechanges">SaveChanges</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-savechanges">SaveChanges</a>
 </td>
 <td align="left" width="63%">
 Saves changes to the open mail user object.
@@ -161,12 +160,11 @@ Saves changes to the open mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-setprops">SetProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-imailuser-setprops">SetProps</a>
 </td>
 <td align="left" width="63%">
 Sets property values on a mail user object.
 
 </td>
 </tr>
-</table> 
-
+</table>

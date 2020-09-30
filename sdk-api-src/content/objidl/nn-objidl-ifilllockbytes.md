@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.date: 12/05/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
-f1_keywords:
-- objidl/IFillLockBytes
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IFillLockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFillLockBytes
+ - objidl/IFillLockBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IFillLockBytes
 ---
 
 # IFillLockBytes interface
@@ -49,19 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IFillLockBytes</b> interface enables downloading code to write data asynchronously to a structured storage byte array. When the downloading code has new data available, it calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">IFillLockBytes::FillAppend</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">IFillLockBytes::FillAt</a> to write the data to the byte array. An application attempting to access this data, through calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface, can do so even as the downloader continues to make calls to 
+<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">IFillLockBytes::FillAppend</a> or <a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">IFillLockBytes::FillAt</a> to write the data to the byte array. An application attempting to access this data, through calls to the 
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface, can do so even as the downloader continues to make calls to 
 <b>IFillLockBytes</b>. If the application attempts to access data that has not already been downloaded through a call to 
 <b>IFillLockBytes</b>, then 
 <b>ILockBytes</b> returns a new error, E_PENDING.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFillLockBytes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFillLockBytes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFillLockBytes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFillLockBytes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +75,7 @@ The <b>IFillLockBytes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">FillAppend</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">FillAppend</a>
 </td>
 <td align="left" width="63%">
 Writes a new block of bytes to end of byte array.
@@ -85,7 +84,7 @@ Writes a new block of bytes to end of byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">FillAt</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">FillAt</a>
 </td>
 <td align="left" width="63%">
 Writes a new block of bytes to specified location in byte array.
@@ -94,7 +93,7 @@ Writes a new block of bytes to specified location in byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-setfillsize">SetFillSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-setfillsize">SetFillSize</a>
 </td>
 <td align="left" width="63%">
 Sets expected size of byte array.
@@ -103,47 +102,39 @@ Sets expected size of byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-terminate">Terminate</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
 Notifies byte array wrapper of successful or unsuccessful termination of download.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774966(v=vs.85)">BINDINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774966(v=vs.85)">BINDINFO</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

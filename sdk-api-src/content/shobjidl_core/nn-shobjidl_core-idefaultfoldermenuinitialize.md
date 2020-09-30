@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
-f1_keywords:
-- shobjidl_core/IDefaultFolderMenuInitialize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDefaultFolderMenuInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDefaultFolderMenuInitialize
+ - shobjidl_core/IDefaultFolderMenuInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDefaultFolderMenuInitialize
 ---
 
 # IDefaultFolderMenuInitialize interface
@@ -49,13 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu">SHCreateDefaultContextMenu</a> through the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu">DEFCONTEXTMENU</a> structure.
-<div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> instead.</div><div> </div>
+Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu">SHCreateDefaultContextMenu</a> through the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu">DEFCONTEXTMENU</a> structure.
+<div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultFolderMenuInitialize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultFolderMenuInitialize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultFolderMenuInitialize</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultFolderMenuInitialize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,38 +70,30 @@ The <b>IDefaultFolderMenuInitialize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">GetMenuRestrictions</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-getmenurestrictions">GetMenuRestrictions</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-initialize">Initialize</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-initialize">Initialize</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-sethandlerclsid">SetHandlerClsid</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-sethandlerclsid">SetHandlerClsid</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">SetMenuRestrictions</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idefaultfoldermenuinitialize-setmenurestrictions">SetMenuRestrictions</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

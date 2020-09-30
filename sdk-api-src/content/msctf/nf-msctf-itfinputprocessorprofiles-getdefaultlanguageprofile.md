@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: a846505e-d6d5-4462-b420-f36fd2051d92
 ms.date: 12/05/2018
 ms.keywords: GetDefaultLanguageProfile, GetDefaultLanguageProfile method [Text Services Framework], GetDefaultLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetDefaultLanguageProfile method, ITfInputProcessorProfiles.GetDefaultLanguageProfile, ITfInputProcessorProfiles::GetDefaultLanguageProfile, _tsf_itfinputprocessorprofiles_getdefaultlanguageprofile_ref, msctf/ITfInputProcessorProfiles::GetDefaultLanguageProfile, tsf.itfinputprocessorprofiles_getdefaultlanguageprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.GetDefaultLanguageProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.GetDefaultLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::GetDefaultLanguageProfile
+ - msctf/ITfInputProcessorProfiles::GetDefaultLanguageProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.GetDefaultLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::GetDefaultLanguageProfile
@@ -53,32 +54,23 @@ Obtains the default profile for a specific language.
 
 ## -parameters
 
-
-
-
 ### -param langid [in]
 
 Contains a <b>LANGID</b> value that specifies which language to obtain the default profile for.
 
-
 ### -param catid [in]
 
-Contains a GUID value that identifies the category that the text service is registered under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
-
+Contains a GUID value that identifies the category that the text service is registered under. This can be a user-defined category or one of the <a href="/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
 
 ### -param pclsid [out]
 
 Pointer to a <b>CLSID</b> value that receives the class identifier of the default text service for the language.
 
-
 ### -param pguidProfile [out]
 
 Pointer to a <b>GUID</b> value that receives the identifier of the default profile for the language.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,23 +124,12 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">Predefined Category Values
+<a href="/windows/desktop/TSF/predefined-category-values">Predefined Category Values
       </a>
- 
-
- 
-

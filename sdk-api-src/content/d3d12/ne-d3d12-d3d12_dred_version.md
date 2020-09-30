@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_DRED_VERSION","D3D12_DRED_VERSION enumeration","D3D12_DRED_VERSION_1_0","D3D12_DRED_VERSION_1_1","d3d12/D3D12_DRED_VERSION","d3d12/D3D12_DRED_VERSION enumeration","d3d12/D3D12_DRED_VERSION_1_0","d3d12/D3D12_DRED_VERSION_1_1","direct3d12.d3d12_dred_version"]
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_VERSION, D3D12_DRED_VERSION enumeration, D3D12_DRED_VERSION_1_0, D3D12_DRED_VERSION_1_1, d3d12/D3D12_DRED_VERSION, d3d12/D3D12_DRED_VERSION enumeration, d3d12/D3D12_DRED_VERSION_1_0, d3d12/D3D12_DRED_VERSION_1_1, direct3d12.d3d12_dred_version
-f1_keywords:
-- d3d12/D3D12_DRED_VERSION
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,18 +18,24 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: D3D12_DRED_VERSION
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DRED_VERSION
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DRED_VERSION
+ - d3d12/D3D12_DRED_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DRED_VERSION
 ---
 
 # D3D12_DRED_VERSION enumeration
+
 
 ## -description
 
@@ -55,3 +57,4 @@ Specifies DRED version 1.1.
 
 * [Core enumerations](/windows/desktop/direct3d12/direct3d-12-enumerations)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

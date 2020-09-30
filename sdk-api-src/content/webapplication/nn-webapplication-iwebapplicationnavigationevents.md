@@ -8,10 +8,6 @@ tech.root: debug
 ms.assetid: 580d4b21-3a4b-4e0c-b0d1-25b4e4fb2b1b
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], IWebApplicationNavigationEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationnavigationevents, webapplication/IWebApplicationNavigationEvents
-f1_keywords:
-- webapplication/IWebApplicationNavigationEvents
-dev_langs:
-- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- webapplication.h
-api_name:
-- IWebApplicationNavigationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebApplicationNavigationEvents
+ - webapplication/IWebApplicationNavigationEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - webapplication.h
+api_name:
+ - IWebApplicationNavigationEvents
 ---
 
 # IWebApplicationNavigationEvents interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a debugging or authoring app to receive notification of navigation events.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationNavigationEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationNavigationEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationNavigationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationNavigationEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWebApplicationNavigationEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-beforenavigate">BeforeNavigate</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-beforenavigate">BeforeNavigate</a>
 </td>
 <td align="left" width="63%">
 Fired before navigate occurs in the given host (window or frameset element).
@@ -79,7 +78,7 @@ Fired before navigate occurs in the given host (window or frameset element).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-documentcomplete">DocumentComplete</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-documentcomplete">DocumentComplete</a>
 </td>
 <td align="left" width="63%">
 Fired when the document being navigated to reaches ReadyState_Complete.
@@ -88,7 +87,7 @@ Fired when the document being navigated to reaches ReadyState_Complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-downloadbegin">DownloadBegin</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-downloadbegin">DownloadBegin</a>
 </td>
 <td align="left" width="63%">
 Download of a page has started.
@@ -97,7 +96,7 @@ Download of a page has started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-downloadcomplete">DownloadComplete</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-downloadcomplete">DownloadComplete</a>
 </td>
 <td align="left" width="63%">
 Download of a page has completed.
@@ -106,7 +105,7 @@ Download of a page has completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-navigatecomplete">NavigateComplete</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-navigatecomplete">NavigateComplete</a>
 </td>
 <td align="left" width="63%">
 Fired when the document being navigated to becomes visible and enters the navigation stack.
@@ -115,12 +114,11 @@ Fired when the document being navigated to becomes visible and enters the naviga
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-navigateerror">NavigateError</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationnavigationevents-navigateerror">NavigateError</a>
 </td>
 <td align="left" width="63%">
 Fired when a binding error occurs (window or frameset element).
 
 </td>
 </tr>
-</table> 
-
+</table>

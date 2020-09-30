@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fb9877fc-016c-472b-9af2-f2470c5c7e3b
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], ISyncMgrEvent interface [Windows Shell],described, _shell_ISyncMgrEvent, shell.ISyncMgrEvent, syncmgr/ISyncMgrEvent
-f1_keywords:
-- syncmgr/ISyncMgrEvent
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrEvent
+ - syncmgr/ISyncMgrEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrEvent
 ---
 
 # ISyncMgrEvent interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISyncMgrEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getcontext">GetContext</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Gets a context object that can be used by a handler to display properties or execute a context menu action.
@@ -79,7 +78,7 @@ Gets a context object that can be used by a handler to display properties or exe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the event description.
@@ -88,7 +87,7 @@ Gets the event description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-geteventid">GetEventID</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-geteventid">GetEventID</a>
 </td>
 <td align="left" width="63%">
 Gets the event ID.
@@ -97,7 +96,7 @@ Gets the event ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getflags">GetFlags</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets event flags.
@@ -106,7 +105,7 @@ Gets event flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-gethandlerid">GetHandlerID</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-gethandlerid">GetHandlerID</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the handler for which the event was logged.
@@ -115,7 +114,7 @@ Gets the ID of the handler for which the event was logged.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getitemid">GetItemID</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getitemid">GetItemID</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the item for which the event was logged.
@@ -124,7 +123,7 @@ Gets the ID of the item for which the event was logged.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlevel">GetLevel</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlevel">GetLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the log level of the event.
@@ -133,7 +132,7 @@ Gets the log level of the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlinkreference">GetLinkReference</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlinkreference">GetLinkReference</a>
 </td>
 <td align="left" width="63%">
 Gets the reference for the hot link for the event. The hot link is a displayed property that the user can click to execute an action. This allows the handler to show an available action that the user can see at a glance in the folder.
@@ -142,7 +141,7 @@ Gets the reference for the hot link for the event. The hot link is a displayed p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlinktext">GetLinkText</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getlinktext">GetLinkText</a>
 </td>
 <td align="left" width="63%">
 Gets the text for the hot link for the event. The hot link is a displayed property that the user can click to execute an action. This allows the handler to show an available action that the user can see at a glance in the folder. The link text is the text that is displayed to the user.
@@ -151,7 +150,7 @@ Gets the text for the hot link for the event. The hot link is a displayed proper
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getname">GetName</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the event. This string can be a simple name for the event or a short summary. It is displayed in the folder and in the property sheet for the event.
@@ -160,12 +159,11 @@ Gets the name of the event. This string can be a simple name for the event or a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-gettime">GetTime</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Gets the creation time.
 
 </td>
 </tr>
-</table> 
-
+</table>

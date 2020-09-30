@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
 ms.date: 12/05/2018
 ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
-f1_keywords:
-- comsvcs/ICrmMonitor.GetClerks
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitor.GetClerks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitor::GetClerks
+ - comsvcs/ICrmMonitor::GetClerks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitor.GetClerks
 ---
 
 # ICrmMonitor::GetClerks
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
-
 
 ## -parameters
 
-
-
-
 ### -param pClerks [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a> pointer to a clerks collection object.
-
+An <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a> pointer to a clerks collection object.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -108,18 +101,7 @@ Recovery of the CRM log file is still in progress.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>

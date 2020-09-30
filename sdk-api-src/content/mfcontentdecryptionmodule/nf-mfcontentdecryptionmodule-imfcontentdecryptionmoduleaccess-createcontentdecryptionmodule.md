@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 dev_langs:
  - c++
@@ -41,13 +42,13 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system. 
+Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system.
 
 ## -parameters
 
 ### -param contentDecryptionModuleProperties
 
-An [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object containing the properties for the CDM.
+An [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the properties for the CDM.
 
 ### -param contentDecryptionModule
 
@@ -67,4 +68,3 @@ The following properties are supported for the *contentDecryptionModulePropertie
 | [MF_CONTENTDECRYPTIONMODULE_STOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-inprivatestorepath/mf-contentdecryptionmodule-storepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for initialization. The path specified with this property will also be used for content-specific data if the **MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH** property isn't set. |
 
 ## -see-also
-

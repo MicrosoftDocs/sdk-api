@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglesmethods\fillrectangles.htm
 ms.date: 12/05/2018
 ms.keywords: FillRectangles, FillRectangles method [GDI+], FillRectangles method [GDI+],Graphics class, Graphics class [GDI+],FillRectangles method, Graphics.FillRectangles, Graphics.FillRectangles(IN const Brush,IN const Rect,IN INT), Graphics.FillRectangles(const Brush*,const Rect*,INT), Graphics::FillRectangles, Graphics::FillRectangles(IN const Brush,IN const Rect,IN INT), _gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_Rect_rects_INT_count_
-f1_keywords:
-- gdiplusgraphics/Graphics.FillRectangles
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.FillRectangles
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::FillRectangles
+ - gdiplusgraphics/Graphics::FillRectangles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.FillRectangles
 ---
 
 # Graphics::FillRectangles(IN const Brush,IN const Rect,IN INT)
@@ -50,68 +51,48 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::FillRectangles</b> method uses a brush to fill the interior of a sequence of rectangles.
-
 
 ## -parameters
 
-
-
-
 ### -param brush [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> that is used to fill the interior of each rectangle. 
-
+Pointer to a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> that is used to fill the interior of each rectangle.
 
 ### -param rects [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
 
-Pointer to an array of rectangles to be filled. 
-
+Pointer to an array of rectangles to be filled.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of rectangles in the <i>rects</i> array. 
-
+Integer that specifies the number of rectangles in the <i>rects</i> array.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

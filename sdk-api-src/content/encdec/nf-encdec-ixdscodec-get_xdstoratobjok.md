@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 846f3f68-8745-416d-9f0e-1e6ef83054b2
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK method, IXDSCodec.get_XDSToRatObjOK, IXDSCodec::get_XDSToRatObjOK, IXDSCodecXDSToRatObjOK, encdec/IXDSCodec::get_XDSToRatObjOK, get_XDSToRatObjOK, get_XDSToRatObjOK method [Microsoft TV Technologies], get_XDSToRatObjOK method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_xdstoratobjok
-f1_keywords:
-- encdec/IXDSCodec.get_XDSToRatObjOK
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EncDec.h
-api_name:
-- IXDSCodec.get_XDSToRatObjOK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXDSCodec::get_XDSToRatObjOK
+ - encdec/IXDSCodec::get_XDSToRatObjOK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EncDec.h
+api_name:
+ - IXDSCodec.get_XDSToRatObjOK
 ---
 
 # IXDSCodec::get_XDSToRatObjOK
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_XDSToRatObjOK</b> method queries whether the <b>XDSToRat</b> object was created successfully.
 
-
 ## -parameters
-
-
-
 
 ### -param pHrCoCreateRetVal [out, retval]
 
 Receives an <b>HRESULT</b> value. The <b>HRESULT</b> is the value that was returned when the filter called <b>CoCreateInstance</b> to create the <b>XDSToRat</b> object. If it equals S_OK, the <b>EvalRat</b> object was created successfully.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -97,18 +90,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>

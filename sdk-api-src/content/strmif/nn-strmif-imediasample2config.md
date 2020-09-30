@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
-f1_keywords:
-- strmif/IMediaSample2Config
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSample2Config
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSample2Config
+ - strmif/IMediaSample2Config
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSample2Config
 ---
 
 # IMediaSample2Config interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMediaSample2Config</b> interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2Config</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2Config</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,32 +70,19 @@ The <b>IMediaSample2Config</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2config-getsurface">GetSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imediasample2config-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the Direct3D surface managed by this media sample.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 If a display driver supports VRAM capture, the KsProxy filter allocates samples that expose this interface. Downstream filters can use this interface to access the video data in video memory, without requiring the data to be copied into system memory. The display driver must support the Windows Vista Display Driver Model (WDDM).
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-wddm-capture-in-directshow">Using WDDM Capture in DirectShow</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-wddm-capture-in-directshow">Using WDDM Capture in DirectShow</a>

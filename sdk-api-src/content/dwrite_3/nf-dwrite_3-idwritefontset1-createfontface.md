@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","CreateFontFace
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontFace method, IDWriteFontSet1.CreateFontFace, IDWriteFontSet1::CreateFontFace, CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontface, dwrite_3/IDWriteFontSet1::CreateFontFace
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.CreateFontFace
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::CreateFontFace
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::CreateFontFace
+ - dwrite_3/IDWriteFontSet1::CreateFontFace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::CreateFontFace
 ---
 
 ## -description
@@ -57,9 +58,9 @@ Zero-based index of the font item in the set.
 
 ### -param fontFace [out]
 
-Type: **[IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5)\*\***
+Type: **[IDWriteFontFace5](./nn-dwrite_3-idwritefontface5.md)\*\***
 
-The address of a pointer to an [IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) interface. On successful completion, the function sets the pointer to a newly created font face object.
+The address of a pointer to an [IDWriteFontFace5](./nn-dwrite_3-idwritefontface5.md) interface. On successful completion, the function sets the pointer to a newly created font face object.
 
 ## -returns
 

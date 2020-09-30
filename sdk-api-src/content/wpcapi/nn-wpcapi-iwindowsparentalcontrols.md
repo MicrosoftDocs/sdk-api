@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
-f1_keywords:
-- wpcapi/IWindowsParentalControls
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControls
+ - wpcapi/IWindowsParentalControls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControls
 ---
 
 # IWindowsParentalControls interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables access to all settings interfaces of the Minimum Compliance API.
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IWindowsParentalControls</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings">GetGamesSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings">GetGamesSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for games restrictions settings for the specified user.
@@ -79,7 +78,7 @@ Retrieves a pointer to an interface for games restrictions settings for the spec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for general settings for the specified user.
@@ -88,7 +87,7 @@ Retrieves a pointer to an interface for general settings for the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
 </td>
 <td align="left" width="63%">
 Indicates the visibility of the Parental Controls user interface.
@@ -97,7 +96,7 @@ Indicates the visibility of the Parental Controls user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name and identifier of the currently active Web Content Filter.
@@ -106,12 +105,11 @@ Retrieves the name and identifier of the currently active Web Content Filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
+<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for web restrictions settings for the specified user.
 
 </td>
 </tr>
-</table> 
-
+</table>

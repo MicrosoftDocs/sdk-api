@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: e41f01ef-5dd2-4066-82cd-45b57578c9bb
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], IFsrmMutableCollection interface [File Server Resource Manager],described, fs.ifsrmmutablecollection, fsrm.ifsrmmutablecollection, fsrm/IFsrmMutableCollection
-f1_keywords:
-- fsrm/IFsrmMutableCollection
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmMutableCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmMutableCollection
+ - fsrm/IFsrmMutableCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmMutableCollection
 ---
 
 # IFsrmMutableCollection interface
@@ -49,28 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to manage a collection of FSRM objects that can have objects added to or removed from the collection.
 
 The following properties return this interface:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_members">IFsrmFileGroup::Members</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_members">IFsrmFileGroup::Members</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_nonmembers">IFsrmFileGroup::NonMembers</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_nonmembers">IFsrmFileGroup::NonMembers</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_blockedfilegroups">IFsrmFileScreenBase::BlockedFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_blockedfilegroups">IFsrmFileScreenBase::BlockedFileGroups</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenexception-get_allowedfilegroups">IFsrmFileScreenException::AllowedFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenexception-get_allowedfilegroups">IFsrmFileScreenException::AllowedFileGroups</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmMutableCollection</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmMutableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ The <b>IFsrmMutableCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -94,7 +94,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <b>IFsrmMutableCollection</b> collection.
@@ -103,7 +103,7 @@ Creates a duplicate <b>IFsrmMutableCollection</b> collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">Remove</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified object from the collection using an index value.
@@ -112,23 +112,15 @@ Removes the specified object from the collection using an index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-removebyid">RemoveById</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-removebyid">RemoveById</a>
 </td>
 <td align="left" width="63%">
 Removes the specified object from the collection using an object identifier.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>

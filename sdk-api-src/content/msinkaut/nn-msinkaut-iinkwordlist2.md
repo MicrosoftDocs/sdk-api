@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
 ms.date: 12/05/2018
 ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
-f1_keywords:
-- msinkaut/IInkWordList2
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkWordList2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList2
+ - msinkaut/IInkWordList2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkWordList2
 ---
 
 # IInkWordList2 interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Adds members to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>.
-
-
-
+Adds members to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,23 +70,15 @@ The <b>IInkWordList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords">AddWords Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords">AddWords Method</a>
 </td>
 <td align="left" width="63%">
-Adds more than one word to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
+Adds more than one word to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

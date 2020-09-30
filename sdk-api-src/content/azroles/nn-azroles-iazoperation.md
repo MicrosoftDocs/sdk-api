@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
 ms.date: 12/05/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation
-f1_keywords:
-- azroles/IAzOperation
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzOperation
+ - azroles/IAzOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzOperation
 ---
 
 # IAzOperation interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzOperation</b> interface defines a low-level operation supported by an application.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzOperation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzOperation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzOperation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzOperation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IAzOperation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzOperation</b> object property  with the specified property ID.
@@ -80,7 +79,7 @@ Returns the <b>IAzOperation</b> object property  with the specified property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>IAzOperation</b> object property  with the specified property ID.
@@ -89,7 +88,7 @@ Sets the specified value to the <b>IAzOperation</b> object property  with the sp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-submit">Submit</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-submit">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>IAzOperation</b> object.
@@ -107,7 +106,7 @@ Persists changes made to the <b>IAzOperation</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a>
 
 
 </td>
@@ -123,7 +122,7 @@ Sets or retrieves an opaque field that can be used by the application to store i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>
 
 
 </td>
@@ -139,7 +138,7 @@ Sets or retrieves a comment that describes the operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a>
 
 
 </td>
@@ -155,7 +154,7 @@ Sets or retrieves the name of the operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a>
 
 
 </td>
@@ -171,7 +170,7 @@ Sets or retrieves an application-specific value that uniquely identifies the ope
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a>
 
 
 </td>
@@ -184,5 +183,4 @@ Retrieves a value that indicates whether the operation can be modified by the  u
 
 </td>
 </tr>
-</table> 
-
+</table>

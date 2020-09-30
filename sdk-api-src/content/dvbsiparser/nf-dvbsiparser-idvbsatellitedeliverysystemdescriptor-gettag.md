@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 217b49b8-8e98-4784-837d-67471fda2ea5
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbSatelliteDeliverySystemDescriptor.GetTag, IDvbSatelliteDeliverySystemDescriptor::GetTag, IDvbSatelliteDeliverySystemDescriptorGetTag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetTag, mstv.idvbsatellitedeliverysystemdescriptor_gettag
-f1_keywords:
-- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetTag
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSatelliteDeliverySystemDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSatelliteDeliverySystemDescriptor::GetTag
+ - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSatelliteDeliverySystemDescriptor.GetTag
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetTag
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetTag</b> method returns the descriptor tag.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the descriptor tag.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>

@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 4eed8f30-4265-4735-a885-83c11b5031e5
 ms.date: 12/05/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
-f1_keywords:
-- netfw/INetFwIcmpSettings
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwIcmpSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwIcmpSettings
+ - netfw/INetFwIcmpSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwIcmpSettings
 ---
 
 # INetFwIcmpSettings interface
@@ -50,15 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>INetFwIcmpSettings</b> interface  provides access to the settings controlling ICMP packets.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwIcmpSettings</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwIcmpSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwIcmpSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwIcmpSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +73,7 @@ The <b>INetFwIcmpSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">get_AllowInboundEchoRequest</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">get_AllowInboundEchoRequest</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowInboundEchoRequest
@@ -84,7 +83,7 @@ Gets the value of the AllowInboundEchoRequest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">get_AllowInboundMaskRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">get_AllowInboundMaskRequest</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowInboundMaskRequest
@@ -94,7 +93,7 @@ Gets the value of the AllowInboundMaskRequest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">get_AllowInboundRouterRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">get_AllowInboundRouterRequest</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowInboundRouterRequest
@@ -104,7 +103,7 @@ Gets the value of the AllowInboundRouterRequest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">get_AllowInboundTimestampRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">get_AllowInboundTimestampRequest</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowInboundTimestampRequest
@@ -114,7 +113,7 @@ Gets the value of the AllowInboundTimestampRequest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">get_AllowOutboundDestinationUnreachable</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">get_AllowOutboundDestinationUnreachable</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowOutboundDestinationUnreachable property. Type common to IPv4 and IPv6.
@@ -123,7 +122,7 @@ Gets the value of the AllowOutboundDestinationUnreachable property. Type common 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">get_AllowOutboundPacketTooBig</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">get_AllowOutboundPacketTooBig</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowOutboundPacketTooBig
@@ -133,7 +132,7 @@ Gets the value of the AllowOutboundPacketTooBig
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">get_AllowOutboundParameterProblem</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">get_AllowOutboundParameterProblem</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowOutboundParameterProblem
@@ -143,7 +142,7 @@ Gets the value of the AllowOutboundParameterProblem
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">get_AllowOutboundSourceQuench</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">get_AllowOutboundSourceQuench</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowOutboundSourceQuench
@@ -153,7 +152,7 @@ Gets the value of the AllowOutboundSourceQuench
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">get_AllowOutboundTimeExceeded</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">get_AllowOutboundTimeExceeded</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowOutboundTimeExceeded property. Type common to IPv4 and IPv6.
@@ -162,7 +161,7 @@ Gets the value of the AllowOutboundTimeExceeded property. Type common to IPv4 an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">get_AllowRedirect</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">get_AllowRedirect</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the AllowRedirect
@@ -172,7 +171,7 @@ Gets the value of the AllowRedirect
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">put_AllowInboundEchoRequest</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">put_AllowInboundEchoRequest</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowInboundEchoRequest
@@ -182,7 +181,7 @@ Sets the value of the AllowInboundEchoRequest
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">put_AllowInboundMaskRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">put_AllowInboundMaskRequest</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowInboundMaskRequest property. Type common to IPv4 only.
@@ -191,7 +190,7 @@ Sets the value of the AllowInboundMaskRequest property. Type common to IPv4 only
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">put_AllowInboundRouterRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">put_AllowInboundRouterRequest</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowInboundRouterRequest property. Type common to IPv4 only.
@@ -200,7 +199,7 @@ Sets the value of the AllowInboundRouterRequest property. Type common to IPv4 on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">put_AllowInboundTimestampRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">put_AllowInboundTimestampRequest</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowInboundTimestampRequest property. Type common to IPv4 only.
@@ -209,7 +208,7 @@ Sets the value of the AllowInboundTimestampRequest property. Type common to IPv4
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">put_AllowOutboundDestinationUnreachable</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">put_AllowOutboundDestinationUnreachable</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowOutboundDestinationUnreachable property. Type common to IPv4 and IPv6.
@@ -218,7 +217,7 @@ Sets the value of the AllowOutboundDestinationUnreachable property. Type common 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">put_AllowOutboundPacketTooBig</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">put_AllowOutboundPacketTooBig</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowOutboundPacketTooBig property. Type common to IPv6 only.
@@ -227,7 +226,7 @@ Sets the value of the AllowOutboundPacketTooBig property. Type common to IPv6 on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">put_AllowOutboundParameterProblem</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">put_AllowOutboundParameterProblem</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowOutboundParameterProblem
@@ -237,7 +236,7 @@ Sets the value of the AllowOutboundParameterProblem
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">put_AllowOutboundSourceQuench</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">put_AllowOutboundSourceQuench</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowOutboundSourceQuench property. Type common to IPv4 only.
@@ -246,7 +245,7 @@ Sets the value of the AllowOutboundSourceQuench property. Type common to IPv4 on
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">put_AllowOutboundTimeExceeded</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">put_AllowOutboundTimeExceeded</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowOutboundTimeExceeded property. Type common to IPv4 and IPv6.
@@ -255,7 +254,7 @@ Sets the value of the AllowOutboundTimeExceeded property. Type common to IPv4 an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">put_AllowRedirect</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">put_AllowRedirect</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the AllowRedirect property. Type common to IPv4 and IPv6.
@@ -272,7 +271,7 @@ Sets the value of the AllowRedirect property. Type common to IPv4 and IPv6.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">AllowInboundEchoRequest</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundechorequest">AllowInboundEchoRequest</a>
 
 
 </td>
@@ -285,7 +284,7 @@ Accesses the AllowInboundEchoRequest
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">AllowInboundMaskRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundmaskrequest">AllowInboundMaskRequest</a>
 
 
 </td>
@@ -298,7 +297,7 @@ Accesses the AllowInboundMaskRequest
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">AllowInboundRouterRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundrouterrequest">AllowInboundRouterRequest</a>
 
 
 </td>
@@ -311,7 +310,7 @@ Accesses the AllowInboundRouterRequest
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">AllowInboundTimestampRequest</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowinboundtimestamprequest">AllowInboundTimestampRequest</a>
 
 
 </td>
@@ -324,7 +323,7 @@ Accesses the AllowInboundTimestampRequest
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">AllowOutboundDestinationUnreachable</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutbounddestinationunreachable">AllowOutboundDestinationUnreachable</a>
 
 
 </td>
@@ -336,7 +335,7 @@ Accesses the  AllowOutboundDestinationUnreachable property. Type common to IPv4 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">AllowOutboundPacketTooBig</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundpackettoobig">AllowOutboundPacketTooBig</a>
 
 
 </td>
@@ -349,7 +348,7 @@ Accesses the AllowOutboundPacketTooBig
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">AllowOutboundParameterProblem</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundparameterproblem">AllowOutboundParameterProblem</a>
 
 
 </td>
@@ -362,7 +361,7 @@ Accesses the AllowOutboundParameterProblem
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">AllowOutboundSourceQuench</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundsourcequench">AllowOutboundSourceQuench</a>
 
 
 </td>
@@ -375,7 +374,7 @@ Accesses the AllowOutboundSourceQuench
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">AllowOutboundTimeExceeded</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowoutboundtimeexceeded">AllowOutboundTimeExceeded</a>
 
 
 </td>
@@ -388,7 +387,7 @@ Accesses the AllowOutboundTimeExceeded
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">AllowRedirect</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwicmpsettings-get_allowredirect">AllowRedirect</a>
 
 
 </td>
@@ -397,39 +396,26 @@ Accesses the  AllowRedirect property. Type common to IPv4 and IPv6.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Instances of this interface
-are retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_icmpsettings">IcmpSettings</a> property of the INetFwProfile interface.
+are retrieved through the <a href="/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_icmpsettings">IcmpSettings</a> property of the INetFwProfile interface.
 
 Because the methods and properties of this interface enable all rules belonging to a given ICMP type, enabling a rule may enable rules from other groups as well.
 
 All configuration changes take
 effect immediately.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_icmpsettings">INetFwProfile.IcmpSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_icmpsettings">INetFwProfile.IcmpSettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

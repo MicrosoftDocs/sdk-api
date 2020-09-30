@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 20aeed9d-029b-4b60-9ff3-14555bd53eb9
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],AddStream method, IWMStreamList.AddStream, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
-f1_keywords:
-- wmsdkidl/IWMStreamList.AddStream
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamList.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamList::AddStream
+ - wmsdkidl/IWMStreamList::AddStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamList.AddStream
 ---
 
 # IWMStreamList::AddStream
@@ -52,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AddStream</b> method adds a stream to the list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number. Stream numbers are in the range of 1 through 63.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,22 +93,11 @@ There is not enough available memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamlist-removestream">IWMStreamList::RemoveStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamlist-removestream">IWMStreamList::RemoveStream</a>

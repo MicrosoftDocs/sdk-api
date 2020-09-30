@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2ab7d8bb-068d-4c5b-b273-68c7fc4f9956
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetClientGuid method, IFileDialog.SetClientGuid, IFileDialog::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetClientGuid, shell_IFileDialog_SetClientGuid, shobjidl_core/IFileDialog::SetClientGuid
-f1_keywords:
-- shobjidl_core/IFileDialog.SetClientGuid
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialog.SetClientGuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialog::SetClientGuid
+ - shobjidl_core/IFileDialog::SetClientGuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialog.SetClientGuid
 ---
 
 # IFileDialog::SetClientGuid
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a calling application to associate a GUID with a dialog's persisted state.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
@@ -64,21 +60,13 @@ Type: <b>REFGUID</b>
 
 The GUID to associate with this dialog state.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A dialog's state can include factors such as the last visited folder and the position and size of the dialog.
 
@@ -86,7 +74,4 @@ Typically, this state is persisted based on the name of the executable file. By 
             
 
 <b>IFileDialog::SetClientGuid</b> should be called immediately after creation of the dialog object.
-            
-
-
 

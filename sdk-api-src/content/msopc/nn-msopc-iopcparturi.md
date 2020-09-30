@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d
 ms.date: 12/05/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
-f1_keywords:
-- msopc/IOpcPartUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartUri
+ - msopc/IOpcPartUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartUri
 ---
 
 # IOpcPartUri interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents the part name of a part.  If the part is a Relationships part, it is represented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a> interface; otherwise, it is represented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface.
-
+Represents the part name of a part.  If the part is a Relationships part, it is represented by the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipset">IOpcRelationshipSet</a> interface; otherwise, it is represented by the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPartUri</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>. <b>IOpcPartUri</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPartUri</b> interface inherits from <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>. <b>IOpcPartUri</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IOpcPartUri</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-compareparturi">ComparePartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-compareparturi">ComparePartUri</a>
 </td>
 <td align="left" width="63%">
 Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
@@ -79,7 +78,7 @@ Returns an integer that indicates whether the URIs represented by the current pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-getsourceuri">GetSourceUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-getsourceuri">GetSourceUri</a>
 </td>
 <td align="left" width="63%">
               Gets  the source URI of the relationships that are stored in a  Relationships part. The  current part URI object represents the part name of that Relationships part.
@@ -89,55 +88,46 @@ Returns an integer that indicates whether the URIs represented by the current pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-isrelationshipsparturi">IsRelationshipsPartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcparturi-isrelationshipsparturi">IsRelationshipsPartUri</a>
 </td>
 <td align="left" width="63%">
 Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <h3><a id="Support_on__Previous_Windows_Versions"></a><a id="support_on__previous_windows_versions"></a><a id="SUPPORT_ON__PREVIOUS_WINDOWS_VERSIONS"></a>Support on  Previous Windows Versions</h3>
-The behavior and performance of this interface is the same on all supported Windows versions. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
+The behavior and performance of this interface is the same on all supported Windows versions. For more information, see <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
-
-
-
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getname">IOpcPart::GetName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpart-getname">IOpcPart::GetName</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 
 
 
@@ -145,24 +135,20 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
+<a href="/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
+<a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: ea3100d7-a80b-4487-9786-24124f2d72f1
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler, ITaskHandler interface [Task Scheduler], ITaskHandler interface [Task Scheduler],described, taskschd.itaskhandler, taskschd/ITaskHandler
-f1_keywords:
-- taskschd/ITaskHandler
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskHandler
+ - taskschd/ITaskHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskHandler
 ---
 
 # ITaskHandler interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the methods that are called by the Task Scheduler service to manage a COM handler.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITaskHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause">Pause</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Called to pause the COM handler.
@@ -79,7 +78,7 @@ Called to pause the COM handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume">Resume</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Called to restart the COM handler.
@@ -88,7 +87,7 @@ Called to restart the COM handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start">Start</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-start">Start</a>
 </td>
 <td align="left" width="63%">
 Required. Called to start the COM handler.
@@ -97,27 +96,19 @@ Required. Called to start the COM handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop">Stop</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandler-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Required. Called to stop the COM handler.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

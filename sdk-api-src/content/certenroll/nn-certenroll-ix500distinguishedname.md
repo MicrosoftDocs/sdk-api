@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
-f1_keywords:
-- certenroll/IX500DistinguishedName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX500DistinguishedName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX500DistinguishedName
+ - certenroll/IX500DistinguishedName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX500DistinguishedName
 ---
 
 # IX500DistinguishedName interface
 
 
 ## -description
-
 
 The <b>IX500DistinguishedName</b> interface represents an X.500 distinguished name (DN). The X.500 series of networking standards covers electronic directory services. A distinguished name uniquely identifies (distinguishes) each entry in the directory from all other entries. Each DN consists of one or more relative distinguished names (RDNs).
 
@@ -61,7 +61,7 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPublicKeyInfo    SubjectPublicKeyInfo,
    attributes              [0] IMPLICIT Attributes
 }
-</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
+</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
 <pre class="syntax" xml:space="preserve"><code>
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
@@ -186,7 +186,7 @@ Each service that is  based on X.500 defines its own distinguished name string r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -202,7 +202,7 @@ The <b>IX500DistinguishedName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-decode">Decode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-decode">Decode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a Unicode-encoded distinguished name.
@@ -211,7 +211,7 @@ Initializes the object from a Unicode-encoded distinguished name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-encode">Encode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-encode">Encode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a distinguished name.
@@ -230,7 +230,7 @@ Initializes the object from a string that contains a distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_encodedname">EncodedName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_encodedname">EncodedName</a>
 
 
 </td>
@@ -242,7 +242,7 @@ Retrieves a Unicode-encoded distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_name">Name</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_name">Name</a>
 
 
 </td>
@@ -251,24 +251,16 @@ Retrieves a distinguished name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/subject-names">Subject Names</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCertEnroll/subject-names">Subject Names</a>

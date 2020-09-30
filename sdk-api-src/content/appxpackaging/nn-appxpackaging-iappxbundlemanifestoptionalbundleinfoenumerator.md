@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 5BF38EC7-7C04-455B-AFAA-CC2A78E54A4F
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator
-f1_keywords:
-- appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestOptionalBundleInfoEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestOptionalBundleInfoEnumerator
+ - appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestOptionalBundleInfoEnumerator
 ---
 
 # IAppxBundleManifestOptionalBundleInfoEnumerator interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the optional bundle information from a bundle.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfoEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfoEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestOptionalBundleInfoEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestOptionalBundleInfoEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAppxBundleManifestOptionalBundleInfoEnumerator</b> interface has these m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-getcurrent">GetCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the optional bundle information at the current position of the enumerator.
@@ -79,7 +78,7 @@ Gets the optional bundle information at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-gethascurrent">GetHasCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is optional bundle information at the current position of the enumerator.
@@ -88,12 +87,11 @@ Determines whether there is optional bundle information at the current position 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-movenext">MoveNext</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Advances the position of the enumerator to the next set of optional bundle information.
 
 </td>
 </tr>
-</table> 
-
+</table>

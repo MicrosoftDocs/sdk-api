@@ -34,10 +34,14 @@ api_location:
  - diagnosticdataquerytypes.h
 api_name:
  - diagnosticdataquerytypes
+f1_keywords:
+ - diagnosticdataquerytypes
+ - diagnosticdataquerytypes/diagnosticdataquerytypes
 ---
 
 ## -description
-This set of APIs contains resources that describe diagnostic data records and problem reports. These resources are commonly used with the Diagnostic Data Query APIs.  
+
+This set of APIs contains resources that describe diagnostic data records and problem reports. These resources are commonly used with the Diagnostic Data Query APIs.
 
 ## -remarks
 

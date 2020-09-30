@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mediastreaming
 archived: true
+f1_keywords:
+ - windows.media.streaming
+ - windows.media.streaming/windows.media.streaming
 ---
 
 # Windows.Media.Streaming.h header
 
 
 ## -description
-
 
 This header is used by Media Streaming API. For more information, see:
 

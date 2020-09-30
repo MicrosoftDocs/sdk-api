@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: websock
+f1_keywords:
+ - websocket
+ - websocket/websocket
 ---
 
 # Websocket.h header
 
 
 ## -description
-
 
 This header is used by WebSocket Protocol Component API. For more information, see:
 

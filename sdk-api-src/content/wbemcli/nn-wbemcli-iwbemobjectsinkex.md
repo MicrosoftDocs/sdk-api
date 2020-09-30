@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f22b21f8-5191-480d-8471-3d5fc82ba060
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
-f1_keywords:
-- wbemcli/IWbemObjectSinkEx
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,18 +25,23 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- IWbemObjectSinkEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemObjectSinkEx
+ - wbemcli/IWbemObjectSinkEx
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - IWbemObjectSinkEx
 ---
 
 # IWbemObjectSinkEx interface
@@ -48,11 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a sink interface that can receive all types of notifications within the WMI programming model. Clients must implement this interface to receive both the results of the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-asynchronous-call-with-c--">asynchronous methods</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>, and specific types of event notifications. Providers use, but do not implement this interface to provide events and objects to WMI.
-
+<a href="/windows/desktop/WmiSdk/making-an-asynchronous-call-with-c--">asynchronous methods</a> of 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>, and specific types of event notifications. Providers use, but do not implement this interface to provide events and objects to WMI.
 
 ## -inheritance
 
@@ -71,16 +70,16 @@ The <b>IWbemObjectSinkEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>
 </td>
 <td align="left" width="63%">
-Receives notification objects. Inherited from <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
+Receives notification objects. Inherited from <a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-promptuser">PromptUser</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-promptuser">PromptUser</a>
 </td>
 <td align="left" width="63%">
 TBD
@@ -89,16 +88,16 @@ TBD
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
-Called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink. Inherited from <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
+Called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink. Inherited from <a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeerror">WriteError</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeerror">WriteError</a>
 </td>
 <td align="left" width="63%">
 TBD
@@ -107,7 +106,7 @@ TBD
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writemessage">WriteMessage</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writemessage">WriteMessage</a>
 </td>
 <td align="left" width="63%">
 TBD
@@ -116,7 +115,7 @@ TBD
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeprogress">WriteProgress</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writeprogress">WriteProgress</a>
 </td>
 <td align="left" width="63%">
 TBD
@@ -125,12 +124,11 @@ TBD
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writestreamparameter">WriteStreamParameter</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsinkex-writestreamparameter">WriteStreamParameter</a>
 </td>
 <td align="left" width="63%">
 TBD
 
 </td>
 </tr>
-</table> 
-
+</table>

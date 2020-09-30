@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
-f1_keywords:
-- mfmediaengine/IMFSourceBufferNotify.OnError
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferNotify.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferNotify::OnError
+ - mfmediaengine/IMFSourceBufferNotify::OnError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferNotify.OnError
 ---
 
 # IMFSourceBufferNotify::OnError
@@ -49,25 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to indicate that an error has occurred with the  source buffer.
-
 
 ## -parameters
 
-
-
-
 ### -param hr [in]
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>

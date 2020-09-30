@@ -7,10 +7,6 @@ tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
 ms.date: 01/30/19
 ms.keywords: ICopyHookW::CopyCallback
-f1_keywords:
-- shlobj/ICopyHookW::CopyCallback
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,14 +27,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ICopyHookW::CopyCallback
+ - shlobj/ICopyHookW::CopyCallback
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- ICopyHookW::CopyCallback
+ - ICopyHookW::CopyCallback
 ---
 
 ## -description
@@ -53,11 +54,11 @@ A handle to the window that the copy hook handler should use as the parent for a
 
 ### -param wFunc
 
-The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure.
+The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure.
 
 ### -param wFlags
 
-The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure. 
+The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure. 
                         
 For printer copy hooks, this value is one of the following values defined in Shellapi.h.
 
@@ -108,9 +109,6 @@ Copy hook handlers for printers are registered under the following key.
 
 **HKEY_CLASSES_ROOT/Printers/Shellex/CopyHookHandlers/your_copyhook/{copyhook CLSID value}**
                 
-When this method is called, the Shell initializes the [ICopyHookW](nn-shlobj-icopyhookw.md) interface directly without using an [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.               
+When this method is called, the Shell initializes the [ICopyHookW](nn-shlobj-icopyhookw.md) interface directly without using an [IShellExtInit](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.
 
 ## -see-also
-
-
-

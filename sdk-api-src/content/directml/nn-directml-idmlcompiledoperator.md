@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: B8819F85-CF53-428C-806F-2B3B61D5D869
 ms.date: 12/5/2018
 ms.keywords: IDMLCompiledOperator, IDMLCompiledOperator interface, IDMLCompiledOperator interface,described, direct3d12.idmlcompiledoperator, directml/IDMLCompiledOperator
-f1_keywords:
-- directml/IDMLCompiledOperator
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLCompiledOperator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLCompiledOperator
+ - directml/IDMLCompiledOperator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLCompiledOperator
 ---
 
 # IDMLCompiledOperator interface
+
 
 ## -description
 
@@ -68,12 +70,13 @@ A temporary resource is scratch memory that is only used during the execution of
 
 The size of the temporary and persistent resources varies per operator. Call
     [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) to query the required size, in bytes, of the persistent and temporary
-    resources for this compiled operator. See <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">IDMLBindingTable::BindTemporaryResource</a> and
-    <a href="https://docs.microsoft.com/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">IDMLBindingTable::BindPersistentResource</a> for more information on binding temporary and persistent resources.
+    resources for this compiled operator. See <a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindtemporaryresource">IDMLBindingTable::BindTemporaryResource</a> and
+    <a href="/windows/desktop/api/directml/nf-directml-idmlbindingtable-bindpersistentresource">IDMLBindingTable::BindPersistentResource</a> for more information on binding temporary and persistent resources.
 
 All methods on this interface are thread-safe.
 
 ## -see-also
+
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
 
 [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)

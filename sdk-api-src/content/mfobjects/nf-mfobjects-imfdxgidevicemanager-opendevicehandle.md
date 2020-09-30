@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: B025DF73-1F85-46F3-9AD4-2385BD515DDD
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],OpenDeviceHandle method, IMFDXGIDeviceManager.OpenDeviceHandle, IMFDXGIDeviceManager::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_opendevicehandle, mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle
-f1_keywords:
-- mfobjects/IMFDXGIDeviceManager.OpenDeviceHandle
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFDXGIDeviceManager.OpenDeviceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIDeviceManager::OpenDeviceHandle
+ - mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFDXGIDeviceManager.OpenDeviceHandle
 ---
 
 # IMFDXGIDeviceManager::OpenDeviceHandle
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a handle to the Microsoft Direct3D device. 
-
+Gets a handle to the Microsoft Direct3D device.
 
 ## -parameters
-
-
-
 
 ### -param phDevice [out]
 
 Receives the device handle.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,23 +85,12 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The DXGI Device Manager was not initialized. The owner of the device must call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a>.
+The DXGI Device Manager was not initialized. The owner of the device must call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>

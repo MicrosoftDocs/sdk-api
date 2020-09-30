@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], IMFCaptureSink interface [Media Foundation],described, mf.imfcapturesink, mfcaptureengine/IMFCaptureSink
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink
+ - mfcaptureengine/IMFCaptureSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink
 ---
 
 # IMFCaptureSink interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls a capture sink, which is an object that receives one or more streams from a capture device.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMFCaptureSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>
 </td>
 <td align="left" width="63%">
 Connects a stream from the capture source to this capture sink.
@@ -79,7 +78,7 @@ Connects a stream from the capture source to this capture sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getoutputmediatype">GetOutputMediaType</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getoutputmediatype">GetOutputMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the output format for a stream on this capture sink.
@@ -88,16 +87,16 @@ Gets the output format for a stream on this capture sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">GetService</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
-Queries the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
+Queries the underlying <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-prepare">Prepare</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-prepare">Prepare</a>
 </td>
 <td align="left" width="63%">
 Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
@@ -106,19 +105,16 @@ Prepares the capture sink by loading any required pipeline components, such as e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-removeallstreams">RemoveAllStreams</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-removeallstreams">RemoveAllStreams</a>
 </td>
 <td align="left" width="63%">
 Removes all streams from the capture sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The capture engine creates the following capture sinks.
 
@@ -127,7 +123,7 @@ The capture engine creates the following capture sinks.
 <li>Preview sink. Previews live audio or video.</li>
 <li>Recording sink. Creates compressed audio/video files or compressed audio/video streams.</li>
 </ul>
-To get a pointer to a capture sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. Each capture sink implements an interface that derives from <b>IMFCaptureSink</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the derived interface.<table>
+To get a pointer to a capture sink, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. Each capture sink implements an interface that derives from <b>IMFCaptureSink</b>. Call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the derived interface.<table>
 <tr>
 <th>Sink</th>
 <th>Interface</th>
@@ -135,19 +131,19 @@ To get a pointer to a capture sink, call <a href="https://docs.microsoft.com/win
 <tr>
 <td>Photo sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturephotosink">IMFCapturePhotoSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturephotosink">IMFCapturePhotoSink</a>
 </td>
 </tr>
 <tr>
 <td>Preview sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink">IMFCapturePreviewSink</a>
 </td>
 </tr>
 <tr>
 <td>Recording sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturerecordsink">IMFCaptureRecordSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturerecordsink">IMFCaptureRecordSink</a>
 </td>
 </tr>
 </table>
@@ -163,18 +159,8 @@ If an image stream native type is set to JPEG, to add an effect, change the nati
 
 If the native type is H.264 for the record stream, the record sink should be configured with the same media type. H.264 native type is passthrough only and cannot be decoded.
 
-Record streams that expose H.264 do not  expose any other type. H.264 record streams cannot be used in conjunction with effects. To add effects, instead connect the preview stream to the recordsink using <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>.
-
-
-
+Record streams that expose H.264 do not  expose any other type. H.264 record streams cannot be used in conjunction with effects. To add effects, instead connect the preview stream to the recordsink using <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">AddStream</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

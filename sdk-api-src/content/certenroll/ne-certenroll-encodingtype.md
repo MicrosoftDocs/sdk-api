@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b42628ae-deed-497b-a20f-d175843b79c2
 ms.date: 12/05/2018
 ms.keywords: EncodingType, EncodingType enumeration [Security], XCN_CRYPT_STRING_ANY, XCN_CRYPT_STRING_BASE64, XCN_CRYPT_STRING_BASE64HEADER, XCN_CRYPT_STRING_BASE64REQUESTHEADER, XCN_CRYPT_STRING_BASE64X509CRLHEADER, XCN_CRYPT_STRING_BASE64_ANY, XCN_CRYPT_STRING_BINARY, XCN_CRYPT_STRING_HEX, XCN_CRYPT_STRING_HEXADDR, XCN_CRYPT_STRING_HEXASCII, XCN_CRYPT_STRING_HEXASCIIADDR, XCN_CRYPT_STRING_HEXRAW, XCN_CRYPT_STRING_HEX_ANY, XCN_CRYPT_STRING_NOCR, XCN_CRYPT_STRING_NOCRLF, certenroll/EncodingType, certenroll/XCN_CRYPT_STRING_ANY, certenroll/XCN_CRYPT_STRING_BASE64, certenroll/XCN_CRYPT_STRING_BASE64HEADER, certenroll/XCN_CRYPT_STRING_BASE64REQUESTHEADER, certenroll/XCN_CRYPT_STRING_BASE64X509CRLHEADER, certenroll/XCN_CRYPT_STRING_BASE64_ANY, certenroll/XCN_CRYPT_STRING_BINARY, certenroll/XCN_CRYPT_STRING_HEX, certenroll/XCN_CRYPT_STRING_HEXADDR, certenroll/XCN_CRYPT_STRING_HEXASCII, certenroll/XCN_CRYPT_STRING_HEXASCIIADDR, certenroll/XCN_CRYPT_STRING_HEXRAW, certenroll/XCN_CRYPT_STRING_HEX_ANY, certenroll/XCN_CRYPT_STRING_NOCR, certenroll/XCN_CRYPT_STRING_NOCRLF, security.encodingtype_enum
-f1_keywords:
-- certenroll/EncodingType
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- EncodingType
 targetos: Windows
 req.typenames: EncodingType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EncodingType
+ - certenroll/EncodingType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - EncodingType
 ---
 
 # EncodingType enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EncodingType</b> enumeration specifies the type of encoding applied to a byte array for display purposes.
 
-
 ## -enum-fields
-
-
-
 
 ### -field XCN_CRYPT_STRING_BASE64HEADER
 
@@ -80,11 +76,9 @@ WD30lAfGBr8SZixLep4pMIN/wO0eu6f30cBuoPtDnDulNT8AuQHjkJIc8Qc=
 
 The string is base64 encoded without beginning and ending certificate headers.
 
-
 ### -field XCN_CRYPT_STRING_BINARY
 
 The string is a pure binary sequence. It is not encoded.
-
 
 ### -field XCN_CRYPT_STRING_BASE64REQUESTHEADER
 
@@ -145,7 +139,6 @@ Enumeration values are tried in the following order:
 </ol>
 The <b>XCN_CRYPT_STRING_BINARY</b> value always succeeds.
 
-
 ### -field XCN_CRYPT_STRING_HEX_ANY
 
 Enumeration values are tried in the following order:
@@ -159,7 +152,7 @@ Enumeration values are tried in the following order:
 
 ### -field XCN_CRYPT_STRING_BASE64X509CRLHEADER
 
-The string is base64 encoded with beginning and ending <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) headers. This is shown in the following example.
+The string is base64 encoded with beginning and ending <a href="/windows/desktop/SecGloss/x-gly">X.509</a> <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) headers. This is shown in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>-----BEGIN X509 CRL-----
 MIIDBjCCAm8CAQAwcTERMA8GA1UEAxMIcXV1eC5jb20xDzANBgNVBAsTBkJyYWlu
@@ -205,46 +198,30 @@ The string is hexadecimal encoded and displayed without punctuation. <b>XCN_CRYP
 
 ### -field XCN_CRYPT_STRING_BASE64URI
 
-
 ### -field XCN_CRYPT_STRING_ENCODEMASK
-
 
 ### -field XCN_CRYPT_STRING_CHAIN
 
-
 ### -field XCN_CRYPT_STRING_TEXT
-
 
 ### -field XCN_CRYPT_STRING_PERCENTESCAPE
 
-
 ### -field XCN_CRYPT_STRING_HASHDATA
 
-
 ### -field XCN_CRYPT_STRING_STRICT
-
 
 ### -field XCN_CRYPT_STRING_NOCRLF
 
 Removes carriage return and line feed control characters from the encoded string.
 
-
 ### -field XCN_CRYPT_STRING_NOCR
 
 Removes the carriage return control character from the encoded string.
 
-
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

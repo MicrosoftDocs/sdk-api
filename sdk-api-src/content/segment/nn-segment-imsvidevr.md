@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
-f1_keywords:
-- segment/IMSVidEVR
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidEVR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidEVR
+ - segment/IMSVidEVR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidEVR
 ---
 
 # IMSVidEVR interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IMSVidEVR</b> interface represents the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter within the Video Control filter graph.
-
-
-
+The <b>IMSVidEVR</b> interface represents the <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter within the Video Control filter graph.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IMSVidEVR</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-get_presenter">get_Presenter</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-get_presenter">get_Presenter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presenter object for the EVR filter.
@@ -82,7 +78,7 @@ Retrieves the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-get_suppresseffects">get_SuppressEffects</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-get_suppresseffects">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Video Control configures the system for optimal video playback.
@@ -91,7 +87,7 @@ Queries whether the Video Control configures the system for optimal video playba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-put_presenter">put_Presenter</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-put_presenter">put_Presenter</a>
 </td>
 <td align="left" width="63%">
 Sets the presenter object for the EVR filter.
@@ -100,36 +96,23 @@ Sets the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">put_SuppressEffects</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Video Control configures the system for optimal video playback.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidEVR)</code>.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

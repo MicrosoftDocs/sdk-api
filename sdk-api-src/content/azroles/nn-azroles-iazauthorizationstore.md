@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
-f1_keywords:
-- azroles/IAzAuthorizationStore
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore
+ - azroles/IAzAuthorizationStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore
 ---
 
 # IAzAuthorizationStore interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AzAuthorizationStore</b> object defines the container that is the root of the authorization policy store.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzAuthorizationStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzAuthorizationStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzAuthorizationStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IAzAuthorizationStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyuser">AddDelegatedPolicyUser</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyuser">AddDelegatedPolicyUser</a>
 </td>
 <td align="left" width="63%">
 Adds the specified SID in text form to the list of principals that act as delegated policy users.
@@ -80,7 +79,7 @@ Adds the specified SID in text form to the list of principals that act as delega
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyusername">AddDelegatedPolicyUserName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyusername">AddDelegatedPolicyUserName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of principals that act as delegated policy users.
@@ -89,16 +88,16 @@ Adds the specified account name to the list of principals that act as delegated 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministrator">AddPolicyAdministrator</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministrator">AddPolicyAdministrator</a>
 </td>
 <td align="left" width="63%">
-Adds the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
+Adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministratorname">AddPolicyAdministratorName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministratorname">AddPolicyAdministratorName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of principals that act as policy administrators.
@@ -107,7 +106,7 @@ Adds the specified account name to the list of principals that act as policy adm
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreader">AddPolicyReader</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreader">AddPolicyReader</a>
 </td>
 <td align="left" width="63%">
 Adds the specified SID in text form to the list of principals that act as policy readers. 
@@ -116,7 +115,7 @@ Adds the specified SID in text form to the list of principals that act as policy
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreadername">AddPolicyReaderName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreadername">AddPolicyReaderName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of principals that act as policy readers.
@@ -125,7 +124,7 @@ Adds the specified account name to the list of principals that act as policy rea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpropertyitem">AddPropertyItem</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpropertyitem">AddPropertyItem</a>
 </td>
 <td align="left" width="63%">
 Adds the specified principal to the specified  list of principals.
@@ -134,34 +133,34 @@ Adds the specified principal to the specified  list of principals.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-closeapplication">CloseApplication</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-closeapplication">CloseApplication</a>
 </td>
 <td align="left" width="63%">
-Unloads a specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object from the cache.
+Unloads a specified <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object from the cache.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplication">CreateApplication</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplication">CreateApplication</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
+Creates an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplicationgroup">CreateApplicationGroup</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplicationgroup">CreateApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
+Creates an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-delete">Delete</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the policy store currently in use by the <b>AzAuthorizationStore</b> object.
@@ -170,25 +169,25 @@ Deletes the policy store currently in use by the <b>AzAuthorizationStore</b> obj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deleteapplication">DeleteApplication</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deleteapplication">DeleteApplication</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name from the <b>AzAuthorizationStore</b> object.
+Removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name from the <b>AzAuthorizationStore</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deleteapplicationgroup">DeleteApplicationGroup</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deleteapplicationgroup">DeleteApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name from the <b>AzAuthorizationStore</b> object.
+Removes the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name from the <b>AzAuthorizationStore</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyuser">DeleteDelegatedPolicyUser</a>
 </td>
 <td align="left" width="63%">
 Removes the specified SID in text form from the list of principals that act as delegated policy users.
@@ -197,7 +196,7 @@ Removes the specified SID in text form from the list of principals that act as d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletedelegatedpolicyusername">DeleteDelegatedPolicyUserName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of principals that act as delegated policy users.
@@ -206,7 +205,7 @@ Removes the specified account name from the list of principals that act as deleg
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator">DeletePolicyAdministrator</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministrator">DeletePolicyAdministrator</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified SID in text form from the list of principals that act as policy administrators.
@@ -215,7 +214,7 @@ Deletes the specified SID in text form from the list of principals that act as p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname">DeletePolicyAdministratorName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyadministratorname">DeletePolicyAdministratorName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of principals that act as policy administrators.
@@ -224,7 +223,7 @@ Removes the specified account name from the list of principals that act as polic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreader">DeletePolicyReader</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreader">DeletePolicyReader</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified SID in text form from the list of principals that act as policy readers.
@@ -233,7 +232,7 @@ Deletes the specified SID in text form from the list of principals that act as p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername">DeletePolicyReaderName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepolicyreadername">DeletePolicyReaderName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of principals that act as policy readers.
@@ -242,7 +241,7 @@ Removes the specified account name from the list of principals that act as polic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepropertyitem">DeletePropertyItem</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-deletepropertyitem">DeletePropertyItem</a>
 </td>
 <td align="left" width="63%">
 Removes the specified principal from the specified list of principals.
@@ -251,7 +250,7 @@ Removes the specified principal from the specified list of principals.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>AzAuthorizationStore</b> object property  with the specified property ID.
@@ -260,7 +259,7 @@ Returns the <b>AzAuthorizationStore</b> object property  with the specified prop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the authorization manager.
@@ -269,25 +268,25 @@ Initializes the authorization manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-openapplication">OpenApplication</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-openapplication">OpenApplication</a>
 </td>
 <td align="left" width="63%">
-Opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
+Opens the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-openapplicationgroup">OpenApplicationGroup</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-openapplicationgroup">OpenApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
+Opens the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>AzAuthorizationStore</b> object property  with the specified property ID.
@@ -296,7 +295,7 @@ Sets the specified value to the <b>AzAuthorizationStore</b> object property  wit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>AzAuthorizationStore</b> object.
@@ -305,7 +304,7 @@ Persists changes made to the <b>AzAuthorizationStore</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-updatecache">UpdateCache</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-updatecache">UpdateCache</a>
 </td>
 <td align="left" width="63%">
 Updates the cache of objects and object attributes to match the underlying policy store.
@@ -323,7 +322,7 @@ Updates the cache of objects and object attributes to match the underlying polic
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationdata">ApplicationData</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationdata">ApplicationData</a>
 
 
 </td>
@@ -339,7 +338,7 @@ Sets or retrieves an opaque field that can be used by the application to store i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationgroups">ApplicationGroups</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applicationgroups">ApplicationGroups</a>
 
 
 </td>
@@ -348,14 +347,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroups</a> object that is used to enumerate groups from the policy data.
+Retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroups</a> object that is used to enumerate groups from the policy data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applications">Applications</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applications">Applications</a>
 
 
 </td>
@@ -364,14 +363,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplications">IAzApplications</a> object that is used to enumerate applications from the policy store.
+Retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplications">IAzApplications</a> object that is used to enumerate applications from the policy store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applystoresacl">ApplyStoreSacl</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_applystoresacl">ApplyStoreSacl</a>
 
 
 </td>
@@ -387,7 +386,7 @@ Sets or retrieves a value that indicates whether policy audits should be generat
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusers">DelegatedPolicyUsers</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusers">DelegatedPolicyUsers</a>
 
 
 </td>
@@ -403,7 +402,7 @@ Retrieves the SIDs of principals that act as delegated policy users in text form
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusersname">DelegatedPolicyUsersName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_delegatedpolicyusersname">DelegatedPolicyUsersName</a>
 
 
 </td>
@@ -419,7 +418,7 @@ Retrieves the account names of principals that act as delegated policy users.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_description">Description</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_description">Description</a>
 
 
 </td>
@@ -435,7 +434,7 @@ Sets or retrieves a comment describing the operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_domaintimeout">DomainTimeout</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_domaintimeout">DomainTimeout</a>
 
 
 </td>
@@ -451,7 +450,7 @@ Sets or retrieves the time in milliseconds after which a domain is determined to
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_generateaudits">GenerateAudits</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_generateaudits">GenerateAudits</a>
 
 
 </td>
@@ -467,7 +466,7 @@ Sets or retrieves a value that indicates whether run-time audits should be gener
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines">MaxScriptEngines</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_maxscriptengines">MaxScriptEngines</a>
 
 
 </td>
@@ -483,7 +482,7 @@ Sets or retrieves the maximum number of Business Rule (BizRule) script engines t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministrators">PolicyAdministrators</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministrators">PolicyAdministrators</a>
 
 
 </td>
@@ -499,7 +498,7 @@ Retrieves the SIDs of principals that act as policy administrators in text form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a>
 
 
 </td>
@@ -515,7 +514,7 @@ Retrieves the account names of principals that act as policy administrators.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreaders">PolicyReaders</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreaders">PolicyReaders</a>
 
 
 </td>
@@ -531,7 +530,7 @@ Retrieves the SIDs of principals that act as policy readers in text form.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreadersname">PolicyReadersName</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreadersname">PolicyReadersName</a>
 
 
 </td>
@@ -547,7 +546,7 @@ Retrieves the account names of principals that act as policy readers.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout">ScriptEngineTimeout</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout">ScriptEngineTimeout</a>
 
 
 </td>
@@ -556,14 +555,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the time in milliseconds that the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method will wait for a BizRule to complete execution before canceling  it.
+Sets or retrieves the time in milliseconds that the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method will wait for a BizRule to complete execution before canceling  it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_targetmachine">TargetMachine</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_targetmachine">TargetMachine</a>
 
 
 </td>
@@ -579,7 +578,7 @@ Retrieves the name of the computer on which account resolution should occur.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_writable">Writable</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_writable">Writable</a>
 
 
 </td>
@@ -588,22 +587,17 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the object can be modified by the user context that called the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method.
+Retrieves a value that indicates whether the object can be modified by the user context that called the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+The <b>AzAuthorizationStore</b> object is named according to the URL passed to the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method. The object has no name within  the policy store.
 
-
-The <b>AzAuthorizationStore</b> object is named according to the URL passed to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method. The object has no name within  the policy store.
-
-The application must ensure that the user context from which the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method is called is used for all future access to the <b>AzAuthorizationStore</b> object, except for the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken">IAzApplication::InitializeClientContextFromToken</a> method.
+The application must ensure that the user context from which the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-initialize">Initialize</a> method is called is used for all future access to the <b>AzAuthorizationStore</b> object, except for the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken">IAzApplication::InitializeClientContextFromToken</a> method.
 
 <div class="alert"><b>Note</b>  If an XML store is used over a network, the traffic is not automatically encrypted. IPsec can be used to encrypt the authorization information in transit.</div>
 <div> </div>
-
-

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bae3ead8-632c-45bf-a24e-bf07922039bd
 ms.date: 12/05/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetHandlerInfo method, ISyncMgrSynchronize.GetHandlerInfo, ISyncMgrSynchronize::GetHandlerInfo, mobsync/ISyncMgrSynchronize::GetHandlerInfo, shell.syncmgr_isyncmgrsynchronize_gethandlerinfo, syncmgr.isyncmgrsynchronize_gethandlerinfo
-f1_keywords:
-- mobsync/ISyncMgrSynchronize.GetHandlerInfo
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronize.GetHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronize::GetHandlerInfo
+ - mobsync/ISyncMgrSynchronize::GetHandlerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronize.GetHandlerInfo
 ---
 
 # ISyncMgrSynchronize::GetHandlerInfo
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains handler information.
-
 
 ## -parameters
 
-
-
-
 ### -param ppSyncMgrHandlerInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>**</b>
+Type: <b><a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>**</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
-
+A pointer to a <a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -90,31 +83,15 @@ Handler information is returned successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The handler should use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate memory.
-
-
-
+The handler should use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate memory.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>

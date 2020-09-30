@@ -4,8 +4,6 @@ title: DML_MAX_POOLING1_OPERATOR_DESC
 description: Describes a DirectML operator that performs a max pooling function across the input tensor (according to kernel sizes, stride sizes, and pad lengths).
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,18 +21,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_name:
- - DML_MAX_POOLING1_OPERATOR_DESC
-f1_keywords:
- - directml/DML_MAX_POOLING1_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_name:
+ - DML_MAX_POOLING1_OPERATOR_DESC
+f1_keywords:
+ - DML_MAX_POOLING1_OPERATOR_DESC
+ - directml/DML_MAX_POOLING1_OPERATOR_DESC
 ---
 
 ## -description
@@ -43,7 +44,7 @@ Describes a DirectML operator that performs a max pooling function across the in
 
 Max pooling consists of computing the max on all values of a subset of the input tensor according to the kernel size, and then downsampling the data into the output tensor Y for further processing.
 
-**DML_MAX_POOLING1_OPERATOR_DESC** is an updated version of [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc).
+**DML_MAX_POOLING1_OPERATOR_DESC** is an updated version of [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md).
 
 ## -struct-fields
 
@@ -99,4 +100,4 @@ A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-ty
 
 ## -see-also
 
-* [DML_MAX_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling_operator_desc)
+* [DML_MAX_POOLING_OPERATOR_DESC](./ns-directml-dml_max_pooling_operator_desc.md)

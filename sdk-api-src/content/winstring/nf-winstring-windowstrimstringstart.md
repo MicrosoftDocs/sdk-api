@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 88B9034D-D010-4C38-8F03-A5AF2FEC448B
 ms.date: 12/05/2018
 ms.keywords: WindowsTrimStringStart, WindowsTrimStringStart function [Windows Runtime], winrt.windowstrimstringstart, winstring/WindowsTrimStringStart
-f1_keywords:
-- winstring/WindowsTrimStringStart
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsTrimStringStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsTrimStringStart
+ - winstring/WindowsTrimStringStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsTrimStringStart
 ---
 
 ## -description
@@ -124,3 +125,4 @@ Each call to the <b>WindowsTrimStringStart</b> function must be matched with a c
 ## -see-also
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
+

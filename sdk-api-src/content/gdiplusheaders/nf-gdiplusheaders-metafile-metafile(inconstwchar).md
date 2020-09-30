@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_24filename.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile class [GDI+],Metafile constructor, Metafile constructor [GDI+], Metafile constructor [GDI+],Metafile class, Metafile.Metafile, Metafile.Metafile(IN const WCHAR), Metafile.Metafile(const WCHAR*), Metafile::Metafile, Metafile::Metafile(IN const WCHAR), _gdiplus_CLASS_Metafile_Metafile_filename_, gdiplus._gdiplus_CLASS_Metafile_Metafile_filename_
-f1_keywords:
-- gdiplusheaders/Metafile.Metafile
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Metafile.Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Metafile::Metafile
+ - gdiplusheaders/Metafile::Metafile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Metafile.Metafile
 ---
 
 # Metafile::Metafile(IN const WCHAR)
@@ -50,45 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Metafile::Metafile</b> object for playback.
 
-
 ## -parameters
-
-
-
 
 ### -param filename [in]
 
 Type: <b>const WCHAR*</b>
 
-Pointer to a wide-character string that specifies the name of an existing disk file used to create the <b>Metafile::Metafile</b> object for playback. 
-
+Pointer to a wide-character string that specifies the name of an existing disk file used to create the <b>Metafile::Metafile</b> object for playback.
 
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile Constructors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile Constructors</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>

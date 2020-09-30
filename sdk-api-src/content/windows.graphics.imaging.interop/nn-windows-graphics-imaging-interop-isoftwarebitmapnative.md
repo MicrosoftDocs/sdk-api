@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 9EB9C74E-A056-4A40-AFAD-0056E139BA28
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Runtime], ISoftwareBitmapNative interface [Windows Runtime],described, windows/ISoftwareBitmapNative, winrt.isoftwarebitmapnative
-f1_keywords:
-- windows.graphics.imaging.interop/ISoftwareBitmapNative
-dev_langs:
-- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.graphics.imaging.interop.h
-api_name:
-- ISoftwareBitmapNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISoftwareBitmapNative
+ - windows.graphics.imaging.interop/ISoftwareBitmapNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.graphics.imaging.interop.h
+api_name:
+ - ISoftwareBitmapNative
 ---
 
 # ISoftwareBitmapNative interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a software bitmap.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISoftwareBitmapNative</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISoftwareBitmapNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISoftwareBitmapNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISoftwareBitmapNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,23 +69,15 @@ The <b>ISoftwareBitmapNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnative-getdata">GetData</a>
+<a href="/windows/desktop/api/windows.graphics.imaging.interop/nf-windows-graphics-imaging-interop-isoftwarebitmapnative-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 This method returns an interface that provides access to the software bitmap data. 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

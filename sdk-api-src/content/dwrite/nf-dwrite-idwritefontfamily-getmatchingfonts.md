@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 81984e35-7b62-4e14-9ded-45cee49a8921
 ms.date: 12/05/2018
 ms.keywords: GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetMatchingFonts method, IDWriteFontFamily.GetMatchingFonts, IDWriteFontFamily::GetMatchingFonts, directwrite.IDWriteFontFamily_GetMatchingFonts, dwrite/IDWriteFontFamily::GetMatchingFonts
-f1_keywords:
-- dwrite/IDWriteFontFamily.GetMatchingFonts
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFamily.GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFamily::GetMatchingFonts
+ - dwrite/IDWriteFontFamily::GetMatchingFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily.GetMatchingFonts
 ---
 
 # IDWriteFontFamily::GetMatchingFonts
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
 
-
 ## -parameters
-
-
-
 
 ### -param weight
 
@@ -64,13 +60,11 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE
 
 A value that is used to match a requested font weight.
 
-
 ### -param stretch
 
 Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch">DWRITE_FONT_STRETCH</a></b>
 
 A value that is used to match a requested font stretch.
-
 
 ### -param style
 
@@ -78,32 +72,19 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_
 
 A value that is used to match a requested font style.
 
-
 ### -param matchingFonts [out]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>**</b>
 
 An address of a pointer to the newly created <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a> object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
- 
-
- 
 

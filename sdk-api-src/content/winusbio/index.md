@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: buses
+f1_keywords:
+ - winusbio
+ - winusbio/winusbio
 ---
 
 # Winusbio.h header
 
 
 ## -description
-
 
 This header is used by USB driver reference. For more information, see:
 

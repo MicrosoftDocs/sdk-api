@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
-f1_keywords:
-- msrdc/IRdcComparator
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcComparator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcComparator
+ - msrdc/IRdcComparator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcComparator
 ---
 
 # IRdcComparator interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcComparator</b> interface is used to compare 
     two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target 
     file.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcComparator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcComparator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcComparator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcComparator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,26 +71,18 @@ The <b>IRdcComparator</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">Process</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">Process</a>
 </td>
 <td align="left" width="63%">
 Compares two signature streams (seed and source) and produces a needs list, which describes the data chunks needed to create 
     the target file.</p> (Inherited from <b>IRdcComparator</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>

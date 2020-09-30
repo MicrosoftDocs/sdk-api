@@ -34,6 +34,7 @@ api_location:
 api_name:
  - XMFLOAT3X4A::operator=
 f1_keywords:
+ - XMFLOAT3X4A::operator=
  - directxmath/XMFLOAT3X4A::operator=
 dev_langs:
  - c++
@@ -58,4 +59,5 @@ Type: **XMFLOAT3X4A &**
 An lvalue reference to the current instance of **XMFLOAT3X4A**, after moving *arg1* into it.
 
 ## -see-also
-[XMFLOAT3X4A structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a)
+
+[XMFLOAT3X4A structure](./ns-directxmath-xmfloat3x4a.md)

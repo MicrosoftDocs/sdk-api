@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: devinst
+f1_keywords:
+ - newdev
+ - newdev/newdev
 ---
 
 # Newdev.h header
 
 
 ## -description
-
 
 This header is used by Device and Driver Installation Reference. For more information, see:
 

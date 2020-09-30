@@ -4,8 +4,6 @@ title: DML_ONE_HOT_OPERATOR_DESC
 description: Describes a DirectML operator that generates a tensor with each element filled with two values&mdash;either an 'on' or an 'off' value.
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,20 +21,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_ONE_HOT_OPERATOR_DESC
-f1_keywords:
- - directml/DML_ONE_HOT_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_ONE_HOT_OPERATOR_DESC
+f1_keywords:
+ - DML_ONE_HOT_OPERATOR_DESC
+ - directml/DML_ONE_HOT_OPERATOR_DESC
 ---
 
 ## -description
@@ -74,3 +75,4 @@ The axis dimension to add to *OutputTensor*.
 ## -remarks
 
 ## -see-also
+

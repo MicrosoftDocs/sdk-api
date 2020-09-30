@@ -26,18 +26,19 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- rpcproxy.dll
-- api-ms-win-core-com-midlproxystub-l1-1-0.dll
+ - rpcproxy.dll
+ - api-ms-win-core-com-midlproxystub-l1-1-0.dll
 api_name:
-- ObjectStublessClient3
+ - ObjectStublessClient3
 f1_keywords:
-- rpcproxy/ObjectStublessClient3
+ - ObjectStublessClient3
+ - rpcproxy/ObjectStublessClient3
 dev_langs:
-- c++
+ - c++
 ---
 
 ## -description
@@ -51,3 +52,4 @@ As part of the implementation of COM proxies, the MIDL compiler generates code t
 ## -see-also
 
 [Building and registering a proxy DLL](/windows/win32/com/building-and-registering-a-proxy-dll)
+

@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 48b20b03-62a4-4dcd-8eda-f1bfef1eef38
 ms.date: 12/05/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], IUPnPService interface [UPnP APIs],described, _upnp_iupnpservice, upnp.iupnpservice, upnp/IUPnPService
-f1_keywords:
-- upnp/IUPnPService
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPService
+ - upnp/IUPnPService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPService
 ---
 
 # IUPnPService interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPService</b> interface enables an application to query state variables and invoke actions on an instance of a service.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPService</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPService</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUPnPService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +71,7 @@ The <b>IUPnPService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-addcallback">AddCallback</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-addcallback">AddCallback</a>
 </td>
 <td align="left" width="63%">
 Registers a service callback.
@@ -81,7 +80,7 @@ Registers a service callback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">InvokeAction</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-invokeaction">InvokeAction</a>
 </td>
 <td align="left" width="63%">
 Invokes the specified action.
@@ -90,7 +89,7 @@ Invokes the specified action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">QueryStateVariable</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-querystatevariable">QueryStateVariable</a>
 </td>
 <td align="left" width="63%">
 Returns the value of the specified state variable.
@@ -107,7 +106,7 @@ Returns the value of the specified state variable.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id">Id</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_id">Id</a>
 
 
 </td>
@@ -119,7 +118,7 @@ Service ID for the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">LastTransportStatus</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">LastTransportStatus</a>
 
 
 </td>
@@ -131,7 +130,7 @@ HTTP status of the last request sent to the service on the device. The request i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier">ServiceTypeIdentifier</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_servicetypeidentifier">ServiceTypeIdentifier</a>
 
 
 </td>
@@ -140,5 +139,4 @@ Service type identifier for the service.
 
 </td>
 </tr>
-</table> 
-
+</table>

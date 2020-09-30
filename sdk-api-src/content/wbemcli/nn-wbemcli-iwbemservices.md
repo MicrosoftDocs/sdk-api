@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 58e2ecca-7d1f-4831-93fc-f946f8ada2c0
 ms.date: 12/05/2018
 ms.keywords: IWbemServices, IWbemServices interface [Windows Management Instrumentation], IWbemServices interface [Windows Management Instrumentation],described, _hmm_iwbemservices, wbemcli/IWbemServices, wmi.iwbemservices
-f1_keywords:
-- wbemcli/IWbemServices
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,40 +25,44 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices
+ - wbemcli/IWbemServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices
 ---
 
 # IWbemServices interface
 
 
 ## -description
-
 
 The <b>IWbemServices</b> interface is used by clients and providers to access WMI services. The interface is implemented by WMI and WMI providers, and is the primary WMI interface.
 
@@ -73,11 +73,9 @@ The <b>IWbemServices</b> interface is used by clients and providers to access WM
     pWbemSvc->GetObject(L"path", 0, 0, &pObj, 0);
 ```
 
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemServices</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +90,7 @@ The <b>IWbemServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">CancelAsyncCall</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">CancelAsyncCall</a>
 </td>
 <td align="left" width="63%">
 Cancels a currently executing asynchronous call.
@@ -101,7 +99,7 @@ Cancels a currently executing asynchronous call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenum">CreateClassEnum</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenum">CreateClassEnum</a>
 </td>
 <td align="left" width="63%">
 Creates a class enumerator.
@@ -110,7 +108,7 @@ Creates a class enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync">CreateClassEnumAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createclassenumasync">CreateClassEnumAsync</a>
 </td>
 <td align="left" width="63%">
 Creates a class enumerator that executes asynchronously.
@@ -119,7 +117,7 @@ Creates a class enumerator that executes asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum">CreateInstanceEnum</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenum">CreateInstanceEnum</a>
 </td>
 <td align="left" width="63%">
 Creates an instance enumerator.
@@ -128,7 +126,7 @@ Creates an instance enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">CreateInstanceEnumAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">CreateInstanceEnumAsync</a>
 </td>
 <td align="left" width="63%">
 Creates an instance enumerator that executes asynchronously.
@@ -137,7 +135,7 @@ Creates an instance enumerator that executes asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">DeleteClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">DeleteClass</a>
 </td>
 <td align="left" width="63%">
 Deletes a class.
@@ -146,7 +144,7 @@ Deletes a class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclassasync">DeleteClassAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclassasync">DeleteClassAsync</a>
 </td>
 <td align="left" width="63%">
 Deletes a class and receives confirmation asynchronously.
@@ -155,7 +153,7 @@ Deletes a class and receives confirmation asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">DeleteInstance</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">DeleteInstance</a>
 </td>
 <td align="left" width="63%">
 Deletes a specific instance of a class.
@@ -164,7 +162,7 @@ Deletes a specific instance of a class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstanceasync">DeleteInstanceAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstanceasync">DeleteInstanceAsync</a>
 </td>
 <td align="left" width="63%">
 Deletes an instance and provides confirmation asynchronously.
@@ -173,7 +171,7 @@ Deletes an instance and provides confirmation asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">ExecMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">ExecMethod</a>
 </td>
 <td align="left" width="63%">
 Executes an object method.
@@ -182,7 +180,7 @@ Executes an object method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">ExecMethodAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">ExecMethodAsync</a>
 </td>
 <td align="left" width="63%">
 Executes an object method asynchronously.
@@ -191,7 +189,7 @@ Executes an object method asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ExecNotificationQuery</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ExecNotificationQuery</a>
 </td>
 <td align="left" width="63%">
 Executes a query to receive events.
@@ -200,7 +198,7 @@ Executes a query to receive events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync">ExecNotificationQueryAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationqueryasync">ExecNotificationQueryAsync</a>
 </td>
 <td align="left" width="63%">
 Executes a query to receive events asynchronously.
@@ -209,7 +207,7 @@ Executes a query to receive events asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">ExecQuery</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">ExecQuery</a>
 </td>
 <td align="left" width="63%">
 Executes a query to retrieve classes or instances.
@@ -218,7 +216,7 @@ Executes a query to retrieve classes or instances.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">ExecQueryAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">ExecQueryAsync</a>
 </td>
 <td align="left" width="63%">
 Executes a query to retrieve classes or instances asynchronously.
@@ -227,7 +225,7 @@ Executes a query to retrieve classes or instances asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">GetObject</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object—an instance or class definition.
@@ -236,7 +234,7 @@ Retrieves an object—an instance or class definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobjectasync">GetObjectAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobjectasync">GetObjectAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously retrieves an object—an instance or class definition.
@@ -245,7 +243,7 @@ Asynchronously retrieves an object—an instance or class definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a>
 </td>
 <td align="left" width="63%">
 Opens a specific child namespace for operations.
@@ -254,7 +252,7 @@ Opens a specific child namespace for operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">PutClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">PutClass</a>
 </td>
 <td align="left" width="63%">
 Creates or updates a class definition.
@@ -263,7 +261,7 @@ Creates or updates a class definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclassasync">PutClassAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclassasync">PutClassAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously creates or updates a class definition.
@@ -272,7 +270,7 @@ Asynchronously creates or updates a class definition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a>
 </td>
 <td align="left" width="63%">
 Creates or updates an instance of a specific class.
@@ -281,7 +279,7 @@ Creates or updates an instance of a specific class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">PutInstanceAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">PutInstanceAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously creates or updates an instance of a specific class.
@@ -290,32 +288,29 @@ Asynchronously creates or updates an instance of a specific class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-queryobjectsink">QueryObjectSink</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-queryobjectsink">QueryObjectSink</a>
 </td>
 <td align="left" width="63%">
 Allows a caller to obtain a notification handler sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Providers that implement the 
 <b>IWbemServices</b> interface must follow the documented semantics of each method that they implement; and providers must support the specified error return codes. WMI implements all of the methods, and typically, each provider implements a small subset of the available functionality on the interface. Providers must return WBEM_E_PROVIDER_NOT_CAPABLE for any method that  they do not implement.
 
 All outbound interface pointers from any 
 <b>IWbemServices</b> method should be initialized to <b>NULL</b> before calling the interface method. For example, 
-calls to the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> method return an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointer that should be pre-initialized to <b>NULL</b> before the <b>IWbemServices::GetObject</b> method  call.
+calls to the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> method return an 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> interface pointer that should be pre-initialized to <b>NULL</b> before the <b>IWbemServices::GetObject</b> method  call.
 
 
 #### Examples
 
-For multiple C++ examples that use IWbemServices, see the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-c---application-examples">WMI C++ Application Examples</a> section.
+For multiple C++ examples that use IWbemServices, see the <a href="/windows/desktop/WmiSdk/wmi-c---application-examples">WMI C++ Application Examples</a> section.
 
 The following code example shows how a provider can get an 
 <b>IWbemServices</b> pointer. The code requires the following #include statements and references to compile.
@@ -364,29 +359,18 @@ pIWbemLocator->Release(); // Free memory resources.
 pWbemServices->Release();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
+<a href="/windows/desktop/WmiSdk/creating-wmi-providers">Creating WMI Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-wmi-providers">Creating WMI Providers</a>
+<a href="/windows/desktop/WmiSdk/manipulating-class-and-instance-information">Manipulating Class and Instance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/manipulating-class-and-instance-information">Manipulating Class and Instance Information</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/supplying-data-to-wmi-by-writing-a-provider">Supplying Data to WMI by Writing a Provider</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/supplying-data-to-wmi-by-writing-a-provider">Supplying Data to WMI by Writing a Provider</a>

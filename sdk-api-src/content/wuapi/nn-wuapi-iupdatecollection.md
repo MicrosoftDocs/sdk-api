@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: e56a09e9-6a5f-4579-9a5c-987519fccaad
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], IUpdateCollection interface [Windows Update Agent],described, wua.iupdatecollection, wuapi/IUpdateCollection
-f1_keywords:
-- wuapi/IUpdateCollection
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection
+ - wuapi/IUpdateCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection
 ---
 
 # IUpdateCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an ordered list of updates.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUpdateCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-add">Add</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -80,7 +79,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-clear">Clear</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all the elements from the collection.
@@ -89,7 +88,7 @@ Removes all the elements from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-copy">Copy</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a shallow read/write copy of the collection.
@@ -98,7 +97,7 @@ Creates a shallow read/write copy of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-insert">Insert</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-insert">Insert</a>
 </td>
 <td align="left" width="63%">
 Inserts an item into the collection at the specified position.
@@ -107,7 +106,7 @@ Inserts an item into the collection at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-removeat">RemoveAt</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes the item at the specified index from the collection.
@@ -125,7 +124,7 @@ Removes the item at the specified index from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -134,14 +133,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_count">Count</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_count">Count</a>
 
 
 </td>
@@ -157,7 +156,7 @@ Gets the number of elements in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_item">Item</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_item">Item</a>
 
 
 </td>
@@ -166,14 +165,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface in a collection.
+Gets or sets an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface in a collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_readonly">ReadOnly</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatecollection-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -186,14 +185,8 @@ Gets a Boolean value that indicates whether the update collection is read-only.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateCollection coclass. Use the Microsoft.Update.UpdateColl program identifier to create the object.
-
-
-

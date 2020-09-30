@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: toolhelp
+f1_keywords:
+ - tlhelp32
+ - tlhelp32/tlhelp32
 ---
 
 # Tlhelp32.h header
 
 
 ## -description
-
 
 This header is used by Tool Help Library. For more information, see:
 

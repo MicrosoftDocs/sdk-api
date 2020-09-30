@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: f57b247c-bd6d-46ea-be95-a239c1b087ce
 ms.date: 12/05/2018
 ms.keywords: GetTooltipText, GetTooltipText method [Picture Acquisition], GetTooltipText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetTooltipText method, IUserInputString.GetTooltipText, IUserInputString::GetTooltipText, IUserInputStringGetTooltipText, photoacquire/IUserInputString::GetTooltipText, picacq.iuserinputstring_gettooltiptext
-f1_keywords:
-- photoacquire/IUserInputString.GetTooltipText
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetTooltipText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetTooltipText
+ - photoacquire/IUserInputString::GetTooltipText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetTooltipText
 ---
 
 # IUserInputString::GetTooltipText
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTooltipText</code> method retrieves the tooltip text displayed for a control.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrTooltipText [out]
 
 Pointer to a string containing the tooltip text.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,18 +91,7 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

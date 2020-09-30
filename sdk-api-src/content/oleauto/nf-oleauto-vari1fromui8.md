@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 5732c276-4e0d-485b-84f1-2f020b192190
 ms.date: 12/05/2018
 ms.keywords: VarI1FromUI8, VarI1FromUI8 function [Automation], _oa96_VarI1FromUI8, automat.vari1fromui8, oleauto/VarI1FromUI8
-f1_keywords:
-- oleauto/VarI1FromUI8
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI1FromUI8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI1FromUI8
+ - oleauto/VarI1FromUI8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI1FromUI8
 ---
 
 # VarI1FromUI8 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an 8-byte unsigned integer value to a char value.
 
-
 ## -parameters
-
-
-
 
 ### -param i64In [in]
 
 The value to convert.
 
-
 ### -param pcOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

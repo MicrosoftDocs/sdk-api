@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.date: 12/05/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
-f1_keywords:
-- mfidl/IMFMediaSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink
+ - mfidl/IMFMediaSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink
 ---
 
 # IMFMediaSink interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by media sink objects. This interface is the base interface for all Media Foundation media sinks. Stream sinks handle the actual processing of data on each stream.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IMFMediaSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>
 </td>
 <td align="left" width="63%">
 Adds a new stream sink to the media sink.
@@ -81,7 +80,7 @@ Adds a new stream sink to the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">GetCharacteristics</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">GetCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Gets the characteristics of the media sink.
@@ -91,7 +90,7 @@ Gets the characteristics of the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getpresentationclock">GetPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getpresentationclock">GetPresentationClock</a>
 </td>
 <td align="left" width="63%">
 Gets the presentation clock that was set on the media sink.
@@ -101,7 +100,7 @@ Gets the presentation clock that was set on the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">GetStreamSinkById</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">GetStreamSinkById</a>
 </td>
 <td align="left" width="63%">
 Gets a stream sink, specified by stream identifier.
@@ -111,7 +110,7 @@ Gets a stream sink, specified by stream identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">GetStreamSinkByIndex</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">GetStreamSinkByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a stream sink, specified by index.
@@ -121,7 +120,7 @@ Gets a stream sink, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount">GetStreamSinkCount</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount">GetStreamSinkCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of stream sinks on this media sink.
@@ -131,7 +130,7 @@ Gets the number of stream sinks on this media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-removestreamsink">RemoveStreamSink</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-removestreamsink">RemoveStreamSink</a>
 </td>
 <td align="left" width="63%">
 Removes a stream sink from the media sink.
@@ -141,7 +140,7 @@ Removes a stream sink from the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">SetPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">SetPresentationClock</a>
 </td>
 <td align="left" width="63%">
 Sets the presentation clock on the media sink.
@@ -151,7 +150,7 @@ Sets the presentation clock on the media sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the media sink and releases the resources it is using.
@@ -159,20 +158,12 @@ Shuts down the media sink and releases the resources it is using.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

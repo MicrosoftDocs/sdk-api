@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0
 ms.date: 12/05/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
-f1_keywords:
-- iads/IADsService
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsService
+ - iads/IADsService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsService
 ---
 
 # IADsService interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IADsService</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to maintain data about system services running on a host computer. Examples of such services include "FAX" for Microsoft Fax Service, "RemoteAccess" for Routing and RemoteAccess Service, and "seclogon" for Secondary Logon Service. Examples of the data about any system service include the path to the executable file on the host computer, the type of the service, other services or load group required to run a particular service, and others. <b>IADsService</b> exposes several properties to represent such data.
-
+The <b>IADsService</b> interface is a dual interface that inherits from <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to maintain data about system services running on a host computer. Examples of such services include "FAX" for Microsoft Fax Service, "RemoteAccess" for Routing and RemoteAccess Service, and "seclogon" for Secondary Logon Service. Examples of the data about any system service include the path to the executable file on the host computer, the type of the service, other services or load group required to run a particular service, and others. <b>IADsService</b> exposes several properties to represent such data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsService</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsService</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IADsService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -80,7 +79,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -89,7 +88,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -98,7 +97,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -107,7 +106,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -116,7 +115,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -125,7 +124,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -143,7 +142,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -159,7 +158,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -175,7 +174,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">Dependencies</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">Dependencies</a>
 
 
 </td>
@@ -191,7 +190,7 @@ Gets and sets the array of <b>BSTR</b> names of services or load groups that mus
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">DisplayName</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">DisplayName</a>
 
 
 </td>
@@ -207,7 +206,7 @@ Gets and sets the display name of this service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">ErrorControl</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">ErrorControl</a>
 
 
 </td>
@@ -223,7 +222,7 @@ Gets and sets the actions taken in case of service failure.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -239,7 +238,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">HostComputer</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">HostComputer</a>
 
 
 </td>
@@ -255,7 +254,7 @@ Gets and sets the host of this service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">LoadOrderGroup</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">LoadOrderGroup</a>
 
 
 </td>
@@ -271,7 +270,7 @@ Gets and sets the load order group for this service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -287,7 +286,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -303,7 +302,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">Path</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">Path</a>
 
 
 </td>
@@ -319,7 +318,7 @@ Gets and sets the path and filename of the executable.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -335,7 +334,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">ServiceAccountName</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">ServiceAccountName</a>
 
 
 </td>
@@ -351,7 +350,7 @@ Gets and sets the authentication account name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">ServiceAccountPath</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">ServiceAccountPath</a>
 
 
 </td>
@@ -367,7 +366,7 @@ Gets and sets the path to user object to authenticate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">ServiceType</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">ServiceType</a>
 
 
 </td>
@@ -383,7 +382,7 @@ Gets and sets the process type in which this service runs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">StartType</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">StartType</a>
 
 
 </td>
@@ -399,7 +398,7 @@ Gets and sets a value that determines how the service is started.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">StartupParameters</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">StartupParameters</a>
 
 
 </td>
@@ -415,7 +414,7 @@ Gets and sets the parameters passed at start-up.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">Version</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">Version</a>
 
 
 </td>
@@ -428,16 +427,13 @@ Gets and sets the version data of this service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+The system services are published in the underlying directory. Some may be running, others may not. To verify the status or to operate on any of the services, use the properties and methods of the  <a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a> interface.
 
-
-The system services are published in the underlying directory. Some may be running, others may not. To verify the status or to operate on any of the services, use the properties and methods of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a> interface.
-
-File service is a special case of the system service. The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a> interfaces support additional features unique to file services.
+File service is a special case of the system service. The  <a href="/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a> and  <a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a> interfaces support additional features unique to file services.
 
 
 #### Examples
@@ -468,37 +464,26 @@ Cleanup:
 End Sub
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">IADsService Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">IADsService Property Methods</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

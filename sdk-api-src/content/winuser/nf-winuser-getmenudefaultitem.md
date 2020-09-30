@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenudefaultitem.htm
 ms.date: 12/05/2018
 ms.keywords: GMDI_GOINTOPOPUPS, GMDI_USEDISABLED, GetMenuDefaultItem, GetMenuDefaultItem function [Menus and Other Resources], _win32_GetMenuDefaultItem, _win32_getmenudefaultitem_cpp, menurc.getmenudefaultitem, winui._win32_getmenudefaultitem, winuser/GetMenuDefaultItem
-f1_keywords:
-- winuser/GetMenuDefaultItem
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- GetMenuDefaultItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMenuDefaultItem
+ - winuser/GetMenuDefaultItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - GetMenuDefaultItem
 ---
 
 # GetMenuDefaultItem function
@@ -53,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the default menu item on the specified menu.
 
-
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu for which to retrieve the default menu item. 
-
+A handle to the menu for which to retrieve the default menu item.
 
 ### -param fByPos [in]
 
 Type: <b>UINT</b>
 
-Indicates whether to retrieve the menu item's identifier or its position. If this parameter is <b>FALSE</b>, the identifier is returned. Otherwise, the position is returned. 
-
+Indicates whether to retrieve the menu item's identifier or its position. If this parameter is <b>FALSE</b>, the identifier is returned. Otherwise, the position is returned.
 
 ### -param gmdiFlags [in]
 
@@ -110,32 +104,22 @@ The function is to return a default item, even if it is disabled. By default, th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 If the function succeeds, the return value is the identifier or position of the menu item.
 
-If the function fails, the return value is -1. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is -1. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -143,8 +127,4 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenudefaultitem">SetMenuDefaultItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenudefaultitem">SetMenuDefaultItem</a>

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0
 ms.date: 12/05/2018
 ms.keywords: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0, IOAM_Behind, IOAM_InFront, InkOverlayAttachMode, InkOverlayAttachMode enumeration [Tablet PC], msinkaut/IOAM_Behind, msinkaut/IOAM_InFront, msinkaut/InkOverlayAttachMode, tablet.inkoverlayattachmode
-f1_keywords:
-- msinkaut/InkOverlayAttachMode
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkOverlayAttachMode
 targetos: Windows
 req.typenames: InkOverlayAttachMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkOverlayAttachMode
+ - msinkaut/InkOverlayAttachMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkOverlayAttachMode
 ---
 
 # InkOverlayAttachMode enumeration
@@ -49,41 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies where to attach the new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object, behind or in front of the active layer.
-
-
-
+Specifies where to attach the new <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object, behind or in front of the active layer.
 
 ## -enum-fields
 
-
-
-
 ### -field IOAM_Behind
 
-The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind the active window.
+The new <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached behind the active window.
 
 This is the default value.
 
-
 ### -field IOAM_InFront
 
-The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached in front of the active window.
-
+The new <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is attached in front of the active window.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode">AttachMode Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_attachmode">AttachMode Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>

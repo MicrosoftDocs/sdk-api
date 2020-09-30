@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(REFIID,void), IUnknown::QueryInterface, IUnknown::QueryInterface(REFIID,void), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
-f1_keywords:
-- unknwn/IUnknown.QueryInterface
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Unknwn.h
-api_name:
-- IUnknown.QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUnknown::QueryInterface
+ - unknwn/IUnknown::QueryInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Unknwn.h
+api_name:
+ - IUnknown.QueryInterface
 ---
 
 ## -description
@@ -84,3 +85,4 @@ Implementations of **QueryInterface** must never check ACLs. The main reason for
 ## -see-also
 
 * [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
+

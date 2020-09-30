@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 738b7efb-c796-4f64-95e3-feaaa50ac673
 ms.date: 12/05/2018
 ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDENTIAL_SET, WinBioGetCredentialState, WinBioGetCredentialState function [Windows Biometric Framework API], secbiomet.winbiogetcredentialstate, winbio/WinBioGetCredentialState
-f1_keywords:
-- winbio/WinBioGetCredentialState
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioGetCredentialState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioGetCredentialState
+ - winbio/WinBioGetCredentialState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioGetCredentialState
 ---
 
 # WinBioGetCredentialState function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
-
 
 ## -parameters
 
-
-
-
 ### -param Identity [in]
 
-A  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the credential is being queried.
-
+A  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the credential is being queried.
 
 ### -param Type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
+A <a href="/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
 
 <table>
 <tr>
@@ -85,12 +80,10 @@ The password-based credential is checked.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CredentialState [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-state">WINBIO_CREDENTIAL_STATE</a> enumeration value that specifies whether user credentials have been set. This can be one of the following values:
+Pointer to a <a href="/windows/desktop/SecBioMet/winbio-credential-state">WINBIO_CREDENTIAL_STATE</a> enumeration value that specifies whether user credentials have been set. This can be one of the following values:
 
 <table>
 <tr>
@@ -118,14 +111,10 @@ A credential has been specified.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -166,18 +155,12 @@ Current administrative policy prohibits use of the credential provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>WinBioGetCredentialState</b> is typically used to provide feedback about credential state in a user interface. For example, an enrollment application might query credential state before prompting a user for credentials.
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a> function to associate credentials with a user.
+Call the <a href="/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a> function to associate credentials with a user.
 
 Users who do not have elevated privileges can retrieve information about only their own credentials. Elevated users can retrieve information for any credential.
 
@@ -324,17 +307,6 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>

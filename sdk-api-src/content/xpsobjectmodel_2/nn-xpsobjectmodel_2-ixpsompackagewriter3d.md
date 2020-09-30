@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2F3E0529-7E2B-4BCD-AE8F-D0F3259D1A48
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], IXpsOMPackageWriter3D interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter3d, xpsobjectmodel_2/IXpsOMPackageWriter3D
-f1_keywords:
-- xpsobjectmodel_2/IXpsOMPackageWriter3D
-dev_langs:
-- c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsObjectModel_2.h
-api_name:
-- IXpsOMPackageWriter3D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter3D
+ - xpsobjectmodel_2/IXpsOMPackageWriter3D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsObjectModel_2.h
+api_name:
+ - IXpsOMPackageWriter3D
 ---
 
 # IXpsOMPackageWriter3D interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains methods that support model textures and print ticket.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter3D</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>. <b>IXpsOMPackageWriter3D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter3D</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>. <b>IXpsOMPackageWriter3D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IXpsOMPackageWriter3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-addmodeltexture">AddModelTexture</a>
+<a href="/windows/desktop/api/xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-addmodeltexture">AddModelTexture</a>
 </td>
 <td align="left" width="63%">
 Creates a new 3D model texture from the specified texture part and stream.
@@ -79,7 +78,7 @@ Creates a new 3D model texture from the specified texture part and stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">IXpsOMPackageWriter::AddPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">IXpsOMPackageWriter::AddPage</a>
 </td>
 <td align="left" width="63%">
 Writes a new FixedPage part to the currently open FixedDocument part in the package.
@@ -88,7 +87,7 @@ Writes a new FixedPage part to the currently open FixedDocument part in the pack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addresource">IXpsOMPackageWriter::AddResource</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addresource">IXpsOMPackageWriter::AddResource</a>
 </td>
 <td align="left" width="63%">
 Creates a new part resource in the package.
@@ -97,7 +96,7 @@ Creates a new part resource in the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">IXpsOMPackageWriter::Close</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">IXpsOMPackageWriter::Close</a>
 </td>
 <td align="left" width="63%">
 Closes any open parts of the package, then closes the package.
@@ -106,16 +105,16 @@ Closes any open parts of the package, then closes the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-isclosed">IXpsOMPackageWriter::IsClosed</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-isclosed">IXpsOMPackageWriter::IsClosed</a>
 </td>
 <td align="left" width="63%">
-Gets the status of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
+Gets the status of the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">IXpsOMPackageWriter::StartNewDocument</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">IXpsOMPackageWriter::StartNewDocument</a>
 </td>
 <td align="left" width="63%">
 Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
@@ -124,35 +123,27 @@ Opens and initializes a new FixedDocument in the FixedDocumentSequence of the pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-setmodelprintticket">SetModelPrintTicket</a>
+<a href="/windows/desktop/api/xpsobjectmodel_2/nf-xpsobjectmodel_2-ixpsompackagewriter3d-setmodelprintticket">SetModelPrintTicket</a>
 </td>
 <td align="left" width="63%">
 Creates a print ticket with the specified part.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a>
+<a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d">IXpsDocumentPackageTarget3D</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/dn263137(v=win.10)">Supporting 3D printing</a>
- 
-
- 
-
+<a href="/previous-versions/windows/apps/dn263137(v=win.10)">Supporting 3D printing</a>

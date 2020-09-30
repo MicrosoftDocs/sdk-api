@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 62dc9e75-ff40-472f-8acf-ebe40dbac95c
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,GetCount method, IProviderPropertyConstraintCollection.GetCount, IProviderPropertyConstraintCollection::GetCount, functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount, ncd.iproviderpropertyconstraintcollection_getcount
-f1_keywords:
-- functiondiscoveryprovider/IProviderPropertyConstraintCollection.GetCount
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderPropertyConstraintCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderPropertyConstraintCollection::GetCount
+ - functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderPropertyConstraintCollection.GetCount
 ---
 
 # IProviderPropertyConstraintCollection::GetCount
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the number of items in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwCount [out]
 
 The number of items.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -88,18 +81,7 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>

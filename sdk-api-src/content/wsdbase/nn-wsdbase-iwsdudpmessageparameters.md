@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 3af6e0ff-c0b9-47af-b018-37567f614adc
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpMessageParameters, IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,described, ncd.iwsdudpmessageparameters, wsdbase/IWSDUdpMessageParameters
-f1_keywords:
-- wsdbase/IWSDUdpMessageParameters
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDUdpMessageParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDUdpMessageParameters
+ - wsdbase/IWSDUdpMessageParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDUdpMessageParameters
 ---
 
 # IWSDUdpMessageParameters interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to specify how often WSD repeats the message transmission.
 
-To get this interface from a UDP message sent during discovery, call the  <b>QueryInterface</b> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> passing __uuidof(IWSDUdpMessageParameters) as the interface identifier.
+To get this interface from a UDP message sent during discovery, call the  <b>QueryInterface</b> method of <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> passing __uuidof(IWSDUdpMessageParameters) as the interface identifier.
 
-You can also call <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-wsdcreateudpmessageparameters">WSDCreateUdpMessageParameters</a> to retrieve this interface.
-
+You can also call <a href="/windows/desktop/api/wsdbase/nf-wsdbase-wsdcreateudpmessageparameters">WSDCreateUdpMessageParameters</a> to retrieve this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDUdpMessageParameters</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDUdpMessageParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDUdpMessageParameters</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>. <b>IWSDUdpMessageParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>IWSDUdpMessageParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-getretransmitparams">GetRetransmitParams</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-getretransmitparams">GetRetransmitParams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the values that WSD uses to determine how often to repeat the message transmission.
@@ -83,23 +82,15 @@ Retrieves the values that WSD uses to determine how often to repeat the message 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">SetRetransmitParams</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">SetRetransmitParams</a>
 </td>
 <td align="left" width="63%">
 Sets the values that WSD uses to determine how often to repeat the message transmission.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

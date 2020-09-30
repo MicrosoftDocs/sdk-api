@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e0a62251-68ee-4318-b09a-0aac6b73bf54
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], IAMMediaTypeSample interface [DirectShow],described, IAMMediaTypeSampleInterface, amstream/IAMMediaTypeSample, dshow.iammediatypesample
-f1_keywords:
-- amstream/IAMMediaTypeSample
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeSample
+ - amstream/IAMMediaTypeSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeSample
 ---
 
 # IAMMediaTypeSample interface
@@ -49,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-This interface contains methods for manipulating stream samples with arbitrary media types. Call the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypestream-createsample">IAMMediaTypeStream::CreateSample</a> method to create a sample that exposes this interface.
+This interface contains methods for manipulating stream samples with arbitrary media types. Call the <a href="/windows/desktop/api/amstream/nf-amstream-iammediatypestream-createsample">IAMMediaTypeStream::CreateSample</a> method to create a sample that exposes this interface.
 
-The methods in this interface parallel those of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface, although <b>IAMMediaTypeSample</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpointer">SetPointer</a> method in addition to the <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getpointer">GetPointer</a> method.
-
-
-
+The methods in this interface parallel those of the <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface, although <b>IAMMediaTypeSample</b> contains a <a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpointer">SetPointer</a> method in addition to the <a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getpointer">GetPointer</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeSample</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IAMMediaTypeSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaTypeSample</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IAMMediaTypeSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +73,7 @@ The <b>IAMMediaTypeSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getactualdatalength">GetActualDataLength</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getactualdatalength">GetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data length of the sample, in bytes.
@@ -86,7 +82,7 @@ Retrieves the data length of the sample, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getmediatime">GetMediaTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getmediatime">GetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media time stamps for this sample.
@@ -95,7 +91,7 @@ Retrieves the media time stamps for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getmediatype">GetMediaType</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getmediatype">GetMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type of the sample.
@@ -104,7 +100,7 @@ Retrieves the media type of the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getpointer">GetPointer</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getpointer">GetPointer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a read/write pointer to the buffer's memory.
@@ -113,7 +109,7 @@ Retrieves a read/write pointer to the buffer's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getsize">GetSize</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the buffer data area, in bytes.
@@ -122,7 +118,7 @@ Retrieves the size of the buffer data area, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-gettime">GetTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream times at which this sample should start and stop.
@@ -131,7 +127,7 @@ Retrieves the stream times at which this sample should start and stop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-isdiscontinuity">IsDiscontinuity</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-isdiscontinuity">IsDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample represents a discontinuity in the data stream.
@@ -140,7 +136,7 @@ Determines if this sample represents a discontinuity in the data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-ispreroll">IsPreroll</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-ispreroll">IsPreroll</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample is part of the preroll.
@@ -149,7 +145,7 @@ Determines if this sample is part of the preroll.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-issyncpoint">IsSyncPoint</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-issyncpoint">IsSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Determines if the beginning of a sample is a synchronization point.
@@ -158,7 +154,7 @@ Determines if the beginning of a sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setactualdatalength">SetActualDataLength</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setactualdatalength">SetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Sets the sample's data length.
@@ -167,7 +163,7 @@ Sets the sample's data length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setdiscontinuity">SetDiscontinuity</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setdiscontinuity">SetDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Sets the discontinuity property.
@@ -176,7 +172,7 @@ Sets the discontinuity property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setmediatime">SetMediaTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setmediatime">SetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Sets the media time stamps for this sample.
@@ -185,7 +181,7 @@ Sets the media time stamps for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setmediatype">SetMediaType</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setmediatype">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the sample.
@@ -194,7 +190,7 @@ Sets the media type for the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpointer">SetPointer</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpointer">SetPointer</a>
 </td>
 <td align="left" width="63%">
 Sets the pointer to the media sample's memory buffer.
@@ -203,7 +199,7 @@ Sets the pointer to the media sample's memory buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpreroll">SetPreroll</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setpreroll">SetPreroll</a>
 </td>
 <td align="left" width="63%">
 Specifies whether this is a preroll sample.
@@ -212,7 +208,7 @@ Specifies whether this is a preroll sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setsyncpoint">SetSyncPoint</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-setsyncpoint">SetSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the beginning of this sample is a synchronization point.
@@ -221,23 +217,15 @@ Specifies whether the beginning of this sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediatypesample-settime">SetTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-iammediatypesample-settime">SetTime</a>
 </td>
 <td align="left" width="63%">
 Sets the stream times at which this sample should start and stop.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>

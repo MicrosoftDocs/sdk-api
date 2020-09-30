@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
-f1_keywords:
-- taskschd/ITaskFolder
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskFolder
+ - taskschd/ITaskFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskFolder
 ---
 
 # ITaskFolder interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskFolder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskFolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskFolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskFolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>ITaskFolder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder">CreateFolder</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder">CreateFolder</a>
 </td>
 <td align="left" width="63%">
 Creates a folder for related tasks.
@@ -80,7 +79,7 @@ Creates a folder for related tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder">DeleteFolder</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder">DeleteFolder</a>
 </td>
 <td align="left" width="63%">
 Deletes a subfolder from the parent folder.
@@ -89,7 +88,7 @@ Deletes a subfolder from the parent folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask">DeleteTask</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask">DeleteTask</a>
 </td>
 <td align="left" width="63%">
 Deletes a task from the folder.
@@ -98,7 +97,7 @@ Deletes a task from the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder">GetFolder</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets a folder that contains tasks at a specified location.
@@ -107,7 +106,7 @@ Gets a folder that contains tasks at a specified location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">GetFolders</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">GetFolders</a>
 </td>
 <td align="left" width="63%">
 Gets all the subfolders in the folder.
@@ -116,7 +115,7 @@ Gets all the subfolders in the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor">GetSecurityDescriptor</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the security descriptor for the folder.
@@ -125,7 +124,7 @@ Gets the security descriptor for the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask">GetTask</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask">GetTask</a>
 </td>
 <td align="left" width="63%">
 Gets a task at a specified location in a folder.
@@ -134,7 +133,7 @@ Gets a task at a specified location in a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks">GetTasks</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks">GetTasks</a>
 </td>
 <td align="left" width="63%">
 Gets all the tasks in the folder.
@@ -143,7 +142,7 @@ Gets all the tasks in the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">RegisterTask</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">RegisterTask</a>
 </td>
 <td align="left" width="63%">
 Registers (creates) a new task in the folder using XML to define the task.
@@ -152,16 +151,16 @@ Registers (creates) a new task in the folder using XML to define the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">RegisterTaskDefinition</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">RegisterTaskDefinition</a>
 </td>
 <td align="left" width="63%">
-Registers (creates) a task in a specified location using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface to define a task.
+Registers (creates) a task in a specified location using the <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface to define a task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor">SetSecurityDescriptor</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor">SetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor for the folder.
@@ -179,7 +178,7 @@ Sets the security descriptor for the folder.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name">Name</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name">Name</a>
 
 
 </td>
@@ -195,7 +194,7 @@ Gets the name that is used to identify the folder that contains a task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path">Path</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path">Path</a>
 
 
 </td>
@@ -208,16 +207,8 @@ Gets the path to where the folder is stored.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

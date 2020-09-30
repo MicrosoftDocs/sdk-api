@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
 ms.date: 12/05/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaInformation
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaInformation
+ - dskquota/IDiskQuotaUser::GetQuotaInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaInformation
 ---
 
 # IDiskQuotaUser::GetQuotaInformation
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 
-
 ## -parameters
-
-
-
 
 ### -param pbQuotaInfo [out]
 
 A pointer to the 
-[DISKQUOTA_USER_INFORMATION](/windows/win32/api/dskquota/ns-dskquota-diskquota_user_information) structure to receive the quota information.
-
+[DISKQUOTA_USER_INFORMATION](./ns-dskquota-diskquota_user_information.md) structure to receive the quota information.
 
 ### -param cbQuotaInfo [in]
 
 The size of the quota information structure, in bytes.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -158,26 +150,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

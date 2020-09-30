@@ -26,6 +26,7 @@ api_location:
 api_name:
  - GdiplusStartupParams
 f1_keywords:
+ - GdiplusStartupParams
  - gdiplusinit/GdiplusStartupParams
 dev_langs:
  - c++
@@ -56,3 +57,4 @@ Specifies a transparency mask for startup.
 ## -remarks
 
 ## -see-also
+

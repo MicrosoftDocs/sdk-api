@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
 ms.date: 12/05/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
-f1_keywords:
-- shlwapi/PathIsDirectoryEmpty
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-IE-l1-1-0.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- PathIsDirectoryEmpty
-- PathIsDirectoryEmptyA
-- PathIsDirectoryEmptyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathIsDirectoryEmptyW
+ - shlwapi/PathIsDirectoryEmptyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - PathIsDirectoryEmpty
+ - PathIsDirectoryEmptyA
+ - PathIsDirectoryEmptyW
 ---
 
 # PathIsDirectoryEmptyW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a specified path is an empty directory.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -69,21 +65,13 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be tested.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if <i>pszPath</i> is an empty directory. Returns <b>FALSE</b> if <i>pszPath</i> is not a directory, or if it contains at least one file other than "." or "..".
 
-
-
-
 ## -remarks
-
-
 
 "C:\" is considered a directory.
 
@@ -96,11 +84,4 @@ Returns <b>TRUE</b> if <i>pszPath</i> is an empty directory. Returns <b>FALSE</b
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectorya">PathIsDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectorya">PathIsDirectory</a>

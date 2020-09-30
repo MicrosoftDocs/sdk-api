@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
 ms.date: 12/05/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
-f1_keywords:
-- mmc/IResultData
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData
+ - mmc/IResultData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData
 ---
 
 # IResultData interface
 
 
 ## -description
-
 
 The 
 <b>IResultData</b> interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
@@ -59,10 +59,9 @@ The
 The 
 <b>IResultData</b> interface handles virtual (owner data) lists as well. Because of the nature of virtual lists, not all methods apply and some methods have limited functionality. These differences are detailed in the descriptions of individual methods. The primary difference in handling virtual lists it that because the console does not maintain any storage for virtual items, it does not provide item IDs. Instead virtual list items are identified by their list position (index).
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +76,7 @@ The <b>IResultData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteallrsltitems">DeleteAllRsltItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteallrsltitems">DeleteAllRsltItems</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete all items.
@@ -86,7 +85,7 @@ Enables the snap-in to delete all items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteitem">DeleteItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteitem">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item.
@@ -95,7 +94,7 @@ Enables the snap-in to delete a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">FindItemByLParam</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">FindItemByLParam</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to find an item or subitem based on a user-inserted value.
@@ -104,7 +103,7 @@ Enables the snap-in to find an item or subitem based on a user-inserted value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">GetItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to retrieve a single item.
@@ -113,7 +112,7 @@ Enables the snap-in to retrieve a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getnextitem">GetNextItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getnextitem">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Returns the <i>lParam</i> of the first item.
@@ -122,7 +121,7 @@ Returns the <i>lParam</i> of the first item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">GetViewMode</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">GetViewMode</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to retrieve the result view mode.
@@ -131,7 +130,7 @@ Enables the snap-in to retrieve the result view mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">InsertItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">InsertItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to insert a single item.
@@ -140,7 +139,7 @@ Enables the snap-in to insert a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyitemstate">ModifyItemState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyitemstate">ModifyItemState</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to modify the item's state.
@@ -149,7 +148,7 @@ Enables the snap-in to modify the item's state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">ModifyViewStyle</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">ModifyViewStyle</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the result view style.
@@ -158,7 +157,7 @@ Enables the snap-in to set the result view style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setdescbartext">SetDescBarText</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setdescbartext">SetDescBarText</a>
 </td>
 <td align="left" width="63%">
 Sets result view description bar text.
@@ -167,7 +166,7 @@ Sets result view description bar text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">SetItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set a single item.
@@ -176,7 +175,7 @@ Enables the snap-in to set a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">SetItemCount</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">SetItemCount</a>
 </td>
 <td align="left" width="63%">
 Sets the number of items in a virtual list.
@@ -185,7 +184,7 @@ Sets the number of items in a virtual list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setviewmode">SetViewMode</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setviewmode">SetViewMode</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the result view mode.
@@ -194,7 +193,7 @@ Enables the snap-in to set the result view mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">Sort</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">Sort</a>
 </td>
 <td align="left" width="63%">
 Sorts all result items.
@@ -203,12 +202,11 @@ Sorts all result items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-updateitem">UpdateItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-updateitem">UpdateItem</a>
 </td>
 <td align="left" width="63%">
 Redraws an item in the result pane after it has been changed.
 
 </td>
 </tr>
-</table> 
-
+</table>

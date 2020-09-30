@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
-f1_keywords:
-- rtworkq/IRtwqAsyncResult.GetObject
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncResult.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncResult::GetObject
+ - rtworkq/IRtwqAsyncResult::GetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncResult.GetObject
 ---
 
 # IRtwqAsyncResult::GetObject
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppObject [out]
 
 Receives a pointer to the object's <b>IUnknown</b> interface. If no object is associated with the operation, this parameter receives the value <b>NULL</b>. If the value is not <b>NULL</b>, the caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +90,7 @@ There is no object associated with this asynchronous result.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>

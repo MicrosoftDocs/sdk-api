@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Skip method, IEnumNetSharingPublicConnection.Skip, IEnumNetSharingPublicConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
-f1_keywords:
-- netcon/IEnumNetSharingPublicConnection.Skip
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IEnumNetSharingPublicConnection.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetSharingPublicConnection::Skip
+ - netcon/IEnumNetSharingPublicConnection::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IEnumNetSharingPublicConnection.Skip
 ---
 
 # IEnumNetSharingPublicConnection::Skip
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Skip</b> method skips the specified number of publicly-shared connections for this enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Specifies the number of publicly-shared connections to skip.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,26 +161,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingpublicconnection">IEnumNetSharingPublicConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingpublicconnection">IEnumNetSharingPublicConnection</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

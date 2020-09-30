@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: b56edc7a-0764-449a-95b4-da759e99fadd
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], IWMDMStorageControl interface [windows Media Device Manager],described, IWMDMStorageControlInterface, mswmdm/IWMDMStorageControl, wmdm.iwmdmstoragecontrol
-f1_keywords:
-- mswmdm/IWMDMStorageControl
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMStorageControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorageControl
+ - mswmdm/IWMDMStorageControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMStorageControl
 ---
 
 # IWMDMStorageControl interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMDMStorageControl</b> interface is used to insert, delete, or move files within a storage, a device, or between a device and the computer.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorageControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorageControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IWMDMStorageControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete">Delete</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Permanently deletes this storage.
@@ -82,7 +78,7 @@ Permanently deletes this storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>
 </td>
 <td align="left" width="63%">
 Puts content into the storage on the device.
@@ -91,7 +87,7 @@ Puts content into the storage on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move">Move</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves the storage to a new location on the device.
@@ -100,7 +96,7 @@ Moves the storage to a new location on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">Read</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">Read</a>
 </td>
 <td align="left" width="63%">
 Copies the current storage to the computer.
@@ -109,31 +105,23 @@ Copies the current storage to the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-rename">Rename</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-rename">Rename</a>
 </td>
 <td align="left" width="63%">
 Renames the current storage.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3">IWMDMStorageControl3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3">IWMDMStorageControl3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

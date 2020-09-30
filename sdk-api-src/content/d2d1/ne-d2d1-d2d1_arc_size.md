@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c471716d-c2cc-4f79-8011-46690812b848
 ms.date: 12/05/2018
 ms.keywords: D2D1_ARC_SIZE, D2D1_ARC_SIZE enumeration [Direct2D], D2D1_ARC_SIZE_LARGE, D2D1_ARC_SIZE_SMALL, d2d1/D2D1_ARC_SIZE, d2d1/D2D1_ARC_SIZE_LARGE, d2d1/D2D1_ARC_SIZE_SMALL, direct2d.D2D1_ARC_SIZE
-f1_keywords:
-- d2d1/D2D1_ARC_SIZE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_ARC_SIZE
 targetos: Windows
 req.typenames: D2D1_ARC_SIZE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_ARC_SIZE
+ - d2d1/D2D1_ARC_SIZE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_ARC_SIZE
 ---
 
 # D2D1_ARC_SIZE enumeration
@@ -49,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether an arc should be greater than 180 degrees.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_ARC_SIZE_SMALL
 
 An arc's sweep should be 180 degrees or less.
 
-
 ### -field D2D1_ARC_SIZE_LARGE
 
 An arc's sweep should be 180 degrees or greater.
 
-
 ### -field D2D1_ARC_SIZE_FORCE_DWORD
-
-
 

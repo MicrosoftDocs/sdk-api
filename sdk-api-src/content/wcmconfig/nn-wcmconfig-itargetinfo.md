@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
-f1_keywords:
-- wcmconfig/ITargetInfo
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ITargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITargetInfo
+ - wcmconfig/ITargetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ITargetInfo
 ---
 
 # ITargetInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the offline target information,  specifically, file and registry locations as well as wow64 information.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITargetInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITargetInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITargetInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITargetInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITargetInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-expandtarget">ExpandTarget</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-expandtarget">ExpandTarget</a>
 </td>
 <td align="left" width="63%">
 Expands a location string to indicate the offline installation location.
@@ -79,7 +78,7 @@ Expands a location string to indicate the offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-expandtargetpath">ExpandTargetPath</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-expandtargetpath">ExpandTargetPath</a>
 </td>
 <td align="left" width="63%">
 Expands a location string to indicate the offline installation location.
@@ -88,7 +87,7 @@ Expands a location string to indicate the offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getenumerator">GetEnumerator</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getenumerator">GetEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets the enumerator to access the collection of offline properties.
@@ -97,7 +96,7 @@ Gets the enumerator to access the collection of offline properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getproperty">GetProperty</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a property value for the offline installation location.
@@ -106,7 +105,7 @@ Gets a property value for the offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getschemahivelocation">GetSchemaHiveLocation</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getschemahivelocation">GetSchemaHiveLocation</a>
 </td>
 <td align="left" width="63%">
 Get the location of the schema hive.
@@ -115,7 +114,7 @@ Get the location of the schema hive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getschemahivemountname">GetSchemaHiveMountName</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-getschemahivemountname">GetSchemaHiveMountName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the mount location of the schema hive.
@@ -124,7 +123,7 @@ Gets the name of the mount location of the schema hive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetid">GetTargetID</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetid">GetTargetID</a>
 </td>
 <td align="left" width="63%">
 Gets a unique identifier associated with the current target.
@@ -133,7 +132,7 @@ Gets a unique identifier associated with the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetmode">GetTargetMode</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetmode">GetTargetMode</a>
 </td>
 <td align="left" width="63%">
 Gets the current target mode.
@@ -142,7 +141,7 @@ Gets the current target mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetprocessorarchitecture">GetTargetProcessorArchitecture</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettargetprocessorarchitecture">GetTargetProcessorArchitecture</a>
 </td>
 <td align="left" width="63%">
 Gets processor architecture associated with the current target.
@@ -151,7 +150,7 @@ Gets processor architecture associated with the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettemporarystorelocation">GetTemporaryStoreLocation</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-gettemporarystorelocation">GetTemporaryStoreLocation</a>
 </td>
 <td align="left" width="63%">
 Gets the current temporary store location.
@@ -160,7 +159,7 @@ Gets the current temporary store location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-loadmodule">LoadModule</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-loadmodule">LoadModule</a>
 </td>
 <td align="left" width="63%">
 Loads the module from the offline installation location.
@@ -169,7 +168,7 @@ Loads the module from the offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setmodulepath">SetModulePath</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setmodulepath">SetModulePath</a>
 </td>
 <td align="left" width="63%">
 Sets the module path for offline installation location.
@@ -178,7 +177,7 @@ Sets the module path for offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setproperty">SetProperty</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property value for the offline installation location.
@@ -187,7 +186,7 @@ Sets a property value for the offline installation location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setschemahivelocation">SetSchemaHiveLocation</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setschemahivelocation">SetSchemaHiveLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the location of the schema hive.
@@ -196,7 +195,7 @@ Sets the location of the schema hive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setschemahivemountname">SetSchemaHiveMountName</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setschemahivemountname">SetSchemaHiveMountName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the mount location of the schema hive.
@@ -205,7 +204,7 @@ Sets the name of the mount location of the schema hive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetid">SetTargetID</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetid">SetTargetID</a>
 </td>
 <td align="left" width="63%">
 Sets the unique identifier associated with current target.
@@ -214,7 +213,7 @@ Sets the unique identifier associated with current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetmode">SetTargetMode</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetmode">SetTargetMode</a>
 </td>
 <td align="left" width="63%">
 Sets the target mode.
@@ -223,7 +222,7 @@ Sets the target mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetprocessorarchitecture">SetTargetProcessorArchitecture</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settargetprocessorarchitecture">SetTargetProcessorArchitecture</a>
 </td>
 <td align="left" width="63%">
 Sets the processor architecture associated with the current target.
@@ -232,7 +231,7 @@ Sets the processor architecture associated with the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settemporarystorelocation">SetTemporaryStoreLocation</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-settemporarystorelocation">SetTemporaryStoreLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the current temporary store location.
@@ -241,7 +240,7 @@ Sets the current temporary store location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setwow64context">SetWow64Context</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-setwow64context">SetWow64Context</a>
 </td>
 <td align="left" width="63%">
 Sets an opaque context object for wow64 redirection.
@@ -250,12 +249,11 @@ Sets an opaque context object for wow64 redirection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-translatewow64">TranslateWow64</a>
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-itargetinfo-translatewow64">TranslateWow64</a>
 </td>
 <td align="left" width="63%">
 Translates paths for wow64 redirection.
 
 </td>
 </tr>
-</table> 
-
+</table>

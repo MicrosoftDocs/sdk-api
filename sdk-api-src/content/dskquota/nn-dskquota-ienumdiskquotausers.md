@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
-f1_keywords:
-- dskquota/IEnumDiskQuotaUsers
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IEnumDiskQuotaUsers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDiskQuotaUsers
+ - dskquota/IEnumDiskQuotaUsers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IEnumDiskQuotaUsers
 ---
 
 # IEnumDiskQuotaUsers interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates user quota entries on the volume. This interface is instantiated by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers">IDiskQuotaControl::CreateEnumUsers</a> method.
-
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers">IDiskQuotaControl::CreateEnumUsers</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDiskQuotaUsers</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDiskQuotaUsers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDiskQuotaUsers</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDiskQuotaUsers</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IEnumDiskQuotaUsers</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-clone">Clone</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -80,7 +79,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">Next</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>cUsers</i> items in the enumeration sequence.
@@ -89,7 +88,7 @@ Retrieves the next <i>cUsers</i> items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-reset">Reset</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -98,27 +97,19 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-skip">Skip</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>

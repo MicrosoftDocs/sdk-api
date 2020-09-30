@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e76642b1-4af1-46f4-92c0-f10ff57dd808
 ms.date: 12/05/2018
 ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDIR, WNDN_MVDIR, WNDN_RMDIR, _mnp_npdirectorynotify, npapi/NPDirectoryNotify, security.npdirectorynotify
-f1_keywords:
-- npapi/NPDirectoryNotify
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPDirectoryNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPDirectoryNotify
+ - npapi/NPDirectoryNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPDirectoryNotify
 ---
 
 # NPDirectoryNotify function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
  Notifies the network provider of certain directory operations. The <b>NPDirectoryNotify</b> function is used by File Manager. This function can be used to perform special operations on certain directories.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to a window that should own any messages or dialog boxes in the event the network provider needs to interact with the user.
 
-
 ### -param lpDir [in]
 
 Pointer to the fully qualified name of the directory.
-
 
 ### -param dwOper [in]
 
@@ -112,12 +106,8 @@ File Manager is about to rename the directory.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function should return WN_SUCCESS if it is successful. This indicates to the caller that it should continue and perform the operation. Otherwise, it should return the appropriate code, which may include:
 
@@ -160,7 +150,4 @@ The network does not have special directory handling. This is treated as WN_SUCC
 </td>
 </tr>
 </table>
- 
-
-
 

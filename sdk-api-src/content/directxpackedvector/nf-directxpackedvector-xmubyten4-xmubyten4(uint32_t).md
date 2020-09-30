@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(uint32_t), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(uint32_t), dxmath.xmubyten4_ctor_6
-f1_keywords:
-- directxpackedvector/XMUBYTEN4.XMUBYTEN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTEN4.XMUBYTEN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTEN4::XMUBYTEN4
+ - directxpackedvector/XMUBYTEN4::XMUBYTEN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTEN4.XMUBYTEN4
 ---
 
 # XMUBYTEN4::XMUBYTEN4(uint32_t)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMUBYTEN4</code> from a <code>uint32_t</code>variable containing component data in a packed format.
     
@@ -60,18 +60,11 @@ This constructor initializes a new instance of <a href="https://msdn.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
 The values of four vector components of the new instance, in a packed format.
-      
-
 
 ## -remarks
-
-
 
 The values defining the three components of the new instance of <code>XMUBYTEN4</code> are
 	    not normalized, and are stored in the argument <code>Packed</code> in the following
@@ -105,23 +98,14 @@ The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as an unsigned
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>

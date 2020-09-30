@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 6766931E-B2D4-4166-9B6E-E6D8F57E57B3
 ms.date: 12/05/2018
 ms.keywords: CF_SET_PIN_FLAGS, CF_SET_PIN_FLAGS enumeration, CF_SET_PIN_FLAG_NONE, CF_SET_PIN_FLAG_RECURSE, CF_SET_PIN_FLAG_RECURSE_ONLY, CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cfapi/CF_SET_PIN_FLAGS, cfapi/CF_SET_PIN_FLAG_NONE, cfapi/CF_SET_PIN_FLAG_RECURSE, cfapi/CF_SET_PIN_FLAG_RECURSE_ONLY, cfapi/CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cloudApi.cf_set_pin_flags
-f1_keywords:
-- cfapi/CF_SET_PIN_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_SET_PIN_FLAGS
 targetos: Windows
 req.typenames: CF_SET_PIN_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_SET_PIN_FLAGS
+ - cfapi/CF_SET_PIN_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_SET_PIN_FLAGS
 ---
 
 # CF_SET_PIN_FLAGS enumeration
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The placeholder pin flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_SET_PIN_FLAG_NONE
 
 No pin flag.
 
-
 ### -field CF_SET_PIN_FLAG_RECURSE
 
 The platform applies the pin state to the placeholder <i>FileHandle</i> and every file recursively beneath it (relevant only if <i>FileHandle</i> is a handle to a directory).
 
-
 ### -field CF_SET_PIN_FLAG_RECURSE_ONLY
 
 The platform applies the pin state to every file recursively beneath the placeholder <i>FileHandle</i>, but not to <i>FileHandle</i> itself.
-
 
 ### -field CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 42bc1ddc-9f11-40dc-849c-2effc6efe1c8
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDescription method, ITfCategoryMgr.UnregisterGUIDDescription, ITfCategoryMgr::UnregisterGUIDDescription, UnregisterGUIDDescription, UnregisterGUIDDescription method [Text Services Framework], UnregisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddescription_ref, msctf/ITfCategoryMgr::UnregisterGUIDDescription, tsf.itfcategorymgr_unregisterguiddescription
-f1_keywords:
-- msctf/ITfCategoryMgr.UnregisterGUIDDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.UnregisterGUIDDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::UnregisterGUIDDescription
+ - msctf/ITfCategoryMgr::UnregisterGUIDDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.UnregisterGUIDDescription
 ---
 
 # ITfCategoryMgr::UnregisterGUIDDescription
+
 
 ## -description
 
@@ -96,3 +98,4 @@ The GUID cannot be found.
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUIDDescription](nf-msctf-itfcategorymgr-getguiddescription.md), [ITfCategoryMgr::RegisterGUIDDescription](nf-msctf-itfcategorymgr-registerguiddescription.md)
+

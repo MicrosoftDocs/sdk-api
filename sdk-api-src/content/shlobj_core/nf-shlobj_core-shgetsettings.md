@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 728a4004-f35d-4592-baf1-456a613a3344
 ms.date: 12/05/2018
 ms.keywords: SHGetSettings, SHGetSettings function [Windows Shell], SSF_DESKTOPHTML, SSF_DONTPRETTYPATH, SSF_DOUBLECLICKINWEBVIEW, SSF_HIDEICONS, SSF_MAPNETDRVBUTTON, SSF_NOCONFIRMRECYCLE, SSF_SHOWALLOBJECTS, SSF_SHOWATTRIBCOL, SSF_SHOWCOMPCOLOR, SSF_SHOWEXTENSIONS, SSF_SHOWINFOTIP, SSF_SHOWSYSFILES, SSF_WIN95CLASSIC, _win32_SHGetSettings, shell.SHGetSettings, shlobj_core/SHGetSettings
-f1_keywords:
-- shlobj_core/SHGetSettings
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHGetSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetSettings
+ - shlobj_core/SHGetSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHGetSettings
 ---
 
 # SHGetSettings function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current Shell option settings.
 
-
 ## -parameters
-
-
-
 
 ### -param psfs
 
 Type: <b>LPSHELLFLAGSTATE</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate">SHELLFLAGSTATE</a> structure that receives the Shell option settings.
-
+The address of a <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate">SHELLFLAGSTATE</a> structure that receives the Shell option settings.
 
 ### -param dwMask
 
@@ -164,14 +159,6 @@ The
 The 
 						<b>fWin95Classic</b> member is being requested.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a>

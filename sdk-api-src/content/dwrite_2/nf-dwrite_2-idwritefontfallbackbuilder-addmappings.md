@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 8CC8BFD3-4177-4CA0-A74C-43CCDEAA7D74
 ms.date: 12/05/2018
 ms.keywords: AddMappings, AddMappings method [Direct Write], AddMappings method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],AddMappings method, IDWriteFontFallbackBuilder.AddMappings, IDWriteFontFallbackBuilder::AddMappings, directwrite.idwritefontfallbackbuilder_addmappings, dwrite_2/IDWriteFontFallbackBuilder::AddMappings
-f1_keywords:
-- dwrite_2/IDWriteFontFallbackBuilder.AddMappings
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFallbackBuilder.AddMappings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFallbackBuilder::AddMappings
+ - dwrite_2/IDWriteFontFallbackBuilder::AddMappings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFallbackBuilder.AddMappings
 ---
 
 # IDWriteFontFallbackBuilder::AddMappings
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Add all the mappings from an existing font fallback object.
 
-
 ## -parameters
-
-
-
 
 ### -param fontFallback
 
@@ -64,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback">I
 
 An existing font fallback object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>
- 
-
- 
 

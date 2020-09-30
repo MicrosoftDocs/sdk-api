@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: A9BB3242-5CDA-49A9-8A7B-5A9A3E31B724
 ms.date: 12/05/2018
 ms.keywords: IAppxFilesEnumerator, IAppxFilesEnumerator interface [App packaging and management], IAppxFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxFilesEnumerator, appxpkg.iappxfilesenumerator
-f1_keywords:
-- appxpackaging/IAppxFilesEnumerator
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFilesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFilesEnumerator
+ - appxpackaging/IAppxFilesEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFilesEnumerator
 ---
 
 # IAppxFilesEnumerator interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the payload files in a package.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFilesEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFilesEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxFilesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxFilesEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAppxFilesEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-getcurrent">GetCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the payload file at the current position of the enumerator.
@@ -79,7 +78,7 @@ Gets the payload file at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-gethascurrent">GetHasCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is a payload file at the current position of the enumerator.
@@ -88,32 +87,19 @@ Determines whether there is a payload file at the current position of the enumer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-movenext">MoveNext</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfilesenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Advances the position of the enumerator to the next payload file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-To get the footprint files, use the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getfootprintfile">IAppxPackageReader::GetFootprintFile</a> method.
-
-
-
+To get the footprint files, use the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getfootprintfile">IAppxPackageReader::GetFootprintFile</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>

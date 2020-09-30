@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IOleItemContainer interface [COM],described, _com_ioleitemcontainer, com.ioleitemcontainer, oleidl/IOleItemContainer
-f1_keywords:
-- oleidl/IOleItemContainer
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleItemContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleItemContainer
+ - oleidl/IOleItemContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleItemContainer
 ---
 
 # IOleItemContainer interface
 
 
 ## -description
-
 
 Used by item monikers when they are bound to the objects they identify. 
 
@@ -58,7 +58,6 @@ When any container of objects uses item monikers to identify its objects, it mus
 
 
 This interface is not supported for use across machine boundaries.
-
 
 ## -inheritance
 
@@ -77,7 +76,7 @@ The <b>IOleItemContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the specified object.
@@ -86,7 +85,7 @@ Retrieves a pointer to the specified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobjectstorage">GetObjectStorage</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobjectstorage">GetObjectStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the storage for the specified object.
@@ -95,27 +94,19 @@ Retrieves a pointer to the storage for the specified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IsRunning</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-isrunning">IsRunning</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified object is running.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createitemmoniker">CreateItemMoniker</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>

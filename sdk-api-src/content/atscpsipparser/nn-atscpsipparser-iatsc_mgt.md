@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 2d6cc17f-7288-468c-a028-31e6e284d8ca
 ms.date: 12/05/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
-f1_keywords:
-- atscpsipparser/IATSC_MGT
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_MGT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_MGT
+ - atscpsipparser/IATSC_MGT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_MGT
 ---
 
 # IATSC_MGT interface
@@ -49,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IATSC_MGT</b> interface enables the client to get data from a master guide table (MGT). The MGT describes the program guide information and service information that is delivered in a transport stream, including the table types, the packet identifiers, and the version numbers. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getmgt">IAtscPsipParser::GetMGT</a> method returns a pointer to this interface.
+The <b>IATSC_MGT</b> interface enables the client to get data from a master guide table (MGT). The MGT describes the program guide information and service information that is delivered in a transport stream, including the table types, the packet identifiers, and the version numbers. The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getmgt">IAtscPsipParser::GetMGT</a> method returns a pointer to this interface.
 
 The MGT may contain one or more table-wide descriptors. In addition, each record in the MGT may have one or more descriptors. To get the table-wide descriptors, use the <b>GetTableDescriptorByIndex</b> method or the <b>GetTableDescriptorByTag</b> method. To get the record descriptors, use the <b>GetRecordDescriptorByIndex</b> method or the <b>GetRecordDescriptorByTag</b> method.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_MGT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_MGT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_MGT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_MGT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +74,7 @@ The <b>IATSC_MGT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the MGT.
@@ -87,7 +83,7 @@ Returns the number of records in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of table-wide descriptors in the MGT.
@@ -96,7 +92,7 @@ Returns the number of table-wide descriptors in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getprotocolversion">GetProtocolVersion</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getprotocolversion">GetProtocolVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the protocol version of the table.
@@ -105,7 +101,7 @@ Returns the protocol version of the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the MGT.
@@ -114,7 +110,7 @@ Returns the number of descriptors for a record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms784533(v=vs.85)">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/ms784533(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record in the MGT.
@@ -123,7 +119,7 @@ Returns a descriptor for a specified record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the MGT for a descriptor with a specified descriptor tag.
@@ -132,7 +128,7 @@ Searches a record in the MGT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordtype">GetRecordType</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordtype">GetRecordType</a>
 </td>
 <td align="left" width="63%">
 Returns the table type for a record in the MGT.
@@ -141,7 +137,7 @@ Returns the table type for a record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/pid">GetRecordTypePid</a>
+<a href="/previous-versions/windows/desktop/mstv/pid">GetRecordTypePid</a>
 </td>
 <td align="left" width="63%">
 Returns the packet identifier (PID) for the table type described by a record in the MGT.
@@ -150,7 +146,7 @@ Returns the packet identifier (PID) for the table type described by a record in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordversionnumber">GetRecordVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getrecordversionnumber">GetRecordVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the table type described by a record in the MGT.
@@ -159,7 +155,7 @@ Returns the version number for the table type described by a record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389467(v=vs.85)">GetTableDescriptorByIndex</a>
+<a href="/previous-versions/dd389467(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a table-wide descriptor for the MGT.
@@ -168,7 +164,7 @@ Returns a table-wide descriptor for the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the MGT for a table-wide descriptor with the specified descriptor tag.
@@ -177,7 +173,7 @@ Searches the MGT for a table-wide descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getversionnumber">GetVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the MGT.
@@ -186,23 +182,15 @@ Returns the version number for the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_mgt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

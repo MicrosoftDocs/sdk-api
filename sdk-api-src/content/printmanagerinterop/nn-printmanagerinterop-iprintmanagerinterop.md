@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 1786fda1-37e4-4ec5-94de-a1fc5b6732a2
 ms.date: 12/05/2018
 ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], IPrintManagerInterop interface [Windows Runtime],described, printmanagerinterop/IPrintManagerInterop, winrt.iprintmanagerinterop
-f1_keywords:
-- printmanagerinterop/IPrintManagerInterop
-dev_langs:
-- c++
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- printmanagerinterop.h
-api_name:
-- IPrintManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintManagerInterop
+ - printmanagerinterop/IPrintManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - printmanagerinterop.h
+api_name:
+ - IPrintManagerInterop
 ---
 
 # IPrintManagerInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables access to <a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> methods in a Windows Store app that manages multiple windows.
-
+Enables access to <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> methods in a Windows Store app that manages multiple windows.
 
 ## -inheritance
 
@@ -70,32 +69,24 @@ The <b>IPrintManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow">GetForWindow</a>
+<a href="/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
+Gets the <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync">ShowPrintUIForWindowAsync</a>
+<a href="/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync">ShowPrintUIForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for printing content for the specified window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
- 
-
- 
-
+<a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>

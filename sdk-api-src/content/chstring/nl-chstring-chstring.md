@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.date: 12/05/2018
 ms.keywords: ??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring
-f1_keywords:
-- chstring/CHString
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString
-- ??1CHString@@QAE@XZ
-- ??1CHString@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString
+ - chstring/CHString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString
+ - ??1CHString@@QAE@XZ
+ - ??1CHString@@QEAA@XZ
 ---
 
 # CHString class
@@ -52,11 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>CHString</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The following table lists the <b>CHString</b> methods.
@@ -74,7 +74,7 @@ The following table lists the <b>CHString</b> methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString</a>
 </td>
 <td align="left" width="63%">
 Constructs <b>CHString</b> strings in various ways.
@@ -90,7 +90,7 @@ Constructs <b>CHString</b> strings in various ways.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-allocsysstring">AllocSysString</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-allocsysstring">AllocSysString</a>
 </td>
 <td align="left" width="63%">
 Allocates a BSTR from <b>CHString</b> data.
@@ -99,7 +99,7 @@ Allocates a BSTR from <b>CHString</b> data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-collate">Collate</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-collate">Collate</a>
 </td>
 <td align="left" width="63%">
 Compares two strings (case sensitive; uses locale-specific information).
@@ -108,7 +108,7 @@ Compares two strings (case sensitive; uses locale-specific information).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-compare">Compare</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two strings (case sensitive).
@@ -117,7 +117,7 @@ Compares two strings (case sensitive).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-comparenocase">CompareNoCase</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-comparenocase">CompareNoCase</a>
 </td>
 <td align="left" width="63%">
 Compares two strings (case insensitive).
@@ -126,7 +126,7 @@ Compares two strings (case insensitive).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-empty">Empty</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-empty">Empty</a>
 </td>
 <td align="left" width="63%">
 Forces a string to have 0 (zero) length.
@@ -135,7 +135,7 @@ Forces a string to have 0 (zero) length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a>
 </td>
 <td align="left" width="63%">Overloaded. Finds a character or substring inside a larger string.
 
@@ -143,7 +143,7 @@ Forces a string to have 0 (zero) length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">FindOneOf</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">FindOneOf</a>
 </td>
 <td align="left" width="63%">
 Finds the first matching character from a set.
@@ -152,7 +152,7 @@ Finds the first matching character from a set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">Format</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">Format</a>
 </td>
 <td align="left" width="63%">Overloaded. Formats the string as <b>sprintf</b> does.
 
@@ -160,7 +160,7 @@ Finds the first matching character from a set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-formatmessagew(uint_---)">FormatMessageW</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-formatmessagew(uint_---)">FormatMessageW</a>
 </td>
 <td align="left" width="63%">Overloaded. Formats a message string.
 
@@ -168,7 +168,7 @@ Finds the first matching character from a set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-formatv">FormatV</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-formatv">FormatV</a>
 </td>
 <td align="left" width="63%">
 Formats the string as <b>vsprintf</b> does.
@@ -177,7 +177,7 @@ Formats the string as <b>vsprintf</b> does.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-freeextra">FreeExtra</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-freeextra">FreeExtra</a>
 </td>
 <td align="left" width="63%">
 Removes any overhead of this string by freeing any extra memory previously allocated to the string.
@@ -186,7 +186,7 @@ Removes any overhead of this string by freeing any extra memory previously alloc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getalloclength">GetAllocLength</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getalloclength">GetAllocLength</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the string buffer.
@@ -195,7 +195,7 @@ Returns the size of the string buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">GetAt</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">GetAt</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns the character at a given position.
 
@@ -203,7 +203,7 @@ Returns the size of the string buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">GetBuffer</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the characters in the <b>CHString</b> string.
@@ -212,7 +212,7 @@ Returns a pointer to the characters in the <b>CHString</b> string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffersetlength">GetBufferSetLength</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffersetlength">GetBufferSetLength</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the characters in the <b>CHString</b> string, truncating to the specified length.
@@ -221,7 +221,7 @@ Returns a pointer to the characters in the <b>CHString</b> string, truncating to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getdata">GetData</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the data in the <b>CHString</b> string.
@@ -230,7 +230,7 @@ Returns a pointer to the data in the <b>CHString</b> string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Returns the number of Unicode characters in a <b>CHString</b> string.
@@ -239,7 +239,7 @@ Returns the number of Unicode characters in a <b>CHString</b> string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-isempty">IsEmpty</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-isempty">IsEmpty</a>
 </td>
 <td align="left" width="63%">
 Tests whether a <b>CHString</b> string contains no characters.
@@ -248,7 +248,7 @@ Tests whether a <b>CHString</b> string contains no characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">Left</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-left">Left</a>
 </td>
 <td align="left" width="63%">
 Extracts the left part of a string (like the Basic <b>LEFT$</b> function).
@@ -257,7 +257,7 @@ Extracts the left part of a string (like the Basic <b>LEFT$</b> function).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-loadstringw(uint)">LoadStringW</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-loadstringw(uint)">LoadStringW</a>
 </td>
 <td align="left" width="63%">
 Loads an existing <b>CHString</b> string from a resource file.
@@ -266,7 +266,7 @@ Loads an existing <b>CHString</b> string from a resource file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-lockbuffer">LockBuffer</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-lockbuffer">LockBuffer</a>
 </td>
 <td align="left" width="63%">
 Disables reference counting and protects the string in the buffer.
@@ -275,7 +275,7 @@ Disables reference counting and protects the string in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-makelower">MakeLower</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-makelower">MakeLower</a>
 </td>
 <td align="left" width="63%">
 Converts all of the characters in this string to lowercase characters.
@@ -284,7 +284,7 @@ Converts all of the characters in this string to lowercase characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-makereverse">MakeReverse</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-makereverse">MakeReverse</a>
 </td>
 <td align="left" width="63%">
 Reverses the characters in this string.
@@ -293,7 +293,7 @@ Reverses the characters in this string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-makeupper">MakeUpper</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-makeupper">MakeUpper</a>
 </td>
 <td align="left" width="63%">
 Converts all of the characters in this string to uppercase characters.
@@ -302,7 +302,7 @@ Converts all of the characters in this string to uppercase characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a>
 </td>
 <td align="left" width="63%">Overloaded. Extracts the middle part of a string (like the Basic <b>MID$</b> function).
 
@@ -310,16 +310,16 @@ Converts all of the characters in this string to uppercase characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-Releases control of the buffer returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">GetBuffer</a>.
+Releases control of the buffer returned by <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">GetBuffer</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">ReverseFind</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">ReverseFind</a>
 </td>
 <td align="left" width="63%">
 Finds a character inside a larger string; starts from the end.
@@ -328,7 +328,7 @@ Finds a character inside a larger string; starts from the end.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">Right</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">Right</a>
 </td>
 <td align="left" width="63%">
 Extracts the right part of a string (like the Basic <b>RIGHT$</b> function).
@@ -337,7 +337,7 @@ Extracts the right part of a string (like the Basic <b>RIGHT$</b> function).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-setat">SetAt</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-setat">SetAt</a>
 </td>
 <td align="left" width="63%">
 Sets a character at a given position.
@@ -346,7 +346,7 @@ Sets a character at a given position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-spanexcluding">SpanExcluding</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanexcluding">SpanExcluding</a>
 </td>
 <td align="left" width="63%">
 Extracts a substring that contains only the characters that are not in the set.
@@ -355,7 +355,7 @@ Extracts a substring that contains only the characters that are not in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-spanincluding">SpanIncluding</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanincluding">SpanIncluding</a>
 </td>
 <td align="left" width="63%">
 Extracts a substring that contains only the characters in a set.
@@ -364,7 +364,7 @@ Extracts a substring that contains only the characters in a set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-trimleft">TrimLeft</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-trimleft">TrimLeft</a>
 </td>
 <td align="left" width="63%">
 Trims leading whitespace characters from the string.
@@ -373,7 +373,7 @@ Trims leading whitespace characters from the string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-trimright">TrimRight</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-trimright">TrimRight</a>
 </td>
 <td align="left" width="63%">
 Trims trailing whitespace characters from the string.
@@ -382,7 +382,7 @@ Trims trailing whitespace characters from the string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a>
 </td>
 <td align="left" width="63%">
 Enables reference counting and releases the string in the buffer.
@@ -398,7 +398,7 @@ Enables reference counting and releases the string in the buffer.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385704(v=vs.85)">operator != (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385704(v=vs.85)">operator != (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b> for inequality.
@@ -407,7 +407,7 @@ Compares two <b>CHStrings</b> for inequality.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385763(v=vs.85)">operator != (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385763(v=vs.85)">operator != (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b> for inequality.
@@ -416,16 +416,16 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b> for inequality.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">operator []</a>
+<a href="/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">operator []</a>
 </td>
 <td align="left" width="63%">
-Returns the character at a given position — operator substitution for <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">GetAt</a>.
+Returns the character at a given position — operator substitution for <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">GetAt</a>.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring--operator-plus">operator +</a>
+<a href="/windows/desktop/WmiSdk/chstring--operator-plus">operator +</a>
 </td>
 <td align="left" width="63%">
 Concatenates two strings and returns a new string.
@@ -434,7 +434,7 @@ Concatenates two strings and returns a new string.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring--operator-plus-equal">operator +=</a>
+<a href="/windows/desktop/WmiSdk/chstring--operator-plus-equal">operator +=</a>
 </td>
 <td align="left" width="63%">
 Concatenates a new string to the end of an existing string.
@@ -479,7 +479,7 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring--operator-equal">operator =</a>
+<a href="/windows/desktop/WmiSdk/chstring--operator-equal">operator =</a>
 </td>
 <td align="left" width="63%">
 Assigns a new value to a <b>CHString</b> string.
@@ -488,7 +488,7 @@ Assigns a new value to a <b>CHString</b> string.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385641(v=vs.85)">operator == (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385641(v=vs.85)">operator == (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b> for equality.
@@ -497,7 +497,7 @@ Compares two <b>CHStrings</b> for equality.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385645(v=vs.85)">operator == (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385645(v=vs.85)">operator == (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b> for equality.
@@ -506,7 +506,7 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b> for equality.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385665(v=vs.85)">operator > (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385665(v=vs.85)">operator > (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b>.
@@ -515,7 +515,7 @@ Compares two <b>CHStrings</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385672(v=vs.85)">operator > (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385672(v=vs.85)">operator > (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
@@ -524,7 +524,7 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385652(v=vs.85)">operator >= (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385652(v=vs.85)">operator >= (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b>.
@@ -533,7 +533,7 @@ Compares two <b>CHStrings</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385661(v=vs.85)">operator >= (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385661(v=vs.85)">operator >= (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
@@ -542,21 +542,15 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr">operator LPCWSTR</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-operatorlpcwstr">operator LPCWSTR</a>
 </td>
 <td align="left" width="63%">
 Directly accesses characters stored in a <b>CHString</b> string as a C-style string.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for the class is <b>CHString::~CHString</b>.
-
-
-

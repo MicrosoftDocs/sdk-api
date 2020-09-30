@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT2.operator = (const XMUINT2)
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMUINT2.operator =, Use DirectX::::XMUINT2::operator =, XMUINT2 structure [DirectX Math Support APIs],operator = method, XMUINT2.operator =, XMUINT2.operator-assign, XMUINT2.operator=, XMUINT2::operator-assign, XMUINT2::operator=, dxmath.xmuint2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUINT2 structure, operator=
-f1_keywords:
-- directxmath/XMUINT2.operator =
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMUINT2.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMUINT2::operator=
+ - directxmath/XMUINT2::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMUINT2.operator =
 ---
 
 # XMUINT2::operator-assign
+
 
 ## -description
 
@@ -68,3 +70,4 @@ The current instance of <code>XMUINT2</code> whose vector component data has bee
 <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>
 
 <a href="https://msdn.microsoft.com/2d3596f0-9c01-4b81-b1b1-95c43f0749e1">XMUINT2 Operators</a>
+

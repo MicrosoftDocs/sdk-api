@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0138416a-70d6-4a64-957b-8b0eb031b589
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbContentIdentifierDescriptor.GetLength, IDvbContentIdentifierDescriptor::GetLength, dvbsiparser/IDvbContentIdentifierDescriptor::GetLength, mstv.idvbcontentidentifierdescriptor_getlength
-f1_keywords:
-- dvbsiparser/IDvbContentIdentifierDescriptor.GetLength
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbContentIdentifierDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbContentIdentifierDescriptor::GetLength
+ - dvbsiparser/IDvbContentIdentifierDescriptor::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbContentIdentifierDescriptor.GetLength
 ---
 
 # IDvbContentIdentifierDescriptor::GetLength
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the body length of a Digital Video Broadcast (DVB)  content identifier descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Gets the descriptor body length.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentidentifierdescriptor">IDvbContentIdentifierDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentidentifierdescriptor">IDvbContentIdentifierDescriptor</a>

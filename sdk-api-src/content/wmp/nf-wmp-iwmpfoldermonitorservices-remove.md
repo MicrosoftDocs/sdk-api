@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 4f075c31-dd09-4d35-88fa-b93a373ad2d0
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],remove method, IWMPFolderMonitorServices.remove, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
-f1_keywords:
-- wmp/IWMPFolderMonitorServices.remove
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPFolderMonitorServices.remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPFolderMonitorServices::remove
+ - wmp/IWMPFolderMonitorServices::remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPFolderMonitorServices.remove
 ---
 
 # IWMPFolderMonitorServices::remove
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-This method and all other methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>remove</b> method removes a folder from the list of monitored folders.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lIndex [in]
 
 A <b>long</b> specifying the index of the folder to remove from the list.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,31 +81,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices">IWMPFolderMonitorServices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add">IWMPFolderMonitorServices::add</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add">IWMPFolderMonitorServices::add</a>

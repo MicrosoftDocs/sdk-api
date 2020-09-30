@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
 ms.date: 12/05/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
-f1_keywords:
-- ws2spi/NSPRemoveServiceClass
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPRemoveServiceClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPREMOVESERVICECLASS
+ - ws2spi/LPNSPREMOVESERVICECLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPRemoveServiceClass
 ---
 
 # LPNSPREMOVESERVICECLASS callback function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPRemoveServiceClass** function permanently removes a specified service class from the namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the specific namespace provider that this service class schema is to be removed from.
 
-
 ### -param lpServiceClassId [in]
 
 A pointer to the GUID for the service class to remove.
 
-
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -150,18 +142,8 @@ The specified class was not found in any of the namespaces.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

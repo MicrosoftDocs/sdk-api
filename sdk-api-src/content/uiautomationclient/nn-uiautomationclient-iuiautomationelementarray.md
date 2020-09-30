@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7ecf585c-ff3b-4f89-8a7d-e2de66650ab4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElementArray, IUIAutomationElementArray interface [Windows Accessibility], IUIAutomationElementArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElementArray, uiauto_IUIAutomationElementArray, uiautomationclient/IUIAutomationElementArray, winauto.uiauto_IUIAutomationElementArray
-f1_keywords:
-- uiautomationclient/IUIAutomationElementArray
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationElementArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElementArray
+ - uiautomationclient/IUIAutomationElementArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationElementArray
 ---
 
 # IUIAutomationElementArray interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a collection of UI Automation elements.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElementArray</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationElementArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElementArray</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationElementArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUIAutomationElementArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelementarray-getelement">GetElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelementarray-getelement">GetElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element from the collection.
@@ -89,7 +88,7 @@ Retrieves a UI Automation element from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelementarray-get_length">Length</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelementarray-get_length">Length</a>
 
 
 </td>
@@ -102,16 +101,8 @@ Retrieves the number of elements in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

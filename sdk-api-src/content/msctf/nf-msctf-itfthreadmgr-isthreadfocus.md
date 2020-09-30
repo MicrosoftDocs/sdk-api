@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: fa753a4d-4f78-45e0-b711-c294adbb307a
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr.IsThreadFocus, ITfThreadMgr::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_isthreadfocus_ref, msctf/ITfThreadMgr::IsThreadFocus, tsf.itfthreadmgr_isthreadfocus
-f1_keywords:
-- msctf/ITfThreadMgr.IsThreadFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.IsThreadFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::IsThreadFocus
+ - msctf/ITfThreadMgr::IsThreadFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.IsThreadFocus
 ---
 
 # ITfThreadMgr::IsThreadFocus
@@ -53,17 +54,11 @@ Determines if the calling thread has the TSF input focus.
 
 ## -parameters
 
-
-
-
 ### -param pfThreadFocus [out]
 
 Pointer to a BOOL that receives a value that indicates if the calling thread has input focus. This parameter receives a nonzero value if the calling thread has the focus or zero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

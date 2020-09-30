@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 4067778d-d10f-4b53-9419-f438b7197f44
 ms.date: 12/05/2018
 ms.keywords: GetMatrix, GetMatrix method [XPS Documents and Packaging], GetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],GetMatrix method, IXpsOMMatrixTransform.GetMatrix, IXpsOMMatrixTransform::GetMatrix, xps.ixpsommatrixtransform_getmatrix, xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
-f1_keywords:
-- xpsobjectmodel/IXpsOMMatrixTransform.GetMatrix
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMMatrixTransform.GetMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMMatrixTransform::GetMatrix
+ - xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMMatrixTransform.GetMatrix
 ---
 
 # IXpsOMMatrixTransform::GetMatrix
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
 
-
 ## -parameters
-
-
-
 
 ### -param matrix [out, retval]
 
 The address of a variable that receives the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -97,17 +90,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform">IXpsOMMatrixTransform</a>
 
 
 
@@ -115,12 +101,8 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
- 
-
- 
-

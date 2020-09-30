@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 19621abc-34df-4c16-8cb7-f0d9d7fb7e06
 ms.date: 12/05/2018
 ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceServiceCapabilities.GetSupportedEvents, IPortableDeviceServiceCapabilities::GetSupportedEvents, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedEvents, wpdsdk.iportabledeviceservicecapabilities_getsupportedevents
-f1_keywords:
-- portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedEvents
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceServiceCapabilities.GetSupportedEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceServiceCapabilities::GetSupportedEvents
+ - portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceServiceCapabilities.GetSupportedEvents
 ---
 
 # IPortableDeviceServiceCapabilities::GetSupportedEvents
@@ -49,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSupportedEvents</b> method retrieves the events supported by the service.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEvents [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of events.
-
+The <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of events.
 
 ## -returns
 
-
-
-If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value indicates that the call failed. 
-          
-
-
-
+If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value indicates that the call failed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>

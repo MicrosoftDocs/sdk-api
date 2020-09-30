@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 3ebe588d-19ab-4df2-be01-4abd0a62a2f8
 ms.date: 12/05/2018
 ms.keywords: CachedKeyboardShortcut property [Windows Accessibility], CachedKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, get_CachedKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut
-f1_keywords:
-- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut
-- IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
+ - uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut
+ - IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached Microsoft Active Accessibility keyboard shortcut property for the element.
 
 This property is read-only.
-
 
 ## -parameters
 

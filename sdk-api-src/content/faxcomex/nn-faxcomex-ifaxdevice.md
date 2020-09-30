@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nad_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice, IFaxDevice interface [Fax Service], IFaxDevice interface [Fax Service],described, _mfax_faxdevice_cpp, fax._mfax_faxdevice_cpp, faxcomex/IFaxDevice
-f1_keywords:
-- faxcomex/IFaxDevice
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDevice
+ - faxcomex/IFaxDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDevice
 ---
 
 # IFaxDevice interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDevice</b> interface defines a configuration object used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device. The object also includes methods to retrieve and set extension configuration properties stored at the device level. The object defined by the <b>IFaxDevice</b> interface represents a single device associated with a fax server.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevice</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevice</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,55 +70,55 @@ The <b>IFaxDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-answercall-vb">AnswerCall</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-answercall-vb">AnswerCall</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-answercall-vb">IFaxDevice::AnswerCall</a> method causes the fax device to answer an incoming call.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-answercall-vb">IFaxDevice::AnswerCall</a> method causes the fax device to answer an incoming call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-getextensionproperty-vb">GetExtensionProperty</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-getextensionproperty-vb">GetExtensionProperty</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-getextensionproperty-vb">IFaxDevice::get_GetExtensionProperty</a> method retrieves an extension configuration property stored at the device level.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-getextensionproperty-vb">IFaxDevice::get_GetExtensionProperty</a> method retrieves an extension configuration property stored at the device level.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">Refresh</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">IFaxDevice::Refresh</a> method refreshes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object information from the fax server. When the <b>IFaxDevice::Refresh</b> method is called, any configuration changes made after the last <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">IFaxDevice::Save</a> method call are lost.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">IFaxDevice::Refresh</a> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object information from the fax server. When the <b>IFaxDevice::Refresh</b> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">IFaxDevice::Save</a> method call are lost.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">Save</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">IFaxDevice::Save</a> method saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object's data.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">IFaxDevice::Save</a> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object's data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-setextensionproperty-vb">SetExtensionProperty</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-setextensionproperty-vb">SetExtensionProperty</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-setextensionproperty-vb">IFaxDevice::SetExtensionProperty</a> method stores an extension configuration property at the device level.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-setextensionproperty-vb">IFaxDevice::SetExtensionProperty</a> method stores an extension configuration property at the device level.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-useroutingmethod-vb">UseRoutingMethod</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-useroutingmethod-vb">UseRoutingMethod</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-useroutingmethod-vb">IFaxDevice::UseRoutingMethod</a> method adds an inbound fax routing method to or removes a fax routing method (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a>) from the list of routing methods associated with the fax device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-useroutingmethod-vb">IFaxDevice::UseRoutingMethod</a> method adds an inbound fax routing method to or removes a fax routing method (<a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a>) from the list of routing methods associated with the fax device.
 
 </td>
 </tr>
@@ -134,7 +133,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-csid-vb">CSID</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-csid-vb">CSID</a>
 
 
 </td>
@@ -143,14 +142,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-csid-vb">IFaxDevice::get_CSID</a> property is a null-terminated string that contains the CSID for the device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-csid-vb">IFaxDevice::get_CSID</a> property is a null-terminated string that contains the CSID for the device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-description-vb">Description</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-description-vb">Description</a>
 
 
 </td>
@@ -159,14 +158,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-description-vb">IFaxDevice::get_Description</a> property is a null-terminated string that contains a user-friendly description for the fax device. This string is suitable for display to users.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-description-vb">IFaxDevice::get_Description</a> property is a null-terminated string that contains a user-friendly description for the fax device. This string is suitable for display to users.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-devicename-vb">DeviceName</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-devicename-vb">DeviceName</a>
 
 
 </td>
@@ -175,14 +174,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-devicename-vb">IFaxDevice::get_DeviceName</a> property is a null-terminated string that contains the name of the fax device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-devicename-vb">IFaxDevice::get_DeviceName</a> property is a null-terminated string that contains the name of the fax device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a>
 
 
 </td>
@@ -191,14 +190,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The Id <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">IFaxDevice::get_Id</a> is a numeric value that uniquely identifies a fax device.
+The Id <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">IFaxDevice::get_Id</a> is a numeric value that uniquely identifies a fax device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-poweredoff-vb">PoweredOff</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-poweredoff-vb">PoweredOff</a>
 
 
 </td>
@@ -207,14 +206,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-poweredoff-vb">IFaxDevice::get_PoweredOff</a> property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-poweredoff-vb">IFaxDevice::get_PoweredOff</a> property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-provideruniquename-vb">ProviderUniqueName</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-provideruniquename-vb">ProviderUniqueName</a>
 
 
 </td>
@@ -223,14 +222,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-provideruniquename-vb">IFaxDevice::get_ProviderUniqueName</a> property is a null-terminated string that contains the unique name for the FSP associated with the device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-provideruniquename-vb">IFaxDevice::get_ProviderUniqueName</a> property is a null-terminated string that contains the unique name for the FSP associated with the device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevice-get_receivemode">ReceiveMode</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdevice-get_receivemode">ReceiveMode</a>
 
 
 </td>
@@ -239,14 +238,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivemode">ReceiveMode</a> property is a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_device_receive_mode_enum">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivemode">ReceiveMode</a> property is a value from the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_device_receive_mode_enum">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivingnow-vb">ReceivingNow</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivingnow-vb">ReceivingNow</a>
 
 
 </td>
@@ -255,14 +254,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivingnow-vb">IFaxDevice::get_ReceivingNow</a> property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivingnow-vb">IFaxDevice::get_ReceivingNow</a> property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringingnow-vb">RingingNow</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringingnow-vb">RingingNow</a>
 
 
 </td>
@@ -271,14 +270,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringingnow-vb">IFaxDevice::get_RingingNow</a> property is a Boolean value that indicates whether the fax device is ringing at the moment the property is retrieved (the status could change immediately thereafter).
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringingnow-vb">IFaxDevice::get_RingingNow</a> property is a Boolean value that indicates whether the fax device is ringing at the moment the property is retrieved (the status could change immediately thereafter).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringsbeforeanswer-vb">RingsBeforeAnswer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringsbeforeanswer-vb">RingsBeforeAnswer</a>
 
 
 </td>
@@ -287,14 +286,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringsbeforeanswer-vb">IFaxDevice::get_RingsBeforeAnswer</a> property is a number that specifies the number of rings that occur before the fax device answers an incoming fax call.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-ringsbeforeanswer-vb">IFaxDevice::get_RingsBeforeAnswer</a> property is a number that specifies the number of rings that occur before the fax device answers an incoming fax call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendenabled-vb">SendEnabled</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendenabled-vb">SendEnabled</a>
 
 
 </td>
@@ -303,14 +302,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendenabled-vb">IFaxDevice::get_SendEnabled</a> property is a Boolean value that indicates whether the fax device is enabled for sending faxes.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendenabled-vb">IFaxDevice::get_SendEnabled</a> property is a Boolean value that indicates whether the fax device is enabled for sending faxes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendingnow-vb">SendingNow</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendingnow-vb">SendingNow</a>
 
 
 </td>
@@ -319,18 +318,18 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendingnow-vb">IFaxDevice::get_SendingNow</a> property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter). 
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-sendingnow-vb">IFaxDevice::get_SendingNow</a> property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter). 
 
             
 
-<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object is created and is refreshed when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">IFaxDevice::Refresh</a> method.</div>
+<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object is created and is refreshed when you call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-refresh-vb">IFaxDevice::Refresh</a> method.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-tsid-vb">TSID</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-tsid-vb">TSID</a>
 
 
 </td>
@@ -339,14 +338,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-tsid-vb">IFaxDevice::get_TSID</a> property is a null-terminated string that contains the TSID for the device.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-tsid-vb">IFaxDevice::get_TSID</a> property is a null-terminated string that contains the TSID for the device.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-usedroutingmethods-vb">UsedRoutingMethods</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-usedroutingmethods-vb">UsedRoutingMethods</a>
 
 
 </td>
@@ -355,18 +354,12 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-usedroutingmethods-vb">IFaxDevice::get_UsedRoutingMethods</a> property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a>).
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-usedroutingmethods-vb">IFaxDevice::get_UsedRoutingMethods</a> property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (<a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingmethod">FaxInboundRoutingMethod</a>).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-A default implementation of <b>IFaxDevice</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
-
-
-
+A default implementation of <b>IFaxDevice</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.

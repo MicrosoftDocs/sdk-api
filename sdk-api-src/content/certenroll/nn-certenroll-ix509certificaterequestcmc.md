@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 77059388-c442-4db5-ab27-1db25e2f63b9
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], IX509CertificateRequestCmc interface [Security],described, certenroll/IX509CertificateRequestCmc, security.ix509certificaterequestcmc
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc
+ - certenroll/IX509CertificateRequestCmc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc
 ---
 
 # IX509CertificateRequestCmc interface
@@ -49,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IX509CertificateRequestCmc</b> interface represents a CMC (Certificate Management Message over CMS) certificate request.  A CMC request is always wrapped by a PKCS #7 certificate message syntax (CMS) object. Therefore, the <b>IX509CertificateRequestCmc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
+The <b>IX509CertificateRequestCmc</b> interface represents a CMC (Certificate Management Message over CMS) certificate request.  A CMC request is always wrapped by a PKCS #7 certificate message syntax (CMS) object. Therefore, the <b>IX509CertificateRequestCmc</b> interface inherits from the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
 
 A CMC request contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. The <b>TaggedOtherMsg</b> structure identified in the RFC is not supported.
 <pre class="syntax" xml:space="preserve"><code>
@@ -90,12 +90,11 @@ BodyPartID ::= INTEGER (0..4294967295)
 EncodedObjectID ::= OBJECT IDENTIFIER
 AttributeSetValue ::= SET OF ANY</code></pre>A CMC request can contain a PKCS #10 request in the <b>TaggedRequest</b> sequence or another CMC request object in the <b>TaggedContentInfo</b> sequence. There is no theoretical limit to the possible number of nesting levels, but certification authorities typically place a physical limit on the request size.
 
-The <b>TaggedAttribute</b> sequence contains extensions and optional attributes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> and <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>.
-
+The <b>TaggedAttribute</b> sequence contains extensions and optional attributes. For more information, see <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> and <a href="/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCmc</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>. <b>IX509CertificateRequestCmc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCmc</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>. <b>IX509CertificateRequestCmc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -111,7 +110,7 @@ The <b>IX509CertificateRequestCmc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename">InitializeFromInnerRequestTemplateName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename">InitializeFromInnerRequestTemplateName</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request from an inner request  object and a template.
@@ -128,7 +127,7 @@ Initializes the certificate request from an inner request  object and a template
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey">ArchivePrivateKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey">ArchivePrivateKey</a>
 
 
 </td>
@@ -140,31 +139,31 @@ Specifies or retrieves a Boolean value that indicates whether to archive a priva
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_criticalextensions">CriticalExtensions</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_criticalextensions">CriticalExtensions</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> collection that identifies the version 3 certificate extensions marked as critical.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a> collection that identifies the version 3 certificate extensions marked as critical.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_cryptattributes">CryptAttributes</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_cryptattributes">CryptAttributes</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a> collection of optional certificate attributes.
+Retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a> collection of optional certificate attributes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptedkeyhash">EncryptedKeyHash</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptedkeyhash">EncryptedKeyHash</a>
 
 
 </td>
@@ -176,7 +175,7 @@ Retrieves a hash of the private key to be archived.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionalgorithm">EncryptionAlgorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionalgorithm">EncryptionAlgorithm</a>
 
 
 </td>
@@ -190,7 +189,7 @@ Specifies or retrieves an object identifier of the algorithm used to encrypt the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionstrength">EncryptionStrength</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_encryptionstrength">EncryptionStrength</a>
 
 
 </td>
@@ -202,7 +201,7 @@ Specifies or retrieves the relative encryption level applied to the private key 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a>
 
 
 </td>
@@ -216,7 +215,7 @@ Specifies or retrieves a certification authority (CA) encryption certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs">NameValuePairs</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs">NameValuePairs</a>
 
 
 </td>
@@ -228,7 +227,7 @@ Retrieves a collection of name-value pairs that can be associated with a certifi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_nullsigned">NullSigned</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_nullsigned">NullSigned</a>
 
 
 </td>
@@ -240,7 +239,7 @@ Retrieves a Boolean value that specifies whether the primary signature  on the c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_sendernonce">SenderNonce</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_sendernonce">SenderNonce</a>
 
 
 </td>
@@ -252,12 +251,12 @@ Specifies or retrieves a byte array that contains a nonce.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_signatureinformation">SignatureInformation</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_signatureinformation">SignatureInformation</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that contains information about the primary signature used to sign the certificate request.
+Retrieves the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that contains information about the primary signature used to sign the certificate request.
 
 [WebEnabled]
 
@@ -266,7 +265,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_signercertificates">SignerCertificates</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_signercertificates">SignerCertificates</a>
 
 
 </td>
@@ -278,7 +277,7 @@ Retrieves a collection of certificates used to sign the request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_suppressoids">SuppressOids</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_suppressoids">SuppressOids</a>
 
 
 </td>
@@ -290,7 +289,7 @@ Retrieves a collection of extension or attribute object identifiers to be suppre
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_templateobjectid">TemplateObjectId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_templateobjectid">TemplateObjectId</a>
 
 
 </td>
@@ -302,7 +301,7 @@ Retrieves the object identifier of the template used to create the certificate r
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_transactionid">TransactionId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_transactionid">TransactionId</a>
 
 
 </td>
@@ -314,7 +313,7 @@ Specifies or retrieves a transaction identifier that can be used to track a cert
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_x509extensions">X509Extensions</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_x509extensions">X509Extensions</a>
 
 
 </td>
@@ -323,24 +322,16 @@ Retrieves a collection of the extensions included in the certificate request.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>

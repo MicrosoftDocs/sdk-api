@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 4CFC707A-2A5A-41FE-BB5F-6FECACC99271
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageId, GetCurrentPackageId function [App packaging and management], appmodel/GetCurrentPackageId, appxpkg.getcurrentpackageid
-f1_keywords:
-- appmodel/GetCurrentPackageId
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-current-l1-1-0.dll
-- modernapiexthost.dll
-- kernel.appcore.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetCurrentPackageId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentPackageId
+ - appmodel/GetCurrentPackageId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-current-l1-1-0.dll
+ - modernapiexthost.dll
+ - kernel.appcore.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetCurrentPackageId
 ---
 
 # GetCurrentPackageId function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package identifier (ID) for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param bufferLength [in, out]
 
@@ -73,17 +69,13 @@ Type: <b>UINT32*</b>
 
 On input, the size of <i>buffer</i>, in bytes. On output, the size of the structure returned, in bytes.
 
-
 ### -param buffer [out, optional]
 
 Type: <b>BYTE*</b>
 
-The package ID, represented as a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
-
+The package ID, represented as a <a href="/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -117,38 +109,27 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagepath">GetCurrentPackagePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagepath">GetCurrentPackagePath</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>

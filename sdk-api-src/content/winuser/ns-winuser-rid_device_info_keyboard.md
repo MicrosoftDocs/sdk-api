@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_keyboard.htm
 ms.date: 12/05/2018
 ms.keywords: '*PRID_DEVICE_INFO_KEYBOARD, PRID_DEVICE_INFO_KEYBOARD, PRID_DEVICE_INFO_KEYBOARD structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_KEYBOARD, RID_DEVICE_INFO_KEYBOARD structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_KEYBOARD_str, _win32_rid_device_info_keyboard_str_cpp, inputdev.rid_device_info_keyboard, winui._win32_rid_device_info_keyboard_str, winuser/PRID_DEVICE_INFO_KEYBOARD, winuser/RID_DEVICE_INFO_KEYBOARD'
-f1_keywords:
-- winuser/RID_DEVICE_INFO_KEYBOARD
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RID_DEVICE_INFO_KEYBOARD
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_KEYBOARD, *PRID_DEVICE_INFO_KEYBOARD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRID_DEVICE_INFO_KEYBOARD
+ - winuser/tagRID_DEVICE_INFO_KEYBOARD
+ - PRID_DEVICE_INFO_KEYBOARD
+ - winuser/PRID_DEVICE_INFO_KEYBOARD
+ - RID_DEVICE_INFO_KEYBOARD
+ - winuser/RID_DEVICE_INFO_KEYBOARD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RID_DEVICE_INFO_KEYBOARD
 ---
 
 # RID_DEVICE_INFO_KEYBOARD structure
 
+
 ## -description
 
-Defines the raw input data coming from the specified keyboard. 
+Defines the raw input data coming from the specified keyboard.
 
 ## -struct-fields
 
@@ -88,9 +94,9 @@ Type: <b>DWORD</b>
 
 The total number of keys on the keyboard.
 
-### -remarks
+## -remarks
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/). 
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
 
 ## -see-also
 
@@ -98,9 +104,8 @@ For information about keyboard types, subtypes, scan code modes, and related key
 
 [RID_DEVICE_INFO](ns-winuser-rid_device_info.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
 **Reference**
 
-[KEYBOARD_ATTRIBUTES structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_attributes)
- 
+[KEYBOARD_ATTRIBUTES structure](../ntddkbd/ns-ntddkbd-keyboard_attributes.md)

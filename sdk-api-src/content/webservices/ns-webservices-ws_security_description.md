@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: b9490f00-877c-4d9f-b361-eaca343cdee0
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_DESCRIPTION, WS_SECURITY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SECURITY_DESCRIPTION, wsw.ws_security_description
-f1_keywords:
-- webservices/WS_SECURITY_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_DESCRIPTION
 targetos: Windows
 req.typenames: WS_SECURITY_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_SECURITY_DESCRIPTION
+ - webservices/_WS_SECURITY_DESCRIPTION
+ - WS_SECURITY_DESCRIPTION
+ - webservices/WS_SECURITY_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_DESCRIPTION
 ---
 
 # WS_SECURITY_DESCRIPTION structure
@@ -49,56 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The top-level structure used to specify the security requirements for
-a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">channel</a> (on the client side) or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">listener</a> (on the server side).
-
-            
-
+a <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">channel</a> (on the client side) or a <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">listener</a> (on the server side).
 
 ## -struct-fields
-
-
-
 
 ### -field securityBindings
 
 The array of pointers to security bindings.  The set of security
 bindings supplies determines the kind of security applied to the
 channel.  Each security binding specifies one security token.
-                
-
 
 ### -field securityBindingCount
 
 The count of elements in the securityBindings array.
-                
-
 
 ### -field properties
 
 The array of properties specifying the optional channel-wide security
-settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
-pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
+settings.  Each <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
+pair and must use a key defined in <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
 and if it is <b>NULL</b>, the default value will be used for each security
 channel setting.
-                
-
 
 ### -field propertyCount
 
 The count of elements in the properties array.
-                
-
 
 ## -remarks
-
-
 
 The figure below illustrates the structure of a security description.
             
 
 <img alt="" src="images/SecurityDescription.png"/>
-
-
-

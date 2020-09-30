@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
-f1_keywords:
-- certenroll/IX509PublicKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PublicKey
+ - certenroll/IX509PublicKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PublicKey
 ---
 
 # IX509PublicKey interface
@@ -49,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IX509PublicKey</b> interface represents a   public key in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The public key is included in the certificate request sent to a certification authority (CA) and in the certificate received from the CA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>.
+The <b>IX509PublicKey</b> interface represents a   public key in a <a href="/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The public key is included in the certificate request sent to a certification authority (CA) and in the certificate received from the CA. For more information, see <a href="/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>.
 
 The Certificate Enrollment Control passes public and private keys in byte arrays. The following certificate example shows a 1024-bit public key created by using the RSA signing algorithm, XCN_OID_RSA_RSA (1.2.840.113549.1.1.1).
 <pre class="syntax" xml:space="preserve"><code>
@@ -91,7 +91,7 @@ Public Key: UnusedBits = 0
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PublicKey</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PublicKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PublicKey</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PublicKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -107,25 +107,25 @@ The <b>IX509PublicKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-computekeyidentifier">ComputeKeyIdentifier</a>
 </td>
 <td align="left" width="63%">
-Creates an identifier from a 160-bit SHA-1 hash of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>.
+Creates an identifier from a 160-bit SHA-1 hash of the <a href="/windows/desktop/SecGloss/p-gly">public key</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes the object from a public key  algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and from byte arrays that contain a public key and the associated parameters, if any.
+Initializes the object from a public key  algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and from byte arrays that contain a public key and the associated parameters, if any.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo">InitializeFromEncodedPublicKeyInfo</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo">InitializeFromEncodedPublicKeyInfo</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a byte array that contains a public key.
@@ -143,7 +143,7 @@ Initializes the object from a byte array that contains a public key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_algorithm">Algorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_algorithm">Algorithm</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Retrieves an OID for the public key algorithm.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedkey">EncodedKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedkey">EncodedKey</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Retrieves a byte array that contains the public key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedparameters">EncodedParameters</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_encodedparameters">EncodedParameters</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Retrieves a byte array that contains the parameters associated with the public k
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_length">Length</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-get_length">Length</a>
 
 
 </td>
@@ -204,28 +204,20 @@ Retrieves the length of the public key.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>

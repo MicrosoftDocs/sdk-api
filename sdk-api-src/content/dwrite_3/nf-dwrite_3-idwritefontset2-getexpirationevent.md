@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet2 interface [Direct Write]","GetExpirationE
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet2 interface [Direct Write],GetExpirationEvent method, IDWriteFontSet2.GetExpirationEvent, IDWriteFontSet2::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontSet2 interface, directwrite.idwritefontset2_getexpirationevent, dwrite_3/IDWriteFontSet2::GetExpirationEvent
-f1_keywords:
-- dwrite_3/IDWriteFontSet2.GetExpirationEvent
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet2::GetExpirationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet2::GetExpirationEvent
+ - dwrite_3/IDWriteFontSet2::GetExpirationEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet2::GetExpirationEvent
 ---
 
 ## -description
@@ -55,6 +56,6 @@ An event handle, if called on the system font set, or `nullptr` if called on a c
 
 ## -remarks
 
-You mustn't call **CloseHandle** on the returned event handle. The handle is owned by the font set object, and it remains valid as long as you hold a reference to the font set. You can wait on the returned event, or use [RegisterWaitForSingleObject](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) to request a callback when the event is set.
+You mustn't call **CloseHandle** on the returned event handle. The handle is owned by the font set object, and it remains valid as long as you hold a reference to the font set. You can wait on the returned event, or use [RegisterWaitForSingleObject](../winbase/nf-winbase-registerwaitforsingleobject.md) to request a callback when the event is set.
 
 ## -see-also

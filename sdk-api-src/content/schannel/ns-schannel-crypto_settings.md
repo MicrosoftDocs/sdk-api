@@ -31,18 +31,24 @@ api_name:
  - _CRYPTO_SETTINGS
  - CRYPTO_SETTINGS
 f1_keywords:
+ - _CRYPTO_SETTINGS
  - schannel/_CRYPTO_SETTINGS
+ - PCRYPTO_SETTINGS
+ - schannel/PCRYPTO_SETTINGS
+ - CRYPTO_SETTINGS
  - schannel/CRYPTO_SETTINGS
 dev_langs:
  - c++
 ---
 
 ## -description
+
 Indicates disabled cryptographic settings.
 
 ## -struct-fields
 
 ### -field eAlgorithmUsage
+
 The algorithm being used as specified in the [eTlsAlgorithmUsage](ne-schannel-etlsalgorithmusage.md) enumeration.
 
 |Value|Algorithm|
@@ -53,28 +59,32 @@ The algorithm being used as specified in the [eTlsAlgorithmUsage](ne-schannel-et
 |TlsParametersCngAlgUsageDigest      |Digest of cipher suite. <br> (*e.g. SHA1, SHA256, SHA384*)|
 |TlsParametersCngAlgUsageCertSig     |Signature and/or hash used to sign certificate. <br>(*e.g. RSA, DSA, ECDSA, SHA1, SHA256*)|
 
-
 ### -field strCngAlgId
-The <a href="https://docs.microsoft.com/windows/win32/seccng/cng-algorithm-identifiers?redirectedfrom=MSDN">CNG algorithm identifier</a>.
+
+The <a href="/windows/win32/seccng/cng-algorithm-identifiers">CNG algorithm identifier</a>.
 
 Cryptographic settings are ignored if the specified algorithm is not used by a supported, enabled cipher suite or an available credential.
 
 ### -field cChainingModes
+
 The count of entries in the rgstrChainingModes array. 
 
 Set to 0 if strCngAlgId does not have a chaining mode (*e.g. BCRYPT_SHA384_ALGORITHM*). It is an error to specify more than SCH_CRED_MAX_SUPPORTED_CHAINING_MODES.
 
 ### -field rgstrChainingModes
-An array of <a href="https://msdn.microsoft.com/library/windows/desktop/aa376211(v=vs.85).aspx">CNG chaining mode identifiers</a>. 
+
+An array of <a href="/windows/win32/seccng/cng-property-identifiers">CNG chaining mode identifiers</a>. 
 
 Set to NULL if strCngAlgId does not have a chaining mode (*e.g. BCRYPT_SHA384_ALGORITHM*).
 
 ### -field dwMinBitLength
+
 Minimum bit length for the specified CNG algorithm. 
 
 If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit length (*e.g. BCRYPT_ECDH_P521_ALGORITHM*).
 
 ### -field dwMaxBitLength
+
 Maximum bit length for the specified CNG algorithm.
 
 If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit length (e.g. BCRYPT_ECDH_P521_ALGORITHM).
@@ -82,6 +92,7 @@ If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit l
 ## -remarks
 
 ## -see-also
+
 [SCH_CREDENTIALS](ns-schannel-sch_credentials.md)
 
 [TLS_PARAMETERS](ns-schannel-tls_parameters.md)

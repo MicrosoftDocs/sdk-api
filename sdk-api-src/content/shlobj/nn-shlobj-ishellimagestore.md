@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 746bd660-17b6-4669-8f23-254f5d7dde82
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore, IShellImageStore interface [Windows Shell], IShellImageStore interface [Windows Shell],described, _win32_IShellImageStore, shell.IShellImageStore, shlobj/IShellImageStore
-f1_keywords:
-- shlobj/IShellImageStore
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageStore
+ - shlobj/IShellImageStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageStore
 ---
 
 # IShellImageStore interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Exposes methods that manipulate the image cache.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IShellImageStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-close">Close</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the image cache.
@@ -79,7 +78,7 @@ Closes the image cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">Commit</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Writes the contents specified by <i>pdwLoc</i> to storage.
@@ -88,7 +87,7 @@ Writes the contents specified by <i>pdwLoc</i> to storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-getentry">GetEntry</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-getentry">GetEntry</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to an image in the cache.
@@ -97,7 +96,7 @@ Gets a handle to an image in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-isentryinstore">IsEntryInStore</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-isentryinstore">IsEntryInStore</a>
 </td>
 <td align="left" width="63%">
 Checks to see if the image is in the store.
@@ -106,21 +105,16 @@ Checks to see if the image is in the store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">Open</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the storage and returns a lock.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <b>IShellImageStore</b> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-
-

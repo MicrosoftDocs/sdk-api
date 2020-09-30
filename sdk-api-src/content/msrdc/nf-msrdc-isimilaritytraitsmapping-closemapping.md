@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2
 ms.date: 12/05/2018
 ms.keywords: CloseMapping, CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CloseMapping method, ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
-f1_keywords:
-- msrdc/ISimilarityTraitsMapping.CloseMapping
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarityTraitsMapping.CloseMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarityTraitsMapping::CloseMapping
+ - msrdc/ISimilarityTraitsMapping::CloseMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarityTraitsMapping.CloseMapping
 ---
 
 # ISimilarityTraitsMapping::CloseMapping
@@ -49,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a file mapping object for a similarity traits table file.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 Note that there may still be valid views open on the file. No new views may be created after the mapping is closed, but existing views continue to work.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>

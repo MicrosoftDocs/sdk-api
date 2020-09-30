@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
-f1_keywords:
-- winsxs/IAssemblyName
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyName
+ - winsxs/IAssemblyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyName
 ---
 
 # IAssemblyName interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAssemblyName</b> interface represents a side-by-side assembly name. The side-by-side assembly name consists of a set of name-value pairs that describe the side-by-side assembly. An instance of the <b>IAssemblyName</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> function.
-
+The <b>IAssemblyName</b> interface represents a side-by-side assembly name. The side-by-side assembly name consists of a set of name-value pairs that describe the side-by-side assembly. An instance of the <b>IAssemblyName</b> interface is obtained by calling the <a href="/windows/desktop/api/winsxs/nf-winsxs-createassemblynameobject">CreateAssemblyNameObject</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyName</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyName</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssemblyName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IAssemblyName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-clone">Clone</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the  current side-by-side assembly name to a new instance of <b>IAssemblyName</b>.
@@ -79,7 +78,7 @@ Copies the  current side-by-side assembly name to a new instance of <b>IAssembly
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize">Finalize</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize">Finalize</a>
 </td>
 <td align="left" width="63%">
 Prevents a side-by-side assembly name from being changed.
@@ -88,7 +87,7 @@ Prevents a side-by-side assembly name from being changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname">GetDisplayName</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Gets a string representation of the side-by-side assembly name.
@@ -97,7 +96,7 @@ Gets a string representation of the side-by-side assembly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getname">GetName</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Returns the name portion of the assembly name.
@@ -106,7 +105,7 @@ Returns the name portion of the assembly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a name-value pair in the assembly name.
@@ -115,7 +114,7 @@ Gets the value of a name-value pair in the assembly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal">IsEqual</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Compares the current assembly name to another assembly name.
@@ -124,12 +123,11 @@ Compares the current assembly name to another assembly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Adds or changes a name-value pair of the assembly name.
 
 </td>
 </tr>
-</table> 
-
+</table>

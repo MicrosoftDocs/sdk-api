@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: d99c11a8-e91f-428f-98b1-d3116d027691
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FILTER, WSMAN_FILTER structure [Windows Remote Management], winrm.wsman_filter, wsman/WSMAN_FILTER
-f1_keywords:
-- wsman/WSMAN_FILTER
-dev_langs:
-- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wsman.h
-api_name:
-- WSMAN_FILTER
 targetos: Windows
 req.typenames: WSMAN_FILTER
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WSMAN_FILTER
+ - wsman/_WSMAN_FILTER
+ - WSMAN_FILTER
+ - wsman/WSMAN_FILTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wsman.h
+api_name:
+ - WSMAN_FILTER
 ---
 
 # WSMAN_FILTER structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>WSMAN_FILTER</b> is reserved for future use.]
 
 Defines the filtering that is used for an operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field filter
 
 Reserved for future use. This parameter must be <b>NULL</b>.
-
 
 ### -field dialect
 

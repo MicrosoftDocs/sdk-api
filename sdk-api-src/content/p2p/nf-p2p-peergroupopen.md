@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: cfaf244f-8786-4801-926d-f6c79bfa4275
 ms.date: 12/05/2018
 ms.keywords: PeerGroupOpen, PeerGroupOpen function [Peer Networking], p2p.peergroupopen, p2p/PeerGroupOpen
-f1_keywords:
-- p2p/PeerGroupOpen
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerGroupOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGroupOpen
+ - p2p/PeerGroupOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerGroupOpen
 ---
 
 # PeerGroupOpen function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGroupOpen</b> function opens a peer group that a peer has created or joined. After a peer group is opened, the peer  can register for event notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzIdentity [in]
 
 Pointer to a Unicode string that contains the identity  a peer  uses to open a group.  This parameter is required.
 
-
 ### -param pwzGroupPeerName [in]
 
 Pointer to a Unicode string that contains the peer name of the peer group. This parameter is required.
-
 
 ### -param pwzCloud [in]
 
 Pointer to a Unicode string that contains the name of the PNRP cloud in which the peer group is located. If the value is <b>NULL</b>,  the cloud specified in the peer group properties is used.
 
-
 ### -param phGroup [out]
 
 Pointer to a handle for a  peer group. If this value is <b>NULL</b>, the open operation is unsuccessful. This parameter is required.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b>  if the operation succeeds. Otherwise, the function returns one of the following values.
 
@@ -148,39 +138,24 @@ Access to the peer identity or peer group keys is denied. Typically, this is  ca
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
-
-
-
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-
-
-Multiple applications can open the same group simultaneously. Any application can choose to open a group without subsequently calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>. These applications are considered to be offline. However, a second application can open and connect the peer to the group, which means that an application must be ready to connect at any time.
-
-
-
+Multiple applications can open the same group simultaneously. Any application can choose to open a group without subsequently calling <a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>. These applications are considered to be offline. However, a second application can open and connect the peer to the group, which means that an application must be ready to connect at any time.
 
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>

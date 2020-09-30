@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: E6428FED-2BCC-4AD5-B612-A22899624538
 ms.date: 12/05/2018
 ms.keywords: ISpreadsheetItemProvider, ISpreadsheetItemProvider interface [Windows Accessibility], ISpreadsheetItemProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetItemProvider, winauto.uiauto_ISpreadsheetItemProvider
-f1_keywords:
-- uiautomationcore/ISpreadsheetItemProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ISpreadsheetItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpreadsheetItemProvider
+ - uiautomationcore/ISpreadsheetItemProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ISpreadsheetItemProvider
 ---
 
 # ISpreadsheetItemProvider interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access 
-        to information about an item (cell) in a spreadsheet. 
-
+        to information about an item (cell) in a spreadsheet.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpreadsheetItemProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpreadsheetItemProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpreadsheetItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpreadsheetItemProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +71,7 @@ The <b>ISpreadsheetItemProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationobjects">GetAnnotationObjects</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationobjects">GetAnnotationObjects</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of objects that represent the annotations associated with this spreadsheet cell.
@@ -81,7 +80,7 @@ Retrieves an array of objects that represent the annotations associated with thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationtypes">GetAnnotationTypes</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-getannotationtypes">GetAnnotationTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell. 
@@ -99,7 +98,7 @@ Retrieves an array of annotation type identifiers indicating the types of annota
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-get_formula">Formula</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetitemprovider-get_formula">Formula</a>
 
 
 </td>
@@ -112,16 +111,8 @@ Specifies the formula for this spreadsheet cell.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>

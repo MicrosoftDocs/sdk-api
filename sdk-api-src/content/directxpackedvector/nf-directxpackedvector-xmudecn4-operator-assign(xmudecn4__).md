@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.operator = (const XMUDECN4)
 ms.date: 05/06/2019
 ms.keywords: XMUDECN4 structure [DirectX Math Support APIs],operator = method, XMUDECN4.operator =(const XMUDECN4&), XMUDECN4.operator-assign(XMUDECN4 &&), XMUDECN4.operator=, XMUDECN4::operator-assign(XMUDECN4 &&), XMUDECN4::operator=, dxmath.xmudecn4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUDECN4 structure, operator=
-f1_keywords:
-- directxpackedvector/XMUDECN4.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUDECN4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUDECN4::operator=
+ - directxpackedvector/XMUDECN4::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDECN4.operator =
 ---
 
 # XMUDECN4::operator-assign(XMUDECN4 &&)
+
 
 ## -description
 
@@ -69,3 +71,4 @@ The current instance of <code>XMUDECN4</code> whose vector component data has be
 <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
 
 <a href="https://msdn.microsoft.com/b5cb7c96-68c2-4d6b-8ed7-a44651c681b5">operator = </a>
+

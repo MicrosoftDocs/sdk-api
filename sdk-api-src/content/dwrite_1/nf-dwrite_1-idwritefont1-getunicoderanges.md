@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: B92E8500-AF63-43F2-A581-688B2CFCF2BF
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFont1 interface, IDWriteFont1 interface [Direct Write],GetUnicodeRanges method, IDWriteFont1.GetUnicodeRanges, IDWriteFont1::GetUnicodeRanges, directwrite.idwritefont1_getunicoderanges, dwrite_1/IDWriteFont1::GetUnicodeRanges
-f1_keywords:
-- dwrite_1/IDWriteFont1.GetUnicodeRanges
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite_1.dll
-api_name:
-- IDWriteFont1.GetUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFont1::GetUnicodeRanges
+ - dwrite_1/IDWriteFont1::GetUnicodeRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite_1.dll
+api_name:
+ - IDWriteFont1.GetUnicodeRanges
 ---
 
 # IDWriteFont1::GetUnicodeRanges
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the list of character ranges supported by a font.
 
-
 ## -parameters
-
-
-
 
 ### -param maxRangeCount
 
@@ -65,13 +61,11 @@ Type: <b>UINT32</b>
 The maximum number of character ranges passed
     in from the client.
 
-
 ### -param unicodeRanges [out, optional]
 
 Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
 
 An array of <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a> structures that are filled with the character ranges.
-
 
 ### -param actualRangeCount [out]
 
@@ -80,10 +74,7 @@ Type: <b>UINT32*</b>
 A pointer to the actual number of character ranges,
     regardless of the maximum count.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -117,14 +108,8 @@ The buffer is too small.  The <i>actualRangeCount</i> was more than the <i>maxRa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The list of character ranges supported by a font, is
     useful for scenarios like character picking, glyph display, and
@@ -138,16 +123,7 @@ If this method is unavailable, you can use the <a href="/windows/win32/api/dwrit
 
  The <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefont-hascharacter">IDWriteFont::HasCharacter</a> method is often simpler in cases where you need to check a single character or a series of single characters in succession, such as in font fallback.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
- 
-
- 
 

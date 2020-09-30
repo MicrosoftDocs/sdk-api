@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: iscsidisc
+f1_keywords:
+ - iscsidsc
+ - iscsidsc/iscsidsc
 ---
 
 # Iscsidsc.h header
 
 
 ## -description
-
 
 This header is used by iSCSI Discovery Library API. For more information, see:
 

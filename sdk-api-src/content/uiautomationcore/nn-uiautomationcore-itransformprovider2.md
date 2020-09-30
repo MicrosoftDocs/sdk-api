@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
-f1_keywords:
-- uiautomationcore/ITransformProvider2
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ITransformProvider2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransformProvider2
+ - uiautomationcore/ITransformProvider2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ITransformProvider2
 ---
 
 # ITransformProvider2 interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider">ITransformProvider</a> interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
-        
-
+Extends the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider">ITransformProvider</a> interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransformProvider2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransformProvider2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransformProvider2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransformProvider2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +70,7 @@ The <b>ITransformProvider2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom">Zoom</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoom">Zoom</a>
 </td>
 <td align="left" width="63%">
 Zooms the viewport of the control. 
@@ -81,7 +79,7 @@ Zooms the viewport of the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoombyunit">ZoomByUnit</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-zoombyunit">ZoomByUnit</a>
 </td>
 <td align="left" width="63%">
 Zooms the viewport of the control by the specified logical unit.
@@ -99,7 +97,7 @@ Zooms the viewport of the control by the specified logical unit.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom">CanZoom</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_canzoom">CanZoom</a>
 
 
 </td>
@@ -115,7 +113,7 @@ Indicates whether the control supports zooming of its viewport.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoomlevel">ZoomLevel</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoomlevel">ZoomLevel</a>
 
 
 </td>
@@ -131,7 +129,7 @@ Retrieves the current zoom level of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoommaximum">ZoomMaximum</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoommaximum">ZoomMaximum</a>
 
 
 </td>
@@ -147,7 +145,7 @@ Retrieves the maximum zoom level of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoomminimum">ZoomMinimum</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider2-get_zoomminimum">ZoomMinimum</a>
 
 
 </td>
@@ -160,20 +158,12 @@ Retrieves the minimum zoom level of the element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider">ITransformProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider">ITransformProvider</a>

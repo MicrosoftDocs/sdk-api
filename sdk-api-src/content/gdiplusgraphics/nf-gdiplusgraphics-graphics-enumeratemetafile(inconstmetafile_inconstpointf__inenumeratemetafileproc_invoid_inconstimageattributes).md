@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods\enumeratemetafile_76metafilemetafile_pointfampdestpoint_re.htm
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetafile, EnumerateMetafile method [GDI+], EnumerateMetafile method [GDI+],Graphics class, Graphics class [GDI+],EnumerateMetafile method, Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(const Metafile*,const Point&,const Rect&,Unit,EnumerateMetafileProc,VOID*,ImageAttributes*), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile,Graphics::EnumerateMetafile(IN const Metafile,IN const PointF &,IN const RectF &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_PointF_destPoint_RectF_srcRect_Unit_srcU, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Metafile_metafile_PointF_destPoint_RectF_srcRect_Unit_srcU
-f1_keywords:
-- gdiplusgraphics/Graphics.EnumerateMetafile
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,99 +25,67 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.EnumerateMetafile
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::EnumerateMetafile
+ - gdiplusgraphics/Graphics::EnumerateMetafile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.EnumerateMetafile
 ---
-
-# Graphics::EnumerateMetafile
-
 
 ## -description
 
-
-The <b>Graphics::EnumerateMetafile</b> method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord">PlayRecord</a> in the callback function.
-
+The <b>Graphics::EnumerateMetafile</b> method calls an application-defined callback function for each record in a specified metafile. You can use this method to display a metafile by calling <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord">PlayRecord</a> in the callback function.
 
 ## -parameters
 
+### -param metafile
 
+Type: [in] <b>const <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>*</b>
 
+Pointer to a metafile to be enumerated.
 
-### -param metafile [in]
+### -param destPoint
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>*</b>
+Type: [in, ref] <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
 
-Pointer to a metafile to be enumerated. 
+Reference to a point that specifies the upper-left corner of the displayed metafile.
 
+### -param callback
 
-### -param destPoint [in, ref]
+Type: [in] <b>EnumerateMetafileProc</b>
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a></b>
+Pointer to an application-defined callback function. The prototype for the callback function is given in Gdiplustypes.h.
 
-Reference to a point that specifies the upper-left corner of the displayed metafile. 
+### -param callbackData
 
+Type: [in] <b>VOID*</b>
 
-### -param callback [in]
+Optional. Pointer to a block of data that is passed to the callback function. The default value is <b>NULL</b>.
 
-Type: <b>EnumerateMetafileProc</b>
+### -param imageAttributes
 
-Pointer to an application-defined callback function. The prototype for the callback function is given in Gdiplustypes.h. 
+Type: [in] <b><a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>*</b>
 
-
-### -param callbackData [in]
-
-Type: <b>VOID*</b>
-
-Optional. Pointer to a block of data that is passed to the callback function. The default value is <b>NULL</b>. 
-
-
-### -param imageAttributes [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>*</b>
-
-Optional. Pointer to an 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object that specifies color adjustments for the displayed metafile. The default value is <b>NULL</b>. 
-
-
-#### - srcRect [in, ref]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
-
-Reference to a rectangle that specifies the portion of the metafile that is displayed. 
-
-
-#### - srcUnit [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
-
-Element of the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that specifies the unit of measure for the source rectangle. 
-
+Optional. Pointer to an <a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object that specifies color adjustments for the displayed metafile. The default value is <b>NULL</b>. 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
+If the method succeeds, it returns <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-
-If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Ok</a>, which is an element of the 
-						<b>Status</b> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.

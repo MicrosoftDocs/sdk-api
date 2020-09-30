@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8b3n.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],StreetAddress property, IFaxSender.StreetAddress, IFaxSender.get_StreetAddress, IFaxSender.put_StreetAddress, IFaxSender::StreetAddress, IFaxSender::get_StreetAddress, IFaxSender::put_StreetAddress, StreetAddress property [Fax Service], StreetAddress property [Fax Service],IFaxSender interface, _mfax_faxsender.streetaddress, fax._mfax_faxsender_cpp_mfax_faxsender_streetaddress_cpp, fax._mfax_faxsender_streetaddress, faxcomex/IFaxSender::StreetAddress, faxcomex/IFaxSender::get_StreetAddress, faxcomex/IFaxSender::put_StreetAddress, get_StreetAddress
-f1_keywords:
-- faxcomex/IFaxSender.StreetAddress
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxSender.StreetAddress
-- IFaxSender.get_StreetAddress
-- IFaxSender.put_StreetAddress
-- IFaxSender.get_StreetAddress
-- IFaxSender.put_StreetAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxSender::get_StreetAddress
+ - faxcomex/IFaxSender::get_StreetAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxSender.StreetAddress
+ - IFaxSender.get_StreetAddress
+ - IFaxSender.put_StreetAddress
+ - IFaxSender.get_StreetAddress
+ - IFaxSender.put_StreetAddress
 ---
 
 # IFaxSender::get_StreetAddress
@@ -53,39 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxSender::get_StreetAddress</b> property is a null-terminated string that contains the street address associated with the sender.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The street address should also include the city, state, zip code (postal code) and country/region for the sender.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

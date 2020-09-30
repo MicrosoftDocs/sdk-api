@@ -1,17 +1,13 @@
 ---
 UID: NF:winstring.WindowsInspectString2
 title: WindowsInspectString2 function (winstring.h)
-description: Provides a way to for debuggers to display the value of an Windows Runtime�HSTRING in another address space, remotely, or from a dump.
+description: Provides a way to for debuggers to display the value of an Windows Runtime�HSTRING in another address space, remotely, or from a dump.
 helpviewer_keywords: ["WindowsInspectString2","WindowsInspectString2 function [Windows Runtime]","winrt.windowsinspectstring2","winstring/WindowsInspectString2"]
 old-location: winrt\windowsinspectstring2.htm
 tech.root: WinRT
 ms.assetid: 6A359C2A-21A3-4DCD-B40A-B983E790AC3C
 ms.date: 12/05/2018
 ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
-f1_keywords:
-- winstring/WindowsInspectString2
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsInspectString2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsInspectString2
+ - winstring/WindowsInspectString2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsInspectString2
 ---
 
 ## -description
 
-Provides a way to for debuggers to display the value of an Windows Runtime [**HSTRING**](/windows/win32/winrt/hstring) in another address space, remotely, or from a dump. 
+Provides a way to for debuggers to display the value of an Windows Runtime [**HSTRING**](/windows/win32/winrt/hstring) in another address space, remotely, or from a dump.
 
 ## -parameters
 
@@ -116,7 +117,7 @@ This function can return one of these values.
 
 The <a href="/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a> function passes the input and output pointers as native pointer-sized values. If  the current platform is Win32, that function returns an error for processes that are Win64. 
 
-<b>WindowsInspectString2</b> enables cross-architecture debugging by allowing up to 64-bit values when called from both Win32 and Win64 applications. 
+<b>WindowsInspectString2</b> enables cross-architecture debugging by allowing up to 64-bit values when called from both Win32 and Win64 applications.
 
 ## -see-also
 
@@ -127,3 +128,4 @@ The <a href="/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">W
 <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a>
+

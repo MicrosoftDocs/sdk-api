@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiterator_66path.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+],GraphicsPathIterator constructor, GraphicsPathIterator constructor [GDI+], GraphicsPathIterator constructor [GDI+],GraphicsPathIterator class, GraphicsPathIterator.GraphicsPathIterator, GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath), GraphicsPathIterator::GraphicsPathIterator, GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath), _gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_
-f1_keywords:
-- gdipluspath/GraphicsPathIterator.GraphicsPathIterator
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,54 +25,43 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPathIterator.GraphicsPathIterator
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPathIterator::GraphicsPathIterator
+ - gdipluspath/GraphicsPathIterator::GraphicsPathIterator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPathIterator.GraphicsPathIterator
 ---
-
-# GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath)
-
 
 ## -description
 
-
-Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
-
+Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
 
 ## -parameters
 
+### -param path [in]
 
+Type: <b><a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-
-#### - path [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object. 
-
+Pointer to a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object.
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>

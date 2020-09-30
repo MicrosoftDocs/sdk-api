@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: a4515d39-8566-4418-a6be-687f4f7d9969
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_CALLBACK0, IPSEC_SA_CONTEXT_CALLBACK0 callback, IPSEC_SA_CONTEXT_CALLBACK0 callback function [Filtering], fwp.ipsec_sa_context_callback0, fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
-f1_keywords:
-- fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fwpmu.h
-api_name:
-- IPSEC_SA_CONTEXT_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_SA_CONTEXT_CALLBACK0
+ - fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fwpmu.h
+api_name:
+ - IPSEC_SA_CONTEXT_CALLBACK0
 ---
 
 # IPSEC_SA_CONTEXT_CALLBACK0 callback function
@@ -49,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_SA_CONTEXT_CALLBACK0</b> function is used to add custom behavior to the IPsec security association (SA) context  subscription process.
 
-
 ## -parameters
-
-
-
 
 ### -param *context [in, out]
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a> function.
-
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a> function.
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0_">IPSEC_SA_CONTEXT_CHANGE0</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0_">IPSEC_SA_CONTEXT_CHANGE0</a>*</b>
 
 The IPsec SA context information.
 
-
 ## -remarks
 
-
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a> to register this callback function.
-
-
-
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a> to register this callback function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextsubscribe0">IPsecSaContextSubscribe0</a>

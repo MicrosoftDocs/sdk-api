@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 4070af24-b7f9-4484-ab13-d3a52c9e55a0
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElementAt, MI_Instance_SetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElementAt, wmi_v2.mi_instance_setelementat
-f1_keywords:
-- mi/MI_Instance_SetElementAt
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Instance_SetElementAt
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_Instance_SetElementAt
+ - mi/MI_Instance_SetElementAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Instance_SetElementAt
 ---
 
 # MI_Instance_SetElementAt function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set the value of the element at the given index of an instance.
 
-
 ## -parameters
-
-
-
 
 ### -param self [in, out]
 
 A pointer to an instance.
 
-
 ### -param index
 
 The position of the element.
-
 
 ### -param value [in, optional]
 
 The new value of the element.
 
-
 ### -param type
 
 The CIM type of the element that will be set.
-
 
 ### -param flags
 
@@ -100,12 +92,7 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 
 Element value is <b>Null</b>.
 
-
 ## -returns
 
-
-
 This function returns MI_INLINE MI_Result MI_INLINE_CALL.
-
-
 

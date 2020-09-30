@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 27f2d248-1c83-4784-82f9-75ce0a038b87
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], IDiscFormat2TrackAtOnce interface [IMAPI],described, imapi.idiscformat2trackatonce, imapi2/IDiscFormat2TrackAtOnce
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce
+ - imapi2/IDiscFormat2TrackAtOnce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce
 ---
 
 # IDiscFormat2TrackAtOnce interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftDiscFormat2TrackAtOnce) for the class identifier and __uuidof(IDiscFormat2TrackAtOnce) for the interface identifier.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2TrackAtOnce</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>. <b>IDiscFormat2TrackAtOnce</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2TrackAtOnce</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>. <b>IDiscFormat2TrackAtOnce</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IDiscFormat2TrackAtOnce</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">AddAudioTrack</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">AddAudioTrack</a>
 </td>
 <td align="left" width="63%">
 Writes the data stream to the current media as a new track.
@@ -81,7 +80,7 @@ Writes the data stream to the current media as a new track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">CancelAddTrack</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">CancelAddTrack</a>
 </td>
 <td align="left" width="63%">
 Cancels adding the new track to the media.
@@ -90,7 +89,7 @@ Cancels adding the new track to the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_bufferunderrunfreedisabled">get_BufferUnderrunFreeDisabled</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_bufferunderrunfreedisabled">get_BufferUnderrunFreeDisabled</a>
 </td>
 <td align="left" width="63%">
 Determines if Buffer Underrun Free Recording is enabled.
@@ -99,7 +98,7 @@ Determines if Buffer Underrun Free Recording is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_clientname">get_ClientName</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_clientname">get_ClientName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the friendly name of the client.
@@ -108,7 +107,7 @@ Retrieves the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentphysicalmediatype">get_CurrentPhysicalMediaType</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentphysicalmediatype">get_CurrentPhysicalMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of media in the disc device.
@@ -117,7 +116,7 @@ Retrieves the type of media in the disc device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">get_CurrentRotationTypeIsPureCAV</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentrotationtypeispurecav">get_CurrentRotationTypeIsPureCAV</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rotational-speed control used by the recorder.
@@ -126,7 +125,7 @@ Retrieves the rotational-speed control used by the recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed">get_CurrentWriteSpeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_currentwritespeed">get_CurrentWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the drive's current write speed.
@@ -135,7 +134,7 @@ Retrieves the drive's current write speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">get_DoNotFinalizeMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">get_DoNotFinalizeMedia</a>
 </td>
 <td align="left" width="63%">
 Determines if the media is left open for writing after writing the audio track.
@@ -144,7 +143,7 @@ Determines if the media is left open for writing after writing the audio track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_expectedtableofcontents">get_ExpectedTableOfContents</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_expectedtableofcontents">get_ExpectedTableOfContents</a>
 </td>
 <td align="left" width="63%">
 Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.
@@ -153,7 +152,7 @@ Retrieves the table of content for the audio tracks that were laid on the media 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_freesectorsonmedia">get_FreeSectorsOnMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_freesectorsonmedia">get_FreeSectorsOnMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of sectors available for adding a new track to the media.
@@ -162,7 +161,7 @@ Retrieves the number of sectors available for adding a new track to the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_numberofexistingtracks">get_NumberOfExistingTracks</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_numberofexistingtracks">get_NumberOfExistingTracks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of existing audio tracks on the media.
@@ -171,7 +170,7 @@ Retrieves the number of existing audio tracks on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder">get_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder">get_Recorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording device to use for the write operation.
@@ -180,7 +179,7 @@ Retrieves the recording device to use for the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">get_RequestedRotationTypeIsPureCAV</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">get_RequestedRotationTypeIsPureCAV</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested rotational-speed control type.
@@ -189,7 +188,7 @@ Retrieves the requested rotational-speed control type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">get_RequestedWriteSpeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">get_RequestedWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested write speed.
@@ -198,7 +197,7 @@ Retrieves the requested write speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">get_SupportedWriteSpeedDescriptors</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">get_SupportedWriteSpeedDescriptors</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
@@ -207,7 +206,7 @@ Retrieves a list of the detailed write configurations supported by the disc reco
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">get_SupportedWriteSpeeds</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">get_SupportedWriteSpeeds</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the write speeds supported by the disc recorder and current media.
@@ -216,7 +215,7 @@ Retrieves a list of the write speeds supported by the disc recorder and current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total sectors available on the media if writing one continuous audio track.
@@ -225,7 +224,7 @@ Retrieves the total sectors available on the media if writing one continuous aud
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_usedsectorsonmedia">get_UsedSectorsOnMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_usedsectorsonmedia">get_UsedSectorsOnMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of used sectors on the media.
@@ -234,7 +233,7 @@ Retrieves the total number of used sectors on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">PrepareMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">PrepareMedia</a>
 </td>
 <td align="left" width="63%">
 Locks the current media for exclusive access. 
@@ -243,7 +242,7 @@ Locks the current media for exclusive access.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled">put_BufferUnderrunFreeDisabled</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_bufferunderrunfreedisabled">put_BufferUnderrunFreeDisabled</a>
 </td>
 <td align="left" width="63%">
 Determines if Buffer Underrun Free Recording is enabled.
@@ -252,7 +251,7 @@ Determines if Buffer Underrun Free Recording is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">put_ClientName</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">put_ClientName</a>
 </td>
 <td align="left" width="63%">
 Sets the friendly name of the client. 
@@ -261,7 +260,7 @@ Sets the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">put_DoNotFinalizeMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">put_DoNotFinalizeMedia</a>
 </td>
 <td align="left" width="63%">
 Determines if the media is left open for writing after writing the audio track.
@@ -270,7 +269,7 @@ Determines if the media is left open for writing after writing the audio track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">put_Recorder</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_recorder">put_Recorder</a>
 </td>
 <td align="left" width="63%">
 Sets the recording device to use for the write operation.
@@ -279,7 +278,7 @@ Sets the recording device to use for the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">ReleaseMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">ReleaseMedia</a>
 </td>
 <td align="left" width="63%">
 Closes the track-writing session and releases the lock.
@@ -288,42 +287,29 @@ Closes the track-writing session and releases the lock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">SetWriteSpeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">SetWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Sets the write speed of the attached disc recorder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create the <b>MsftDiscFormat2TrackAtOnce</b> object in a script, use IMAPI2.MsftDiscFormat2TrackAtOnce as the program identifier when calling <b>CreateObject</b>.
 
-It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="https://docs.microsoft.com/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
-
-
-
+It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>

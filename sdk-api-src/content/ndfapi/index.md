@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ndf
+f1_keywords:
+ - ndfapi
+ - ndfapi/ndfapi
 ---
 
 # Ndfapi.h header
 
 
 ## -description
-
 
 This header is used by Network Diagnostics Framework. For more information, see:
 

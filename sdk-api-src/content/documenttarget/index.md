@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: xps
+f1_keywords:
+ - documenttarget
+ - documenttarget/documenttarget
 ---
 
 # Documenttarget.h header
 
 
 ## -description
-
 
 This header is used by XPS Documents. For more information, see:
 

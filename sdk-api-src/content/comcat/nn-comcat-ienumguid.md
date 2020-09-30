@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
-f1_keywords:
-- comcat/IEnumGUID
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- IEnumGUID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumGUID
+ - comcat/IEnumGUID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - IEnumGUID
 ---
 
 # IEnumGUID interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables clients to enumerate through a collection of class IDs for COM classes.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IEnumGUID</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-ienumguid-clone">Clone</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-ienumguid-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -80,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-ienumguid-next">Next</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-ienumguid-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -89,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-ienumguid-reset">Reset</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-ienumguid-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -98,21 +96,15 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-ienumguid-skip">Skip</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-ienumguid-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-Alternate names for this interface are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542661(v=vs.85)">IEnumCATID</a>.
-
-
-
+Alternate names for this interface are <a href="/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> and <a href="/previous-versions/windows/desktop/legacy/dd542661(v=vs.85)">IEnumCATID</a>.

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ad
+f1_keywords:
+ - adsprop
+ - adsprop/adsprop
 ---
 
 # Adsprop.h header
 
 
 ## -description
-
 
 This header is used by Active Directory Domain Services. For more information, see:
 

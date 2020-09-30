@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
-f1_keywords:
-- ctffunc/ITfFnConfigureRegisterEudc
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ctffunc.h
-api_name:
-- ITfFnConfigureRegisterEudc
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnConfigureRegisterEudc
+ - ctffunc/ITfFnConfigureRegisterEudc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ctffunc.h
+api_name:
+ - ITfFnConfigureRegisterEudc
 ---
 
 # ITfFnConfigureRegisterEudc interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfFnConfigureRegisterEudc</b> interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterEudc</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterEudc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>ITfFnConfigureRegisterEudc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show">Show</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnconfigureregistereudc-show">Show</a>
 </td>
 <td align="left" width="63%">
 Show the EUDC key sequence register UI.
 
 </td>
 </tr>
-</table> 
-
+</table>

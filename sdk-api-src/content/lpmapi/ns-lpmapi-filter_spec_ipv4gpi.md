@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: c1546673-d1b5-4a7f-82d0-a8cc1c7c8752
 ms.date: 12/05/2018
 ms.keywords: Filter_Spec_IPv4GPI, Filter_Spec_IPv4GPI structure [QOS], lpmapi/Filter_Spec_IPv4GPI, qos.filter_spec_ipv4gpi
-f1_keywords:
-- lpmapi/Filter_Spec_IPv4GPI
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- Filter_Spec_IPv4GPI
 targetos: Windows
 req.typenames: Filter_Spec_IPv4GPI
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Filter_Spec_IPv4GPI
+ - lpmapi/Filter_Spec_IPv4GPI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - Filter_Spec_IPv4GPI
 ---
 
 # Filter_Spec_IPv4GPI structure
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Filter_Spec_IPv4GPI</b> structure contains generalized port ID information about an IPv4 FILTERSPEC.
 
-
 ## -struct-fields
-
-
-
 
 ### -field filt_ipaddr
 
-IP address of the source address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
-
+IP address of the source address, in the form of an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
 
 ### -field filt_gpi
 
 Generalized Port Identifier.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>

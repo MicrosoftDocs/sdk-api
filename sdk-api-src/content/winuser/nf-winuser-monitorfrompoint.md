@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c46281bf-7e45-4628-be92-736850225a9e
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromPoint, MonitorFromPoint function [Windows GDI], _win32_MonitorFromPoint, gdi.monitorfrompoint, winuser/MonitorFromPoint
-f1_keywords:
-- winuser/MonitorFromPoint
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-api_name:
-- MonitorFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonitorFromPoint
+ - winuser/MonitorFromPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+api_name:
+ - MonitorFromPoint
 ---
 
 # MonitorFromPoint function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MonitorFromPoint</b> function retrieves a handle to the display monitor that contains a specified point.
-
 
 ## -parameters
 
-
-
-
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
-
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
 
 ### -param dwFlags [in]
 
@@ -108,39 +103,25 @@ Returns a handle to the primary display monitor.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the point is contained by a display monitor, the return value is an <b>HMONITOR</b> handle to that display monitor.
 
 If the point is not contained by a display monitor, the return value depends on the value of <i>dwFlags</i>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>

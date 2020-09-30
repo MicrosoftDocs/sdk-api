@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 862ec077-b192-412a-b80c-6105f503ed21
 ms.date: 12/05/2018
 ms.keywords: ClearCompartment, ClearCompartment method [Text Services Framework], ClearCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],ClearCompartment method, ITfCompartmentMgr.ClearCompartment, ITfCompartmentMgr::ClearCompartment, _tsf_itfcompartmentmgr_clearcompartment_ref, msctf/ITfCompartmentMgr::ClearCompartment, tsf.itfcompartmentmgr_clearcompartment
-f1_keywords:
-- msctf/ITfCompartmentMgr.ClearCompartment
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfCompartmentMgr.ClearCompartment
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartmentMgr::ClearCompartment
+ - msctf/ITfCompartmentMgr::ClearCompartment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfCompartmentMgr.ClearCompartment
 ---
 
 # ITfCompartmentMgr::ClearCompartment
+
 
 ## -description
 
@@ -54,7 +56,7 @@ Removes the specified compartment.
 
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 ### -param rguid [in]
 

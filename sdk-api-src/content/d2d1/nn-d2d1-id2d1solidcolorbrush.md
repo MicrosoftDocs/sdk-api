@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
 ms.date: 12/05/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
-f1_keywords:
-- d2d1/ID2D1SolidColorBrush
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1SolidColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1SolidColorBrush
+ - d2d1/ID2D1SolidColorBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1SolidColorBrush
 ---
 
 # ID2D1SolidColorBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Paints an area with a solid color.
-
 
 ## -inheritance
 
@@ -85,12 +84,9 @@ Retrieves the color of the solid color brush.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Creating_ID2D1SolidColorBrush_Objects"></a><a id="creating_id2d1solidcolorbrush_objects"></a><a id="CREATING_ID2D1SOLIDCOLORBRUSH_OBJECTS"></a>Creating ID2D1SolidColorBrush Objects</h3>
 
@@ -143,12 +139,7 @@ These examples produce the output shown in the following illustration.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
@@ -163,7 +154,4 @@ These examples produce the output shown in the following illustration.
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
- 
-
- 
 

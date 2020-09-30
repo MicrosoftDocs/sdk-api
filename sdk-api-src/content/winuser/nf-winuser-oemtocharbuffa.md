@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtocharbuff.htm
 ms.date: 12/05/2018
 ms.keywords: OemToCharBuff, OemToCharBuff function [Menus and Other Resources], OemToCharBuffA, OemToCharBuffW, _win32_OemToCharBuff, _win32_oemtocharbuff_cpp, menurc.oemtocharbuff, winui._win32_oemtocharbuff, winuser/OemToCharBuff, winuser/OemToCharBuffA, winuser/OemToCharBuffW
-f1_keywords:
-- winuser/OemToCharBuff
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- OemToCharBuff
-- OemToCharBuffA
-- OemToCharBuffW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OemToCharBuffA
+ - winuser/OemToCharBuffA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - OemToCharBuff
+ - OemToCharBuffA
+ - OemToCharBuffW
 ---
 
 # OemToCharBuffA function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszSrc [in]
 
 Type: <b>LPCSTR</b>
 
 One or more characters from the OEM-defined character set.
-
 
 ### -param lpszDst [out]
 
@@ -75,7 +70,6 @@ The destination buffer, which receives the translated string. If the <b>OemToCha
 					<i>lpszDst</i> parameter to the same address as the 
 					<i>lpszSrc</i> parameter. This cannot be done if the <b>OemToCharBuff</b> function is being used as a wide-character function.
 
-
 ### -param cchDstLength [in]
 
 Type: <b>DWORD</b>
@@ -84,26 +78,18 @@ The number of
 					characters to be translated in the buffer identified by the 
 					<i>lpszSrc</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 The return value is always nonzero except when you pass the same address to 
 						<i>lpszSrc</i> and 
 						<i>lpszDst</i> in the wide-character version of the function. In this case the function returns zero and 
-						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
-
-
-
+						<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
 
 ## -remarks
 
-
-
-Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
+Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
 				<i>lpszSrc</i>. The <b>OemToCharBuff</b> function converts all 
 				<i>cchDstLength</i> characters.
 
@@ -116,14 +102,11 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
 
 
 
@@ -131,7 +114,7 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a>
 
 
 
@@ -139,8 +122,4 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

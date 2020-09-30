@@ -4,8 +4,6 @@ title: DML_RESAMPLE_OPERATOR_DESC
 description: Describes a DirectML operator that resamples elements from the source to the destination tensor, using the scale factors to compute the destination tensor size.
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,20 +21,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_RESAMPLE_OPERATOR_DESC
-f1_keywords:
- - directml/DML_RESAMPLE_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_RESAMPLE_OPERATOR_DESC
+f1_keywords:
+ - DML_RESAMPLE_OPERATOR_DESC
+ - directml/DML_RESAMPLE_OPERATOR_DESC
 ---
 
 ## -description
@@ -78,3 +79,4 @@ A pointer to a constant array of **FLOAT** containing the scale factors.
 ## -remarks
 
 ## -see-also
+

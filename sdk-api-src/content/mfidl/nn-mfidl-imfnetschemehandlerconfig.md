@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35
 ms.date: 12/05/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig
-f1_keywords:
-- mfidl/IMFNetSchemeHandlerConfig
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetSchemeHandlerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetSchemeHandlerConfig
+ - mfidl/IMFNetSchemeHandlerConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetSchemeHandlerConfig
 ---
 
 # IMFNetSchemeHandlerConfig interface
@@ -50,14 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures a network scheme plug-in.
-        
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetSchemeHandlerConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetSchemeHandlerConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetSchemeHandlerConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetSchemeHandlerConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +70,7 @@ The <b>IMFNetSchemeHandlerConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">GetNumberOfSupportedProtocols</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">GetNumberOfSupportedProtocols</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of protocols supported by the network scheme plug-in.
@@ -81,7 +79,7 @@ Retrieves the number of protocols supported by the network scheme plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype">GetSupportedProtocolType</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype">GetSupportedProtocolType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the protocol type for a given protocol index.
@@ -90,27 +88,19 @@ Retrieves the protocol type for a given protocol index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-resetprotocolrolloversettings">ResetProtocolRolloverSettings</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-resetprotocolrolloversettings">ResetProtocolRolloverSettings</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/supported-protocols">Supported Protocols</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/supported-protocols">Supported Protocols</a>

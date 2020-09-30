@@ -34,6 +34,7 @@ api_location:
 api_name:
  - GdiplusStartupInputEx::GdiplusStartupInputEx
 f1_keywords:
+ - GdiplusStartupInputEx::GdiplusStartupInputEx
  - gdiplusinit/GdiplusStartupInputEx::GdiplusStartupInputEx
 dev_langs:
  - c++
@@ -51,19 +52,19 @@ The constructor sets the **GdiplusVersion** member to 2. All of the constructor 
 
 Type: **INT**
 
-See [**GdiplusStartupParams**](/windows/win32/api/gdiplusinit/ne-gdiplusinit-gdiplusstartupparams). The default value is **GdiplusStartupDefault** (0).
+See [**GdiplusStartupParams**](./ne-gdiplusinit-gdiplusstartupparams.md). The default value is **GdiplusStartupDefault** (0).
 
 ### -param debugEventCallback
 
-Type: **[DebugEventProc](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc)**
+Type: **[DebugEventProc](./nc-gdiplusinit-debugeventproc.md)**
 
-Pointer to your [**DebugEventProc**](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
+Pointer to your [**DebugEventProc**](./nc-gdiplusinit-debugeventproc.md) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
 
 ### -param suppressBackgroundThread
 
 Type: **BOOL**
 
-Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
+Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
 
 ### -param suppressExternalCodecs
 

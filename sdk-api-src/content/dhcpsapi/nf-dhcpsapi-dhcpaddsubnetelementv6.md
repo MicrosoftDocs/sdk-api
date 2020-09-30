@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV6, DhcpAddSubnetElementV6 function [DHCP], dhcp.dhcpaddsubnetelementv6, dhcpsapi/DhcpAddSubnetElementV6
-f1_keywords:
-- dhcpsapi/DhcpAddSubnetElementV6
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpAddSubnetElementV6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpAddSubnetElementV6
+ - dhcpsapi/DhcpAddSubnetElementV6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpAddSubnetElementV6
 ---
 
 # DhcpAddSubnetElementV6 function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpAddSubnetElementV6</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. 
-
+The <b>DhcpAddSubnetElementV6</b> function  adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
 
 DHCP_IPV6_ADDRESS structure that contains the IP address of the subnet.
-
 
 ### -param AddElementInfo [in]
 
 Pointer to a DHCP_SUBNET_ELEMENT_DATA_V6 structure that contains the element data to add to the subnet. The V5 structure adds support for BOOTP clients.
 
-
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -107,7 +98,3 @@ The specified scope already exists.
 </td>
 </tr>
 </table>
- 
-
-
-

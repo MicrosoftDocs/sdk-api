@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerCollection, ISyncMgrHandlerCollection interface [Windows Shell], ISyncMgrHandlerCollection interface [Windows Shell],described, _shell_ISyncMgrHandlerCollection, shell.ISyncMgrHandlerCollection, syncmgr/ISyncMgrHandlerCollection
-f1_keywords:
-- syncmgr/ISyncMgrHandlerCollection
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrHandlerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrHandlerCollection
+ - syncmgr/ISyncMgrHandlerCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrHandlerCollection
 ---
 
 # ISyncMgrHandlerCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandlerCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandlerCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrHandlerCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrHandlerCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISyncMgrHandlerCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-bindtohandler">BindToHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-bindtohandler">BindToHandler</a>
 </td>
 <td align="left" width="63%">
 Instantiates a specified sync handler when called by Sync Center.
@@ -79,19 +78,16 @@ Instantiates a specified sync handler when called by Sync Center.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">GetHandlerEnumerator</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">GetHandlerEnumerator</a>
 </td>
 <td align="left" width="63%">
 Gets an enumerator that provides access to the IDs of sync handlers exposed to and managed by the user.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The author of a sync handler implements this interface to support multiple devices or computers and sync their details independently. Sync Center uses the handler collection to request instantiation of individual sync handlers. <b>ISyncMgrHandlerCollection</b> also allows a sync handler author to add handlers dynamically to Sync Center as opposed to registering each one individually in the registry.
 
@@ -131,7 +127,3 @@ STDMETHODIMP CMyHandlerCollection::BindToHandler(
 }
 
 ```
-
-
-
-

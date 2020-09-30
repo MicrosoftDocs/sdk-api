@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10
 ms.date: 12/05/2018
 ms.keywords: NdfCreateNetConnectionIncident, NdfCreateNetConnectionIncident function [NDF], ndf.ndfcreatenetconnectionincident, ndfapi/NdfCreateNetConnectionIncident
-f1_keywords:
-- ndfapi/NdfCreateNetConnectionIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateNetConnectionIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateNetConnectionIncident
+ - ndfapi/NdfCreateNetConnectionIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateNetConnectionIncident
 ---
 
 # NdfCreateNetConnectionIncident function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCreateNetConnectionIncident</b> function diagnoses connectivity issues using the NetConnection helper class.
 
-
 ## -parameters
-
-
-
 
 ### -param handle [out]
 
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
-
 
 ### -param id
 
@@ -73,10 +68,7 @@ Identifier of the network interface that the caller would like to create the inc
 
 The NULL GUID {00000000-0000-0000-0000-000000000000} may be used if the caller does not want to specify an interface. The system will attempt to determine the most appropriate interface based on the current state of the system.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -132,7 +124,4 @@ The handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

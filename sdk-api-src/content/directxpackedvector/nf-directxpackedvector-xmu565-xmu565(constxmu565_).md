@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(const XMU565 &), XMU565::XMU565, XMU565::XMU565(const XMU565 &), dxmath.xmu565_ctor_1
-f1_keywords:
-- directxpackedvector/XMU565.XMU565
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU565::XMU565
+ - directxpackedvector/XMU565::XMU565
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(const XMU565 &)
+
 
 ## -description
 
 A constructor for <code>XMU565</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>.
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div>
 
@@ -64,6 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
+<a href="/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>

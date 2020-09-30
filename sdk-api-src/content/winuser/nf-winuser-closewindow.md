@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\closewindow.htm
 ms.date: 12/05/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
-f1_keywords:
-- winuser/CloseWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- CloseWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseWindow
+ - winuser/CloseWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - CloseWindow
 ---
 
 # CloseWindow function
@@ -49,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Minimizes (but does not destroy) the specified window. 
-
+Minimizes (but does not destroy) the specified window.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window to be minimized. 
-
+A handle to the window to be minimized.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-To destroy a window, an application must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function. 
-
-
-
+To destroy a window, an application must use the <a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows">ArrangeIconicWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows">ArrangeIconicWindows</a>
 
 
 
@@ -100,15 +82,15 @@ To destroy a window, an application must use the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openicon">OpenIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openicon">OpenIcon</a>
 
 
 
@@ -116,8 +98,4 @@ To destroy a window, an application must use the <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

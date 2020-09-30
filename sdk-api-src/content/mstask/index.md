@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: taskschd
+f1_keywords:
+ - mstask
+ - mstask/mstask
 ---
 
 # Mstask.h header
 
 
 ## -description
-
 
 This header is used by Task Scheduler. For more information, see:
 

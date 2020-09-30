@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
-f1_keywords:
-- natupnp/IStaticPortMapping
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping
+ - natupnp/IStaticPortMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping
 ---
 
 # IStaticPortMapping interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IStaticPortMapping</b> interface provides methods to retrieve and change the information for a particular port mapping.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStaticPortMapping</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IStaticPortMapping</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStaticPortMapping</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IStaticPortMapping</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IStaticPortMapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editdescription">EditDescription</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editdescription">EditDescription</a>
 </td>
 <td align="left" width="63%">
 Changes the description for this port mapping.
@@ -80,7 +79,7 @@ Changes the description for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalclient">EditInternalClient</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalclient">EditInternalClient</a>
 </td>
 <td align="left" width="63%">
 Changes the internal client for this port mapping.
@@ -89,7 +88,7 @@ Changes the internal client for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalport">EditInternalPort</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalport">EditInternalPort</a>
 </td>
 <td align="left" width="63%">
 Changes the internal port for this port mapping.
@@ -98,7 +97,7 @@ Changes the internal port for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-enable">Enable</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables this port mapping.
@@ -107,7 +106,7 @@ Enables or disables this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_description">get_Description</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_description">get_Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description for this port mapping.
@@ -116,7 +115,7 @@ Retrieves the description for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_enabled">get_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether this port mapping is enabled.
@@ -125,7 +124,7 @@ Retrieves whether this port mapping is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_externalipaddress">get_ExternalIPAddress</a>
+<a href="/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_externalipaddress">get_ExternalIPAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the external IP address for this port mapping.
@@ -134,7 +133,7 @@ Retrieves the external IP address for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_externalport">get_ExternalPort</a>
+<a href="/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_externalport">get_ExternalPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the external port for this port mapping.
@@ -143,7 +142,7 @@ Retrieves the external port for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_internalclient">get_InternalClient</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_internalclient">get_InternalClient</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the internal client for this port mapping.
@@ -152,7 +151,7 @@ Retrieves the name of the internal client for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_internalport">get_InternalPort</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_internalport">get_InternalPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the internal port for this port mapping.
@@ -161,40 +160,27 @@ Retrieves the internal port for this port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_protocol">get_Protocol</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_protocol">get_Protocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the protocol for this port mapping.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The NAT API with UPnP technology uses the combination of the external port and the protocol to identify the port mapping.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebitmap.htm
 ms.date: 12/05/2018
 ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap function [Windows Controls], TMT_DIBDATA, TMT_GLYPHDIBDATA, TMT_HBITMAP, controls.GetThemeBitmap, controls.inet_GetThemeBitmap, inet_GetThemeBitmap, inet_GetThemeBitmap_cpp, uxtheme/GetThemeBitmap
-f1_keywords:
-- uxtheme/GetThemeBitmap
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- GetThemeBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeBitmap
+ - uxtheme/GetThemeBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - GetThemeBitmap
 ---
 
 # GetThemeBitmap function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the bitmap associated with a particular theme, part, state, and property.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
@@ -67,20 +63,17 @@ Type: <b>HTHEME</b>
 
 A handle to theme data.
 
-
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-The part that contains the bitmap. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
+The part that contains the bitmap. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
 The state of the part.
-
 
 ### -param iPropId [in]
 
@@ -125,12 +118,10 @@ Not currently supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 The flags that specify how the bitmap is to be retrieved. Can be one of the following values.
 
@@ -170,32 +161,19 @@ Retrieves a copy of the bitmap.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phBitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a>*</b>
 
 A pointer that receives a handle to the requested bitmap.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-If <i>dwFlags</i> is set to <b>GBF_COPY</b>, release the bitmap stored in <i>phBitmap</i> when no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.
-
-
-
+If <i>dwFlags</i> is set to <b>GBF_COPY</b>, release the bitmap stored in <i>phBitmap</i> when no longer needed by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.

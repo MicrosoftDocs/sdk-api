@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbCAContractInformationDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCAContractInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCAContractInformationDescriptor
+ - dvbsiparser/IIsdbCAContractInformationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCAContractInformationDescriptor
 ---
 
 # IIsdbCAContractInformationDescriptor interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access  (CA) contract information descriptor. The conditional access contract information  descriptor appears in the ISDB Service Information as part of the event information iable (EIT) or service description table (SDT). The <b>IIsdbaCAContractInformationDescriptor</b> Interface is used to check whether a program scheduled
-for broadcast is a flator tiered-type service or event, or a pay-per-view event, and to check whether the program can be reserved for viewing or recording in advance. 
-
+for broadcast is a flator tiered-type service or event, or a pay-per-view event, and to check whether the program can be reserved for viewing or recording in advance.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAContractInformationDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAContractInformationDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAContractInformationDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAContractInformationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IIsdbCAContractInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcasystemid">GetCASystemId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcasystemid">GetCASystemId</a>
 </td>
 <td align="left" width="63%">
 Gets the system identifier from a conditional access contract information descriptor.
@@ -80,7 +79,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcaunitid">GetCAUnitId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcaunitid">GetCAUnitId</a>
 </td>
 <td align="left" width="63%">
  Gets the identifier for a billing or nonbilling unit from a conditional access contract information descriptor.
@@ -89,7 +88,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfo">GetContractVerificationInfo</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfo">GetContractVerificationInfo</a>
 </td>
 <td align="left" width="63%">
  Gets contract verification data from  a conditional access contract information descriptor.
@@ -98,7 +97,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfolength">GetContractVerificationInfoLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcontractverificationinfolength">GetContractVerificationInfoLength</a>
 </td>
 <td align="left" width="63%">
  Gets the length of the contract verification information from a conditional access contract information descriptor.
@@ -107,7 +106,7 @@ Gets the system identifier from a conditional access contract information descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of components in  a conditional access contract information descriptor.
@@ -116,7 +115,7 @@ Gets the number of components in  a conditional access contract information desc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getfeenamew">GetFeeNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getfeenamew">GetFeeNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the name of a fee from a conditional access contract information descriptor in Unicode-text format.
@@ -125,7 +124,7 @@ Gets the name of a fee from a conditional access contract information descriptor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of a conditional access contract information descriptor.
@@ -134,7 +133,7 @@ Gets the name of a fee from a conditional access contract information descriptor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getrecordcomponenttag">GetRecordComponentTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getrecordcomponenttag">GetRecordComponentTag</a>
 </td>
 <td align="left" width="63%">
 Gets the record component tag from a conditional access contract information descriptor.
@@ -143,12 +142,11 @@ Gets the record component tag from a conditional access contract information des
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a conditional access contract information descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>

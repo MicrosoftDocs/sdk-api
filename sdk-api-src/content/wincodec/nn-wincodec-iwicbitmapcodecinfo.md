@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 502a94bf-3ec4-44d2-b0de-9994f2f9861f
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo, IWICBitmapCodecInfo interface [Windows Imaging Component], IWICBitmapCodecInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapcodecinfo, wic._wic_codec_iwicbitmapcodecinfo, wincodec/IWICBitmapCodecInfo
-f1_keywords:
-- wincodec/IWICBitmapCodecInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapCodecInfo
+ - wincodec/IWICBitmapCodecInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapCodecInfo
 ---
 
 # IWICBitmapCodecInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a particular codec.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapCodecInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICBitmapCodecInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapCodecInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICBitmapCodecInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWICBitmapCodecInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportanimation">DoesSupportAnimation</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportanimation">DoesSupportAnimation</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the codec supports animation.
@@ -79,7 +78,7 @@ Retrieves a value indicating whether the codec supports animation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportchromakey">DoesSupportChromakey</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportchromakey">DoesSupportChromakey</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the codec supports chromakeys.
@@ -88,7 +87,7 @@ Retrieves a value indicating whether the codec supports chromakeys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportlossless">DoesSupportLossless</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportlossless">DoesSupportLossless</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the codec supports lossless formats.
@@ -97,7 +96,7 @@ Retrieves a value indicating whether the codec supports lossless formats.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportmultiframe">DoesSupportMultiframe</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-doessupportmultiframe">DoesSupportMultiframe</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the codec supports multi frame images.
@@ -106,7 +105,7 @@ Retrieves a value indicating whether the codec supports multi frame images.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getcolormanagementversion">GetColorManagementVersion</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getcolormanagementversion">GetColorManagementVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color manangement version number the codec supports.
@@ -115,7 +114,7 @@ Retrieves the color manangement version number the codec supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getcontainerformat">GetContainerFormat</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getcontainerformat">GetContainerFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the container GUID associated with the codec.
@@ -124,7 +123,7 @@ Retrieves the container GUID associated with the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemanufacturer">GetDeviceManufacturer</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemanufacturer">GetDeviceManufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device manufacture associated with the codec.
@@ -133,7 +132,7 @@ Retrieves the name of the device manufacture associated with the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemodels">GetDeviceModels</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getdevicemodels">GetDeviceModels</a>
 </td>
 <td align="left" width="63%">
 Retrieves a comma delimited list of device models associated with the codec.
@@ -142,7 +141,7 @@ Retrieves a comma delimited list of device models associated with the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getfileextensions">GetFileExtensions</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getfileextensions">GetFileExtensions</a>
 </td>
 <td align="left" width="63%">
 Retrieves a comma delimited list of the file name extensions associated with the codec.
@@ -151,7 +150,7 @@ Retrieves a comma delimited list of the file name extensions associated with the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getmimetypes">GetMimeTypes</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getmimetypes">GetMimeTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a comma delimited sequence of mime types associated with the codec.
@@ -160,7 +159,7 @@ Retrieves a comma delimited sequence of mime types associated with the codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getpixelformats">GetPixelFormats</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-getpixelformats">GetPixelFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel formats the codec supports.
@@ -169,35 +168,27 @@ Retrieves the pixel formats the codec supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-matchesmimetype">MatchesMimeType</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecinfo-matchesmimetype">MatchesMimeType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the given mime type matches the mime type of the codec.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

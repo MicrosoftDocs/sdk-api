@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
 ms.date: 12/05/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
-f1_keywords:
-- shobjidl_core/SHGetNameFromIDList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- windows.storage.dll
-- API-MS-Win-Shell-Namespace-L1-1-0.dll
-api_name:
-- SHGetNameFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetNameFromIDList
+ - shobjidl_core/SHGetNameFromIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - windows.storage.dll
+ - API-MS-Win-Shell-Namespace-L1-1-0.dll
+api_name:
+ - SHGetNameFromIDList
 ---
 
 # SHGetNameFromIDList function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the display name of an item identified by its IDList.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
@@ -66,13 +62,11 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A PIDL that identifies the item.
 
-
 ### -param sigdnName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a> enumeration that specifies the type of display name to retrieve.
-
+A value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a> enumeration that specifies the type of display name to retrieve.
 
 ### -param ppszName [out]
 
@@ -80,23 +74,12 @@ Type: <b>PWSTR*</b>
 
 A value that, when this function returns successfully, receives the address of a pointer to the retrieved display name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-It is the responsibility of the caller to free the string pointed to by <i>ppszName</i> when it is no longer needed. Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> on *<i>ppszName</i> to free the memory.
-
-
-
+It is the responsibility of the caller to free the string pointed to by <i>ppszName</i> when it is no longer needed. Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> on *<i>ppszName</i> to free the memory.

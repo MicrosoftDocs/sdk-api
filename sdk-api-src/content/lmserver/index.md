@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: netmgmt
+f1_keywords:
+ - lmserver
+ - lmserver/lmserver
 ---
 
 # Lmserver.h header
 
 
 ## -description
-
 
 This header is used by Network Management. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2D227167-68DC-4A43-8665-9A253BD66401
 ms.date: 12/05/2018
 ms.keywords: MFCameraExtrinsic_CalibratedTransform, MFCameraExtrinsic_CalibratedTransform structure [Media Foundation], PMFCameraExtrinsic_CalibratedTransform, PMFCameraExtrinsic_CalibratedTransform structure pointer [Media Foundation], mf.mfcameraextrinsic_calibratedtransform, mfapi/MFCameraExtrinsic_CalibratedTransform, mfapi/PMFCameraExtrinsic_CalibratedTransform
-f1_keywords:
-- mfapi/MFCameraExtrinsic_CalibratedTransform
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- MFCameraExtrinsic_CalibratedTransform
 targetos: Windows
 req.typenames: MFCameraExtrinsic_CalibratedTransform
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFCameraExtrinsic_CalibratedTransform
+ - mfapi/_MFCameraExtrinsic_CalibratedTransform
+ - MFCameraExtrinsic_CalibratedTransform
+ - mfapi/MFCameraExtrinsic_CalibratedTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - MFCameraExtrinsic_CalibratedTransform
 ---
 
 # MFCameraExtrinsic_CalibratedTransform structure
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 A transform describing the location of a camera relative to other cameras or an established external reference.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CalibrationId
 
 A reference GUID identifying the calibration process for the data, allowing different consumers to identify calibration data from the same process.
 
-
 ### -field Position
 
 The transform position.
-
 
 ### -field Orientation
 
 The transform rotation.
 
-
 ## -remarks
-
-
 
 The <b>Position</b> value should be expressed in real-world coordinates in units of meters. The coordinate system of both position and orientation should be right-handed Cartesian as shown in the following diagram. 
 
@@ -92,7 +85,7 @@ The <b>Position</b> value should be expressed in real-world coordinates in units
 ### Windows Mixed Reality devices
 <p class="note">Sensors attached to a Windows Mixed Reality device (e.g. a HoloLens) express their calibration using the opposite convention, so the position and orientation indicate the location of the <em>sensor</em> in the <em>device's</em> coordinate system. For example, a sensor which is located 5 centimeters to the right of the origin of the device will have a <b>Position</b> of {0.05, 0, 0} because that is the position of the sensor, relative to the device. Likewise, if a sensor is rotated +10 degrees around the Y axis from the device (i.e. to the left), then the <b>Orientation</b> value will be a rotation of +10 degrees about the Y axis, because it represents the orientation of the sensor, relative to the device.
   
-In addition, the <b>CalibrationId</b> can be passed to <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createlocatorfornode">SpatialGraphInteropPreview.CreateLocatorForNode</a> to create a <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatiallocator">SpatialLocator</a> which represents the Windows Mixed Reality device. This can be used to compute the location of the sensor in space for a given frame, by querying the location of the <b>SpatialLocator</b> at the time the frame was captured, and combining this with the the <b>Position</b> and <b>Orientation</b> of the <b>MFCameraExtrinsic_CalibratedTransform</b>. To query the device's location for a frame, pass the timestamp of the frame given by <a href="/windows/win32/api/mfobjects/nf-mfobjects-imfsample-getsampletime">IMFSample::GetSampleTime</a> to <a href="https://docs.microsoft.com/uwp/api/windows.perception.perceptiontimestamphelper.fromsystemrelativetargettime">PerceptionTimestampHelper.FromSystemRelativeTargetTime</a>, and pass the resulting <b>PerceptionTimestamp</b> to <a href="https://docs.microsoft.com/uwp/api/windows.perception.spatial.spatiallocator.trylocateattimestamp">SpatialLocator.TryLocateAtTimestamp</a>.
+In addition, the <b>CalibrationId</b> can be passed to <a href="/uwp/api/windows.perception.spatial.preview.spatialgraphinteroppreview.createlocatorfornode">SpatialGraphInteropPreview.CreateLocatorForNode</a> to create a <a href="/uwp/api/windows.perception.spatial.spatiallocator">SpatialLocator</a> which represents the Windows Mixed Reality device. This can be used to compute the location of the sensor in space for a given frame, by querying the location of the <b>SpatialLocator</b> at the time the frame was captured, and combining this with the the <b>Position</b> and <b>Orientation</b> of the <b>MFCameraExtrinsic_CalibratedTransform</b>. To query the device's location for a frame, pass the timestamp of the frame given by <a href="/windows/win32/api/mfobjects/nf-mfobjects-imfsample-getsampletime">IMFSample::GetSampleTime</a> to <a href="/uwp/api/windows.perception.perceptiontimestamphelper.fromsystemrelativetargettime">PerceptionTimestampHelper.FromSystemRelativeTargetTime</a>, and pass the resulting <b>PerceptionTimestamp</b> to <a href="/uwp/api/windows.perception.spatial.spatiallocator.trylocateattimestamp">SpatialLocator.TryLocateAtTimestamp</a>.
 
 To determine whether an <b>IMFSample</b> came frame a sensor attached to a Windows Mixed Reality device, look for the following property attached to the frame, set to `MFCameraExtrinsicsCalibrationType_SpatialGraphDynamicNode`:
 
@@ -108,15 +101,6 @@ DEFINE_GUID(MFSampleExtension_CameraExtrinsicsCalibrationType, 0x3524e3b0, 0xc35
 
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

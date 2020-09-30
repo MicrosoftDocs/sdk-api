@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: abc9fecf-7754-4f32-974f-5febfc68a6a7
 ms.date: 12/05/2018
 ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSelection, InkRecognitionAlternatesSelection enumeration [Tablet PC], abc9fecf-7754-4f32-974f-5febfc68a6a7, msinkaut/IRAS_All, msinkaut/IRAS_DefaultCount, msinkaut/IRAS_Start, msinkaut/InkRecognitionAlternatesSelection, tablet.inkrecognitionalternatesselection
-f1_keywords:
-- msinkaut/InkRecognitionAlternatesSelection
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkRecognitionAlternatesSelection
 targetos: Windows
 req.typenames: InkRecognitionAlternatesSelection
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkRecognitionAlternatesSelection
+ - msinkaut/InkRecognitionAlternatesSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkRecognitionAlternatesSelection
 ---
 
 # InkRecognitionAlternatesSelection enumeration
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Not implemented.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IRAS_Start
 
 Reserved.
 
-
 ### -field IRAS_DefaultCount
 
 Reserved.
-
 
 ### -field IRAS_All
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
 ms.date: 12/05/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
-f1_keywords:
-- certenroll/IAlternativeNames
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IAlternativeNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlternativeNames
+ - certenroll/IAlternativeNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IAlternativeNames
 ---
 
 # IAlternativeNames interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAlternativeNames</b> interface contains methods and properties that enable you to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> objects.
-
+The <b>IAlternativeNames</b> interface contains methods and properties that enable you to manage a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeNames</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeNames</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeNames</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeNames</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IAlternativeNames</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-add">Add</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -80,7 +79,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-clear">Clear</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -89,7 +88,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-remove">Remove</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index number.
@@ -106,7 +105,7 @@ Removes an object from the collection by index number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -118,7 +117,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_count">Count</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_count">Count</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Retrieves the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_itembyindex">ItemByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -139,24 +138,16 @@ Retrieves an object from the collection by index number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

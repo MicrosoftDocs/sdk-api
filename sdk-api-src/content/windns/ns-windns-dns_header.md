@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER'
-f1_keywords:
-- windns/DNS_HEADER
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_HEADER
 targetos: Windows
 req.typenames: DNS_HEADER, *PDNS_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DNS_HEADER
+ - windns/_DNS_HEADER
+ - PDNS_HEADER
+ - windns/PDNS_HEADER
+ - DNS_HEADER
+ - windns/DNS_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_HEADER
 ---
 
 # DNS_HEADER structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DNS_HEADER</b> structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Xid
 
 A value that specifies the unique DNS message identifier.
-
 
 ### -field RecursionDesired
 
@@ -95,8 +94,6 @@ Use recursive name query.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Truncation
 
@@ -130,8 +127,6 @@ The message is truncated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Authoritative
 
@@ -165,13 +160,10 @@ The DNS server is authoritative in the zone.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Opcode
 
 A value that specifies the operation code to be taken on the DNS message as defined in section 4.1.1 of <a href="https://www.ietf.org/rfc/rfc1035.txt">RFC 1035</a> as the <b>OPCODE</b> field.
-
 
 ### -field IsResponse
 
@@ -205,13 +197,10 @@ The DNS message is a response.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ResponseCode
 
-The <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Response Code</a> of the message.
-
+The <a href="/windows/desktop/DNS/dns-constants">DNS Response Code</a> of the message.
 
 ### -field CheckingDisabled
 
@@ -245,8 +234,6 @@ Checking is disabled on the DNS resolver.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthenticatedData
 
@@ -280,13 +267,10 @@ The DNS data is authenticated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved. Do not use.
-
 
 ### -field RecursionAvailable
 
@@ -320,36 +304,23 @@ Recursive name query is supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field QuestionCount
 
 The number of queries contained in the question section of the DNS message.
 
-
 ### -field AnswerCount
 
 The number of resource records (RRs) contained in the answer section of the DNS message.
-
 
 ### -field NameServerCount
 
 The number of DNS name server RRs contained in the authority section of the DNS message. This value is the number of DNS name servers the message has traversed in its search for resolution.
 
-
 ### -field AdditionalCount
 
 Reserved. Do not use.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
-

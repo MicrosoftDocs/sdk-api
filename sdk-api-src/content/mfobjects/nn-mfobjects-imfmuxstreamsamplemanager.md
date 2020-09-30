@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
-f1_keywords:
-- mfobjects/IMFMuxStreamSampleManager
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamSampleManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamSampleManager
+ - mfobjects/IMFMuxStreamSampleManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamSampleManager
 ---
 
 # IMFMuxStreamSampleManager interface
@@ -52,13 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides the ability to retrieve <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> objects for individual substreams within the output of a multiplexed media source.
-
+Provides the ability to retrieve <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> objects for individual substreams within the output of a multiplexed media source.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMuxStreamSampleManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamSampleManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMuxStreamSampleManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMuxStreamSampleManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,16 +72,16 @@ The <b>IMFMuxStreamSampleManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getsample">GetSample</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getsample">GetSample</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamconfiguration">GetStreamConfiguration</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamconfiguration">GetStreamConfiguration</a>
 </td>
 <td align="left" width="63%">
 Gets the active stream configuration for the media source, which defines the set of substreams that are included  the  multiplexed output.
@@ -91,12 +90,11 @@ Gets the active stream configuration for the media source, which defines the set
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamcount">GetStreamCount</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmuxstreamsamplemanager-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of substreams managed by the multiplexed media source.
 
 </td>
 </tr>
-</table> 
-
+</table>

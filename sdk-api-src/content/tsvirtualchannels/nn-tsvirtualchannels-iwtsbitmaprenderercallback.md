@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bdb8280b-6ebc-47e4-9789-47e3bda96efc
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRendererCallback, IWTSBitmapRendererCallback interface [Remote Desktop Services], IWTSBitmapRendererCallback interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderercallback, tsvirtualchannels/IWTSBitmapRendererCallback
-f1_keywords:
-- tsvirtualchannels/IWTSBitmapRendererCallback
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tsvirtualchannels.h
-api_name:
-- IWTSBitmapRendererCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSBitmapRendererCallback
+ - tsvirtualchannels/IWTSBitmapRendererCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tsvirtualchannels.h
+api_name:
+ - IWTSBitmapRendererCallback
 ---
 
 # IWTSBitmapRendererCallback interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-A dynamic virtual channel plug-in implements this interface to be notified when the size of  the rendering area changes. A pointer to this interface is provided to the rendering service by using the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">IWTSBitmapRenderService::GetMappedRenderer</a> method.
-
+A dynamic virtual channel plug-in implements this interface to be notified when the size of  the rendering area changes. A pointer to this interface is provided to the rendering service by using the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderservice-getmappedrenderer">IWTSBitmapRenderService::GetMappedRenderer</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRendererCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRendererCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSBitmapRendererCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSBitmapRendererCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>IWTSBitmapRendererCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderercallback-ontargetsizechanged">OnTargetSizeChanged</a>
+<a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderercallback-ontargetsizechanged">OnTargetSizeChanged</a>
 </td>
 <td align="left" width="63%">
 Called when the size of the render target has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>

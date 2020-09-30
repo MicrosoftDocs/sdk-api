@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 101744ea-97bc-4f92-88b0-fcdf0e4aaf4e
 ms.date: 12/05/2018
 ms.keywords: CreateDxgiSurfaceRenderTarget, CreateDxgiSurfaceRenderTarget methods [Direct2D], ID2D1Factory.CreateDxgiSurfaceRenderTarget, ID2D1Factory::CreateDxgiSurfaceRenderTarget, d2d1/CreateDxgiSurfaceRenderTarget, direct2d.id2d1factory_createdxgisurfacerendertarget
-f1_keywords:
-- d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory::CreateDxgiSurfaceRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory::CreateDxgiSurfaceRenderTarget
+ - d2d1/ID2D1Factory::CreateDxgiSurfaceRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory::CreateDxgiSurfaceRenderTarget
 ---
 
 ## -description
 
-Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface. 
+Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 
 ## -parameters
 
@@ -128,7 +129,7 @@ hr = m_pSwapChain->GetBuffer(
 
 ## -see-also
 
-[CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
+[CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES &,ID2D1RenderTarget)](./nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget).md)
 
 <a href="/windows/win32/Direct2D/direct2d-and-direct3d-interoperation-overview">Direct2D and Direct3D Interoperability Overview</a>
 

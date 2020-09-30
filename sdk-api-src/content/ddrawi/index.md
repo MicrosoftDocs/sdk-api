@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: display
+f1_keywords:
+ - ddrawi
+ - ddrawi/ddrawi
 ---
 
 # Ddrawi.h header
 
 
 ## -description
-
 
 This header is used by Display Devices Reference. For more information, see:
 

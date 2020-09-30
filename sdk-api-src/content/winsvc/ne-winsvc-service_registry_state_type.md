@@ -27,6 +27,9 @@ api_location:
  - winsvc.h
 api_name:
  - SERVICE_REGISTRY_STATE_TYPE
+f1_keywords:
+ - SERVICE_REGISTRY_STATE_TYPE
+ - winsvc/SERVICE_REGISTRY_STATE_TYPE
 ---
 
 ## -description
@@ -55,3 +58,4 @@ Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc
 ## -see-also
 
 [GetServiceRegistryStateKey](/windows/win32/api/winsvc/ne-winsvc-getserviceregistrystatekey)
+

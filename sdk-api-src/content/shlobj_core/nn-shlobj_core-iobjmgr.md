@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c0556a87-2be5-43dc-9ca6-dfbdae7e7137
 ms.date: 12/05/2018
 ms.keywords: IObjMgr, IObjMgr interface [Windows Shell], IObjMgr interface [Windows Shell],described, _win32_IObjMgr, shell.IObjMgr, shlobj_core/IObjMgr
-f1_keywords:
-- shlobj_core/IObjMgr
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IObjMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjMgr
+ - shlobj_core/IObjMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IObjMgr
 ---
 
 # IObjMgr interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow a client to append or remove an object from a collection of objects managed by a server object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IObjMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append">Append</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append">Append</a>
 </td>
 <td align="left" width="63%">
 Appends an object to the collection of managed objects.
@@ -79,23 +78,17 @@ Appends an object to the collection of managed objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-remove">Remove</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection of managed objects.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is implemented by objects that manage a collection of other objects. It is exported to allow clients of the object to request that objects be added to or removed from the collection.
 
 Use this interface to add or delete an object from the server object's collection of managed objects.
-
-
-

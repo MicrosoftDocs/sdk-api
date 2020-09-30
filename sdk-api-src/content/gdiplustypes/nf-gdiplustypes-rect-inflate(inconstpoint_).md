@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectinflatemethods\inflate_0point.htm
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate method [GDI+], Inflate method [GDI+],Rect class, Rect class [GDI+],Inflate method, Rect.Inflate, Rect.Inflate(IN const Point &), Rect.Inflate(const Point&), Rect::Inflate, Rect::Inflate(IN const Point &), _gdiplus_CLASS_Rect_Inflate_point_, gdiplus._gdiplus_CLASS_Rect_Inflate_point_
-f1_keywords:
-- gdiplustypes/Rect.Inflate
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Rect.Inflate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Rect::Inflate
+ - gdiplustypes/Rect::Inflate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Rect.Inflate
 ---
 
 # Rect::Inflate(IN const Point &)
@@ -50,48 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Rect::Inflate</b> method expands the rectangle by the value of <i>point</i>.<b>X</b> on the left and right edges, and by the value of 
 			<i>point</i>.<b>Y</b> on the top and bottom edges.
 
-
 ## -parameters
-
-
-
 
 ### -param point [in]
 
 Type: <b>const Point&amp;</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object whose 
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object whose 
 					<b>X</b> data member specifies the amount to expand the rectangle on the left and right edges, and whose 
-					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges. 
-
+					<b>Y</b> data member specifies the amount to expand the rectangle on the top and bottom edges.
 
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

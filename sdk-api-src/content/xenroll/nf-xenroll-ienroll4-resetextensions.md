@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],resetExtensions method, IEnroll4.resetExtensions, IEnroll4::resetExtensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],IEnroll4 interface, security.ienroll4_resetextensions, xenroll/IEnroll4::resetExtensions
-f1_keywords:
-- xenroll/IEnroll4.resetExtensions
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4.resetExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4::resetExtensions
+ - xenroll/IEnroll4::resetExtensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4.resetExtensions
 ---
 
 # IEnroll4::resetExtensions
@@ -49,26 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>resetExtensions</b> method removes all extensions from the request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
-
+The <b>resetExtensions</b> method removes all extensions from the request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

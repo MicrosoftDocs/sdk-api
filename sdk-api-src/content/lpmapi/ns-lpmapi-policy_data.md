@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
 ms.date: 12/05/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
-f1_keywords:
-- lpmapi/POLICY_DATA
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- POLICY_DATA
 targetos: Windows
 req.typenames: POLICY_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - POLICY_DATA
+ - lpmapi/POLICY_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - POLICY_DATA
 ---
 
 # POLICY_DATA structure
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>POLICY_DATA</b> structure contains policy data for RSVP messages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PolicyObjHdr
 
-Policy object header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
-
+Policy object header, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field usPeOffset
 
 Offset to the beginning of Policy Elements from the beginning of Policy Data.
 
-
 ### -field usReserved
 
 Reserved. Do not use.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>

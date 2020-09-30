@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 309b2c83-4480-421c-ae90-9cbe7ac11055
 ms.date: 12/05/2018
 ms.keywords: GetSourceForgottenKnowledge, GetSourceForgottenKnowledge method [Windows Sync], GetSourceForgottenKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetSourceForgottenKnowledge method, ISyncChangeBatchBase.GetSourceForgottenKnowledge, ISyncChangeBatchBase::GetSourceForgottenKnowledge, winsync.isyncchangebatchbase_getsourceforgottenknowledge, winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
-f1_keywords:
-- winsync/ISyncChangeBatchBase.GetSourceForgottenKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.GetSourceForgottenKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::GetSourceForgottenKnowledge
+ - winsync/ISyncChangeBatchBase::GetSourceForgottenKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.GetSourceForgottenKnowledge
 ---
 
 # ISyncChangeBatchBase::GetSourceForgottenKnowledge
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the forgotten knowledge of the source replica.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSourceForgottenKnowledge [out]
 
 Returns the forgotten knowledge of the source replica.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -97,22 +90,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
