@@ -80,33 +80,41 @@ If the window was not brought to the foreground, the return value is zero.
 
 ## -remarks
 
-The system restricts which processes can set the foreground window. A process can set the foreground window by calling **SetForegroundWindow** only if:
+The system restricts which processes can set the foreground window.
+A process can set the foreground window by calling **SetForegroundWindow** only if:
 
 * At least one of the following conditions is true:
   * The calling process is the *foreground process* -
     the process that created the previous foreground window.
   * The calling process was started by the foreground process.
-  * There is no foreground process.
+  * There is currently no foreground window, and thus no foreground process.
   * The calling process received the last input event.
   * Either the foreground process or the calling process is being debugged.
 * And all of the following conditions are true:
   * The calling process belongs to a desktop application,
     not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
-  * The foreground has not been locked by a previous call to
-    [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md).
+  * The foreground process has not disabled calls to **SetForegroundWindow**
+    by a previous call to the [**LockSetForegroundWindow**](
+    nf-winuser-locksetforegroundwindow.md) function.
   * The foreground lock time-out has expired (see
     [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](
     nf-winuser-systemparametersinfoa.md#SPI_GETFOREGROUNDLOCKTIMEOUT)).
   * No menus are active.
 
-This is not an exhaustive list of conditions; processes may be be allowed
-or denied the right to set the foreground window for reasons not given here.
+It is possible for a process to be denied the right to set the foreground window
+even if it meets these conditions.
 
 An application cannot force a window to the foreground while the user is working with another window. Instead, Windows flashes the taskbar button of the window to notify the user.
 
-A process that can set the foreground window can enable another process to set the foreground window by calling the [**AllowSetForegroundWindow**](nf-winuser-allowsetforegroundwindow.md) function. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
+A process that can set the foreground window can enable another process to set the foreground window
+by calling the [**AllowSetForegroundWindow**](nf-winuser-allowsetforegroundwindow.md) function.
+The process specified by the *dwProcessId* parameter to **AllowSetForegroundWindow**
+loses the ability to set the foreground window the next time that either the user generates input,
+unless the input is directed at that process, or the next time a process calls
+**AllowSetForegroundWindow**, unless the same process is specified as in the previous call to
+**AllowSetForegroundWindow**.
 
-The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function. 
+The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
 
 ## -see-also
 
