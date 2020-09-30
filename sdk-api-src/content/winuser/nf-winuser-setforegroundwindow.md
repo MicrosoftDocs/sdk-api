@@ -115,7 +115,9 @@ The foreground process can disable calls to <b>SetForegroundWindow</b> by callin
 **Conceptual**
 
 [FlashWindowEx](nf-winuser-flashwindowex.md)
+
 [GetForegroundWindow](nf-winuser-getforegroundwindow.md)
+
 [LockSetForegroundWindow](nf-winuser-locksetforegroundwindow.md)
 
 <b>Reference</b>
