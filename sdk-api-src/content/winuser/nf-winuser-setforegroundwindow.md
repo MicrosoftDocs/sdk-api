@@ -75,16 +75,12 @@ A handle to the window that should be activated and brought to the foreground.
 Type: <b>BOOL</b>
 
 If the window was brought to the foreground, the return value is nonzero.
-                    
-                    
 
 If the window was not brought to the foreground, the return value is zero.
 
 ## -remarks
 
-
-
- The system restricts which processes can set the foreground window. A process can set the foreground window by calling **SetForegroundWindow** only if:
+The system restricts which processes can set the foreground window. A process can set the foreground window by calling **SetForegroundWindow** only if:
 
 * At least one of the following conditions is true:
   * The calling process is the *foreground process* -
@@ -112,41 +108,18 @@ A process that can set the foreground window can enable another process to set t
 
 The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function. 
 
-
-
-
 ## -see-also
 
-<a href="/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a>
+[AllowSetForegroundWindow](nf-winuser-allowsetforegroundwindow.md)
 
+**Conceptual**
 
-
-<b>Conceptual</b>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>
-
-
-
-<a href="/windows/desktop/api/winuser/nf-winuser-locksetforegroundwindow">LockSetForegroundWindow</a>
-
-
-
-<b>Other Resources</b>
-
-
+[FlashWindowEx](nf-winuser-flashwindowex.md)
+[GetForegroundWindow](nf-winuser-getforegroundwindow.md)
+[LockSetForegroundWindow](nf-winuser-locksetforegroundwindow.md)
 
 <b>Reference</b>
 
+[SetActiveWindow](nf-winuser-setactivewindow.md)
 
-
-<a href="/windows/desktop/api/winuser/nf-winuser-setactivewindow">SetActiveWindow</a>
-
-
-
-<a href="/windows/desktop/winmsg/windows">Windows</a>
+[Windows](/windows/win32/winmsg/windows)
