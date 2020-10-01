@@ -59,23 +59,20 @@ The **CollectPerformanceData** function is a placeholder for the application-def
 
 Type: **LPWSTR**
 
-Null-terminated string that contains the query string (for example, "Global" or "238") passed to the [RegQueryValueEx](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function. For the query string format, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
+Null-terminated string that contains the query string (for example, "Global" or "238") passed to the [RegQueryValueEx](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function. For a list of possible values for *lpValueName*, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
 
 > [!NOTE]
-> This parameter is annotated as optional (nullable). The semantics of a null query was never explained, however, in practice it never happens to be null. Furthermore, queries against performance counters **HKEY**s via **RegQueryValueEx** are meaningless without a valid *lpValueName* parameter, which is exactly this query string. Running such null query results in `Error Code 0x00000057: The parameter is incorrect.`
->
-> With that being said, you should always verify input data, and if this parameter turns out to be null, the callback function should fail early. Check descriptions of other parameters on how to fail properly.
+> This parameter is annotated as optional (nullable), however a null value is not valid and can result in an error.
 
 ### -param lppData [in, out]
 
 Type: **LPVOID \***
 
-Consumer-allocated buffer that will contain the performance data.
+Consumer-allocated buffer that contains the performance data.
 
-Here, *pData* refers to the pointer pointed by *lppData*, i.e. `*lppData = pData`.
+Here, *pData* refers to the pointer pointed by *lppData* (`*lppData = pData`).
 
-On output, set *pData* to one byte past the end of your data. The data must conform to the 
-[PERF_OBJECT_TYPE](ns-winperf-perf_object_type.md) structure.
+On output, set *pData* to one byte past the end of your data. The data must conform to the [PERF_OBJECT_TYPE](ns-winperf-perf_object_type.md) structure.
 
 If this function fails, leave the *pData* pointer value unchanged.
 
@@ -143,9 +140,9 @@ The following tests are performed only if test level 1 is used:
 
 #### Examples
 
-For an example, see [Implementing CollectPerformanceData](/windows/desktop/PerfCtrs/implementing-collectperformancedata).
+See [Implementing CollectPerformanceData](/windows/desktop/PerfCtrs/implementing-collectperformancedata).
 
 ## -see-also
 
-- <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
+- [OpenPerformanceData](/previous-versions/windows/desktop/legacy/aa372200)
 - [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc)
