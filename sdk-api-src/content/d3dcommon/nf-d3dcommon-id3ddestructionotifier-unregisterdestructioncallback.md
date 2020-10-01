@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Unregisters a callback registered with <b><a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback"></b>.
+Unregisters a callback registered with <b><a href="windows/desktop/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-registerdestructioncallback"/>ID3DDestructionNotifier::RegisterDestructionCallback</a></b>.
 
 ## -parameters
 
