@@ -85,7 +85,7 @@ If the string specifies a relative path or a module name without a path, the fun
        strategy to find the module; for more information, see the Remarks.
 
 If the function cannot find the  module, the function fails. When specifying a path, be sure to use 
-       backslashes (\), not forward slashes (/). For more information about paths, see 
+       backslashes (\\), not forward slashes (/). For more information about paths, see 
        <a href="/windows/desktop/FileIO/naming-a-file">Naming a File or Directory</a>.
 
 If the string specifies a module name without a path and the file name extension is omitted, the function 
