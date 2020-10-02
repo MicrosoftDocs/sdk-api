@@ -147,9 +147,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 If the function fails, the return value is a 
 <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If there are no more values available, the function returns ERROR_NO_MORE_ITEMS.
 
-If the <i>lpcchValueName</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
-
-If the <i>lpData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
+If the buffer specified by <i>lpValueName</i> or <i>lpData</i> is too small to receive the value, the function returns ERROR_MORE_DATA.
 
 ## -remarks
 
