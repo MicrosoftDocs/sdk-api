@@ -108,6 +108,8 @@ For more information, see
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValueName</i> parameter, in characters. When the function returns, the variable receives the number of characters stored in the buffer, not including the terminating <b>null</b> character.
 
+If the buffer specified by <i>lpValueName</i> is not large enough to hold the data, the function returns ERROR_MORE_DATA and the buffer size in the variable pointed to by <i>lpValueName</i> is not changed. In this case, the contents of <i>lpcchValueName</i> are undefined.
+
 Registry value names are limited to 32,767 bytes. The ANSI version of this function treats this parameter as a <b>SHORT</b> value. Therefore, if you specify a value greater than 32,767 bytes, there is an overflow and the function may return ERROR_MORE_DATA.
 
 ### -param lpReserved
@@ -144,6 +146,8 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
 <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If there are no more values available, the function returns ERROR_NO_MORE_ITEMS.
+
+If the <i>lpcchValueName</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
 If the <i>lpData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
