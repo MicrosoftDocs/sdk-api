@@ -69,7 +69,7 @@ A value that specifies the wait behavior, based on the following values.
 
 <table>
 <tr>
-<th>Return value</th>
+<th>Value</th>
 <th>Meaning</th>
 </tr>
 <tr>
@@ -91,7 +91,7 @@ A value that specifies the wait behavior, based on the following values.
 Returns one of the following values.
 			<table>
 <tr>
-<th>Value</th>
+<th>Return value</th>
 <th>Description</th>
 </tr>
 <tr>
@@ -145,7 +145,7 @@ An exception occurred while reading user input parameters.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the [WSAPOLLFD](./ns-winsock2-wsapollfd.md) structures  pointed to by the <i>fdarray</i> parameter when requesting socket
+An invalid parameter was passed. This error is returned if the <a href="/windows/win32/api/winsock2/ns-winsock2-wsapollfd">WSAPOLLFD</a> structures  pointed to by the <i>fdarray</i> parameter when requesting socket
                        status. This error is also returned if none of the sockets specified in the <b>fd</b> member of any of the <b>WSAPOLLFD</b> structures  pointed to by the <i>fdarray</i> parameter were valid. 
 
 </td>
