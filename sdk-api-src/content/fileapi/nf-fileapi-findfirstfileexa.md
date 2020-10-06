@@ -76,7 +76,7 @@ The directory or path, and the file name. The file name can include wildcard cha
        (*) or a question mark (?).
 
 This parameter should not be <b>NULL</b>, an invalid string (for example, an empty string 
-       or a string that is missing the terminating null character), or end in a trailing backslash (\).
+       or a string that is missing the terminating null character), or end in a trailing backslash (\\).
 
 If the string ends with a wildcard, period, or  directory name, the user must have access to the root and all 
        subdirectories on the path.
@@ -219,7 +219,7 @@ After the search handle is established, use it in the
     needed, it should be closed by using the 
     <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
-As stated previously, you cannot use a trailing backslash (\) in the <i>lpFileName</i> 
+As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileName</i> 
     input string for <b>FindFirstFileEx</b>, therefore it may not 
     be obvious how to search root directories. If you want to see files or get the attributes of a root directory, the 
     following options would apply:
