@@ -62,11 +62,13 @@ A directory service handle.
 
 ### -param pszFromSite
 
-TBD
+Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
+
+
 
 ### -param rgszToSites
 
-TBD
+Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 ### -param cToSites [in]
 
@@ -83,14 +85,6 @@ Pointer to an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_
 The caller must free this memory when it is no longer required by calling <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>.
 
 
-#### - pwszFromSite [in]
-
-Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
-
-
-#### - rgwszToSites [in]
-
-Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 ## -returns
 

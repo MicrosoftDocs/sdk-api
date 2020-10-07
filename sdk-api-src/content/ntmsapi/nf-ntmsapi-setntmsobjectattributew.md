@@ -83,14 +83,9 @@ User-defined data.
 
 ### -param AttributeSize
 
-TBD
+Size of the <i>lpAttributeData</i> buffer, in bytes.D
 
 
-
-
-#### - dwAttributeSize [in]
-
-Size of the <i>lpAttributeData</i> buffer, in bytes.
 
 ## -returns
 

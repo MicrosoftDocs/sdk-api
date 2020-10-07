@@ -61,23 +61,13 @@ Saves an object with the <a href="/windows/desktop/api/objidl/nn-objidl-ipersist
 
 ### -param arg1
 
-TBD
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
 ### -param arg2
 
-TBD
-
-
-
-
-#### - pPStm [in]
-
-Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
-
-
-#### - pStm [in]
-
  Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
+
+
 
 ## -returns
 

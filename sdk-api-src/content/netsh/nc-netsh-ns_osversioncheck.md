@@ -74,7 +74,6 @@ The
 
 ### -param dwReserved [in]
 
-#### - CIMProcessorArchitecture [in]
 
 ## -returns
 

@@ -63,14 +63,10 @@ Releases the memory that contains the unparsed path.  Use of  this object is not
 
 ### -param wszUnparsedPath
 
-TBD
-
-
-
-
-#### - pOutput [in]
-
 Memory containing the unparsed path information.
+
+
+
 
 ## -see-also
 

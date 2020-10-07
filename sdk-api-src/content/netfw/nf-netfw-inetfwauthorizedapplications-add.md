@@ -57,14 +57,7 @@ The <b>Add</b> method adds a new application to the collection.
 
 ## -parameters
 
-### -param app
-
-TBD
-
-
-
-
-#### - application [in]
+### -param app [in]
 
 <table>
 <tr>

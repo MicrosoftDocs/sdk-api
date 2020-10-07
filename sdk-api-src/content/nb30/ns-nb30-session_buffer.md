@@ -141,6 +141,8 @@ Specifies the 16-byte NetBIOS name on the local computer used for this session.
 
 ### -field remote_name
 
+Specifies the 16-byte NetBIOS name on the remote computer used for this session.
+
 ### -field rcvs_outstanding
 
 Specifies the number of pending <b>NCBRECV</b> commands.
@@ -149,9 +151,6 @@ Specifies the number of pending <b>NCBRECV</b> commands.
 
 Specifies the number of pending <b>NCBSEND</b> and <b>NCBCHAINSEND</b> commands.
 
-### -field Remote_name
-
-Specifies the 16-byte NetBIOS name on the remote computer used for this session.
 
 ## -see-also
 
