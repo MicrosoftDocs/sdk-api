@@ -3,6 +3,7 @@ UID: NE:http._HTTP_DELEGATE_REQUEST_PROPERTY_ID
 title: HTTP_DELEGATE_REQUEST_PROPERTY_ID
 description: Describes property information for a delegate request.
 ms.date: 09/28/2020
+tech.root: http
 targetos: Windows
 description: 
 req.construct-type: enumeration
