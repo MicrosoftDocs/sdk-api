@@ -166,11 +166,15 @@ This API helps support high-performance games, and server applications, which ha
 
 #### Examples
 
-For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">Virtual2Alloc</a>.
+For a code example, see Scenario 1 in <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a>.
 
 <div class="code"></div>
 
 ## -see-also
+
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc2">VirtualAlloc2</a>
+
+
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
