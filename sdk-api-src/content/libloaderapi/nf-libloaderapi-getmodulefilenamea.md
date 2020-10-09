@@ -82,7 +82,7 @@ If the length of the path exceeds the size that  the <i>nSize</i> parameter spec
 
 <b>Windows XP:  </b>The string is truncated to <i>nSize</i> characters and is not null-terminated.
 
-The string returned will use the same format that was specified when the module was loaded. Therefore, the path can be a long or short file name, and can use the prefix "\\?\". For more information, see 
+The string returned will use the same format that was specified when the module was loaded. Therefore, the path can be a long or short file name, and can use the prefix `\\?\`. For more information, see 
 <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param nSize [in]
