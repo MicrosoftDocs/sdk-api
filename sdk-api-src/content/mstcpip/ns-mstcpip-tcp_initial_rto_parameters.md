@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
+<a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
 
 ## -struct-fields
 
@@ -80,4 +80,4 @@ An application can choose system defaults for any of these fields and supply tho
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)">SIO_TCP_INITIAL_RTO</a>
+<a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a>

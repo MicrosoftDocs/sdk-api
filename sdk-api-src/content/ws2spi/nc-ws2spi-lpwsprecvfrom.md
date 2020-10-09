@@ -79,6 +79,8 @@ Pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+
 Pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId \[in\]

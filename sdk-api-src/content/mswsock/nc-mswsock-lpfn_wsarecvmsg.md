@@ -79,7 +79,7 @@ A pointer to a [**WSAOVERLAPPED**](/windows/win32/api/winsock2/ns-winsock2-wsaov
 
 ### -param lpCompletionRoutine
 
-Type: \_In_opt\_ **LPWSAOVERLAPPED_COMPLETION_ROUTINE**
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the receive operation completes. Ignored for non-overlapped structures.
 
