@@ -366,7 +366,7 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 | <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](../mswsock/nf-mswsock-getacceptexsockaddrs.md) extension function.<br/> |
 | <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID_TRANSMITFILE<br/>                         | The [**TransmitFile**](../mswsock/nf-mswsock-transmitfile.md) extension function.<br/>                 |
 | <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](../mswsock/nc-mswsock-lpfn_transmitpackets.md) extension function.<br/>           |
-| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v%3Dvs.85)) extension function.<br/>                     |
+| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) extension function.<br/>                     |
 | <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID_WSASENDMSG<br/>                               | The [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) extension function. <br/>                      |
 
 

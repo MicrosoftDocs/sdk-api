@@ -399,7 +399,7 @@ If an overlapped operation completes immediately,
 The 
 <b>WSASendMsg</b> function using overlapped I/O can be called from within the completion routine of a previous 
 , <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, <b>WSASendMsg</b>, or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>, <b>WSASendMsg</b>, or 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> function. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
