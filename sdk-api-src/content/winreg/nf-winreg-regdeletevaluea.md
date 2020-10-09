@@ -87,7 +87,7 @@ This handle is returned by the
 ### -param lpValueName [in, optional]
 
 The registry value to be removed. If this parameter is <b>NULL</b> or an empty string, the value set by the 
-<a href="/windows/desktop/api/winreg/nf-winreg-regsetvaluea">RegSetValue</a> function is removed. 
+<a href="/windows/win32/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a> function is removed. 
 
 
 
