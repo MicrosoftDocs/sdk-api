@@ -89,6 +89,8 @@ A pointer to a
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+
 A pointer to the completion routine called when the send operation has been completed. This parameter is ignored for nonoverlapped sockets.
 
 ## -returns

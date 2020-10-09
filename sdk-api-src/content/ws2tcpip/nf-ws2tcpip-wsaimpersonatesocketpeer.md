@@ -130,7 +130,7 @@ The <b>WSAImpersonateSocketPeer</b> function provides an application the ability
 
 For connection-oriented sockets, the <b>WSAImpersonateSocketPeer</b> function should be called after a connection is established. For a server application using connection-oriented sockets, the <b>WSAImpersonateSocketPeer</b> should be called after the <a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> function returns.  
 
-For connectionless sockets, the application should call the <b>WSAImpersonateSocketPeer</b> function immediately after the <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>, <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, or <a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a> function returns for a new peer address. 
+For connectionless sockets, the application should call the <b>WSAImpersonateSocketPeer</b> function immediately after the <a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>, <a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, <a href="/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, or <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a> function returns for a new peer address. 
 
 The <b>WSAImpersonateSocketPeer</b> function can be called multiple times for a single socket.  
 
@@ -176,7 +176,7 @@ The <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsarevertimpersonation">W
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>
 
 
 

@@ -135,7 +135,7 @@ A pointer to the data in memory to be sent. Valid only if TP_ELEMENT_MEMORY is s
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>
 
 
 
