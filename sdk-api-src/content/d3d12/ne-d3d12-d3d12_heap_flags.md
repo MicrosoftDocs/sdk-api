@@ -97,6 +97,16 @@ Creating a heap with this flag will fail under either of these conditions.
 
 Note that heaps with this flag might be a limited resource on some systems.
 
+### -field D3D12_HEAP_FLAG_CREATE_NOT_RESIDENT
+
+The heap is created in a non-resident state and must be made resident using [ID3D12Device::MakeResident](/windows/win32/api/d3d12/nf-d3d12-id3d12device-makeresident) or [ID3D12Device3::EnqueueMakeResident](/windows/win32/api/d3d12/nf-d3d12-id3d12device3-enqueuemakeresident).
+
+By default, the final step of heap creation is to make the heap resident, so this flag skips this step and allows the application to decide when to do so.
+
+### -field D3D12_HEAP_FLAG_CREATE_NOT_ZEROED
+
+Allows the OS to not zero the heap created. By default, committed resources and heaps are almost always zeroed upon creation. This flag allows this to be elided in some scenarios. However, it doesn't guarantee it. For example, memory coming from other processes still needs to be zeroed for data protection and process isolation. This can lower the overhead of creating the heap.
+
 ### -field D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES
 
 The heap is allowed to store all types of buffers and/or textures. This is an alias; for more details, see "Aliases" in the Remarks section.
