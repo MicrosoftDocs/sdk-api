@@ -11,8 +11,8 @@ ms.keywords: GetRawInputDeviceInfo, GetRawInputDeviceInfo function [Keyboard and
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -95,10 +95,13 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to a string that contains the device name.
-</br>If this device is <a href="/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call CreateFile with this name to open a HID collection and use returned handle for calling ReadFile to read input reports and WriteFile to send output reports.
-</br>For more information, see <a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
-</br>For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
+<i>pData</i> points to a string that contains the <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interface name</a>.
+
+If this device is <a href="/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
+
+For more information, see <a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
+
+For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
 </td>
 </tr>
 <tr>
@@ -117,7 +120,9 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 
 Type: <b>LPVOID</b>
 
-A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
+A pointer to a buffer that contains the information specified by <i>uiCommand</i>.
+
+If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>.
 
 ### -param pcbSize [in, out]
 
