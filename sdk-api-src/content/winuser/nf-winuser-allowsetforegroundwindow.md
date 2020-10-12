@@ -80,27 +80,19 @@ If the function fails, the return value is zero. The function will fail if the c
 
 ## -remarks
 
-The system restricts which processes can set the foreground window.
-Normally, a process can set the foreground window by calling the
-[**SetForegroundWindow**](nf-winuser-setforegroundwindow.md) function only if:
+The system restricts which processes can set the foreground window. Normally, a process can set the foreground window by calling the [**SetForegroundWindow**](nf-winuser-setforegroundwindow.md) function only if:
 
-* At least one of the following conditions is true:
-  * The calling process is the *foreground process* -
-    the process that created the previous foreground window.
-  * The calling process was started by the foreground process.
-  * There is currently no foreground window, and thus no foreground process.
-  * The calling process received the last input event.
-  * Either the foreground process or the calling process is being debugged.
-* And all of the following conditions are true:
-  * The calling process belongs to a desktop application,
-    not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
-  * The foreground process has not disabled calls to [**SetForegroundWindow**](
-    nf-winuser-setforegroundwindow.md) by a previous call to the [**LockSetForegroundWindow**](
-    nf-winuser-locksetforegroundwindow.md) function.
-  * The foreground lock time-out has expired (see
-    [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](
-    nf-winuser-systemparametersinfoa.md#SPI_GETFOREGROUNDLOCKTIMEOUT)).
-  * No menus are active.
+- All of the following conditions are true:
+  - The calling process belongs to a desktop application, not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
+  - The foreground process has not disabled calls to **SetForegroundWindow** by a previous call to the [**LockSetForegroundWindow**](nf-winuser-locksetforegroundwindow.md) function.
+  - The foreground lock time-out has expired (see [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](nf-winuser-systemparametersinfoa.md#SPI_GETFOREGROUNDLOCKTIMEOUT)).
+  - No menus are active.
+- Additionally, at least one of the following conditions is true:
+  - The calling process is the foreground process.
+  - The calling process was started by the foreground process.
+  - There is currently no foreground window, and thus no foreground process.
+  - The calling process received the last input event.
+  - Either the foreground process or the calling process is being debugged.
 
 A process that can set the foreground window can enable another process to set the foreground window
 by calling **AllowSetForegroundWindow**. The process specified by the *dwProcessId* parameter
