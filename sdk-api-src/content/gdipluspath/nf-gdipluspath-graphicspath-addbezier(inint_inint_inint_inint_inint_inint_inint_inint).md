@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddBezier(ININT,ININT,ININT,ININT,ININT,ININT,ININT,ININT)
+UID: NF:gdipluspath.GraphicsPath.AddBezier(INT,INT,INT,INT,INT,INT,INT,INT)
 title: GraphicsPath::AddBezier(IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
 description: The GraphicsPath::AddBezier method adds a B�zier spline to the current figure of this path.
 helpviewer_keywords: ["AddBezier","AddBezier method [GDI+]","AddBezier method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddBezier method","GraphicsPath.AddBezier","GraphicsPath.AddBezier(IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT)","GraphicsPath.AddBezier(INT","INT","INT","INT","INT","INT","INT","INT)","GraphicsPath::AddBezier","GraphicsPath::AddBezier(IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_GraphicsPath_AddBezier_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_","gdiplus._gdiplus_CLASS_GraphicsPath_AddBezier_INT_x1_INT_y1_INT_x2_INT_y2_INT_x3_INT_y3_INT_x4_INT_y4_"]
