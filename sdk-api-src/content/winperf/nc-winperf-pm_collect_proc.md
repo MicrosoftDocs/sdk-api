@@ -144,5 +144,5 @@ See [Implementing CollectPerformanceData](/windows/desktop/PerfCtrs/implementing
 
 ## -see-also
 
-- [OpenPerformanceData](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))
+- <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
 - [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc)
