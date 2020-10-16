@@ -66,6 +66,12 @@ Type: <b>HTREEITEM</b>
 
 Handle to an item.
 
+## -returns
+
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+
+The handle to the parent item of this tree-view item, or NULL.
+
 ## -remarks
 
 This macro will return <b>NULL</b> if the parent of the specified item is the root node of the tree.
