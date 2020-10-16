@@ -70,9 +70,7 @@ Type: **LPVOID \***
 
 Consumer-allocated buffer that contains the performance data.
 
-Here, *pData* refers to the pointer pointed by *lppData* (`*lppData = pData`).
-
-On output, set *pData* to one byte past the end of your data. The data must conform to the [PERF_OBJECT_TYPE](ns-winperf-perf_object_type.md) structure.
+On output (where *pData* refers to the pointer pointed to by *lppData*), set *pData* to one byte past the end of your data. Note that the data must conform to the [PERF_OBJECT_TYPE](ns-winperf-perf_object_type.md) structure.
 
 If this function fails, leave the *pData* pointer value unchanged.
 
@@ -80,7 +78,7 @@ If this function fails, leave the *pData* pointer value unchanged.
 
 Type: **LPDWORD**
 
-On input, specifies the size, in bytes, of the *pData* buffer.
+On input, specifies the size, in bytes, of the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*).
 
 On output, set *lpcbTotalBytes* to the size, in bytes, of the data written to the *pData* buffer. The size must be 8-byte aligned.
 
@@ -90,29 +88,29 @@ If this function fails, set *lpcbTotalBytes* to zero.
 
 Type: **LPDWORD**
 
-Set *lpNumObjectTypes* to the number of object [types](ns-winperf-perf_object_type.md) (not [instances](ns-winperf-perf_instance_definition.md)) written to the *pData* buffer.
+Set *lpNumObjectTypes* to the number of object [types](ns-winperf-perf_object_type.md) (not [instances](ns-winperf-perf_instance_definition.md)) written to the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*).
 
 If this function fails, set *lpNumObjectTypes* to zero.
 
 > [!NOTE]
-> This parameter is annotated as both *In* and *Out*. Actually the pointee (the value behind this pointer) is never used as an input, and there are no contracts about its content upon function callback invokation: it is best to assume that the pointee is uninitialized and contains garbage data.
+> This parameter is annotated as both *In* and *Out*, however this parameter should not be used as input. 
 
 ## -returns
 
-Return one of the following return values only.
+One of the following values:
 
 | Return code | Description |
 |-------------|-------------|
-| **ERROR_MORE_DATA** | The size of the *pData* buffer as specified by *lpcbTotalBytes* is not large enough to store the data. Leave *pData* unchanged, and set *lpcbTotalBytes* and *lpNumObjectTypes* to zero. No attempt is made to indicate the required buffer size, because this can change before the next call. |
+| **ERROR_MORE_DATA** | The size of the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*) as specified by *lpcbTotalBytes* is not large enough to store the data. Leave *pData* unchanged, and set *lpcbTotalBytes* and *lpNumObjectTypes* to zero. No attempt is made to indicate the required buffer size, because this can change before the next call. |
 | **ERROR_SUCCESS** | Return this value in all cases other than the **ERROR_MORE_DATA** case, even if no data is returned or an error occurs. To report errors other than insufficient buffer size, use the Application Event Log. |
 
 ## -remarks
 
-If the requested objects specified in the *lpValueName* parameter do not correspond to any of the object indexes that your performance DLL supports, leave the *pData* parameter unchanged, and set the *lpcbTotalBytes* and *lpNumObjectTypes* parameters to zero. This indicates that no data was returned.
+If the requested objects specified in the *lpValueName* parameter do not correspond to any of the object indexes that your performance DLL supports, leave the *pData* parameter (where *pData* refers to the pointer pointed to by *lppData*) unchanged, and set the *lpcbTotalBytes* and *lpNumObjectTypes* parameters to zero. This indicates that no data was returned.
 
 If you support one or more of the queried objects, determine whether the size of the *pData* buffer as specified by *lpcbTotalBytes* is large enough to store the data. If not, leave *pData* unchanged, and set *lpcbTotalBytes* and *lpNumObjectTypes* to zero. No attempt is made to indicate the required buffer size, because this may change before the next call. Return **ERROR_MORE_DATA**.
 
-If your data collection is time-consuming, you should respond only to queries for specific objects and `Costly` queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance. For the query string format, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
+If your data collection is time-consuming, you should respond only to queries for specific objects, or costly queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance. For the query string format, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
 
 If the consumer is running on another computer (remotely), then the <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc), and **CollectPerformanceData** functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
 
