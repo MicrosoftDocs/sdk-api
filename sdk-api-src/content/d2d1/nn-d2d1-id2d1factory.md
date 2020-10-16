@@ -86,7 +86,7 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget)">CreateDxgiSurfaceRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 
@@ -128,7 +128,7 @@ Creates an empty <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createrectanglegeometry">CreateRectangleGeometry</a>
+<a href="/windows/win32/direct2d/id2d1factory-createrectanglegeometry">CreateRectangleGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>. 
 
@@ -136,7 +136,7 @@ Creates an empty <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createroundedrectanglegeometry">CreateRoundedRectangleGeometry</a>
+<a href="/windows/win32/direct2d/id2d1factory-createroundedrectanglegeometry">CreateRoundedRectangleGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 
@@ -152,7 +152,7 @@ Creates an empty <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)">CreateTransformedGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Transforms the specified geometry and stores the result as an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
 

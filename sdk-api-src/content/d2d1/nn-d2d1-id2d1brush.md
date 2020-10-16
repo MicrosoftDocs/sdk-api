@@ -96,7 +96,7 @@ Sets the degree of opacity of this brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-settransform">SetTransform</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1brush-settransform(constd2d1_matrix_3x2_f_)">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transformation applied to the brush.
 
