@@ -132,7 +132,7 @@ Individualizes the client.
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
-In non-silent license acquisition, informs the application when a license has been successfully acquired.
+In nonsilent license acquisition, informs the application when a license has been successfully acquired.
 
 </td>
 </tr>

@@ -74,7 +74,7 @@ Specifies options for the function call. This parameter can be a combination of 
 
 #### DRM_AILT_NONSILENT ()
 
-Non-silent template acquisition is supported. That is, an authentication prompt is displayed if an access control list (ACL) is applied to the template and default authentication fails.
+nonsilent template acquisition is supported. That is, an authentication prompt is displayed if an access control list (ACL) is applied to the template and default authentication fails.
 
 
 

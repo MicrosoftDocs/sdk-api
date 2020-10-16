@@ -53,18 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
-
-the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
-
-unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
-
-which leverages functionality exposed by the client in Msipc.dll.]
+>[!Note]
+>The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, which leverages functionality exposed by the client in Msipc.dll.
 
 Not supported.
 
 The <b>DRM_LICENSE_ACQ_DATA</b> structure holds license acquisition data during nonsilent license acquisition.
-<div class="alert"><b>Note</b>  Nonsilent license acquisition is supported only in Rights Management Services client 1.0. Effective with RMS client 1.0 SP1, nonsilent license acquisition is no longer supported.</div><div> </div>
+<div class="alert"><b>Note</b>  nonsilent license acquisition is supported only in Rights Management Services client 1.0. Effective with RMS client 1.0 SP1, nonsilent license acquisition is no longer supported.</div><div> </div>
 
 ## -struct-fields
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.CreateContentDecryptionModule
 title: IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
-ms.date: 11/26/2019
+ms.date: 10/15/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -65,6 +65,7 @@ The following properties are supported for the *contentDecryptionModulePropertie
 | Property                                      |Description
 |-----------------------------------------------|---------------------------------------------------------------|
 | [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-inprivatestorepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for content-specific data.|
-| [MF_CONTENTDECRYPTIONMODULE_STOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-inprivatestorepath/mf-contentdecryptionmodule-storepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for initialization. The path specified with this property will also be used for content-specific data if the **MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH** property isn't set. |
+| [MF_CONTENTDECRYPTIONMODULE_STOREPATH](/windows/win32/medfound/mf-contentdecryptionmodule-storepath) | A file path representing a storage location the Content Decryption Module (CDM) can use for initialization. The path specified with this property will also be used for content-specific data if the **MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH** property isn't set. |
 
 ## -see-also
+
