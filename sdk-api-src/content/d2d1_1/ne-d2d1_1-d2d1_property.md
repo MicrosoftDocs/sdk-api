@@ -118,7 +118,7 @@ Under normal circumstances the minimum and maximum number of inputs to the effec
 
 
 
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u)">ID2D1Properties::GetType</a>
 
 
 
@@ -126,7 +126,7 @@ Under normal circumstances the minimum and maximum number of inputs to the effec
 
 
 
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u)">ID2D1Properties::GetValueSize</a>
 
 
 

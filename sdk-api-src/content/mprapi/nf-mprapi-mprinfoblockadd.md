@@ -64,7 +64,7 @@ Pointer to the header in which to add the new block.
 Specifies the type of block to add. The types available depend on the transport: 
 <a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IPv4</a>, <a href="/windows/desktop/RRAS/ipv6-information-types-for-router-information-blocks">IPv6</a>, or <a href="/windows/desktop/RRAS/ipx-information-types-for-router-information-blocks">IPX</a>.
 
-<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a <a href="/windows/desktop/RRAS/interface-route-info">INTERFACE_ROUTE_INFO</a> structure.
+<b>Windows Server 2008:  </b>If <i>dwInfoTYpe</i> contains <a href="/windows/desktop/RRAS/ip-information-types-for-router-information-blocks">IP_ROUTE_INFO</a>, <i>lpItemData</i> must point to a <a href="/openspecs/windows_protocols/ms-rrasm/784d8544-140a-4769-b659-7d3168de9242">INTERFACE_ROUTE_INFO</a> structure.
 
 ### -param dwItemSize [in]
 

@@ -224,11 +224,11 @@ Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_NONE</b>.
 
 ### -field reserved2
 
-A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a> structure.
+A <a href="/windows/win32/api/fwptypes/ns-fwptypes-fwp_byte_array6">FWP_BYTE_ARRAY6</a> structure.
 
 ### -field reserved3
 
-A <a href="/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_array6_">FWP_BYTE_ARRAY6</a> structure.
+A <a href="/windows/win32/api/fwptypes/ns-fwptypes-fwp_byte_array6">FWP_BYTE_ARRAY6</a> structure.
 
 ### -field reserved4
 
@@ -236,7 +236,7 @@ A <a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type">DL_ADDRESS
 
 ### -field reserved5
 
-A <a href="/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ether_encap_method_">FWP_ETHER_ENCAP_METHOD</a> enumeration.
+A <a href="/windows/win32/api/fwptypes/ne-fwptypes-fwp_ether_encap_method">FWP_ETHER_ENCAP_METHOD</a> enumeration.
 
 ### -field reserved6
 

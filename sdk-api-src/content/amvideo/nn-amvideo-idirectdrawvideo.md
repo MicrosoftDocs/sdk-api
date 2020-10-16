@@ -96,7 +96,7 @@ Determines whether the renderer will check the current scan line when drawing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">GetCaps</a>
+<a href="/previous-versions/ms785104(v=vs.85)">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
@@ -204,7 +204,7 @@ Determines whether the renderer should check the current scan line when drawing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">UseWhenFullScreen</a>
+<a href="/previous-versions/ms785118(v=vs.85)">UseWhenFullScreen</a>
 </td>
 <td align="left" width="63%">
 Determines whether DirectShow should change display mode when going to full-screen mode.

@@ -88,7 +88,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">CreateImageSourceFromWic</a>
+<a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_id2d1imagesourcefromwic)">CreateImageSourceFromWic</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source.  The image is loaded and stored while using a minimal amount of memory.
 

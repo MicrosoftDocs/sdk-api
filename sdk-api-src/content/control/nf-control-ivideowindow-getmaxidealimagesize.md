@@ -126,8 +126,8 @@ This method returns S_FALSE under various circumstances:
 
 <ul>
 <li>The filter is using an <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
-<li>UseWhenFullScreen mode is on. (See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>UseWhenFullScreen mode is on. (See <a href="/previous-versions/ms785118(v=vs.85)">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="/previous-versions/ms785104(v=vs.85)">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
 ## -see-also

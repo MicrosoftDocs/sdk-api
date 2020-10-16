@@ -64,10 +64,10 @@ A <a href="/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2">CharacterRange::CharacterRange()</a>
+<a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2">CharacterRange::CharacterRange()</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2">CharacterRange::CharacterRange</a> object with the data members set to zero.
+Creates a <a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2">CharacterRange::CharacterRange</a> object with the data members set to zero.
 
 </td>
 </tr>

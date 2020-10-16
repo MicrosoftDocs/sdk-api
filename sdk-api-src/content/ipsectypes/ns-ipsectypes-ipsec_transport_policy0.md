@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TRANSPORT_POLICY0</b> structure  stores the quick mode negotiation policy for transport mode IPsec.
-[IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2) is available.</div><div> </div>
+[IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2) is available.
 
 ## -struct-fields
 
