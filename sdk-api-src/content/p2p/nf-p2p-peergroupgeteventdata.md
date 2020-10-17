@@ -60,7 +60,7 @@ Handle obtained from a previous call to <a href="/windows/desktop/api/p2p/nf-p2p
 
 ### -param ppEventData [out]
 
-Pointer to a [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md) structure that contains data about the peer event. This data structure must be freed after use with <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
+Pointer to a [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) structure that contains data about the peer event. This data structure must be freed after use with <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
 
 ## -returns
 
@@ -100,7 +100,7 @@ Cryptography-specific errors can be returned from the <a href="/windows/desktop/
 
 ## -remarks
 
-When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md) structures are retrieved. Each data structure contains the following two key pieces of data: 
+When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) structures are retrieved. Each data structure contains the following two key pieces of data: 
 
 <ul>
 <li>The registration associated with a peer event.</li>
@@ -109,7 +109,7 @@ When an event occurs for which a peer has requested notification, the correspond
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 

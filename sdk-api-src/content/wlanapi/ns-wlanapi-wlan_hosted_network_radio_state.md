@@ -72,7 +72,7 @@ The <b>WLAN_HOSTED_NETWORK_RADIO_STATE</b> structure is an extension to native w
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state-r1">DOT11_RADIO_STATE</a>
 
 
 

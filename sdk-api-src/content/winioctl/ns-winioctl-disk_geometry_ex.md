@@ -63,7 +63,7 @@ A [**DISK_GEOMETRY**](ns-winioctl-disk_geometry.md) structure.
 
 ### -field DiskSize
 
-The disk size, in bytes. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer~r1.md).
+The disk size, in bytes. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer-r1.md).
 
 ### -field Data
 

@@ -70,7 +70,7 @@ A handle to the file. The handle must have been created with the
 
 ### -param lpFileSize [out]
 
-A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that 
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structure that 
       receives the file size, in bytes.
 
 ## -returns
@@ -153,4 +153,4 @@ Yes
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>

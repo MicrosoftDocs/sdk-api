@@ -71,7 +71,7 @@ If the currently selected target is a bitmap rather than a command list, the app
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a>
 </li>
 <li>
-<a href="../nf-d2d1-createdxgisurfacerendertarget.md">CreateDxgiSurfaceRenderTarget</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties_id2d1rendertarget)">CreateDxgiSurfaceRenderTarget</a>
 </li>
 <li>
 <a href="/windows/desktop/Direct2D/id2d1factory-createwicbitmaprendertarget">CreateWicBitmapRenderTarget</a>

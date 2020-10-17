@@ -58540,8 +58540,8 @@
  .../nc-wlanapi-wlan_notification_callback.md       |   5 +-
  .../wlanapi/ne-wlanapi-dot11_radio_state~r1.md     |   3 +-
  .../content/wlanapi/ne-wlanapi-wl_display_pages.md |  21 +-
- .../ne-wlanapi-wlan_adhoc_network_state~r1.md      |  17 +-
- .../wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1.md  |  17 +-
+ .../ne-wlanapi-wlan_adhoc_network_state-r1.md      |  17 +-
+ .../wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1.md  |  17 +-
  .../wlanapi/ne-wlanapi-wlan_connection_mode.md     |   5 +-
  .../wlanapi/ne-wlanapi-wlan_filter_list_type.md    |  21 +-
  ...lanapi-wlan_hosted_network_notification_code.md |   5 +-
@@ -58549,14 +58549,14 @@
  ...-wlanapi-wlan_hosted_network_peer_auth_state.md |   5 +-
  .../ne-wlanapi-wlan_hosted_network_reason.md       |  21 +-
  .../ne-wlanapi-wlan_hosted_network_state.md        |   5 +-
- .../wlanapi/ne-wlanapi-wlan_ihv_control_type~r1.md |  17 +-
- .../wlanapi/ne-wlanapi-wlan_interface_state~r1.md  |   3 +-
+ .../wlanapi/ne-wlanapi-wlan_ihv_control_type-r1.md |  17 +-
+ .../wlanapi/ne-wlanapi-wlan_interface_state-r1.md  |   3 +-
  .../wlanapi/ne-wlanapi-wlan_interface_type.md      |   5 +-
- .../wlanapi/ne-wlanapi-wlan_intf_opcode~r1.md      |  17 +-
- .../wlanapi/ne-wlanapi-wlan_notification_acm~r1.md |   3 +-
- .../wlanapi/ne-wlanapi-wlan_notification_msm~r1.md |   3 +-
- .../ne-wlanapi-wlan_opcode_value_type~r1.md        |  17 +-
- .../wlanapi/ne-wlanapi-wlan_power_setting~r1.md    |  17 +-
+ .../wlanapi/ne-wlanapi-wlan_intf_opcode-r1.md      |  17 +-
+ .../wlanapi/ne-wlanapi-wlan_notification_acm-r1.md |   3 +-
+ .../wlanapi/ne-wlanapi-wlan_notification_msm-r1.md |   3 +-
+ .../ne-wlanapi-wlan_opcode_value_type-r1.md        |  17 +-
+ .../wlanapi/ne-wlanapi-wlan_power_setting-r1.md    |  17 +-
  .../wlanapi/ne-wlanapi-wlan_securable_object.md    |  21 +-
  .../wlanapi/nf-wlanapi-wfdcancelopensession.md     |  19 +-
  .../content/wlanapi/nf-wlanapi-wfdclosehandle.md   |  19 +-
