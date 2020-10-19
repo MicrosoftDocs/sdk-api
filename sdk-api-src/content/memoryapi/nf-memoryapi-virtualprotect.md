@@ -68,8 +68,7 @@ To change the access protection of any process, use the
 
 ### -param lpAddress [in]
 
-A pointer an address that describes the starting page of the region of pages whose access protection 
-       attributes are to be changed.
+The address of the starting page of the region of pages whose access protection attributes are to be changed.
 
 All pages in the specified region must be within the same reserved region allocated when calling the 
        <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> or 
