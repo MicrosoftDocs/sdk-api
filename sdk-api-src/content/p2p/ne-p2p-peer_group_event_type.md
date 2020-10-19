@@ -62,27 +62,27 @@ The status of the group has changed. This peer event is fired when one of the fl
 
 ### -field PEER_GROUP_EVENT_PROPERTY_CHANGED
 
-A member in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md) to retrieve.
+A member in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) to retrieve.
 
 ### -field PEER_GROUP_EVENT_RECORD_CHANGED
 
-A group record has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md).
+A group record has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1).
 
 ### -field PEER_GROUP_EVENT_DIRECT_CONNECTION
 
-The status of a direct connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md).
+The status of a direct connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1).
 
 ### -field PEER_GROUP_EVENT_NEIGHBOR_CONNECTION
 
-The status of a neighbor connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md).
+The status of a neighbor connection has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1).
 
 ### -field PEER_GROUP_EVENT_INCOMING_DATA
 
-Incoming direct connection data from a member is detected. Information on this peer event is provided in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md).
+Incoming direct connection data from a member is detected. Information on this peer event is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1).
 
 ### -field PEER_GROUP_EVENT_MEMBER_CHANGED
 
-The status of a member has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md).
+The status of a member has changed. Information on this change is provided in the [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1).
 
 ### -field PEER_GROUP_EVENT_CONNECTION_FAILED
 
@@ -92,7 +92,7 @@ The connection to the peer group has failed. No data is provided when this peer 
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 

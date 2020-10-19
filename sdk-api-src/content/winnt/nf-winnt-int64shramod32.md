@@ -73,7 +73,7 @@ A compiler can generate optimal code for a right arithmetic shift operation when
 
 Please note that the 
 <b>Int64ShraMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structures.
 
 ## -see-also
 

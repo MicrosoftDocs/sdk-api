@@ -296,7 +296,7 @@ Retrieves the base service provider handle for a socket used by the [**select**]
 
 This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function.
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsaget/en-us/windows/win32/api/winsock2/nf-winsock2-wsapolllasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE_SELECT** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 

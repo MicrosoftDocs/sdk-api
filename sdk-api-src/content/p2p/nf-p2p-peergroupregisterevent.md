@@ -128,7 +128,7 @@ Before you close the HPEEREVENT handle, you must unregister for the peer event  
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 
