@@ -1,5 +1,5 @@
 ---
-UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0113_0001
+UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0114_0001
 title: SENSORPROFILEID (mfidl.h)
 description: Describes a sensor profile ID.
 helpviewer_keywords: ["PSENSORPROFILEID","PSENSORPROFILEID structure pointer [Media Foundation]","SENSORPROFILEID","SENSORPROFILEID structure [Media Foundation]","mf.sensorprofileid","mfidl/PSENSORPROFILEID","mfidl/SENSORPROFILEID"]

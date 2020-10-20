@@ -62,7 +62,6 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -72,6 +71,6 @@ An <b>IInkHostWorkItem</b> object represents an ink operation to be executed on 
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

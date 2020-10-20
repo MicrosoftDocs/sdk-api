@@ -62,7 +62,6 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -72,6 +71,6 @@ An <b>IInkCommitRequestHandler</b> object enables the app (instead of an <a href
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

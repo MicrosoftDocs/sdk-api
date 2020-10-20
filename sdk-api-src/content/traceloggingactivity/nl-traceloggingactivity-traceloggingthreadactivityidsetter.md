@@ -72,7 +72,7 @@ Creates a new <b>TraceLoggingThreadActivityIdSetter</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIDSetter Constructor</a>
 </td>
 <td align="left" width="63%">
 Saves the original activity ID and sets a new activity on the thread.
@@ -81,7 +81,7 @@ Saves the original activity ID and sets a new activity on the thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-~traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivityidsetter-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter Destructor</a>
 </td>
 <td align="left" width="63%">
 Restores the original activity ID to the thread.

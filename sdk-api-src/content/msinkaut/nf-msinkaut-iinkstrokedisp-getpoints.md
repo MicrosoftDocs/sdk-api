@@ -152,4 +152,4 @@ Unexpected parameter or property type.
 
 
 
-<a href="/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
+<a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>

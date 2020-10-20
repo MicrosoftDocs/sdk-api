@@ -177,7 +177,7 @@ To retrieve the description of the packet data, use the stroke's <a href="/windo
 
 
 
-<a href="/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
+<a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>
 
 
 

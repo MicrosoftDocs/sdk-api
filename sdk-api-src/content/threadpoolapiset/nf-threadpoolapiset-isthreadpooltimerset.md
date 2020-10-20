@@ -69,11 +69,8 @@ The return value is TRUE if the timer is set; otherwise, the return value is FAL
 
 ## -remarks
 
-A timer is considered to be set if the most recent call to
-<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimer.md">SetThreadpoolTimer</a>
-or
-<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimerex.md">SetThreadpoolTimerEx</a>
-passed a non-null value for <i>pftDueTime</i>.
+A timer is considered to be set if the most recent call to [SetThreadpoolTimer](nf-threadpoolapiset-setthreadpooltimer.md)
+or [SetThreadpoolTimerEx function](nf-threadpoolapiset-setthreadpooltimerex.md) passed a non-null value for <i>pftDueTime</i>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 

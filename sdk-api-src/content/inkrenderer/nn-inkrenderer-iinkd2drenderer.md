@@ -88,7 +88,6 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -98,6 +97,6 @@ Renders the ink stroke to the designated  Direct2D device context of the app.
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

@@ -86,7 +86,7 @@ Pointer to a <a href="/windows/desktop/Intl/locale-names">locale name</a>, or on
 
 Pointer to an <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
 
-<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure.</div>
+<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a> structure.</div>
 <div> </div>
 
 ## -returns
@@ -135,7 +135,7 @@ This function supports <a href="/windows/desktop/Intl/custom-locales">custom loc
 
 
 
-<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
+<a href="/windows/win32/api/winnls/ns-winnls-nlsversioninfo-r1">NLSVERSIONINFO</a>
 
 
 

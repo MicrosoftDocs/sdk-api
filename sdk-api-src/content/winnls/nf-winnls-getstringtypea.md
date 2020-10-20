@@ -118,7 +118,7 @@ For an overview of the use of the string functions, see <a href="/windows/deskto
 
 This function converts the source string to Unicode and calls the 
 corresponding <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> function. Thus the words in the output buffer correspond not to the original ANSI string but to its Unicode equivalent. The conversion from ANSI to Unicode can result in a change in string length, for example, a pair of ANSI characters can map to a single 
-Unicode character. Therefore, the correspondence between the words in the output buffer and the characters in the original ANSI string is not one-to-one in all cases, for example, multibyte strings. Thus <b>GetStringTypeA</b> is of limited use for multi-character strings. <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew">GetStringTypeW</a> and <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a> are recommended instead.
+Unicode character. Therefore, the correspondence between the words in the output buffer and the characters in the original ANSI string is not one-to-one in all cases, for example, multibyte strings. Thus <b>GetStringTypeA</b> is of limited use for multi-character strings. [GetStringTypeW function](../stringapiset/nf-stringapiset-getstringtypew.md) and [GetStringTypeEx](../stringapiset/nf-stringapiset-getstringtypeexw.md) are recommended instead.
 
 			 
 When this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 

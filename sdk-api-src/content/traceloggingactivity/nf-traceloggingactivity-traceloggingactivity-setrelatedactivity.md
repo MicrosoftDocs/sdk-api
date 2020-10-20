@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the related activity for this <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
+Sets the related activity for this <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a> object.
 
 ## -parameters
 
@@ -64,4 +64,4 @@ TBD
 
 ## -see-also
 
-<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a>
