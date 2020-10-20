@@ -327,8 +327,8 @@ It is not recommended that you add and subtract values from the
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.</li>
 <li>Copy the resulting 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to a 
-<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> structure.</li>
-<li>Use normal 64-bit arithmetic on the <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> value.</li>
+<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a> structure.</li>
+<li>Use normal 64-bit arithmetic on the <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a> value.</li>
 </ul>
 The system can periodically refresh the time by synchronizing with a time source. Because the system time can be adjusted either forward or backward, do not compare system time readings to determine elapsed time. Instead, use one of the methods described in 
 <a href="/windows/desktop/SysInfo/windows-time">Windows Time</a>.
@@ -394,4 +394,4 @@ The system time is: 19:34
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer-r1">ULARGE_INTEGER</a>
