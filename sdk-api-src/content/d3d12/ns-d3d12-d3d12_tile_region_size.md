@@ -75,11 +75,11 @@ When the region includes mipmaps that are packed with nonstandard tiling, <b>Use
 
 ### -field Width
 
-The width of the tiled region, in tiles. Used for buffer and 1D, 2D, and 3D textures. For more info, see <a href="/previous-versions/windows/apps/hh781198(v=win.10)">Tile and toast image sizes</a>.
+The width of the tiled region, in tiles. Used for buffer and 1D, 2D, and 3D textures.
 
 ### -field Height
 
-The height of the tiled region, in tiles. Used for 2D and 3D textures. For more info, see <a href="/previous-versions/windows/apps/hh781198(v=win.10)">Tile and toast image sizes</a>.
+The height of the tiled region, in tiles. Used for 2D and 3D textures.
 
 ### -field Depth
 
