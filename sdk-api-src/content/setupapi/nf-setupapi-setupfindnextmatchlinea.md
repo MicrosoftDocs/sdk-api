@@ -45,6 +45,7 @@ api_name:
  - SetupFindNextMatchLine
  - SetupFindNextMatchLineA
  - SetupFindNextMatchLineW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupFindNextMatchLineA function

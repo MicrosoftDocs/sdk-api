@@ -49,6 +49,7 @@ api_name:
  - InsertMenu
  - InsertMenuA
  - InsertMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # InsertMenuW function

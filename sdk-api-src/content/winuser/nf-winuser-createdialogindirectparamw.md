@@ -48,6 +48,7 @@ api_name:
  - CreateDialogIndirectParam
  - CreateDialogIndirectParamA
  - CreateDialogIndirectParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDialogIndirectParamW function

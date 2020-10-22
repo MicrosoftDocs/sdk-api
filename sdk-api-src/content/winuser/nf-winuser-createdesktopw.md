@@ -49,6 +49,7 @@ api_name:
  - CreateDesktop
  - CreateDesktopA
  - CreateDesktopW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDesktopW function

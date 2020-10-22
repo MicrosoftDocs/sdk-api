@@ -46,6 +46,7 @@ api_name:
  - CharToOem
  - CharToOemA
  - CharToOemW
+req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CharToOemA function

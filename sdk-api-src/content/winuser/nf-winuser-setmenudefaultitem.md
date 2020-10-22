@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - SetMenuDefaultItem
+req.apiset: ext-ms-win-ntuser-menu-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetMenuDefaultItem function

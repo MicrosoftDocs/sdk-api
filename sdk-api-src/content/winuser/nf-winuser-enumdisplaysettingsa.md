@@ -49,6 +49,7 @@ api_name:
  - EnumDisplaySettings
  - EnumDisplaySettingsA
  - EnumDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # EnumDisplaySettingsA function

@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHSetLocalizedName
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHSetLocalizedName function

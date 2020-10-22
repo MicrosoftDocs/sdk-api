@@ -47,6 +47,7 @@ api_name:
  - LoadBitmap
  - LoadBitmapA
  - LoadBitmapW
+req.apiset: ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # LoadBitmapA function

@@ -56,6 +56,7 @@ api_name:
  - GetClipboardFormatName
  - GetClipboardFormatNameA
  - GetClipboardFormatNameW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClipboardFormatNameA function

@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateSessions
  - WTSEnumerateSessionsA
  - WTSEnumerateSessionsW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateSessionsA function

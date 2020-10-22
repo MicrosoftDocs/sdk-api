@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHEvaluateSystemCommandTemplate
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHEvaluateSystemCommandTemplate function

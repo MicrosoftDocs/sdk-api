@@ -55,6 +55,7 @@ api_name:
  - GetProp
  - GetPropA
  - GetPropW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetPropA function

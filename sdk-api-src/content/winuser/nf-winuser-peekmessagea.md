@@ -54,6 +54,7 @@ api_name:
  - PeekMessage
  - PeekMessageA
  - PeekMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # PeekMessageA function

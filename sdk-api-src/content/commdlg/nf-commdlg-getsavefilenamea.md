@@ -47,6 +47,7 @@ api_name:
  - GetSaveFileName
  - GetSaveFileNameA
  - GetSaveFileNameW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetSaveFileNameA function

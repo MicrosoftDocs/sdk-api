@@ -46,6 +46,7 @@ api_name:
  - GetCurrentHwProfile
  - GetCurrentHwProfileA
  - GetCurrentHwProfileW
+req.apiset: ext-ms-win-advapi32-hwprof-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetCurrentHwProfileA function

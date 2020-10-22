@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - DSA_DeleteAllItems
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DSA_DeleteAllItems function

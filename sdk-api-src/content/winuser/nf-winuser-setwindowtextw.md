@@ -55,6 +55,7 @@ api_name:
  - SetWindowText
  - SetWindowTextA
  - SetWindowTextW
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetWindowTextW function

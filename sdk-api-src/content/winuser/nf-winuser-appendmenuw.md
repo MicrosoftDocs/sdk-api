@@ -49,6 +49,7 @@ api_name:
  - AppendMenu
  - AppendMenuA
  - AppendMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # AppendMenuW function

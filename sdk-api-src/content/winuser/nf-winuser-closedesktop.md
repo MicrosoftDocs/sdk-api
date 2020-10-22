@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - CloseDesktop
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CloseDesktop function

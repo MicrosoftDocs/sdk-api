@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - DefRawInputProc
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DefRawInputProc function

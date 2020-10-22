@@ -47,6 +47,7 @@ api_name:
  - OpenEncryptedFileRaw
  - OpenEncryptedFileRawA
  - OpenEncryptedFileRawW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # OpenEncryptedFileRawW function

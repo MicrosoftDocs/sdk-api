@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DSA_Create
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DSA_Create function

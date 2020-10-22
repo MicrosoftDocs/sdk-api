@@ -43,6 +43,7 @@ api_location:
  - Kernel32.dll
 api_name:
  - WinExec
+req.apiset: ext-ms-win-kernel32-process-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WinExec function

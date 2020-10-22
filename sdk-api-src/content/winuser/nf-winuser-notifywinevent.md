@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-server-l1-1-0.dll
 api_name:
  - NotifyWinEvent
+req.apiset: ext-ms-win-ntuser-server-l1-1-0 (introduced in Windows 8)
 ---
 
 # NotifyWinEvent function

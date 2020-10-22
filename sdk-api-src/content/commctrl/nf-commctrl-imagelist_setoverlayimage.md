@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - ImageList_SetOverlayImage
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ImageList_SetOverlayImage function

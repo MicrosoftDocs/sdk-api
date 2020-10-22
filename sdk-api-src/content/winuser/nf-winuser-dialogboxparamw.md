@@ -48,6 +48,7 @@ api_name:
  - DialogBoxParam
  - DialogBoxParamA
  - DialogBoxParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # DialogBoxParamW function

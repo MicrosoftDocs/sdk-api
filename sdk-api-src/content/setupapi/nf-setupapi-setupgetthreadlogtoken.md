@@ -46,6 +46,7 @@ api_location:
  - setupapi.dll
 api_name:
  - SetupGetThreadLogToken
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupGetThreadLogToken function

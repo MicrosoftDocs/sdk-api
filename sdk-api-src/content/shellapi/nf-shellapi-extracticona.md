@@ -47,6 +47,7 @@ api_name:
  - ExtractIcon
  - ExtractIconA
  - ExtractIconW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ExtractIconA function

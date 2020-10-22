@@ -47,6 +47,7 @@ api_location:
 api_name:
  - SetupDiGetClassDevs
  - SetupDiGetClassDevsW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiGetClassDevsW function

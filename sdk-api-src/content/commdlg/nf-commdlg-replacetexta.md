@@ -45,6 +45,7 @@ api_name:
  - ReplaceText
  - ReplaceTextA
  - ReplaceTextW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ReplaceTextA function

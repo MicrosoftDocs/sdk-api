@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
  - SetupDiDestroyDeviceInfoList
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiDestroyDeviceInfoList function

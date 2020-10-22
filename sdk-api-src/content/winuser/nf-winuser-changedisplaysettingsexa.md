@@ -48,6 +48,7 @@ api_name:
  - ChangeDisplaySettingsEx
  - ChangeDisplaySettingsExA
  - ChangeDisplaySettingsExW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsExA function

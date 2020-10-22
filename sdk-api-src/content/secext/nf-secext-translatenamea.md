@@ -45,6 +45,7 @@ api_name:
  - TranslateName
  - TranslateNameA
  - TranslateNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # TranslateNameA function

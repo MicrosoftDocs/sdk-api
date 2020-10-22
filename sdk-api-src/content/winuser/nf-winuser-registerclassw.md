@@ -53,6 +53,7 @@ api_name:
  - RegisterClass
  - RegisterClassA
  - RegisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterClassW function

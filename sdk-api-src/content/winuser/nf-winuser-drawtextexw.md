@@ -51,6 +51,7 @@ api_name:
  - DrawTextEx
  - DrawTextExA
  - DrawTextExW
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # DrawTextExW function

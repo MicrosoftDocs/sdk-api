@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - SetMessageExtraInfo
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetMessageExtraInfo function

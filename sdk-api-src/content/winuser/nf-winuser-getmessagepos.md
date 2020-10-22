@@ -51,6 +51,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - GetMessagePos
+req.apiset: ext-ms-win-ntuser-message-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetMessagePos function

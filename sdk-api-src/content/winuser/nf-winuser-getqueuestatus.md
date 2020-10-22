@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - GetQueueStatus
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetQueueStatus function

@@ -52,6 +52,7 @@ api_name:
  - RegisterDeviceNotification
  - RegisterDeviceNotificationA
  - RegisterDeviceNotificationW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterDeviceNotificationA function

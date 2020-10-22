@@ -46,6 +46,7 @@ api_name:
  - SetupGetLineCount
  - SetupGetLineCountA
  - SetupGetLineCountW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetLineCountW function

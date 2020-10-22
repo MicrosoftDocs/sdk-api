@@ -48,6 +48,7 @@ api_location:
 api_name:
  - RealGetWindowClass
  - RealGetWindowClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # RealGetWindowClassW function

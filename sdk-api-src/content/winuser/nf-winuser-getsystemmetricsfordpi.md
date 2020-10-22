@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetSystemMetricsForDpi
+req.apiset: ext-ms-win-ntuser-private-l1-3-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetSystemMetricsForDpi function

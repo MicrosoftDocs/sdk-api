@@ -45,6 +45,7 @@ api_location:
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
  - CloseEventLog
+req.apiset: ext-ms-win-advapi32-eventlog-l1-1-0 (introduced in Windows 8)
 ---
 
 # CloseEventLog function

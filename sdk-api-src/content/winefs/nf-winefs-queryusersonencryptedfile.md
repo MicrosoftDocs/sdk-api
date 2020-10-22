@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
  - QueryUsersOnEncryptedFile
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # QueryUsersOnEncryptedFile function

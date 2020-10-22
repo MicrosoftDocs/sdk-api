@@ -46,6 +46,7 @@ api_location:
  - MinUser.dll
 api_name:
  - QueryDisplayConfig
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # QueryDisplayConfig function

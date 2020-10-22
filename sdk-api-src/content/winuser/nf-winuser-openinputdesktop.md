@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - OpenInputDesktop
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # OpenInputDesktop function

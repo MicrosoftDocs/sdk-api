@@ -47,6 +47,7 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHCreateItemInKnownFolder
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHCreateItemInKnownFolder function

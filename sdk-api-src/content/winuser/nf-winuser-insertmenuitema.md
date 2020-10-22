@@ -48,6 +48,7 @@ api_name:
  - InsertMenuItem
  - InsertMenuItemA
  - InsertMenuItemW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # InsertMenuItemA function

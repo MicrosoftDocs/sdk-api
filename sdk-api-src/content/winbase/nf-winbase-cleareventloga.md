@@ -46,6 +46,7 @@ api_name:
  - ClearEventLog
  - ClearEventLogA
  - ClearEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ClearEventLogA function

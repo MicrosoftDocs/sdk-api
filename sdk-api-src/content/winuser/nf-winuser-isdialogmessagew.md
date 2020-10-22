@@ -46,6 +46,7 @@ api_name:
  - IsDialogMessage
  - IsDialogMessageA
  - IsDialogMessageW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsDialogMessageW function

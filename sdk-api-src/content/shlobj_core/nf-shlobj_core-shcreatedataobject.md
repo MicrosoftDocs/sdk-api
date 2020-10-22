@@ -45,6 +45,7 @@ api_location:
  - API-MS-Win-Shell-Dataobject-L1-1-0.dll
 api_name:
  - SHCreateDataObject
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHCreateDataObject function

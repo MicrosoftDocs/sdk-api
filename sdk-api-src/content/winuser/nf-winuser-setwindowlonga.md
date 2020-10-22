@@ -53,6 +53,7 @@ api_name:
  - SetWindowLong
  - SetWindowLongA
  - SetWindowLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowLongA function

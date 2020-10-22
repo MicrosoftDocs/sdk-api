@@ -48,6 +48,7 @@ api_name:
  - CreateDialogParam
  - CreateDialogParamA
  - CreateDialogParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDialogParamW function

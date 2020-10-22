@@ -52,6 +52,7 @@ api_name:
  - SetWindowsHookEx
  - SetWindowsHookExA
  - SetWindowsHookExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowsHookExA function
