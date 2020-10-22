@@ -494,7 +494,7 @@ A member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-findreplacea">F
 
 ## -see-also
 
-<a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1">CHOOSECOLOR</a>
 
 
 
