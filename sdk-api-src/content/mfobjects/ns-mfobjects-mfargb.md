@@ -74,7 +74,7 @@ Alpha value.
 
 ## -see-also
 
-<a href="/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>
+<a href="/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry">MFPaletteEntry Union</a>
 
 
 

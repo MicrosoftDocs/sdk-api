@@ -56,7 +56,7 @@ Retrieves the sensor profile ID.
 
 ### -param pId [out]
 
-Pointer to a <a href="/windows/desktop/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
+Pointer to a <a href="/windows/win32/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
 
 ## -returns
 
