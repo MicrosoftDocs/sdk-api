@@ -70,7 +70,7 @@ cySize
 
 ### -field cySize
 
-Initial point size of the font. Use the <b>int64</b> member of the <a href="/windows/win32/api/wtypes/ns-wtypes-cy~r1">CY</a> structure and scale your font size (in points) by 10000.
+Initial point size of the font. Use the <b>int64</b> member of the <a href="/windows/win32/api/wtypes/ns-wtypes-cy-r1">CY</a> structure and scale your font size (in points) by 10000.
 
 ### -field sWeight
 
