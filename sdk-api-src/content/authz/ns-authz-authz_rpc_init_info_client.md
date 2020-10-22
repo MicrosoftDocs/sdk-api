@@ -97,4 +97,4 @@ Server Principal Name (SPN) of the server. If this member is missing, it is cons
 
 ## -remarks
 
-For a sample that uses this structure, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Effective-access-rights-dd5b13a8">Effective access rights for files</a>  (https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).
+For a sample that uses this structure, see the [Effective access rights for files sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).
