@@ -102,7 +102,7 @@ If the function fails to create a timer, the return value is zero. To get extend
 
 ## -remarks
 
-An application can process <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
+An application can process <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the DispatchMessage calls the callback function instead of calling the window procedure when it processes <b>WM_TIMER</b> with a non-NULL lParam. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
 
 The <i>wParam</i> parameter of the <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
 
