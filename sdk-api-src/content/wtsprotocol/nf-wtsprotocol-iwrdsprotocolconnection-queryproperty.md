@@ -176,6 +176,34 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 <li><code>pPropertyEntriesOut[0].u.bVal.size = </code>Size of <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
 </ul>
 
+#### PROPERTY_GET_FAST_RECONNECT (6212d757-0043-4862-99c3-9f3059ac2a3b)
+
+Used by the Remote Desktop Services service to determine the mode of reconnection to be used.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to disable fast reconnect, 1 for Basic Fast Reconnect, 2 for Enhanced Fast Reconnect</i></li>
+</ul>
+
+#### PROPERTY_TYPE_GET_FAST_RECONNECT_USER_SID (197c427a-0135-4b6d-9c5e-e6579a0ab625)
+
+Used by the Remote Desktop Services service during Enhanced Fast Reconnect to retrieve the User SID by which sessions to be reconnected to are filtered.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_STRING</b></li>
+<li><code>pPropertyEntriesIn[0].u.strVal.pstrVal = </code><i>User SID to be used as session filter</i></li>
+<li><code>pPropertyEntriesIn[0].u.strVal.size = </code><i>Length of User SID including the null terminating character</i></li>
+</ul>
+You must allocate the memory for <b>pstrVal</b> by using the <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function.
+
 ### -param ulNumEntriesIn [in]
 
 The number of entries in the <i>pPropertyEntriesIn</i> array.
