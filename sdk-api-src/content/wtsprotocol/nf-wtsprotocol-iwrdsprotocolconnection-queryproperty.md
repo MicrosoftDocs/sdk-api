@@ -204,6 +204,19 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 </ul>
 You must allocate the memory for <b>pstrVal</b> by using the <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> function.
 
+#### CONNECTION_PROPERTY_IDLE_TIME_WARNING (693f7ff5-0c4e-4d17-b8e0-1f70325e5d58)
+
+Used to determine whether a logoff warning prompt is displayed when the idle timer expires.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>0 to disable warning prompt, 1 to enable it</i></li>
+</ul>
+
 ### -param ulNumEntriesIn [in]
 
 The number of entries in the <i>pPropertyEntriesIn</i> array.
