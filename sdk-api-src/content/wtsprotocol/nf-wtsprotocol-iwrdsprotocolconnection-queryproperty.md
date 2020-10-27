@@ -176,6 +176,19 @@ On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-w
 <li><code>pPropertyEntriesOut[0].u.bVal.size = </code>Size of <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
 </ul>
 
+#### CONNECTION_PROPERTY_CURSOR_BLINK_DISABLED (4b150580-fea4-4d3c-9de4-7433a66618f7)
+
+Used to determine whether cursor blink should be disabled.
+
+The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
+
+On output, pass the following <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+
+<ul>
+<li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
+<li><code>pPropertyEntriesOut[0].u.ulVal = </code><i>1 to disable cursor blink, 0 otherwise</i></li>
+</ul>
+
 ### -param ulNumEntriesIn [in]
 
 The number of entries in the <i>pPropertyEntriesIn</i> array.
