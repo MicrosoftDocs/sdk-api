@@ -342,6 +342,17 @@ The specified volume supports disk quotas.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_BLOCK_REFCOUNTING"></a><a id="file_supports_block_refcounting"></a><dl>
+<dt><b>FILE_SUPPORTS_BLOCK_REFCOUNTING</b></dt>
+<dt>0x08000000</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. Indicates that FSCTL_DUPLICATE_EXTENTS_TO_FILE is a supported operation.
+
+</td>
+</tr>
 </table>
 
 ### -param lpFileSystemNameBuffer [out, optional]
