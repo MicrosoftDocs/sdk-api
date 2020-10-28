@@ -107,7 +107,7 @@ Reserved. Must be <b>NULL</b>.
 
 Type: <b>LPDWORD</b>
 
-The address of the variable that receives the key's value type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
+The address of the variable that receives the key's value type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [out, optional]
 

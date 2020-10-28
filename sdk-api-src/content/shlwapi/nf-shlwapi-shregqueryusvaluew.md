@@ -104,7 +104,7 @@ A pointer to the <b>null</b>-terminated string that contains the name of the val
 
 Type: <b>LPDWORD*</b>
 
-A pointer to the variable that sets or receives the key's value type. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>. This parameter can be <b>NULL</b>.
+A pointer to the variable that sets or receives the key's value type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. This parameter can be <b>NULL</b>.
 
 ### -param pvData [out, optional]
 

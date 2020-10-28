@@ -107,7 +107,7 @@ The address of the value.
 
 Type: <b>LPDWORD</b>
 
-The type of value. For more information, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>.
+The type of value. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [out, optional]
 
