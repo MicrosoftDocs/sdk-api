@@ -102,5 +102,5 @@ Changes the physical resolution of the image.
             When pixels need to be moved to a new memory location, <b>CopyPixels</b> is often the most efficient.
          
 
-Because of to the internal memory representation implied by the <b>IWICBitmap</b>, in-place modification and processing using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> is more efficient than <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>, usually reducing to a simple pointer access directly into the memory owned by the bitmap rather than a as a copy. 
+Because of the internal memory representation implied by the <b>IWICBitmap</b>, in-place modification and processing using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> is more efficient than <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>, usually reducing to a simple pointer access directly into the memory owned by the bitmap rather than a copy. 
             This is contrasted to procedural bitmaps which implement only <b>CopyPixels</b> because there is no internal memory representation and one would need to be created on demand to satisfy a call to <b>Lock</b>.
