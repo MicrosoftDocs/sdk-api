@@ -47,35 +47,34 @@ api_name:
 
 # GET_X_LPARAM macro
 
-
 ## -description
 
-Retrieves the 
-			signed x-coordinate from the specified 
-			<b>LPARAM</b> value.
+Retrieves the signed x-coordinate from the specified <b>LPARAM</b> value.
 
 ## -parameters
 
 ### -param lp
 
-The value to be converted.
+The data from which the x-coordinate is to be extracted.
+
+## -returns
+
+Type: <b>int</b>
+
+X-coordinate.
+
+## -remarks
+
+Use <b>GET_X_LPARAM</b> instead of <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> to extract signed coordinate data. Negative screen coordinates may be returned on multiple monitor systems.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-
-
 <a href="/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam">GET_Y_LPARAM</a>
-
-
 
 <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>
 
-
-
 <b>Reference</b>
-
-
 
 <a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
