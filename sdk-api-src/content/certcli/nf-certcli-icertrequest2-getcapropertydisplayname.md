@@ -59,7 +59,7 @@ The <b>GetCAPropertyDisplayName</b> method retrieves the property display name f
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the CA in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the Certificate Services server, and <i>CAName</i> is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
+Represents a valid configuration string for the CA in the form <i>ComputerName</i><b>\\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the Certificate Services server, and <i>CAName</i> is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param PropId [in]

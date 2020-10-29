@@ -62,7 +62,7 @@ The <b>SECPKG_NAME_TYPE</b> enumeration is used by the
 
 ### -field SecNameSamCompatible
 
-The account name is compatible with the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\</b><i>UserName</i><b>"</b>.
+The account name is compatible with the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\\</b><i>UserName</i><b>"</b>.
 
 ### -field SecNameAlternateId
 

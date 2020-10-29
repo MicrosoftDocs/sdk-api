@@ -126,7 +126,7 @@ You can set the target to NULL, in which case drawing calls will put the device 
 
 If the device context has an outstanding HDC, the context will enter the <b>D2DERR_WRONG_STATE</b> error state.  The target will not be changed.
 
-If the bitmap and the device context are not in the same resource domain, the context will enter <b>\</b> error state.  The target will not be changed.
+If the bitmap and the device context are not in the same resource domain, the context will enter <b>\\</b> error state.  The target will not be changed.
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize">ID2D1RenderTarget::GetPixelSize</a> returns the size of the current target bitmap (or 0, 0) if there is no bitmap bound).

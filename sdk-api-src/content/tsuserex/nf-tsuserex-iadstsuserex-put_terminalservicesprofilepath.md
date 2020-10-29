@@ -63,7 +63,7 @@ This property is read/write.
 The profile path is 
      in the following network path format:
 
-<b>\\</b><i>ServerName</i><b>\</b><i>ProfilesFolderName</i><b>\</b><i>UserName</i>
+<b>\\\\</b><i>ServerName</i><b>\\</b><i>ProfilesFolderName</i><b>\\</b><i>UserName</i>
 
 <div class="alert"><b>Note</b>  A Remote Desktop Services profile path is used only for logging on to an RD Session Host server.</div>
 <div> </div>

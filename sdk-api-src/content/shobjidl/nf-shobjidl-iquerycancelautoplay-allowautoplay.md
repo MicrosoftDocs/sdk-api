@@ -58,7 +58,7 @@ Determines whether to play media inserted by a user and if so using what restric
 
 Type: <b>LPCWSTR</b>
 
-The drive letter in the form <b>D:\</b>
+The drive letter in the form <b>D:\\</b>
 
 ### -param dwContentType [in]
 
