@@ -57,7 +57,7 @@ The <b>GetIssuedCertificate2</b> method retrieves a certificate's disposition by
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 

@@ -61,12 +61,12 @@ The <b>VSS_DIFF_VOLUME_PROP</b> structure
 
 ### -field m_pwszVolumeName
 
-The shadow copy storage area volume name, in <b>\\?\</b><i>Volume</i><b>{</b><i>GUID</i><b>}\</b> format.
+The shadow copy storage area volume name, in <b>\\\\?\\</b><i>Volume</i><b>{</b><i>GUID</i><b>}\\</b> format.
 
 ### -field m_pwszVolumeDisplayName
 
 Points to a null-terminated Unicode string that can be displayed to a user, for example 
-      <i>C</i><b>:\</b>, for the shadow copy storage area volume.
+      <i>C</i><b>:\\</b>, for the shadow copy storage area volume.
 
 ### -field m_llVolumeFreeSpace
 
