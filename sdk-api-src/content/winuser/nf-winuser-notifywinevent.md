@@ -112,4 +112,4 @@ When servers call this function, they must be ready to handle <a href="/windows/
 
 
 
-<a href="/windows/desktop/WinAuto/winevents">WinEvents</a>
+<a href="/windows/desktop/WinAuto/winevents-infrastructure">WinEvents</a>

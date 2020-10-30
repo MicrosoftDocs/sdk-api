@@ -501,6 +501,3 @@ The architecture is quite flexible in that each table row can have any valid tab
 
 On the other hand, no formal table description is stored anywhere. Information such as the number of rows must be figured out by navigating through the table.
 For example, the count of rows in a table can be obtained by calling <a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">ITextRange::StartOf</a> (<b>tomTable</b>, <b>tomFalse</b>, <b>NULL</b>) to move to the start of the current table and then calling <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a> (<b>tomRow</b>, <b>tomForward</b>, <i>&amp;dcRow</i>). The quantity <i>&amp;dcRow</i> + 1 then contains the count of rows in the table, because moving by <b>tomRow</b> increments doesn't move beyond the last table row.
-
-
-For additional information about the rich edit control's support for tables, see <a href="https://blogs.msdn.com/b/murrays/archive/2008/09/15/richedit-s-nested-table-facility.aspx">RichEdit's Nested Table Facility</a>.

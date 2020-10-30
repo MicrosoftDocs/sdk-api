@@ -98,7 +98,7 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 <td width="60%">
 <i>pData</i> points to a string that contains the <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interface name</a>.
 
-If this device is <a href="/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
+If this device is <a href="/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> with this name to open a HID collection and use returned handle for calling <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a> to read input reports and <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a> to send output reports.
 
 For more information, see <a href="/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
 
@@ -112,7 +112,7 @@ For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character cou
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info.md">RID_DEVICE_INFO</a> structure.
+<i>pData</i> points to an <a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> structure.
 </td>
 </tr>
 </table>
