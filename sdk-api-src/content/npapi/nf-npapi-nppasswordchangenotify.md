@@ -6,13 +6,13 @@ helpviewer_keywords: ["NPPasswordChangeNotify","NPPasswordChangeNotify function 
 old-location: security\nppasswordchangenotify.htm
 tech.root: security
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
-ms.date: 12/05/2018
+ms.date: 09/17/2020
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,6 +47,8 @@ api_name:
 
 # NPPasswordChangeNotify function
 
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 ## -description
 
@@ -266,7 +268,7 @@ The credential manager is still initializing and is not ready to be called.
 
 The  <b>NPPasswordChangeNotify</b> function is implemented by credential managers to receive notifications when authentication information changes.
 
-<b>Windows Server 2003 and Windows XP:  </b><b>NPPasswordChangeNotify</b> is called on a computer a user is logging into if the password has been changed somewhere else. Note that this behavior is not supported beginning with Windows Vista and Windows Server 2008.
+<b>Windows Server 2003 and Windows XP:  </b><b>NPPasswordChangeNotify</b> is called on a computer a user is logging into if the password has been changed somewhere else. Note that this behavior is not supported beginning with Windows Vista and Windows Server 2008.
 
 ## -see-also
 
