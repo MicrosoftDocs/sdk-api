@@ -54,46 +54,32 @@ Locks a volume if it is not in use. A locked volume can be accessed only through
 
 To perform this operation, call the 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to a volume
-  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
+  (DWORD) FSCTL_LOCK_VOLUME,   // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
-
 ### -input-buffer-length
-
-<text></text>
 
 ### -output-buffer
 
-<text></text>
-
 ### -output-buffer-length
-
-<text></text>
 
 ### -in-out-buffer
 
-<text></text>
-
 ### -inout-buffer-length
-
-<text></text>
 
 ### -status-block
 
