@@ -73,7 +73,7 @@ Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>ma
 GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or wWinMain functions by implementing those as the program entry point.
 
 To convert the command line to an <i>argv</i> style array of strings, pass the result from GetCommandLineA to
-<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw">CommandLineToArgvA</a>.
+<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw">CommandLineToArgW</a>.
 
 <div class="alert"><b>Note</b>  The name of the executable in the command line that the operating system provides to a process is not necessarily identical to that in the command line that the calling process gives to the 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. The operating system may prepend a fully qualified path to an executable name that is provided without a fully qualified path.</div>
