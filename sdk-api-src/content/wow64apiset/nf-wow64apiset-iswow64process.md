@@ -1,7 +1,7 @@
 ---
 UID: NF:wow64apiset.IsWow64Process
 title: IsWow64Process function (wow64apiset.h)
-description: Determines whether the specified process is running under WOW64 or an Intel64 of x64 processor.
+description: Determines whether the specified process is running under WOW64 on an Intel64 of x64 processor.
 helpviewer_keywords: ["IsWow64Process","IsWow64Process function","_win32_iswow64process","base.iswow64process","winbase/IsWow64Process","wow64apiset/IsWow64Process"]
 old-location: base\iswow64process.htm
 tech.root: backup
