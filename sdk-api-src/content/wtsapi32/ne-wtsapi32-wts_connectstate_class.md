@@ -60,6 +60,8 @@ Specifies the connection state of a Remote Desktop Services session.
 
 A user is logged on to the WinStation.
 
+This state occurs when a user is signed in and actively connected to the device.
+
 ### -field WTSConnected
 
 The WinStation is connected to the client.
@@ -75,6 +77,8 @@ The WinStation is shadowing another WinStation.
 ### -field WTSDisconnected
 
 The WinStation is active but the client is disconnected.
+
+This state occurs when a user is signed in but not actively connected to the device, such as when the user has chosen to exit to the lock screen.
 
 ### -field WTSIdle
 
