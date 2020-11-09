@@ -72,7 +72,7 @@ Controls allocation of the buffer space for the destination
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeoemstring">RtlFreeOemString</a>.
 
 
 
