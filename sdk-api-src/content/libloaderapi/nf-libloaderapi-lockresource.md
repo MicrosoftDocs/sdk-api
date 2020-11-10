@@ -78,7 +78,7 @@ If the loaded resource is available, the return value is a pointer to the first 
 
 The pointer returned by **LockResource** is valid until the module containing the resource is unloaded. It is not necessary to unlock resources because the system automatically deletes them when the process that created them terminates.
 
-Do not try to lock a resource by using the handle returned by the [FindResourceA function](/windows/win32/api/winbase/nf-winbase-findresourcea) or [FindResourceExA function](/windows/win32/api/winbase/nf-winbase-findresourceexa) function. Such a handle points to random data. 
+Do not try to lock a resource by using the handle returned by the [FindResourceA function](../winbase/nf-winbase-findresourcea.md) or [FindResourceExA function](../winbase/nf-winbase-findresourceexa.md) function. Such a handle points to random data. 
 
 > [!Note]
 > **LockResource** does not actually lock memory; it is just used to obtain a pointer to the memory containing the resource data. The name of the function comes from versions prior to Windows XP, when it was used to lock a global memory block allocated by [LoadResource](nf-libloaderapi-loadresource.md).
@@ -95,8 +95,7 @@ For an example, see [Updating Resources](/windows/win32/menurc/using-resources#u
 
 ### Reference
 
-- [Menus and Other Resources](/windows/win32/api/_menurc/)
-- [FindResourceA function](/windows/win32/api/winbase/nf-winbase-findresourcea)
-= [FindResourceExA function](/windows/win32/api/winbase/nf-winbase-findresourceexa)
+- [Menus and Other Resources](../_menurc/index.md)
+- [FindResourceA function](../winbase/nf-winbase-findresourcea.md)
+= [FindResourceExA function](../winbase/nf-winbase-findresourceexa.md)
 - [LoadResource function](nf-libloaderapi-loadresource.md)
-

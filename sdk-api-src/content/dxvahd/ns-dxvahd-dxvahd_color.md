@@ -48,15 +48,14 @@ Defines a color value for DXVA-HD.
 
 ### -field RGB
 
-A [DXVAHD_COLOR_RGBA](/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_rgba) structure that contains an RGB color value.
+A [DXVAHD_COLOR_RGBA](./ns-dxvahd-dxvahd_color_rgba.md) structure that contains an RGB color value.
 
 ### -field YCbCr
 
-A [DXVAHD_COLOR_YCbCrA](/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color_ycbcra) structure that contains a YCbCr color value.
+A [DXVAHD_COLOR_YCbCrA](./ns-dxvahd-dxvahd_color_ycbcra.md) structure that contains a YCbCr color value.
 
 ## -remarks
 
 This union can represent both RGB and YCbCr colors. The interpretation of the union depends on the context.
 
 ## -see-also
-

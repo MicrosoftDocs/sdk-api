@@ -383,7 +383,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
 
 ### -param ExtendedParameters
 
-Type: _Inout_updates_opt_(ParameterCount) **[MEM_EXTENDED_PARAMETER](/windows/win32/api/winnt/ns-winnt-mem_extended_parameter)\***
+Type: _Inout_updates_opt_(ParameterCount) **[MEM_EXTENDED_PARAMETER](../winnt/ns-winnt-mem_extended_parameter.md)\***
 
 An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
@@ -403,7 +403,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-See the **Remarks** for [CreateFileMapping](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw#remarks).
+See the **Remarks** for [CreateFileMapping](./nf-memoryapi-createfilemappingw.md#remarks).
 
 ## Examples
 

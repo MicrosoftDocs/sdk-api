@@ -66,4 +66,3 @@ The decode resolution can be changed on a non-key frame.
 ## -remarks
 
 ## -see-also
-

@@ -50,7 +50,7 @@ api_name:
 
 The <b>GdiplusAbort</b> structure provides a mechanism that allows Windows GDI+ to call an application-defined <b>Abort</b> method periodically during time-consuming rendering operations.
 
-See [GdiplusAbort::Abort](/windows/win32/api/gdiplustypes/nf-gdiplustypes-gdiplusabort-abort).
+See [GdiplusAbort::Abort](./nf-gdiplustypes-gdiplusabort-abort.md).
 
 ## -struct-fields
 

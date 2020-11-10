@@ -99,7 +99,7 @@ Note that heaps with this flag might be a limited resource on some systems.
 
 ### -field D3D12_HEAP_FLAG_CREATE_NOT_RESIDENT
 
-The heap is created in a non-resident state and must be made resident using [ID3D12Device::MakeResident](/windows/win32/api/d3d12/nf-d3d12-id3d12device-makeresident) or [ID3D12Device3::EnqueueMakeResident](/windows/win32/api/d3d12/nf-d3d12-id3d12device3-enqueuemakeresident).
+The heap is created in a non-resident state and must be made resident using [ID3D12Device::MakeResident](./nf-d3d12-id3d12device-makeresident.md) or [ID3D12Device3::EnqueueMakeResident](./nf-d3d12-id3d12device3-enqueuemakeresident.md).
 
 By default, the final step of heap creation is to make the heap resident, so this flag skips this step and allows the application to decide when to do so.
 

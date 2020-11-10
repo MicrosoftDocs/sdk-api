@@ -79,6 +79,6 @@ To identify whether a given Win32 API belongs to an API set, review the requirem
 
 <a href="/windows/win32/apiindex/detect-api-set-availability">Detect API set availability</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>
+<a href="/windows-hardware/drivers/develop/building-for-onecore">Building for OneCore</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/develop/validating-universal-drivers">Validating Universal Windows drivers</a>
+<a href="/windows-hardware/drivers/develop/validating-universal-drivers">Validating Universal Windows drivers</a>

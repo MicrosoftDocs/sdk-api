@@ -59,9 +59,9 @@ A descriptor that identifies the socket.
 
 ### -param lpMsg
 
-Type: \_Inout\_ **[LPWSAMSG](/windows/win32/api/ws2def/ns-ws2def-wsamsg)**
+Type: \_Inout\_ **[LPWSAMSG](../ws2def/ns-ws2def-wsamsg.md)**
 
-A pointer to a [**WSAMSG**](/windows/win32/api/ws2def/ns-ws2def-wsamsg) structure based on the Posix.1g specification for the msghdr structure.
+A pointer to a [**WSAMSG**](../ws2def/ns-ws2def-wsamsg.md) structure based on the Posix.1g specification for the msghdr structure.
 
 ### -param lpdwNumberOfBytesRecvd
 
@@ -73,13 +73,13 @@ To avoid potentially erroneous results, pass **NULL** for this parameter if the 
 
 ### -param lpOverlapped
 
-Type: \_Inout_opt\_ **[LPWSAOVERLAPPED](/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped)**
+Type: \_Inout_opt\_ **[LPWSAOVERLAPPED](../winsock2/ns-winsock2-wsaoverlapped.md)**
 
-A pointer to a [**WSAOVERLAPPED**](/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped) structure. Ignored for non-overlapped structures.
+A pointer to a [**WSAOVERLAPPED**](../winsock2/ns-winsock2-wsaoverlapped.md) structure. Ignored for non-overlapped structures.
 
 ### -param lpCompletionRoutine
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 A pointer to the completion routine called when the receive operation completes. Ignored for non-overlapped structures.
 
@@ -102,64 +102,64 @@ Any other error code indicates that the operation was not successfully initiated
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAECONNRESET</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAECONNRESET</a></strong></td>
 <td><p>For a UDP datagram socket, this error would indicate that a previous send operation resulted in an ICMP &quot;Port Unreachable&quot; message.</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEFAULT</a></strong></td>
-<td><p>The <em>lpBuffers</em>, <em>lpFlags</em>, <em>lpFrom</em>, <em>lpNumberOfBytesRecvd</em>, <em>lpFromlen</em>, <em>lpOverlapped</em>, or <em>lpCompletionRoutine</em> parameter is not totally contained in a valid part of the user address space: the <em>lpFrom</em> buffer was too small to accommodate the peer address. This error is also returned if a <strong>name</strong> member of the <a href="https://msdn.microsoft.com/en-us/library/ms741645(v=vs.85)"><strong>WSAMSG</strong></a> structure pointed to by the <em>lpMsg</em> parameter was a <strong>NULL</strong> pointer and the <strong>namelen</strong> member of the <strong>WSAMSG</strong> structure was not set to zero. This error is also returned if a <strong>Control.buf</strong> member of the <strong>WSAMSG</strong> structure pointed to by the <em>lpMsg</em> parameter was a <strong>NULL</strong> pointer and the <strong>Control.len</strong> member of the <strong>WSAMSG</strong> structure was not set to zero.</p></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEFAULT</a></strong></td>
+<td><p>The <em>lpBuffers</em>, <em>lpFlags</em>, <em>lpFrom</em>, <em>lpNumberOfBytesRecvd</em>, <em>lpFromlen</em>, <em>lpOverlapped</em>, or <em>lpCompletionRoutine</em> parameter is not totally contained in a valid part of the user address space: the <em>lpFrom</em> buffer was too small to accommodate the peer address. This error is also returned if a <strong>name</strong> member of the <a href="/windows/win32/api/ws2def/ns-ws2def-wsamsg"><strong>WSAMSG</strong></a> structure pointed to by the <em>lpMsg</em> parameter was a <strong>NULL</strong> pointer and the <strong>namelen</strong> member of the <strong>WSAMSG</strong> structure was not set to zero. This error is also returned if a <strong>Control.buf</strong> member of the <strong>WSAMSG</strong> structure pointed to by the <em>lpMsg</em> parameter was a <strong>NULL</strong> pointer and the <strong>Control.len</strong> member of the <strong>WSAMSG</strong> structure was not set to zero.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEINPROGRESS</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></strong></td>
 <td><p>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEINTR</a></strong></td>
-<td><p>A blocking Windows Socket 1.1 call was canceled through <a href="https://msdn.microsoft.com/en-us/library/ms741547(v=vs.85)">WSACancelBlockingCall</a>.</p></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEINTR</a></strong></td>
+<td><p>A blocking Windows Socket 1.1 call was canceled through <a href="/windows/win32/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEINVAL</a></strong></td>
-<td><p>The socket has not been bound (with <a href="https://msdn.microsoft.com/en-us/library/ms737550(v=vs.85)"><strong>bind</strong></a>, for example).</p></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEINVAL</a></strong></td>
+<td><p>The socket has not been bound (with <a href="/windows/win32/api/winsock/nf-winsock-bind"><strong>bind</strong></a>, for example).</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEMSGSIZE</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEMSGSIZE</a></strong></td>
 <td><p>The message was too large to fit into the specified buffer and (for unreliable protocols only) any trailing portion of the message that did not fit into the buffer has been discarded.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAENETDOWN</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAENETDOWN</a></strong></td>
 <td><p>The network subsystem has failed.</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAENETRESET</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAENETRESET</a></strong></td>
 <td><p>For a datagram socket, this error indicates that the time to live has expired.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAENOTCONN</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAENOTCONN</a></strong></td>
 <td><p>The socket is not connected (connection-oriented sockets only).</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAETIMEDOUT</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></strong></td>
 <td><p>The socket timed out. This error is returned if the socket had a wait timeout specified using the <strong>SO_RCVTIMEO</strong> socket option and the timeout was exceeded.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEOPNOTSUPP</a></strong></td>
-<td><p>The socket operation is not supported. This error is returned if the <strong>dwFlags</strong> member of the <a href="https://msdn.microsoft.com/en-us/library/ms741645(v=vs.85)"><strong>WSAMSG</strong></a> structure pointed to by the <em>lpMsg</em> parameter includes the <strong>MSG_PEEK</strong> control flag on a non-datagram socket.</p></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></strong></td>
+<td><p>The socket operation is not supported. This error is returned if the <strong>dwFlags</strong> member of the <a href="/windows/win32/api/ws2def/ns-ws2def-wsamsg"><strong>WSAMSG</strong></a> structure pointed to by the <em>lpMsg</em> parameter includes the <strong>MSG_PEEK</strong> control flag on a non-datagram socket.</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSAEWOULDBLOCK</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></strong></td>
 <td><p><strong>Windows NT:  </strong></p>
 <p>Overlapped sockets: There are too many outstanding overlapped I/O requests. Non-overlapped sockets: The socket is marked as nonblocking and the receive operation cannot be completed immediately.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSANOTINITIALISED</a></strong></td>
-<td><p>A successful <a href="https://msdn.microsoft.com/en-us/library/ms742213(v=vs.85)"><strong>WSAStartup</strong></a> call must occur before using this function.</p></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></strong></td>
+<td><p>A successful <a href="/windows/win32/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> call must occur before using this function.</p></td>
 </tr>
 <tr class="even">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSA_IO_PENDING</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSA_IO_PENDING</a></strong></td>
 <td><p>An overlapped operation was successfully initiated and completion will be indicated at a later time.</p></td>
 </tr>
 <tr class="odd">
-<td><strong><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=vs.85)">WSA_OPERATION_ABORTED</a></strong></td>
+<td><strong><a href="/windows/win32/winsock/windows-sockets-error-codes-2">WSA_OPERATION_ABORTED</a></strong></td>
 <td><p>The overlapped operation has been canceled due to the closure of the socket.</p></td>
 </tr>
 </tbody>
@@ -309,7 +309,7 @@ If you are using I/O completion ports, be aware that the order of calls made to 
 
 ## -see-also
 
-[**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread)
+[**ExitThread**](../processthreadsapi/nf-processthreadsapi-exitthread.md)
 
 [**IP_PKTINFO**](/windows/win32/winsock/ip-pktinfo)
 
@@ -319,26 +319,26 @@ If you are using I/O completion ports, be aware that the order of calls made to 
 
 [Winsock functions](/windows/win32/winsock/winsock-functions)
 
-[**WSABUF**](/windows/win32/api/ws2def/ns-ws2def-wsabuf)
+[**WSABUF**](../ws2def/ns-ws2def-wsabuf.md)
 
-[**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror)
+[**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md)
 
-[**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl)
+[**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md)
 
-[**WSAMSG**](/windows/win32/api/ws2def/ns-ws2def-wsamsg)
+[**WSAMSG**](../ws2def/ns-ws2def-wsamsg.md)
 
-[**WSAOVERLAPPED**](/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped)
+[**WSAOVERLAPPED**](../winsock2/ns-winsock2-wsaoverlapped.md)
 
-[**WSARecv**](/windows/win32/api/winsock2/nf-winsock2-wsarecv)
+[**WSARecv**](../winsock2/nf-winsock2-wsarecv.md)
 
-[**WSARecvFrom**](/windows/win32/api/winsock2/nf-winsock2-wsarecvfrom)
+[**WSARecvFrom**](../winsock2/nf-winsock2-wsarecvfrom.md)
 
-[**WSASend**](/windows/win32/api/winsock2/nf-winsock2-wsasend)
+[**WSASend**](../winsock2/nf-winsock2-wsasend.md)
 
-[**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg)
+[**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md)
 
-[**WSASendTo**](/windows/win32/api/winsock2/nf-winsock2-wsasendto)
+[**WSASendTo**](../winsock2/nf-winsock2-wsasendto.md)
 
-[**WSAStartup**](/windows/win32/api/winsock/nf-winsock-wsastartup)
+[**WSAStartup**](../winsock/nf-winsock-wsastartup.md)
 
-[**WSAWaitForMultipleEvents**](/windows/win32/api/winsock2/nf-winsock2-wsawaitformultipleevents)
+[**WSAWaitForMultipleEvents**](../winsock2/nf-winsock2-wsawaitformultipleevents.md)

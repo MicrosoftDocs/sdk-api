@@ -243,7 +243,7 @@ On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is current
 
 ### -param lpCompletionRoutine [in, optional]
 
-Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 An optional pointer to a function to be invoked upon successful completion for asynchronous operations. 
 

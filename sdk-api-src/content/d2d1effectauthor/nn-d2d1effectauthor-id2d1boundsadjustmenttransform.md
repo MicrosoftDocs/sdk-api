@@ -51,7 +51,7 @@ A support transform for effects to modify the output rectangle of the previous e
 
 ## -inheritance
 
-The **ID2D1BoundsAdjustmentTransform** interface inherits from the [ID2D1TransformNode](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode) interface.
+The **ID2D1BoundsAdjustmentTransform** interface inherits from the [ID2D1TransformNode](./nn-d2d1effectauthor-id2d1transformnode.md) interface.
 
 ## -remarks
 

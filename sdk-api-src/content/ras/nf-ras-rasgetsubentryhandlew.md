@@ -147,7 +147,7 @@ You can call
 
 
 
-[RasGetProjectionInfoEx](/windows/win32/api/ras/nf-ras-rasgetprojectioninfoex)
+[RasGetProjectionInfoEx](./nf-ras-rasgetprojectioninfoex.md)
 
 
 

@@ -44,10 +44,10 @@ api_name:
 
 ## -description
 
-Monitors the validity of a protected resource session. This interface extends [ID3D12ProtectedSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedsession).
+Monitors the validity of a protected resource session. This interface extends [ID3D12ProtectedSession](./nn-d3d12-id3d12protectedsession.md).
 
-You can obtain an **ID3D12ProtectedResourceSession1** by calling [ID3D12Device7::CreateProtectedResourceSession1](/windows/win32/api/d3d12/nf-d3d12-id3d12device7-createprotectedresourcesession1).
+You can obtain an **ID3D12ProtectedResourceSession1** by calling [ID3D12Device7::CreateProtectedResourceSession1](./nf-d3d12-id3d12device7-createprotectedresourcesession1.md).
 
 ## -see-also
 
-* [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedsession)
+* [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedsession.md)

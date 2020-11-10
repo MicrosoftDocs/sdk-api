@@ -48,11 +48,11 @@ Contains one palette entry in a color table.
 
 ### -field ARGB
 
-[MFARGB](/windows/win32/api/mfobjects/ns-mfobjects-mfargb) structure that contains an RGB color.
+[MFARGB](./ns-mfobjects-mfargb.md) structure that contains an RGB color.
 
 ### -field AYCbCr
 
-[MFAYUVSample](/windows/win32/api/mfobjects/ns-mfobjects-mfayuvsample) structure that contains a Y'Cb'Cr' color.
+[MFAYUVSample](./ns-mfobjects-mfayuvsample.md) structure that contains a Y'Cb'Cr' color.
 
 ## -remarks
 
@@ -60,4 +60,3 @@ This union can be used to represent both RGB palettes and Y'Cb'Cr' palettes. The
      
 
 ## -see-also
-

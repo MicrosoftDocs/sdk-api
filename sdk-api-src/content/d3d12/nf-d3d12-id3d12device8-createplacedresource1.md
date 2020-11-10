@@ -108,7 +108,7 @@ This method returns **E_OUTOFMEMORY** if there is insufficient memory to create 
 
 ## -remarks
 
-See [ID3D12Device::CreatePlacedResource](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource).
+See [ID3D12Device::CreatePlacedResource](./nf-d3d12-id3d12device-createplacedresource.md).
 
 ## -see-also
 

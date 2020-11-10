@@ -56,7 +56,7 @@ Creates an instance of [BoundingFrustum](./ns-directxcollision-boundingfrustum.m
 
 ### -param arg1
 
-A [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to use to initialize the new <b>BoundingFrustum</b>.
+A [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to use to initialize the new <b>BoundingFrustum</b>.
 
 ## -remarks
 
