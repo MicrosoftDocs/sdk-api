@@ -54,7 +54,7 @@ Retrieves the number of named values for a specific axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](./nf-dwrite_3-idwritefontresource-getfontaxiscount.md) minus 1.
 
 ## -returns
 
@@ -65,4 +65,3 @@ The number of named values for the axis specified by *axisIndex*.
 ## -remarks
 
 ## -see-also
-

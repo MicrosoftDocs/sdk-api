@@ -226,7 +226,7 @@ If the user is a member of the  Performance Log Users group, they may not have p
 <td width="60%">
 The maximum number of logging sessions on the system has been reached.  No new loggers can be created until a logging session has been stopped.  This value defaults to 64 on most systems.
 
-  You can change this value by editing the <b>REG_DWORD</b> key at <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI\EtwMaxLoggers</b>. Permissible values are 32 through 256, inclusive.  A reboot is required for any change to take effect.  
+  You can change this value by editing the <b>REG_DWORD</b> key at <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI@EtwMaxLoggers</b>. Permissible values are 32 through 256, inclusive.  A reboot is required for any change to take effect.  
 
 Note that Loggers use system resources.  Increasing the number of loggers on the system will come at a performance cost if those slots are filled.  
 

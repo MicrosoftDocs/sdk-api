@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - ChangeWindowMessageFilterEx
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ChangeWindowMessageFilterEx function

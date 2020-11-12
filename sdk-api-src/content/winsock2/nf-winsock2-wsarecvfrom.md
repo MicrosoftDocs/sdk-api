@@ -97,6 +97,8 @@ A pointer to a
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](./nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the 
 <b>WSARecvFrom</b> operation has been completed (ignored for nonoverlapped sockets).
 

@@ -48,6 +48,7 @@ api_name:
  - EnumDisplayDevices
  - EnumDisplayDevicesA
  - EnumDisplayDevicesW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # EnumDisplayDevicesA function

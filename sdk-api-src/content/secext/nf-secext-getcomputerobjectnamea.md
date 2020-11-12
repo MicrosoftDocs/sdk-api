@@ -47,6 +47,7 @@ api_name:
  - GetComputerObjectName
  - GetComputerObjectNameA
  - GetComputerObjectNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetComputerObjectNameA function

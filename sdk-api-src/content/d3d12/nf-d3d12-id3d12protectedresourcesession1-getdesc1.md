@@ -46,8 +46,8 @@ Retrieves a description of the protected resource session.
 
 ## -returns
 
-A [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc1) that describes the protected resource session.
+A [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](./ns-d3d12-d3d12_protected_resource_session_desc1.md) that describes the protected resource session.
 
 ## -see-also
 
-* [ID3D12ProtectedResourceSession1](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession1)
+* [ID3D12ProtectedResourceSession1](./nn-d3d12-id3d12protectedresourcesession1.md)

@@ -59,11 +59,11 @@ Checks whether the system supports a device interface for a graphics component.
 
 Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
-The GUID of the interface of the device version for which support is being checked. For example, __uuidof(ID3D10Device).
+The GUID of the interface of the device version for which support is being checked. This should usually be __uuidof(IDXGIDevice), which returns the version number of the Direct3D 9 UMD (user mode driver) binary. Since WDDM 2.3, all driver components within a driver package (D3D9, D3D11, and D3D12) have been required to share a single version number, so this is a good way to query the driver version regardless of which API is being used.
 
 ### -param pUMDVersion [out]
 
-Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>*</b>
+Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>*</b>
 
 The user mode driver version of <i>InterfaceName</i>. This is  returned only if the interface is supported, otherwise this parameter will be <b>NULL</b>.
 

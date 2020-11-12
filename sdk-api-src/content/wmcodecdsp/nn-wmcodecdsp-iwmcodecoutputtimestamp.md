@@ -52,7 +52,7 @@ api_name:
 
 Gets the time stamp of the  next video frame to be decoded.
 
-This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
+This interface is implemented by the video decoders. You can obtain a pointer to <b>IWMCodecOutputTimestamp</b> by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of any other interface of the decoder object, such as <a href="/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
 
 ## -inheritance
 

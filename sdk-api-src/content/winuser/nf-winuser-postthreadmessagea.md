@@ -54,6 +54,7 @@ api_name:
  - PostThreadMessage
  - PostThreadMessageA
  - PostThreadMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # PostThreadMessageA function

@@ -69,11 +69,11 @@ The return value is a pointer to the command-line string for the current process
 
 The lifetime of the returned value is managed by the system, applications should not free or modify this value.
 
-Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> or <b>wmain</b> functions by implemneting those as the program entry point.
+Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> or <b>wmain</b> functions by implementing those as the program entry point.
 GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or wWinMain functions by implementing those as the program entry point.
 
 To convert the command line to an <i>argv</i> style array of strings, pass the result from GetCommandLineA to
-<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargva">CommandLineToArgvA</a>.
+<a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw">CommandLineToArgW</a>.
 
 <div class="alert"><b>Note</b>  The name of the executable in the command line that the operating system provides to a process is not necessarily identical to that in the command line that the calling process gives to the 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. The operating system may prepend a fully qualified path to an executable name that is provided without a fully qualified path.</div>

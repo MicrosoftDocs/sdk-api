@@ -62,13 +62,13 @@ Defines information for the raw input devices.
 
 Type: <b>USHORT</b>
 
-[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage page](/windows-hardware/drivers/hid/hid-usages#usage-page) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
+[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage page](/windows-hardware/drivers/hid/hid-usages#usage-page) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows) for details on possible values.
 
 ### -field usUsage
 
 Type: <b>USHORT</b>
 
-[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage ID](/windows-hardware/drivers/hid/hid-usages#usage-id) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows) for details on possible values.
+[Top level collection](/windows-hardware/drivers/hid/top-level-collections) [Usage ID](/windows-hardware/drivers/hid/hid-usages#usage-id) for the raw input device. See [HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows) for details on possible values.
 
 ### -field dwFlags
 
@@ -207,7 +207,7 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 [Introduction to Human Interface Devices (HID)](/windows-hardware/drivers/hid/)
 
-[HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-clients-supported-in-windows)
+[HID Clients Supported in Windows](/windows-hardware/drivers/hid/hid-architecture#hid-clients-supported-in-windows)
 
 [HID USB homepage](https://www.usb.org/hid)
 

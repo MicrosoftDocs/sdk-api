@@ -48,6 +48,7 @@ api_location:
  - MinUser.dll
 api_name:
  - GetRawInputData
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetRawInputData function

@@ -61,12 +61,12 @@ The <b>VSS_DIFF_VOLUME_PROP</b> structure
 
 ### -field m_pwszVolumeName
 
-The shadow copy storage area volume name, in <b>\\?\</b><i>Volume</i><b>{</b><i>GUID</i><b>}\</b> format.
+The shadow copy storage area volume name, in <b>\\\\?\\</b><i>Volume</i><b>{</b><i>GUID</i><b>}\\</b> format.
 
 ### -field m_pwszVolumeDisplayName
 
 Points to a null-terminated Unicode string that can be displayed to a user, for example 
-      <i>C</i><b>:\</b>, for the shadow copy storage area volume.
+      <i>C</i><b>:\\</b>, for the shadow copy storage area volume.
 
 ### -field m_llVolumeFreeSpace
 
@@ -78,4 +78,4 @@ Total space, in bytes, on the shadow copy storage area volume.
 
 ## -see-also
 
-<a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
+<a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>

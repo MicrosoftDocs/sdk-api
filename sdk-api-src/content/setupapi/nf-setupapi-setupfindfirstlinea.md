@@ -47,6 +47,7 @@ api_name:
  - SetupFindFirstLine
  - SetupFindFirstLineA
  - SetupFindFirstLineW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupFindFirstLineA function

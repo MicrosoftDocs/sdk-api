@@ -53,6 +53,7 @@ api_name:
  - UnregisterClass
  - UnregisterClassA
  - UnregisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterClassA function

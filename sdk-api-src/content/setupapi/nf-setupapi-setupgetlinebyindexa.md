@@ -47,6 +47,7 @@ api_name:
  - SetupGetLineByIndex
  - SetupGetLineByIndexA
  - SetupGetLineByIndexW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetLineByIndexA function

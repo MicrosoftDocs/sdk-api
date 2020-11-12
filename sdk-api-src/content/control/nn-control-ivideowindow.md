@@ -53,7 +53,7 @@ api_name:
 
 The <code>IVideoWindow</code> interface sets properties on the video window. Applications can use it to set the window owner, the position and dimensions of the window, and other properties.
 
-<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> or <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9</a> interface is now preferred over <code>IVideoWindow</code>. For more information, see <a href="/windows/desktop/DirectShow/using-windowless-mode">Using Windowless Mode</a>.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl</a> or <a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9</a> interface is now preferred over <code>IVideoWindow</code>. For more information, see <a href="/windows/desktop/DirectShow/using-windowless-mode">Using Windowless Mode</a>.</div>
 <div> </div>
 The <a href="/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter and the Filter Graph Manager both expose this interface. The Filter Graph Manager forwards all method calls to the Video Renderer. It also forwards certain window messages that the Video Renderer needs to receive, such as <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>. Because the video window is usually a child of an application window, the filter would not otherwise receive these messages. Therefore it relies on the Filter Graph Manager to forward them.
 

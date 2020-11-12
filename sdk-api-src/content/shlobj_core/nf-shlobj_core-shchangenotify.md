@@ -50,6 +50,7 @@ api_location:
  - Windows.Storage.dll
 api_name:
  - SHChangeNotify
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHChangeNotify function

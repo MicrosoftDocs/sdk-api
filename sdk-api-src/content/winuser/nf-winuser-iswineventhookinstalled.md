@@ -45,6 +45,7 @@ api_location:
  - minuser.dll
 api_name:
  - IsWinEventHookInstalled
+req.apiset: ext-ms-win-ntuser-server-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsWinEventHookInstalled function

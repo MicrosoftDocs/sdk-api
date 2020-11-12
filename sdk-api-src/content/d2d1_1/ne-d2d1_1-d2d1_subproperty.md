@@ -102,7 +102,7 @@ An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b>
 
 
 
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u)">ID2D1Properties::GetType</a>
 
 
 
@@ -110,7 +110,7 @@ An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b>
 
 
 
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u)">ID2D1Properties::GetValueSize</a>
 
 
 

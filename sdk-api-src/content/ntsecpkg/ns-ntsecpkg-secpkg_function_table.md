@@ -178,6 +178,8 @@ Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-setcredentialsattribut
 
 ### -field ChangeAccountPassword
 
+Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda">ChangeAccountPassword</a> function.
+
 ### -field QueryMetaData
 
 Pointer to the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spquerymetadatafn">QueryMetaData</a> function.
@@ -205,10 +207,3 @@ Pointer to the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spvalidatetarg
 ### -field GetRemoteCredGuardSupplementalCreds
 
  
-
-
-
-
-#### - SpChangeAccountPasswordFn
-
-Pointer to the <a href="/windows/desktop/api/sspi/nf-sspi-changeaccountpassworda">ChangeAccountPassword</a> function.

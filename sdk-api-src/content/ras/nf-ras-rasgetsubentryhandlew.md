@@ -121,7 +121,7 @@ The value specified by <i>dwSubEntry</i> exceeds the maximum number of subentrie
 The connection handle specified in the <i>hRasConn</i> parameter refers to the entire multilink connection, but the connection handle returned in the <i>*lphRasConn</i> parameter refers only to the subentry connection. Use the subentry connection handle in any function that accepts an <i>hRasConn</i> parameter, including the 
 <a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>, 
 <a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>, and 
-<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoa">RasGetProjectionInfo</a> functions. The projection information returned by 
+<a href="/windows/win32/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a> functions. The projection information returned by 
 <b>RasGetProjectionInfo</b> for a multilink entry is the same for the each of the subentry connection handles as it is for the main connection handle.
 
 You can call 
@@ -147,7 +147,7 @@ You can call
 
 
 
-<a href="/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoa">RasGetProjectionInfo</a>
+[RasGetProjectionInfoEx](./nf-ras-rasgetprojectioninfoex.md)
 
 
 

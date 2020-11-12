@@ -48,6 +48,7 @@ api_name:
  - GetGuiResources
 dev_langs:
  - c++
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 ## -description

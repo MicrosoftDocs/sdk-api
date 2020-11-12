@@ -46,6 +46,7 @@ api_name:
  - SetClassLong
  - SetClassLongA
  - SetClassLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetClassLongW function

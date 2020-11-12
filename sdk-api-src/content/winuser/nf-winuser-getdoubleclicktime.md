@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - GetDoubleClickTime
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDoubleClickTime function

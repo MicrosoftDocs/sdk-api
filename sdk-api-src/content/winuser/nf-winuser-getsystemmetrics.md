@@ -47,6 +47,7 @@ api_location:
  - api-ms-win-ntuser-sysparams-l1-1-0.dll
 api_name:
  - GetSystemMetrics
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetSystemMetrics function

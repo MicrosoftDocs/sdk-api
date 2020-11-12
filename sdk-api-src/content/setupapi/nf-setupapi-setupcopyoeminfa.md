@@ -46,6 +46,7 @@ api_name:
  - SetupCopyOEMInf
  - SetupCopyOEMInfA
  - SetupCopyOEMInfW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupCopyOEMInfA function

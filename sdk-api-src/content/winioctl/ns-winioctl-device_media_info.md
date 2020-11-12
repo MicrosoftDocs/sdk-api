@@ -248,7 +248,7 @@ The SCSI-specific current operating density for read/write operations.
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
 
 

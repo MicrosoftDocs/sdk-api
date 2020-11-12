@@ -90,7 +90,7 @@ Retrieves information about whether or not the endpoint on which a stream is cre
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">SetClientProperties</a>
 </td>
 <td align="left" width="63%">
-Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
+Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> structure.
 
 </td>
 </tr>

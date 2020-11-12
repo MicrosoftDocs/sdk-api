@@ -46,6 +46,7 @@ api_name:
  - SetClassLongPtr
  - SetClassLongPtrA
  - SetClassLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetClassLongPtrA function

@@ -60,7 +60,7 @@ Serves as the key by which identifies the   SSL certificate record that specifie
 
 ### -field LocalAddress
 
-A <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure that contains the Internet Protocol version 4 (IPv4) address with which this SSL certificate record is associated. It must be set to the IPv4 wildcard address of type <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr_in">SOCKADDR_IN</a> with the <b>sin_family</b> member set to AF_INET and the <b>sin_addr</b> member filled with zeros (0.0.0.0). The <b>sin_port</b> member can be any valid port.
+A <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure that contains the Internet Protocol version 4 (IPv4) address with which this SSL certificate record is associated. It must be set to the IPv4 wildcard address of type <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr_in">SOCKADDR_IN</a> with the <b>sin_family</b> member set to AF_INET and the <b>sin_addr</b> member filled with zeros (0.0.0.0). The <b>sin_port</b> member can be any valid port.
 
 ## -remarks
 

@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateProcessesEx
  - WTSEnumerateProcessesExA
  - WTSEnumerateProcessesExW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateProcessesExW function

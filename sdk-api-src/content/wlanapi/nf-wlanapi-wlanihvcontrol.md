@@ -64,7 +64,7 @@ The GUID of the interface.
 
 ### -param Type [in]
 
- A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function.
+ A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function.
 
 ### -param dwInBufferSize [in]
 
@@ -156,4 +156,4 @@ Various error codes.
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1">WLAN_IHV_CONTROL_TYPE</a>

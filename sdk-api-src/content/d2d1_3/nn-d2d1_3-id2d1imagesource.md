@@ -90,7 +90,7 @@ Restores access to resources that were previously offered by calling <a href="/w
 
 ## -see-also
 
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">I2D1DeviceContext2::CreateImageSourceFromWic</a>
+<a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_id2d1imagesourcefromwic)">I2D1DeviceContext2::CreateImageSourceFromWic</a>
 
 
 

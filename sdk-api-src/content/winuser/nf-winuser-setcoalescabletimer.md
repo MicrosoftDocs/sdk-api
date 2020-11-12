@@ -6,7 +6,7 @@ helpviewer_keywords: ["Any other value","SetCoalescableTimer","SetCoalescableTim
 old-location: winmsg\setcoalescabletimer.htm
 tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
-ms.date: 12/05/2018
+ms.date: 10/23/2020
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 req.header: winuser.h
 req.include-header: Windows.h
@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetCoalescableTimer
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetCoalescableTimer function
@@ -174,13 +175,13 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
-			
+            
 
 When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
 
 ## -see-also
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Coalescable-Timer-Sample-d9da954c">Coalescing timers sample</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20desktop%20samples/99647-Windows%208.1%20desktop%20samples/Coalescing%20timers%20sample/C%2B%2B">Coalescing timers sample</a>
 
 
 
@@ -224,7 +225,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="/windows/desktop/winmsg/using-timers">Using TimersCoalescing timers sample</a>
+<a href="/windows/desktop/winmsg/using-timers">Using Timers</a>
 
 
 

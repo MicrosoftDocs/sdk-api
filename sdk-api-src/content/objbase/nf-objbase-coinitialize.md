@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CoInitialize
+req.apiset: ext-ms-win-com-sta-l1-1-0 (introduced in Windows 10, version 10.0.20166)
 ---
 
 # CoInitialize function

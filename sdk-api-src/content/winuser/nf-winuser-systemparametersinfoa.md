@@ -49,6 +49,7 @@ api_name:
  - SystemParametersInfo
  - SystemParametersInfoA
  - SystemParametersInfoW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # SystemParametersInfoA function

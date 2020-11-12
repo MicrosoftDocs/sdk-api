@@ -85,7 +85,7 @@ Null-terminated string representation of a network address. The network-address 
 
 ### -field Endpoint
 
-Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\</b><i>Pipe</i><b>\</b><i>PipeName</i>.
+Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\\</b><i>Pipe</i><b>\\</b><i>PipeName</i>.
 
 ### -field Options
 
@@ -97,4 +97,4 @@ Server Principal Name (SPN) of the server. If this member is missing, it is cons
 
 ## -remarks
 
-For a sample that uses this structure, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Effective-access-rights-dd5b13a8">Effective access rights for files</a>  (https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).
+For a sample that uses this structure, see the [Effective access rights for files sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).

@@ -56,7 +56,7 @@ removes the specified profile based on the specified profile ID.
 
 ### -param ProfileId [in]
 
-Pointer to the <a href="/windows/desktop/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> of the profile to remove.
+Pointer to the <a href="/windows/win32/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> of the profile to remove.
 
 ## -returns
 

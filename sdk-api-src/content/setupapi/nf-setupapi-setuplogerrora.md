@@ -46,6 +46,7 @@ api_name:
  - SetupLogError
  - SetupLogErrorA
  - SetupLogErrorW
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupLogErrorA function

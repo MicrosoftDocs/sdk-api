@@ -52,7 +52,7 @@ api_name:
 
 Represents a type library, the data that describes a set of objects.
 
-The <b>ITypeLib2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>interface. This allows <b>ITypeLib</b> to cast to an <b>ITypeLib2</b> in performance-sensitive cases, rather than perform extra QueryInterface and Release calls.
+The <b>ITypeLib2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a> interface. This allows <b>ITypeLib</b> to cast to an <b>ITypeLib2</b> in performance-sensitive cases, rather than perform extra QueryInterface and Release calls.
 
 ## -inheritance
 

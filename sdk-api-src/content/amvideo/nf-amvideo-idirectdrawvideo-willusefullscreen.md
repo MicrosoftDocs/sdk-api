@@ -65,7 +65,7 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-For a description of this feature, see <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.
+For a description of this feature, see <a href="/previous-versions/ms785118(v=vs.85)">IDirectDrawVideo::UseWhenFullScreen</a>.
 
 ## -see-also
 

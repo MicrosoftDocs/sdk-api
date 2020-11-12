@@ -142,6 +142,9 @@ The number of entries in the <b>pTopCmds</b> member.
 
 ### -field pTopCmds
 
+An array of <a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
+
+
 ### -field _CMD_ENTRY
 
 ### -field ulNumGroups
@@ -149,6 +152,8 @@ The number of entries in the <b>pTopCmds</b> member.
 A number of entries in the <b>pCmdGroups</b> member.
 
 ### -field pCmdGroups
+
+An array of <a href="/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
 
 ### -field _CMD_GROUP_ENTRY
 
@@ -172,20 +177,7 @@ Reserved. Must be null.
 
 ### -field pfnOsVersionCheck
 
- 
 
-
-
-
-#### - (pCmdGroups)
-
-An array of <a href="/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
-					
-
-
-#### - (pTopCmds)
-
-An array of <a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
 
 ## -see-also
 

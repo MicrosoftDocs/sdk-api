@@ -47,6 +47,7 @@ api_name:
  - SetupOpenInfFile
  - SetupOpenInfFileA
  - SetupOpenInfFileW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupOpenInfFileA function

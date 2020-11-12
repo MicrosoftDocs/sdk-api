@@ -191,7 +191,7 @@ The first event from any log file contains the data defined in this structure. Y
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
 
 

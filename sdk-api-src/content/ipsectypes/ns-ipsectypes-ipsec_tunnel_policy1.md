@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TUNNEL_POLICY1</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2) is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2) is available.
 
 ## -struct-fields
 
@@ -210,7 +210,7 @@ See [IKEEXT_EM_POLICY1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_poli
 
 
 
-<a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints0_">IPSEC_TUNNEL_ENDPOINTS1</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints1">IPSEC_TUNNEL_ENDPOINTS1</a>
 
 
 

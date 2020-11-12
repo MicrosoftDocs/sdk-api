@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Enables dot stuffing to be set in an <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure.
+Enables dot stuffing to be set in an <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure.
 
 ## -parameters
 
 ### -param pContext [in]
 
-A pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a> structure to be examined.
+A pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure to be examined.
 
 ### -param fKnown [in]
 
@@ -68,5 +68,4 @@ Specifies whether dot stuffing is required. If <i>fKnown</i> is  <b>TRUE</b>, <i
 
 ## -see-also
 
-<a href="Http://go.microsoft.com/fwlink/p/?linkid=85304">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

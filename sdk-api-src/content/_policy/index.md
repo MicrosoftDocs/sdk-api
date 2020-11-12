@@ -18,5 +18,5 @@ To develop Group Policy API, you need these headers:
  * [gpedit.h](../gpedit/index.md)
 
 For programming guidance for this technology, see:
-* [Group Policy API](/windows/desktop/policy)
+* [Group Policy API](/previous-versions/windows/desktop/policy/using-group-policy)
 

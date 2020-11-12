@@ -131,7 +131,7 @@ Cryptography-specific errors can be returned from the <a href="/windows/desktop/
 
 ## -remarks
 
-Every direct connection opened with this function must be closed with [PEER_GROUP_EVENT DATA](./ns-p2p-peer_group_event_data~r1.md) structure has the  <b>status</b> member of its component <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
+Every direct connection opened with this function must be closed with [PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) structure has the  <b>status</b> member of its component <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
 
 ## -see-also
 
@@ -143,7 +143,7 @@ Every direct connection opened with this function must be closed with [PEER_GROU
 
 
 
-[PEER_GROUP_EVENT DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 

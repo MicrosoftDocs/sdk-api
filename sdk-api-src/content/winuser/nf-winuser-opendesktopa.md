@@ -47,6 +47,7 @@ api_name:
  - OpenDesktop
  - OpenDesktopA
  - OpenDesktopW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # OpenDesktopA function

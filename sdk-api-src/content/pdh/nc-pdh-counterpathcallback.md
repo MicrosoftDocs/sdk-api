@@ -56,10 +56,9 @@ Applications implement the <b>CounterPathCallBack</b> function to process the co
 
 ### -param Arg1
 
-#### - dwArg [in]
-
 User-defined value passed to the callback function by the <b>Browse</b> dialog box. You set this value in the <b>dwCallBackArg</b> member of the 
 <a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
+
 
 ## -returns
 

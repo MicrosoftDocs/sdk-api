@@ -181,7 +181,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 ##### - ulFlags.CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="/windows-hardware/drivers/install/device-ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="/windows-hardware/drivers/install/device-ids">device ID</a>. The string format is <i>EnumeratorName</i><b>\\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
 
 If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw">CM_Enumerate_Enumerators</a>.
 

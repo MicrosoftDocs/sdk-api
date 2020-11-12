@@ -58,33 +58,26 @@ The <b>SpVerifySignature</b> function is the dispatch function for the
 
 ## -parameters
 
-### -param ContextId
-
-### -param Message
-
-### -param MessageSeqNo
-
-### -param pfQOP
-
-#### - ContextHandle [in]
+### -param  [in]
 
 A handle to the <a href="/windows/desktop/SecGloss/s-gly">security context</a> used to sign the message.
 
 
-#### - MessageBuffers [in]
+### -param Message [in]
 
 Pointer to a 
 <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the message to verify.
 
 
-#### - MessageSequenceNumber [in]
+### -param MessageSeqNo [in]
 
 Sequence number to assign to the message. Sequence numbers are optional and are used as protection against loss and insertion of messages. A value of zero indicates that sequence numbers are not in use.
 
 
-#### - QualityOfProtection [out]
+### -param pfQOP [out]
 
 Pointer to package-specific flags that indicate the quality of protection.
+
 
 ## -returns
 

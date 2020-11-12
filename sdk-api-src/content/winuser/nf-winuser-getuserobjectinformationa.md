@@ -51,6 +51,7 @@ api_name:
  - GetUserObjectInformation
  - GetUserObjectInformationA
  - GetUserObjectInformationW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetUserObjectInformationA function

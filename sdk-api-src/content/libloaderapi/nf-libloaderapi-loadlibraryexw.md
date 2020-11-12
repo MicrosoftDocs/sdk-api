@@ -82,7 +82,7 @@ If the string specifies a module name without a path and the file name extension
        name string.
 
 If the string specifies a fully qualified path, the function searches only that path for the module. When 
-       specifying a path, be sure to use backslashes (\), not forward slashes (/). For more information about paths, 
+       specifying a path, be sure to use backslashes (\\), not forward slashes (/). For more information about paths, 
        see <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 If the string specifies a module name without a path and more than one loaded module has the same base name 

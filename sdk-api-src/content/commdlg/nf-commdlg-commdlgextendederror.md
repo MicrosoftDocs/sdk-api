@@ -45,6 +45,7 @@ api_location:
  - ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
  - CommDlgExtendedError
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CommDlgExtendedError function
@@ -493,7 +494,7 @@ A member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-findreplacea">F
 
 ## -see-also
 
-<a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
+<a href="/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1">CHOOSECOLOR</a>
 
 
 

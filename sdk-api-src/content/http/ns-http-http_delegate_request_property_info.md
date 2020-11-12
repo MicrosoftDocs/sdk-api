@@ -3,8 +3,8 @@ UID: NS:http._HTTP_DELEGATE_REQUEST_PROPERTY_INFO
 title: HTTP_DELEGATE_REQUEST_PROPERTY_INFO
 description: Describes additional property information when delegating a request.
 ms.date: 09/28/2020
+tech.root: http
 targetos: Windows
-description: 
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: httpapi.dll

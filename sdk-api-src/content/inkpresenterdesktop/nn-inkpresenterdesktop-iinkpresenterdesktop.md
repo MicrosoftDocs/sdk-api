@@ -62,7 +62,6 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
@@ -72,6 +71,6 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>

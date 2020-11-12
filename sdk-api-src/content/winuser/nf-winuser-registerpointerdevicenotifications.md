@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
 api_name:
  - RegisterPointerDeviceNotifications
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # RegisterPointerDeviceNotifications function

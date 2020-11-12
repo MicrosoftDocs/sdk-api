@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TUNNEL_POLICY2</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.
 
 ## -struct-fields
 

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
  - SetupCloseInfFile
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupCloseInfFile function

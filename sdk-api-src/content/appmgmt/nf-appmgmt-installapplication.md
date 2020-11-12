@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-advapi32-msi-l1-1-0.dll
 api_name:
  - InstallApplication
+req.apiset: ext-ms-win-advapi32-msi-l1-1-0 (introduced in Windows 8)
 ---
 
 # InstallApplication function

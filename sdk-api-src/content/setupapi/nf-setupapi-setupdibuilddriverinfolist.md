@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
  - SetupDiBuildDriverInfoList
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # SetupDiBuildDriverInfoList function

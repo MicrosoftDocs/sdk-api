@@ -43,6 +43,7 @@ api_location:
  - Shell32.dll
 api_name:
  - SHCloneSpecialIDList
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHCloneSpecialIDList function

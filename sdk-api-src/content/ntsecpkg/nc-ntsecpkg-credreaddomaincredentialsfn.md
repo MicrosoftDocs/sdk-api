@@ -147,11 +147,6 @@ Reserved. This parameter must be set to zero.
 
 The number of elements in the <i>Credential</i> array.
 
-
-#### - **Credential [out]
-
-A pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
-
 ### -param Credential [out]
 
 A pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.

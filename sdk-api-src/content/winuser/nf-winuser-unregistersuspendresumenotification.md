@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - UnregisterSuspendResumeNotification
+req.apiset: ext-ms-win-ntuser-powermanagement-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterSuspendResumeNotification function

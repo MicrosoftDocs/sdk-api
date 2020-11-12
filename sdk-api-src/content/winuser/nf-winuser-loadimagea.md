@@ -52,6 +52,7 @@ api_name:
  - LoadImage
  - LoadImageA
  - LoadImageW
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # LoadImageA function

@@ -70,7 +70,7 @@ The <a href="/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a> value
 ### -field TmVirtualClock
 
 The latest virtual clock value that is associated with this transaction. See 
-      <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
+      <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>.
 
 ### -field ArgumentLength
 

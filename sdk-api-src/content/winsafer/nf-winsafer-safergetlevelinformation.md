@@ -43,6 +43,7 @@ api_location:
  - Advapi32.dll
 api_name:
  - SaferGetLevelInformation
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferGetLevelInformation function

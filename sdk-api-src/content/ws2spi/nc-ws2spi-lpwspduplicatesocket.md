@@ -303,7 +303,7 @@ One possible scenario for establishing and using a shared socket in handoff mode
 <td width="45%">
 <dl>                                              
 <dt>
- 10) <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>
+ 10) <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b>
 </dt>
 </dl>
 </td>
@@ -318,7 +318,7 @@ One possible scenario for establishing and using a shared socket in handoff mode
 
 The descriptors that reference a shared socket can be used independently as far as I/O is concerned. However, the Windows Sockets interface does not implement any type of access control, so it is up to the processes involved to coordinate their operations on a shared socket. A typical use for shared sockets is to have one process that is responsible for creating sockets and establishing connections, hand off sockets to other processes that are responsible for information exchange.
 
-Since what is duplicated are the socket descriptors and not the underlying socket, all the states associated with a socket are held in common across all the descriptors. For example a <b><a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a></b> operation performed using one descriptor is subsequently visible using a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> from any or all descriptors. A process can call <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until **LPWSPClosesocket** is called by the last remaining descriptor.
+Since what is duplicated are the socket descriptors and not the underlying socket, all the states associated with a socket are held in common across all the descriptors. For example a <b><a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a></b> operation performed using one descriptor is subsequently visible using a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> from any or all descriptors. A process can call <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until **LPWSPClosesocket** is called by the last remaining descriptor.
 
 Notification on shared sockets is subject to the usual constraints of **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** and <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a></b>. Issuing either of these calls using any of the shared descriptors cancels any previous event registration for the socket, regardless of which descriptor was used to make that registration. Thus, for example, a shared socket cannot deliver FD_READ events to process A and FD_WRITE events to process B. For situations when such tight coordination is required, it is suggested that developers use threads instead of separate processes.
 

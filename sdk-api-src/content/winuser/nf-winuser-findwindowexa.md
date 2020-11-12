@@ -54,6 +54,7 @@ api_name:
  - FindWindowEx
  - FindWindowExA
  - FindWindowExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # FindWindowExA function

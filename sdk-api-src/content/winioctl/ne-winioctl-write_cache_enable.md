@@ -69,10 +69,10 @@ The device's write cache is enabled.
 
 ## -remarks
 
-The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) control code reports a **WRITE_CACHE_ENABLE** value in the [STORAGE_WRITE_CACHE_PROPERTY](/ns-winioctl-storage_write_cache_property.md) structure.
+The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) control code reports a **WRITE_CACHE_ENABLE** value in the [STORAGE_WRITE_CACHE_PROPERTY structure](ns-winioctl-storage_write_cache_property.md).
 
 ## -see-also
 
 * [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
-* [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)
+* [STORAGE_WRITE_CACHE_PROPERTY structure](ns-winioctl-storage_write_cache_property.md)

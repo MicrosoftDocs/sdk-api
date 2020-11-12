@@ -168,7 +168,7 @@ Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createsolidcolorbrush">CreateSolidColorBrush</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)">CreateSolidColorBrush</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a new <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
 
@@ -304,7 +304,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect__id2d1brush)">FillRoundedRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified rounded rectangle.
 

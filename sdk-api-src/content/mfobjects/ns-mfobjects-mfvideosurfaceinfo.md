@@ -66,7 +66,7 @@ Number of palette entries. The value must be between 0 and 256.
 
 ### -field Palette
 
-Array of <a href="/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
+Array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
 
 ## -see-also
 

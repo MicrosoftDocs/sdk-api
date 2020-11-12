@@ -48,6 +48,7 @@ api_name:
  - OpenEventLog
  - OpenEventLogA
  - OpenEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenEventLogA function

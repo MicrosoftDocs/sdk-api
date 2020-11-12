@@ -72,7 +72,7 @@ The <b>IQualProp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgframerate">get_AvgFrameRate</a>
+<a href="/previous-versions/ms786607(v=vs.85)">get_AvgFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average frame rate achieved.

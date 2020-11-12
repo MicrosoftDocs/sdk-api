@@ -49,6 +49,7 @@ api_name:
  - CallMsgFilter
  - CallMsgFilterA
  - CallMsgFilterW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # CallMsgFilterW function

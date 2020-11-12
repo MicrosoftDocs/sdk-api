@@ -57,7 +57,7 @@ api_name:
 
 The 
 <b>WSAMSG</b> structure is used with the 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>  and <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>  and <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
 
 ## -struct-fields
 
@@ -426,7 +426,7 @@ Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignmen
 
 
 
-<a href="/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
+<a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg">LPFN_WSARECVMSG (WSARecvMsg)</a>
 
 
 

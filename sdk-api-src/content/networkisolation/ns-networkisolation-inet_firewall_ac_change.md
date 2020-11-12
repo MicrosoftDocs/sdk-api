@@ -92,25 +92,17 @@ Friendly name of the app container.
 
 ### -field u.capabilities
 
-### -field u.binaries
-
- 
-
-
-
-
-#### - binaries
-
-Type: <b><a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
-
-Binary paths to the applications running in the changed app container.
-
-
-#### - capabilities
 
 Type: <b><a href="/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a></b>
 
 Information about the capabilities of the changed app container.
+
+### -field u.binaries
+
+ Type: <b><a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
+
+Binary paths to the applications running in the changed app container.
+
 
 ## -see-also
 

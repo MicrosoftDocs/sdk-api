@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-To interface with the Replay Protected Memory Block (RPMB), applications first need to query whether the device contains an RPMB and the max payload size the RPMB supports. To do this, the application sends <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> with <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_property_id.md">PropertyId</a> set to StorageAdapterRpmbProperty (defined in STORAGE_PROPERTY_QUERY in ntddstor.h). Storport then responds with the following payload (defined in ntddstor.h) when <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_query_type.md">QueryType</a> is set to PropertyStandardQuery.
+To interface with the Replay Protected Memory Block (RPMB), applications first need to query whether the device contains an RPMB and the max payload size the RPMB supports. To do this, the application sends [IOCTL_STORAGE_QUERY_PROPERTY IOCTL](ni-winioctl-ioctl_storage_query_property.md) with [STORAGE_PROPERTY_ID enumeration](ne-winioctl-storage_property_id.md) set to StorageAdapterRpmbProperty (defined in STORAGE_PROPERTY_QUERY in ntddstor.h). Storport then responds with the following payload (defined in ntddstor.h) when [STORAGE_QUERY_TYPE enumeration](ne-winioctl-storage_query_type.md) is set to PropertyStandardQuery.
 
 ## -struct-fields
 

@@ -60,7 +60,7 @@ A client or host is connected to the ad hoc network.
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm-r1">WLAN_NOTIFICATION_ACM</a>
 
 
 

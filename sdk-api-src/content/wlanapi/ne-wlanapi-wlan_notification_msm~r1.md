@@ -142,7 +142,7 @@ Indicates the end of the range that specifies the possible values for MSM notifi
 
 ## -remarks
 
-The <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a> enumerated type is used by the Media Specific Module, the new wireless configuration component supported on Windows Vista and  later.  
+The <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm-r1">WLAN_NOTIFICATION_ACM</a> enumerated type is used by the Media Specific Module, the new wireless configuration component supported on Windows Vista and  later.  
 
 The <b>WLAN_NOTIFICATION_MSM</b> specifies the possible values for the <b>NotificationCode</b> member of the <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure for received notifications  when the <b>NotificationSource</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure is <b>WLAN_NOTIFICATION_SOURCE_MSM</b>. 
 

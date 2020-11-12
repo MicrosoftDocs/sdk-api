@@ -60,7 +60,7 @@ Do not produce output for streams in which the <b>pSample</b> member of the <a h
 
 ### -field MFT_PROCESS_OUTPUT_REGENERATE_LAST_OUTPUT
 
-Regenerates the last output sample.
+Regenerates the last output sample. This flag is only used by video processing MFTs.
 
 <b>Note</b> Requires Windows 8.
 

@@ -76,7 +76,7 @@ A pointer to a null-terminated string with the name of the value. This value can
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> that receives the type of data stored in the retrieved value. When using default values, the input <i>pdwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/schemas">Registry Data Types</a>. If type information is not required, this parameter can be <b>NULL</b>.
+A pointer to a <b>DWORD</b> that receives the type of data stored in the retrieved value. When using default values, the input <i>pdwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. If type information is not required, this parameter can be <b>NULL</b>.
 
 ### -param pvData [out, optional]
 

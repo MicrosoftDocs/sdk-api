@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - ShowCaret
+req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 ---
 
 # ShowCaret function

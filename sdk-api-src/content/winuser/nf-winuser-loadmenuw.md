@@ -49,6 +49,7 @@ api_name:
  - LoadMenu
  - LoadMenuA
  - LoadMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # LoadMenuW function

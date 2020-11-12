@@ -45,6 +45,7 @@ api_location:
 api_name:
  - SetupDiOpenDeviceInfo
  - SetupDiOpenDeviceInfoW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # SetupDiOpenDeviceInfoW function

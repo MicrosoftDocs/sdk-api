@@ -46,9 +46,6 @@ api_name:
  - LPOVERLAPPED_COMPLETION_ROUTINE
 ---
 
-# LPOVERLAPPED_COMPLETION_ROUTINE callback function
-
-
 ## -description
 
 An application-defined callback function used with the 
@@ -110,7 +107,7 @@ For more information, see
     <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 
-#### Examples
+## Examples
 
 For  example code, see 
      <a href="/windows/desktop/ipc/named-pipe-server-using-completion-routines">Named Pipe Server Using Completion Routines</a>.

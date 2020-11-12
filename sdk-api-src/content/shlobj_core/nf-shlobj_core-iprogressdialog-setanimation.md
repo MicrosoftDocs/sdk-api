@@ -76,7 +76,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. In Windows Vist
 
 ## -remarks
 
-<b>IProgressDialog::SetAnimation</b> cannot be called before the progress dialog is visible. Until it is displayed, the progress dialog does not have a valid HWND. The existance of that HWND can be used to determine whether <b>IProgressDialog::SetAnimation</b> can be called.
+<b>IProgressDialog::SetAnimation</b> cannot be called before the progress dialog is visible. Until it is displayed, the progress dialog does not have a valid HWND. The existence of that HWND can be used to determine whether <b>IProgressDialog::SetAnimation</b> can be called.
 
 This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="/windows/desktop/Controls/animation-control-overview">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
 

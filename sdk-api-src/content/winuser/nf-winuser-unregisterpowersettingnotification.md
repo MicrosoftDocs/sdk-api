@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
 api_name:
  - UnregisterPowerSettingNotification
+req.apiset: ext-ms-win-ntuser-powermanagement-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterPowerSettingNotification function

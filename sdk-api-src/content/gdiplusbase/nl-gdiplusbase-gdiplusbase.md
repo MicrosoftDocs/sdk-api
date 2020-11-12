@@ -72,7 +72,7 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete[]">GdiplusBase::operator delete[]</a>
+<a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete_array">GdiplusBase::operator delete[]</a>
 </td>
 <td align="left" width="63%">
 The 

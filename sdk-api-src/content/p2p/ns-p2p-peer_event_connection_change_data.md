@@ -121,6 +121,8 @@ Specifies the unique ID for the node that has changed.
 
 ### -field ullNextConnectionId
 
+<b>Windows Vista or later.</b> Contains the next available node ID that the grouping or graphing APIs will attempt to connect to when a connection fails. If this member has a value of 0, no further connections will be attempted.
+
 ### -field hrConnectionFailedReason
 
 <b>Windows Vista or later.</b> Specifies the type of error when a connection fails.  <b>hrConnectionFailedReason</b> can return the following error codes.
@@ -144,9 +146,7 @@ Specifies the unique ID for the node that has changed.
 </tr>
 </table>
 
-### -field ullNextConnectionID
 
-<b>Windows Vista or later.</b> Contains the next available node ID that the grouping or graphing APIs will attempt to connect to when a connection fails. If this member has a value of 0, no further connections will be attempted.
 
 ## -see-also
 
@@ -154,4 +154,4 @@ Specifies the unique ID for the node that has changed.
 
 
 
-[PEER_GROUP_EVENT_DATA](./ns-p2p-peer_group_event_data~r1.md)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)

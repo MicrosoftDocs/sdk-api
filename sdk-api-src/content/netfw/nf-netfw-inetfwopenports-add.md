@@ -62,10 +62,6 @@ Opens a new port and adds it to the collection.
 Port to add to the collection.
 
 
-#### - INetFwOpenPort port [in, ref]
-
-Port to add to the collection.
-
 ## -returns
 
 <h3>C++</h3>

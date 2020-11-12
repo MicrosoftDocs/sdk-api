@@ -79,6 +79,8 @@ A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped
 
 ### -param lpCompletionRoutine [in]
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets). See Remarks.
 
 ### -param lpThreadId [in]
@@ -294,7 +296,7 @@ Retrieves the base service provider handle for a socket used by the [**select**]
 
 This Ioctl is used by a layered service provider to ensure the provider intercept the [**select**](/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15) function.
 
-If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsaget/en-us/windows/win32/api/winsock2/nf-winsock2-wsapolllasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
+If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE_SELECT** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
 
@@ -366,7 +368,7 @@ The GUID values for extension functions supported by the Windows TCP/IP service 
 | <span id="WSAID_GETACCEPTEXSOCKADDRS"></span><span id="wsaid_getacceptexsockaddrs"></span>WSAID_GETACCEPTEXSOCKADDRS<br/> | The [**GetAcceptExSockaddrs**](../mswsock/nf-mswsock-getacceptexsockaddrs.md) extension function.<br/> |
 | <span id="WSAID_TRANSMITFILE"></span><span id="wsaid_transmitfile"></span>WSAID_TRANSMITFILE<br/>                         | The [**TransmitFile**](../mswsock/nf-mswsock-transmitfile.md) extension function.<br/>                 |
 | <span id="WSAID_TRANSMITPACKETS"></span><span id="wsaid_transmitpackets"></span>WSAID_TRANSMITPACKETS<br/>                | The [**TransmitPackets**](../mswsock/nc-mswsock-lpfn_transmitpackets.md) extension function.<br/>           |
-| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v%3Dvs.85)) extension function.<br/>                     |
+| <span id="WSAID_WSARECVMSG"></span><span id="wsaid_wsarecvmsg"></span>WSAID_WSARECVMSG<br/>                               | The [**LPFN_WSARECVMSG (WSARecvMsg)**](../mswsock/nc-mswsock-lpfn_wsarecvmsg.md) extension function.<br/>                     |
 | <span id="WSAID_WSASENDMSG"></span><span id="wsaid_wsasendmsg"></span>WSAID_WSASENDMSG<br/>                               | The [**WSASendMsg**](../winsock2/nf-winsock2-wsasendmsg.md) extension function. <br/>                      |
 
 
