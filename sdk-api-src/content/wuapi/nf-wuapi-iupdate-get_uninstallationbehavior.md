@@ -57,7 +57,7 @@ This property is read-only.
 
 ## -parameters
 
-## -return-value
+## -returns
 
 Returns S_OK if successful. Otherwise, returns a COM or Windows error code.
 
