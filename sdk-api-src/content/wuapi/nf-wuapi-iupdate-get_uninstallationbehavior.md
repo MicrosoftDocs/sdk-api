@@ -57,6 +57,14 @@ This property is read-only.
 
 ## -parameters
 
+## -returns
+
+Returns S_OK if successful. Otherwise, returns a COM or Windows error code.
+
+## -remarks
+
+This API can return a null pointer as the output, even when the return value is S_OK.
+
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
