@@ -45,12 +45,9 @@ api_name:
  - DML_CREATE_DEVICE_FLAGS
 ---
 
-# DML_CREATE_DEVICE_FLAGS enumeration
-
-
 ## -description
 
-Supplies additional device creation options to [DMLCreateDevice](/windows/desktop/api/directml/nf-directml-dmlcreatedevice). Values can be bitwise OR'd together.
+Supplies additional device creation options to [DMLCreateDevice](/windows/win32/api/directml/nf-directml-dmlcreatedevice). Values can be bitwise OR'd together.
 
 ## -enum-fields
 
@@ -62,5 +59,5 @@ No creation options are specified.
 
 Enables the DirectML debug layers. To use the debug layers, developer mode must be enabled, and the DirectML
       debug layers must be installed. If the <b>DML_CREATE_DEVICE_FLAG_DEBUG</b> flag is specified and either condition is
-      not met, then [DMLCreateDevice](/windows/desktop/api/directml/nf-directml-dmlcreatedevice) returns <b>DXGI_ERROR_SDK_COMPONENT_MISSING</b>.
+      not met, then [DMLCreateDevice](/windows/win32/api/directml/nf-directml-dmlcreatedevice) returns <b>DXGI_ERROR_SDK_COMPONENT_MISSING</b>.
 

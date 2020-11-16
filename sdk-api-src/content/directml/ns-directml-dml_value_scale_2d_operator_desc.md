@@ -1,13 +1,12 @@
 ---
 UID: NS:directml.DML_VALUE_SCALE_2D_OPERATOR_DESC
 title: DML_VALUE_SCALE_2D_OPERATOR_DESC
-description: Describes a DirectML operator that performs an element-wise scale-and-bias function on the values in the input tensor.
+description: Performs an element-wise scale-and-bias function, `Output = Scale * Input + Bias`.
 helpviewer_keywords: ["DML_VALUE_SCALE_2D_OPERATOR_DESC","DML_VALUE_SCALE_2D_OPERATOR_DESC structure","direct3d12.dml_value_scale_2d_operator_desc","directml/DML_VALUE_SCALE_2D_OPERATOR_DESC"]
 old-location: direct3d12\dml_value_scale_2d_operator_desc.htm
 tech.root: directml
 ms.assetid: 205124C7-9296-4D13-9EC9-55B03D4E0595
-ms.date: 12/5/2018
-ms.keywords: DML_VALUE_SCALE_2D_OPERATOR_DESC, DML_VALUE_SCALE_2D_OPERATOR_DESC structure, direct3d12.dml_value_scale_2d_operator_desc, directml/DML_VALUE_SCALE_2D_OPERATOR_DESC
+ms.date: 11/04/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,41 +44,50 @@ api_name:
  - DML_VALUE_SCALE_2D_OPERATOR_DESC
 ---
 
-# DML_VALUE_SCALE_2D_OPERATOR_DESC structure
-
-
 ## -description
 
-Describes a DirectML operator that performs an element-wise scale-and-bias function on the values in the input tensor. This operator is similar to using an **ELEMENT_WISE_IDENTITY** operator with a scale and bias, except that **VALUE_SCALE_2D** applies a different bias for each channel rather than a single bias for the entire tensor.
+Performs an element-wise scale-and-bias function, `Output = Scale * Input + Bias`. This operator is similar to using an [DML_ELEMENT_WISE_IDENTITY_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_identity_operator_desc) with a scale and bias, except that **DML_VALUE_SCALE_2D_OPERATOR_DESC** applies a different bias for each channel, rather than a single bias for the entire tensor.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+A tensor containing the Input data. This tensor's dimensions should be `{ BatchCount, ChannelCount, Height, Width }`.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+A tensor with which to write the results to. This tensor's dimensions should match the *InputTensor*'s dimensions.
 
 ### -field Scale
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
-The scale to apply. You can use a default value of 1.0.
+Scale value to be applied to all input values.
 
 ### -field ChannelCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-This field determines the size of the <i>Bias</i> array. This field must be set to either 1 or 3, and must also match the size of the C dimension of the input tensor.
+This field determines the size of the Bias array. This field must be set to either 1 or 3, and must also match the size of the Channel dimension of the input tensor.
 
 ### -field Bias
 
 Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a>*</b>
 
-A pointer to a constant array of <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a> containing the bias term for each dimension of the input tensor.
+An array of *FLOAT* values containing the bias term for each dimension of the input tensor.
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType* and *Sizes*.
+
+## Tensor support
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |

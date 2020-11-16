@@ -48,7 +48,7 @@ Creates or opens a named or unnamed file mapping object for a specified file. Yo
 
 ### -param File
 
-Type: _In_ **[HANDLE](/windows/win32/winprog/windows-data-types)**
+Type: \_In\_ **[HANDLE](/windows/win32/winprog/windows-data-types)**
 
 A handle to the file from which to create a file mapping object.
 
@@ -58,7 +58,7 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process must also sp
 
 ### -param SecurityAttributes
 
-Type: _In_opt_ **[SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))\***
+Type: \_In_opt\_ **[SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85))\***
 
 A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether a returned handle can be inherited by child processes. The <b>lpSecurityDescriptor</b> member of the <b>SECURITY_ATTRIBUTES</b> structure specifies a security descriptor for a new file mapping object.
 
@@ -66,13 +66,13 @@ If <i>lpAttributes</i> is <b>NULL</b>, the handle cannot be inherited and the fi
 
 ### -param DesiredAccess
 
-Type: _In_ **[ULONG](/windows/win32/winprog/windows-data-types)**
+Type: \_In\_ **[ULONG](/windows/win32/winprog/windows-data-types)**
 
 The desired access mask for the returned file mapping handle. For a list of access rights, see [File-mapping security and access rights](/windows/win32/memory/file-mapping-security-and-access-rights).
 
 ### -param PageProtection
 
-Type: _In_ **[ULONG](/windows/win32/winprog/windows-data-types)**
+Type: \_In\_ **[ULONG](/windows/win32/winprog/windows-data-types)**
 
 Specifies the page protection of the file mapping object. All mapped views of the object must be compatible with this protection.
 
@@ -186,7 +186,7 @@ The file handle that  the <i>hFile</i> parameter specifies must be created with 
 
 ### -param AllocationAttributes
 
-Type: _In_ **[ULONG](/windows/win32/winprog/windows-data-types)**
+Type: \_In\_ **[ULONG](/windows/win32/winprog/windows-data-types)**
 
 You can specify one or more of the following attributes for the file mapping object. Also see the *PageProtection* parameter.
 
@@ -357,7 +357,7 @@ Applications should not use this attribute except when
 
 ### -param MaximumSize
 
-Type: _In_ **[ULONG64](/windows/win32/winprog/windows-data-types)**
+Type: \_In\_ **[ULONG64](/windows/win32/winprog/windows-data-types)**
 
 The maximum size of the file mapping object.
 
@@ -367,7 +367,7 @@ An attempt to map a file with a length of 0 (zero) fails with an error code of <
 
 ### -param Name
 
-Type: _In_opt_ **[PCWSTR](/windows/win32/winprog/windows-data-types)**
+Type: \_In_opt\_ **[PCWSTR](/windows/win32/winprog/windows-data-types)**
 
 The name of the file mapping object.
 
@@ -383,7 +383,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
 
 ### -param ExtendedParameters
 
-Type: _Inout_updates_opt_(ParameterCount) **[MEM_EXTENDED_PARAMETER](../winnt/ns-winnt-mem_extended_parameter.md)\***
+Type: \_Inout\_updates\_opt\_(ParameterCount) **[MEM_EXTENDED_PARAMETER](/windows/win32/api/winnt/ns-winnt-mem_extended_parameter)\***
 
 An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
@@ -403,7 +403,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-See the **Remarks** for [CreateFileMapping](./nf-memoryapi-createfilemappingw.md#remarks).
+See the **Remarks** for [CreateFileMapping](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw#remarks).
 
 ## Examples
 

@@ -45,12 +45,9 @@ api_name:
  - DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT
 ---
 
-# DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT structure
-
-
 ## -description
 
-Provides detail about whether a DirectML device supports a particular data type within tensors. See [IDMLDevice::CheckFeatureSupport](/windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport). The query type is [DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT](/windows/desktop/api/directml/ns-directml-dml_feature_query_tensor_data_type_support), and
+Provides detail about whether a DirectML device supports a particular data type within tensors. See [IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport). The query type is [DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT](/windows/win32/api/directml/ns-directml-dml_feature_query_tensor_data_type_support), and
       the support data type is <b>DML_FEATURE_DATA_TENSOR_DATA_TYPE_SUPPORT</b>.
 
 ## -struct-fields
@@ -62,5 +59,4 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 <b>TRUE</b> if the tensor data type is supported within tensors by the DirectML device. Otherwise, <b>FALSE</b>.
 
 ## -see-also
-
-[IDMLDevice::CheckFeatureSupport](/windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport)
+[IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)

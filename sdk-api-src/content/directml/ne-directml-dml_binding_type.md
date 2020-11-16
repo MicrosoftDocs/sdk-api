@@ -45,9 +45,6 @@ api_name:
  - DML_BINDING_TYPE
 ---
 
-# DML_BINDING_TYPE enumeration
-
-
 ## -description
 
 Defines constants that specify the nature of the resource(s) referred to by a binding description (a [DML_BINDING_DESC](./ns-directml-dml_binding_desc.md) structure).

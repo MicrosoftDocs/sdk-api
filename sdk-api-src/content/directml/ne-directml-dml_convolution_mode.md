@@ -45,12 +45,9 @@ api_name:
  - DML_CONVOLUTION_MODE
 ---
 
-# DML_CONVOLUTION_MODE enumeration
-
-
 ## -description
 
-Defines constants that specify a mode for the DirectML convolution operator (as described by the [DML_CONVOLUTION_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc) structure).
+Defines constants that specify a mode for the DirectML convolution operator (as described by the [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc) structure).
 
 ## -enum-fields
 
@@ -64,5 +61,5 @@ Specifies the cross-correlation mode. If in doubt, use this mode—it is appropr
 
 ## -see-also
 
-[DML_CONVOLUTION_OPERATOR_DESC](/windows/desktop/api/directml/ns-directml-dml_convolution_operator_desc)
+[DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)
 

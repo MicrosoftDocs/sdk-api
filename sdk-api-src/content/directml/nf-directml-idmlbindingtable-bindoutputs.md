@@ -52,7 +52,7 @@ api_name:
 
 Binds a set of resources as output tensors.
 
-If binding for a compiled operator, the number of bindings must exactly match the number of inputs of the operator, including optional tensors. This can be determined from the operator description used to create the operator. If too many or too few bindings are provided, device removal will occur. For optional tensors, you may use DML_BINDING_TYPE_NONE](/windows/desktop/api/directml/ne-directml-dml_binding_type) to specify 'no binding'. Otherwise, the binding type must match the tensor type when the operator was created.
+If binding for a compiled operator, the number of bindings must exactly match the number of inputs of the operator, including optional tensors. This can be determined from the operator description used to create the operator. If too many or too few bindings are provided, device removal will occur. For optional tensors, you may use DML_BINDING_TYPE_NONE](/windows/win32/api/directml/ne-directml-dml_binding_type) to specify 'no binding'. Otherwise, the binding type must match the tensor type when the operator was created.
 
 For operator initializers, the output bindings are the persistent resources of each operator, supplied in the order the operators were given when creating or resetting the initializer. If a particular operator does not require a persistent resource, you should prove an empty binding in that slot.
 
@@ -60,7 +60,7 @@ To unbind all input resources, supply a <i>rangeCount</i> of 0, and a value of <
 
 The writeable areas of two output tensors must not overlap with one another. The 'writeable area' of an output buffer being bound is defined as being the start offset of the buffer range, up to the <i>TotalTensorSizeInBytes</i> as specified in the tensors description.
 
-All buffers being bound as output must have heap type <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
+All buffers being bound as output must have heap type <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
 
 ## -parameters
 
@@ -72,12 +72,12 @@ This parameter determines the size of the <i>bindings</i> array (if provided).
 
 ### -param bindings [in, optional]
 
-Type: <b>const [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc)*</b>
+Type: <b>const [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc)*</b>
 
-An optional pointer to a constant array of [DML_BINDING_DESC](/windows/desktop/api/directml/ns-directml-dml_binding_desc) containing descriptions of the tensor resources to bind.
+An optional pointer to a constant array of [DML_BINDING_DESC](/windows/win32/api/directml/ns-directml-dml_binding_desc) containing descriptions of the tensor resources to bind.
 
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
-[IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable)
+[IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable)

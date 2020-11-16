@@ -1,12 +1,12 @@
 ---
 UID: NS:directml.DML_AVERAGE_POOLING_OPERATOR_DESC
 title: DML_AVERAGE_POOLING_OPERATOR_DESC
-description: Describes a DirectML operator that performs an average pooling function on the input, y = (x1 + x2 + …) / pool_size.
+description: Averages values across the elements within the sliding window over the input tensor.
 helpviewer_keywords: ["DML_AVERAGE_POOLING_OPERATOR_DESC","DML_AVERAGE_POOLING_OPERATOR_DESC structure","direct3d12.dml_average_pooling_operator_desc","directml/DML_AVERAGE_POOLING_OPERATOR_DESC"]
 old-location: direct3d12\dml_average_pooling_operator_desc.htm
 tech.root: directml
 ms.assetid: 343A104A-208F-4AB9-A1E7-7EC83FB84AC5
-ms.date: 12/5/2018
+ms.date: 10/28/2020
 ms.keywords: DML_AVERAGE_POOLING_OPERATOR_DESC, DML_AVERAGE_POOLING_OPERATOR_DESC structure, direct3d12.dml_average_pooling_operator_desc, directml/DML_AVERAGE_POOLING_OPERATOR_DESC
 req.header: directml.h
 req.include-header: 
@@ -45,59 +45,78 @@ api_name:
  - DML_AVERAGE_POOLING_OPERATOR_DESC
 ---
 
-# DML_AVERAGE_POOLING_OPERATOR_DESC structure
-
-
 ## -description
 
-Describes a DirectML operator that performs an average pooling function on the input, y = (x1 + x2 + …) / pool_size.
+Averages values across the elements within the sliding window over the input tensor.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+An input tensor of *Sizes* `{ BatchCount, ChannelCount, Height, Width }` for 4D, and `{ BatchCount, ChannelCount, Depth, Height, Weight }` for 5D.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+A description of the output tensor. The sizes of the output tensor can be computed as follows.
+
+```cpp
+OutputTensor->Sizes[0] = InputTensor->Sizes[0];
+OutputTensor->Sizes[1] = InputTensor->Sizes[1];
+
+for (UINT i = 0; i < DimensionCount; ++i) {
+    UINT PaddedSize = InputTensor->Sizes[i + 2] + StartPadding[i] + EndPadding[i];
+    OutputTensor->Sizes[i + 2] = (PaddedSize - WindowSizes[i]) / Strides[i] + 1;
+}
+```
 
 ### -field DimensionCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
-The number of dimensions. This field determines the size of the <i>Strides</i>,  <i>WindowSize</i>, <i>StartPadding</i>, and <i>EndPadding</i> arrays.
+The number of spatial dimensions of the input tensor *InputTensor*, which also corresponds to the number of dimensions of the sliding window *WindowSize*. This value also determines the size of the *Strides*, *StartPadding*, and *EndPadding* arrays. It should be set to 2 when *InputTensor* is 4D, and 3 when it's a 5D tensor.
 
 ### -field Strides
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the lengths of the strides of the tensor.
+The strides for the sliding window dimensions of sizes `{ Height, Width }` when the *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field WindowSize
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the lengths of the pooling windows.
+The dimensions of the sliding window in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field StartPadding
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the padding (number of pixels added) to the start of the corresponding axis. Padding defaults to 0 along the start and end of each axis.
+The number of padding elements to be applied to the beginning of each spatial dimension of the input tensor *InputTensor*. The values are in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field EndPadding
 
-Type: <b>const [UINT](/windows/desktop/winprog/windows-data-types)*</b>
+Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***
 
-A pointer to a constant array of [UINT](/windows/desktop/winprog/windows-data-types) containing the padding (number of pixels added) to the end of the corresponding axis. Padding defaults to 0 along the start and end of each axis.
+The number of padding elements to be applied to the end of each spatial dimension of the input tensor *InputTensor*. The values are in `{ Height, Width }` when *DimensionCount* is set to 2, or `{ Depth, Height, Width }` when set to 3.
 
 ### -field IncludePadding
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-<b>TRUE</b> if pad pixels should be included when calculating values for the edges, otherwise <b>FALSE</b>.
+Indicates whether to include the padding elements around the spatial edges when calculating the average value across all elements within the sliding window. When the value is set to **FALSE**, the padding elements are not counted as part of the divisor value of the averaging calculation.
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType* and *DimensionCount*.
+
+## Tensor support
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16 |

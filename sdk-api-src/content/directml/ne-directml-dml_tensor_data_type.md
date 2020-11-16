@@ -45,9 +45,6 @@ api_name:
  - DML_TENSOR_DATA_TYPE
 ---
 
-# DML_TENSOR_DATA_TYPE enumeration
-
-
 ## -description
 
 Specifies the data type of the values in a tensor. DirectML operators may not support all data types; see the documentation for each specific operator to find which

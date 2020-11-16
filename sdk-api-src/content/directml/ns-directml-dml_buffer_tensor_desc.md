@@ -7,7 +7,6 @@ old-location: direct3d12\dml_buffer_tensor_desc.htm
 tech.root: directml
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
-ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -45,24 +44,21 @@ api_name:
  - DML_BUFFER_TENSOR_DESC
 ---
 
-# DML_BUFFER_TENSOR_DESC structure
-
-
 ## -description
 
-Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type).
+Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/win32/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is [DML_BINDING_TYPE_BUFFER](/windows/win32/api/directml/ne-directml-dml_binding_type).
 
 ## -struct-fields
 
 ### -field DataType
 
-Type: [**DML_TENSOR_DATA_TYPE**](/windows/desktop/api/directml/ne-directml-dml_tensor_data_type)
+Type: [**DML_TENSOR_DATA_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_data_type)
 
 The type of the values in the tensor.
 
 ### -field Flags
 
-Type: [**DML_TENSOR_FLAGS**](/windows/desktop/api/directml/ne-directml-dml_tensor_flags)
+Type: [**DML_TENSOR_FLAGS**](/windows/win32/api/directml/ne-directml-dml_tensor_flags)
 
 Specifies additional options for the tensor.
 

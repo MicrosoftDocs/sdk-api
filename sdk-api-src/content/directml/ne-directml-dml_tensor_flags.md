@@ -45,9 +45,6 @@ api_name:
  - DML_TENSOR_FLAGS
 ---
 
-# DML_TENSOR_FLAGS enumeration
-
-
 ## -description
 
 Specifies additional options in a tensor description. Values can be bitwise OR'd together.

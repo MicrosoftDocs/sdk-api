@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Associates an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the DirectML device object, and associates that interface with an application-defined <b>GUID</b>. This method is thread-safe.
+Associates an <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with the DirectML device object, and associates that interface with an application-defined <b>GUID</b>. This method is thread-safe.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ The <b>GUID</b> to associate with the interface.
 
 ### -param data [in, optional]
 
-Type: <b>const <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b>const <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface to be associated with the device object.
+A pointer to the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface to be associated with the device object.
 
 ## -returns
 
@@ -74,4 +74,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
+[IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)

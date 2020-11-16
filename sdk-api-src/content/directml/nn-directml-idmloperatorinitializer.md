@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Represents a specialized object whose purpose is to initialize compiled operators. To create an instance of this object, call [IDMLDevice::CreateOperatorInitializer](/windows/desktop/api/directml/nf-directml-idmldevice-createoperatorinitializer). The **IDMLOperatorInitializer** interface inherits from [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable).
+Represents a specialized object whose purpose is to initialize compiled operators. To create an instance of this object, call [IDMLDevice::CreateOperatorInitializer](/windows/win32/api/directml/nf-directml-idmldevice-createoperatorinitializer). The **IDMLOperatorInitializer** interface inherits from [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable).
 
-An operator initializer is associated with one or more compiled operators, which are the targets for initialization. You can record operator initialization onto a command list using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). When the initialization completes execution on the GPU, all of the target operators enter the initialized state. You must initialize all operators exactly once before they can be executed.
+An operator initializer is associated with one or more compiled operators, which are the targets for initialization. You can record operator initialization onto a command list using [IDMLCommandRecorder::RecordDispatch](/windows/win32/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). When the initialization completes execution on the GPU, all of the target operators enter the initialized state. You must initialize all operators exactly once before they can be executed.
 
 ## -members
 
@@ -64,7 +64,7 @@ The <b>IDMLOperatorInitializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset">Reset</a>
+<a href="/windows/win32/api/directml/nf-directml-idmloperatorinitializer-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the initializer to handle initialization of a new set of operators.
@@ -81,8 +81,8 @@ When executing an initializer, the expected bindings are as follows:
 
 - Inputs should be one buffer array binding for each target operator, in the order that you originally specified the operators when creating or resetting the initializer. Each buffer array binding itself should have a size equal to the inputs of its respective operator. Alternatively, you may specify NONE for a binding to bind no inputs for initialization of that target operator.
 - Outputs should be the persistent resources for each target operator, in the order that you originally specified the operators when creating or resetting the initializer.
-- As with any dispatchable object (an operator initializer, or a compiled operator), the initializer may require a temporary resource. Call [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) to determine the require size of the temporary resource.
-- Operator initializers don't ever require persistent resources. Therefore, calling [IDMLDispatchable::GetBindingProperties](/windows/desktop/api/directml/nf-directml-idmldispatchable-getbindingproperties) on an operator initializer always returns a <b>PersistentResourceSize</b> of 0.
+- As with any dispatchable object (an operator initializer, or a compiled operator), the initializer may require a temporary resource. Call [IDMLDispatchable::GetBindingProperties](/windows/win32/api/directml/nf-directml-idmldispatchable-getbindingproperties) to determine the require size of the temporary resource.
+- Operator initializers don't ever require persistent resources. Therefore, calling [IDMLDispatchable::GetBindingProperties](/windows/win32/api/directml/nf-directml-idmldispatchable-getbindingproperties) on an operator initializer always returns a <b>PersistentResourceSize</b> of 0.
 
 The operator initializer itself doesn't need to be initialized—GPU initialization only applies to compiled operators.
 
@@ -90,4 +90,4 @@ The operator initializer itself doesn't need to be initialized—GPU initializat
 
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
 
-[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
+[IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)

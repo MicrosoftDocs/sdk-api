@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determine whether to mute DirectML from sending messages to the <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>.
+Determine whether to mute DirectML from sending messages to the <a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>.
 
 ## -parameters
 
@@ -58,8 +58,8 @@ Determine whether to mute DirectML from sending messages to the <a href="/window
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>. If <b>FALSE</b>, DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>. The default value is <b>FALSE</b>.
+If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>. If <b>FALSE</b>, DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>. The default value is <b>FALSE</b>.
 
 ## -see-also
 
-[IDMLDebugDevice](/windows/desktop/api/directml/nn-directml-idmldebugdevice)
+[IDMLDebugDevice](/windows/win32/api/directml/nn-directml-idmldebugdevice)
