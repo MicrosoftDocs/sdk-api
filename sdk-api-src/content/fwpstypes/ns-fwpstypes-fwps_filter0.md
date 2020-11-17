@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-The <b>FWPS_FILTER0</b> structure defines a run-time filter in the filter engine.
-[FWPS_FILTER2](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2) is available. For Windows 7, [FWPS_FILTER1](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1) is available.</div><div> </div>
+The **FWPS_FILTER0** structure defines a run-time filter in the filter engine.
+[FWPS_FILTER2](ns-fwpstypes-fwps_filter2.md) is available. For Windows 7, [FWPS_FILTER1](ns-fwpstypes-fwps_filter1.md) is available.
 
 ## -struct-fields
 
@@ -63,142 +63,85 @@ A run-time identifier that identifies the filter in the filter engine.
 
 ### -field weight
 
-An 
-     <a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structure that contains a value that
-     specifies the filter's importance in relation to other filters in the filter engine. Filters with a
-     higher 
-     <b>weight</b> value are invoked first. The data type specified in the 
-     <b>FWP_VALUE0</b> structure is either <b>FWP_UINT64</b> or
-     FWP_EMPTY. If the data type specified in the 
-     <b>FWP_VALUE0</b> structure is FWP_EMPTY, the filter
-     engine automatically assigns a weight to the filter based on how specific the filter tests the data
-     compared to the other filters in the filter engine.
+An [FWP_VALUE0](../fwptypes/ns-fwptypes-fwp_value0.md) structure that contains a value that specifies the filter's importance in relation to other filters in the filter engine. Filters with a higher **weight** value are invoked first. The data type specified in the **FWP_VALUE0** structure is either **FWP_UINT64** or FWP_EMPTY. If the data type specified in the **FWP_VALUE0** structure is FWP_EMPTY, the filter engine automatically assigns a weight to the filter based on how specific the filter tests the data compared to the other filters in the filter engine.
 
 ### -field subLayerWeight
 
-A value that specifies the importance of the filter's sublayer in relation to the other sublayers
-     in the filter engine. Filters that are located in a sublayer with a higher 
-     <b>subLayerWeight</b> value are invoked first.
+A value that specifies the importance of the filter's sublayer in relation to the other sublayers in the filter engine. Filters that are located in a sublayer with a higher **subLayerWeight** value are invoked first.
 
 ### -field flags
 
-Flags that specify actions that a callout's 
-     <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function should take when
-     processing network data. Possible flags are:
+Flags that specify actions that a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function should take when processing network data. Possible flags are:
      
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT"></a><a id="fwps_filter_flag_clear_action_right"></a><dl>
-<dt><b>FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT</b></dt>
-</dl>
-</td>
-<td width="60%">
-This flag indicates to a callout's 
-       <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function that it should
-       always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or
-       FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's 
-       <i>classifyFn0</i> callout function should only
-       clear the FWPS_RIGHT_ACTION_WRITE flag when it returns FWP_ACTION_BLOCK for the suggested
-       action.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED"></a><a id="fwps_filter_flag_permit_if_callout_unregistered"></a><dl>
-<dt><b>FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This flag indicates to a callout's 
-       <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function that if the
-       callout is not registered, the callout should be treated as a permit filter.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that it should always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's ***classifyFn0*** callout function should only clear the FWPS_RIGHT_ACTION_WRITE flag when it returns FWP_ACTION_BLOCK for the suggested action. |
+| FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED | This flag indicates to a callout's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function that if the callout is not registered, the callout should be treated as a permit filter. |
 
 ### -field numFilterConditions
 
-The number of 
-     [FWPS_FILTER_CONDITION0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0) structures in
-     the array pointed to by the 
-     <b>filterCondition</b> member. This member can be zero.
+The number of [FWPS_FILTER_CONDITION0](ns-fwpstypes-fwps_filter_condition0.md) structures in the array pointed to by the **filterCondition** member. This member can be zero.
 
 ### -field filterCondition
 
-A pointer to an array of 
-     [FWPS_FILTER_CONDITION0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0) structures.
-     These structures define the run-time filtering conditions for the filter. If the 
-     <b>numFilterConditions</b> member is zero, then this pointer will be <b>NULL</b>.
+A pointer to an array of [FWPS_FILTER_CONDITION0](ns-fwpstypes-fwps_filter_condition0.md) structures. These structures define the run-time filtering conditions for the filter. If the **numFilterConditions** member is zero, then this pointer will be **NULL**.
 
 ### -field action
 
-An 
-     [FWPS_ACTION0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0) structure that specifies the
-     action that the filter should take if all of the filter's filtering conditions are true.
+An [FWPS_ACTION0](ns-fwpstypes-fwps_action0.md) structure that specifies the action that the filter should take if all of the filter's filtering conditions are true.
 
 ### -field context
 
-A context value that is associated with the filter. A callout can set this member to point to a
-     callout driver-supplied context structure from within the callout driver's 
-     <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> callout function when the filter is
-     added to the filter engine. This context structure, which is opaque to the filter engine, can be used by
-     the callout driver's 
-     <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function to preserve any
-     driver-specific data or state information between calls by the filter engine to the callout driver's 
-     <i>classifyFn0</i> callout function.
+A context value that is associated with the filter. A callout can set this member to point to a callout driver-supplied context structure from within the callout driver's [notifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0) callout function when the filter is added to the filter engine. This context structure, which is opaque to the filter engine, can be used by the callout driver's [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout function to preserve any driver-specific data or state information between calls by the filter engine to the callout driver's ***classifyFn0*** callout function.
 
 ### -field providerContext
 
-A pointer to the provider context, which is formatted as a <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0">FWPM_PROVIDER_CONTEXT0</a> structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_filter0">FWPM_FILTER0</a> structure. Otherwise, this parameter is
-     <b>NULL</b>.
+A pointer to the provider context, which is formatted as a [FWPM_PROVIDER_CONTEXT0](../fwpmtypes/ns-fwpmtypes-fwpm_provider_context0.md) structure. If the filter uses a callout, and the callout has the FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT flag set, this member will contain the provider context from the corresponding [FWPM_FILTER0](../fwpmtypes/ns-fwpmtypes-fwpm_filter0.md) structure. Otherwise, this parameter is **NULL**.
 
 ## -remarks
 
-The filter engine passes a pointer to an <b>FWPS_FILTER0</b> structure to a callout's 
-    <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> and 
-    <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout functions.
+The filter engine passes a pointer to an **FWPS_FILTER0** structure to a callout's [notifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0) and [classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0) callout functions.
 
-A filter's action is performed only if all of the filter's filtering conditions are true. If no
-    filtering conditions are specified in the filter, then the specified action is always performed.
+A filter's action is performed only if all of the filter's filtering conditions are true. If no filtering conditions are specified in the filter, then the specified action is always performed.
 
-The 
-    <b>ProviderContext</b> member provides a mechanism for a callout driver to retrieve provider contexts
-    without calling the base filtering engine (BFE).
+The **ProviderContext** member provides a mechanism for a callout driver to retrieve provider contexts without calling the base filtering engine (BFE).
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a>
+[FWPM_CALLOUT0](../fwpmtypes/ns-fwpmtypes-fwpm_callout0.md)
 
 
 
-[FWPS_ACTION0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0)
+[FWPM_FILTER0](../fwpmtypes/ns-fwpmtypes-fwpm_filter0.md)
 
 
 
-[FWPS_FILTER1](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1)
+[FWPM_PROVIDER_CONTEXT0](../fwpmtypes/ns-fwpmtypes-fwpm_provider_context0.md)
 
 
 
-[FWPS_FILTER2](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2)
+[FWPS_ACTION0](ns-fwpstypes-fwps_action0.md)
 
 
 
-[FWPS_FILTER_CONDITION0](/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0)
+[FWPS_FILTER1](ns-fwpstypes-fwps_filter1.md)
 
 
 
-<a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a>
+[FWPS_FILTER2](ns-fwpstypes-fwps_filter2.md)
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a>
+[FWPS_FILTER_CONDITION0](ns-fwpstypes-fwps_filter_condition0.md)
 
 
 
-<a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
+[FWP_VALUE0](../fwptypes/ns-fwptypes-fwp_value0.md)
+
+
+
+[classifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0)
+
+
+
+[notifyFn0](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0)
