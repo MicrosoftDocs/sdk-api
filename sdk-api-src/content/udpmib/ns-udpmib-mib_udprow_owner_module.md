@@ -84,7 +84,7 @@ The PID of the process that issued the call to the <a href="/windows/desktop/api
 
 Type: <b>LARGE_INTEGER</b>
 
-A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that  indicates when the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint occurred.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that indicates when the call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function for the UDP endpoint occurred.
 
 ### -field SpecificPortBind
 
