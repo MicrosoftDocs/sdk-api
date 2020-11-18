@@ -83,7 +83,7 @@ Returns a collection of all the currently mapped PIDs on this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>
+<a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>
 </td>
 <td align="left" width="63%">
 Maps the packets of a specified PID to the pin.
@@ -95,7 +95,7 @@ Maps the packets of a specified PID to the pin.
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-unmappid">UnmapPID</a>
 </td>
 <td align="left" width="63%">
-Unmaps the PID mapping created in a previous call to <a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>.
+Unmaps the PID mapping created in a previous call to <a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>.
 
 </td>
 </tr>

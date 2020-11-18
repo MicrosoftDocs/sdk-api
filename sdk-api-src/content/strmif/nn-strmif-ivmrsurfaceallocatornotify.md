@@ -55,7 +55,7 @@ The <code>IVMRSurfaceAllocatorNotify</code> interface is implemented by the <a h
 
 In order for an application to obtain this interface, the VMR must be in renderless mode.
 
-For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
+For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocatornotify9">IVMRSurfaceAllocatorNotify9</a> interface.
 
 ## -inheritance
 

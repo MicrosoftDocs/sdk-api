@@ -132,7 +132,7 @@ The method might return <b>E_INVALIDARG</b> for several reasons:
 
 
 
-<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
+<a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 

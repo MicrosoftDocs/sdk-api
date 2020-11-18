@@ -57,7 +57,7 @@ The VMR-7 supports a maximum of 15 display devices.
 
 It is the responsibility of the application to ensure that the playback window is positioned on the desired monitor before the window is displayed. Otherwise the playback window will be displayed at a location chosen by the Windows Shell (Explorer) which may not be on the desired monitor.
 
-For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a> interface.
+For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9</a> interface.
 
 ## -inheritance
 

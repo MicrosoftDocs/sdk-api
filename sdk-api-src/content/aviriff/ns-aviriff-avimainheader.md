@@ -146,7 +146,7 @@ Specifies the total number of frames of data in the file.
 
 Specifies the initial frame for interleaved files. Noninterleaved files should specify zero. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member.
 
-To give the audio driver enough audio to work with, the audio data in an interleaved file must be skewed from the video data. Typically, the audio data should be moved forward enough frames to allow approximately 0.75 seconds of audio data to be preloaded. The <b>dwInitialRecords</b> member should be set to the number of frames the audio is skewed. Also set the same value for the <b>dwInitialFrames</b> member of the <a href="/windows/desktop/api/avifmt/ns-avifmt-avistreamheader">AVISTREAMHEADER</a> structure in the audio stream header.
+To give the audio driver enough audio to work with, the audio data in an interleaved file must be skewed from the video data. Typically, the audio data should be moved forward enough frames to allow approximately 0.75 seconds of audio data to be preloaded. The <b>dwInitialRecords</b> member should be set to the number of frames the audio is skewed. Also set the same value for the <b>dwInitialFrames</b> member of the <a href="/previous-versions/windows/desktop/api/avifmt/ns-avifmt-avistreamheader">AVISTREAMHEADER</a> structure in the audio stream header.
 
 ### -field dwStreams
 

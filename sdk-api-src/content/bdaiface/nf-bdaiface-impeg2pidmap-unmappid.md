@@ -77,4 +77,4 @@ On output pins for audio and video streams, there will typically be only one PID
 
 
 
-<a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
+<a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>

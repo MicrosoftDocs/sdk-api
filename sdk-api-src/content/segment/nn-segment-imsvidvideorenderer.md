@@ -101,7 +101,7 @@ Retrieves the class identifier (CLSID) of the VMR's current image compositor, as
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__mixerbitmap">get__MixerBitmap</a>
 </td>
 <td align="left" width="63%">
-Retrieves the VMR's <a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
+Retrieves the VMR's <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> interface, which controls how the VMR mixes a static bitmap
 
 </td>
 </tr>

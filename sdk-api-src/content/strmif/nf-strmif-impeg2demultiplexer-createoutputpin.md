@@ -113,7 +113,7 @@ Duplicate pin name.
 
 ## -remarks
 
-Duplicate pin names are not allowed. To configure the pin, query the returned <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface for the <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap</a> interface (for program streams) or for the <a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface (for transport streams). Depending on which interface is queried for on the first output pin, the Demux configures itself for either transport or program stream mode. Once the Demux is configured, any calls to <b>QueryInterface</b> to retrieve the other interface will fail.
+Duplicate pin names are not allowed. To configure the pin, query the returned <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface for the <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap</a> interface (for program streams) or for the <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface (for transport streams). Depending on which interface is queried for on the first output pin, the Demux configures itself for either transport or program stream mode. Once the Demux is configured, any calls to <b>QueryInterface</b> to retrieve the other interface will fail.
 
 ## -see-also
 

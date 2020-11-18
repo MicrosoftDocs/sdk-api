@@ -98,7 +98,7 @@ If you are capturing audio and video from two different sources, use this method
 
 It is recommended to use the audio stream as the master stream, because minor adjustments to the video playback rate are less noticeable than changes to the audio playback rate. Also, modifying the audio playback rate will cause the audio to be resampled by the audio driver.
 
-This method works by adjusting the <i>dwScale</i> and <i>dwRate</i> values in the <a href="/windows/desktop/api/avifmt/ns-avifmt-avistreamheader">AVISTREAMHEADER</a> structure.
+This method works by adjusting the <i>dwScale</i> and <i>dwRate</i> values in the <a href="/previous-versions/windows/desktop/api/avifmt/ns-avifmt-avistreamheader">AVISTREAMHEADER</a> structure.
 
 ## -see-also
 

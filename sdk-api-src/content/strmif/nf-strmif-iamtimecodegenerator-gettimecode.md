@@ -57,7 +57,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode and/or us
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 ## -returns
 

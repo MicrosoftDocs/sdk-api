@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IVMRFilterConfig</code> interface is used to configure the operating mode and video rendering mechanisms of the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). For the VMR-9, use the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a> interface.
+The <code>IVMRFilterConfig</code> interface is used to configure the operating mode and video rendering mechanisms of the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a> interface.
 
 Applications must add the VMR to the graph and configure it before connecting it to any upstream filters (for example, in a call to <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a>). Once a filter has been connected to the VMR, the VMR's configuration is locked and all future attempts to alter it fail.
 
