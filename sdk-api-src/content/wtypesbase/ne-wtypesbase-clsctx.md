@@ -98,7 +98,7 @@ Reserved.
 
 ### -field CLSCTX_NO_CODE_DOWNLOAD
 
-Disaables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_ENABLE_CODE_DOWNLOAD.
+Disables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_ENABLE_CODE_DOWNLOAD.
 
 ### -field CLSCTX_RESERVED5
 
