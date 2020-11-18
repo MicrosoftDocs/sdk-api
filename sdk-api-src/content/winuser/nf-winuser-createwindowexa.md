@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - CreateWindowExA
  - winuser/CreateWindowExA
@@ -265,7 +265,39 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
  With <b>WS_EX_COMPOSITED</b> set, all descendants of a window get bottom-to-top painting order using double-buffering. Bottom-to-top painting order allows a descendent window to have translucency (alpha) and transparency (color-key) effects, but only if the descendent window also has the <b>WS_EX_TRANSPARENT</b> bit set. Double-buffering allows the window and its descendents to be painted without flicker. 
 
 
+## Example
 
+The following sample code illustrates the use of **CreateWindowExA**.
+
+```cpp
+BOOL Create(
+        PCWSTR lpWindowName,
+        DWORD dwStyle,
+        DWORD dwExStyle = 0,
+        int x = CW_USEDEFAULT,
+        int y = CW_USEDEFAULT,
+        int nWidth = CW_USEDEFAULT,
+        int nHeight = CW_USEDEFAULT,
+        HWND hWndParent = 0,
+        HMENU hMenu = 0
+        )
+    {
+        WNDCLASS wc = {0};
+
+        wc.lpfnWndProc   = DERIVED_TYPE::WindowProc;
+        wc.hInstance     = GetModuleHandle(NULL);
+        wc.lpszClassName = ClassName();
+
+        RegisterClass(&wc);
+
+        m_hwnd = CreateWindowEx(
+            dwExStyle, ClassName(), lpWindowName, dwStyle, x, y,
+            nWidth, nHeight, hWndParent, hMenu, GetModuleHandle(NULL), this
+            );
+
+        return (m_hwnd ? TRUE : FALSE);
+    }
+```
 
 
 > [!NOTE]

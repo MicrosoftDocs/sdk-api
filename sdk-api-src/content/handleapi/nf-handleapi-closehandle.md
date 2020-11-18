@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - CloseHandle
  - handleapi/CloseHandle
@@ -116,7 +116,22 @@ Do not use the <b>CloseHandle</b>  function to close a handle to an open registr
 
 #### Examples
 
-For an example, see 
+
+```cpp
+dwPriorityClass = 0;
+hProcess = OpenProcess( PROCESS_ALL_ACCESS, FALSE, pe32.th32ProcessID );
+if( hProcess == NULL )
+	printError( TEXT("OpenProcess") );
+else
+{
+	dwPriorityClass = GetPriorityClass( hProcess );
+	if( !dwPriorityClass )
+	printError( TEXT("GetPriorityClass") );
+	CloseHandle( hProcess );
+}
+```
+
+To see this example in context, see 
 <a href="/windows/desktop/ToolHelp/taking-a-snapshot-and-viewing-processes">Taking a Snapshot and Viewing Processes</a>.
 
 <div class="code"></div>

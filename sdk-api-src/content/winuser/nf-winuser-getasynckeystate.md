@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetAsyncKeyState
  - winuser/GetAsyncKeyState
@@ -148,6 +148,31 @@ Right-menu key.
  
 
 These left- and right-distinguishing constants are only available when you call the <a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <b>GetAsyncKeyState</b>, <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions.
+
+## Example
+
+```cpp
+while (GetMessage(&msg, nullptr, 0, 0))
+{
+    if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+    {
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
+    }
+
+    switch (msg.message)
+    {
+    case WM_KEYDOWN:
+        if ((GetAsyncKeyState(VK_ESCAPE) & 0x01) && bRunning)
+        {
+            Stop();
+        }
+        break;
+    }
+}
+```
+
+Example from [Windows Classic Samples](https://docs.microsoft.com/en-us/windows/win32/controls/button-styles) on GitHub.
 
 ## -see-also
 
