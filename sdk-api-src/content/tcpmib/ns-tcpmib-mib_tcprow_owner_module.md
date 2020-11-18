@@ -263,7 +263,7 @@ The PID of the process that issued a context bind for this TCP connection.
 
 Type: <b>LARGE_INTEGER</b>
 
-A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that  indicates when the context bind operation that created this TCP link occurred.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that indicates when the context bind operation that created this TCP link occurred.
 
 ### -field OwningModuleInfo
 
