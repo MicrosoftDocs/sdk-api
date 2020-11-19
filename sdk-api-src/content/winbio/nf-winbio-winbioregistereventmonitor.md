@@ -6,7 +6,7 @@ helpviewer_keywords: ["WINBIO_EVENT_FP_UNCLAIMED","WINBIO_EVENT_FP_UNCLAIMED_IDE
 old-location: secbiomet\winbioregistereventmonitor.htm
 tech.root: SecBioMet
 ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
 req.header: winbio.h
 req.include-header: Winbio.h
@@ -67,11 +67,14 @@ A value that specifies the types of events to monitor. Only the fingerprint prov
 
 
 
-###### )
+* **WINBIO_EVENT_FP_UNCLAIMED**
 
+The sensor detected a finger swipe that was not requested by the application, or the requesting application does not have window focus. The Windows Biometric Framework calls into your callback function to indicate that a finger swipe has occurred but does not try to identify the fingerprint.
 
+* **WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY**
 
-###### )
+The sensor detected a finger swipe that was not requested by the application, or the requesting application does not have window focus. The Windows Biometric Framework attempts to identify the fingerprint and passes the result of that process to your callback function.
+   
 
 ### -param EventCallback [in]
 

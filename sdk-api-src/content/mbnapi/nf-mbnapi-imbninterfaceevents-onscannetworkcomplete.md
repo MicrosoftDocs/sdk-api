@@ -6,7 +6,7 @@ helpviewer_keywords: ["E_MBN_ALREADY_ACTIVE","E_MBN_DEVICE_BUSY","E_MBN_RADIO_PO
 old-location: mbn\imbninterfaceevents_onscannetworkcomplete.htm
 tech.root: mbn
 ms.assetid: 6320c76b-b8a6-44dc-88bb-e20a85d5cfca
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnInterfaceEvents.OnScanNetworkComplete, IMbnInterfaceEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onscannetworkcomplete, mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete
 req.header: mbnapi.h
 req.include-header: 
@@ -69,25 +69,29 @@ The request ID assigned by the Mobile Broadband service for this notification.
 
 The operation completion status
 
-.
+
 
 A calling application can expect one of the following values.
 
 
+**S_OK**
 
-##### )
-
-
-
-###### )
+The operation  was successful.
 
 
+**E_MBN_RADIO_POWER_OFF**
 
-###### )
+Can't get a visible network list because the device radio is off.  The application can issue a network scan request when it gets the radio-turned-on notification.
 
 
+**E_MBN_DEVICE_BUSY**
 
-##### )
+The device is busy and can't currently perform a network scan operation.  This is returned by devices which don't support a network scan operation when it has a data connection established.
+
+
+**E_MBN_ALREADY_ACTIVE**
+
+A network scan operation is already in progress.
 
 ## -returns
 
