@@ -81,4 +81,4 @@ There may be no more than 255 distinct PIDs mapped at any given time. This inclu
 
 
 
-<a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
+<a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>

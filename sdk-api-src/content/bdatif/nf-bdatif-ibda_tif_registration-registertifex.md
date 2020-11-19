@@ -64,7 +64,7 @@ Receives a token identifying the connection. Pass this token in the <b>Unregiste
 
 ### -param ppMpeg2DataControl [in, out]
 
-Receives a pointer to an <b>IUnknown</b> interface, which the TIF queries for the <a href="/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface. It uses the <b>IMPEG2PIDMap</b> to map and unmap PID values.
+Receives a pointer to an <b>IUnknown</b> interface, which the TIF queries for the <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap</a> interface. It uses the <b>IMPEG2PIDMap</b> to map and unmap PID values.
 
 ## -returns
 

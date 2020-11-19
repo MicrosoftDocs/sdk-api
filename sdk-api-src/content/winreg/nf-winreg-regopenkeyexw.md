@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - RegOpenKeyExW
  - winreg/RegOpenKeyExW
@@ -147,7 +147,23 @@ Note that operations that access certain registry keys are redirected. For more 
 
 #### Examples
 
-For an example, see 
+```cpp
+lResult = RegOpenKeyEx (hKeyRoot, lpSubKey, 0, KEY_READ, &hKey);
+
+if (lResult != ERROR_SUCCESS) 
+{
+    if (lResult == ERROR_FILE_NOT_FOUND) {
+        printf("Key not found.\n");
+        return TRUE;
+    } 
+    else {
+        printf("Error opening key.\n");
+        return FALSE;
+    }
+}
+```
+
+To see this example in context, see 
 <a href="/windows/desktop/SysInfo/deleting-a-key-with-subkeys">Deleting a Key with Subkeys</a>.
 
 <div class="code"></div>
