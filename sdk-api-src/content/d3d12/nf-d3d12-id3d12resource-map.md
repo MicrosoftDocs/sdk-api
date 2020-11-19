@@ -139,10 +139,10 @@ Applications are encouraged to leave resources unmapped while the CPU will not m
 
 
 <h3><a id="Advanced_Usage_Models"></a><a id="advanced_usage_models"></a><a id="ADVANCED_USAGE_MODELS"></a>Advanced Usage Models</h3>
-Resources on D3D12_HEAP_TYPE_UPLOAD heaps can be persistently mapped, meaning <b>Map</b> can be called once, immediately after resource creation. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> never needs to be called, but the address returned from <b>Map</b> must no longer be used after the last reference to the resource is released. When using persistent map, the application must ensure the CPU finishes writing data into memory before the GPU executes a command list that reads the memory. In common scenarios, the application merely must write to memory before calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandLists</a>; but using a fence to delay command list execution works as well.
+Resources on CPU-accessible heaps can be persistently mapped, meaning <b>Map</b> can be called once, immediately after resource creation. <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> never needs to be called, but the address returned from <b>Map</b> must no longer be used after the last reference to the resource is released. When using persistent map, the application must ensure the CPU finishes writing data into memory before the GPU executes a command list that reads or writes the memory. In common scenarios, the application merely must write to memory before calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandLists</a>; but using a fence to delay command list execution works as well.
 
 
-Applications may understand the adapter architectural details and use custom heaps to write optimizations for UMA architectures, multi-engine applications, multi-adapter applications, and other less common scenarios. Persistent map can be used on the custom heap types when the adapter architectures supports it. Heaps with write-combine properties always support persistent map, and heaps with write-back properties support persistent map on non-ARM systems.
+All CPU-accessible memory types support persistent mapping usage, where the resource is mapped but then never unmapped, provided the application does not access the pointer after the resource has been disposed.
 
 
 #### Examples
