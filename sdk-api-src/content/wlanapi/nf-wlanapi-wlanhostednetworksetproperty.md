@@ -6,7 +6,7 @@ helpviewer_keywords: ["WlanHostedNetworkSetProperty","WlanHostedNetworkSetProper
 old-location: nwifi\wlanhostednetworksetproperty.htm
 tech.root: nwifi
 ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
@@ -62,13 +62,15 @@ The client's session handle, returned by a previous call to the <a href="/window
 
 The identifier for the property to be set. This identifier can only be the following values in the <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file:
 
+* **wlan_hosted_network_opcode_connection_settings**
+
+The Hosted Network connection settings.
+
+* **wlan_hosted_network_opcode_enable**
+
+The Hosted Network enabled flag.
 
 
-##### )
-
-
-
-##### )
 
 ### -param dwDataSize [in]
 

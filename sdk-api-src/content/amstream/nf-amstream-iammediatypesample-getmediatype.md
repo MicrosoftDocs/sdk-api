@@ -50,8 +50,9 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
-<div> </div>
+> [!NOTE]
+>  This interface is deprecated. New applications should not use it.
+
 The <code>GetMediaType</code> method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.
 
 ## -parameters

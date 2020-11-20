@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PNAME_BUFFER","DEREGISTERED","DUPLICATE","DUPLICATE_DERE
 old-location: netbios\name_buffer.htm
 tech.root: NetBIOS
 ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: '*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer'
 req.header: nb30.h
 req.include-header: 
@@ -72,33 +72,32 @@ Specifies the number for the local network name. This value is in the <b>ncb_num
 
 Specifies the current state of the name table entry. This member can be one of the following values.
 
+**REGISTERED**
+
+The name specified by the name member has been successfully added to the network.
 
 
-##### )
+**DEREGISTERED**
+
+The name specified by the name member has an active session when an NCBDELNAME command is issued. The name will be removed from the name table when the session is closed.
+
+**DUPLICATE**
+
+A duplicate name was detected during registration.
+
+**DUPLICATE_DEREG**
+
+A duplicate name was detected with a pending deregistration.
+
+**GROUP_NAME**
+
+The name specified by the name member was created by using the NCBADDGRNAME command.
+
+**UNIQUE_NAME**
+
+The name specified by the name member was created by using the NCBADDNAME command.
 
 
-
-##### )
-
-
-
-###### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
 
 ## -see-also
 

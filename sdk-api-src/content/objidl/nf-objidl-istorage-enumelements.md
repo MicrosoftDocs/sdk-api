@@ -85,8 +85,9 @@ The enumerator object returned by this method implements the
 
 The storage object must be open in read mode to allow the enumeration of its elements.
 
-The order in which the elements are enumerated and whether the enumerator is a snapshot or always reflects the current state of the storage object, and depends on the 
-<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> implementation.
+The enumerator object is permitted to enumerate the elements in any order.
+The enumerator object is also permitted to treat the enumeration as a snapshot
+or to have the enumeration reflect the current state of the storage object.
 
 ## -see-also
 

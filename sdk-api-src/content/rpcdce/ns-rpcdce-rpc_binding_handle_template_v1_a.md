@@ -89,21 +89,11 @@ The <b>ObjectUuid</b> member contains a valid value. If this flag is not set, th
 
 A <a href="/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
 
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
+* **ncalrpc** - Specifies local RPC.
+* **ncacn_ip_tcp** - Specifies RPC over TCP/IP.
+* **ncacn_np** - Specifies RPC over named pipes.
+* **ncacn_http** - Specifies RPC over HTTP.
+	
 
 ### -field NetworkAddress
 
