@@ -62,7 +62,7 @@ This operator supports in-place execution, meaning that the output tensor is per
 
 ### -field InputTensor
 
-Type: const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
 The input tensor to read from.
 
