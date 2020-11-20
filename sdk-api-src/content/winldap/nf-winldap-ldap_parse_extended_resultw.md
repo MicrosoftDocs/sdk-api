@@ -63,7 +63,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> in response to an extended operation request.
 
 ### -param ResultOID [out]
@@ -108,7 +108,7 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 
 
 
-<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

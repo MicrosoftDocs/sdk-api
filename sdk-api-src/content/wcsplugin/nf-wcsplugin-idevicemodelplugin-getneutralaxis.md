@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxis">IDeviceModelPlugIn::GetNeutralAxis</a> return the XYZ colorimetry of sample points along the device's neutral axis.
+The <a href="/windows/win32/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">IDeviceModelPlugIn::GetNeutralAxis</a> return the XYZ colorimetry of sample points along the device's neutral axis.
 
 ## -parameters
 

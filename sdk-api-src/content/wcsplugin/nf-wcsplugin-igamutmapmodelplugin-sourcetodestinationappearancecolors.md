@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the <a href="wcs.IGamutMapModelPlugIn::SourceToDestinationAppearanceColors">CIEJCh</a> colors.
+Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the <a href="/windows/win32/api/_wcs/">CIEJCh</a> colors.
 
 ## -parameters
 

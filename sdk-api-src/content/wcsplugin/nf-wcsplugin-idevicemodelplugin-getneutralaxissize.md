@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="wcs.IDeviceModelPlugIn::GetNeutralAxisSize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
+The <a href="/windows/win32/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxissize">IDeviceModelPlugIn::GetNeutralAxisSize</a> function returns the number of data points along the neutral axis that are returned by the <a href="/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getneutralaxis">GetNeutralAxis</a> function. It is provided so that a Color Management Module (CMM) can allocate an appropriately sized buffer.
 
 ## -parameters
 
