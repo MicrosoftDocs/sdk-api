@@ -52,158 +52,135 @@ api_name:
 
 ## -description
 
-The <b>FWPM_PROVIDER_CONTEXT2</b> structure stores the state associated with a provider context.
-[FWPM_PROVIDER_CONTEXT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0) is available.</div><div> </div>
+The **FWPM_PROVIDER_CONTEXT2** structure stores the state associated with a provider context.
+[FWPM_PROVIDER_CONTEXT0](ns-fwpmtypes-fwpm_provider_context0.md) is available.
 
 ## -struct-fields
 
 ### -field providerContextKey
 
-Type: <b>GUID</b>
+Type: **GUID**
 
-Uniquely identifies the provider context. If the GUID is zero-initialized
-   in the call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd2">FwpmProviderContextAdd2</a>, Base Filtering Engine (BFE) will generate one.
+Uniquely identifies the provider context. If the GUID is zero-initialized in the call to [FwpmProviderContextAdd2](../fwpmu/nf-fwpmu-fwpmprovidercontextadd2.md), Base Filtering Engine (BFE) will generate one.
 
 ### -field displayData
 
-Type: [FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)</b>
+Type: **[FWPM_DISPLAY_DATA0](../fwptypes/ns-fwptypes-fwpm_display_data0.md)**
 
-Allows provider contexts to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
+Allows provider contexts to be annotated in a human-readable form. The [FWPM_DISPLAY_DATA0](../fwptypes/ns-fwptypes-fwpm_display_data0.md) structure is required.
 
 ### -field flags
 
-Type: <b>UINT32</b>
+Type: **UINT32**
 
 Possible values:
 
-<table>
-<tr>
-<th>Provider context flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT"></a><a id="fwpm_provider_context_flag_persistent"></a><dl>
-<dt><b>FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object is persistent, that is, it survives across BFE stop/start.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL"></a><a id="fwpm_provider_context_flag_downlevel"></a><dl>
-<dt><b>FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Reserved for internal use.
-
-</td>
-</tr>
-</table>
+| Provider context flag | Meaning |
+| ----- | ------- |
+| FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT | The object is persistent, that is, it survives across BFE stop/start. |
+| FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL | Reserved for internal use. |
 
 ### -field providerKey
 
-Type: <b>GUID*</b>
+Type: **GUID***
 
 GUID of the policy provider that manages this object.
 
 ### -field providerData
 
-Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)</b>
+Type: **[FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)**
 
 Optional provider-specific data that allows providers to store additional context info with the object.
 
 ### -field type
 
-Type: [FWPM_PROVIDER_CONTEXT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)</b>
+Type: **[FWPM_PROVIDER_CONTEXT_TYPE](ne-fwpmtypes-fwpm_provider_context_type.md)**
 
 The type of provider context.
 
 ### -field keyingPolicy
 
-Type: [IPSEC_KEYING_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1)*</b>
+Type: **[IPSEC_KEYING_POLICY1](../ipsectypes/ns-ipsectypes-ipsec_keying_policy1.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_KEYING_CONTEXT**.
 
 ### -field ikeQmTransportPolicy
 
-Type: [IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)*</b>
+Type: **[IPSEC_TRANSPORT_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_transport_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT**.
 
 ### -field ikeQmTunnelPolicy
 
-Type: [IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2)*</b>
+Type: **[IPSEC_TUNNEL_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT**.
 
 ### -field authipQmTransportPolicy
 
-Type: [IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)*</b>
+Type: **[IPSEC_TRANSPORT_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_transport_policy2.md)***
 
  [case()][unique]
 
 ### -field authipQmTunnelPolicy
 
-Type: [IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2)*</b>
+Type: **[IPSEC_TUNNEL_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT**.
 
 ### -field ikeMmPolicy
 
-Type: [IKEEXT_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)*</b>
+Type: **[IKEEXT_POLICY2](../iketypes/ns-iketypes-ikeext_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKE_MM_CONTEXT**.
 
 ### -field authIpMmPolicy
 
-Type: [IKEEXT_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)*</b>
+Type: **[IKEEXT_POLICY2](../iketypes/ns-iketypes-ikeext_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_AUTHIP_MM_CONTEXT**.
 
 ### -field dataBuffer
 
-Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)*</b>
+Type: **[FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)***
 
-Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
+Available when **type** is **FWPM_GENERAL_CONTEXT**.
 
 ### -field classifyOptions
 
-Type: [FWPM_CLASSIFY_OPTIONS0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0)*</b>
+Type: **[FWPM_CLASSIFY_OPTIONS0](ns-fwpmtypes-fwpm_classify_options0.md)***
 
-Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
+Available when **type** is **FWPM_CLASSIFY_OPTIONS_CONTEXT**.
 
 ### -field ikeV2QmTunnelPolicy
 
-Type: [IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2)*</b>
+Type: **[IPSEC_TUNNEL_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TUNNEL_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKEV2_QM_TUNNEL_CONTEXT**.
 
 ### -field ikeV2QmTransportPolicy
 
-Type: [IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)*</b>
+Type: **[IPSEC_TRANSPORT_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_transport_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TRANSPORT_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKEV2_QM_TRANSPORT_CONTEXT**.
 
 ### -field ikeV2MmPolicy
 
-Type: [IKEEXT_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)*</b>
+Type: **[IKEEXT_POLICY2](../iketypes/ns-iketypes-ikeext_policy2.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_IKEV2_MM_CONTEXT**.
 
 ### -field idpOptions
 
-Type: [IPSEC_DOSP_OPTIONS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0)*</b>
+Type: **[IPSEC_DOSP_OPTIONS0](../ipsectypes/ns-ipsectypes-ipsec_dosp_options0.md)***
 
-Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
+Available when **type** is **FWPM_IPSEC_DOSP_CONTEXT**.
 
 ### -field providerContextId
 
-Type: <b>UINT64</b>
+Type: **UINT64**
 
-LUID identifying the context.  This is the context value stored in the <b>FWPS_FILTER1</b> structure for filters that reference a provider context. The <b>FWPS_FILTER1</b> structure is documented in the WDK.
+LUID identifying the context.  This is the context value stored in the **FWPS_FILTER1** structure for filters that reference a provider context. The **FWPS_FILTER1** structure is documented in the WDK.
 
 ## -remarks
 
@@ -213,40 +190,22 @@ The last element is additional information returned when getting/enumerating obj
 
 ## -see-also
 
-[FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
+[FWPM_DISPLAY_DATA0](../fwptypes/ns-fwptypes-fwpm_display_data0.md)
 
+[FWPM_PROVIDER_CONTEXT_TYPE](ne-fwpmtypes-fwpm_provider_context_type.md)
 
+[FWP_BYTE_BLOB](../fwptypes/ns-fwptypes-fwp_byte_blob.md)
 
-[FWPM_PROVIDER_CONTEXT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type)
+[FwpmProviderContextAdd2](../fwpmu/nf-fwpmu-fwpmprovidercontextadd2.md)
 
+[IKEEXT_POLICY2](../iketypes/ns-iketypes-ikeext_policy2.md)
 
+[IPSEC_DOSP_OPTIONS0](../ipsectypes/ns-ipsectypes-ipsec_dosp_options0.md)
 
-[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
+[IPSEC_KEYING_POLICY0](../ipsectypes/ns-ipsectypes-ipsec_keying_policy0.md)
 
+[IPSEC_TRANSPORT_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_transport_policy2.md)
 
+[IPSEC_TUNNEL_POLICY2](../ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2.md)
 
-<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd2">FwpmProviderContextAdd2</a>
-
-
-
-[IKEEXT_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)
-
-
-
-[IPSEC_DOSP_OPTIONS0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_dosp_options0)
-
-
-
-[IPSEC_KEYING_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0)
-
-
-
-[IPSEC_TRANSPORT_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)
-
-
-
-[IPSEC_TUNNEL_POLICY2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2)
-
-
-
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+[Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
