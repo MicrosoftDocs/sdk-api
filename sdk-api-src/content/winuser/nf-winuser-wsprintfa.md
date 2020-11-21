@@ -235,7 +235,7 @@ String. This value is interpreted as type <b>LPWSTR</b> when the calling applica
 String. This value is interpreted as type <b>LPSTR</b> when the calling application defines Unicode and as type <b>LPWSTR</b> otherwise.
 
 </dd>
-<dt><a id="u"></a><a id="U"></a><code></code>u</dt>
+<dt><a id="u"></a><a id="U"></a><code>u</code></dt>
 <dd>
 Unsigned integer argument.
 
