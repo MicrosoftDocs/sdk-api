@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The **FWPM_NET_EVENT_CLASSIFY_DROP0** structure contains information that describes a layer drop  failure.
-[FWPM_NET_EVENT_CLASSIFY_DROP1](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop1) is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2) is available.
+[FWPM_NET_EVENT_CLASSIFY_DROP1](ns-fwpmtypes-fwpm_net_event_classify_drop1.md) is available. For Windows 8, [FWPM_NET_EVENT_CLASSIFY_DROP2](ns-fwpmtypes-fwpm_net_event_classify_drop2.md) is available.
 
 ## -struct-fields
 
