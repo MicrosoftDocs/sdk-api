@@ -121,7 +121,7 @@ See [Access Control](/windows/desktop/FWP/access-control) for more information.
 To add a filter that references a callout, invoke the functions in the following order.
 
 - Call [FwpsCalloutRegister0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0) (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.
-- Call [FwpmCalloutAdd0](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutadd0) to add the callout to the system.
+- Call [FwpmCalloutAdd0](nf-fwpmu-fwpmcalloutadd0.md) to add the callout to the system.
 - Call **FwpmFilterAdd0** to add the filter that references the callout to the system.
 
 By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as Block filters.
