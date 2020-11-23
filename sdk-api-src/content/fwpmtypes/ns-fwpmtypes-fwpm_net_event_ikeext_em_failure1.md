@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</b> structure contains information that describes an IKE Extended mode (EM) failure.
-[FWPM_NET_EVENT_IKEEXT_EM_FAILURE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure0) is available.</div><div> </div>
+The **FWPM_NET_EVENT_IKEEXT_EM_FAILURE1** structure contains information that describes an IKE Extended mode (EM) failure.
+[FWPM_NET_EVENT_IKEEXT_EM_FAILURE0](ns-fwpmtypes-fwpm_net_event_ikeext_em_failure0.md) is available.
 
 ## -struct-fields
 
@@ -63,56 +63,34 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An [IPSEC_FAILURE_POINT](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point) value that indicates the IPsec state when the failure occurred.
+An [IPSEC_FAILURE_POINT](../ipsectypes/ne-ipsectypes-ipsec_failure_point.md) value that indicates the IPsec state when the failure occurred.
 
 ### -field flags
 
 Flags for the failure event.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE"></a><a id="fwpm_net_event_ikeext_em_failure_flag_multiple"></a><dl>
-<dt><b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that multiple IKE EM failure events have been reported.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN"></a><a id="fwpm_net_event_ikeext_em_failure_flag_benign"></a><dl>
-<dt><b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that IKE EM failure events have been reported, but that the events are benign. 
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE | Indicates that multiple IKE EM failure events have been reported. |
+| FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN | Indicates that IKE EM failure events have been reported, but that the events are benign. |
 
 ### -field emState
 
-An [IKEEXT_EM_SA_STATE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state) value that indicates the EM state when the failure occurred.
+An [IKEEXT_EM_SA_STATE](../iketypes/ne-iketypes-ikeext_em_sa_state.md) value that indicates the EM state when the failure occurred.
 
 ### -field saRole
 
-An [IKEEXT_SA_ROLE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role) value that specifies the SA role when the failure occurred.
+An [IKEEXT_SA_ROLE](../iketypes/ne-iketypes-ikeext_sa_role.md) value that specifies the SA role when the failure occurred.
 
 ### -field emAuthMethod
 
-An <a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
+An [IKEEXT_AUTHENTICATION_METHOD_TYPE](../iketypes/ne-iketypes-ikeext_authentication_method_type.md) value that specifies the authentication method.
 
 ### -field endCertHash
 
 SHA thumbprint hash of the end certificate corresponding to the failures that happen during building or validating certificate chains.
 
-<b>IKEEXT_CERT_HASH_LEN</b> maps to 20.
+**IKEEXT_CERT_HASH_LEN** maps to 20.
 
 ### -field mmId
 
@@ -152,24 +130,14 @@ Type of traffic for which the embedded quick mode was being negotiated.
 
 ## -see-also
 
-<a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
+[IKEEXT_AUTHENTICATION_METHOD_TYPE](../iketypes/ne-iketypes-ikeext_authentication_method_type.md)
 
+[IKEEXT_EM_SA_STATE](../iketypes/ne-iketypes-ikeext_em_sa_state.md)
 
+[IKEEXT_SA_ROLE](../iketypes/ne-iketypes-ikeext_sa_role.md)
 
-[IKEEXT_EM_SA_STATE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)
+[IPSEC_FAILURE_POINT](../ipsectypes/ne-ipsectypes-ipsec_failure_point.md)
 
+[IPSEC_TRAFFIC_TYPE](../ipsectypes/ne-ipsectypes-ipsec_traffic_type.md)
 
-
-[IKEEXT_SA_ROLE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)
-
-
-
-[IPSEC_FAILURE_POINT](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)
-
-
-
-[IPSEC_TRAFFIC_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
-
-
-
-<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
+[Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
