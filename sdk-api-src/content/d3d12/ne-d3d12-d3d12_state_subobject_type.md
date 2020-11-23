@@ -70,6 +70,9 @@ Subobject type is <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_local_root_
 
 Subobject type is <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_node_mask">D3D12_NODE_MASK</a>.
 
+> [!IMPORTANT]
+> On some versions of the DirectX Runtime, specifying a node via [**D3D12_NODE_MASK**](/windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask) in a [**D3D12_STATE_SUBOBJECT**](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_subobject) with type **D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK**, the runtime will incorrectly handle a node mask value of `0`, which should use node #1, which will lead to errors when attempting to use the state object later. Specify an explicit node value of 1, or omit the [**D3D12_NODE_MASK**](/windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask) subobject to avoid this issue.
+
 ### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY
 
 Subobject type is <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_library_desc">D3D12_DXIL_LIBRARY_DESC</a>.
