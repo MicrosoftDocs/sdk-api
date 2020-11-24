@@ -63,13 +63,13 @@ Matches a file name from a path against one or more file name patterns.
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path from which the file name to be matched is taken.
+A pointer to a null-terminated string that contains the path from which the file name to be matched is taken.
 
 ### -param pszSpec [in]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
+A pointer to a null-terminated string that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
 
 ### -param dwFlags [in]
 
