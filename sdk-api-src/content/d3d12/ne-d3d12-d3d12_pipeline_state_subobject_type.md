@@ -146,6 +146,14 @@ Indicates an expanded depth stencil subobject type. This expansion of the depth 
 
 Indicates a view instancing subobject type.
 
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_AS
+
+Indicates an amplification shader subobject type.
+
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MS
+
+Indicates a mesh shader subobject type.
+
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MAX_VALID
 
 A sentinal value that marks the exclusive upper-bound of valid values this enumeration represents.
