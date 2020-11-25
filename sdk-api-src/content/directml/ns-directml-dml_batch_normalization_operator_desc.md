@@ -1,13 +1,12 @@
 ---
 UID: NS:directml.DML_BATCH_NORMALIZATION_OPERATOR_DESC
 title: DML_BATCH_NORMALIZATION_OPERATOR_DESC
-description: Performs a batch normalization on the input. This operator performs the following computation: `Output = FusedActivation(Scale * ((Input - Mean) / sqrt(Variance + Epsilon)) + Bias)`.
+description: Performs a batch normalization on the input.
 helpviewer_keywords: ["DML_BATCH_NORMALIZATION_OPERATOR_DESC","DML_BATCH_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_batch_normalization_operator_desc","directml/DML_BATCH_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_batch_normalization_operator_desc.htm
 tech.root: directml
 ms.assetid: 6589B3EF-1DB9-4E52-B0D2-31C94A725F07
-ms.date: 12/5/2018
-ms.keywords: DML_BATCH_NORMALIZATION_OPERATOR_DESC, DML_BATCH_NORMALIZATION_OPERATOR_DESC structure, direct3d12.dml_batch_normalization_operator_desc, directml/DML_BATCH_NORMALIZATION_OPERATOR_DESC
+ms.date: 11/24/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
