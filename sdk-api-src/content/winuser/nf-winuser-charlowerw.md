@@ -96,7 +96,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 ## -see-also
 
-<a href="/windows/desktop/menurc/f">CharLowerBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charlowerbuffa">CharLowerBuff</a>
 
 
 
