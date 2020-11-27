@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Creates an <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject">ID3D12StateObject</a>.
 
 ## -parameters
 
