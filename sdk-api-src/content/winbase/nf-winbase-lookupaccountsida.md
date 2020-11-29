@@ -73,15 +73,17 @@ A pointer to the
 
 ### -param Name [out, optional]
 
-A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter.
+A pointer to a buffer that receives a <b>null</b>-terminated string that contains the account name that corresponds to the <i>lpSid</i> parameter. The pointer is allowed to be <b>NULL</b>, but only if <i>cchName</i> is zero.
 
 ### -param cchName [in, out]
 
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character.
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpName</i> buffer. If the function fails because the buffer is too small or if <i>cchName</i> is zero, <i>cchName</i> receives the required buffer size, including the terminating <b>null</b> character, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 ### -param ReferencedDomainName [out, optional]
 
 A pointer to a buffer that receives a <b>null</b>-terminated string that contains the name of the domain where the account name was found.
+
+The pointer is allowed to be <b>NULL</b>, but only if <i>cchReferencedDomainName</i> is zero.
 
 On a server, the domain name returned for most accounts in the security database of the local computer is the name of the domain for which the server is a domain controller.
 						
@@ -92,7 +94,7 @@ Some accounts are predefined by the system. The domain name returned for these a
 
 ### -param cchReferencedDomainName [in, out]
 
-On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character.
+On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName</i> buffer. If the function fails because the buffer is too small or if <i>cchReferencedDomainName</i> is zero, <i>cchReferencedDomainName</i> receives the required buffer size, including the terminating <b>null</b> character, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 ### -param peUse [out]
 
