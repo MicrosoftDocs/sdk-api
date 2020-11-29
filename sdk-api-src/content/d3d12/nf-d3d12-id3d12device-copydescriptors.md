@@ -98,6 +98,12 @@ Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type
 
 The <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with. This is required as different descriptor types may have different sizes.
 
+Both the source and destination descriptor heaps must have the same type, else the debug layer will emit an error.
+
+## -remarks
+
+Where applicable, prefer [**ID3D12Device::CopyDescriptorsSimple**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple) to this method. It can have a better CPU cache miss rate due to the linear nature of the copy.
+
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/copying-descriptors">Copying Descriptors</a>
