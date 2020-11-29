@@ -57,7 +57,9 @@ This texture must have the [**D3D12_RESOURCE_STATE_SHADING_RATE_SOURCE**](/windo
 
 The tile-size of the shading-rate image can be determined via [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6).
 The size of the shading-rate image should therefore be
-```ceil((float)rtWidth / VRSTileSize), ceil((float)rtHeight / VRSTileSize)```
+```
+ceil((float)rtWidth / VRSTileSize), ceil((float)rtHeight / VRSTileSize)
+```
 
 The shading-rate image must be a 2D texture with a single mip, and format [**DXGI_FORMAT_R8_UINT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format). Each texel must be a value corresponding to [**D3D12_SHADING_RATE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate). It must have layout [**D3D12_TEXTURE_LAYOUT_UNKNOWN**](/windows/win32/api/d3d12/ne-d3d12-d3d12_texture_layout) and can't be a depth-stencil, render-target, simultaneous-access, or cross-adapter resource.
 
