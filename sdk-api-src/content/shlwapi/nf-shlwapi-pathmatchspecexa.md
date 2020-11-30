@@ -63,13 +63,13 @@ Matches a file name from a path against one or more file name patterns.
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path from which the file name to be matched is taken.
+A pointer to a null-terminated string that contains the path from which the file name to be matched is taken.
 
 ### -param pszSpec [in]
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
+A pointer to a null-terminated string that contains the file name pattern for which to search. This can be the exact name, or it can contain wildcard characters. If exactly one pattern is specified, set the <b>PMSF_NORMAL</b> flag in <i>dwFlags</i>. If more than one pattern is specified, separate them with semicolons and set the <b>PMSF_MULTIPLE</b> flag.
 
 ### -param dwFlags [in]
 
@@ -135,6 +135,8 @@ No file name pattern specified in <i>pszSpec</i> matched the file name found in 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathmatchspeca">PathMatchSpec</a>
 
 ## -remarks
+
+The strings that *pszFile* and *pszSpec* point to may have a maximum length of MAX_PATH in some environments. For more information, see [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation).
 
 > [!NOTE]
 > The shlwapi.h header defines PathMatchSpecEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

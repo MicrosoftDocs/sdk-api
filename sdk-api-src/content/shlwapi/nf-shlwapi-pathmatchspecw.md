@@ -63,13 +63,13 @@ Searches a string using a Microsoft MS-DOS wildcard match type.
 
 Type: <b>LPCSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be searched.
+A pointer to a null-terminated string that contains the path to be searched.
 
 ### -param pszSpec [in]
 
 Type: <b>LPCSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the file type for which to search. For example, to test whether <i>pszFile</i> is a .doc file, <i>pszSpec</i> should be set to "*.doc".
+A pointer to a null-terminated string that contains the file type for which to search. For example, to test whether <i>pszFile</i> is a .doc file, <i>pszSpec</i> should be set to "*.doc".
 
 ## -returns
 
@@ -78,6 +78,8 @@ Type: <b>BOOL</b>
 Returns <b>TRUE</b> if the string matches, or <b>FALSE</b> otherwise.
 
 ## -remarks
+
+The strings that *pszFile* and *pszSpec* point to may have a maximum length of MAX_PATH in some environments. For more information, see [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation).
 
 > [!NOTE]
 > The shlwapi.h header defines PathMatchSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
