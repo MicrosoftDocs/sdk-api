@@ -93,7 +93,7 @@ The <i>pszSpec</i> parameter points to a semicolon-delimited list of file name p
 
 #### PMSF_DONT_STRIP_SPACES (0x00010000)
 
-If <b>PMSF_NORMAL</b> is used, ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
+If <b>PMSF_NORMAL</b> is used, don't ignore leading spaces in the string pointed to by <i>pszSpec</i>. If <b>PMSF_MULTIPLE</b> is used, don't ignore leading spaces in each file type contained in the string pointed to by <i>pszSpec</i>. This flag can be combined with <b>PMSF_NORMAL</b> and <b>PMSF_MULTIPLE</b>.
 
 ## -returns
 
