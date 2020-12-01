@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: b5aebbfe-18c8-4aeb-a01b-488e37d227a1
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG, WINHTTP_CURRENT_USER_IE_PROXY_CONFIG structure [HTTP], http.winhttp_current_user_ie_proxy_config, winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
-f1_keywords:
-- winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 targetos: Windows
 req.typenames: WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+ - winhttp/WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_CURRENT_USER_IE_PROXY_CONFIG
 ---
 
 ## -description
@@ -68,5 +69,5 @@ Pointer to a null-terminated Unicode string that contains the optional proxy by-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>

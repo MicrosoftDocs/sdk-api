@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
-f1_keywords:
-- qnetwork/IAMNetShowExProps
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMNetShowExProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMNetShowExProps
+ - qnetwork/IAMNetShowExProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMNetShowExProps
 ---
 
 # IAMNetShowExProps interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface.
-
-
-
+The <code>IAMNetShowExProps</code> interface configures the legacy Windows Media Player 6.4 source filter. The <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowExProps</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetShowExProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IAMNetShowExProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_bandwidth">get_Bandwidth</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_bandwidth">get_Bandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bandwidth.
@@ -82,7 +78,7 @@ Retrieves the bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_codeccount">get_CodecCount</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_codeccount">get_CodecCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number codecs needed to play the file.
@@ -91,7 +87,7 @@ Retrieves the number codecs needed to play the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_creationdate">get_CreationDate</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_creationdate">get_CreationDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the creation date.
@@ -100,7 +96,7 @@ Retrieves the creation date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_errorcorrection">get_ErrorCorrection</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_errorcorrection">get_ErrorCorrection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the error correction method.
@@ -109,7 +105,7 @@ Retrieves the error correction method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourcelink">get_SourceLink</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourcelink">get_SourceLink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source link.
@@ -118,7 +114,7 @@ Retrieves the source link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourceprotocol">get_SourceProtocol</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-get_sourceprotocol">get_SourceProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source protocol.
@@ -127,7 +123,7 @@ Retrieves the source protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecdescription">GetCodecDescription</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecdescription">GetCodecDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user-friendly description of a codec.
@@ -136,7 +132,7 @@ Retrieves the user-friendly description of a codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecinstalled">GetCodecInstalled</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecinstalled">GetCodecInstalled</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified codec is installed on the local system.
@@ -145,19 +141,16 @@ Queries whether a specified codec is installed on the local system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecurl">GetCodecURL</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowexprops-getcodecurl">GetCodecURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL from which the codec may be downloaded.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -168,15 +161,6 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

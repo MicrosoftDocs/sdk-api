@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: cdb2c94e-a5a7-41c3-b847-b23ea077abd3
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactory, IUIAutomationProxyFactory interface [Windows Accessibility], IUIAutomationProxyFactory interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactory, uiauto_IUIAutomationProxyFactory, uiautomationclient/IUIAutomationProxyFactory, winauto.uiauto_IUIAutomationProxyFactory
-f1_keywords:
-- uiautomationclient/IUIAutomationProxyFactory
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationProxyFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationProxyFactory
+ - uiautomationclient/IUIAutomationProxyFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationProxyFactory
 ---
 
 # IUIAutomationProxyFactory interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes properties and methods of an object that creates a Microsoft UI Automation provider for UI elements that do not have native support for UI Automation. This interface is implemented by proxies.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationProxyFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationProxyFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUIAutomationProxyFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactory-createprovider">CreateProvider</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactory-createprovider">CreateProvider</a>
 </td>
 <td align="left" width="63%">
 Creates a proxy object that provides UI Automation support for a UI element.
@@ -89,7 +88,7 @@ Creates a proxy object that provides UI Automation support for a UI element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactory-get_proxyfactoryid">ProxyFactoryId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactory-get_proxyfactoryid">ProxyFactoryId</a>
 
 
 </td>
@@ -102,16 +101,8 @@ Retrieves the identifier of the proxy factory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-proxyfactoryinterfaces">Proxy Factory Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-proxyfactoryinterfaces">Proxy Factory Interfaces for Clients</a>

@@ -8,10 +8,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetgetrowcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],GetRowCount method, IITResultSet.GetRowCount, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
-f1_keywords:
-- infotech/IITResultSet.GetRowCount
-dev_langs:
-- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Infotech.h
-api_name:
-- IITResultSet.GetRowCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IITResultSet::GetRowCount
+ - infotech/IITResultSet::GetRowCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Infotech.h
+api_name:
+ - IITResultSet.GetRowCount
 ---
 
 # IITResultSet::GetRowCount
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of rows in a result set.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lNumberOfRows [out, ref]
 
 Number of rows.
 
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,18 +81,7 @@ The number of rows was successfully retrieved.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>

@@ -8,10 +8,6 @@ tech.root: winrt
 ms.assetid: 0D576593-088B-403A-82AD-B7A89777766A
 ms.date: 12/05/2018
 ms.keywords: IGraphicsEffectD2D1Interop, IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,described, w_graph_fx.igraphicseffectd2d1interop, windows/IGraphicsEffectD2D1Interop
-f1_keywords:
-- windows.graphics.effects.interop/IGraphicsEffectD2D1Interop
-dev_langs:
-- c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.graphics.effects.interop.h
-api_name:
-- IGraphicsEffectD2D1Interop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphicsEffectD2D1Interop
+ - windows.graphics.effects.interop/IGraphicsEffectD2D1Interop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.graphics.effects.interop.h
+api_name:
+ - IGraphicsEffectD2D1Interop
 ---
 
 # IGraphicsEffectD2D1Interop interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Native interoperation interface that provides a counterpart to <a href="https://msdn.microsoft.com/c88277a4-6697-4341-9b8b-dffa470fd37e">IGraphicsEffect</a> and allows for metadata queries. 
 
         This interface is available in C++ only.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IGraphicsEffectD2D1Interop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-geteffectid">GetEffectId</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-geteffectid">GetEffectId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the effect.
@@ -81,7 +80,7 @@ Retrieves the ID of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getnamedpropertymapping">GetNamedPropertyMapping</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getnamedpropertymapping">GetNamedPropertyMapping</a>
 </td>
 <td align="left" width="63%">
 Retrieves the mapping for an effect property.
@@ -90,7 +89,7 @@ Retrieves the mapping for an effect property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect property at the specified index.
@@ -99,7 +98,7 @@ Retrieves the effect property at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getpropertycount">GetPropertyCount</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getpropertycount">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Retrieve the property count for the effect.
@@ -108,7 +107,7 @@ Retrieve the property count for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsource">GetSource</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect source at the specified index.
@@ -117,12 +116,11 @@ Retrieves the effect source at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsourcecount">GetSourceCount</a>
+<a href="/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsourcecount">GetSourceCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source count for the effect.
 
 </td>
 </tr>
-</table> 
-
+</table>

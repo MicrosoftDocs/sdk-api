@@ -1,17 +1,13 @@
 ---
 UID: NF:rpcndr.RpcSsEnableAllocate
 title: RpcSsEnableAllocate function (rpcndr.h)
-description: The RpcSsEnableAllocate function establishes the stub memory�management environment.
+description: The RpcSsEnableAllocate function establishes the stub memory�management environment.
 helpviewer_keywords: ["RpcSsEnableAllocate","RpcSsEnableAllocate function [RPC]","_rpc_rpcssenableallocate","rpc.rpcssenableallocate","rpcndr/RpcSsEnableAllocate"]
 old-location: rpc\rpcssenableallocate.htm
 tech.root: Rpc
 ms.assetid: 18060ed2-2250-47c7-8579-238edea44c66
 ms.date: 12/05/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
-f1_keywords:
-- rpcndr/RpcSsEnableAllocate
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSsEnableAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSsEnableAllocate
+ - rpcndr/RpcSsEnableAllocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSsEnableAllocate
 ---
 
 # RpcSsEnableAllocate function
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSsEnableAllocate</b> function establishes the stub memory–management environment.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,46 +77,33 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 In cases where the stub memory management is not enabled by the stub itself, an application calls 
 <b>RpcSsEnableAllocate</b> to establish the stub memory–management environment. This environment must be established prior to making a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>. For server manager code called from the stub, the memory-management environment is usually established by the stub itself. Otherwise, call 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>. For server manager code called from the stub, the memory-management environment is usually established by the stub itself. Otherwise, call 
 <b>RpcSsEnableAllocate</b> before calling 
 <b>RpcSsAllocate</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>.
+<a href="/windows/desktop/Rpc/memory-management">Memory Management</a>, 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>, and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>.
 
 <div class="alert"><b>Note</b>  The 
 <b>RpcSsEnableAllocate</b> function raises exceptions, while the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> function returns the error code.</div>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> function returns the error code.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>

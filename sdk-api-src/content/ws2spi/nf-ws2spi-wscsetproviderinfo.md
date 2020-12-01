@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 10eed3e6-d5a0-4ba4-964e-3d924a231afb
 ms.date: 12/05/2018
 ms.keywords: WSCSetProviderInfo, WSCSetProviderInfo function [Winsock], winsock.wscsetproviderinfo, ws2spi/WSCSetProviderInfo
-f1_keywords:
-- ws2spi/WSCSetProviderInfo
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCSetProviderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCSetProviderInfo
+ - ws2spi/WSCSetProviderInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCSetProviderInfo
 ---
 
 # WSCSetProviderInfo function
+
 
 ## -description
 
@@ -53,7 +55,7 @@ ms.custom: 19H1
 
 ## -parameters
 
-## -param lpProviderId [in]
+### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider.
 
@@ -223,7 +225,7 @@ The **WSCSetProviderInfo** function can only be called by a user logged on as a 
 <a href="/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a>. For a Windows Core Networking
     blog entry about WSK and TDI, see 
     
-<a href="https://blogs.msdn.com/wndp/archive/2006/02/24/538746.aspx">Introduction to Winsock Kernel
+<a href="/archive/blogs/wndp/">Introduction to Winsock Kernel
     (WSK)</a>.
 </div>
 <div> </div>

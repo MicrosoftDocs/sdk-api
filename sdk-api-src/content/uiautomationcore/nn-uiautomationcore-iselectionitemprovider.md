@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 464b05e3-06da-44b9-b4a6-c64452fcdb6d
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], ISelectionItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionItemProvider, uiauto_ISelectionItemProvider, uiautomationcore/ISelectionItemProvider, winauto.uiauto_ISelectionItemProvider
-f1_keywords:
-- uiautomationcore/ISelectionItemProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ISelectionItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelectionItemProvider
+ - uiautomationcore/ISelectionItemProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ISelectionItemProvider
 ---
 
 # ISelectionItemProvider interface
@@ -49,16 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides 
         access to individual, selectable child controls of containers that implement 
-        <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a>.
-        
-
+        <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectionItemProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelectionItemProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectionItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelectionItemProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +72,7 @@ The <b>ISelectionItemProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-addtoselection">AddToSelection</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-addtoselection">AddToSelection</a>
 </td>
 <td align="left" width="63%">
 Adds the current element to the collection of selected items.
@@ -83,7 +81,7 @@ Adds the current element to the collection of selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-removefromselection">RemoveFromSelection</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-removefromselection">RemoveFromSelection</a>
 </td>
 <td align="left" width="63%">
 Removes the current element from the collection of selected items.
@@ -92,7 +90,7 @@ Removes the current element from the collection of selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-select">Select</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-select">Select</a>
 </td>
 <td align="left" width="63%">
 Deselects any selected items and then selects the current element. 
@@ -110,7 +108,7 @@ Deselects any selected items and then selects the current element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-get_isselected">IsSelected</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-get_isselected">IsSelected</a>
 
 
 </td>
@@ -126,7 +124,7 @@ Indicates whether an item is selected.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer">SelectionContainer</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer">SelectionContainer</a>
 
 
 </td>
@@ -135,32 +133,19 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Specifies the provider that implements <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a> 
+Specifies the provider that implements <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a> 
         and acts as the container for the calling object.
         
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implemented on a Microsoft UI Automation provider that 
-            must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingselectionitem">SelectionItem</a> control pattern.
-
-
-
+            must support the <a href="/windows/desktop/WinAuto/uiauto-implementingselectionitem">SelectionItem</a> control pattern.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

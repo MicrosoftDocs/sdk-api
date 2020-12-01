@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: 1480dea3-ae74-4e8b-b4de-fca8de5d8395
 ms.date: 12/05/2018
 ms.keywords: '*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR structure [OpenGL], PPIXELFORMATDESCRIPTOR, PPIXELFORMATDESCRIPTOR structure pointer [OpenGL], _ogl_PIXELFORMATDESCRIPTOR, opengl.pixelformatdescriptor, wingdi/PIXELFORMATDESCRIPTOR, wingdi/PPIXELFORMATDESCRIPTOR'
-f1_keywords:
-- wingdi/PIXELFORMATDESCRIPTOR
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- PIXELFORMATDESCRIPTOR
 targetos: Windows
 req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPIXELFORMATDESCRIPTOR
+ - wingdi/tagPIXELFORMATDESCRIPTOR
+ - PPIXELFORMATDESCRIPTOR
+ - wingdi/PPIXELFORMATDESCRIPTOR
+ - PIXELFORMATDESCRIPTOR
+ - wingdi/PIXELFORMATDESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - PIXELFORMATDESCRIPTOR
 ---
 
 # PIXELFORMATDESCRIPTOR structure
@@ -49,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>PIXELFORMATDESCRIPTOR</b> structure describes the pixel format of a drawing surface.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field nSize
 
 Specifies the size of this data structure. This value should be set to <b>sizeof</b>(<b>PIXELFORMATDESCRIPTOR</b>).
 
-
 ### -field nVersion
 
 Specifies the version of this data structure. This value should be set to 1.
-
 
 ### -field dwFlags
 
@@ -106,7 +101,7 @@ A set of bit flags that specify properties of the pixel buffer. The properties a
 </tr>
 <tr>
 <td>PFD_NEED_PALETTE</td>
-<td>The buffer uses RGBA pixels on a palette-managed device. A logical palette is required to achieve the best results for this pixel type. Colors in the palette should be specified according to the values of the <b>cRedBits</b>, <b>cRedShift</b>, <b>cGreenBits</b>, <b>cGreenShift</b>, <b>cBluebits</b>, and <b>cBlueShift</b> members. The palette should be created and realized in the device context before calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent">wglMakeCurrent</a>.</td>
+<td>The buffer uses RGBA pixels on a palette-managed device. A logical palette is required to achieve the best results for this pixel type. Colors in the palette should be specified according to the values of the <b>cRedBits</b>, <b>cRedShift</b>, <b>cGreenBits</b>, <b>cGreenShift</b>, <b>cBluebits</b>, and <b>cBlueShift</b> members. The palette should be created and realized in the device context before calling <a href="/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent">wglMakeCurrent</a>.</td>
 </tr>
 <tr>
 <td>PFD_NEED_SYSTEM_PALETTE</td>
@@ -131,7 +126,7 @@ This flag is not set in the generic pixel formats.
 </table>
  
 
-You can specify the following bit flags when calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>.
+You can specify the following bit flags when calling <a href="/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>.
 
 <table>
 <tr>
@@ -169,8 +164,6 @@ With the <b>glAddSwapHintRectWIN</b> extension function, two new flags are inclu
 <td>Specifies the content of the back buffer in the double-buffered main color plane following a buffer swap. Swapping the color buffers causes the exchange of the back buffer's content with the front buffer's content. Following the swap, the back buffer's content contains the front buffer's content before the swap. PFD_SWAP_EXCHANGE is a hint only and might not be provided by a driver.</td>
 </tr>
 </table>
- 
-
 
 ### -field iPixelType
 
@@ -190,155 +183,119 @@ Specifies the type of pixel data. The following types are defined.
 <td>Color-index pixels. Each pixel uses a color-index value.</td>
 </tr>
 </table>
- 
-
 
 ### -field cColorBits
 
 Specifies the number of color bitplanes in each color buffer. For RGBA pixel types, it is the size of the color buffer, excluding the alpha bitplanes. For color-index pixels, it is the size of the color-index buffer.
 
-
 ### -field cRedBits
 
 Specifies the number of red bitplanes in each RGBA color buffer.
-
 
 ### -field cRedShift
 
 Specifies the shift count for red bitplanes in each RGBA color buffer.
 
-
 ### -field cGreenBits
 
 Specifies the number of green bitplanes in each RGBA color buffer.
-
 
 ### -field cGreenShift
 
 Specifies the shift count for green bitplanes in each RGBA color buffer.
 
-
 ### -field cBlueBits
 
 Specifies the number of blue bitplanes in each RGBA color buffer.
-
 
 ### -field cBlueShift
 
 Specifies the shift count for blue bitplanes in each RGBA color buffer.
 
-
 ### -field cAlphaBits
 
 Specifies the number of alpha bitplanes in each RGBA color buffer. Alpha bitplanes are not supported.
-
 
 ### -field cAlphaShift
 
 Specifies the shift count for alpha bitplanes in each RGBA color buffer. Alpha bitplanes are not supported.
 
-
 ### -field cAccumBits
 
 Specifies the total number of bitplanes in the accumulation buffer.
-
 
 ### -field cAccumRedBits
 
 Specifies the number of red bitplanes in the accumulation buffer.
 
-
 ### -field cAccumGreenBits
 
 Specifies the number of green bitplanes in the accumulation buffer.
-
 
 ### -field cAccumBlueBits
 
 Specifies the number of blue bitplanes in the accumulation buffer.
 
-
 ### -field cAccumAlphaBits
 
 Specifies the number of alpha bitplanes in the accumulation buffer.
-
 
 ### -field cDepthBits
 
 Specifies the depth of the depth (z-axis) buffer.
 
-
 ### -field cStencilBits
 
 Specifies the depth of the stencil buffer.
-
 
 ### -field cAuxBuffers
 
 Specifies the number of auxiliary buffers. Auxiliary buffers are not supported.
 
-
 ### -field iLayerType
 
 Ignored. Earlier implementations of OpenGL used this member, but it is no longer used.
-
 
 ### -field bReserved
 
 Specifies the number of overlay and underlay planes. Bits 0 through 3 specify up to 15 overlay planes and bits 4 through 7 specify up to 15 underlay planes.
 
-
 ### -field dwLayerMask
 
 Ignored. Earlier implementations of OpenGL used this member, but it is no longer used.
-
 
 ### -field dwVisibleMask
 
 Specifies the transparent color or index of an underlay plane. When the pixel type is RGBA, <b>dwVisibleMask</b> is a transparent RGB color value. When the pixel type is color index, it is a transparent index value.
 
-
 ### -field dwDamageMask
 
 Ignored. Earlier implementations of OpenGL used this member, but it is no longer used.
 
-
 ## -remarks
-
-
 
 Please notice carefully, as documented above, that certain pixel format properties are not supported in the current generic implementation. The generic implementation is the Microsoft GDI software implementation of OpenGL. Hardware manufacturers may enhance parts of OpenGL, and may support some pixel format properties not supported by the generic implementation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat">ChoosePixelFormat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-describepixelformat">DescribePixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-describepixelformat">DescribePixelFormat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpixelformat">GetPixelFormat</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/OpenGL/structures">Structures</a>

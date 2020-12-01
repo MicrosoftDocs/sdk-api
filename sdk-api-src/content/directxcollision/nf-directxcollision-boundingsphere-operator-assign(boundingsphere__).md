@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.op_Assignment(BoundingSphere)
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],op_Assignment method, BoundingSphere.op_Assignment, BoundingSphere.operator-assign(BoundingSphere &&), BoundingSphere.operator=, BoundingSphere::operator-assign(BoundingSphere &&), BoundingSphere::operator=, Use DirectX..BoundingSphere.op_Assignment, Use DirectX::::BoundingSphere::op_Assignment, dxmath.boundingsphere_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingSphere interface, operator=
-f1_keywords:
-- directxcollision/BoundingSphere.op_Assignment
-dev_langs:
-- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXCollision.h
-api_name:
-- BoundingSphere.op_Assignment
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - BoundingSphere::operator=
+ - directxcollision/BoundingSphere::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXCollision.h
+api_name:
+ - BoundingSphere.op_Assignment
 ---
 
 # BoundingSphere::operator-assign(BoundingSphere &&)
@@ -48,45 +49,26 @@ req.redist:
 
 ## -description
 
-
 Initializes the BoundingSphere with values from a specified BoundingSphere.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in, ref]
 
 The BoundingSphere to copy values from.
 
-
 ## -returns
-
-
 
 The BoundingSphere.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
+[BoundingSphere](./ns-directxcollision-boundingsphere.md)
 
 
 
@@ -95,7 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
- 
-
- 
-

@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 6b9e52b2-58d0-437f-a71b-248feac59c13
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_DESTADDR, LPQOS_DESTADDR, LPQOS_DESTADDR structure pointer [QOS], QOS_DESTADDR, QOS_DESTADDR structure [QOS], _gqos_qos_destaddr, qos.qos_destaddr, qossp/LPQOS_DESTADDR, qossp/QOS_DESTADDR'
-f1_keywords:
-- qossp/QOS_DESTADDR
-dev_langs:
-- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qossp.h
-api_name:
-- QOS_DESTADDR
 targetos: Windows
 req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_DESTADDR
+ - qossp/_QOS_DESTADDR
+ - LPQOS_DESTADDR
+ - qossp/LPQOS_DESTADDR
+ - QOS_DESTADDR
+ - qossp/QOS_DESTADDR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qossp.h
+api_name:
+ - QOS_DESTADDR
 ---
 
 # QOS_DESTADDR structure
@@ -49,50 +54,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The QOS object 
 <b>QOS_DESTADDR</b> is used during a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> (SIO_SET_QOS) function in order to avoid issuing a <b>connect</b> function call for a sending socket.
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> (SIO_SET_QOS) function in order to avoid issuing a <b>connect</b> function call for a sending socket.
 
 ## -struct-fields
-
-
-
 
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_DESTADDR</b>.
-
 
 ### -field SocketAddress
 
 Address of the destination socket.
 
-
 ### -field sockaddr
-
- 
-
 
 ### -field SocketAddressLength
 
 Length of the <b>SocketAddress</b> structure.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>

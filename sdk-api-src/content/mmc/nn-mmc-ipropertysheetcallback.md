@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: e2115929-692e-4e59-bcdb-f37b02c53224
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetCallback, IPropertySheetCallback interface [MMC], IPropertySheetCallback interface [MMC],described, _slate_ipropertysheetcallback, mmc.ipropertysheetcallback, mmc/IPropertySheetCallback
-f1_keywords:
-- mmc/IPropertySheetCallback
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IPropertySheetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySheetCallback
+ - mmc/IPropertySheetCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IPropertySheetCallback
 ---
 
 # IPropertySheetCallback interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IPropertySheetCallback</b> interface is a COM-based interface used by a snap-in to add its property pages to a property sheet.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySheetCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySheetCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertySheetCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertySheetCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IPropertySheetCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetcallback-addpage">AddPage</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetcallback-addpage">AddPage</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to add a page to a property sheet.
@@ -80,12 +79,11 @@ Enables the snap-in to add a page to a property sheet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ipropertysheetcallback-removepage">RemovePage</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetcallback-removepage">RemovePage</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to remove a page from a property sheet.
 
 </td>
 </tr>
-</table> 
-
+</table>

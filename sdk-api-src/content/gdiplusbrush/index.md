@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: gdiplus
+f1_keywords:
+ - gdiplusbrush
+ - gdiplusbrush/gdiplusbrush
 ---
 
 # Gdiplusbrush.h header
 
 
 ## -description
-
 
 This header is used by GDI+. For more information, see:
 

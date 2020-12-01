@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::SetFlags
 f1_keywords:
+ - IMFExtendedCameraControl::SetFlags
  - mfidl/IMFExtendedCameraControl::SetFlags
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Sets the flags for a property on the capture device. 
+Sets the flags for a property on the capture device.
 
 ## -parameters
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
-f1_keywords:
-- winscard/SCardReleaseStartedEvent
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardReleaseStartedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardReleaseStartedEvent
+ - winscard/SCardReleaseStartedEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardReleaseStartedEvent
 ---
 
 # SCardReleaseStartedEvent function
@@ -50,15 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardReleaseStartedEvent</b> function decrements the reference count for  a handle acquired by a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardaccessstartedevent">SCardAccessStartedEvent</a> function.
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardaccessstartedevent">SCardAccessStartedEvent</a> function.
 
 ## -parameters
-
-
-
-
-
-

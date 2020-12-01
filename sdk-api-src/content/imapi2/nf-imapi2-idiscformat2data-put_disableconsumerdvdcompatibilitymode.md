@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: d32bbb33-0cb6-46cd-8a06-7ddd6e94a7b3
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode method [IMAPI], put_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface
-f1_keywords:
-- imapi2/IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
+ - imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 ---
 
 # IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -64,10 +60,7 @@ Set to VARIANT_TRUE to skip the tasks that allow the disc to play on more consum
 
 Set to VARIANT_FALSE to increase the chance that a device can play the DVD. The default is VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -90,14 +83,8 @@ Value: 0xC0AA0400
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This property has no affect on CD media and DVD dash media.
 
@@ -132,22 +119,11 @@ For DVD+R and DVD+DL media, this property will also affect the media closing ope
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode</a>

@@ -7,6 +7,9 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mstv
 archived: true
+f1_keywords:
+ - tuner
+ - tuner/tuner
 ---
 
 # Tuner.h header
@@ -14,8 +17,7 @@ archived: true
 
 ## -description
 
-
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
 

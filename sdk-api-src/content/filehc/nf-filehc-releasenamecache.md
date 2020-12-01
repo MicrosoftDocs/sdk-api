@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.date: 12/05/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
-f1_keywords:
-- filehc/ReleaseNameCache
-dev_langs:
-- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fcachdll.dll
-api_name:
-- ReleaseNameCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReleaseNameCache
+ - filehc/ReleaseNameCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fcachdll.dll
+api_name:
+ - ReleaseNameCache
 ---
 
 # ReleaseNameCache function
@@ -49,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases a name cache.
-
 
 ## -parameters
 
-
-
-
 ### -param pNameCache
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a> structure.
-
+A pointer to a <a href="/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a> structure.
 
 ## -returns
 
-
-
 Returns the resulting decremented reference count.
-
-
-
 
 ## -remarks
 
-
-
 The caller must guarantee the thread safety of this call.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a>

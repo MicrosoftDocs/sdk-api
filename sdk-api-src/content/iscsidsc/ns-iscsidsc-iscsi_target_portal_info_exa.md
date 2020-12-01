@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 1c7035db-a71d-43b5-8595-82097ae5433d
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, ISCSI_TARGET_PORTAL_INFO_EX, ISCSI_TARGET_PORTAL_INFO_EX structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_INFO_EXA, ISCSI_TARGET_PORTAL_INFO_EXW, PISCSI_TARGET_PORTAL_INFO_EX, PISCSI_TARGET_PORTAL_INFO_EX structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_info_ex, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA, iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXW, iscsidsc/PISCSI_TARGET_PORTAL_INFO_EX'
-f1_keywords:
-- iscsidsc/ISCSI_TARGET_PORTAL_INFO_EX
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- ISCSI_TARGET_PORTAL_INFO_EX
-- ISCSI_TARGET_PORTAL_INFO_EXA
-- ISCSI_TARGET_PORTAL_INFO_EXW
 targetos: Windows
 req.typenames: ISCSI_TARGET_PORTAL_INFO_EXA, *PISCSI_TARGET_PORTAL_INFO_EXA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PISCSI_TARGET_PORTAL_INFO_EXA
+ - iscsidsc/PISCSI_TARGET_PORTAL_INFO_EXA
+ - ISCSI_TARGET_PORTAL_INFO_EXA
+ - iscsidsc/ISCSI_TARGET_PORTAL_INFO_EXA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - ISCSI_TARGET_PORTAL_INFO_EX
+ - ISCSI_TARGET_PORTAL_INFO_EXA
+ - ISCSI_TARGET_PORTAL_INFO_EXW
 ---
 
 # ISCSI_TARGET_PORTAL_INFO_EXA structure
@@ -51,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISCSI_TARGET_PORTAL_INFO_EX</b> structure contains information about login credentials to a target portal.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InitiatorName
 
 A string that represents the name of the Host-Bus Adapter (HBA) initiator.
 
-
 ### -field InitiatorPortNumber
 
 A <b>ULONG</b>  value that represents the port number on the HBA associated with the portal.
-
 
 ### -field SymbolicName
 
 A string that represents the symbolic name associated with the portal.
 
-
 ### -field Address
 
 A string that represents the IP address or DNS name associated with the portal.
 
-
 ### -field Socket
 
 A <b>USHORT</b> value that represents the socket number.
-
 
 ### -field SecurityFlags
 
@@ -169,26 +162,16 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LoginOptions
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
-
+A pointer to an <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that defines the login data.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_infoa">ISCSI_TARGET_PORTAL_INFO</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_infoa">ISCSI_TARGET_PORTAL_INFO</a>
 
 ## -remarks
 
 > [!NOTE]
 > The iscsidsc.h header defines ISCSI_TARGET_PORTAL_INFO_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: cfba36ba-8cbd-41ae-91ae-e568546508b9
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CF_NONE, SYNCMGR_CF_NOUI, SYNCMGR_CF_NOWAIT, SYNCMGR_CF_VALID, SYNCMGR_CF_WAIT, SYNCMGR_CONTROL_FLAGS, SYNCMGR_CONTROL_FLAGS enumeration [Windows Shell], shell.SYNCMGR_CONTROL_FLAGS, shell_SYNCMGR_CONTROL_FLAGS, syncmgr/SYNCMGR_CF_NONE, syncmgr/SYNCMGR_CF_NOUI, syncmgr/SYNCMGR_CF_NOWAIT, syncmgr/SYNCMGR_CF_VALID, syncmgr/SYNCMGR_CF_WAIT, syncmgr/SYNCMGR_CONTROL_FLAGS
-f1_keywords:
-- syncmgr/SYNCMGR_CONTROL_FLAGS
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Syncmgr.h
-api_name:
-- SYNCMGR_CONTROL_FLAGS
 targetos: Windows
 req.typenames: SYNCMGR_CONTROL_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SYNCMGR_CONTROL_FLAGS
+ - syncmgr/SYNCMGR_CONTROL_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Syncmgr.h
+api_name:
+ - SYNCMGR_CONTROL_FLAGS
 ---
 
 # SYNCMGR_CONTROL_FLAGS enumeration
@@ -49,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies how an operation requested on certain methods of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> should be performed.
-
+Specifies how an operation requested on certain methods of <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> should be performed.
 
 ## -enum-fields
-
-
-
 
 ### -field SYNCMGR_CF_NONE
 
 Perform the operation not using any of the other flags in this enumeration.
 
-
 ### -field SYNCMGR_CF_NOWAIT
 
 Perform the operation asynchronously.
-
 
 ### -field SYNCMGR_CF_WAIT
 
 Perform the operation synchronously.
 
-
 ### -field SYNCMGR_CF_NOUI
 
 Perform the operation without asking the sync handler to display the UI during the operation.
 
-
 ### -field SYNCMGR_CF_VALID
 
-A mask used to determine valid <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> flags.
-
+A mask used to determine valid <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> flags.

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: sens
+f1_keywords:
+ - sensapi
+ - sensapi/sensapi
 ---
 
 # Sensapi.h header
 
 
 ## -description
-
 
 This header is used by System Event Notification Service. For more information, see:
 

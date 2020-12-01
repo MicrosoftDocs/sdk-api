@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 15359FE9-99CB-4047-B5C2-0EAFC87963F0
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAPSOURCE_ORIENTATION, D2D1_BITMAPSOURCE_ORIENTATION enumeration [Direct2D], D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT, D2D1_BITMAPSOURCE_ORIENTATION_FLIP_HORIZONTAL, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90, D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_FLIP_HORIZONTAL, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90, d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL, direct2d.d2d1_bitmapsource_orientation
-f1_keywords:
-- d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_BITMAPSOURCE_ORIENTATION
 targetos: Windows
 req.typenames: D2D1_BITMAPSOURCE_ORIENTATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_BITMAPSOURCE_ORIENTATION
+ - d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_BITMAPSOURCE_ORIENTATION
 ---
 
 # D2D1_BITMAPSOURCE_ORIENTATION enumeration
@@ -49,57 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
-Speficies whether a flip and/or rotation operation should be performed by the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
-
-
+Speficies whether a flip and/or rotation operation should be performed by the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT
 
 The effect doesn't change the orientation of the input.
 
-
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_FLIP_HORIZONTAL
 
 Flips the image horizontally.
-
 
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180
 
 Rotates the image clockwise 180 degrees.
 
-
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL
 
 Rotates the image clockwise 180 degrees and flips it horizontally.
-
 
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL
 
 Rotates the image clockwise 270 degrees and flips it horizontally.
 
-
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90
 
 Rotates the image clockwise 90 degrees.
 
-
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL
 
-Rotates the image clockwise 90 degrees and flips it horizontally. 
-
+Rotates the image clockwise 90 degrees and flips it horizontally.
 
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270
 
 Rotates the image clockwise 270 degrees.
 
-
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_FORCE_DWORD
-
-
-

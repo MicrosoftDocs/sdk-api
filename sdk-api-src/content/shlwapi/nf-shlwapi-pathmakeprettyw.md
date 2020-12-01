@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
 ms.date: 12/05/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
-f1_keywords:
-- shlwapi/PathMakePretty
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- PathMakePretty
-- PathMakePrettyA
-- PathMakePrettyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathMakePrettyW
+ - shlwapi/PathMakePrettyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - PathMakePretty
+ - PathMakePrettyA
+ - PathMakePrettyW
 ---
 
 # PathMakePrettyW function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
@@ -68,21 +64,13 @@ Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string of length MAX_PATH that contains the path to be converted.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if the path has been converted, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function only operates on paths that are entirely uppercase. For example: C:\WINDOWS will be converted to c:\windows, but c:\Windows will not be changed.
 

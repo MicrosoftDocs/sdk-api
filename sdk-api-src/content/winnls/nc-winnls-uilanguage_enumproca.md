@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.date: 12/05/2018
 ms.keywords: EnumUILanguagesProc, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/UILANGUAGE_ENUMPROC
-f1_keywords:
-- winnls/UILANGUAGE_ENUMPROC
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winnls.h
-api_name:
-- UILANGUAGE_ENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UILANGUAGE_ENUMPROCA
+ - winnls/UILANGUAGE_ENUMPROCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winnls.h
+api_name:
+ - UILANGUAGE_ENUMPROC
 ---
 
 # UILANGUAGE_ENUMPROCA callback function
@@ -49,26 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-An application-defined callback function that processes enumerated user interface language information provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function. The UILANGUAGE_ENUMPROC type defines a pointer to this callback function. <b>EnumUILanguagesProc</b> is a placeholder for the application-defined function name.
-
+An application-defined callback function that processes enumerated user interface language information provided by the <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function. The UILANGUAGE_ENUMPROC type defines a pointer to this callback function. <b>EnumUILanguagesProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
 ### -param Arg2
-
-
-
-
-
-
-
 
 #### - lParam [in]
 
@@ -77,23 +65,15 @@ Application-defined value.
 
 #### - lpUILanguageString [in]
 
-Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>.
-
+Pointer to a buffer containing a null-terminated string representing a user interface language identifier or language name, depending on the value for the <i>dwFlags</i> parameter passed in the call to <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>.
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
-An <b>EnumUILanguagesProc</b> function can carry out any task. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function.
+An <b>EnumUILanguagesProc</b> function can carry out any task. The application registers this function by passing its address to the <a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a> function.
 
 If MUI_LANGUAGE_ID was specified in the call to <b>EnumUILanguages</b>, the language strings passed to this function will be hexadecimal language 
 
@@ -121,19 +101,12 @@ delegate System.Boolean EnumUILanguagesProc(
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumuilanguagesa">EnumUILanguages</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>

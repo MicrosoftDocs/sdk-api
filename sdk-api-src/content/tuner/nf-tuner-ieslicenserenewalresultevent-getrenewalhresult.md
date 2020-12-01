@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ed823c23-ae7d-4e2d-8546-92f04bd3b212
 ms.date: 12/05/2018
 ms.keywords: GetRenewalHResult, GetRenewalHResult method [DirectShow], GetRenewalHResult method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalHResult method, IESLicenseRenewalResultEvent.GetRenewalHResult, IESLicenseRenewalResultEvent::GetRenewalHResult, mstv.ieslicenserenewalresultevent_getrenewalhresult, tuner/IESLicenseRenewalResultEvent::GetRenewalHResult
-f1_keywords:
-- tuner/IESLicenseRenewalResultEvent.GetRenewalHResult
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESLicenseRenewalResultEvent.GetRenewalHResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESLicenseRenewalResultEvent::GetRenewalHResult
+ - tuner/IESLicenseRenewalResultEvent::GetRenewalHResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESLicenseRenewalResultEvent.GetRenewalHResult
 ---
 
 # IESLicenseRenewalResultEvent::GetRenewalHResult
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the final <b>HRESULT</b> value from a  <b>LicenseRenewalResult</b> event that is returned by a call to a COM interface method during the renewal process. 
-
+Gets the final <b>HRESULT</b> value from a  <b>LicenseRenewalResult</b> event that is returned by a call to a COM interface method during the renewal process.
 
 ## -parameters
-
-
-
 
 ### -param phr [out, retval]
 
 Receives the <b>HRESULT</b> value.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

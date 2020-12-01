@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1d8de371-5138-4a26-b4ff-fc1a5f62e3bb
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IExpDispSupportXP interface [Windows Shell],described, _shell_IExpDispSupportXP, shdeprecated/IExpDispSupportXP, shell.IExpDispSupportXP
-f1_keywords:
-- shdeprecated/IExpDispSupportXP
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IExpDispSupportXP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExpDispSupportXP
+ - shdeprecated/IExpDispSupportXP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IExpDispSupportXP
 ---
 
 # IExpDispSupportXP interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IExpDispSupportXP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint">FindCIE4ConnectionPoint</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint">FindCIE4ConnectionPoint</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets a connection point for browser events.
@@ -79,7 +78,7 @@ Deprecated. Gets a connection point for browser events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-oninvoke">OnInvoke</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-oninvoke">OnInvoke</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -88,12 +87,11 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator">OnTranslateAccelerator</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator">OnTranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>

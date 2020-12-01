@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7f402d36-58cf-4912-af21-f8271eee98e4
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetFolder method, INewShortcutHook::SetFolder, INewShortcutHookA, INewShortcutHookA::SetFolder, INewShortcutHookW, INewShortcutHookW.SetFolder, INewShortcutHookW::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],INewShortcutHook interface, _win32_INewShortcutHook_SetFolder, shell.INewShortcutHook_SetFolder, shlobj/INewShortcutHook::SetFolder
-f1_keywords:
-- shlobj/INewShortcutHook.SetFolder
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewShortcutHook.SetFolder
-- INewShortcutHookA::SetFolder
-- INewShortcutHookW::SetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewShortcutHookW::SetFolder
+ - shlobj/INewShortcutHookW::SetFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewShortcutHook.SetFolder
+ - INewShortcutHookA::SetFolder
+ - INewShortcutHookW::SetFolder
 ---
 
 # INewShortcutHookW::SetFolder
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the folder name for the shortcut object.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszFolder
 
@@ -73,14 +69,9 @@ Type: <b>PCTSTR</b>
 
 A pointer to a string that contains the folder name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

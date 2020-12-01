@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7
 ms.date: 12/05/2018
 ms.keywords: MsiQueryFeatureState, MsiQueryFeatureState function, MsiQueryFeatureStateA, MsiQueryFeatureStateW, _msi_msiqueryfeaturestate, msi/MsiQueryFeatureState, msi/MsiQueryFeatureStateA, msi/MsiQueryFeatureStateW, setup.msiqueryfeaturestate
-f1_keywords:
-- msi/MsiQueryFeatureState
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiQueryFeatureState
-- MsiQueryFeatureStateA
-- MsiQueryFeatureStateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiQueryFeatureStateW
+ - msi/MsiQueryFeatureStateW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiQueryFeatureState
+ - MsiQueryFeatureStateA
+ - MsiQueryFeatureStateW
 ---
 
 # MsiQueryFeatureStateW function
@@ -51,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiQueryFeatureState</b> function returns the installed state for a product feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature of interest.
 
-
 ### -param szFeature [in]
 
 Identifies the feature of interest.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -152,13 +144,7 @@ The product code or feature ID is unknown.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiQueryFeatureState</b> function does not validate that the feature is actually accessible.
@@ -172,11 +158,4 @@ The
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

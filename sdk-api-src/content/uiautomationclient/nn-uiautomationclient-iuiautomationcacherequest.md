@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], IUIAutomationCacheRequest interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCacheRequest, uiauto_IUIAutomationCacheRequest, uiautomationclient/IUIAutomationCacheRequest, winauto.uiauto_IUIAutomationCacheRequest
-f1_keywords:
-- uiautomationclient/IUIAutomationCacheRequest
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationCacheRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationCacheRequest
+ - uiautomationclient/IUIAutomationCacheRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationCacheRequest
 ---
 
 # IUIAutomationCacheRequest interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationCacheRequest</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationCacheRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationCacheRequest</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationCacheRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IUIAutomationCacheRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addpattern">AddPattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addpattern">AddPattern</a>
 </td>
 <td align="left" width="63%">
 Adds a control pattern to the cache request.
@@ -80,7 +79,7 @@ Adds a control pattern to the cache request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addproperty">AddProperty</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addproperty">AddProperty</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the cache request.
@@ -89,7 +88,7 @@ Adds a property to the cache request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-clone">Clone</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the cache request.
@@ -107,7 +106,7 @@ Creates a copy of the cache request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_automationelementmode">AutomationElementMode</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_automationelementmode">AutomationElementMode</a>
 
 
 </td>
@@ -123,7 +122,7 @@ Indicates whether returned elements contain full references to the underlying UI
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treefilter">TreeFilter</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treefilter">TreeFilter</a>
 
 
 </td>
@@ -139,7 +138,7 @@ Specifies the view of the UI Automation element tree that is used when caching.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treescope">TreeScope</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treescope">TreeScope</a>
 
 
 </td>
@@ -152,27 +151,14 @@ Specifies the scope of caching.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Retrieving properties and control patterns through UI Automation requires cross-process calls that can slow down performance. By caching values of proprieties and control patterns in a batch operation, you can enhance the performance of your application.
 
-Create a new cache request by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createcacherequest">CreateCacheRequest</a>, and configure the request by calling methods of <b>IUIAutomationCacheRequest</b>.
-
-
-
+Create a new cache request by calling <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createcacherequest">CreateCacheRequest</a>, and configure the request by calling methods of <b>IUIAutomationCacheRequest</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

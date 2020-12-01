@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeAdd64, InterlockedExchangeAdd64 function, base.interlockedexchangeadd64, winnt/InterlockedExchangeAdd64
-f1_keywords:
-- winnt/InterlockedExchangeAdd64
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedExchangeAdd64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedExchangeAdd64
+ - winnt/InterlockedExchangeAdd64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedExchangeAdd64
 ---
 
 # InterlockedExchangeAdd64 function
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an atomic addition of two 64-bit values.
 
 To operate on 32-bit values, use the <a href="/windows/win32/api/winbase/nf-winbase-interlockedexchangesubtract">InterlockedExchangeAdd</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Addend [in, out]
 
 A pointer to a variable. The value of this variable will be replaced with the result of the operation.
 
-
 ### -param Value [in]
 
 The value to be added to the variable pointed to by the <i>Addend</i> parameter.
 
-
 ## -returns
-
-
 
 The function returns the initial value of  the <i>Addend</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The 
 function performs an atomic addition of <i>Value</i> to the value pointed to by <i>Addend</i>. The result is stored in the address specified by <i>Addend</i>. The function returns the initial value of the variable pointed to by <i>Addend</i>.
@@ -99,14 +86,9 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
@@ -150,8 +132,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

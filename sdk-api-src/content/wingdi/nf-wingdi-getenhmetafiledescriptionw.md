@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
-f1_keywords:
-- wingdi/GetEnhMetaFileDescription
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetEnhMetaFileDescription
-- GetEnhMetaFileDescriptionA
-- GetEnhMetaFileDescriptionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEnhMetaFileDescriptionW
+ - wingdi/GetEnhMetaFileDescriptionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetEnhMetaFileDescription
+ - GetEnhMetaFileDescriptionA
+ - GetEnhMetaFileDescriptionW
 ---
 
 # GetEnhMetaFileDescriptionW function
@@ -53,33 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetEnhMetaFileDescription</b> function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param hemf [in]
 
 A handle to the enhanced metafile.
 
-
 ### -param cchBuffer [in]
 
 The size, in characters, of the buffer to receive the data. Only this many characters will be copied.
-
 
 ### -param lpDescription [out]
 
 A pointer to a buffer that receives the optional text description.
 
-
 ## -returns
-
-
 
 If the optional text description exists and the buffer pointer is <b>NULL</b>, the return value is the length of the text string, in characters.
 
@@ -89,12 +80,7 @@ If the optional text description does not exist, the return value is zero.
 
 If the function fails, the return value is GDI_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 The optional text description contains two strings, the first identifying the application that created the enhanced metafile and the second identifying the picture contained in the metafile. The strings are separated by a null character and terminated with two null charactersfor example, "XYZ Graphics Editor\0Bald Eagle\0\0" where \0 represents the null character.
 
@@ -109,19 +95,12 @@ Where text arguments must use Unicode characters, use this function as a wide-ch
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

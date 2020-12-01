@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::Update
 f1_keywords:
+ - IMFContentDecryptionModuleSession::Update
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Update
 dev_langs:
  - c++

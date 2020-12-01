@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
-f1_keywords:
-- comadmin/ICatalogCollection
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogCollection
+ - comadmin/ICatalogCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogCollection
 ---
 
 # ICatalogCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents any collection in the COM+ catalog. <b>ICatalogCollection</b> enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>ICatalogCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-add">Add</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection, giving it the high index value.
@@ -80,7 +79,7 @@ Adds an item to the collection, giving it the high index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getcollection">GetCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection from the COM+ catalog that is related to the current collection.
@@ -89,7 +88,7 @@ Retrieves a collection from the COM+ catalog that is related to the current coll
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getutilinterface">GetUtilInterface</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-getutilinterface">GetUtilInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves the utility interface for the collection.
@@ -98,7 +97,7 @@ Retrieves the utility interface for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a>
 </td>
 <td align="left" width="63%">
 Populates the collection with data for all items contained in the collection.
@@ -107,7 +106,7 @@ Populates the collection with data for all items contained in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populatebykey">PopulateByKey</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populatebykey">PopulateByKey</a>
 </td>
 <td align="left" width="63%">
 Populates a selected list of items in the collection from the COM+ catalog, based on the specified keys.
@@ -116,7 +115,7 @@ Populates a selected list of items in the collection from the COM+ catalog, base
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populatebyquery">PopulateByQuery</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populatebyquery">PopulateByQuery</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -125,7 +124,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection, given its index, and re-indexes the items with higher index values.
@@ -134,7 +133,7 @@ Removes an item from the collection, given its index, and re-indexes the items w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a>
 </td>
 <td align="left" width="63%">
 Saves all pending changes made to the collection and the items it contains to the COM+ catalog data store.
@@ -152,7 +151,7 @@ Saves all pending changes made to the collection and the items it contains to th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -168,7 +167,7 @@ An enumerator that can be used to iterate through the collection objects.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_addenabled">AddEnabled</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_addenabled">AddEnabled</a>
 
 
 </td>
@@ -177,14 +176,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-add">Add</a> method is enabled for the collection.
+Indicates whether the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-add">Add</a> method is enabled for the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_count">Count</a>
 
 
 </td>
@@ -200,7 +199,7 @@ The number of items in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_datastoremajorversion">DataStoreMajorVersion</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_datastoremajorversion">DataStoreMajorVersion</a>
 
 
 </td>
@@ -216,7 +215,7 @@ The major version number of the catalog data store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_datastoreminorversion">DataStoreMinorVersion</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_datastoreminorversion">DataStoreMinorVersion</a>
 
 
 </td>
@@ -232,7 +231,7 @@ The minor version number of the catalog data store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_item">Item</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_item">Item</a>
 
 
 </td>
@@ -248,7 +247,7 @@ The item that correspond to the specified index.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_name">Name</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_name">Name</a>
 
 
 </td>
@@ -264,7 +263,7 @@ The name of the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_removeenabled">RemoveEnabled</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_removeenabled">RemoveEnabled</a>
 
 
 </td>
@@ -273,20 +272,12 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-remove">Remove</a> method is enabled for the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/comadmincatalogcollection">COMAdminCatalogCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/cossdk/comadmincatalogcollection">COMAdminCatalogCollection</a>

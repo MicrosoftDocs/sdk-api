@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx
+ - mfmediaengine/IMFMediaEngineEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx
 ---
 
 # IMFMediaEngineEx interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface.
-
+Extends the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>. <b>IMFMediaEngineEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineEx</b> interface inherits from <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>. <b>IMFMediaEngineEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +69,16 @@ The <b>IMFMediaEngineEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-applystreamselections">ApplyStreamSelections</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-applystreamselections">ApplyStreamSelections</a>
 </td>
 <td align="left" width="63%">
-Applies the stream selections from previous calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
+Applies the stream selections from previous calls to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-canceltimelinemarkertimer">CancelTimelineMarkerTimer</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-canceltimelinemarkertimer">CancelTimelineMarkerTimer</a>
 </td>
 <td align="left" width="63%">
 Cancels the next pending timeline marker.
@@ -88,7 +87,7 @@ Cancels the next pending timeline marker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enablehorizontalmirrormode">EnableHorizontalMirrorMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enablehorizontalmirrormode">EnableHorizontalMirrorMode</a>
 </td>
 <td align="left" width="63%">
 Enables or disables mirroring of the video.
@@ -97,7 +96,7 @@ Enables or disables mirroring of the video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enabletimeupdatetimer">EnableTimeUpdateTimer</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enabletimeupdatetimer">EnableTimeUpdateTimer</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the time update timer.
@@ -106,7 +105,7 @@ Enables or disables the time update timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enablewindowlessswapchainmode">EnableWindowlessSwapchainMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enablewindowlessswapchainmode">EnableWindowlessSwapchainMode</a>
 </td>
 <td align="left" width="63%">
 Enables or disables windowless swap-chain mode.
@@ -115,7 +114,7 @@ Enables or disables windowless swap-chain mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-framestep">FrameStep</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-framestep">FrameStep</a>
 </td>
 <td align="left" width="63%">
 Steps forward or backward one frame.
@@ -124,25 +123,25 @@ Steps forward or backward one frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getaudioendpointrole">GetAudioEndpointRole</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getaudioendpointrole">GetAudioEndpointRole</a>
 </td>
 <td align="left" width="63%">
-Gets the audio device endpoint role used for the next  call to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Gets the audio device endpoint role used for the next  call to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getaudiostreamcategory">GetAudioStreamCategory</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getaudiostreamcategory">GetAudioStreamCategory</a>
 </td>
 <td align="left" width="63%">
-Gets the audio stream category used for the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Gets the audio stream category used for the next call to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getbalance">GetBalance</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getbalance">GetBalance</a>
 </td>
 <td align="left" width="63%">
 Gets the audio balance.
@@ -153,7 +152,7 @@ Gets the audio balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">GetNumberOfStreams</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">GetNumberOfStreams</a>
 </td>
 <td align="left" width="63%">
 Gets the number of streams in the media resource.
@@ -162,7 +161,7 @@ Gets the number of streams in the media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getpresentationattribute">GetPresentationAttribute</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getpresentationattribute">GetPresentationAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets a presentation attribute from the media resource.
@@ -171,16 +170,16 @@ Gets a presentation attribute from the media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getrealtimemode">GetRealTimeMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getrealtimemode">GetRealTimeMode</a>
 </td>
 <td align="left" width="63%">
-Gets the real time mode used for the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Gets the real time mode used for the next call to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getresourcecharacteristics">GetResourceCharacteristics</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getresourcecharacteristics">GetResourceCharacteristics</a>
 </td>
 <td align="left" width="63%">
 Gets various flags that describe the media resource.
@@ -189,7 +188,7 @@ Gets various flags that describe the media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstatistics">GetStatistics</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets a playback statistic from the Media Engine.
@@ -198,7 +197,7 @@ Gets a playback statistic from the Media Engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3dframepackingmode">GetStereo3DFramePackingMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3dframepackingmode">GetStereo3DFramePackingMode</a>
 </td>
 <td align="left" width="63%">
 For stereoscopic 3D video, gets the layout of the two views within a video frame.
@@ -207,7 +206,7 @@ For stereoscopic 3D video, gets the layout of the two views within a video frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3drendermode">GetStereo3DRenderMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstereo3drendermode">GetStereo3DRenderMode</a>
 </td>
 <td align="left" width="63%">
 For stereoscopic 3D video, queries how the Media Engine renders the 3D video content.
@@ -216,7 +215,7 @@ For stereoscopic 3D video, queries how the Media Engine renders the 3D video con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstreamattribute">GetStreamAttribute</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstreamattribute">GetStreamAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets a stream-level attribute from the media resource.
@@ -225,7 +224,7 @@ Gets a stream-level attribute from the media resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstreamselection">GetStreamSelection</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstreamselection">GetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Queries whether a stream is selected to play.
@@ -234,7 +233,7 @@ Queries whether a stream is selected to play.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-gettimelinemarkertimer">GetTimelineMarkerTimer</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-gettimelinemarkertimer">GetTimelineMarkerTimer</a>
 </td>
 <td align="left" width="63%">
 Gets the time of the next timeline marker, if any.
@@ -243,7 +242,7 @@ Gets the time of the next timeline marker, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getvideoswapchainhandle">GetVideoSwapchainHandle</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getvideoswapchainhandle">GetVideoSwapchainHandle</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the windowless swap chain.
@@ -252,7 +251,7 @@ Gets a handle to the windowless swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertaudioeffect">InsertAudioEffect</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertaudioeffect">InsertAudioEffect</a>
 </td>
 <td align="left" width="63%">
 Inserts an audio effect.
@@ -261,7 +260,7 @@ Inserts an audio effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertvideoeffect">InsertVideoEffect</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertvideoeffect">InsertVideoEffect</a>
 </td>
 <td align="left" width="63%">
 Inserts a video effect.
@@ -270,7 +269,7 @@ Inserts a video effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isplaybackratesupported">IsPlaybackRateSupported</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isplaybackratesupported">IsPlaybackRateSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Media Engine can play at a specified playback rate.
@@ -279,7 +278,7 @@ Queries whether the Media Engine can play at a specified playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isprotected">IsProtected</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isprotected">IsProtected</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media resource contains protected content.
@@ -290,7 +289,7 @@ Queries whether the media resource contains protected content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isstereo3d">IsStereo3D</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-isstereo3d">IsStereo3D</a>
 </td>
 <td align="left" width="63%">
 Queries whether the media resource contains stereoscopic 3D video.
@@ -299,7 +298,7 @@ Queries whether the media resource contains stereoscopic 3D video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-removealleffects">RemoveAllEffects</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-removealleffects">RemoveAllEffects</a>
 </td>
 <td align="left" width="63%">
 Removes all audio and video effects.
@@ -308,25 +307,25 @@ Removes all audio and video effects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setaudioendpointrole">SetAudioEndpointRole</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setaudioendpointrole">SetAudioEndpointRole</a>
 </td>
 <td align="left" width="63%">
-Sets the audio device endpoint used for the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Sets the audio device endpoint used for the next call to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setaudiostreamcategory">SetAudioStreamCategory</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setaudiostreamcategory">SetAudioStreamCategory</a>
 </td>
 <td align="left" width="63%">
-Sets the audio stream category for the next call to  <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Sets the audio stream category for the next call to  <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setbalance">SetBalance</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setbalance">SetBalance</a>
 </td>
 <td align="left" width="63%">
 Sets the audio balance.
@@ -335,25 +334,25 @@ Sets the audio balance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setcurrenttimeex">SetCurrentTimeEx</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setcurrenttimeex">SetCurrentTimeEx</a>
 </td>
 <td align="left" width="63%">
-Seeks to a new playback position using the  specified <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_seek_mode">MF_MEDIA_ENGINE_SEEK_MODE</a>.
+Seeks to a new playback position using the  specified <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_seek_mode">MF_MEDIA_ENGINE_SEEK_MODE</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setrealtimemode">SetRealTimeMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setrealtimemode">SetRealTimeMode</a>
 </td>
 <td align="left" width="63%">
-Sets the real time mode used for the next call to  <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
+Sets the real time mode used for the next call to  <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">SetSource</a> or <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-load">Load</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setsourcefrombytestream">SetSourceFromByteStream</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setsourcefrombytestream">SetSourceFromByteStream</a>
 </td>
 <td align="left" width="63%">
 Opens a media resource from a byte stream.
@@ -362,7 +361,7 @@ Opens a media resource from a byte stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3dframepackingmode">SetStereo3DFramePackingMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3dframepackingmode">SetStereo3DFramePackingMode</a>
 </td>
 <td align="left" width="63%">
 For stereoscopic 3D video, sets the layout of the two views within a video frame.
@@ -371,7 +370,7 @@ For stereoscopic 3D video, sets the layout of the two views within a video frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3drendermode">SetStereo3DRenderMode</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstereo3drendermode">SetStereo3DRenderMode</a>
 </td>
 <td align="left" width="63%">
 For stereoscopic 3D video, specifies how the Media Engine renders the 3D video content.
@@ -380,7 +379,7 @@ For stereoscopic 3D video, specifies how the Media Engine renders the 3D video c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Selects or deselects a stream for playback.
@@ -391,7 +390,7 @@ Selects or deselects a stream for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">SetTimelineMarkerTimer</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-settimelinemarkertimer">SetTimelineMarkerTimer</a>
 </td>
 <td align="left" width="63%">
 Specifies a presentation time when the Media Engine will send a marker event.
@@ -400,31 +399,22 @@ Specifies a presentation time when the Media Engine will send a marker event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-updatevideostream">UpdateVideoStream</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-updatevideostream">UpdateVideoStream</a>
 </td>
 <td align="left" width="63%">
 Updates the source rectangle, destination rectangle, and border color for the video.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface contains methods that map to the HTML5 media elements. The <b>IMFMediaEngineEx</b> provides additional functionality that does not correspond directly to HTML5.
-
-
-
+The <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a> interface contains methods that map to the HTML5 media elements. The <b>IMFMediaEngineEx</b> provides additional functionality that does not correspond directly to HTML5.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
 
 
 
@@ -432,8 +422,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

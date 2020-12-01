@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: bluetooth
+f1_keywords:
+ - bthdef
+ - bthdef/bthdef
 ---
 
 # Bthdef.h header
 
 
 ## -description
-
 
 This header is used by Bluetooth. For more information, see:
 

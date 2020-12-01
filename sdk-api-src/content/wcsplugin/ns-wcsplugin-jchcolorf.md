@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
 ms.date: 12/05/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolorf, wcsplugin/JChColorF
-f1_keywords:
-- wcsplugin/JChColorF
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- JChColorF
 targetos: Windows
 req.typenames: JChColorF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JChColorF
+ - wcsplugin/_JChColorF
+ - JChColorF
+ - wcsplugin/JChColorF
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - JChColorF
 ---
 
 # JChColorF structure
@@ -48,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -struct-fields
-
-
-
 
 ### -field J
 
 TBD
 
-
 ### -field C
 
 TBD
-
 
 ### -field h
 

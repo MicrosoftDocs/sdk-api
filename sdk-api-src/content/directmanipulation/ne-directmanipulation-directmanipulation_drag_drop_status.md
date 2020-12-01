@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: BC3B8541-E18B-4654-80C8-C5EC1359BE2F
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_DRAG_DROP_CANCELLED, DIRECTMANIPULATION_DRAG_DROP_COMMITTED, DIRECTMANIPULATION_DRAG_DROP_DRAGGING, DIRECTMANIPULATION_DRAG_DROP_PRESELECT, DIRECTMANIPULATION_DRAG_DROP_READY, DIRECTMANIPULATION_DRAG_DROP_SELECTING, DIRECTMANIPULATION_DRAG_DROP_STATUS, DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration [Direct Manipulation], directmanipulation.directmanipulation_drag_drop_status, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_CANCELLED, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_COMMITTED, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_DRAGGING, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_PRESELECT, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_READY, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_SELECTING, directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS
-f1_keywords:
-- directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- directmanipulation.h
-api_name:
-- DIRECTMANIPULATION_DRAG_DROP_STATUS
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_DRAG_DROP_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DIRECTMANIPULATION_DRAG_DROP_STATUS
+ - directmanipulation/DIRECTMANIPULATION_DRAG_DROP_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - directmanipulation.h
+api_name:
+ - DIRECTMANIPULATION_DRAG_DROP_STATUS
 ---
 
 # DIRECTMANIPULATION_DRAG_DROP_STATUS enumeration
@@ -49,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the drag-and-drop interaction states for the viewport.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DIRECTMANIPULATION_DRAG_DROP_READY
 
 The viewport is at rest and ready for input.
 
-
 ### -field DIRECTMANIPULATION_DRAG_DROP_PRESELECT
 
 The viewport is updating its content and the content is not selected.
-
 
 ### -field DIRECTMANIPULATION_DRAG_DROP_SELECTING
 
 The viewport is updating its content and the content is selected.
 
-
 ### -field DIRECTMANIPULATION_DRAG_DROP_DRAGGING
 
 The viewport is updating its content and the content is being dragged.
-
 
 ### -field DIRECTMANIPULATION_DRAG_DROP_CANCELLED
 
 The viewport has concluded the interaction and requests a revert.
 
-
 ### -field DIRECTMANIPULATION_DRAG_DROP_COMMITTED
 
 The viewport has concluded the interaction and requests a commit.
 
-
 ## -remarks
-
-
 
 For each interaction, the status always starts at <b>DIRECTMANIPULATION_DRAG_DROP_READY</b> and ends at either <b>DIRECTMANIPULATION_DRAG_DROP_CANCELLED</b> or <b>DIRECTMANIPULATION_DRAG_DROP_COMMITTED</b>. There are no explicit callbacks for the transition from CANCELLED/COMMITTED to READY.
 
@@ -103,15 +91,6 @@ The meaning of the CANCELLED and COMMITED values depend on the previous status.
 <li>For <b>DIRECTMANIPULATION_DRAG_DROP_DRAGGING</b>, COMMITED means perform the drop action; CANCELLED means cancel the drop action.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

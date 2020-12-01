@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 35e98e8a-5e6c-4cbb-9a61-9720f11f90d6
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreOpen method, IFunctionDiscoveryProvider.InstancePropertyStoreOpen, IFunctionDiscoveryProvider::InstancePropertyStoreOpen, InstancePropertyStoreOpen, InstancePropertyStoreOpen method, InstancePropertyStoreOpen method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreOpen, ncd.ifunctiondiscoveryprovider_instancepropertystoreopen
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreOpen
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProvider.InstancePropertyStoreOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProvider::InstancePropertyStoreOpen
+ - functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProvider.InstancePropertyStoreOpen
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreOpen
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Opens the property store of the provider. This method is called whenever <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a> methods as they are called.
-
+Opens the property store of the provider. This method is called whenever <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a> methods as they are called.
 
 ## -parameters
 
-
-
-
 ### -param pIFunctionInstance [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
-
+A pointer to the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
 
 ### -param iProviderInstanceContext [in]
 
 The context associated with the specific function instance.
-
 
 ### -param dwStgAccess [in]
 
@@ -92,15 +86,11 @@ The access mode to be assigned to the open stream.  For this method, the followi
 
 #### STGM_WRITE
 
-
 ### -param ppIPropertyStore [out]
 
 A pointer to an <b>IPropertyStore</b> interface pointer.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -165,18 +155,7 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>

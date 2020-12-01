@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 3ce35108-91ed-4df8-8eb3-5a9ebf781567
 ms.date: 12/05/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],Data property, IComHandlerAction.Data, IComHandlerAction.put_Data, IComHandlerAction::Data, IComHandlerAction::get_Data, IComHandlerAction::put_Data, put_Data, taskschd.icomhandleraction_data, taskschd/IComHandlerAction::Data, taskschd/IComHandlerAction::get_Data, taskschd/IComHandlerAction::put_Data
-f1_keywords:
-- taskschd/IComHandlerAction.Data
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IComHandlerAction.Data
-- IComHandlerAction.get_Data
-- IComHandlerAction.put_Data
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComHandlerAction::put_Data
+ - taskschd/IComHandlerAction::put_Data
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IComHandlerAction.Data
+ - IComHandlerAction.get_Data
+ - IComHandlerAction.put_Data
 ---
 
 # IComHandlerAction::put_Data
@@ -51,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets  additional data that is associated with the handler.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When reading or writing XML, the data of a COM handler is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-data-comhandlertype-element">Data</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML, the data of a COM handler is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-data-comhandlertype-element">Data</a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

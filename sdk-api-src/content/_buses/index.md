@@ -21,5 +21,4 @@ To develop USB driver reference, you need these headers:
  * [winusbio.h](../winusbio/index.md)
 
 For programming guidance for this technology, see:
-* [USB driver reference](https://docs.microsoft.com/windows-hardware/drivers/usbcon/)
-
+* [USB driver reference](/windows-hardware/drivers/usbcon/)

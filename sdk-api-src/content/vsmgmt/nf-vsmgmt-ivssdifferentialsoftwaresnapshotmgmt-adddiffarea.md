@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2
 ms.date: 12/05/2018
 ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddDiffArea</b> 
     method adds a shadow copy storage  area association for the specified volume. If the 
     association is not supported, an error code will be returned.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -74,8 +70,6 @@ The name of the volume must be in one of the following formats and must include 
 <li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
-
-
 ### -param pwszDiffAreaVolumeName [in]
 
 The name of the volume that will contain the  shadow copy storage  area to be associated with the 
@@ -90,8 +84,6 @@ The name of the volume must be in one of the following formats and must include 
 <li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
-
-
 ### -param llMaximumDiffSpace [in]
 
 The maximum size, in bytes, of the shadow copy storage area on the  volume. This value 
@@ -100,10 +92,7 @@ The maximum size, in bytes, of the shadow copy storage area on the  volume. This
 
 <b>Windows Server 2003:  </b>Prior to Windows Server 2003 with SP1, the shadow copy storage area size was fixed at 100 MB.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -201,7 +190,7 @@ The association between the <i>pwszVolumeName</i> and
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -213,7 +202,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -232,14 +221,8 @@ The <i>pwszDiffAreaVolumeName</i> volume is not an NTFS volume or has insufficie
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A shadow copy storage area association cannot be created if any shadow copies already exist for the 
     <i>pwszVolumeName</i> volume or if there is already a shadow copy storage area association for 
@@ -249,18 +232,8 @@ The shadow copy storage area for a virtual hard disk (VHD) source volume must re
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>VHDs are not supported.
 
-To change the size of a shadow copy storage area, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> method. You can delete a shadow copy storage area by changing its size to zero.
-
-
-
+To change the size of a shadow copy storage area, use the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> or <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> method. You can delete a shadow copy storage area by changing its size to zero.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>

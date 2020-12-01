@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: base
 archived: true
+f1_keywords:
+ - utilapiset
+ - utilapiset/utilapiset
 ---
 
 # Utilapiset.h header
 
 
 ## -description
-
 
 This header is used by System Services. For more information, see:
 

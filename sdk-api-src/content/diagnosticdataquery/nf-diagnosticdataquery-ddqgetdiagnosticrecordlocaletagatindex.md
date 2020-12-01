@@ -36,30 +36,37 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticRecordLocaleTagAtIndex
+f1_keywords:
+ - DdqGetDiagnosticRecordLocaleTagAtIndex
+ - diagnosticdataquery/DdqGetDiagnosticRecordLocaleTagAtIndex
 ---
 
 ## -description
+
 Fetches tag description at the specified index in the resource pointed to by the HDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION resource.
 
 ## -parameters
 
 ### -param hTagDescription
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the resource that contains the list of tag descriptions. 
+Handle to the resource that contains the list of tag descriptions.
 
 ### -param index
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
-The index of the tag description to be fetched. 
+The index of the tag description to be fetched.
 
 ### -param tagDescription
-Type: **[DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION\*](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description)**
+
+Type: **[DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION\*](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description.md)**
 This outpoint parameter is a pointer to the tag description that was fetched.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
 
 ## -see-also
-

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ece956bb-ee83-42c7-9410-90f34956fdde
 ms.date: 12/05/2018
 ms.keywords: CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPServer interface, IMFPMPServer interface [Media Foundation],CreateObjectByCLSID method, IMFPMPServer.CreateObjectByCLSID, IMFPMPServer::CreateObjectByCLSID, ece956bb-ee83-42c7-9410-90f34956fdde, mf.imfpmpserver_createobjectbyclsid, mfidl/IMFPMPServer::CreateObjectByCLSID
-f1_keywords:
-- mfidl/IMFPMPServer.CreateObjectByCLSID
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPMPServer.CreateObjectByCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMPServer::CreateObjectByCLSID
+ - mfidl/IMFPMPServer::CreateObjectByCLSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPMPServer.CreateObjectByCLSID
 ---
 
 # IMFPMPServer::CreateObjectByCLSID
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates an object in the protected media path (PMP) process.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
 CLSID of the object to create.
 
-
 ### -param riid [in]
 
 Interface identifier of the interface to retrieve.
-
 
 ### -param ppObject [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +88,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>

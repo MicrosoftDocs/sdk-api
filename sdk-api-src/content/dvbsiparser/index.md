@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mstv
 archived: true
+f1_keywords:
+ - dvbsiparser
+ - dvbsiparser/dvbsiparser
 ---
 
 # Dvbsiparser.h header
 
 
 ## -description
-
 
 This header is used by Microsoft TV Technologies. For more information, see:
 

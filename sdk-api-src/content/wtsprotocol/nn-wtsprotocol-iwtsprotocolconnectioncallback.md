@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], IWTSProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolconnectioncallback, wtsprotocol/IWTSProtocolConnectionCallback
-f1_keywords:
-- wtsprotocol/IWTSProtocolConnectionCallback
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWTSProtocolConnectionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolConnectionCallback
+ - wtsprotocol/IWTSProtocolConnectionCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWTSProtocolConnectionCallback
 ---
 
 # IWTSProtocolConnectionCallback interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>.]
 
  Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
 
-An instance of this interface is associated with a specific instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a> interface. When the following documentation refers to a connection, it is therefore referring to the specific connection for which the  <b>IWTSProtocolConnection</b> object was created.
-
+An instance of this interface is associated with a specific instance of the <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a> interface. When the following documentation refers to a connection, it is therefore referring to the specific connection for which the  <b>IWTSProtocolConnection</b> object was created.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolConnectionCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolConnectionCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolConnectionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolConnectionCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>IWTSProtocolConnectionCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-brokenconnection">BrokenConnection</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-brokenconnection">BrokenConnection</a>
 </td>
 <td align="left" width="63%">
 Informs the Remote Desktop Services service that the client connection has been lost.
@@ -83,7 +82,7 @@ Informs the Remote Desktop Services service that the client connection has been 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-displayioctl">DisplayIOCtl</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-displayioctl">DisplayIOCtl</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service send data to the display driver loaded in the session.
@@ -92,7 +91,7 @@ Requests that the Remote Desktop Services service send data to the display drive
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-onready">OnReady</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-onready">OnReady</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service continue the connection process for that client.
@@ -101,7 +100,7 @@ Requests that the Remote Desktop Services service continue the connection proces
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-redrawwindow">RedrawWindow</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-redrawwindow">RedrawWindow</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service redraw the client window.
@@ -110,12 +109,11 @@ Requests that the Remote Desktop Services service redraw the client window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service stop updating the client screen.
 
 </td>
 </tr>
-</table> 
-
+</table>

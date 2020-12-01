@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: d1b1dfab-a22a-40bb-ffc4-eb094ac14217
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue, IDWriteFontDownloadQueue interface [Direct Write], IDWriteFontDownloadQueue interface [Direct Write],described, directwrite.idwritefontdownloadqueue, dwrite_3/IDWriteFontDownloadQueue
-f1_keywords:
-- dwrite_3/IDWriteFontDownloadQueue
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontDownloadQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontDownloadQueue
+ - dwrite_3/IDWriteFontDownloadQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontDownloadQueue
 ---
 
 # IDWriteFontDownloadQueue interface
@@ -49,13 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Interface that enqueues download requests for remote fonts, characters, glyphs, and font fragments.
         Provides methods to asynchronously execute a download, cancel pending downloads, and be notified of
         download completion. Callbacks to listeners will occur on the downloading thread, and objects must
         be must be able to handle calls on their methods from other threads at any time.
-      
-
 
 ## -inheritance
 
@@ -132,5 +130,5 @@ Unregisters a notification handler that was previously registered using <a href=
 
 </td>
 </tr>
-</table> 
+</table>
 

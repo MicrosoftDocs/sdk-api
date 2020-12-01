@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8be6c74f-9290-48b4-ad66-8d7d7cc94174
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream, IMultiMediaStream interface [DirectShow], IMultiMediaStream interface [DirectShow],described, IMultiMediaStreamInterface, dshow.imultimediastream, mmstream/IMultiMediaStream
-f1_keywords:
-- mmstream/IMultiMediaStream
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMultiMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiMediaStream
+ - mmstream/IMultiMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMultiMediaStream
 ---
 
 # IMultiMediaStream interface
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>IMultiMediaStream</code> interface is exposed by the AMMultimediaStream object. It contains methods for enumerating the media streams, retrieving information about them, and running and stopping them.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiMediaStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiMediaStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +71,7 @@ The <b>IMultiMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-enummediastreams">EnumMediaStreams</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-enummediastreams">EnumMediaStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by index.
@@ -84,7 +80,7 @@ Retrieves a media stream, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getduration">GetDuration</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Retrieves the duration of the multimedia stream.
@@ -93,7 +89,7 @@ Retrieves the duration of the multimedia stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getendofstreameventhandle">GetEndOfStreamEventHandle</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getendofstreameventhandle">GetEndOfStreamEventHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves an event that is signaled when the multimedia stream completes playback.
@@ -102,7 +98,7 @@ Retrieves an event that is signaled when the multimedia stream completes playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getinformation">GetInformation</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getinformation">GetInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the multimedia stream object.
@@ -111,7 +107,7 @@ Retrieves the capabilities of the multimedia stream object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getmediastream">GetMediaStream</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getmediastream">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by purpose ID.
@@ -120,7 +116,7 @@ Retrieves a media stream, specified by purpose ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getstate">GetState</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current state of the multimedia stream object.
@@ -129,7 +125,7 @@ Retrieves the current state of the multimedia stream object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-gettime">GetTime</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream time.
@@ -138,7 +134,7 @@ Retrieves the current stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-seek">Seek</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-seek">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks all of the media streams to a new position.
@@ -147,23 +143,15 @@ Seeks all of the media streams to a new position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-setstate">SetState</a>
+<a href="/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-setstate">SetState</a>
 </td>
 <td align="left" width="63%">
 Runs or stops the multimedia stream object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

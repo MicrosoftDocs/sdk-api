@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDEC4.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMXDEC4, XMXDEC4 constructor [DirectX Math Support APIs], XMXDEC4 constructor [DirectX Math Support APIs],XMXDEC4 structure, XMXDEC4 structure [DirectX Math Support APIs],XMXDEC4 constructor, XMXDEC4.XMXDEC4, XMXDEC4.XMXDEC4(float,float,float,float), XMXDEC4::XMXDEC4, XMXDEC4::XMXDEC4(float,float,float,float), dxmath.xmxdec4_ctor_3
-f1_keywords:
-- directxpackedvector/XMXDEC4.XMXDEC4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMXDEC4.XMXDEC4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMXDEC4::XMXDEC4
+ - directxpackedvector/XMXDEC4::XMXDEC4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMXDEC4.XMXDEC4
 ---
 
 # XMXDEC4::XMXDEC4(float,float,float,float)
@@ -49,19 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new instance of <code>XMXDEC4</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4 </a> from four
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4 </a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param _x
 
@@ -71,8 +68,6 @@ Value of the x-coordinate of the vector, the <b>x</b> member of the new
 
 The magnitude of this argument will be clamped to a range of [-511.0,
 		    511.0].
-		
-
 
 ### -param _y
 
@@ -82,8 +77,6 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 
 The magnitude of this argument will be clamped to a range of [-511.0,
 		    511.0].
-		
-
 
 ### -param _z
 
@@ -93,8 +86,6 @@ Value of the z-coordinate of the vector, the <b>z</b> member of the new
 
 The magnitude of this argument will be clamped to a range of [-511.0,
 		    511.0].
-		
-
 
 ### -param _w
 
@@ -103,12 +94,8 @@ Value of the w-coordinate of the vector, the <b>w</b> member of the new
 		
 
 The magnitude of this argument will be clamped to a range of [0.0, 3.0].
-		
-
 
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this constructor, which takes
 	    advantage of the <code>union</code> of the four components of the <code>XMXDEC4</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
@@ -131,25 +118,14 @@ The following pseudocode demonstrates the operation of this constructor, which t
       
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4">XMXDEC4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmxdec4-ctor">XMXDEC4 Constructors</a>

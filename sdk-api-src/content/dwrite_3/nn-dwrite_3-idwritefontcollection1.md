@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: bdee031b-53fa-321d-5cdc-4cc2c7ec58ca
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollection1, IDWriteFontCollection1 interface [Direct Write], IDWriteFontCollection1 interface [Direct Write],described, directwrite.idwritefontcollection1, dwrite_3/IDWriteFontCollection1
-f1_keywords:
-- dwrite_3/IDWriteFontCollection1
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontCollection1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontCollection1
+ - dwrite_3/IDWriteFontCollection1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontCollection1
 ---
 
 # IDWriteFontCollection1 interface
+
 
 ## -description
 
@@ -74,8 +76,9 @@ Gets the underlying font set used by this collection.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
+

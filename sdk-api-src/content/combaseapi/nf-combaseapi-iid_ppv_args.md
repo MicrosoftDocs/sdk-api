@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 268B59FA-44EB-4777-8162-C50981CBDD09
 ms.date: 12/05/2018
 ms.keywords: IID_PPV_ARGS, IID_PPV_ARGS macro [Windows Shell], IID_PPV_ARGS_Helper, _shell_IID_PPV_ARGS, combaseapi/IID_PPV_ARGS, shell.IID_PPV_ARGS
-f1_keywords:
-- combaseapi/IID_PPV_ARGS
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- combaseapi.h
-api_name:
-- IID_PPV_ARGS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IID_PPV_ARGS
+ - combaseapi/IID_PPV_ARGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - combaseapi.h
+api_name:
+ - IID_PPV_ARGS
 ---
 
 ## -description
@@ -56,7 +57,7 @@ An address of an interface pointer whose type <b>T</b> is used to determine the 
 
 ## -remarks
 
-A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
+A common syntax in methods that retrieve an interface pointer (most notably <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> and <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
 
 <ul>
 <li>An [in] parameter, normally of type <b>REFIID</b>, to specify the IID of the interface to retrieve.</li>
@@ -66,7 +67,7 @@ This macro computes the IID based on the type of interface pointer, which preven
 
 While Windows 7 is the first inclusion of this macro in a public header, it can be used on older systems by defining it manually in your project headers or source code.
 
-The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory property store object using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
+The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory property store object using <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 ```cpp
 IPropertyStore *pPropertyStore;

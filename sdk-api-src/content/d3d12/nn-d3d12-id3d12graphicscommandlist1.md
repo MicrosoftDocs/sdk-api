@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: E156C26B-0E51-4F43-9AB2-373E4C67A496
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,described, d3d12/ID3D12GraphicsCommandList1, direct3d12.id3d12graphicscommandlist1
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList1
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12GraphicsCommandList1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList1
+ - d3d12/ID3D12GraphicsCommandList1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12GraphicsCommandList1
 ---
 
 # ID3D12GraphicsCommandList1 interface
@@ -49,13 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates a list of graphics commands for rendering, extending the interface to support programmable sample positions, atomic copies for implementing late-latch techniques, and optional depth-bounds testing.
-<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Creators Update, is the latest version of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> interface. Applications targetting Windows 10 Creators Update should use this interface instead of <b>ID3D12GraphicsCommandList</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Creators Update, is the latest version of the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a> interface. Applications targetting Windows 10 Creators Update should use this interface instead of <b>ID3D12GraphicsCommandList</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>. <b>ID3D12GraphicsCommandList1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList1</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>. <b>ID3D12GraphicsCommandList1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D12GraphicsCommandList1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a>
 </td>
 <td align="left" width="63%">
 Atomically copies a primary data element of type UINT from one resource to another, along with optional dependent resources.
@@ -79,7 +79,7 @@ Atomically copies a primary data element of type UINT from one resource to anoth
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a>
 </td>
 <td align="left" width="63%">
 Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.
@@ -88,7 +88,7 @@ Atomically copies a primary data element of type UINT64 from one resource to ano
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds">OMSetDepthBounds</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds">OMSetDepthBounds</a>
 </td>
 <td align="left" width="63%">
 This method enables you to change the depth bounds dynamically.
@@ -97,7 +97,7 @@ This method enables you to change the depth bounds dynamically.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ResolveSubresourceRegion</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion">ResolveSubresourceRegion</a>
 </td>
 <td align="left" width="63%">
 Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
@@ -106,7 +106,7 @@ Copy a region of a multisampled or compressed resource into a non-multisampled o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setsamplepositions">SetSamplePositions</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setsamplepositions">SetSamplePositions</a>
 </td>
 <td align="left" width="63%">
 This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
@@ -115,27 +115,19 @@ This method configures the sample positions used by subsequent draw, copy, resol
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setviewinstancemask">SetViewInstanceMask</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setviewinstancemask">SetViewInstanceMask</a>
 </td>
 <td align="left" width="63%">
 Set a mask that controls which view instances are enabled for subsequent draws.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

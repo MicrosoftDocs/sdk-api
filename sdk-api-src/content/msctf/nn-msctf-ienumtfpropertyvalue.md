@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7f99df15-777c-46eb-bff3-542eb1fcc428
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue, IEnumTfPropertyValue interface [Text Services Framework], IEnumTfPropertyValue interface [Text Services Framework],described, _tsf_ienumtfpropertyvalue_ref, msctf/IEnumTfPropertyValue, tsf.ienumtfpropertyvalue
-f1_keywords:
-- msctf/IEnumTfPropertyValue
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfPropertyValue
+ - msctf/IEnumTfPropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfPropertyValue
 ---
 
 # IEnumTfPropertyValue interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfPropertyValue</b> interface is implemented by the TSF manager to provide an enumeration of property values.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfPropertyValue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfPropertyValue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfPropertyValue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfPropertyValue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IEnumTfPropertyValue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-clone">Clone</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -79,7 +78,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">Next</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified number of elements in the enumeration sequence from the current position.
@@ -88,7 +87,7 @@ Obtains the specified number of elements in the enumeration sequence from the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-reset">Reset</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -97,12 +96,11 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-skip">Skip</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 </td>
 </tr>
-</table> 
-
+</table>

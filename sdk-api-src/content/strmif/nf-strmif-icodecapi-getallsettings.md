@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
 ms.date: 12/05/2018
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
-f1_keywords:
-- strmif/ICodecAPI.GetAllSettings
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.GetAllSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::GetAllSettings
+ - strmif/ICodecAPI::GetAllSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.GetAllSettings
 ---
 
 # ICodecAPI::GetAllSettings
@@ -50,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAllSettings</b> method gets the codec's current properties and writes them to  a stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__ICodecAPI0000 [in]
 
 Pointer to the <b>IStream</b> interface of the stream.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,39 +91,23 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Codecs that implement <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> are  not required to support this method.
 
-
-Codecs that implement <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> are  not required to support this method.
-
-To load the properties from the stream back onto the codec, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettings">ICodecAPI::SetAllSettings</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify">ICodecAPI::SetAllSettingsWithNotify</a>.
+To load the properties from the stream back onto the codec, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettings">ICodecAPI::SetAllSettings</a> or <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify">ICodecAPI::SetAllSettingsWithNotify</a>.
 
 The format of the data that is written to the stream depends on the implementation of the codec. There is no standard serialization format.  An application should not attempt to save the properties from one codec and load them on a different codec.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

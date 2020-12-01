@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winlocation
+f1_keywords:
+ - sensorsapi
+ - sensorsapi/sensorsapi
 ---
 
 # Sensorsapi.h header
 
 
 ## -description
-
 
 This header is used by Location API. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_SUBSCRIPTION0, IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering], fwp.ipsec_sa_context_subscription0, ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
-f1_keywords:
-- ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_SA_CONTEXT_SUBSCRIPTION0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT_SUBSCRIPTION0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_SA_CONTEXT_SUBSCRIPTION0_
+ - ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0_
+ - IPSEC_SA_CONTEXT_SUBSCRIPTION0
+ - ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_SA_CONTEXT_SUBSCRIPTION0
 ---
 
 # IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_SA_CONTEXT_SUBSCRIPTION0</b> structure stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field enumTemplate
 
@@ -64,13 +62,11 @@ Type: <b><a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_e
 
 Enumeration template for limiting the subscription.
 
-
 ### -field flags
 
 Type: <b>UINT32</b>
 
 This member is reserved for system use.
-
 
 ### -field sessionKey
 
@@ -78,14 +74,7 @@ Type: <b>GUID</b>
 
 Identifies the session that created the subscription.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_enum_template0">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
- 
-
- 
 

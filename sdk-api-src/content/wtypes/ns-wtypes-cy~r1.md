@@ -3,10 +3,6 @@ UID: NS:wtypes.tagCY~r1
 title: CY
 ms.date: 01/30/19
 ms.keywords: tagCY, CY
-f1_keywords:
-- wtypes/tagCY
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,15 +19,22 @@ req.target-type:
 req.typenames: CY
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - tagCY
+ - wtypes/tagCY
+ - CY
+ - wtypes/CY
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- wtypes.h
+ - wtypes.h
 api_name:
-- tagCY
-- CY
+ - tagCY
+ - CY
 ---
 
 # CY structure
@@ -42,7 +45,6 @@ api_name:
 A currency number stored as an 8-byte, two's complement integer, scaled by 10,000 to give a fixed-point number with 15 digits to the left of the decimal point and 4 digits to the right. This <b>IDispatch::GetTypeInfo</b> resentation provides a range of 922337203685477.5807 to -922337203685477.5808.
 
 The CURRENCY data type is useful for calculations involving money, or for any fixed-point calculation where accuracy is particularly important.
-
 
 ## -struct-fields
 

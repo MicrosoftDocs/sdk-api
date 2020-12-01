@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 7ffc228f-c4f2-4451-9b23-ec78bf6c8318
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], IFeedClockVectorElement interface [Windows Sync],described, winsync.ifeedclockvectorelement, winsync/IFeedClockVectorElement
-f1_keywords:
-- winsync/IFeedClockVectorElement
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IFeedClockVectorElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFeedClockVectorElement
+ - winsync/IFeedClockVectorElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IFeedClockVectorElement
 ---
 
 # IFeedClockVectorElement interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a clock vector element that contains FeedSync information.
-
-
 
 ## -inheritance
 
@@ -71,7 +69,7 @@ The <b>IFeedClockVectorElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getflags">GetFlags</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets flags that specify additional information about the clock vector element.
@@ -81,32 +79,24 @@ Gets flags that specify additional information about the clock vector element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getsynctime">GetSyncTime</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getsynctime">GetSyncTime</a>
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Gets a <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>IClockVectorElement</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
 ms.date: 12/05/2018
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
-f1_keywords:
-- strmif/VMRPresentationFlags
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- VMRPresentationFlags
 targetos: Windows
 req.typenames: VMRPresentationFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VMRPresentationFlags
+ - strmif/VMRPresentationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - VMRPresentationFlags
 ---
 
 # VMRPresentationFlags enumeration
@@ -49,54 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The [VMRPRESENTATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure .
-
-
-
+The [VMRPRESENTATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure .
 
 ## -enum-fields
-
-
-
 
 ### -field VMRSample_SyncPoint
 
 Indicates that the sample is a sync point.
-          
-
 
 ### -field VMRSample_Preroll
 
 Indicates that the sample is part of the preroll.
-          
-
 
 ### -field VMRSample_Discontinuity
 
 Indicates that the sample is a discontinuity.
-          
-
 
 ### -field VMRSample_TimeValid
 
 Indicates that the time stamp on the sample is valid.
-          
-
 
 ### -field VMRSample_SrcDstRectsValid
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

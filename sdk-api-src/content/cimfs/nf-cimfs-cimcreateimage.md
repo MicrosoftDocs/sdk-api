@@ -33,30 +33,39 @@ api_location:
  - cimfs.h
 api_name:
  - CimCreateImage
+f1_keywords:
+ - CimCreateImage
+ - cimfs/CimCreateImage
 ---
 
 ## -description
+
 Creates a handle representing a new image at the location specified, optionally based on an existing image at that location.
 
 ## -parameters
 
 ### -param imageContainingPath
+
 Type: **[PCWSTR](/windows/desktop/winprog/windows-data-types)**
 The directory that will contain the image created. The caller must have FILE_ADD_FILE and FILE_LIST_DIRECTORY access rights. The directory will be opened without sharing write access so image creation within a given image directory must be serialized by the caller.
 
 ### -param existingImageName
+
 Type: **[PCWSTR](/windows/desktop/winprog/windows-data-types)**
 Optionally provides the name of an existing image within the same imageContainingPath that will form the base of the new image. If provided, the existing image can be extended or forked when this image is later committed. This parameter must be NULL and the newImageName parameter must be provided to create an image from scratch.
 
 ### -param newImageName
+
 Type: **[PCWSTR](/windows/desktop/winprog/windows-data-types)**
 Optionally provides the name of a new image to be created within the imageContainingPath. If this parameter is not provided the existingImageName parameter must be provided and the new image will overwrite the existing image. When both existingImageName and newImageName are provided the image will be overwritten if they are the same name or will be forked if they are different names.
 When an image is forked the existing image is preserved such that both the existing and the new image can be mounted independently.
 
 ### -param cimImageHandle
+
 Receives an opaque handle that represents a writer for the image. This handle may be passed in subsequent routines to modify the image.
 
 ## -returns
+
 **[HRESULT](/windows/desktop/winprog/windows-data-types)**
 E_ACCESSDENIED - the caller does not have permissions to the specified image containing path.
 E_INVALIDARG –The caller failed to specify existingImageName and newImageName.

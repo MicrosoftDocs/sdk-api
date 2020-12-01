@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
 ms.date: 12/05/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
-f1_keywords:
-- objidlbase/IMalloc
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMalloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMalloc
+ - objidlbase/IMalloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMalloc
 ---
 
 # IMalloc interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates, frees, and manages memory.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IMalloc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">Alloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">Alloc</a>
 </td>
 <td align="left" width="63%">
 Allocates a block of memory.
@@ -80,7 +78,7 @@ Allocates a block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>
 </td>
 <td align="left" width="63%">
 Determines whether this allocator was used to allocate the specified block of memory.
@@ -89,7 +87,7 @@ Determines whether this allocator was used to allocate the specified block of me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">Free</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">Free</a>
 </td>
 <td align="left" width="63%">
 Frees a previously allocated block of memory.
@@ -98,7 +96,7 @@ Frees a previously allocated block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of a previously allocated block of memory.
@@ -107,7 +105,7 @@ Retrieves the size of a previously allocated block of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">HeapMinimize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">HeapMinimize</a>
 </td>
 <td align="left" width="63%">
 Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
@@ -116,35 +114,27 @@ Minimizes the heap as much as possible by releasing unused memory to the operati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">Realloc</a>
 </td>
 <td align="left" width="63%">
 Changes the size of a previously allocated block of memory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>

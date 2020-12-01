@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: aa04d5b0-8483-4024-91d0-65d69d6891ca
 ms.date: 12/05/2018
 ms.keywords: INotifyReplica, INotifyReplica interface [Windows Shell], INotifyReplica interface [Windows Shell],described, _win32_INotifyReplica, reconcil/INotifyReplica, shell.INotifyReplica
-f1_keywords:
-- reconcil/INotifyReplica
-dev_langs:
-- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INotifyReplica
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INotifyReplica
+ - reconcil/INotifyReplica
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INotifyReplica
 ---
 
 # INotifyReplica interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INotifyReplica</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INotifyReplica</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INotifyReplica</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INotifyReplica</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>INotifyReplica</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica">YouAreAReplica</a>
+<a href="/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica">YouAreAReplica</a>
 </td>
 <td align="left" width="63%">
-Notifies an object that it may be subject to subsequent reconciliation through the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">IReconcilableObject::Reconcile</a> method.
+Notifies an object that it may be subject to subsequent reconciliation through the <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">IReconcilableObject::Reconcile</a> method.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 350a28bd-cbdf-46f2-a404-aa16550a4711
 ms.date: 12/05/2018
 ms.keywords: SLREFERRALTYPE, SLREFERRALTYPE enumeration [Security], SL_REFERRALTYPE_APPID, SL_REFERRALTYPE_BEST_MATCH, SL_REFERRALTYPE_OVERRIDE_APPID, SL_REFERRALTYPE_OVERRIDE_SKUID, SL_REFERRALTYPE_SKUID, security.slreferraltype, slpublic/SLREFERRALTYPE, slpublic/SL_REFERRALTYPE_APPID, slpublic/SL_REFERRALTYPE_BEST_MATCH, slpublic/SL_REFERRALTYPE_OVERRIDE_APPID, slpublic/SL_REFERRALTYPE_OVERRIDE_SKUID, slpublic/SL_REFERRALTYPE_SKUID
-f1_keywords:
-- slpublic/SLREFERRALTYPE
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- slpublic.h
-api_name:
-- SLREFERRALTYPE
 targetos: Windows
 req.typenames: SLREFERRALTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLREFERRALTYPE
+ - slpublic/SLREFERRALTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - slpublic.h
+api_name:
+ - SLREFERRALTYPE
 ---
 
 # SLREFERRALTYPE enumeration
@@ -49,26 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents the types of information that can be queried with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetreferralinformation">SLGetReferralInformation</a> function.
-
+Represents the types of information that can be queried with the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetreferralinformation">SLGetReferralInformation</a> function.
 
 ## -enum-fields
 
-
-
-
 ### -field SL_REFERRALTYPE_SKUID
-
 
 ### -field SL_REFERRALTYPE_APPID
 
-
 ### -field SL_REFERRALTYPE_OVERRIDE_SKUID
-
 
 ### -field SL_REFERRALTYPE_OVERRIDE_APPID
 
-
 ### -field SL_REFERRALTYPE_BEST_MATCH
-

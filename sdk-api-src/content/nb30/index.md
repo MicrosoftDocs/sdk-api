@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: netbios
+f1_keywords:
+ - nb30
+ - nb30/nb30
 ---
 
 # Nb30.h header
 
 
 ## -description
-
 
 This header is used by NetBIOS. For more information, see:
 

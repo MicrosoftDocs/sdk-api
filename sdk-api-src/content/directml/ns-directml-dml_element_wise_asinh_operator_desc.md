@@ -1,9 +1,9 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_ASINH_OPERATOR_DESC
 title: DML_ELEMENT_WISE_ASINH_OPERATOR_DESC
-description: Describes a DirectML trigonometric operator that performs the element-wise inverse hyperbolic sine function f(x) = log(x + sqrt(x * x + 1)) * scale + bias, where the scale and bias terms are optional.
+description: Computes the hyperbolic arcsine for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 tech.root: directml
-ms.date: 01/30/2020
+ms.date: 10/29/2020
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_ELEMENT_WISE_ASINH_OPERATOR_DESC
 f1_keywords:
+ - DML_ELEMENT_WISE_ASINH_OPERATOR_DESC
  - directml/DML_ELEMENT_WISE_ASINH_OPERATOR_DESC
 dev_langs:
  - c++
@@ -37,30 +38,53 @@ dev_langs:
 
 ## -description
 
-Describes a DirectML trigonometric operator that performs the element-wise inverse hyperbolic sine function f(x) = log(x + sqrt(x * x + 1)) * scale + bias, where the scale and bias terms are optional.
+Computes the hyperbolic arcsine for each element of *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
-This operator supports in-place execution, meaning the output tensor is permitted to alias the input tensor during binding.
+```
+f(x) = asinh(x) // ln(x + sqrt(x * x + 1))
+```
+
+This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias *InputTensor* during binding.
 
 ## -struct-fields
 
 ### -field InputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to read from.
+The input tensor to read from.
 
 ### -field OutputTensor
 
-Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
+Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the tensor to write the results to.
+The output tensor to write the results to.
 
 ### -field ScaleBias
 
-Type: **const [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias)\***
+Type: \_Maybenull\_ **const [DML_SCALE_BIAS](/windows/win32/api/directml/ns-directml-dml_scale_bias)\***
 
-An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml/ns-directml-dml_scale_bias) containing scale and bias to apply to the input. If present, this has the effect of applying the function g(x) = x * scale + bias to each element before this topic's operator is applied.
+An optional scale and bias to apply to the input. If present, this has the effect of applying the function `g(x) = x * scale + bias` to each *input* element prior to computing this operator.
 
 ## -remarks
+
+## Availability
+This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
+
+## Tensor constraints
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
+
+## Tensor support
+### DML_FEATURE_LEVEL_3_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_2_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also

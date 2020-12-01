@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 02295183-b117-4ca9-89ad-223fdd3b0aa5
 ms.date: 12/05/2018
 ms.keywords: 6d6b602d-11ba-2e7a-07a9-f2af8fd90578, ID3D11SwitchToRef, ID3D11SwitchToRef interface [Direct3D 11], ID3D11SwitchToRef interface [Direct3D 11],described, d3d11sdklayers/ID3D11SwitchToRef, direct3d11.id3d11switchtoref
-f1_keywords:
-- d3d11sdklayers/ID3D11SwitchToRef
-dev_langs:
-- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11SDKLayers.h
-api_name:
-- ID3D11SwitchToRef
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11SwitchToRef
+ - d3d11sdklayers/ID3D11SwitchToRef
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11SDKLayers.h
+api_name:
+ - ID3D11SwitchToRef
 ---
 
 # ID3D11SwitchToRef interface
@@ -49,13 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The <b>ID3D11SwitchToRef</b> interface and its methods are not supported in Direct3D 11.
       </div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11SwitchToRef</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11SwitchToRef</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11SwitchToRef</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11SwitchToRef</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D11SwitchToRef</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-getuseref">GetUseRef</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-getuseref">GetUseRef</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  The <b>ID3D11SwitchToRef</b> interface and its methods are not supported in Direct3D 11.</div>
@@ -79,27 +79,19 @@ The <b>ID3D11SwitchToRef</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-setuseref">SetUseRef</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11switchtoref-setuseref">SetUseRef</a>
 </td>
 <td align="left" width="63%">
 <div class="alert"><b>Note</b>  The <b>ID3D11SwitchToRef</b> interface and its methods are not supported in Direct3D 11.</div>
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>

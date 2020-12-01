@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: ef2b6983-02ff-488a-99ef-9976d76f51b5
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetTemporaryStoreLocation method, ITargetInfo.SetTemporaryStoreLocation, ITargetInfo::SetTemporaryStoreLocation, SetTemporaryStoreLocation, SetTemporaryStoreLocation method [SMI], SetTemporaryStoreLocation method [SMI],ITargetInfo interface, smi.itargetinfo_settemporarystorelocation, wcmconfig/ITargetInfo::SetTemporaryStoreLocation
-f1_keywords:
-- wcmconfig/ITargetInfo.SetTemporaryStoreLocation
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ITargetInfo.SetTemporaryStoreLocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITargetInfo::SetTemporaryStoreLocation
+ - wcmconfig/ITargetInfo::SetTemporaryStoreLocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ITargetInfo.SetTemporaryStoreLocation
 ---
 
 # ITargetInfo::SetTemporaryStoreLocation
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current temporary store location.
 
-
 ## -parameters
-
-
-
 
 ### -param TemporaryStoreLocation [in]
 
 The current temporary store location.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,18 +101,7 @@ Indicates that system resources are low.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>

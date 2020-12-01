@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.date: 12/05/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
-f1_keywords:
-- fsrm/IFsrmSetting
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmSetting
+ - fsrm/IFsrmSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmSetting
 ---
 
 # IFsrmSetting interface
@@ -49,18 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +75,7 @@ The <b>IFsrmSetting</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">EmailTest</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">EmailTest</a>
 </td>
 <td align="left" width="63%">
 Send a test email to the specified email address.
@@ -85,7 +84,7 @@ Send a test email to the specified email address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-getactionrunlimitinterval">GetActionRunLimitInterval</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-getactionrunlimitinterval">GetActionRunLimitInterval</a>
 </td>
 <td align="left" width="63%">
 Gets the time that an action that uses the global run limit interval must wait before the action is run 
@@ -95,7 +94,7 @@ Gets the time that an action that uses the global run limit interval must wait b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-setactionrunlimitinterval">SetActionRunLimitInterval</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-setactionrunlimitinterval">SetActionRunLimitInterval</a>
 </td>
 <td align="left" width="63%">
 Sets the time that an action that uses the global run limit interval must wait before the action is run 
@@ -114,7 +113,7 @@ Sets the time that an action that uses the global run limit interval must wait b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail">AdminEmail</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail">AdminEmail</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Retrieves or sets the email address for the administrator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_disablecommandline">DisableCommandLine</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_disablecommandline">DisableCommandLine</a>
 
 
 </td>
@@ -146,7 +145,7 @@ Retrieves or sets a value that determines whether FSRM prevents command line act
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_enablescreeningaudit">EnableScreeningAudit</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_enablescreeningaudit">EnableScreeningAudit</a>
 
 
 </td>
@@ -163,7 +162,7 @@ Retrieves or sets a value that determines whether FSRM keeps audit records of th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a>
 
 
 </td>
@@ -179,7 +178,7 @@ Retrieves or sets the default email address from which email messages are sent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a>
 
 
 </td>
@@ -192,12 +191,9 @@ Retrieves or sets the SMTP server that FSRM uses to send email.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create this object from a script, use the program identifier, "Fsrm.FsrmSetting".
 
@@ -371,21 +367,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 997a6e56-cd11-42bf-b12c-a4418a4dc644
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Reset method, IEnumFilters.Reset, IEnumFilters::Reset, IEnumFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumFilters interface, dshow.ienumfilters_reset, strmif/IEnumFilters::Reset
-f1_keywords:
-- strmif/IEnumFilters.Reset
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEnumFilters.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFilters::Reset
+ - strmif/IEnumFilters::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEnumFilters.Reset
 ---
 
 # IEnumFilters::Reset
@@ -50,40 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Reset</code> method resets the enumeration sequence to the beginning.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns S_OK.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>

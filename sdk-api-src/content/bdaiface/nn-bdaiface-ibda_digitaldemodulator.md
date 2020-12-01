@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 13ecd348-dc2b-4e80-9875-927f4ed55c95
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], IBDA_DigitalDemodulator interface [Microsoft TV Technologies],described, IBDA_DigitalDemodulatorInterface, bdaiface/IBDA_DigitalDemodulator, mstv.ibda_digitaldemodulator
-f1_keywords:
-- bdaiface/IBDA_DigitalDemodulator
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_DigitalDemodulator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_DigitalDemodulator
+ - bdaiface/IBDA_DigitalDemodulator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_DigitalDemodulator
 ---
 
 # IBDA_DigitalDemodulator interface
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>IBDA_DigitalDemodulator</b> interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal. A Network Provider calls these methods on the filter to provide the demodulator with the information it needs to acquire a particular signal. The Network Provider obtains these values from the <a href="/previous-versions/windows/desktop/legacy/dd695081(v=vs.85)">Locator</a> object associated with the tune request or tuning space.
 
-
-The <b>IBDA_DigitalDemodulator</b> interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal. A Network Provider calls these methods on the filter to provide the demodulator with the information it needs to acquire a particular signal. The Network Provider obtains these values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695081(v=vs.85)">Locator</a> object associated with the tune request or tuning space.
-
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
-
-
-
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DigitalDemodulator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_DigitalDemodulator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +71,7 @@ The <b>IBDA_DigitalDemodulator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_innerfecmethod">get_InnerFECMethod</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_innerfecmethod">get_InnerFECMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the inner forward error correction method.
@@ -84,7 +80,7 @@ Retrieves the inner forward error correction method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_innerfecrate">get_InnerFECRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_innerfecrate">get_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the inner forward error correction rate being used on the signal.
@@ -93,7 +89,7 @@ Retrieves the inner forward error correction rate being used on the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">get_ModulationType</a>
+<a href="/previous-versions/windows/desktop/mstv/modulationtype">get_ModulationType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the modulation type for the signal.
@@ -102,7 +98,7 @@ Retrieves the modulation type for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecmethod">get_OuterFECMethod</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecmethod">get_OuterFECMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the outer forward error correction method for the signal.
@@ -111,7 +107,7 @@ Retrieves the outer forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecrate">get_OuterFECRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_outerfecrate">get_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the outer forward error correction rate for the signal.
@@ -120,7 +116,7 @@ Retrieves the outer forward error correction rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spectralinversion">get_SpectralInversion</a>
+<a href="/previous-versions/windows/desktop/mstv/spectralinversion">get_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the spectral inversion value for the signal.
@@ -129,7 +125,7 @@ Retrieves the spectral inversion value for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_symbolrate">get_SymbolRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_symbolrate">get_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the symbol rate for the signal.
@@ -138,7 +134,7 @@ Retrieves the symbol rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecmethod">put_InnerFECMethod</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecmethod">put_InnerFECMethod</a>
 </td>
 <td align="left" width="63%">
 Specifies the inner forward error correction method for the signal.
@@ -147,7 +143,7 @@ Specifies the inner forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecrate">put_InnerFECRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_innerfecrate">put_InnerFECRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the inner forward error correction rate.
@@ -156,7 +152,7 @@ Specifies the inner forward error correction rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_modulationtype">put_ModulationType</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_modulationtype">put_ModulationType</a>
 </td>
 <td align="left" width="63%">
 Specifies the modulation type for the signal.
@@ -165,7 +161,7 @@ Specifies the modulation type for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_outerfecmethod">put_OuterFECMethod</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_outerfecmethod">put_OuterFECMethod</a>
 </td>
 <td align="left" width="63%">
 Specifies the outer forward error correction method for the signal.
@@ -174,7 +170,7 @@ Specifies the outer forward error correction method for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_outerfecrate">put_OuterFECRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_outerfecrate">put_OuterFECRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the outer forward error correction rate for the signal.
@@ -183,7 +179,7 @@ Specifies the outer forward error correction rate for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_spectralinversion">put_SpectralInversion</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_spectralinversion">put_SpectralInversion</a>
 </td>
 <td align="left" width="63%">
 Specifies the spectral inversion value for the signal.
@@ -192,32 +188,19 @@ Specifies the spectral inversion value for the signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_symbolrate">put_SymbolRate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_symbolrate">put_SymbolRate</a>
 </td>
 <td align="left" width="63%">
 Specifies the symbol rate for the signal.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_DigitalDemodulator)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

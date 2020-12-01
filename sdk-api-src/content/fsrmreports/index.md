@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: fsrm
+f1_keywords:
+ - fsrmreports
+ - fsrmreports/fsrmreports
 ---
 
 # Fsrmreports.h header
 
 
 ## -description
-
 
 This header is used by File Server Resource Manager. For more information, see:
 

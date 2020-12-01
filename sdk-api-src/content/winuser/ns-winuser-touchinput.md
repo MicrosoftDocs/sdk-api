@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
 ms.date: 12/05/2018
 ms.keywords: '*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT'
-f1_keywords:
-- winuser/TOUCHINPUT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winuser.h
-api_name:
-- TOUCHINPUT
 targetos: Windows
 req.typenames: TOUCHINPUT, *PTOUCHINPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTOUCHINPUT
+ - winuser/tagTOUCHINPUT
+ - PTOUCHINPUT
+ - winuser/PTOUCHINPUT
+ - TOUCHINPUT
+ - winuser/TOUCHINPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winuser.h
+api_name:
+ - TOUCHINPUT
 ---
 
 # TOUCHINPUT structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates data for touch input.
 
-
 ## -struct-fields
-
-
-
 
 ### -field x
 
 The x-coordinate (horizontal point) of the touch input. This member is indicated in hundredths of a pixel of physical screen coordinates.
 
-
 ### -field y
 
 The y-coordinate (vertical point) of the touch input. This member is indicated in hundredths of a pixel of physical screen coordinates.
-
 
 ### -field hSource
 
@@ -76,40 +74,31 @@ A device handle for the source input device.  Each device is given a unique prov
 
 A touch point identifier that distinguishes a particular touch input.  This value stays consistent in a touch contact sequence from the point a contact comes down until it comes back up. An ID may be reused later for subsequent contacts.
 
-
 ### -field dwFlags
 
 A set of bit flags that specify various aspects of touch point press, release, and motion. The bits in this member can be any reasonable combination of the values in the Remarks section.
-
 
 ### -field dwMask
 
 A set of bit flags that specify which of the optional fields in the structure contain valid values. The availability of valid information in the optional fields is device-specific. Applications should use an optional field value only when the corresponding bit is set in <i>dwMask</i>. This field may contain a combination of the <i>dwMask</i> flags mentioned in the Remarks section.
 
-
 ### -field dwTime
 
 The time stamp for the event, in milliseconds.  The consuming application should note that the system performs no validation on this field; when the <b>TOUCHINPUTMASKF_TIMEFROMSYSTEM</b> flag is not set, the accuracy and sequencing of values in this field are completely dependent on the touch input provider.
-
 
 ### -field dwExtraInfo
 
 An additional value associated with the touch event.
 
-
 ### -field cxContact
 
 The width of the touch contact area in hundredths of a pixel in physical screen coordinates. This value is only valid if the <b>dwMask</b> member has the <b>TOUCHEVENTFMASK_CONTACTAREA</b> flag set.
-
 
 ### -field cyContact
 
 The height of the touch contact area in hundredths of a pixel in physical screen coordinates. This value is only valid if the <b>dwMask</b> member has the <b>TOUCHEVENTFMASK_CONTACTAREA</b> flag set.
 
-
 ## -remarks
-
-
 
 The following table lists the flags for the <b>dwFlags</b> member.
        <table>
@@ -243,7 +232,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 ```
 
 
-The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="https://msdn.microsoft.com/library/ms645597.aspx">GetRawInputDevice</a> to retrieve information about the device.
+The following example shows how to get the device information from the <b>hSource</b> member.  This example uses <a href="/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDevice</a> to retrieve information about the device.
 
 
 ```cpp
@@ -261,21 +250,10 @@ for (UINT i = 0; i < cInputs; i++){
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/structures">Structures</a>

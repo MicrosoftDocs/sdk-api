@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9b64a48f-ebab-46af-a89d-b8bc488d85da
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], IEnumTuningSpaces interface [Microsoft TV Technologies],described, IEnumTuningSpacesInterface, mstv.ienumtuningspaces, tuner/IEnumTuningSpaces
-f1_keywords:
-- tuner/IEnumTuningSpaces
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IEnumTuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTuningSpaces
+ - tuner/IEnumTuningSpaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IEnumTuningSpaces
 ---
 
 # IEnumTuningSpaces interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IEnumTuningSpaces</b> interface is implemented on a standard COM collection of tuning space objects and is obtained through various <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer</a>.
-
-
-
+The <b>IEnumTuningSpaces</b> interface is implemented on a standard COM collection of tuning space objects and is obtained through various <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTuningSpaces</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTuningSpaces</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTuningSpaces</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTuningSpaces</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IEnumTuningSpaces</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection and all its sub-objects.
@@ -82,7 +78,7 @@ Creates a new copy of the collection and all its sub-objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> element in the collection.
@@ -91,7 +87,7 @@ Retrieves the next <i>n</i> element in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -100,32 +96,19 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ienumtuningspaces-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified element in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IEnumTuningSpaces)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

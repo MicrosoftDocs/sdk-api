@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminal, IEnumTerminal interface [TAPI 2.2], IEnumTerminal interface [TAPI 2.2],described, _tapi3_ienumterminal, tapi3.ienumterminal, tapi3if/IEnumTerminal
-f1_keywords:
-- tapi3if/IEnumTerminal
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTerminal
+ - tapi3if/IEnumTerminal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumTerminal
 ---
 
 # IEnumTerminal interface
@@ -49,19 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IEnumTerminal</b> interface provides COM-standard enumeration methods for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface. The following methods return a pointer to 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface. The following methods return a pointer to 
 <b>IEnumTerminal</b>:<dl>
 <dd>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-enumerateterminals">ITStream::EnumerateTerminals</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-enumerateterminals">ITStream::EnumerateTerminals</a>
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-enumerateterminals">ITSubStream::EnumerateTerminals</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-enumerateterminals">ITSubStream::EnumerateTerminals</a>
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">ITTerminalSupport::EnumerateStaticTerminals</a>
 </dd>
 </dl>
 
@@ -69,10 +69,9 @@ The
 The 
 <b>IEnumTerminal</b> interface is hidden from Visual Basic and scripting languages.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTerminal</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTerminal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +86,7 @@ The <b>IEnumTerminal</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-clone">Clone</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -96,7 +95,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-next">Next</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -105,7 +104,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-reset">Reset</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -114,23 +113,15 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-skip">Skip</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumterminal-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

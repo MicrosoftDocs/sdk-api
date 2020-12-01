@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winsock
+f1_keywords:
+ - ws2spi
+ - ws2spi/ws2spi
 ---
 
 # Ws2Spi.h header
 
 
 ## -description
-
 
 This header is used by Windows Sockets 2. For more information, see:
 

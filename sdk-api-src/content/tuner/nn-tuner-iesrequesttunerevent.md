@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
 ms.date: 12/05/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
-f1_keywords:
-- tuner/IESRequestTunerEvent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESRequestTunerEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESRequestTunerEvent
+ - tuner/IESRequestTunerEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESRequestTunerEvent
 ---
 
 # IESRequestTunerEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-supported device  to get exclusive access to a tuner and its Conditional Access Services (CAS).
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getconsequences">GetConsequences</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
@@ -79,7 +78,7 @@ Gets a code that indicates consquences of a device request for exclusive access 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getestimatedtime">GetEstimatedTime</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
@@ -89,7 +88,7 @@ Gets the amount of time a device estimates it  needs exclusive access to a tuner
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
@@ -99,7 +98,7 @@ Gets a code that indicates the the priority of a device request for exclusive ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesrequesttunerevent-getreason">GetReason</a>
 </td>
 <td align="left" width="63%">
 Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.
@@ -107,14 +106,8 @@ Gets a code that indicates the reason a device is requesting exclusive access to
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESRequestTunerEvent)</code>.
-
-
-

@@ -8,10 +8,6 @@ tech.root: battery
 ms.assetid: 39930853-AB5A-4DA5-A544-7913770C4D88
 ms.date: 12/05/2018
 ms.keywords: '*PBATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA structure [Battery Devices], PBATTERY_WMI_STATIC_DATA, PBATTERY_WMI_STATIC_DATA structure pointer [Battery Devices], batclass/BATTERY_WMI_STATIC_DATA, batclass/PBATTERY_WMI_STATIC_DATA, battery.battery_wmi_static_data'
-f1_keywords:
-- batclass/BATTERY_WMI_STATIC_DATA
-dev_langs:
-- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Batclass.h
-api_name:
-- BATTERY_WMI_STATIC_DATA
 targetos: Windows
 req.typenames: BATTERY_WMI_STATIC_DATA, *PBATTERY_WMI_STATIC_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BATTERY_WMI_STATIC_DATA
+ - batclass/_BATTERY_WMI_STATIC_DATA
+ - PBATTERY_WMI_STATIC_DATA
+ - batclass/PBATTERY_WMI_STATIC_DATA
+ - BATTERY_WMI_STATIC_DATA
+ - batclass/BATTERY_WMI_STATIC_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Batclass.h
+api_name:
+ - BATTERY_WMI_STATIC_DATA
 ---
 
 ## -description
@@ -56,15 +61,15 @@ A tag that identifies a specific battery.
 
 ### -field ManufactureDate
 
-A <a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured. 
+A <a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a> structure that specifies the date that the battery was manufactured.
 
 ### -field Granularity
 
-Specifies the granularity as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> value.
+Specifies the granularity as a <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> value.
 
 ### -field Capabilities
 
-Battery capabilities as a ULONG value encoded with one or more of the following flags: 
+Battery capabilities as a ULONG value encoded with one or more of the following flags:
 
 ### -field Technology
 
@@ -80,7 +85,7 @@ The theoretical capacity of the battery when new, in milliwatt-hours. If BATTERY
 
 ### -field DefaultAlert1
 
-The capacity, in milliwatt-hours, at which a low battery alert should occur. 
+The capacity, in milliwatt-hours, at which a low battery alert should occur.
 
 ### -field DefaultAlert2
 
@@ -88,7 +93,7 @@ The capacity, in milliwatt-hours, at which a warning battery alert should occur.
 
 ### -field CriticalBias
 
-Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="https://msdn.microsoft.com/48df787b-f9f6-45d1-872c-ceeda3087af6">BATTERY_STATUS</a>, before reporting those values.
+Specify the amount, in milliwatt-hours, of any small reserved charge that remains when the critical battery level shows zero. Miniclass drivers should subtract this value from the battery's <b>FullChargedCapacity</b> and remaining capacity, which is reported in <a href="/previous-versions/ff536290(v=vs.85)">BATTERY_STATUS</a>, before reporting those values.
 
 ### -field Strings
 
@@ -96,4 +101,4 @@ Four variable length string values are stored with the first USHORT value contai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
+<a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a>

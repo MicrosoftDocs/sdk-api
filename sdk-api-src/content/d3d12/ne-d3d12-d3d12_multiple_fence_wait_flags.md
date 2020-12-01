@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: A5C52F58-C082-41C2-99E4-800DFBA250D2
 ms.date: 12/05/2018
 ms.keywords: D3D12_MULTIPLE_FENCE_WAIT_FLAGS, D3D12_MULTIPLE_FENCE_WAIT_FLAGS enumeration, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, direct3d12.d3d12_multiple_fence_wait_flags
-f1_keywords:
-- d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 targetos: Windows
 req.typenames: D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_MULTIPLE_FENCE_WAIT_FLAGS
+ - d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 ---
 
 # D3D12_MULTIPLE_FENCE_WAIT_FLAGS enumeration
@@ -49,50 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies multiple wait flags for multiple fences.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE
 
 No flags are being passed. This means to use the default behavior, which is to wait for all fences before signaling the event.
 
-
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY
 
 Modifies behavior to indicate that the event should be signaled after any one of the fence values has been reached by its corresponding fence.
-
 
 ### -field D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL
 
 An alias for **D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE**, meaning to use the default behavior and wait for all fences.
 
-
 ## -remarks
 
-
-
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a> method.
-
-
-
+This enum is used by the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-seteventonmultiplefencecompletion">SetEventOnMultipleFenceCompletion</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>

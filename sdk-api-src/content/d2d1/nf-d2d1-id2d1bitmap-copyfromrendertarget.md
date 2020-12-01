@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 42e25099-016e-4656-a412-72dd0fbac1fd
 ms.date: 12/05/2018
 ms.keywords: CopyFromRenderTarget, CopyFromRenderTarget method [Direct2D], CopyFromRenderTarget method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromRenderTarget method, ID2D1Bitmap.CopyFromRenderTarget, ID2D1Bitmap::CopyFromRenderTarget, d2d1/ID2D1Bitmap::CopyFromRenderTarget, direct2d.ID2D1Bitmap_CopyFromRenderTarget
-f1_keywords:
-- d2d1/ID2D1Bitmap.CopyFromRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Bitmap.CopyFromRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Bitmap::CopyFromRenderTarget
+ - d2d1/ID2D1Bitmap::CopyFromRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Bitmap.CopyFromRenderTarget
 ---
 
 # ID2D1Bitmap::CopyFromRenderTarget
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies the specified region from the specified render target into the current bitmap.
 
-
 ## -parameters
-
-
-
 
 ### -param destPoint [in, optional]
 
@@ -64,13 +60,11 @@ Type: <b>const <a href="/windows/win32/Direct2D/d2d1-point-2u">D2D1_POINT_2U</a>
 
 In the current bitmap, the upper-left corner of the area to which the region specified by <i>srcRect</i> is copied.
 
-
 ### -param renderTarget [in]
 
 Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>*</b>
 
 The render target that contains the region to copy.
-
 
 ### -param srcRect [in, optional]
 
@@ -78,21 +72,13 @@ Type: <b>const <a href="/windows/win32/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b
 
 The area of <i>renderTarget</i> to copy.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
-
-
-
 ## -remarks
-
-
 
 This method does not update the size of the current bitmap. If the contents of the source bitmap do not fit in the current bitmap, this method fails. Also, note that this method does not perform format conversion, and will fail if the bitmap formats do not match.
 
@@ -100,16 +86,7 @@ Calling this method may cause the current batch to flush if the bitmap is active
 
 All clips and layers must be popped off of the render target before calling this method.  The method returns <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT</a>  if any clips or layers are currently applied to the render target.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
- 
-
- 
 

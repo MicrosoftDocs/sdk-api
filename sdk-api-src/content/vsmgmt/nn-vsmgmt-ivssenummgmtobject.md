@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
-f1_keywords:
-- vsmgmt/IVssEnumMgmtObject
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssEnumMgmtObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumMgmtObject
+ - vsmgmt/IVssEnumMgmtObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssEnumMgmtObject
 ---
 
 # IVssEnumMgmtObject interface
@@ -49,27 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssEnumMgmtObject</b> interface contains 
     methods to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the 
+    <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumMgmtObject</b> when it is no longer 
     needed. It may also need to call <b>IUnknown::Release</b> to 
     release temporary objects (such as strings) returned during enumeration.
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas</a> 
+    <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot</a>, 
+    <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume</a>, 
+    <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume</a>, and 
+    <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas</a> 
     methods return an <b>IVssEnumMgmtObject</b> object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumMgmtObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssEnumMgmtObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssEnumMgmtObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +83,7 @@ The <b>IVssEnumMgmtObject</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-clone">Clone</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the specified list of enumerated elements by creating a copy of the 
@@ -92,7 +91,7 @@ Creates a copy of the specified list of enumerated elements by creating a copy o
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">Next</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the specified number of objects from the specified list of enumerated 
@@ -100,7 +99,7 @@ Returns the specified number of objects from the specified list of enumerated
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator so that 
@@ -109,41 +108,33 @@ Resets the enumerator so that
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-skip">Skip</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforsnapshot">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasforvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-querydiffareasonvolume">IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-queryvolumessupportedfordiffareas">IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3
 ms.date: 12/05/2018
 ms.keywords: '*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR structure [QOS], PE_ATTRIB_TYPE_POLICY_LOCATOR, POLICY_LOCATOR_SUB_TYPE_ASCII_DN, POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC, qos.idpe_attr, qospol/*LPIDPE_ATTR, qospol/IDPE_ATTR'
-f1_keywords:
-- qospol/IDPE_ATTR
-dev_langs:
-- c++
 req.header: qospol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qospol.h
-api_name:
-- IDPE_ATTR
 targetos: Windows
 req.typenames: IDPE_ATTR, *LPIDPE_ATTR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IDPE_ATTR
+ - qospol/_IDPE_ATTR
+ - LPIDPE_ATTR
+ - qospol/LPIDPE_ATTR
+ - IDPE_ATTR
+ - qospol/IDPE_ATTR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qospol.h
+api_name:
+ - IDPE_ATTR
 ---
 
 # IDPE_ATTR structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDPE_ATTR</b> structure contains identity policy element attribute information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PeAttribLength
 
 Length of the entire <b>IDPE_ATTR</b> structure, in bytes.
-
 
 ### -field PeAttribType
 
@@ -83,8 +82,6 @@ Policy locator type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PeAttribSubType
 
@@ -136,21 +133,11 @@ The sub type is encoded UNICODE.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PeAttribValue
 
 Policy element value.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>

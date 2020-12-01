@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
-f1_keywords:
-- taskschd/IRegisteredTask
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegisteredTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredTask
+ - taskschd/IRegisteredTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegisteredTask
 ---
 
 # IRegisteredTask interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the  properties that describe the task.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisteredTask</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisteredTask</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisteredTask</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisteredTask</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IRegisteredTask</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances">GetInstances</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getinstances">GetInstances</a>
 </td>
 <td align="left" width="63%">
 Returns all instances of the registered task that are currently running.
@@ -80,7 +79,7 @@ Returns all instances of the registered task that are currently running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getruntimes">GetRunTimes</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getruntimes">GetRunTimes</a>
 </td>
 <td align="left" width="63%">
 Gets the times that the registered task is scheduled to run during a specified time.
@@ -89,7 +88,7 @@ Gets the times that the registered task is scheduled to run during a specified t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getsecuritydescriptor">GetSecurityDescriptor</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the security descriptor that is used as credentials for the registered task.
@@ -98,7 +97,7 @@ Gets the security descriptor that is used as credentials for the registered task
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">Run</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the registered task immediately.
@@ -107,7 +106,7 @@ Runs the registered task immediately.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex">RunEx</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex">RunEx</a>
 </td>
 <td align="left" width="63%">
 Runs the registered task immediately using specified flags and a session identifier.
@@ -116,7 +115,7 @@ Runs the registered task immediately using specified flags and a session identif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor">SetSecurityDescriptor</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-setsecuritydescriptor">SetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor that is used as credentials for the registered task.
@@ -125,7 +124,7 @@ Sets the security descriptor that is used as credentials for the registered task
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-stop">Stop</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the registered task immediately.
@@ -143,7 +142,7 @@ Stops the registered task immediately.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition">Definition</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_definition">Definition</a>
 
 
 </td>
@@ -159,7 +158,7 @@ Gets the definition of the task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled">Enabled</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_enabled">Enabled</a>
 
 
 </td>
@@ -175,7 +174,7 @@ Gets or sets a Boolean value that indicates if the registered task is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lastruntime">LastRunTime</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lastruntime">LastRunTime</a>
 
 
 </td>
@@ -191,7 +190,7 @@ Gets the time the registered task was last run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lasttaskresult">LastTaskResult</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_lasttaskresult">LastTaskResult</a>
 
 
 </td>
@@ -207,7 +206,7 @@ Gets the results that were returned the last time the registered task was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_name">Name</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_name">Name</a>
 
 
 </td>
@@ -223,7 +222,7 @@ Gets the name of the registered task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_nextruntime">NextRunTime</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_nextruntime">NextRunTime</a>
 
 
 </td>
@@ -239,7 +238,7 @@ Gets the time when the registered task is next scheduled to run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_numberofmissedruns">NumberOfMissedRuns</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_numberofmissedruns">NumberOfMissedRuns</a>
 
 
 </td>
@@ -255,7 +254,7 @@ Gets the number of times the registered task has missed a scheduled run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_path">Path</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_path">Path</a>
 
 
 </td>
@@ -271,7 +270,7 @@ Gets the path to where the registered task is stored.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_state">State</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_state">State</a>
 
 
 </td>
@@ -287,7 +286,7 @@ Gets the operational state of the registered task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_xml">XML</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-get_xml">XML</a>
 
 
 </td>
@@ -300,20 +299,12 @@ Gets the XML-formatted registration information for the registered task.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

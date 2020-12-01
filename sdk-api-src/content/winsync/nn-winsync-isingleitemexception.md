@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130
 ms.date: 12/05/2018
 ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
-f1_keywords:
-- winsync/ISingleItemException
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISingleItemException
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISingleItemException
+ - winsync/ISingleItemException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISingleItemException
 ---
 
 # ISingleItemException interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents an item to exclude from a knowledge object. 
-
+Represents an item to exclude from a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISingleItemException</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISingleItemException</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISingleItemException</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getclockvector">GetClockVector</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getclockvector">GetClockVector</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with the item exception.
@@ -80,7 +79,7 @@ Gets the clock vector that is associated with the item exception.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getitemid">GetItemId</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isingleitemexception-getitemid">GetItemId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the item that is specified in the exception.
@@ -88,16 +87,8 @@ Gets the ID of the item that is specified in the exception.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6213faaa-86ff-46e7-80da-a043cae40805
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp
-f1_keywords:
-- strmif/IMemAllocatorCallbackTemp
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMemAllocatorCallbackTemp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemAllocatorCallbackTemp
+ - strmif/IMemAllocatorCallbackTemp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMemAllocatorCallbackTemp
 ---
 
 # IMemAllocatorCallbackTemp interface
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IMemAllocatorCallbackTemp</code> interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list.
 
 The use of this interface is deprecated.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorCallbackTemp</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>. <b>IMemAllocatorCallbackTemp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorCallbackTemp</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>. <b>IMemAllocatorCallbackTemp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +72,7 @@ The <b>IMemAllocatorCallbackTemp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount">GetFreeCount</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount">GetFreeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of free media samples.
@@ -85,23 +81,15 @@ Retrieves the number of free media samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-setnotify">SetNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-setnotify">SetNotify</a>
 </td>
 <td align="left" width="63%">
 Sets or removes a callback on the allocator.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>

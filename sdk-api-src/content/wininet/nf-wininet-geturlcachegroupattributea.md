@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 5e4e5666-1999-4bea-9b3e-f435f5dcfff8
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheGroupAttribute, GetUrlCacheGroupAttribute function [WinINet], GetUrlCacheGroupAttributeA, GetUrlCacheGroupAttributeW, _inet_geturlcachegroupattribute_function, wininet.geturlcachegroupattribute, wininet/GetUrlCacheGroupAttribute, wininet/GetUrlCacheGroupAttributeA, wininet/GetUrlCacheGroupAttributeW
-f1_keywords:
-- wininet/GetUrlCacheGroupAttribute
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- GetUrlCacheGroupAttribute
-- GetUrlCacheGroupAttributeA
-- GetUrlCacheGroupAttributeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUrlCacheGroupAttributeA
+ - wininet/GetUrlCacheGroupAttributeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - GetUrlCacheGroupAttribute
+ - GetUrlCacheGroupAttributeA
+ - GetUrlCacheGroupAttributeW
 ---
 
 # GetUrlCacheGroupAttributeA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the attribute information of the specified cache group.
 
-
 ## -parameters
-
-
-
 
 ### -param gid [in]
 
 Identifier of the cache group.
 
-
 ### -param dwFlags [in]
 
 This parameter is reserved and must be 0.
-
 
 ### -param dwAttributes [in]
 
@@ -157,41 +151,29 @@ Sets or retrieves the cache group type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpGroupInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
-
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
 
 ### -param lpcbGroupInfo [in, out]
 
 Pointer to a variable that contains the size of the 
 <i>lpGroupInfo</i> buffer. When the function returns, the variable contains the number of bytes copied to the buffer, or the required size of the buffer, in bytes.
 
-
 ### -param lpReserved [in, out]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -202,15 +184,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 ## -see-also
 
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>

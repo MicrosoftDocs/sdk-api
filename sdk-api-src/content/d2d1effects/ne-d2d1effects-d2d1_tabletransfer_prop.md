@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: C4623CD1-1EA2-4CA4-BF28-755BE1BA401E
 ms.date: 12/05/2018
 ms.keywords: D2D1_TABLETRANSFER_PROP, D2D1_TABLETRANSFER_PROP enumeration [Direct2D], D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, D2D1_TABLETRANSFER_PROP_BLUE_TABLE, D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, D2D1_TABLETRANSFER_PROP_GREEN_TABLE, D2D1_TABLETRANSFER_PROP_RED_DISABLE, D2D1_TABLETRANSFER_PROP_RED_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_TABLE, direct2d.d2d1_tabletransfer_prop
-f1_keywords:
-- d2d1effects/D2D1_TABLETRANSFER_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_TABLETRANSFER_PROP
 targetos: Windows
 req.typenames: D2D1_TABLETRANSFER_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_TABLETRANSFER_PROP
+ - d2d1effects/D2D1_TABLETRANSFER_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_TABLETRANSFER_PROP
 ---
 
 # D2D1_TABLETRANSFER_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/table-transfer">Table transfer effect</a>.
-        
-
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/table-transfer">Table transfer effect</a>.
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_TABLETRANSFER_PROP_RED_TABLE
 
@@ -67,7 +62,6 @@ The list of values used to define the transfer function for the Red channel.
 The type is FLOAT[].
 
 The default is {0.0f, 1.0f}.
-
 
 ### -field D2D1_TABLETRANSFER_PROP_RED_DISABLE
 
@@ -79,7 +73,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_TABLETRANSFER_PROP_GREEN_TABLE
 
 The list of values used to define the transfer function for the Green channel.
@@ -88,7 +81,6 @@ The list of values used to define the transfer function for the Green channel.
 The type is FLOAT[].
 
 The default is {0.0f, 1.0f}.
-
 
 ### -field D2D1_TABLETRANSFER_PROP_GREEN_DISABLE
 
@@ -100,7 +92,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_TABLETRANSFER_PROP_BLUE_TABLE
 
 The list of values used to define the transfer function for the Blue channel.
@@ -109,7 +100,6 @@ The list of values used to define the transfer function for the Blue channel.
 The type is FLOAT[].
 
 The default is {0.0f, 1.0f}.
-
 
 ### -field D2D1_TABLETRANSFER_PROP_BLUE_DISABLE
 
@@ -121,7 +111,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_TABLETRANSFER_PROP_ALPHA_TABLE
 
 The list of values used to define the transfer function for the Alpha channel.
@@ -130,7 +119,6 @@ The list of values used to define the transfer function for the Alpha channel.
 The type is FLOAT[].
 
 The default is {0.0f, 1.0f}.
-
 
 ### -field D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE
 
@@ -141,7 +129,6 @@ If you set this to TRUE the effect does not apply the transfer function to the A
 The type is BOOL.
 
 The default is FALSE.
-
 
 ### -field D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT
 
@@ -155,8 +142,4 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_TABLETRANSFER_PROP_FORCE_DWORD
-
-
-

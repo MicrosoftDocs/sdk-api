@@ -27,5 +27,4 @@ To develop Quality of Service (QOS), you need these headers:
  * [winsock2.h](../winsock2/index.md)
 
 For programming guidance for this technology, see:
-* [Quality of Service (QOS)](https://docs.microsoft.com/previous-versions/windows/desktop/qos)
-
+* [Quality of Service (QOS)](/previous-versions/windows/desktop/qos)

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wer
+f1_keywords:
+ - werapi
+ - werapi/werapi
 ---
 
 # Werapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Error Reporting. For more information, see:
 

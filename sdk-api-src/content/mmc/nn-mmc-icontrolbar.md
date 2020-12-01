@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 8ba12331-34e8-46ff-ab66-a6ada3d731f6
 ms.date: 12/05/2018
 ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MMC],described, _slate_icontrolbar, mmc.icontrolbar, mmc/IControlbar
-f1_keywords:
-- mmc/IControlbar
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IControlbar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IControlbar
+ - mmc/IControlbar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IControlbar
 ---
 
 # IControlbar interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IControlbar</b> interface provides a way to create toolbars and other controls.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlbar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlbar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlbar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlbar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IControlbar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">Attach</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-attach">Attach</a>
 </td>
 <td align="left" width="63%">
 Associates a control with a control bar.
@@ -80,7 +79,7 @@ Associates a control with a control bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">Create</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a control.
@@ -89,12 +88,11 @@ Creates and returns a control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontrolbar-detach">Detach</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontrolbar-detach">Detach</a>
 </td>
 <td align="left" width="63%">
 Removes a control from a control bar.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c686a424-b0b9-4efc-8dc6-b92193de2a5d
 ms.date: 12/05/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], IVssComponent interface [VSS],described, _win32_ivsscomponent, base.ivsscomponent, vswriter/IVssComponent
-f1_keywords:
-- vswriter/IVssComponent
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent
+ - vswriter/IVssComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent
 ---
 
 # IVssComponent class
@@ -50,18 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssComponent</b> interface is a C++ (not COM) interface 
     containing methods for examining and modifying information about components contained in a requester's Backup 
     Components Document.
 
 <b>IVssComponent</b> objects can be obtained only for those 
     components that have been explicitly added to the Backup Components Document during a backup operation by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> 
     method.
 
 Information about components explicitly added during a restore operation using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent"> IVssBackupComponents::AddRestoreSubcomponent</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent"> IVssBackupComponents::AddRestoreSubcomponent</a> 
     are not available through the <b>IVssComponent</b> interface.
 
 Some information common to both components and implicitly selected subcomponents available through 
@@ -81,7 +81,7 @@ Some information common to both components and implicitly selected subcomponents
 </ul>Other information is not included in the Backup Components Document and can be inferred using the 
     <b>IVssComponent</b> object in conjunction with the appropriate 
     Writer Metadata Documents based on a writer's component hierarchy expressed in the logical paths (see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
+    <a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and 
     Logical Paths</a>).
 
 The interface can be used by either a writer or a requester, although certain methods are supported only for 
@@ -92,16 +92,16 @@ The following methods return an <b>IVssComponent</b>
     interface:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponent">IVssWriterComponents::GetComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponent">IVssWriterComponents::GetComponent</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext">IVssWriterComponentsExt::GetComponent</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext">IVssWriterComponentsExt::GetComponent</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssComponent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssComponent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssComponent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssComponent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -116,7 +116,7 @@ The <b>IVssComponent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifylsn">AddDifferencedFilesByLastModifyLSN</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifylsn">AddDifferencedFilesByLastModifyLSN</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -125,7 +125,7 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">AddDifferencedFilesByLastModifyTime</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">AddDifferencedFilesByLastModifyTime</a>
 </td>
 <td align="left" width="63%">
 Used by supporting writers to return its differenced files for incremental or differential backup on the 
@@ -135,7 +135,7 @@ Used by supporting writers to return its differenced files for incremental or di
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">AddDirectedTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddirectedtarget">AddDirectedTarget</a>
 </td>
 <td align="left" width="63%">
 Adds a directed target specification.
@@ -144,7 +144,7 @@ Adds a directed target specification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">AddPartialFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">AddPartialFile</a>
 </td>
 <td align="left" width="63%">
 Indicates that only portions of a file are to be backed up.
@@ -153,7 +153,7 @@ Indicates that only portions of a file are to be backed up.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getadditionalrestores">GetAdditionalRestores</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getadditionalrestores">GetAdditionalRestores</a>
 </td>
 <td align="left" width="63%">
 Indicates whether additional restores will occur for the current component.
@@ -162,7 +162,7 @@ Indicates whether additional restores will occur for the current component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">GetAlternateLocationMapping</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmapping">GetAlternateLocationMapping</a>
 </td>
 <td align="left" width="63%">
 Returns the location of data restored to an alternate location.
@@ -171,7 +171,7 @@ Returns the location of data restored to an alternate location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount">GetAlternateLocationMappingCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount">GetAlternateLocationMappingCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of alternate location mappings used by a requester in restoring data.
@@ -180,17 +180,17 @@ Returns the number of alternate location mappings used by a requester in restori
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a>
 </td>
 <td align="left" width="63%">
 Returns the backup metadata set by 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>.
+     <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupoptions">GetBackupOptions</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupoptions">GetBackupOptions</a>
 </td>
 <td align="left" width="63%">
 Returns the backup options associated with the writer.
@@ -199,7 +199,7 @@ Returns the backup options associated with the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">GetBackupStamp</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupstamp">GetBackupStamp</a>
 </td>
 <td align="left" width="63%">
 Returns a store backup stamp.
@@ -208,7 +208,7 @@ Returns a store backup stamp.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">GetBackupSucceeded</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">GetBackupSucceeded</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the backup operation was successful.
@@ -217,7 +217,7 @@ Indicates whether the backup operation was successful.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponentname">GetComponentName</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponentname">GetComponentName</a>
 </td>
 <td align="left" width="63%">
 Returns the logical name of this component.
@@ -226,7 +226,7 @@ Returns the logical name of this component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponenttype">GetComponentType</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getcomponenttype">GetComponentType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of this component.
@@ -235,7 +235,7 @@ Returns the type of this component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">GetDifferencedFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfile">GetDifferencedFile</a>
 </td>
 <td align="left" width="63%">
 Returns information about a specified file specification supporting an incremental or differential backup or 
@@ -245,7 +245,7 @@ Returns information about a specified file specification supporting an increment
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">GetDifferencedFilesCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">GetDifferencedFilesCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of file specifications marked by a writer as supporting an incremental or differential 
@@ -255,7 +255,7 @@ Returns the number of file specifications marked by a writer as supporting an in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">GetDirectedTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtarget">GetDirectedTarget</a>
 </td>
 <td align="left" width="63%">
 Returns information about a specified directed target.
@@ -264,7 +264,7 @@ Returns information about a specified directed target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">GetDirectedTargetCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdirectedtargetcount">GetDirectedTargetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of directed target specifications.
@@ -273,7 +273,7 @@ Returns the number of directed target specifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getfilerestorestatus">GetFileRestoreStatus</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getfilerestorestatus">GetFileRestoreStatus</a>
 </td>
 <td align="left" width="63%">
 Determines whether all of the files were successfully restored.
@@ -282,7 +282,7 @@ Determines whether all of the files were successfully restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getlogicalpath">GetLogicalPath</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getlogicalpath">GetLogicalPath</a>
 </td>
 <td align="left" width="63%">
 Returns the logical path of this component.
@@ -291,7 +291,7 @@ Returns the logical path of this component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtarget">GetNewTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtarget">GetNewTarget</a>
 </td>
 <td align="left" width="63%">
 Returns information about a new target restore location.
@@ -300,7 +300,7 @@ Returns information about a new target restore location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">GetNewTargetCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">GetNewTargetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the count of new target restore locations.
@@ -309,7 +309,7 @@ Returns the count of new target restore locations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">GetPartialFile</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">GetPartialFile</a>
 </td>
 <td align="left" width="63%">
 Returns information on a partial file to be backed up.
@@ -318,7 +318,7 @@ Returns information on a partial file to be backed up.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">GetPartialFileCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">GetPartialFileCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of partial files to be backed up.
@@ -327,27 +327,27 @@ Returns the number of partial files to be backed up.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">GetPostRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">GetPostRestoreFailureMsg</a>
 </td>
 <td align="left" width="63%">
 Returns the failure message returned by the component's writer while handling the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">GetPreRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">GetPreRestoreFailureMsg</a>
 </td>
 <td align="left" width="63%">
 Returns the failure message returned by the component's writer while handling the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp">GetPreviousBackupStamp</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpreviousbackupstamp">GetPreviousBackupStamp</a>
 </td>
 <td align="left" width="63%">
 Returns the backup stamp of an earlier backup operation upon which to base a differential or incremental 
@@ -357,7 +357,7 @@ Returns the backup stamp of an earlier backup operation upon which to base a dif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">GetRestoreMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">GetRestoreMetadata</a>
 </td>
 <td align="left" width="63%">
 Returns the restore metadata associated with the current component.
@@ -366,7 +366,7 @@ Returns the restore metadata associated with the current component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoreoptions">GetRestoreOptions</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoreoptions">GetRestoreOptions</a>
 </td>
 <td align="left" width="63%">
 Returns the restore options associated with the writer.
@@ -375,7 +375,7 @@ Returns the restore options associated with the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">GetRestoreSubcomponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">GetRestoreSubcomponent</a>
 </td>
 <td align="left" width="63%">
 Returns the specified subcomponent to be restored.
@@ -384,7 +384,7 @@ Returns the specified subcomponent to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponentcount">GetRestoreSubcomponentCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponentcount">GetRestoreSubcomponentCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of subcomponents to be restored.
@@ -393,7 +393,7 @@ Returns the number of subcomponents to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoretarget">GetRestoreTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoretarget">GetRestoreTarget</a>
 </td>
 <td align="left" width="63%">
 Returns the restore target associated with the current component.
@@ -402,7 +402,7 @@ Returns the restore target associated with the current component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-isselectedforrestore">IsSelectedForRestore</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-isselectedforrestore">IsSelectedForRestore</a>
 </td>
 <td align="left" width="63%">
 Determines if the component has been selected to be restored.
@@ -411,7 +411,7 @@ Determines if the component has been selected to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">SetBackupMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">SetBackupMetadata</a>
 </td>
 <td align="left" width="63%">
 Associates backup metadata with the component.
@@ -420,7 +420,7 @@ Associates backup metadata with the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">SetBackupStamp</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">SetBackupStamp</a>
 </td>
 <td align="left" width="63%">
 Sets the backup stamp indicating the time of a backup operation.
@@ -429,27 +429,27 @@ Sets the backup stamp indicating the time of a backup operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">SetPostRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">SetPostRestoreFailureMsg</a>
 </td>
 <td align="left" width="63%">
 Sets the failure message for the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg">SetPreRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg">SetPreRestoreFailureMsg</a>
 </td>
 <td align="left" width="63%">
 Sets the failure message for the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">SetRestoreMetadata</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">SetRestoreMetadata</a>
 </td>
 <td align="left" width="63%">
 Sets the restore metadata for the current component.
@@ -458,12 +458,11 @@ Sets the restore metadata for the current component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoretarget">SetRestoreTarget</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoretarget">SetRestoreTarget</a>
 </td>
 <td align="left" width="63%">
 Sets the restore target for the current component.
 
 </td>
 </tr>
-</table> 
-
+</table>

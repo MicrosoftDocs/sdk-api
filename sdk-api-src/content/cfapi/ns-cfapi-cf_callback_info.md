@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: EF24E61E-4AF7-4946-A326-1F045267AE01
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INFO, cloudApi.cf_callback_info
-f1_keywords:
-- cfapi/CF_CALLBACK_INFO
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_CALLBACK_INFO
 targetos: Windows
 req.typenames: CF_CALLBACK_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_CALLBACK_INFO
+ - cfapi/CF_CALLBACK_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_CALLBACK_INFO
 ---
 
 ## -description
@@ -56,11 +57,11 @@ The size of the structure.
 
 ### -field ConnectionKey
 
-An opaque handle created by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> for a sync root managed by the sync provider. 
+An opaque handle created by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> for a sync root managed by the sync provider.
 
 ### -field CallbackContext
 
-points to an opaque blob that the sync provider provides at the sync root connect time. 
+points to an opaque blob that the sync provider provides at the sync root connect time.
 
 ### -field VolumeGuidName
 
@@ -108,7 +109,7 @@ The absolute path of the placeholder file/directory to be serviced on the volume
 
 ### -field TransferKey
 
-An opaque handle to the placeholder file/directory to be serviced. The sync provider must pass it back to the <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> call in order to perform the desired operation on the file/directory.
+An opaque handle to the placeholder file/directory to be serviced. The sync provider must pass it back to the <a href="/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> call in order to perform the desired operation on the file/directory.
 
 ### -field PriorityHint
 
@@ -129,7 +130,7 @@ Points to a structure that contains the information about the user process that 
 A file name is considered normalized if all of the following are true:
 
 <ul>
-<li>It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>.)
+<li>It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>.)
 </li>
 <li>The volume name is the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1").
 </li>

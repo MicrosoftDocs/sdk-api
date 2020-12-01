@@ -27,24 +27,30 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPCANCELBLOCKINGCALL
+ - LPWSPCANCELBLOCKINGCALL
+f1_keywords:
+ - LPWSPCANCELBLOCKINGCALL
+ - ws2spi/LPWSPCANCELBLOCKINGCALL
 ---
 
 ## -description
+
 The **LPWSPCancelBlockingCall** function cancels a blocking call that is currently in progress.
 
 ## -parameters
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 The value returned by **LPWSPCancelBlockingCall** is zero if the operation was successfully canceled. Otherwise, the value SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -77,8 +83,8 @@ Indicates there is no outstanding blocking call.
 
 </table>
 
-
 ## -remarks
+
 This function cancels any outstanding blocking operation for this thread. It is typically used in two situations:
 
 -   A Windows Sockets SPI client is processing a message that has been received while a service provider is implementing pseudoblocking. In this case, <a href="/windows/win32/api/winsock2/nf-winsock2-wsaisblocking">**WSAIsBlocking**</a> will be true.
@@ -97,6 +103,7 @@ If a cancel operation compromised the integrity of a SOCK_STREAM's data stream i
 It is acceptable for **LPWSPCancelBlockingCall** to return successfully if the blocking network operation completes prior to being canceled. In this case, the blocking operation will return successfully as if **LPWSPCancelBlockingCall** had never been called. The only way for the Winsock SPI client to confirm that an operation was actually canceled is to check for a return code of <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEINTR">WSAEINTR</a> from the blocking call.
 
 ## -see-also
+
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueryblockingcallback">WPUQueryBlockingCallback</a>
 
 <a href="/windows/win32/api/winsock2/nf-winsock2-wsaisblocking">WSAIsBlocking</a>
@@ -108,5 +115,4 @@ It is acceptable for **LPWSPCancelBlockingCall** to return successfully if the b
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect">LPWSPSelect</a>
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-
 

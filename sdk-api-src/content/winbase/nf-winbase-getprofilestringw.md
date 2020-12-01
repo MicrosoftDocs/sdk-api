@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
 ms.date: 12/05/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
-f1_keywords:
-- winbase/GetProfileString
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetProfileString
-- GetProfileStringA
-- GetProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProfileStringW
+ - winbase/GetProfileStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetProfileString
+ - GetProfileStringA
+ - GetProfileStringW
 ---
 
 # GetProfileStringW function
@@ -55,24 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the string associated with a key in the specified section of the Win.ini file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications, therefore this function should not be called from server code. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section containing the key. If this parameter is <b>NULL</b>, the function copies all section names in the file to the supplied buffer.
 
-
 ### -param lpKeyName [in]
 
 The name of the key whose associated string is to be retrieved. If this parameter is <b>NULL</b>, the function copies all keys in the given section to the supplied buffer. Each string is followed by a <b>null</b> character, and the final string is followed by a second <b>null</b> character.
-
 
 ### -param lpDefault [in]
 
@@ -84,20 +79,15 @@ A default string. If the <i>lpKeyName</i> key cannot be found in the initializat
 
 Avoid specifying a default string with trailing blank characters. The function inserts a <b>null</b> character in the <i>lpReturnedString</i> buffer to strip any trailing blanks.
 
-
 ### -param lpReturnedString [out]
 
 A pointer to a buffer that receives the character string.
-
 
 ### -param nSize [in]
 
 The size of the buffer pointed to by the <i>lpReturnedString</i> parameter, in characters.
 
-
 ## -returns
-
-
 
 The return value is the number of characters copied to the buffer, not including the <b>null</b>-terminating character.
 
@@ -105,12 +95,7 @@ If neither <i>lpAppName</i> nor <i>lpKeyName</i> is <b>NULL</b> and the supplied
 
 If either <i>lpAppName</i> or <i>lpKeyName</i> is <b>NULL</b> and the supplied destination buffer is too small to hold all the strings, the last string is truncated and followed by two <b>null</b> characters. In this case, the return value is equal to <i>nSize</i> minus two.
 
-
-
-
 ## -remarks
-
-
 
 If the string associated with the <i>lpKeyName</i> parameter is enclosed in single or double quotation marks, the marks are discarded when the 
 <b>GetProfileString</b> function returns the string.
@@ -126,7 +111,7 @@ key=string
       .
       .</code></pre>
 An application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
 
 The <i>lpDefault</i> parameter must point to a valid string, even if the string is empty (that is, even if its first character is a <b>null</b> character).
 
@@ -168,15 +153,8 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

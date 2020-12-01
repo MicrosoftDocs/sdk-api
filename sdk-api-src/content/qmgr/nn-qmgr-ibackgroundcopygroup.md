@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
-f1_keywords:
-- qmgr/IBackgroundCopyGroup
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup
-- IBackgroundCopyGroup.InternalSetProp
-- IBackgroundCopyGroup.QueryNewJobInterface
-- IBackgroundCopyGroup.SetNotificationPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup
+ - qmgr/IBackgroundCopyGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup
+ - IBackgroundCopyGroup.InternalSetProp
+ - IBackgroundCopyGroup.QueryNewJobInterface
+ - IBackgroundCopyGroup.SetNotificationPointer
 ---
 
 # IBackgroundCopyGroup interface
@@ -52,15 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
-<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
-
-Use the <b>IBackgroundCopyGroup</b> interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue. 
-
+Use the <b>IBackgroundCopyGroup</b> interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyGroup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +74,7 @@ The <b>IBackgroundCopyGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-cancelgroup">CancelGroup</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-cancelgroup">CancelGroup</a>
 </td>
 <td align="left" width="63%">
 Cancels all jobs in the group.
@@ -84,7 +83,7 @@ Cancels all jobs in the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-createjob">CreateJob</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-createjob">CreateJob</a>
 </td>
 <td align="left" width="63%">
 Creates a new job and adds it to the group.
@@ -93,7 +92,7 @@ Creates a new job and adds it to the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-enumjobs">EnumJobs</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-enumjobs">EnumJobs</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of jobs in the group.
@@ -102,7 +101,7 @@ Retrieves a list of jobs in the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-get_groupid">get_GroupID</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-get_groupid">get_GroupID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier that uniquely identifies the group within the download queue.
@@ -111,7 +110,7 @@ Retrieves the identifier that uniquely identifies the group within the download 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-get_size">get_Size</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-get_size">get_Size</a>
 </td>
 <td align="left" width="63%">
 Retrieves the calculated size of all jobs in the group.
@@ -120,7 +119,7 @@ Retrieves the calculated size of all jobs in the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getjob">GetJob</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getjob">GetJob</a>
 </td>
 <td align="left" width="63%">
 Retrieves a job from the group.
@@ -129,7 +128,7 @@ Retrieves a job from the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getprogress">GetProgress</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the progress of all jobs in the group.
@@ -138,7 +137,7 @@ Retrieves the progress of all jobs in the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getprop">GetProp</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getprop">GetProp</a>
 </td>
 <td align="left" width="63%">
 Retrieves a group property value.
@@ -147,7 +146,7 @@ Retrieves a group property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getstatus">GetStatus</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the group.
@@ -157,7 +156,7 @@ Retrieves the state of the group.
 <tr data="declared;">
 <td align="left" width="37%"><b>InternalSetProp</b></td>
 <td align="left" width="63%">
-Internal use only. Use <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-setprop">SetProp</a>.
+Internal use only. Use <a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-setprop">SetProp</a>.
 
 </td>
 </tr>
@@ -170,7 +169,7 @@ Internal use only.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-resumegroup">ResumeGroup</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-resumegroup">ResumeGroup</a>
 </td>
 <td align="left" width="63%">
 Resumes the download of all jobs in the group.
@@ -186,7 +185,7 @@ Internal use only.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-setprop">SetProp</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-setprop">SetProp</a>
 </td>
 <td align="left" width="63%">
 Sets a group property value.
@@ -195,7 +194,7 @@ Sets a group property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-suspendgroup">SuspendGroup</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-suspendgroup">SuspendGroup</a>
 </td>
 <td align="left" width="63%">
 Suspends the download of all jobs in the group.
@@ -204,12 +203,11 @@ Suspends the download of all jobs in the group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-switchtoforeground">SwitchToForeground</a>
+<a href="/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopygroup-switchtoforeground">SwitchToForeground</a>
 </td>
 <td align="left" width="63%">
 Downloads the group in the foreground instead of the background.
 
 </td>
 </tr>
-</table> 
-
+</table>

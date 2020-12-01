@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 17E409FB-2997-432C-977F-BEBF53068B42
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_STANDARD_INFO, CF_SYNC_ROOT_STANDARD_INFO structure, cfapi/CF_SYNC_ROOT_STANDARD_INFO, cloudApi.cf_sync_root_standard_info
-f1_keywords:
-- cfapi/CF_SYNC_ROOT_STANDARD_INFO
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_SYNC_ROOT_STANDARD_INFO
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_STANDARD_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_SYNC_ROOT_STANDARD_INFO
+ - cfapi/CF_SYNC_ROOT_STANDARD_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_SYNC_ROOT_STANDARD_INFO
 ---
 
 ## -description
@@ -93,3 +94,4 @@ The identity of the sync root directory.
 ## -remarks
 
 <b>CF_MAX_PROVIDER_NAME_LENGTH</b> and <b>CF_MAX_PROVIDER_VERSION_LENGTH</b>  are set to 255.
+

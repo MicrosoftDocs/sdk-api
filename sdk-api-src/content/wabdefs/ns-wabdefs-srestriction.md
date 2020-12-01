@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction'
-f1_keywords:
-- wabdefs/SRestriction
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wabdefs.h
-api_name:
-- SRestriction
 targetos: Windows
 req.typenames: '*LPSRestriction, SRestriction'
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - _SRestriction
+ - wabdefs/_SRestriction
+ - LPSRestriction
+ - wabdefs/LPSRestriction
+ - SRestriction
+ - wabdefs/SRestriction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wabdefs.h
+api_name:
+ - SRestriction
 ---
 
 # SRestriction structure
@@ -50,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. Describes a filter for limiting the view of a table to particular rows.
 
-
 ## -struct-fields
-
-
-
 
 ### -field rt
 
@@ -131,11 +131,9 @@ Variable of type <b>ULONG</b> that specifies the restriction type. The possible 
 
 <b>SRestriction</b> structure describes a subobject restriction, which applies a restriction to a message's attachments or recipients.
 
-
 ### -field res
 
 Union of restriction structures describing the filter to be applied. The specific structure included in the <b>res</b> member depends on the value of the <b>rt</b> member. The following list gives the mapping between the structure and the restriction type.
-
 
 ### -field res.resCompareProps
 
@@ -143,13 +141,11 @@ Union of restriction structures describing the filter to be applied. The specifi
 </b>
 RES_COMPAREPROPS
 
-
 ### -field res.resAnd
 
 <b>Type: <b>SAndRestriction</b>
 </b>
 RES_AND
-
 
 ### -field res.resOr
 
@@ -157,13 +153,11 @@ RES_AND
 </b>
 RES_OR
 
-
 ### -field res.resNot
 
 <b>Type: <b>SNotRestriction</b>
 </b>
 RES_NOT
-
 
 ### -field res.resContent
 
@@ -171,13 +165,11 @@ RES_NOT
 </b>
 RES_CONTENT
 
-
 ### -field res.resProperty
 
 <b>Type: <b>SPropertyRestriction</b>
 </b>
 RES_PROPERTY
-
 
 ### -field res.resBitMask
 
@@ -185,13 +177,11 @@ RES_PROPERTY
 </b>
 RES_BITMASK
 
-
 ### -field res.resSize
 
 <b>Type: <b>SSizeRestriction</b>
 </b>
 RES_SIZE
-
 
 ### -field res.resExist
 
@@ -199,13 +189,11 @@ RES_SIZE
 </b>
 RES_EXIST
 
-
 ### -field res.resSub
 
 <b>Type: <b>SSubRestriction</b>
 </b>
 RES_SUBRESTRICTION
-
 
 ### -field res.resComment
 

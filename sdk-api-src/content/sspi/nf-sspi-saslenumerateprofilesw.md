@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
 ms.date: 12/05/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
-f1_keywords:
-- sspi/SaslEnumerateProfiles
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SaslEnumerateProfiles
-- SaslEnumerateProfilesA
-- SaslEnumerateProfilesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaslEnumerateProfilesW
+ - sspi/SaslEnumerateProfilesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SaslEnumerateProfiles
+ - SaslEnumerateProfilesA
+ - SaslEnumerateProfilesW
 ---
 
 # SaslEnumerateProfilesW function
@@ -51,39 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaslEnumerateProfiles</b> function lists the packages that provide a SASL interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ProfileList [out]
 
 Pointer to a list of Unicode or ANSI strings that contain the names of the packages with SASL wrapper support.
 
-
 ### -param ProfileCount [out]
 
 Pointer to an unsigned <b>LONG</b> value that contains the number of packages with SASL wrapper support.
 
-
 ## -returns
-
-
 
 If the call is completed successfully, this function returns SEC_E_OK.
 
 If the function fails, the return value is a nonzero error code.
 
-
-
-
 ## -remarks
-
-
 
 The current list is maintained in the registry under <pre xml:space="preserve"><b>SYSTEM</b>
    <b>CurrentControlSet</b>

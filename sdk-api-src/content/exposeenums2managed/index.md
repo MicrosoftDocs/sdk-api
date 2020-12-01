@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winprog
+f1_keywords:
+ - exposeenums2managed
+ - exposeenums2managed/exposeenums2managed
 ---
 
 # Exposeenums2Managed.h header
 
 
 ## -description
-
 
 This header is used by Developer Notes. For more information, see:
 

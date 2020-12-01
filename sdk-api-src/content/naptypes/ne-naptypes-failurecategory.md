@@ -8,10 +8,6 @@ tech.root: NAP
 ms.assetid: 3f528702-c9f3-4a91-960b-8b3f3eea91e9
 ms.date: 12/05/2018
 ms.keywords: FailureCategory, FailureCategory enumeration [NAP], failureCategoryClientCommunication, failureCategoryClientComponent, failureCategoryNone, failureCategoryOther, failureCategoryServerCommunication, failureCategoryServerComponent, nap.failurecategory_enum, naptypes/FailureCategory, naptypes/failureCategoryClientCommunication, naptypes/failureCategoryClientComponent, naptypes/failureCategoryNone, naptypes/failureCategoryOther, naptypes/failureCategoryServerCommunication, naptypes/failureCategoryServerComponent
-f1_keywords:
-- naptypes/FailureCategory
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- FailureCategory
 targetos: Windows
 req.typenames: FailureCategory
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagFailureCategory
+ - naptypes/tagFailureCategory
+ - FailureCategory
+ - naptypes/FailureCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - FailureCategory
 ---
 
 # FailureCategory enumeration
@@ -49,52 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>FailureCategory</b> enumeration indicates the source of a failure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field failureCategoryNone
 
 No failure.
 
-
 ### -field failureCategoryOther
 
 A failure which is not due to client or server components or communications.
-
 
 ### -field failureCategoryClientComponent
 
 Failure due to client component.
 
-
 ### -field failureCategoryClientCommunication
 
 Failure due to client communication.
-
 
 ### -field failureCategoryServerComponent
 
 Failure due to server component.
 
-
 ### -field failureCategoryServerCommunication
 
 Failure due to server communication.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>
- 
-
- 
-
+<a href="/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>

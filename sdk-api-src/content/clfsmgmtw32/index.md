@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: fs
+f1_keywords:
+ - clfsmgmtw32
+ - clfsmgmtw32/clfsmgmtw32
 ---
 
 # Clfsmgmtw32.h header
 
 
 ## -description
-
 
 This header is used by Data Access and Storage. For more information, see:
 

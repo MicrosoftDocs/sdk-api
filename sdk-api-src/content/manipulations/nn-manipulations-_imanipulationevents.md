@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
 ms.date: 12/05/2018
 ms.keywords: _IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents
-f1_keywords:
-- manipulations/_IManipulationEvents
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- _IManipulationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IManipulationEvents
+ - manipulations/_IManipulationEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - _IManipulationEvents
 ---
 
 # _IManipulationEvents interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles manipulation and inertia events.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IManipulationEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">_IManipulationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>_IManipulationEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -95,16 +94,8 @@ Handles the event when manipulation or inertia begins.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 57a777a4-03f5-416a-ae28-474d8794a759
 ms.date: 12/05/2018
 ms.keywords: INetFwService, INetFwService interface [ICS/ICF], INetFwService interface [ICS/ICF],described, ics.inetfwservice, netfw/INetFwService
-f1_keywords:
-- netfw/INetFwService
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwService
+ - netfw/INetFwService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwService
 ---
 
 # INetFwService interface
@@ -50,16 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>INetFwService</b> interface provides access to the properties of a service that may be authorized to
 listen through the firewall.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwService</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwService</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +74,7 @@ The <b>INetFwService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_customized">get_Customized</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_customized">get_Customized</a>
 </td>
 <td align="left" width="63%">
 Gets the flag showing whether at least one of the ports associated with the service
@@ -85,7 +84,7 @@ Gets the flag showing whether at least one of the ports associated with the serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">get_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">get_Enabled</a>
 </td>
 <td align="left" width="63%">
 Gets the flag showing if all the ports associated with the service are enabled.
@@ -94,7 +93,7 @@ Gets the flag showing if all the ports associated with the service are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_globallyopenports">get_GloballyOpenPorts</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_globallyopenports">get_GloballyOpenPorts</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of globally open ports associated with the service.
@@ -103,7 +102,7 @@ Gets the collection of globally open ports associated with the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_ipversion">get_IpVersion</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_ipversion">get_IpVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the IP version for which the service is authorized.
@@ -112,7 +111,7 @@ Gets the IP version for which the service is authorized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_name">get_Name</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name of the service.
@@ -121,7 +120,7 @@ Gets the friendly name of the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">get_RemoteAddresses</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">get_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Gets the contents of the RemoteAddress property.
@@ -130,7 +129,7 @@ Gets the contents of the RemoteAddress property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">get_Scope</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">get_Scope</a>
 </td>
 <td align="left" width="63%">
 Gets the contents of the Scope property.
@@ -139,7 +138,7 @@ Gets the contents of the Scope property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_type">get_Type</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_type">get_Type</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the service.
@@ -148,7 +147,7 @@ Gets the type of the service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">put_Enabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">put_Enabled</a>
 </td>
 <td align="left" width="63%">
 Sets the flag showing if all the ports associated with the service are enabled.
@@ -157,7 +156,7 @@ Sets the flag showing if all the ports associated with the service are enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_ipversion">put_IpVersion</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_ipversion">put_IpVersion</a>
 </td>
 <td align="left" width="63%">
 Sets the IP version for which the service is authorized.
@@ -166,7 +165,7 @@ Sets the IP version for which the service is authorized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">put_RemoteAddresses</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">put_RemoteAddresses</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the RemoteAddress property.
@@ -175,7 +174,7 @@ Sets the contents of the RemoteAddress property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">put_Scope</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">put_Scope</a>
 </td>
 <td align="left" width="63%">
 Sets the contents of the Scope property.
@@ -192,7 +191,7 @@ Sets the contents of the Scope property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_customized">Customized</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_customized">Customized</a>
 
 
 </td>
@@ -205,7 +204,7 @@ Accesses the flag showing whether at least one of the ports associated with the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">Enabled</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_enabled">Enabled</a>
 
 
 </td>
@@ -217,7 +216,7 @@ Accesses the flag showing if all the ports associated with the service are enabl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_globallyopenports">GloballyOpenPorts</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_globallyopenports">GloballyOpenPorts</a>
 
 
 </td>
@@ -229,7 +228,7 @@ Accesses the collection of open ports associated with the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_name">Name</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_name">Name</a>
 
 
 </td>
@@ -241,7 +240,7 @@ Read-only access to the name of the service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">RemoteAddresses</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_remoteaddresses">RemoteAddresses</a>
 
 
 </td>
@@ -253,7 +252,7 @@ Accesses the RemoteAddress property for this port.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">Scope</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">Scope</a>
 
 
 </td>
@@ -265,7 +264,7 @@ Accesses the   Scope property.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_type">Type</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwservice-get_type">Type</a>
 
 
 </td>
@@ -274,37 +273,24 @@ Read-only access to the type of the service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Instances of this interface are retrieved
-through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a> collection. 
+through the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a> collection. 
 
 All configuration changes take
 effect immediately.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], IPhotoAcquireItem interface [Picture Acquisition],described, IPhotoAcquireItemInterface, photoacquire/IPhotoAcquireItem, picacq.iphotoacquireitem
-f1_keywords:
-- photoacquire/IPhotoAcquireItem
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoAcquireItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireItem
+ - photoacquire/IPhotoAcquireItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoAcquireItem
 ---
 
 # IPhotoAcquireItem interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IPhotoAcquireItem</code> interface provides methods for working with items as they are acquired from a device.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IPhotoAcquireItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">CanDelete</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">CanDelete</a>
 </td>
 <td align="left" width="63%">
 Indicates whether an item may be deleted.
@@ -82,7 +78,7 @@ Indicates whether an item may be deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-delete">Delete</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes an item.
@@ -91,7 +87,7 @@ Deletes an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getitemname">GetItemName</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getitemname">GetItemName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file name for an item.
@@ -100,7 +96,7 @@ Retrieves the file name for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property of an item.
@@ -109,7 +105,7 @@ Retrieves the value of a property of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getstream">GetStream</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a read-only stream containing the contents of an item.
@@ -118,7 +114,7 @@ Retrieves a read-only stream containing the contents of an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getsubitemat">GetSubItemAt</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getsubitemat">GetSubItemAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves the subitem of an item, given the index of the subitem.
@@ -127,7 +123,7 @@ Retrieves the subitem of an item, given the index of the subitem.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getsubitemcount">GetSubItemCount</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getsubitemcount">GetSubItemCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of subitems contained in an item.
@@ -136,7 +132,7 @@ Retrieves the number of subitems contained in an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getthumbnail">GetThumbnail</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getthumbnail">GetThumbnail</a>
 </td>
 <td align="left" width="63%">
 Retrieves the thumbnail provided for an item.
@@ -145,23 +141,15 @@ Retrieves the thumbnail provided for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property for an item.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>

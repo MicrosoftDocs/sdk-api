@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_EXCHANGE_TYPE, WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows], WS_METADATA_EXCHANGE_TYPE_HTTP_GET, WS_METADATA_EXCHANGE_TYPE_MEX, WS_METADATA_EXCHANGE_TYPE_NONE, webservices/WS_METADATA_EXCHANGE_TYPE, webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET, webservices/WS_METADATA_EXCHANGE_TYPE_MEX, webservices/WS_METADATA_EXCHANGE_TYPE_NONE, wsw.ws_metadata_exchange_type
-f1_keywords:
-- webservices/WS_METADATA_EXCHANGE_TYPE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,48 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_METADATA_EXCHANGE_TYPE
 targetos: Windows
 req.typenames: WS_METADATA_EXCHANGE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_METADATA_EXCHANGE_TYPE
+ - webservices/WS_METADATA_EXCHANGE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_METADATA_EXCHANGE_TYPE
 ---
 
 ## -description
 
 Information about enabling and disabling types of metadata exchange.
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field WS_METADATA_EXCHANGE_TYPE_NONE
 
-Disables WS-MetadataExchange/HTTP GET servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.  
-                    This is the default value of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
-                
-
+Disables WS-MetadataExchange/HTTP GET servicing on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.  
+                    This is the default value of  <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_endpoint_property_id">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> property.
 
 ### -field WS_METADATA_EXCHANGE_TYPE_MEX
 
-Enables servicing of WS-MetadataExchange 1.1 request servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.
-                
-
+Enables servicing of WS-MetadataExchange 1.1 request servicing on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.
 
 ### -field WS_METADATA_EXCHANGE_TYPE_HTTP_GET
 
-Enables servicing of HTTP GET request servicing on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a> for metadata 
+Enables servicing of HTTP GET request servicing on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a> for metadata 
                     retrieval.
-                
-

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4b98d4d8-5b32-4be5-8e80-852305731a7e
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This method is reserved for future use.
 
-
 ## -parameters
-
-
-
 
 ### -param idSnapshot [in]
 
-
 ### -param priority [in]
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

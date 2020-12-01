@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e0638668-bbd2-4696-8482-d72438510740
 ms.date: 12/05/2018
 ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , DMO_SET_TYPE_FLAGSEnumeration, _DMO_SET_TYPE_FLAGS, _DMO_SET_TYPE_FLAGS enumeration [DirectShow], dshow.dmo_set_type_flags, mediaobj/DMO_SET_TYPEF_CLEAR, mediaobj/DMO_SET_TYPEF_TEST_ONLY, mediaobj/_DMO_SET_TYPE_FLAGS
-f1_keywords: 
- - "mediaobj/_DMO_SET_TYPE_FLAGS"
-dev_langs:
- - c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,6 +25,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - _DMO_SET_TYPE_FLAGS
+ - mediaobj/_DMO_SET_TYPE_FLAGS
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,10 +43,6 @@ api_location:
  - Mediaobj.h
 api_name:
  - _DMO_SET_TYPE_FLAGS
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # _DMO_SET_TYPE_FLAGS enumeration
@@ -49,52 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>DMO_SET_TYPE_FLAGS</code> enumeration defines flags for setting the media type on a stream.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field DMO_SET_TYPEF_TEST_ONLY
 
 Test the media type but do not set it.
 
-
 ### -field DMO_SET_TYPEF_CLEAR
 
 Clear the media type that was set for the stream.
 
-
 ## -remarks
-
-
 
 The DMO_SET_TYPEF_TEST_ONLY and DMO_SET_TYPEF_CLEAR flags are mutually exclusive. Do not set both flags.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype">IMediaObject::SetInputType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype">IMediaObject::SetInputType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype">IMediaObject::SetOutputType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype">IMediaObject::SetOutputType</a>

@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE
 ms.date: 12/05/2018
 ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API],described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
-f1_keywords:
-- windows.media.streaming/IMediaRendererActionInformation
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IMediaRendererActionInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaRendererActionInformation
+ - windows.media.streaming/IMediaRendererActionInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IMediaRendererActionInformation
 ---
 
 # IMediaRendererActionInformation interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRendererActionInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaRendererActionInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRendererActionInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaRendererActionInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMediaRendererActionInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-ismuteavailable">IsMuteAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-ismuteavailable">IsMuteAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the DMR is capable of muting the audio.
@@ -79,52 +78,52 @@ Retrieves a value that indicates whether the DMR is capable of muting the audio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-ispauseavailable">IsPauseAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-ispauseavailable">IsPauseAvailable</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the DMR is currently accepting the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-pauseasync">PauseAsync</a> method.
+Retrieves a value that indicates whether the DMR is currently accepting the <a href="/windows/desktop/mediastreaming/imediarenderer-pauseasync">PauseAsync</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-isplayavailable">IsPlayAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-isplayavailable">IsPlayAvailable</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the DMR is currently accepting the accepting the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828938(v=vs.85)">PlayAsync</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a> methods.
+Retrieves a value that indicates whether the DMR is currently accepting the accepting the <a href="/previous-versions/windows/desktop/legacy/hh828938(v=vs.85)">PlayAsync</a> and <a href="/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a> methods.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-isseekavailable">IsSeekAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-isseekavailable">IsSeekAvailable</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the DMR is currently accepting the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828942(v=vs.85)">SeekAsync</a> method.
+Retrieves a value that indicates whether the DMR is currently accepting the <a href="/previous-versions/windows/desktop/legacy/hh828942(v=vs.85)">SeekAsync</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-issetnextsourceavailable">IsSetNextSourceAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-issetnextsourceavailable">IsSetNextSourceAvailable</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the DMR is currently accepting the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828946(v=vs.85)">SetNextSourceFromUriAsync</a> method, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828945(v=vs.85)">SetNextSourceFromStreamAsync</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828944(v=vs.85)">SetNextSourceFromMediaSourceAsync</a> method.
+Retrieves a value that indicates whether the DMR is currently accepting the <a href="/previous-versions/windows/desktop/legacy/hh828946(v=vs.85)">SetNextSourceFromUriAsync</a> method, the <a href="/previous-versions/windows/desktop/legacy/hh828945(v=vs.85)">SetNextSourceFromStreamAsync</a> method or the <a href="/previous-versions/windows/desktop/legacy/hh828944(v=vs.85)">SetNextSourceFromMediaSourceAsync</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-isstopavailable">IsStopAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-isstopavailable">IsStopAvailable</a>
 </td>
 <td align="left" width="63%">
-Retrieves a value that indicates whether the DMR is currently accepting the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer-stopasync">StopAsync</a> method.
+Retrieves a value that indicates whether the DMR is currently accepting the <a href="/windows/desktop/mediastreaming/imediarenderer-stopasync">StopAsync</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-isvolumeavailable">IsVolumeAvailable</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-isvolumeavailable">IsVolumeAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the DMR is capable of adjusting the audio volume level.
@@ -133,12 +132,11 @@ Retrieves a value that indicates whether the DMR is capable of adjusting the aud
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendereractioninformation-playspeeds">PlaySpeeds</a>
+<a href="/windows/desktop/mediastreaming/imediarendereractioninformation-playspeeds">PlaySpeeds</a>
 </td>
 <td align="left" width="63%">
-Retrieves the complete list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828990(v=vs.85)">PlaySpeed</a> values that are accepted by the DMR.
+Retrieves the complete list of <a href="/previous-versions/windows/desktop/legacy/hh828990(v=vs.85)">PlaySpeed</a> values that are accepted by the DMR.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 23063e34-9d77-4167-83cd-8561accf0a8d
 ms.date: 12/05/2018
 ms.keywords: APPLET_PROC, APPLET_PROC callback, CPlApplet, CPlApplet callback function [Windows Shell], _win32_CPlApplet, cpl/CPlApplet, shell.CPlApplet
-f1_keywords:
-- cpl/CPlApplet
-dev_langs:
-- c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cpl.h
-api_name:
-- CPlApplet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - APPLET_PROC
+ - cpl/APPLET_PROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cpl.h
+api_name:
+ - CPlApplet
 ---
 
 ## -description
@@ -80,7 +81,7 @@ Type: <b>LONG</b>
 
 The return value depends on the message. 
 
-For more information, see the descriptions of the individual <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
+For more information, see the descriptions of the individual <a href="/previous-versions/windows/desktop/legacy/cc144185(v=vs.85)">Control Panel messages</a>.
 
 ## -remarks
 

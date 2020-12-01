@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontCollection2 interface [Direct Write]","GetFont
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontFamily method, IDWriteFontCollection2.GetFontFamily, IDWriteFontCollection2::GetFontFamily, GetFontFamily, GetFontFamily method [Direct Write], GetFontFamily method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontfamily, dwrite_3/IDWriteFontCollection2::GetFontFamily
-f1_keywords:
-- dwrite_3/IDWriteFontCollection2.GetFontFamily
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontCollection2::GetFontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontCollection2::GetFontFamily
+ - dwrite_3/IDWriteFontCollection2::GetFontFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontCollection2::GetFontFamily
 ---
 
 ## -description
@@ -57,9 +58,9 @@ Zero-based index of the font family.
 
 ### -param fontFamily [out]
 
-Type: **[IDWriteFontFamily2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2)\*\***
+Type: **[IDWriteFontFamily2](./nn-dwrite_3-idwritefontfamily2.md)\*\***
 
-The address of a pointer to an [IDWriteFontFamily2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily2) interface. On successful completion, the function sets the pointer to a newly created font family object.
+The address of a pointer to an [IDWriteFontFamily2](./nn-dwrite_3-idwritefontfamily2.md) interface. On successful completion, the function sets the pointer to a newly created font family object.
 
 ## -returns
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 95389593-ce88-4f23-ae87-ff1cb67c2e8c
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoOutputScanType, codecapi/eAVEncVideoOutputScan_Automatic, codecapi/eAVEncVideoOutputScan_Interlaced, codecapi/eAVEncVideoOutputScan_Progressive, codecapi/eAVEncVideoOutputScan_SameAsInput, dshow.eavencvideooutputscantype, eAVEncVideoOutputScanType, eAVEncVideoOutputScanType enumeration [DirectShow], eAVEncVideoOutputScanTypeEnumeration, eAVEncVideoOutputScan_Automatic, eAVEncVideoOutputScan_Interlaced, eAVEncVideoOutputScan_Progressive, eAVEncVideoOutputScan_SameAsInput
-f1_keywords:
-- codecapi/eAVEncVideoOutputScanType
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncVideoOutputScanType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncVideoOutputScanType
+ - codecapi/eAVEncVideoOutputScanType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncVideoOutputScanType
 ---
 
 # eAVEncVideoOutputScanType enumeration
@@ -49,49 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies how the encoder interlaces the output video. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputscantype-property">AVEncVideoOutputScanType</a> property.
-
-
-
+Specifies how the encoder interlaces the output video. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideooutputscantype-property">AVEncVideoOutputScanType</a> property.
 
 ## -enum-fields
-
-
-
 
 ### -field eAVEncVideoOutputScan_Progressive
 
 Output frames are progressive.
 
-
 ### -field eAVEncVideoOutputScan_Interlaced
 
 Output frames are interlaced.
-
 
 ### -field eAVEncVideoOutputScan_SameAsInput
 
 The interlacing on the output frames matches the input frames.
 
-
 ### -field eAVEncVideoOutputScan_Automatic
 
 Use the media type on the encoder's input pin to determine whether the frames are progressive or interlaced.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

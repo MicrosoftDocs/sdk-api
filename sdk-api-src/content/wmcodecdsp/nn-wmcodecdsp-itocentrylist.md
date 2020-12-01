@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
-f1_keywords:
-- wmcodecdsp/ITocEntryList
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntryList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntryList
+ - wmcodecdsp/ITocEntryList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntryList
 ---
 
 # ITocEntryList interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITocEntryList</b> interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntryList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntryList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITocEntryList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-addentry">AddEntry</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an individual entry to the list and assigns an index to the entry.
@@ -79,7 +78,7 @@ Adds an individual entry to the list and assigns an index to the entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
+<a href="/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual entry to the list and associates a caller-supplied index with the entry.
@@ -88,7 +87,7 @@ Adds an individual entry to the list and associates a caller-supplied index with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex">GetEntryByIndex</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex">GetEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry, specified by an index, from the list.
@@ -97,7 +96,7 @@ Retrieves an entry, specified by an index, from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrycount">GetEntryCount</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrycount">GetEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of entries in the list.
@@ -106,27 +105,19 @@ Retrieves the number of entries in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264262(v=vs.85)">RemoveEntryByIndex</a>
+<a href="/previous-versions/ee264262(v=vs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes an entry, specified by an index, from the list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>

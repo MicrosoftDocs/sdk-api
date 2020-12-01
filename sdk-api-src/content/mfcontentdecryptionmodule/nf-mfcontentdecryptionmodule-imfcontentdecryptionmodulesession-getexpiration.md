@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::GetExpiration
 f1_keywords:
+ - IMFContentDecryptionModuleSession::GetExpiration
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::GetExpiration
 dev_langs:
  - c++
@@ -43,12 +44,11 @@ dev_langs:
 
 Gets the expiration time for all keys in the session as determined by the Content Decryption Module (CDM).
 
-
 ## -parameters
 
 ### -param expiration
 
-Receives a pointer to an LPWSTR representing the session ID or NaN if no such time exists or if the license explicitly never expires. 
+Receives a pointer to an LPWSTR representing the session ID or NaN if no such time exists or if the license explicitly never expires.
 
 ## -returns
 

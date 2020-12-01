@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d2dbeaf1-29cb-4848-8188-7922fdc15091
 ms.date: 12/05/2018
 ms.keywords: WsReadValue, WsReadValue function [Web Services for Windows], webservices/WsReadValue, wsw.wsreadvalue
-f1_keywords:
-- webservices/WsReadValue
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadValue
+ - webservices/WsReadValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadValue
 ---
 
 # WsReadValue function
 
 
 ## -description
-
 
 Reads text from a Reader and parses it according to the specified value type.
       
@@ -57,48 +57,33 @@ Reads text from a Reader and parses it according to the specified value type.
         the buffer remains empty.
       Comments are skipped and CDATA content is treated the same as other  element content.
       Leading and trailing whitespaces are ignored.
-      If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.</div>
+      If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> from which the value is read.
 
-
 ### -param valueType [in]
 
 The text interpretation type.
 
-
 ### -param value
 
 A pointer to the parsed data if parsing was successful according to the specified value type.  The
-          size required is determined by value type.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
-        
-
+          size required is determined by value type.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
 
 ### -param valueSize [in]
 
 The byte size of the retrieved value.
-        
-
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -130,14 +115,8 @@ A quota was exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An example that reads an element containing an integer value.
 
@@ -207,5 +186,3 @@ tz                     = "Z"
                        | sign hh ":" mm
 d7                     = digit digit? digit? digit? digit? digit? digit?
 </code></pre>
-
-

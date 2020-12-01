@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: bcec87c1-32ba-451b-92bb-80c8a5007adb
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan class [Windows Management Instrumentation], WBEMTimeSpan class [Windows Management Instrumentation],described, _hmm_wbemtimespan, wbemtime/WBEMTimeSpan, wmi.wbemtimespan
-f1_keywords:
-- wbemtime/WBEMTimeSpan
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTimeSpan
+ - wbemtime/WBEMTimeSpan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTimeSpan
 ---
 
 # WBEMTimeSpan class
@@ -50,14 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>WBEMTimeSpan</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b> objects can result from the arithmetic manipulation of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> objects. For example, subtracting one <b>WBEMTime</b> object from another results in a <b>WBEMTimeSpan</b> object that represents the difference in time between the two objects. Instances of <b>WBEMTimeSpan</b> can also be used to wrap any data that has an inherent duration, such as the time that remains until a password expires.
+The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b> objects can result from the arithmetic manipulation of <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> objects. For example, subtracting one <b>WBEMTime</b> object from another results in a <b>WBEMTimeSpan</b> object that represents the difference in time between the two objects. Instances of <b>WBEMTimeSpan</b> can also be used to wrap any data that has an inherent duration, such as the time that remains until a password expires.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTimeSpan</b> has these types of members:
 <ul>
@@ -71,7 +71,7 @@ The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan</a>
 </td>
 <td align="left" width="63%">
 Constructor that creates a time span object.
@@ -87,7 +87,7 @@ Constructor that creates a time span object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-clear">Clear</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Sets the time span to INVALID_TIME.
@@ -96,7 +96,7 @@ Sets the time span to INVALID_TIME.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-getbstr">GetBSTR</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-getbstr">GetBSTR</a>
 </td>
 <td align="left" width="63%">
 Gets the time span as a <b>BSTR</b> in WMI time span format.
@@ -105,7 +105,7 @@ Gets the time span as a <b>BSTR</b> in WMI time span format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-gettime">GetTime</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Returns the time span as a 64-bit integer.
@@ -114,23 +114,15 @@ Returns the time span as a 64-bit integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-isok">IsOk</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-isok">IsOk</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime Class Methods</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime Class Methods</a>

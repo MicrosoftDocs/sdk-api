@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3d12
+f1_keywords:
+ - d3d12
+ - d3d12/d3d12
 ---
 
 # D3D12.h header
 
 
 ## -description
-
 
 This header is used by Direct3D 12 Graphics. For more information, see:
 

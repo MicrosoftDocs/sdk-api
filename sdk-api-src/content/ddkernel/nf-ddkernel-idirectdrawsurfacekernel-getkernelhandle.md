@@ -44,8 +44,6 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurfaceKernel::GetKernelHandle
-
 
 ## -description
 
@@ -60,7 +58,7 @@ The <b>IDirectDrawSurfaceKernel::GetKernelHandle</b> method returns a kernel-mod
 
 
 
-#### - pulSurfaceHandle
+#### -param arg1
 
 Caller-supplied pointer into which the kernel-mode handle of the DirectDraw surface is returned.
 

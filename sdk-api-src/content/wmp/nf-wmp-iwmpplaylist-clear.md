@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 3de2410d-e35a-4f27-bdcf-2a6d85eafe9d
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPlaylist.clear, IWMPPlaylist::clear, IWMPPlaylistclear, clear, clear method [Windows Media Player], clear method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_clear, wmp/IWMPPlaylist::clear
-f1_keywords:
-- wmp/IWMPPlaylist.clear
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlaylist.clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylist::clear
+ - wmp/IWMPPlaylist::clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlaylist.clear
 ---
 
 # IWMPPlaylist::clear
@@ -49,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>clear</b> method is reserved for future use.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>

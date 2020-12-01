@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 3759d40c-414a-4f91-93eb-0ad4a4b091b9
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyDown method, IWMPEvents.KeyDown, IWMPEvents::KeyDown, IWMPEventsKeyDown, KeyDown, KeyDown method [Windows Media Player], KeyDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keydown, wmp/IWMPEvents::KeyDown
-f1_keywords:
-- wmp/IWMPEvents.KeyDown
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPEvents.KeyDown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents::KeyDown
+ - wmp/IWMPEvents::KeyDown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPEvents.KeyDown
 ---
 
 # IWMPEvents::KeyDown
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>KeyDown</b> event occurs when a key is pressed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nKeyCode [in]
 
 Specifies which physical key is pressed. For possible values, see the Remarks section.
 
-
 ### -param nShiftState [in]
 
 A bitfield with the least significant bits corresponding to the SHIFT key (bit 0), the CTRL key (bit 1), and the ALT key (bit 2). These bits correspond to the values 1, 2, and 4, respectively. The shift argument indicates the state of these keys. Some, all, or none of the bits can be set, indicating that some, all, or none of the keys are pressed.
 
-
 ## -remarks
-
-
 
 The <i>nKeyCode</i> argument specifies a physical key. The following tables show the possible values for the major keys on a standard keyboard.
 
@@ -247,16 +236,6 @@ Values for the navigation keys.
 
 <b>Windows Media Player 10 Mobile: </b>This event is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>

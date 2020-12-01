@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_PROCESS_FEATURE_FLAGS","D3D12_VIDEO_PROCESS_F
 tech.root: mf
 ms.assetid: 5471ef83-d960-45ee-9d74-8ef779a12f43
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_PROCESS_FEATURE_FLAGS
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_PROCESS_FEATURE_FLAGS, D3D12_VIDEO_PROCESS_FEATURE_FLAGS,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_FEATURE_FLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_PROCESS_FEATURE_FLAGS
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_FEATURE_FLAGS
+ - d3d12video/D3D12_VIDEO_PROCESS_FEATURE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_PROCESS_FEATURE_FLAGS
 ---
 
 # D3D12_VIDEO_PROCESS_FEATURE_FLAGS enumeration
+
 
 ## -description
 
@@ -59,7 +61,6 @@ The video processor can support 3D stereo video. For more information, see <a hr
 
 All drivers setting this capability must support the following stereo formats: D3D12_VIDEO_PROCESS_STEREO_FORMAT_HORIZONTAL, D3D12_VIDEO_PROCESS_STEREO_FORMAT_VERTICAL, and D3D12_VIDEO_PROCESS_STEREO_FORMAT_SEPARATE.
 
-
 ### -field D3D12_VIDEO_PROCESS_FEATURE_FLAG_ROTATION 
 
 The driver can rotate the input data either 90, 180, or 270 degrees clockwise as part of the video processing operation.
@@ -79,3 +80,4 @@ The driver supports changing the pixel aspect ratio.  If the driver does not rep
 ## -remarks
 
 ## -see-also
+

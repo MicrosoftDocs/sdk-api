@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
-f1_keywords:
-- shobjidl_core/INewMenuClient
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewMenuClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewMenuClient
+ - shobjidl_core/INewMenuClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewMenuClient
 ---
 
 # INewMenuClient interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow manipulation of items in a Windows 7 menu.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewMenuClient</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewMenuClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewMenuClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewMenuClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>INewMenuClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-includeitems">IncludeItems</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-includeitems">IncludeItems</a>
 </td>
 <td align="left" width="63%">
 Allows the view to filter the items shown in the menu.
@@ -79,9 +78,8 @@ Allows the view to filter the items shown in the menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-selectandedititem">SelectAndEditItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-selectandedititem">SelectAndEditItem</a>
 </td>
 <td align="left" width="63%">Selects or edits the specified item in the menu.</td>
 </tr>
-</table> 
-
+</table>

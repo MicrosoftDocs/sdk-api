@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fac9323b-bf32-45d0-95c4-798a1aab4d02
 ms.date: 12/05/2018
 ms.keywords: GetFolderSetData, GetFolderSetData method [Windows Shell], GetFolderSetData method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetFolderSetData method, IBrowserService2.GetFolderSetData, IBrowserService2::GetFolderSetData, shdeprecated/IBrowserService2::GetFolderSetData, shell.IBrowserService2_GetFolderSetData, zone_IBrowserService2_GetFolderSetData
-f1_keywords:
-- shdeprecated/IBrowserService2.GetFolderSetData
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.GetFolderSetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::GetFolderSetData
+ - shdeprecated/IBrowserService2::GetFolderSetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.GetFolderSetData
 ---
 
 # IBrowserService2::GetFolderSetData
@@ -50,38 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Gets a structure containing folder information.
 
-
 ## -parameters
-
-
-
 
 ### -param pfsd [in, out]
 
 Type: <b>tagFolderSetData*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-foldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
-
+A pointer to a <a href="/windows/desktop/api/shdeprecated/ns-shdeprecated-foldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 This method is called by the derived class.
-
-
-

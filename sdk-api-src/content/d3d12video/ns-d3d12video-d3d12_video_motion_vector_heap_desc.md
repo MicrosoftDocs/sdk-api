@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 f1_keywords:
+ - D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
  - d3d12video/D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 dev_langs:
  - c++
@@ -37,7 +38,7 @@ dev_langs:
 
 ## -description
 
-Describes a [ID3D12VideoMotionEstimatorHeap](nn-d3d12video-id3d12videomotionvectorheap.md). Pass this structure into [ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap](nf-d3d12video-id3d12videodevice1-createvideomotionestimatorheap.md) to create an instance of **ID3D12VideoMotionEstimatorHeap**.
+Describes a [ID3D12VideoMotionEstimatorHeap](nn-d3d12video-id3d12videomotionvectorheap.md). Pass this structure into [ID3D12VideoDevice1::CreateVideoMotionVectorHeap](nf-d3d12video-id3d12videodevice1-createvideomotionvectorheap.md) to create an instance of **ID3D12VideoMotionEstimatorHeap**.
 
 ## -struct-fields
 
@@ -47,7 +48,7 @@ The node mask specifying the physical adapter on which the video processor will 
 
 ### -field InputFormat
 
-A value from the [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration specifying the format of the input and reference frames.
+A value from the [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration specifying the format of the input and reference frames.
 
 ### -field BlockSize
 
@@ -66,4 +67,3 @@ A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure re
 Call [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) and specify [D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR](ne-d3d12video-d3d12_feature_video.md) as the feature to determine supported values.
 
 ## -see-also
-

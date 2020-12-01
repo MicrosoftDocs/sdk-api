@@ -4,7 +4,7 @@ title: IMFContentDecryptionModule
 ms.date: 11/26/2019
 ms.topic: language-reference
 targetos: Windows
-description: Represents a Content Decryption Module (CDM) for a DRM key system. 
+description: Represents a Content Decryption Module (CDM) for a DRM key system.
 tech.root: mf
 req.assembly: 
 req.construct-type: iface
@@ -28,18 +28,19 @@ api_location:
 api_name:
  - IMFContentDecryptionModule
 f1_keywords:
+ - IMFContentDecryptionModule
  - mfcontentdecryptionmodule/IMFContentDecryptionModule
 dev_langs:
  - c++
 ---
 
+## -description
+
+Represents a Content Decryption Module (CDM) for a DRM key system.
+
 ## -inheritance
 
 IUnknown
-
-## -description
-
-Represents a Content Decryption Module (CDM) for a DRM key system. 
 
 ## -remarks
 

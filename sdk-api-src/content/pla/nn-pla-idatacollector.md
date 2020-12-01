@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: e1860bcf-c62d-434b-b98b-38bad7f84d89
 ms.date: 12/05/2018
 ms.keywords: IDataCollector, IDataCollector interface [PLA], IDataCollector interface [PLA],described, base.idatacollector, pla.idatacollector, pla/IDataCollector
-f1_keywords:
-- pla/IDataCollector
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollector
+ - pla/IDataCollector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollector
 ---
 
 # IDataCollector interface
@@ -49,32 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets and retrieves collector properties using XML, specifies the log file name, and retrieves the location of the log file.
 
 This interface is an abstract class from which the following data collectors derive:<ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 </li>
 </ul>
 
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollector</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollector</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -90,7 +88,7 @@ The <b>IDataCollector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-setxml">SetXml</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-setxml">SetXml</a>
 </td>
 <td align="left" width="63%">
 Sets the property values of those properties included in the XML. 
@@ -107,7 +105,7 @@ Sets the property values of those properties included in the XML.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectorset">DataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectorset">DataCollectorSet</a>
 
 
 </td>
@@ -119,7 +117,7 @@ Retrieves the data collector set to which this data collector belongs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectortype">DataCollectorType</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectortype">DataCollectorType</a>
 
 
 </td>
@@ -131,7 +129,7 @@ Retrieves the type of this data collector.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">FileName</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">FileName</a>
 
 
 </td>
@@ -143,7 +141,7 @@ Retrieves or sets the base name of the file that will contain the data collector
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">FileNameFormat</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">FileNameFormat</a>
 
 
 </td>
@@ -155,7 +153,7 @@ Retrieves or sets flags that describe how to decorate the file name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">FileNameFormatPattern</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">FileNameFormatPattern</a>
 
 
 </td>
@@ -167,7 +165,7 @@ Retrieves or sets the format pattern to use when decorating the file name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pla/nf-pla-idatacollector-get_index">Index</a>
+<a href="/windows/desktop/api/pla/nf-pla-idatacollector-get_index">Index</a>
 
 
 </td>
@@ -179,7 +177,7 @@ Retrieves the index value of the data collector.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">LatestOutputLocation</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">LatestOutputLocation</a>
 
 
 </td>
@@ -191,7 +189,7 @@ Retrieves or sets the fully decorated file name that PLA used the last time it c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a>
 
 
 </td>
@@ -203,7 +201,7 @@ Retrieves or sets a value that indicates if PLA should append the collected data
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a>
 
 
 </td>
@@ -215,7 +213,7 @@ Retrieves or sets a value that indicates if PLA should create a circular file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">LogOverwrite</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">LogOverwrite</a>
 
 
 </td>
@@ -227,7 +225,7 @@ Retrieves or sets a value that indicates if PLA should overwrite the current fil
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_name">Name</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_name">Name</a>
 
 
 </td>
@@ -239,7 +237,7 @@ Retrieves or sets the name of the data collector.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">OutputLocation</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">OutputLocation</a>
 
 
 </td>
@@ -251,7 +249,7 @@ Retrieves the decorated file name if PLA were to create it now.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_xml">Xml</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_xml">Xml</a>
 
 
 </td>
@@ -260,14 +258,11 @@ Retrieves an XML string that describes the values of the data collector properti
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The following example shows the XML that you can use to initialize this object if you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollectorfromxml">IDataCollectorCollection::CreateDataCollectorFromXml</a> property to create one of the derived data collectors. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_xml">IDataCollector::Xml</a> property also returns this XML.
+The following example shows the XML that you can use to initialize this object if you call the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollectorfromxml">IDataCollectorCollection::CreateDataCollectorFromXml</a> property to create one of the derived data collectors. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_xml">IDataCollector::Xml</a> property also returns this XML.
 
 
 ```xml
@@ -313,7 +308,4 @@ Note that the example does not show the property elements of the derived data co
 ```
 
 
-When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <b>IDataCollector</b>. 
-
-
-
+When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <b>IDataCollector</b>.

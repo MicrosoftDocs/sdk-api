@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 79a09cf3-cf6f-479a-89c7-27f5fcee3186
 ms.date: 12/05/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
-f1_keywords:
-- slpublic/SLOpen
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLOpen
+ - slpublic/SLOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLOpen
 ---
 
 # SLOpen function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the Software Licensing Client (SLC)
 	and connects SLC to the Software Licensing Service (SLS). 
 	If the function succeeds, a context handle is returned for subsequent calls.
 
-
 ## -parameters
-
-
-
 
 ### -param phSLC [out]
 
@@ -66,10 +62,7 @@ Type: <b>HSLC*</b>
 
 A pointer to a context handle returned from the Software Licensing Service.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -93,7 +86,4 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

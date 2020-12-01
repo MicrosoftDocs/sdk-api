@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
-f1_keywords:
-- sdoias/ISdoMachine
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoMachine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoMachine
+ - sdoias/ISdoMachine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoMachine
 ---
 
 # ISdoMachine interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>ISdoMachine</b> interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoMachine</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoMachine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISdoMachine</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISdoMachine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>ISdoMachine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">Attach</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">Attach</a>
 </td>
 <td align="left" width="63%">
 Attaches to a computer in order to administer services on it through SDO.
@@ -80,7 +79,7 @@ Attaches to a computer in order to administer services on it through SDO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">GetAttachedComputer</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getattachedcomputer">GetAttachedComputer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the currently attached computer, if any.
@@ -89,7 +88,7 @@ Retrieves the name of the currently attached computer, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">GetDictionarySDO</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">GetDictionarySDO</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface for an attribute-dictionary SDO.
@@ -98,7 +97,7 @@ Retrieves an interface for an attribute-dictionary SDO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">GetDomainType</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">GetDomainType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of domain, if any, in which the SDO computer resides.
@@ -107,7 +106,7 @@ Retrieves the type of domain, if any, in which the SDO computer resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">GetOSType</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">GetOSType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of operating system running on the SDO computer.
@@ -116,7 +115,7 @@ Retrieves the type of operating system running on the SDO computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">GetServiceSDO</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">GetServiceSDO</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface for the NPS or for the RAS service SDO.
@@ -127,7 +126,7 @@ Retrieves an interface for the NPS or for the RAS service SDO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo">GetUserSDO</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo">GetUserSDO</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface for a user SDO.
@@ -136,31 +135,23 @@ Retrieves an interface for a user SDO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-isdirectoryavailable">IsDirectoryAvailable</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-isdirectoryavailable">IsDirectoryAvailable</a>
 </td>
 <td align="left" width="63%">
 Tests whether an Active Directory service is available on the SDO computer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-interfaces">Server Data Objects Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>

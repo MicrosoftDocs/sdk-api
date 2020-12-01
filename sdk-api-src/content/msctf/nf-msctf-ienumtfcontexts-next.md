@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0727ae8b-a66f-42a7-bc74-4c01bfff3855
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Next method, IEnumTfContexts.Next, IEnumTfContexts::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_next_ref, msctf/IEnumTfContexts::Next, tsf.ienumtfcontexts_next
-f1_keywords:
-- msctf/IEnumTfContexts.Next
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfContexts.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfContexts::Next
+ - msctf/IEnumTfContexts::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfContexts.Next
 ---
 
 # IEnumTfContexts::Next
+
 
 ## -description
 
@@ -58,7 +60,7 @@ Specifies the number of elements to obtain.
 
 ### -param rgContext [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched [out]
 

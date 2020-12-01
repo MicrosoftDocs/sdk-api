@@ -34,6 +34,7 @@ api_location:
 api_name:
  - GdiplusAbort::Abort
 f1_keywords:
+ - GdiplusAbort::Abort
  - gdiplustypes/GdiplusAbort::Abort
 dev_langs:
  - c++
@@ -60,3 +61,4 @@ Return **S_OK** for GDI+ to continue the rendering operation. Return **E_ABORT**
 ## -see-also
 
 [GdiplusAbort](ns-gdiplustypes-gdiplusabort)
+

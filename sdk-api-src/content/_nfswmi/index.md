@@ -16,5 +16,4 @@ Overview of the WMI Provider for NFS technology.
 The WMI Provider for NFS technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [WMI Provider for NFS](/windows/win32/api/_nfswmi)
-
+* [WMI Provider for NFS]()

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: C637E67A-CED7-4235-AAF3-22730E9C7E91
 ms.date: 12/05/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
-f1_keywords:
-- iwscapi/IWscProduct
-dev_langs:
-- c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wsccapi.lib
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsccapi.lib
-api_name:
-- IWscProduct
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWscProduct
+ - iwscapi/IWscProduct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsccapi.lib
+api_name:
+ - IWscProduct
 ---
 
 # IWscProduct interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for getting product information for an individual provider to interact with Windows Security Center.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWscProduct</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWscProduct</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWscProduct</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWscProduct</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWscProduct</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productname">ProductName</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productname">ProductName</a>
 </td>
 <td align="left" width="63%">
 Returns the current product information for the security product.
@@ -79,7 +78,7 @@ Returns the current product information for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstate">ProductState</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstate">ProductState</a>
 </td>
 <td align="left" width="63%">
 Returns the current state of the signature data for the security product.
@@ -88,7 +87,7 @@ Returns the current state of the signature data for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp">ProductStateTimeStamp</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_productstatetimestamp">ProductStateTimeStamp</a>
 </td>
 <td align="left" width="63%">
 Returns the current time  stamp for the security product.
@@ -97,7 +96,7 @@ Returns the current time  stamp for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_remediationpath">RemediationPath</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_remediationpath">RemediationPath</a>
 </td>
 <td align="left" width="63%">
 Returns the current remediation path for the security product.
@@ -106,12 +105,11 @@ Returns the current remediation path for the security product.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus">SignatureStatus</a>
+<a href="/windows/desktop/api/iwscapi/nf-iwscapi-iwscproduct-get_signaturestatus">SignatureStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the current status of the signature data for the security product.
 
 </td>
 </tr>
-</table> 
-
+</table>

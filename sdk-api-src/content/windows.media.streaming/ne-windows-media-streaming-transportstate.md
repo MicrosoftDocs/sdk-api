@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 2F942EAC-514B-4E65-A12F-85558E9A96A0
 ms.date: 12/05/2018
 ms.keywords: Last, NoMediaPresent, Paused, Playing, Recording, Stopped, Transitioning, TransportState, TransportState enumeration [Media Streaming API], Unknown, mediastreaming.transportstate, windows/Last, windows/NoMediaPresent, windows/Paused, windows/Playing, windows/Recording, windows/Stopped, windows/Transitioning, windows/TransportState, windows/Unknown
-f1_keywords:
-- windows.media.streaming/TransportState
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windows.media.streaming.h
-api_name:
-- TransportState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TransportState
+ - windows.media.streaming/TransportState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - TransportState
 ---
 
 # TransportState enumeration
@@ -49,40 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the available transport states as defined by the UPnP Guidelines.
-
 
 ## -enum-fields
 
-
-
-
 ### -field TransportState_Unknown
-
 
 ### -field TransportState_Stopped
 
-
 ### -field TransportState_Playing
-
 
 ### -field TransportState_Transitioning
 
-
 ### -field TransportState_Paused
-
 
 ### -field TransportState_Recording
 
-
 ### -field TransportState_NoMediaPresent
 
-
 ### -field TransportState_Last
-
-
-
 
 #### - Last
 

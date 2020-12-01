@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS'
-f1_keywords:
-- oledlg/OLEUIOBJECTPROPS
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleDlg.h
-api_name:
-- OLEUIOBJECTPROPS
-- OLEUIOBJECTPROPSA
-- OLEUIOBJECTPROPSW
 targetos: Windows
 req.typenames: OLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, *LPOLEUIOBJECTPROPSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagOLEUIOBJECTPROPSW
+ - oledlg/tagOLEUIOBJECTPROPSW
+ - POLEUIOBJECTPROPSW
+ - oledlg/POLEUIOBJECTPROPSW
+ - OLEUIOBJECTPROPSW
+ - oledlg/OLEUIOBJECTPROPSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleDlg.h
+api_name:
+ - OLEUIOBJECTPROPS
+ - OLEUIOBJECTPROPSA
+ - OLEUIOBJECTPROPSW
 ---
 
 # OLEUIOBJECTPROPSW structure
@@ -51,21 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs - <b>General</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate - and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
-
-
-
+Contains information that is used to initialize the standard <b>Object Properties</b> dialog box. It contains references to interfaces used to gather information about the embedding or link, references to three structures that are used to initialize the default tabs - <b>General</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>), <b>View</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>), and <b>Link</b> (<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>), if appropriate - and a standard property-sheet extensibility interface that allows the caller to add additional custom property sheets to the dialog box.
 
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 The size of the structure, in bytes.
-
 
 ### -field dwFlags
 
@@ -117,70 +114,54 @@ The <b>Convert</b> button will be disabled on the general property page.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
-
+Pointer to the standard property sheet header (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
 
 ### -field dwObject
 
 Identifier for the object.
 
-
 ### -field lpObjInfo
 
 Pointer to the interface to manipulate object.
-
 
 ### -field dwLink
 
 Container-defined unique identifier for a single link. Containers can use the pointer to the link's container site for this value.
 
-
 ### -field lpLinkInfo
 
  Pointer to the interface to manipulate link.
-
 
 ### -field lpGP
 
  Pointer to the general page data.
 
-
 ### -field lpVP
 
 Pointer to the view page data.
-
 
 ### -field lpLP
 
 Pointer to the link page data.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuignrlpropsa">OLEUIGNRLPROPS</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuilinkpropsa">OLEUILINKPROPS</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
- 
-
- 
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
 
 ## -remarks
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged
 f1_keywords:
+ - IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSessionCallbacks::KeyStatusChanged
 dev_langs:
  - c++

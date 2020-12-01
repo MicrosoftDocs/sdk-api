@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 2e7ac968-c8b7-4af9-95b1-522e1b37c23a
 ms.date: 12/05/2018
 ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2.2], GetTerminalSuperclassInfo method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],GetTerminalSuperclassInfo method, ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo, ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo, _tapi3_itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
-f1_keywords:
-- termmgr/ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
+ - termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 ---
 
 # ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTerminalSuperclassInfo</b> method gets class information from the registry for the current terminal superclass.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,18 +87,7 @@ Method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>

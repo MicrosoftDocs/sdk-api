@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
 ms.date: 12/05/2018
 ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, SCARD_SHARE_DIRECT, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCardConnect, SCardConnect function [Security], SCardConnectA, SCardConnectW, _smart_scardconnect, security.scardconnect, winscard/SCardConnect, winscard/SCardConnectA, winscard/SCardConnectW
-f1_keywords:
-- winscard/SCardConnect
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-wlan-scard-l1-1-0.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardConnect
-- SCardConnectA
-- SCardConnectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardConnectW
+ - winscard/SCardConnectW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardConnect
+ - SCardConnectA
+ - SCardConnectW
 ---
 
 # SCardConnectW function
@@ -53,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardConnect</b> function establishes a connection (using a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>) between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
-
+The <b>SCardConnect</b> function establishes a connection (using a specific <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>) between the calling application and a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> contained by a specific reader. If no card exists in the specified reader, an error is returned.
 
 ## -parameters
 
-
-
-
 ### -param hContext [in]
 
-A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
-
+A handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 ### -param szReader [in]
 
 The name of the reader that contains the target card.
-
 
 ### -param dwShareMode [in]
 
@@ -113,8 +107,6 @@ This application is allocating the reader for its private use, and will be contr
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPreferredProtocols [in]
 
@@ -131,7 +123,7 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=0</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -141,7 +133,7 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=1</a> is an acceptable protocol.
 
 </td>
 </tr>
@@ -151,18 +143,15 @@ A bitmask of acceptable protocols for the connection. Possible values may be com
 </dl>
 </td>
 <td width="60%">
-This parameter may be zero only if <i>dwShareMode</i> is set to SCARD_SHARE_DIRECT. In this case, no protocol negotiation will be performed by the drivers until an IOCTL_SMARTCARD_SET_PROTOCOL control directive is sent with <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>.
+This parameter may be zero only if <i>dwShareMode</i> is set to SCARD_SHARE_DIRECT. In this case, no protocol negotiation will be performed by the drivers until an IOCTL_SMARTCARD_SET_PROTOCOL control directive is sent with <a href="/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phCard [out]
 
-A handle that identifies the connection to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> in the designated reader.
-
+A handle that identifies the connection to the <a href="/windows/desktop/SecGloss/s-gly">smart card</a> in the designated reader.
 
 ### -param pdwActiveProtocol [out]
 
@@ -179,7 +168,7 @@ A flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=0</a> is the active protocol.
 
 </td>
 </tr>
@@ -189,7 +178,7 @@ A flag that indicates the established active protocol.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
+<a href="/windows/desktop/SecGloss/t-gly">T=1</a> is the active protocol.
 
 </td>
 </tr>
@@ -204,12 +193,8 @@ SCARD_SHARE_DIRECT has been specified, so that no protocol negotiation has occur
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -237,7 +222,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -253,22 +238,16 @@ The reader was unable to connect to the card.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>SCardConnect</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information about other access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
+The <b>SCardConnect</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information about other access functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
 
-The following example creates a connection to a reader. The example assumes that <i>hContext</i> is a valid handle of type <b>SCARDCONTEXT</b> received from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
+The following example creates a connection to a reader. The example assumes that <i>hContext</i> is a valid handle of type <b>SCARDCONTEXT</b> received from a previous call to <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
 
 ```cpp
@@ -321,23 +300,16 @@ switch ( dwAP )
 
 ## -see-also
 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardcontrol">SCardControl</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>

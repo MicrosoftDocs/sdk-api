@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C
 ms.date: 12/05/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
-f1_keywords:
-- inspectable/IInspectable
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inspectable.h
-api_name:
-- IInspectable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInspectable
+ - inspectable/IInspectable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inspectable.h
+api_name:
+ - IInspectable
 ---
 
 # IInspectable interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides functionality required for all Windows Runtime classes.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInspectable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInspectable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IInspectable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getiids">GetIids</a>
 </td>
 <td align="left" width="63%">
 Gets the interfaces that are implemented by the current Windows Runtime class.
@@ -80,7 +78,7 @@ Gets the interfaces that are implemented by the current Windows Runtime class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname">GetRuntimeClassName</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified name of the current Windows Runtime object.
@@ -89,38 +87,23 @@ Gets the fully qualified name of the current Windows Runtime object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
+<a href="/windows/desktop/api/inspectable/nf-inspectable-iinspectable-gettrustlevel">GetTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current Windows Runtime object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IInspectable</b> methods have no effect on COM apartments and are safe to call from user interface threads.
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>

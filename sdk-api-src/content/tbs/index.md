@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: tbs
+f1_keywords:
+ - tbs
+ - tbs/tbs
 ---
 
 # Tbs.h header
 
 
 ## -description
-
 
 This header is used by TPM Base Services. For more information, see:
 

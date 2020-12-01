@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, PEER_GRAPH_PROPERTY_FLAGS, PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking], PEER_GRAPH_PROPERTY_HEARTBEATS, p2p.peer_graph_property_flags, p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, p2p/PEER_GRAPH_PROPERTY_FLAGS, p2p/PEER_GRAPH_PROPERTY_HEARTBEATS
-f1_keywords:
-- p2p/PEER_GRAPH_PROPERTY_FLAGS
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- P2P.h
-api_name:
-- PEER_GRAPH_PROPERTY_FLAGS
 targetos: Windows
 req.typenames: PEER_GRAPH_PROPERTY_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - peer_graph_property_flags_tag
+ - p2p/peer_graph_property_flags_tag
+ - PEER_GRAPH_PROPERTY_FLAGS
+ - p2p/PEER_GRAPH_PROPERTY_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - P2P.h
+api_name:
+ - PEER_GRAPH_PROPERTY_FLAGS
 ---
 
 # PEER_GRAPH_PROPERTY_FLAGS enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PEER_GRAPH_PROPERTY_FLAGS</b> enumeration specifies properties of a peer graph.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PEER_GRAPH_PROPERTY_HEARTBEATS
 
 Reserved.
-
 
 ### -field PEER_GRAPH_PROPERTY_DEFER_EXPIRATION
 

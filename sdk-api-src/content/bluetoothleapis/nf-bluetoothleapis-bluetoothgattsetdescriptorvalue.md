@@ -8,10 +8,6 @@ tech.root: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
-f1_keywords:
-- bluetoothleapis/BluetoothGATTSetDescriptorValue
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: BluetoothApis.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTSetDescriptorValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTSetDescriptorValue
+ - bluetoothleapis/BluetoothGATTSetDescriptorValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTSetDescriptorValue
 ---
 
 # BluetoothGATTSetDescriptorValue function
@@ -50,31 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 	 <b>BluetoothGATTSetDescriptorValue</b> 
 	 function writes the specified descriptor value to the Bluetooth device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the service.
 
-
 ### -param Descriptor [in]
 
 Pointer to the parent descriptor.
 
-
 ### -param DescriptorValue [in]
 
 Pointer to the descriptor's value.
-
 
 ### -param Flags [in]
 
@@ -116,12 +109,8 @@ The client requests the data to be transmitted over an authenticated channel.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The BluetoothGATTSetDescriptorValue function returns the following values:
 
@@ -396,14 +385,8 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The parent descriptor must be returned from a previous call to BluetoothGATTGetDescriptors, and must not be altered.  Behavior is undefined
     if the caller does this.
@@ -428,21 +411,10 @@ hr = BluetoothGATTSetDescriptorValue(hDevice,
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>

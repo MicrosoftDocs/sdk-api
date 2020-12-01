@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b5bcbb41-7c43-4448-a612-fe2342c502a0
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAsDefFolderSettings method, IBrowserService2.SetAsDefFolderSettings, IBrowserService2::SetAsDefFolderSettings, SetAsDefFolderSettings, SetAsDefFolderSettings method [Windows Shell], SetAsDefFolderSettings method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAsDefFolderSettings, shell.IBrowserService2_SetAsDefFolderSettings, zone_IBrowserService2_SetAsDefFolderSettings
-f1_keywords:
-- shdeprecated/IBrowserService2.SetAsDefFolderSettings
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.SetAsDefFolderSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::SetAsDefFolderSettings
+ - shdeprecated/IBrowserService2::SetAsDefFolderSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.SetAsDefFolderSettings
 ---
 
 # IBrowserService2::SetAsDefFolderSettings
@@ -50,24 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Sets the folder's current view mode as the default view mode for all folders. Used by the <b>Folder Options</b> dialog.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

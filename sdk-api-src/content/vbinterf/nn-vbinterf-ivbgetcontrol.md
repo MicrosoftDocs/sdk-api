@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.date: 12/05/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
-f1_keywords:
-- vbinterf/IVBGetControl
-dev_langs:
-- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VbInterf.h
-api_name:
-- IVBGetControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVBGetControl
+ - vbinterf/IVBGetControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VbInterf.h
+api_name:
+ - IVBGetControl
 ---
 
 # IVBGetControl interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to all the controls on a Visual Basic container.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBGetControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVBGetControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVBGetControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVBGetControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>IVBGetControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">EnumControls</a>
+<a href="/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">EnumControls</a>
 </td>
 <td align="left" width="63%">
 Enumerates the controls on the form.
 
 </td>
 </tr>
-</table> 
-
+</table>

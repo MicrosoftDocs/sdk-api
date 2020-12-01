@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify
-f1_keywords:
-- vpnotify/IVPBaseNotify
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vpnotify.h
-api_name:
-- IVPBaseNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPBaseNotify
+ - vpnotify/IVPBaseNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vpnotify.h
+api_name:
+ - IVPBaseNotify
 ---
 
 # IVPBaseNotify interface
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> to control the properties of a hardware device such as a decoder that uses a video port. The <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> interface derives from this interface.
+Enables the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> to control the properties of a hardware device such as a decoder that uses a video port. The <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> interface derives from this interface.
 
 Applications should never use this interface.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPBaseNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPBaseNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPBaseNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVPBaseNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,36 +71,23 @@ The <b>IVPBaseNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpbasenotify-renegotiatevpparameters">RenegotiateVPParameters</a>
+<a href="/windows/desktop/api/vpnotify/nf-vpnotify-ivpbasenotify-renegotiatevpparameters">RenegotiateVPParameters</a>
 </td>
 <td align="left" width="63%">
 Initializes the connection to the decoder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Include Vptype.h before Vpnotify.h.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>

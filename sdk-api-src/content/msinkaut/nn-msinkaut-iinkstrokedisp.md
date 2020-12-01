@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 ms.date: 12/05/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
-f1_keywords:
-- msinkaut/IInkStrokeDisp
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp
+ - msinkaut/IInkStrokeDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp
 ---
 
 # IInkStrokeDisp interface
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Represents a single ink stroke.
 
 A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark. It is the set of data that is captured in a single pen down, up, or move sequence.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkStrokeDisp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkStrokeDisp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkStrokeDisp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkStrokeDisp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +73,7 @@ The <b>IInkStrokeDisp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip">Clip</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip">Clip</a>
 </td>
 <td align="left" width="63%">
 Removes the portions of the <b>IInkStrokeDisp</b> that are outside a rectangle.
@@ -86,10 +82,10 @@ Removes the portions of the <b>IInkStrokeDisp</b> that are outside a rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections">FindIntersections</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections">FindIntersections</a>
 </td>
 <td align="left" width="63%">
-Finds the points where this <b>IInkStrokeDisp</b> intersects other strokes within an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+Finds the points where this <b>IInkStrokeDisp</b> intersects other strokes within an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 This method can determine only the points of intersection.
 
@@ -97,7 +93,7 @@ This method can determine only the points of intersection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rectangle, in ink space coordinates, that corresponds to the portion of the display to invalidate or redraw when displaying an <b>IInkStrokeDisp</b>.
@@ -106,7 +102,7 @@ Retrieves a rectangle, in ink space coordinates, that corresponds to the portion
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints">GetFlattenedBezierPoints</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints">GetFlattenedBezierPoints</a>
 </td>
 <td align="left" width="63%">
 Retrieves the array of actual points that are used to approximate the Bezier representation of a stroke.
@@ -115,7 +111,7 @@ Retrieves the array of actual points that are used to approximate the Bezier rep
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData</a>
 </td>
 <td align="left" width="63%">
 Retrieves the packet data associated with one or more points in an <b>IInkStrokeDisp</b> object.
@@ -124,7 +120,7 @@ Retrieves the packet data associated with one or more points in an <b>IInkStroke
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metrics for a given packet description type.
@@ -133,7 +129,7 @@ Retrieves the metrics for a given packet description type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data for a known packet property from one or more packets in the <b>IInkStrokeDisp</b> object.
@@ -142,7 +138,7 @@ Retrieves the data for a known packet property from one or more packets in the <
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints</a>
 </td>
 <td align="left" width="63%">
 Retrieves the points that make up a stroke.
@@ -151,7 +147,7 @@ Retrieves the points that make up a stroke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections</a>
 </td>
 <td align="left" width="63%">
 Finds the points where a stroke intersects a given rectangle.
@@ -160,7 +156,7 @@ Finds the points where a stroke intersects a given rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle">HitTestCircle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle">HitTestCircle</a>
 </td>
 <td align="left" width="63%">
 Determines whether a stroke is either completely inside or intersected by a given circle.
@@ -169,7 +165,7 @@ Determines whether a stroke is either completely inside or intersected by a give
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move</a>
 </td>
 <td align="left" width="63%">
 Applies a translation to the ink of the stroke.
@@ -178,7 +174,7 @@ Applies a translation to the ink of the stroke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint</a>
 </td>
 <td align="left" width="63%">
 Finds the location on the stroke nearest to a known point and returns the distance that point is from the stroke. Everything is in ink space coordinates.
@@ -187,7 +183,7 @@ Finds the location on the stroke nearest to a known point and returns the distan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-rotate">Rotate</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-rotate">Rotate</a>
 </td>
 <td align="left" width="63%">
 Rotates the ink using an angle in degrees around a center point of the rotation.
@@ -196,7 +192,7 @@ Rotates the ink using an angle in degrees around a center point of the rotation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletorectangle">ScaleToRectangle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletorectangle">ScaleToRectangle</a>
 </td>
 <td align="left" width="63%">
 Scales the stroke to fit in the specified rectangle.
@@ -205,7 +201,7 @@ Scales the stroke to fit in the specified rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform">ScaleTransform</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-scaletransform">ScaleTransform</a>
 </td>
 <td align="left" width="63%">
 Scales the ink using X and Y factors.
@@ -214,7 +210,7 @@ Scales the ink using X and Y factors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the packet values for a particular property.
@@ -223,7 +219,7 @@ Sets the packet values for a particular property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints">SetPoints</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints">SetPoints</a>
 </td>
 <td align="left" width="63%">
 Sets the points of the stroke using an array of X, Y values.
@@ -232,7 +228,7 @@ Sets the points of the stroke using an array of X, Y values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-shear">Shear</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-shear">Shear</a>
 </td>
 <td align="left" width="63%">
 Shears the ink in the stroke by the specified horizontal and vertical factors.
@@ -241,7 +237,7 @@ Shears the ink in the stroke by the specified horizontal and vertical factors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split">Split</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split">Split</a>
 </td>
 <td align="left" width="63%">
 Splits the stroke at the specified location on the stroke.
@@ -250,7 +246,7 @@ Splits the stroke at the specified location on the stroke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-transform">Transform</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-transform">Transform</a>
 </td>
 <td align="left" width="63%">
 Applies a linear transformation to a stroke, which can represent scaling, rotation, translation, and combinations of transformations.
@@ -268,7 +264,7 @@ Applies a linear transformation to a stroke, which can represent scaling, rotati
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_beziercusps">BezierCusps</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_beziercusps">BezierCusps</a>
 
 
 </td>
@@ -284,7 +280,7 @@ Gets an array that contains the indices of the cusps of the Bezier approximation
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">BezierPoints</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">BezierPoints</a>
 
 
 </td>
@@ -300,7 +296,7 @@ Gets the array of control points that represent the Bezier approximation of the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_deleted">Deleted</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_deleted">Deleted</a>
 
 
 </td>
@@ -309,14 +305,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a value that indicates whether the <b>IInkStrokeDisp</b> object has been deleted from its parent <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Gets a value that indicates whether the <b>IInkStrokeDisp</b> object has been deleted from its parent <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_drawingattributes">DrawingAttributes</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_drawingattributes">DrawingAttributes</a>
 
 
 </td>
@@ -332,7 +328,7 @@ Gets or sets the drawing attributes to apply to ink as it is drawn.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties">ExtendedProperties</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_extendedproperties">ExtendedProperties</a>
 
 
 </td>
@@ -348,7 +344,7 @@ Gets the collection of application-defined data.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id">Id</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_id">Id</a>
 
 
 </td>
@@ -364,7 +360,7 @@ Gets the identifier of the <b>IInkStrokeDisp</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_ink">Ink</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_ink">Ink</a>
 
 
 </td>
@@ -373,14 +369,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the parent <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object for this stroke.
+Gets the parent <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object for this stroke.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetcount">PacketCount</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetcount">PacketCount</a>
 
 
 </td>
@@ -396,7 +392,7 @@ Gets the number of packets received for a stroke.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription">PacketDescription</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription">PacketDescription</a>
 
 
 </td>
@@ -412,7 +408,7 @@ Gets an array of globally unique identifiers (GUIDs) that describes the types of
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetsize">PacketSize</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetsize">PacketSize</a>
 
 
 </td>
@@ -428,7 +424,7 @@ Gets the size, in bytes, of a packet.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_polylinecusps">PolylineCusps</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_polylinecusps">PolylineCusps</a>
 
 
 </td>
@@ -444,7 +440,7 @@ Gets an array that contains the indices of the cusps of the stroke.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_selfintersections">SelfIntersections</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_selfintersections">SelfIntersections</a>
 
 
 </td>
@@ -457,33 +453,20 @@ Gets the self-intersections of the stroke.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 746BFF49-C75F-417B-A54A-841A4A0E84C5
 ms.date: 12/05/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API],described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
-f1_keywords:
-- windows.media.streaming/IStreamSelectorStatics
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IStreamSelectorStatics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamSelectorStatics
+ - windows.media.streaming/IStreamSelectorStatics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IStreamSelectorStatics
 ---
 
 # IStreamSelectorStatics interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods needed to asynchronously select a stream.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSelectorStatics</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSelectorStatics</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSelectorStatics</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSelectorStatics</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IStreamSelectorStatics</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828954(v=vs.85)">GetStreamPropertiesAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828954(v=vs.85)">GetStreamPropertiesAsync</a>
 </td>
 <td align="left" width="63%">
 When implemented gets the properties of the stream asynchronously.
@@ -79,12 +78,11 @@ When implemented gets the properties of the stream asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828955(v=vs.85)">SelectBestStreamAsync</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828955(v=vs.85)">SelectBestStreamAsync</a>
 </td>
 <td align="left" width="63%">
 When implemented queries asynchronously for the best stream.
 
 </td>
 </tr>
-</table> 
-
+</table>

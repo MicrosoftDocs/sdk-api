@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: e7a066b9-9581-4573-82e2-a6f2ca7440ac
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ReadOnly property, IAutomaticUpdatesSettings.ReadOnly, IAutomaticUpdatesSettings.get_ReadOnly, IAutomaticUpdatesSettings::ReadOnly, IAutomaticUpdatesSettings::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ReadOnly, wua.iautomaticupdatessettings_readonly, wuapi/IAutomaticUpdatesSettings::ReadOnly, wuapi/IAutomaticUpdatesSettings::get_ReadOnly
-f1_keywords:
-- wuapi/IAutomaticUpdatesSettings.ReadOnly
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesSettings.ReadOnly
-- IAutomaticUpdatesSettings.get_ReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesSettings::get_ReadOnly
+ - wuapi/IAutomaticUpdatesSettings::get_ReadOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesSettings.ReadOnly
+ - IAutomaticUpdatesSettings.get_ReadOnly
 ---
 
 # IAutomaticUpdatesSettings::get_ReadOnly
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IAutomaticUpdatesSettings::ReadOnly</b> is no longer supported. Starting with 
     Windows 10 calls to <b>ReadOnly</b> always return <b>VARIANT_FALSE</b>. However, <b>IAutomaticUpdatesSettings::Save</b> is a no-op, so no changes can be made.]
@@ -61,13 +61,9 @@ Gets a Boolean value that indicates whether the Automatic Update settings are re
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 <b>ReadOnly</b> is <b>VARIANT_TRUE</b> if either of the following conditions is true:
 
@@ -77,23 +73,13 @@ This property is read-only.
 </li>
 </ul>
  
-The caller can modify the settings in the  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface only if <b>ReadOnly</b> is <b>VARIANT_FALSE</b>.
-The value of <b>ReadOnly</b> may change after calling <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">Refresh</a>.
-
-
-
+The caller can modify the settings in the  <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface only if <b>ReadOnly</b> is <b>VARIANT_FALSE</b>.
+The value of <b>ReadOnly</b> may change after calling <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">Refresh</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">IAutomaticUpdatesSettings.Refresh</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">IAutomaticUpdatesSettings.Refresh</a>

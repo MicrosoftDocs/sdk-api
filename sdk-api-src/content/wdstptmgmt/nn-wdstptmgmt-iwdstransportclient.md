@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
-f1_keywords:
-- wdstptmgmt/IWdsTransportClient
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportClient
+ - wdstptmgmt/IWdsTransportClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportClient
 ---
 
 # IWdsTransportClient interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WDS client that is joined to a transport session on a  WDS transport server.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportClient</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportClient</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IWdsTransportClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the WDS client from the session and specifies what action the client should take upon disconnection. 
@@ -89,7 +88,7 @@ Disconnects the WDS client from the session and specifies what action the client
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_cpuutilization">CpuUtilization</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_cpuutilization">CpuUtilization</a>
 
 
 </td>
@@ -105,7 +104,7 @@ Receives the percentage of the WDS client’s CPU utilization.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_id">Id</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_id">Id</a>
 
 
 </td>
@@ -121,7 +120,7 @@ Receives a unique client ID that identifies this WDS client on the WDS server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_ipaddress">IpAddress</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_ipaddress">IpAddress</a>
 
 
 </td>
@@ -137,7 +136,7 @@ Receives a string value that contains the IP address of the WDS client.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_joinduration">JoinDuration</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_joinduration">JoinDuration</a>
 
 
 </td>
@@ -153,7 +152,7 @@ Receives the time elapsed, in seconds, since the application joined to the curre
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_macaddress">MacAddress</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_macaddress">MacAddress</a>
 
 
 </td>
@@ -169,7 +168,7 @@ Receives the  MAC address of the WDS client.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_cpuutilization">MemoryUtilization</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_cpuutilization">MemoryUtilization</a>
 
 
 </td>
@@ -185,7 +184,7 @@ Receives the percentage of the WDS client’s memory in use.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_name">Name</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_name">Name</a>
 
 
 </td>
@@ -201,7 +200,7 @@ Receives the name of the WDS client on the WDS server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_networkutilization">NetworkUtilization</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_networkutilization">NetworkUtilization</a>
 
 
 </td>
@@ -217,7 +216,7 @@ Receives the percentage of the WDS client’s network bandwidth used.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_percentcompletion">PercentCompletion</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_percentcompletion">PercentCompletion</a>
 
 
 </td>
@@ -233,7 +232,7 @@ Receives the percentage of the current object that has been downloaded.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_session">Session</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_session">Session</a>
 
 
 </td>
@@ -249,7 +248,7 @@ Receives the transport session to which the WDS client is joined.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_useridentity">UserIdentity</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportclient-get_useridentity">UserIdentity</a>
 
 
 </td>
@@ -262,5 +261,4 @@ Receives a string representing the user identity associated with this client.
 
 </td>
 </tr>
-</table> 
-
+</table>

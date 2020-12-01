@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.date: 12/05/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
-f1_keywords:
-- azroles/IAzApplications
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplications
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplications
+ - azroles/IAzApplications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplications
 ---
 
 # IAzApplications interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzApplications</b> interface represents a collection of  
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects.
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplications</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplications</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,28 +71,28 @@ The <b>IAzApplications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">get_Count</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">get_Item</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a> property.
 
 </td>
 </tr>
@@ -108,7 +107,7 @@ Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -117,14 +116,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_count">Count</a>
 
 
 </td>
@@ -133,14 +132,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects in the collection.
+Retrieves the number of <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplications-get_item">Item</a>
 
 
 </td>
@@ -149,9 +148,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
+Retrieves the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d31aae7b-df93-419d-9a53-80a601a3c437
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_EJECTION_CONTROL, IOCTL_STORAGE_EJECTION_CONTROL control, IOCTL_STORAGE_EJECTION_CONTROL control code, _win32_ioctl_storage_ejection_control, base.ioctl_storage_ejection_control, winioctl/IOCTL_STORAGE_EJECTION_CONTROL
-f1_keywords:
-- winioctl/IOCTL_STORAGE_EJECTION_CONTROL
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_EJECTION_CONTROL
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_EJECTION_CONTROL
+ - winioctl/IOCTL_STORAGE_EJECTION_CONTROL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_EJECTION_CONTROL
 ---
 
 # IOCTL_STORAGE_EJECTION_CONTROL IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,16 +86,14 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 The driver tracks **IOCTL_STORAGE_EJECTION_CONTROL** requests by caller. It ignores requests to enable the ejection mechanism unless it has received a request to disable the ejection mechanism from the same caller. This prevents other callers from unlocking the drive.
 
-
 ## -see-also
 
-* [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
+* [Device Management Control Codes](/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [PREVENT_MEDIA_REMOVAL](ns-winioctl-prevent_media_removal.md)

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
 ms.date: 12/05/2018
 ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, MFSESSION_SETTOPOLOGY_FLAGS, MFSESSION_SETTOPOLOGY_FLAGS enumeration [Media Foundation], MFSESSION_SETTOPOLOGY_IMMEDIATE, MFSESSION_SETTOPOLOGY_NORESOLUTION, mf.mfsession_settopology_flags, mfidl/MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, mfidl/MFSESSION_SETTOPOLOGY_FLAGS, mfidl/MFSESSION_SETTOPOLOGY_IMMEDIATE, mfidl/MFSESSION_SETTOPOLOGY_NORESOLUTION
-f1_keywords:
-- mfidl/MFSESSION_SETTOPOLOGY_FLAGS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFSESSION_SETTOPOLOGY_FLAGS
 targetos: Windows
 req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFSESSION_SETTOPOLOGY_FLAGS
+ - mfidl/MFSESSION_SETTOPOLOGY_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFSESSION_SETTOPOLOGY_FLAGS
 ---
 
 # MFSESSION_SETTOPOLOGY_FLAGS enumeration
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Defines the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method.
-
-
-
+Defines the behavior of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method.
 
 ## -enum-fields
-
-
-
 
 ### -field MFSESSION_SETTOPOLOGY_IMMEDIATE
 
@@ -67,12 +60,9 @@ Stop the current presentation, clear all pending presentations, and immediately 
 
 If the <i>pTopology</i>  parameter is <b>NULL</b>, this flag has no effect.
 
-
 ### -field MFSESSION_SETTOPOLOGY_NORESOLUTION
 
 The topology does not need to be resolved. Use this flag if you are setting a full topology.
-          
-
 
 ### -field MFSESSION_SETTOPOLOGY_CLEAR_CURRENT
 
@@ -86,26 +76,12 @@ Clear the current topology, as follows:
 </ul>
 Pending topologies are not removed from the playback queue. If there is a pending topology on the queue, that topology will be loaded after the current topology is cleared. Otherwise, playback simply stops.
 
-To remove all of the pending topologies from the queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">IMFMediaSession::ClearTopologies</a>.
-
+To remove all of the pending topologies from the queue, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies">IMFMediaSession::ClearTopologies</a>.
 
 ## -remarks
 
-
-
 These flags are optional, and are not mutually exclusive. If no flags are set, the Media Session resolves the topology and then adds it to the queue of pending presentations.
-      
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

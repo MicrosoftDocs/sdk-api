@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 9FE1F2C6-971E-4789-9D30-4C129B3951F4
 ms.date: 12/05/2018
 ms.keywords: RtlEthernetStringToAddress, RtlEthernetStringToAddress function [IP Helper], RtlEthernetStringToAddressA, RtlEthernetStringToAddressW, ip2string/RtlEthernetStringToAddress, ip2string/RtlEthernetStringToAddressA, ip2string/RtlEthernetStringToAddressW, iphlp.rtlethernetstringtoaddress
-f1_keywords:
-- ip2string/RtlEthernetStringToAddress
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlEthernetStringToAddress
-- RtlEthernetStringToAddressA
-- RtlEthernetStringToAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlEthernetStringToAddressA
+ - ip2string/RtlEthernetStringToAddressA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlEthernetStringToAddress
+ - RtlEthernetStringToAddressA
+ - RtlEthernetStringToAddressW
 ---
 
 # RtlEthernetStringToAddressA function
@@ -51,36 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlEthernetStringToAddress</b> function  converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address.
 
-
-
 ## -parameters
-
-
-
 
 ### -param S [in]
 
-A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the Ethernet MAC  address. 
-
+A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the Ethernet MAC  address.
 
 ### -param Terminator [out]
 
 A parameter that receives a pointer to the character that terminated
         the converted string. This can be used by the caller to extract more information from the string.
 
-
 ### -param Addr [out]
 
 A pointer where the binary representation of the Ethernet MAC address is to be stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
@@ -112,19 +102,13 @@ This error code is defined in the <i>Ntstatus.h</i> header file.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlEthernetStringToAddress</b> function is used to convert a string representation of an Ethernet EUI-48 data-link layer address (also commonly known as a MAC address) to binary format of the Ethernet address. The string represents a numeric Ethernet address
     expressed in the non-DIX standard "-'' notation.  The value
@@ -161,11 +145,4 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlethernetaddresstostringa">RtlEthernetAddressToString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlethernetaddresstostringa">RtlEthernetAddressToString</a>

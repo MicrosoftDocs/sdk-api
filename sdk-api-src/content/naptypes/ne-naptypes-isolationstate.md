@@ -8,10 +8,6 @@ tech.root: NAP
 ms.assetid: 79f81e8e-a105-4cc9-b175-8a364648f3a6
 ms.date: 12/05/2018
 ms.keywords: IsolationState, IsolationState enumeration [NAP], isolationStateInProbation, isolationStateNotRestricted, isolationStateRestrictedAccess, nap.isolationstate_enum, naptypes/IsolationState, naptypes/isolationStateInProbation, naptypes/isolationStateNotRestricted, naptypes/isolationStateRestrictedAccess
-f1_keywords:
-- naptypes/IsolationState
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- IsolationState
 targetos: Windows
 req.typenames: IsolationState
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagIsolationState
+ - naptypes/tagIsolationState
+ - IsolationState
+ - naptypes/IsolationState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - IsolationState
 ---
 
 # IsolationState enumeration
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>IsolationState</b> enumeration  describes the isolation state of a connection.
 
-
 ## -enum-fields
-
-
-
 
 ### -field isolationStateNotRestricted
 
 The connection isolation state is not restricted.
 
-
 ### -field isolationStateInProbation
 
 The connection isolation state is probation.
-
 
 ### -field isolationStateRestrictedAccess
 

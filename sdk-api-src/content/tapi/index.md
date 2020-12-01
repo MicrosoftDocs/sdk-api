@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: tapi2
+f1_keywords:
+ - tapi
+ - tapi/tapi
 ---
 
 # Tapi.h header
 
 
 ## -description
-
 
 This header is used by TAPI 2.2. For more information, see:
 

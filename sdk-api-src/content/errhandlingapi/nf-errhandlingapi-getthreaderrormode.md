@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 246d838a-ba16-4ba4-8cd3-f25dfc7d2f23
 ms.date: 12/05/2018
 ms.keywords: GetThreadErrorMode, GetThreadErrorMode function, base.getthreaderrormode, errhandlingapi/GetThreadErrorMode
-f1_keywords:
-- errhandlingapi/GetThreadErrorMode
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
-- KernelBase.dll
-api_name:
-- GetThreadErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThreadErrorMode
+ - errhandlingapi/GetThreadErrorMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
+ - KernelBase.dll
+api_name:
+ - GetThreadErrorMode
 ---
 
 # GetThreadErrorMode function
@@ -51,20 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the error mode for the calling thread. 
-
+Retrieves the error mode for the calling thread.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The process error mode. This function returns one of the following values.
 
@@ -110,31 +102,15 @@ The system does not display a message box when it fails to find a file. Instead,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> function. 
-
-
-
+A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>

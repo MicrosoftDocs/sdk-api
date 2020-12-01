@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
 ms.date: 12/05/2018
 ms.keywords: AuthzRegisterSecurityEventSource, AuthzRegisterSecurityEventSource function [Security], authz/AuthzRegisterSecurityEventSource, security.authzregistersecurityeventsource
-f1_keywords:
-- authz/AuthzRegisterSecurityEventSource
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzRegisterSecurityEventSource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzRegisterSecurityEventSource
+ - authz/AuthzRegisterSecurityEventSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzRegisterSecurityEventSource
 ---
 
 # AuthzRegisterSecurityEventSource function
@@ -49,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuthzRegisterSecurityEventSource</b> function registers a security event source with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
-
+The <b>AuthzRegisterSecurityEventSource</b> function registers a security event source with the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 This parameter is reserved for future use. Set this parameter to zero.
 
-
 ### -param szEventSourceName [in]
 
 A pointer to the name of the security event source to register.
-
 
 ### -param phEventProvider [out]
 
 A pointer to a handle to the registered security event source.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function  validates the <i>szEventSourceName</i> parameter  and sets up the appropriate structures and RPC connections to log events with that source name.  The validation is handled by an underlying call to an LSA API.  
 
@@ -99,15 +85,6 @@ The LSA API  verifies the following:
 <li>The calling application matches the executable image path in the event source registration, if one exists.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistersecurityeventsource">AuthzUnregisterSecurityEventSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/authz/nf-authz-authzunregistersecurityeventsource">AuthzUnregisterSecurityEventSource</a>

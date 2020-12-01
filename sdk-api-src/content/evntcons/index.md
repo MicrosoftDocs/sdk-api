@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: etw
+f1_keywords:
+ - evntcons
+ - evntcons/evntcons
 ---
 
 # Evntcons.h header
 
 
 ## -description
-
 
 This header is used by Event Tracing. For more information, see:
 

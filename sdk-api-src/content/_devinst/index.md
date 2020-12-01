@@ -20,5 +20,4 @@ To develop Device and Driver Installation Reference, you need these headers:
  * [newdev.h](../newdev/index.md)
 
 For programming guidance for this technology, see:
-* [Device and Driver Installation Reference](https://docs.microsoft.com/windows-hardware/drivers/install/)
-
+* [Device and Driver Installation Reference](/windows-hardware/drivers/install/)

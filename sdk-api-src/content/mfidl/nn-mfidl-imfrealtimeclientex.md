@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
-f1_keywords:
-- mfidl/IMFRealTimeClientEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFRealTimeClientEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRealTimeClientEx
+ - mfidl/IMFRealTimeClientEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFRealTimeClientEx
 ---
 
 # IMFRealTimeClientEx interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 
 
 
-This interface is a replacement for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient">IMFRealTimeClient</a> interface.
-
+This interface is a replacement for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient">IMFRealTimeClient</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRealTimeClientEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRealTimeClientEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRealTimeClientEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRealTimeClientEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>IMFRealTimeClientEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-registerthreadsex">RegisterThreadsEx</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-registerthreadsex">RegisterThreadsEx</a>
 </td>
 <td align="left" width="63%">
 Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
@@ -83,7 +82,7 @@ Notifies the object to register its worker threads with the Multimedia Class Sch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-setworkqueueex">SetWorkQueueEx</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-setworkqueueex">SetWorkQueueEx</a>
 </td>
 <td align="left" width="63%">
 Specifies the work queue that this object should use for asynchronous work items. 
@@ -92,7 +91,7 @@ Specifies the work queue that this object should use for asynchronous work items
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-unregisterthreads">UnregisterThreads</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfrealtimeclientex-unregisterthreads">UnregisterThreads</a>
 </td>
 <td align="left" width="63%">
 Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
@@ -101,20 +100,12 @@ Notifies the object to unregister its worker threads from the Multimedia Class S
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>

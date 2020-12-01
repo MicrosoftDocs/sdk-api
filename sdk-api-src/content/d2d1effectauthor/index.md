@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct2d
+f1_keywords:
+ - d2d1effectauthor
+ - d2d1effectauthor/d2d1effectauthor
 ---
 
 # D2D1Effectauthor.h header
 
 
 ## -description
-
 
 This header is used by Direct2D. For more information, see:
 

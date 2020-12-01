@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsSession, OpenNtmsSession function [Files], OpenNtmsSessionA, OpenNtmsSessionW, _zaw_openntmssession, base.openntmssession, fs.openntmssession, ntmsapi/OpenNtmsSession, ntmsapi/OpenNtmsSessionA, ntmsapi/OpenNtmsSessionW
-f1_keywords:
-- ntmsapi/OpenNtmsSession
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- OpenNtmsSession
-- OpenNtmsSessionA
-- OpenNtmsSessionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenNtmsSessionW
+ - ntmsapi/OpenNtmsSessionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - OpenNtmsSession
+ - OpenNtmsSessionA
+ - OpenNtmsSessionW
 ---
 
 # OpenNtmsSessionW function
@@ -51,40 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>OpenNtmsSession</b> function sets up a session with a RSM server.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServer [in]
 
 RSM server name. If this parameter is <b>NULL</b>, the current computer name is used.
 
-
 ### -param lpApplication [in]
 
 Unique character string that identifies the application. This name identifies resources and operator requests. This parameter is optional and may be <b>NULL</b>.
-
 
 ### -param dwOptions
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 If 
 <b>OpenNtmsSession</b> succeeds, it returns a handle that uniquely identifies this session. If the function fails, it returns INVALID_HANDLE_VALUE. To retrieve more information, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. This function can return one of the following values.
 
 <table>
 <tr>
@@ -180,14 +171,8 @@ The service is using an older version of RSM than your application.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>OpenNtmsSession</b> function returns a session handle used with other RSM functions, establishes a connection with the RSM database, and initializes the RSM subsystem for the application.
@@ -206,15 +191,8 @@ Sessions are thread-safe but cannot be passed among processes.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Session Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Session Management Functions</a>

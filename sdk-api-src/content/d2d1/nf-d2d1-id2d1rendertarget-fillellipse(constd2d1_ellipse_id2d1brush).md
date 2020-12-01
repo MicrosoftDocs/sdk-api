@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 ms.date: 12/05/2018
 ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget::FillEllipse, d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
-f1_keywords:
-- d2d1/ID2D1RenderTarget::FillEllipse
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget::FillEllipse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::FillEllipse
+ - d2d1/ID2D1RenderTarget::FillEllipse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget::FillEllipse
 ---
 
 ## -description
@@ -75,3 +76,4 @@ For an example, see <a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How
 <a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

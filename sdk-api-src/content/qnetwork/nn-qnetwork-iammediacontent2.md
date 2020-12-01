@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: cf8381f2-2ef0-4169-8029-bce36bf3d6a9
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMediaContent2 interface [DirectShow],described, IAMMediaContent2Interface, dshow.iammediacontent2, qnetwork/IAMMediaContent2
-f1_keywords:
-- qnetwork/IAMMediaContent2
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent2
+ - qnetwork/IAMMediaContent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent2
 ---
 
 # IAMMediaContent2 interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMMediaContent2</code> interface retrieves custom parameters and playlists from ASX files. This interface is not implemented by any default components in DirectShow.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaContent2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMMediaContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IAMMediaContent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparameter">get_MediaParameter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a custom parameter.
@@ -82,7 +78,7 @@ Retrieves the value of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_mediaparametername">get_MediaParameterName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a custom parameter.
@@ -91,19 +87,16 @@ Retrieves the name of a custom parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iammediacontent2-get_playlistcount">get_PlaylistCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of playlist entries.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -114,15 +107,6 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

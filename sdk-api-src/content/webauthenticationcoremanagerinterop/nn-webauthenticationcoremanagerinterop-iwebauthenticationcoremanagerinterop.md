@@ -5,10 +5,6 @@ description: Contains core methods for obtaining tokens from web account provide
 helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop
-f1_keywords:
-- webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -23,23 +19,28 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- webauthenticationcoremanagerinterop.h
-api_name:
-- IWebAuthenticationCoreManagerInterop
 tech.root: winrt
+f1_keywords:
+ - IWebAuthenticationCoreManagerInterop
+ - webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - webauthenticationcoremanagerinterop.h
+api_name:
+ - IWebAuthenticationCoreManagerInterop
 ---
-
-## -inheritance
 
 ## -description
 
 Provides Win32 apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
 that are otherwise available only to UWP apps.
+
+## -inheritance
 
 ## -remarks
 
@@ -57,5 +58,5 @@ winrt::com_ptr<IWebAuthenticationCoreManagerInterop> managerInterop{ managerFact
 managerInterop->RequestTokenForWindowAsync(/* ... */)
 ```
 
-
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d942a60d-aaac-4889-b74a-a8b4682ab619
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], IFolderBandPriv interface [Windows Shell],described, _win32_IFolderBandPriv, shell.IFolderBandPriv, shobjidl/IFolderBandPriv
-f1_keywords:
-- shobjidl/IFolderBandPriv
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderBandPriv
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderBandPriv
+ - shobjidl/IFolderBandPriv
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderBandPriv
 ---
 
 # IFolderBandPriv interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IFolderBandPriv</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Exposes methods that set folder items.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderBandPriv</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderBandPriv</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderBandPriv</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IFolderBandPriv</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setaccelerators">SetAccelerators</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setaccelerators">SetAccelerators</a>
 </td>
 <td align="left" width="63%">
 Sets accelerators.
@@ -81,7 +80,7 @@ Sets accelerators.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setcascade">SetCascade</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setcascade">SetCascade</a>
 </td>
 <td align="left" width="63%">
 Sets a cascade folder.
@@ -90,7 +89,7 @@ Sets a cascade folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnoicons">SetNoIcons</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnoicons">SetNoIcons</a>
 </td>
 <td align="left" width="63%">
 Sets whether icons are displayed in a folder band.
@@ -99,12 +98,11 @@ Sets whether icons are displayed in a folder band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnotext">SetNoText</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifolderbandpriv-setnotext">SetNoText</a>
 </td>
 <td align="left" width="63%">
 Sets whether text is displayed in a folder band.
 
 </td>
 </tr>
-</table> 
-
+</table>

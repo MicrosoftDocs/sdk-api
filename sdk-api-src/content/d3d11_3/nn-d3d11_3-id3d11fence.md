@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C
 ms.date: 12/05/2018
 ms.keywords: ID3D11Fence, ID3D11Fence interface [Direct3D 11], ID3D11Fence interface [Direct3D 11],described, d3d11_3/ID3D11Fence, direct3d11.id3d11fence
-f1_keywords:
-- d3d11_3/ID3D11Fence
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.dll
-api_name:
-- ID3D11Fence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Fence
+ - d3d11_3/ID3D11Fence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.dll
+api_name:
+ - ID3D11Fence
 ---
 
 # ID3D11Fence interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 
 This interface is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> inteface, and is also used for synchronization between Direct3D 11 and Direct3D 12 in interop scenarios.
-
 
 ## -inheritance
 
@@ -98,13 +97,9 @@ Specifies an event that should be fired when the fence reaches a certain value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
@@ -119,7 +114,4 @@ Specifies an event that should be fired when the fence reaches a certain value.
 
 
 <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
- 
-
- 
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wec
+f1_keywords:
+ - evcoll
+ - evcoll/evcoll
 ---
 
 # Evcoll.h header
 
 
 ## -description
-
 
 This header is used by Windows Event Collector. For more information, see:
 

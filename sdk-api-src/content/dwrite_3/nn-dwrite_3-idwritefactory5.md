@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 2F3E30DC-A965-4C68-A337-73F338CF2563
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory5, IDWriteFactory5 interface [Direct Write], IDWriteFactory5 interface [Direct Write],described, directwrite.idwritefactory5, dwrite_3/IDWriteFactory5
-f1_keywords:
-- dwrite_3/IDWriteFactory5
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory5
+ - dwrite_3/IDWriteFactory5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory5
 ---
 
 # IDWriteFactory5 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The root factory interface for all DirectWrite objects.
-
 
 ## -inheritance
 
@@ -114,20 +113,13 @@ The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/DirectWrite/custom-font-sets-win10">Custom Font Sets</a>
 
 
 
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4">IDWriteFactory4</a>
- 
-
- 
 

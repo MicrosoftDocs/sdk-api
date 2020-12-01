@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
-f1_keywords:
-- certenroll/IX509PrivateKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey
+ - certenroll/IX509PrivateKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey
 ---
 
 # IX509PrivateKey interface
@@ -49,27 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509PrivateKey</b> interface represents an asymmetric private key that can be used for encryption, signing, and key agreement.  Private keys are referenced in the following objects:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 </li>
 </ul>
 
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PrivateKey</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PrivateKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PrivateKey</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PrivateKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -85,7 +83,7 @@ The <b>IX509PrivateKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-close">Close</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-close">Close</a>
 </td>
 <td align="left" width="63%">
 Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API: Next Generation (CNG) key storage provider (KSP).
@@ -94,7 +92,7 @@ Releases the handle of the cryptographic service provider (CSP) or the handle of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates an asymmetric  private key.
@@ -103,7 +101,7 @@ Creates an asymmetric  private key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-delete">Delete</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Releases the handle of the CSP or KSP and deletes the key from disk or smart card.
@@ -112,7 +110,7 @@ Releases the handle of the CSP or KSP and deletes the key from disk or smart car
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-export">Export</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-export">Export</a>
 </td>
 <td align="left" width="63%">
 Copies the private key to a byte array.
@@ -121,7 +119,7 @@ Copies the private key to a byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-exportpublickey">ExportPublicKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-exportpublickey">ExportPublicKey</a>
 </td>
 <td align="left" width="63%">
 Exports the public key portion of the asymmetric key pair.
@@ -130,7 +128,7 @@ Exports the public key portion of the asymmetric key pair.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-import">Import</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-import">Import</a>
 </td>
 <td align="left" width="63%">
 Imports an existing private key into a key container within a CSP.
@@ -139,7 +137,7 @@ Imports an existing private key into a key container within a CSP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an existing private key.
@@ -148,7 +146,7 @@ Opens an existing private key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-verify">Verify</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-verify">Verify</a>
 </td>
 <td align="left" width="63%">
 Verifies that a private key exists and can be used by the client but does not open the key.
@@ -166,7 +164,7 @@ Verifies that a private key exists and can be used by the client but does not op
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_algorithm">Algorithm</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_algorithm">Algorithm</a>
 
 
 </td>
@@ -175,7 +173,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the public key algorithm.
+Specifies or retrieves an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the public key algorithm.
 
 [WebEnabled]
 
@@ -184,7 +182,7 @@ Specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/Se
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_certificate">Certificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_certificate">Certificate</a>
 
 
 </td>
@@ -200,7 +198,7 @@ Specifies or retrieves a byte array that contains the certificate associated wit
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a>
 
 
 </td>
@@ -218,7 +216,7 @@ Specifies or retrieves the name of the key container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containernameprefix">ContainerNamePrefix</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containernameprefix">ContainerNamePrefix</a>
 
 
 </td>
@@ -234,7 +232,7 @@ Specifies or retrieves a prefix added to the name of the key container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspinformations">CspInformations</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspinformations">CspInformations</a>
 
 
 </td>
@@ -243,7 +241,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> objects that contain information about the available cryptographic providers  that support the public key algorithm associated with the private key.
+Specifies or retrieves a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> objects that contain information about the available cryptographic providers  that support the public key algorithm associated with the private key.
 
 [WebEnabled]
 
@@ -252,7 +250,7 @@ Specifies or retrieves a collection of <a href="https://docs.microsoft.com/windo
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a>
 
 
 </td>
@@ -261,7 +259,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object that contains information about the cryptographic provider and algorithm pair associated with the private key.
+Specifies or retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object that contains information about the cryptographic provider and algorithm pair associated with the private key.
 
 [WebEnabled]
 
@@ -270,7 +268,7 @@ Specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/ap
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_defaultcontainer">DefaultContainer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_defaultcontainer">DefaultContainer</a>
 
 
 </td>
@@ -286,7 +284,7 @@ Retrieves a Boolean value that specifies whether the private key represents the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_description">Description</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_description">Description</a>
 
 
 </td>
@@ -302,7 +300,7 @@ Specifies or retrieves a string that contains a description of the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_existing">Existing</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_existing">Existing</a>
 
 
 </td>
@@ -320,7 +318,7 @@ Specifies or retrieves a Boolean value that indicates whether the private key ha
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_exportpolicy">ExportPolicy</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_exportpolicy">ExportPolicy</a>
 
 
 </td>
@@ -338,7 +336,7 @@ Specifies or retrieves export constraints for a private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_friendlyname">FriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_friendlyname">FriendlyName</a>
 
 
 </td>
@@ -354,7 +352,7 @@ Specifies or retrieves a display name for the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyprotection">KeyProtection</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyprotection">KeyProtection</a>
 
 
 </td>
@@ -372,7 +370,7 @@ Specifies or retrieves a  value that indicates how a private key is protected be
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a>
 
 
 </td>
@@ -390,7 +388,7 @@ Specifies or retrieves a value that identifies whether a private key can be used
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a>
 
 
 </td>
@@ -408,7 +406,7 @@ Specifies or retrieves a  value that identifies the specific purpose for which a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_legacycsp">LegacyCsp</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_legacycsp">LegacyCsp</a>
 
 
 </td>
@@ -426,7 +424,7 @@ Specifies  or retrieves a Boolean value that indicates whether the provider is a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_length">Length</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_length">Length</a>
 
 
 </td>
@@ -444,7 +442,7 @@ Specifies or retrieves the length, in bits, of the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_machinecontext">MachineContext</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_machinecontext">MachineContext</a>
 
 
 </td>
@@ -462,7 +460,7 @@ Specifies or retrieves a Boolean value that identifies the local certificate sto
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_opened">Opened</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_opened">Opened</a>
 
 
 </td>
@@ -478,7 +476,7 @@ Retrieves a Boolean value that specifies whether the private key is open.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_parentwindow">ParentWindow</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_parentwindow">ParentWindow</a>
 
 
 </td>
@@ -494,7 +492,7 @@ Specifies or retrieves the ID of the window used to display key information.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-put_pin">Pin</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-put_pin">Pin</a>
 
 
 </td>
@@ -510,7 +508,7 @@ Specifies a personal identification number (PIN) that is used to authenticate us
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a>
 
 
 </td>
@@ -528,7 +526,7 @@ Specifies or retrieves the name of the cryptographic provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a>
 
 
 </td>
@@ -546,7 +544,7 @@ Specifies or retrieves the type of cryptographic provider associated with the pr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_readername">ReaderName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_readername">ReaderName</a>
 
 
 </td>
@@ -562,7 +560,7 @@ Specifies the name of a smart card reader.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_securitydescriptor">SecurityDescriptor</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_securitydescriptor">SecurityDescriptor</a>
 
 
 </td>
@@ -571,14 +569,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the private key.
+Specifies or retrieves the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the private key.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_silent">Silent</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_silent">Silent</a>
 
 
 </td>
@@ -594,7 +592,7 @@ Specifies or retrieves a Boolean value that indicates whether the Certificate En
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_uicontextmessage">UIContextMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_uicontextmessage">UIContextMessage</a>
 
 
 </td>
@@ -610,7 +608,7 @@ Specifies or retrieves a string that contains user interface text associated wit
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_uniquecontainername">UniqueContainerName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_uniquecontainername">UniqueContainerName</a>
 
 
 </td>
@@ -623,24 +621,16 @@ Retrieves a unique name for the key container.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>

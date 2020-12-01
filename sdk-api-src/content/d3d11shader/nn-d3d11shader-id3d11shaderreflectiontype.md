@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 04520be2-2491-4f10-988a-e203659efddf
 ms.date: 12/05/2018
 ms.keywords: 369c707d-0441-c514-603f-48f54b69b778, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ID3D11ShaderReflectionType interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionType, direct3d11.id3d11shaderreflectiontype
-f1_keywords:
-- d3d11shader/ID3D11ShaderReflectionType
-dev_langs:
-- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler_47.dll
-api_name:
-- ID3D11ShaderReflectionType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11ShaderReflectionType
+ - d3d11shader/ID3D11ShaderReflectionType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler_47.dll
+api_name:
+ - ID3D11ShaderReflectionType
 ---
 
 # ID3D11ShaderReflectionType interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 This shader-reflection interface provides access to variable type.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionType</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderReflectionType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ID3D11ShaderReflectionType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getbaseclass">GetBaseClass</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getbaseclass">GetBaseClass</a>
 </td>
 <td align="left" width="63%">
 Gets an <b>ID3D11ShaderReflectionType Interface</b>  interface containing the variable base class type.
@@ -79,7 +78,7 @@ Gets an <b>ID3D11ShaderReflectionType Interface</b>  interface containing the va
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the description of a shader-reflection-variable type.
@@ -88,7 +87,7 @@ Get the description of a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getinterfacebyindex">GetInterfaceByIndex</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getinterfacebyindex">GetInterfaceByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an interface by index.
@@ -97,7 +96,7 @@ Get an interface by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by index.
@@ -106,7 +105,7 @@ Get a shader-reflection-variable type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by name.
@@ -115,7 +114,7 @@ Get a shader-reflection-variable type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type.
@@ -124,7 +123,7 @@ Get a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getnuminterfaces">GetNumInterfaces</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getnuminterfaces">GetNumInterfaces</a>
 </td>
 <td align="left" width="63%">
 Gets the number of interfaces.
@@ -133,7 +132,7 @@ Gets the number of interfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getsubtype">GetSubType</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getsubtype">GetSubType</a>
 </td>
 <td align="left" width="63%">
 Gets the base class of a class.
@@ -142,7 +141,7 @@ Gets the base class of a class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-implementsinterface">ImplementsInterface</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-implementsinterface">ImplementsInterface</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a class type implements an interface.
@@ -151,7 +150,7 @@ Indicates whether a class type implements an interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-isequal">IsEqual</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Indicates whether two <b>ID3D11ShaderReflectionType Interface</b> pointers have the same underlying type.
@@ -160,33 +159,19 @@ Indicates whether two <b>ID3D11ShaderReflectionType Interface</b> pointers have 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-isoftype">IsOfType</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-isoftype">IsOfType</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a variable is of the specified type.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-The get a shader-reflection-type interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-gettype">ID3D11ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
-          
-
-
-
+The get a shader-reflection-type interface, call <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-gettype">ID3D11ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>

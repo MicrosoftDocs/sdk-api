@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], IDirectXVideoProcessor interface [Media Foundation],described, a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5, dxva2api/IDirectXVideoProcessor, mf.idirectxvideoprocessor
-f1_keywords:
-- dxva2api/IDirectXVideoProcessor
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoProcessor
+ - dxva2api/IDirectXVideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoProcessor
 ---
 
 # IDirectXVideoProcessor interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a DirectX Video Acceleration (DXVA) video processor device. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-createvideoprocessor">IDirectXVideoProcessorService::CreateVideoProcessor</a>.
-
+Represents a DirectX Video Acceleration (DXVA) video processor device. To get a pointer to this interface, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-createvideoprocessor">IDirectXVideoProcessorService::CreateVideoProcessor</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoProcessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IDirectXVideoProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getcreationparameters">GetCreationParameters</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getcreationparameters">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parameters that were used to create this device.
@@ -79,7 +78,7 @@ Retrieves the parameters that were used to create this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getfilterpropertyrange">GetFilterPropertyRange</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getfilterpropertyrange">GetFilterPropertyRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the range of values for an image filter supported by this device.
@@ -88,7 +87,7 @@ Retrieves the range of values for an image filter supported by this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getprocamprange">GetProcAmpRange</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getprocamprange">GetProcAmpRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the range of values for a video processor (ProcAmp) setting on this video processor device.
@@ -97,7 +96,7 @@ Retrieves the range of values for a video processor (ProcAmp) setting on this vi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">GetVideoProcessorCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the video processor device.
@@ -106,7 +105,7 @@ Retrieves the capabilities of the video processor device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorservice">GetVideoProcessorService</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorservice">GetVideoProcessorService</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DXVA video processor service that created this video processor device.
@@ -115,27 +114,19 @@ Retrieves the DXVA video processor service that created this video processor dev
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">VideoProcessBlt</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">VideoProcessBlt</a>
 </td>
 <td align="left" width="63%">
 Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

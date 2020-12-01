@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
-f1_keywords:
-- mfidl/IMFWorkQueueServicesEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFWorkQueueServicesEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFWorkQueueServicesEx
+ - mfidl/IMFWorkQueueServicesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFWorkQueueServicesEx
 ---
 
 # IMFWorkQueueServicesEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> interface.
-
+Extends the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> interface.
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IMFWorkQueueServicesEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">BeginRegisterPlatformWorkQueueWithMMCSSEx</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">BeginRegisterPlatformWorkQueueWithMMCSSEx</a>
 </td>
 <td align="left" width="63%">
 Registers a platform work queue with Multimedia Class Scheduler Service (MMCSS) using the specified
@@ -80,7 +79,7 @@ Registers a platform work queue with Multimedia Class Scheduler Service (MMCSS) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-getplatformworkqueuemmcsspriority">GetPlatformWorkQueueMMCSSPriority</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-getplatformworkqueuemmcsspriority">GetPlatformWorkQueueMMCSSPriority</a>
 </td>
 <td align="left" width="63%">
 Gets the priority of the Multimedia Class Scheduler Service (MMCSS)  priority associated with
@@ -90,7 +89,7 @@ Gets the priority of the Multimedia Class Scheduler Service (MMCSS)  priority as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-gettopologyworkqueuemmcsspriority">GetTopologyWorkQueueMMCSSPriority</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-gettopologyworkqueuemmcsspriority">GetTopologyWorkQueueMMCSSPriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Multimedia Class Scheduler Service (MMCSS)  string associated with the given topology work queue.
@@ -99,35 +98,22 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS)  string associated with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfworkqueueservicesex-remotebeginregisterplatformworkqueuewithmmcssex">RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx</a>
+<a href="/windows/desktop/medfound/imfworkqueueservicesex-remotebeginregisterplatformworkqueuewithmmcssex">RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx</a>.
+Remotable version of <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservicesex-beginregisterplatformworkqueuewithmmcssex">IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx</a>.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface allows applications to control
 both platform and topology work queues.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> can be obtained from the session by querying     for the <b>MF_WORKQUEUE_SERVICES</b> service.
-
-
-
+The <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a> can be obtained from the session by querying     for the <b>MF_WORKQUEUE_SERVICES</b> service.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
-f1_keywords:
-- commctrl/ListView_ApproximateViewRect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_ApproximateViewRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_ApproximateViewRect
+ - commctrl/ListView_ApproximateViewRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_ApproximateViewRect
 ---
 
 # ListView_ApproximateViewRect macro
@@ -49,39 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-approximateviewrect">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
-
+Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-approximateviewrect">LVM_APPROXIMATEVIEWRECT</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b>hwndLV</b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param iWidth
 
 Type: <b>int</b>
 
-The proposed x-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current width value. 
-
+The proposed x-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current width value.
 
 ### -param iHeight
 
 Type: <b>int</b>
 
-The proposed y-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current height value. 
-
+The proposed y-dimension of the control, in pixels. This parameter can be -1 to allow the message to use the current height value.
 
 ### -param iCount
 
 Type: <b>int</b>
 
 The number of items to be displayed in the control. If this parameter is -1, the message uses the total number of items in the control.
-

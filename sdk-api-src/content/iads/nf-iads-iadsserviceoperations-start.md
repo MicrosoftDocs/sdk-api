@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
-f1_keywords:
-- iads/IADsServiceOperations.Start
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsServiceOperations.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsServiceOperations::Start
+ - iads/IADsServiceOperations::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsServiceOperations.Start
 ---
 
 # IADsServiceOperations::Start
@@ -49,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsServiceOperations::Start</b> method starts a network service.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
 
-
-
-This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>

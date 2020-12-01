@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: monitor
+f1_keywords:
+ - lowlevelmonitorconfigurationapi
+ - lowlevelmonitorconfigurationapi/lowlevelmonitorconfigurationapi
 ---
 
 # Lowlevelmonitorconfigurationapi.h header
 
 
 ## -description
-
 
 This header is used by Monitor Configuration. For more information, see:
 

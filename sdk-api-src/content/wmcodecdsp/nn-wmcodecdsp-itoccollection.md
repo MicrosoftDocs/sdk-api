@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
 ms.date: 12/05/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
-f1_keywords:
-- wmcodecdsp/ITocCollection
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocCollection
+ - wmcodecdsp/ITocCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocCollection
 ---
 
 # ITocCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITocCollection</b> represents a collection of tables of contents. It provides methods for adding, retrieving, and removing,  tables of contents from the collection.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITocCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-addentry">AddEntry</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an individual table of contents  to the collection, and assigns an index to the added table of contents.
@@ -79,7 +78,7 @@ Adds an individual table of contents  to the collection, and assigns an index to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264252(v=vs.85)">AddEntryByIndex</a>
+<a href="/previous-versions/ee264252(v=vs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual table of contents to the collection, and associates a caller-supplied index with that table of contents.
@@ -88,7 +87,7 @@ Adds an individual table of contents to the collection, and associates a caller-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264253(v=vs.85)">GetEntryByIndex</a>
+<a href="/previous-versions/ee264253(v=vs.85)">GetEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table of contents, specified by an index, from the collection.
@@ -97,7 +96,7 @@ Retrieves a table of contents, specified by an index, from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-getentrycount">GetEntryCount</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoccollection-getentrycount">GetEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of tables of contents in the collection.
@@ -106,27 +105,19 @@ Retrieves the number of tables of contents in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264255(v=vs.85)">RemoveEntryByIndex</a>
+<a href="/previous-versions/ee264255(v=vs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
  Removes a table of contents, specified by an index, from  the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>

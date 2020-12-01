@@ -36,27 +36,34 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticRecordProducerCount
+f1_keywords:
+ - DdqGetDiagnosticRecordProducerCount
+ - diagnosticdataquery/DdqGetDiagnosticRecordProducerCount
 ---
 
 ## -description
+
 Fetches the number (size) of producers in the resource pointed to by the HDIAGNOSTIC_EVENT_PRODUCER_DESCRIPTION.
 
 ## -parameters
 
 ### -param hProducerDescription
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the resource that contains list of producers. 
+Handle to the resource that contains list of producers.
 
 ### -param producerDescriptionCount
+
 Type: **[UNINT32\*](/windows/desktop/winprog/windows-data-types)**
-This output parameter is a pointer to the number of producers in provided resource.  
+This output parameter is a pointer to the number of producers in provided resource.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
-See **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description)** for documentation on how a producer is defined. 
+
+See **[DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description.md)** for documentation on how a producer is defined.
 
 ## -see-also
-

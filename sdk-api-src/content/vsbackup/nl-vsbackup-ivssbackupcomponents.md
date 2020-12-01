@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: fe1220c7-11e5-4872-b7a9-61558f7c75c0
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], IVssBackupComponents interface [VSS],described, _win32_ivssbackupcomponents, base.ivssbackupcomponents, vsbackup/IVssBackupComponents
-f1_keywords:
-- vsbackup/IVssBackupComponents
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents
+ - vsbackup/IVssBackupComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents
 ---
 
 # IVssBackupComponents class
@@ -50,26 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssBackupComponents</b> interface is used by a 
     requester to poll writers about file status and to run backup/restore operations.
 
 Applications obtain an instance of the 
     <b>IVssBackupComponents</b> interface by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-createvssbackupcomponents">CreateVssBackupComponents</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-createvssbackupcomponents">CreateVssBackupComponents</a>.
 
 An <b>IVssBackupComponents</b> object can be used for 
-    only a single backup, restore, or <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a> operation.
+    only a single backup, restore, or <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a> operation.
 
-After the backup, restore, or <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a> operation has either successfully finished or been explicitly terminated, a requester must 
+After the backup, restore, or <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a> operation has either successfully finished or been explicitly terminated, a requester must 
     release the <b>IVssBackupComponents</b> object by calling 
     <b>IVssBackupComponents::Release</b>. An 
     <b>IVssBackupComponents</b> object must not be reused. For example, you cannot perform a backup or restore operation with the same <b>IVssBackupComponents</b> object that you have already used for a <b>Query</b> operation.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssBackupComponents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssBackupComponents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssBackupComponents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +83,7 @@ The <b>IVssBackupComponents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-abortbackup">AbortBackup</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-abortbackup">AbortBackup</a>
 </td>
 <td align="left" width="63%">
 Terminates the current backup.
@@ -93,7 +92,7 @@ Terminates the current backup.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">AddAlternativeLocationMapping</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">AddAlternativeLocationMapping</a>
 </td>
 <td align="left" width="63%">
 Creates an alternate location mapping for the specified file or files.
@@ -102,7 +101,7 @@ Creates an alternate location mapping for the specified file or files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">AddComponent</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">AddComponent</a>
 </td>
 <td align="left" width="63%">
 Adds a component to the list of components to be backed up.
@@ -111,7 +110,7 @@ Adds a component to the list of components to be backed up.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addnewtarget">AddNewTarget</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addnewtarget">AddNewTarget</a>
 </td>
 <td align="left" width="63%">
 Adds a new target location to which a file is to be restored.
@@ -120,7 +119,7 @@ Adds a new target location to which a file is to be restored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent">AddRestoreSubcomponent</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent">AddRestoreSubcomponent</a>
 </td>
 <td align="left" width="63%">
 Adds a subcomponent to be restored and allows a requester to restore a portion of the entire
@@ -130,7 +129,7 @@ Adds a subcomponent to be restored and allows a requester to restore a portion o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">AddToSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">AddToSnapshotSet</a>
 </td>
 <td align="left" width="63%">
 Adds shadow copies to the shadow copy set.
@@ -139,7 +138,7 @@ Adds shadow copies to the shadow copy set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a>
 </td>
 <td align="left" width="63%">
 Signals writers that the backup process has completed.
@@ -148,7 +147,7 @@ Signals writers that the backup process has completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>
 </td>
 <td align="left" width="63%">
 Causes the existence of a shadow copy set to be "forgotten" by VSS.
@@ -157,7 +156,7 @@ Causes the existence of a shadow copy set to be "forgotten" by VSS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">DeleteSnapshots</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">DeleteSnapshots</a>
 </td>
 <td align="left" width="63%">
 Deletes one or more shadow copies or a shadow copy set.
@@ -166,7 +165,7 @@ Deletes one or more shadow copies or a shadow copy set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">DisableWriterClasses</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">DisableWriterClasses</a>
 </td>
 <td align="left" width="63%">
 Disables the requesting of writer metadata from the specified writer classes.
@@ -175,7 +174,7 @@ Disables the requesting of writer metadata from the specified writer classes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">DisableWriterInstances</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">DisableWriterInstances</a>
 </td>
 <td align="left" width="63%">
 Disables the specified writer instances.
@@ -184,7 +183,7 @@ Disables the specified writer instances.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">DoSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">DoSnapshotSet</a>
 </td>
 <td align="left" width="63%">
 Commits all shadow copies in this set simultaneously.
@@ -193,7 +192,7 @@ Commits all shadow copies in this set simultaneously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">EnableWriterClasses</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">EnableWriterClasses</a>
 </td>
 <td align="left" width="63%">
 Enables the requesting of writer metadata from the specified writer classes.
@@ -202,7 +201,7 @@ Enables the requesting of writer metadata from the specified writer classes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">ExposeSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">ExposeSnapshot</a>
 </td>
 <td align="left" width="63%">
 Exposes the specified shadow copy as a drive letter, mounted folder, or file
@@ -212,28 +211,28 @@ Exposes the specified shadow copy as a drive letter, mounted folder, or file
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewritermetadata">FreeWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewritermetadata">FreeWriterMetadata</a>
 </td>
 <td align="left" width="63%">
 Frees system resources allocated when 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">GatherWriterMetadata</a> is 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">GatherWriterMetadata</a> is 
      called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">FreeWriterStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">FreeWriterStatus</a>
 </td>
 <td align="left" width="63%">
 Frees system resources allocated during the call to 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a>.
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">GatherWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">GatherWriterMetadata</a>
 </td>
 <td align="left" width="63%">
 Prompts each writer to send the metadata it has collected.
@@ -242,7 +241,7 @@ Prompts each writer to send the metadata it has collected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">GatherWriterStatus</a>
 </td>
 <td align="left" width="63%">
 Prompts each writer to send a status message.
@@ -251,7 +250,7 @@ Prompts each writer to send a status message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">GetSnapshotProperties</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">GetSnapshotProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of the specified shadow copy.
@@ -260,7 +259,7 @@ Gets the properties of the specified shadow copy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents">GetWriterComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents">GetWriterComponents</a>
 </td>
 <td align="left" width="63%">
 Obtains a specific writer component.
@@ -269,7 +268,7 @@ Obtains a specific writer component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount">GetWriterComponentsCount</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount">GetWriterComponentsCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of writer components.
@@ -278,7 +277,7 @@ Gets the number of writer components.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">GetWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">GetWriterMetadata</a>
 </td>
 <td align="left" width="63%">
 Returns writer metadata for a specific writer.
@@ -287,7 +286,7 @@ Returns writer metadata for a specific writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount">GetWriterMetadataCount</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount">GetWriterMetadataCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of writers for which there is metadata.
@@ -296,7 +295,7 @@ Returns the number of writers for which there is metadata.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">GetWriterStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">GetWriterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the status of the specified writer.
@@ -305,7 +304,7 @@ Returns the status of the specified writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount">GetWriterStatusCount</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount">GetWriterStatusCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of writers for which there is status.
@@ -314,7 +313,7 @@ Returns the number of writers for which there is status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-importsnapshots">ImportSnapshots</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-importsnapshots">ImportSnapshots</a>
 </td>
 <td align="left" width="63%">
 Imports shadow copies transported from a different machine.
@@ -323,7 +322,7 @@ Imports shadow copies transported from a different machine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">InitializeForBackup</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">InitializeForBackup</a>
 </td>
 <td align="left" width="63%">
 Initializes the backup components metadata file in preparation for backup.
@@ -332,7 +331,7 @@ Initializes the backup components metadata file in preparation for backup.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">InitializeForRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">InitializeForRestore</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IVssBackupComponents</b> interface 
@@ -342,7 +341,7 @@ Initializes the <b>IVssBackupComponents</b> interface
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported">IsVolumeSupported</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-isvolumesupported">IsVolumeSupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified provider supports shadow copies for the specified volume.
@@ -351,17 +350,17 @@ Determines whether the specified provider supports shadow copies for the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a>
 </td>
 <td align="left" width="63%">
-Signals the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event to 
+Signals the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event to 
      the writers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a>
 </td>
 <td align="left" width="63%">
 Signals all writers that a backup is about to occur.
@@ -370,17 +369,17 @@ Signals all writers that a backup is about to occur.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a>
 </td>
 <td align="left" width="63%">
-Signals the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event to 
+Signals the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event to 
      the writers.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">Query</a>
 </td>
 <td align="left" width="63%">
 Queries the list of providers or shadow copies in the system.
@@ -389,17 +388,17 @@ Queries the list of providers or shadow copies in the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">QueryRevertStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">QueryRevertStatus</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used 
+Returns an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used 
    to determine the status of the revert operation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">RevertToSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">RevertToSnapshot</a>
 </td>
 <td align="left" width="63%">
 Reverts a volume to a previous shadow copy.
@@ -408,7 +407,7 @@ Reverts a volume to a previous shadow copy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">SaveAsXML</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">SaveAsXML</a>
 </td>
 <td align="left" width="63%">
 Saves the specified backup component metadata file to the storage media.
@@ -417,7 +416,7 @@ Saves the specified backup component metadata file to the storage media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores">SetAdditionalRestores</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores">SetAdditionalRestores</a>
 </td>
 <td align="left" width="63%">
 Indicates whether additional restores of the component will follow this restore (that is, full restore
@@ -427,7 +426,7 @@ Indicates whether additional restores of the component will follow this restore 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions">SetBackupOptions</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupoptions">SetBackupOptions</a>
 </td>
 <td align="left" width="63%">
 Sets a string of private, or writer-dependent, backup parameters for a writer component.
@@ -436,7 +435,7 @@ Sets a string of private, or writer-dependent, backup parameters for a writer co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">SetBackupState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">SetBackupState</a>
 </td>
 <td align="left" width="63%">
 Defines an overall configuration for a backup operation.
@@ -445,7 +444,7 @@ Defines an overall configuration for a backup operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">SetBackupSucceeded</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded">SetBackupSucceeded</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the backup of the specified component was successful.
@@ -454,7 +453,7 @@ Indicates whether the backup of the specified component was successful.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">SetContext</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context for all subsequent shadow copy-related operations.
@@ -463,7 +462,7 @@ Sets the context for all subsequent shadow copy-related operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus">SetFileRestoreStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus">SetFileRestoreStatus</a>
 </td>
 <td align="left" width="63%">
 Requester indicates whether all, some, or none of the files were successfully restored.
@@ -472,7 +471,7 @@ Requester indicates whether all, some, or none of the files were successfully re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">SetPreviousBackupStamp</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">SetPreviousBackupStamp</a>
 </td>
 <td align="left" width="63%">
 Sets a backup stamp indicating the time of a previous backup against which a differential or incremental
@@ -482,7 +481,7 @@ Sets a backup stamp indicating the time of a previous backup against which a dif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">SetRangesFilePath</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">SetRangesFilePath</a>
 </td>
 <td align="left" width="63%">
 Indicates that the ranges file used in a partial file operation has been restored to a new location.
@@ -491,7 +490,7 @@ Indicates that the ranges file used in a partial file operation has been restore
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions">SetRestoreOptions</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions">SetRestoreOptions</a>
 </td>
 <td align="left" width="63%">
 Sets a string of private, or writer-dependent, restore parameters for a writer component.
@@ -500,7 +499,7 @@ Sets a string of private, or writer-dependent, restore parameters for a writer c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">SetRestoreState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">SetRestoreState</a>
 </td>
 <td align="left" width="63%">
 Sets how a restore will be processed.
@@ -509,7 +508,7 @@ Sets how a restore will be processed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">SetSelectedForRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">SetSelectedForRestore</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the specified component has been selected for restoration.
@@ -518,12 +517,11 @@ Indicates whether the specified component has been selected for restoration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">StartSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">StartSnapshotSet</a>
 </td>
 <td align="left" width="63%">
 Creates a new, empty shadow copy set.
 
 </td>
 </tr>
-</table> 
-
+</table>

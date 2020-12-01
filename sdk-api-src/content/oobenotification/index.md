@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: windowssetupandmigration
+f1_keywords:
+ - oobenotification
+ - oobenotification/oobenotification
 ---
 
 # Oobenotification.h header
 
 
 ## -description
-
 
 This header is used by OOBE APIs for setup state and notification. For more information, see:
 

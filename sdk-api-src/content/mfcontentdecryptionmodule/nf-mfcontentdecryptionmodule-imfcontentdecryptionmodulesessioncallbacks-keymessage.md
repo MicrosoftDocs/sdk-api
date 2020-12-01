@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSessionCallbacks::KeyMessage
 f1_keywords:
+ - IMFContentDecryptionModuleSessionCallbacks::KeyMessage
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSessionCallbacks::KeyMessage
 dev_langs:
  - c++
@@ -41,13 +42,13 @@ dev_langs:
 
 ## -description
 
-Called when the Content Decryption Module (CDM) has generated a message for the session.  
+Called when the Content Decryption Module (CDM) has generated a message for the session.
 
 ## -parameters
 
 ### -param messageType
 
-A value from the [MF_MEDIAKEYSESSION_MESSAGETYPE](/windows/win32/api/mfidl/ne-mfidl-mf_mediakeysession_messagetype) enumeration specifying the type of the message.
+A value from the [MF_MEDIAKEYSESSION_MESSAGETYPE](../mfidl/ne-mfidl-mf_mediakeysession_messagetype.md) enumeration specifying the type of the message.
 
 ### -param message
 
@@ -61,7 +62,6 @@ The size of the array in the *message* parameter.
 
 A optional parameter containing the destination URL.
 
-
 ## -returns
 
 Returns an HRESULT.
@@ -71,4 +71,3 @@ Returns an HRESULT.
 **KeyMessage** is based on the Encrypted Media Extension specification's [MediaKeyMessageEvent](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeymessageevent).
 
 ## -see-also
-

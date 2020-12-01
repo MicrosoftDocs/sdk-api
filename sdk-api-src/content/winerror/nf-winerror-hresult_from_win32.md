@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 40e6f80d-a778-4d5f-bb1b-db294815f8b5
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FROM_WIN32, HRESULT_FROM_WIN32 macro [COM], _com_HRESULT_FROM_WIN32, com.hresult_from_win32, com.hresult_from_win32_macro, winerror/HRESULT_FROM_WIN32
-f1_keywords:
-- winerror/HRESULT_FROM_WIN32
-dev_langs:
-- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winerror.h
-api_name:
-- HRESULT_FROM_WIN32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HRESULT_FROM_WIN32
+ - winerror/HRESULT_FROM_WIN32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winerror.h
+api_name:
+ - HRESULT_FROM_WIN32
 ---
 
 # HRESULT_FROM_WIN32 macro
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Maps a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> to an <b>HRESULT</b> value. 
-
+Maps a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> to an <b>HRESULT</b> value.
 
 ## -parameters
-
-
-
 
 ### -param x
 
 The system error code.
 
-
 ## -remarks
-
-
 
 This macro is defined as follows:
 
@@ -85,15 +78,6 @@ FORCEINLINE HRESULT HRESULT_FROM_WIN32(unsigned long x) {
 
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
- 
-
- 
-
+<a href="/windows/desktop/com/error-handling-in-com">Error Handling</a>

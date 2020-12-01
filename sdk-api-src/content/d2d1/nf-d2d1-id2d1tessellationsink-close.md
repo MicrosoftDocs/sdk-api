@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 42630fca-1f57-4b1e-be9d-7636a792a1bf
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Direct2D], Close method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],Close method, ID2D1TessellationSink.Close, ID2D1TessellationSink::Close, d2d1/ID2D1TessellationSink::Close, direct2d.ID2D1TessellationSink_Close
-f1_keywords:
-- d2d1/ID2D1TessellationSink.Close
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1TessellationSink.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TessellationSink::Close
+ - d2d1/ID2D1TessellationSink::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1TessellationSink.Close
 ---
 
 # ID2D1TessellationSink::Close
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the sink and returns its error status.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
 ms.date: 12/05/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, dshow.vmrfrequency, strmif/VMRFrequency
-f1_keywords:
-- strmif/VMRFrequency
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- VMRFrequency
 targetos: Windows
 req.typenames: VMRFrequency
 req.redist: 
 req.product: Windows XP with SP1 and later
 ms.custom: 19H1
+f1_keywords:
+ - _VMRFrequency
+ - strmif/_VMRFrequency
+ - VMRFrequency
+ - strmif/VMRFrequency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - VMRFrequency
 ---
 
 # VMRFrequency structure
@@ -50,35 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>VMRFrequency</code> structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumerator
 
 Numerator of the frequency ratio.
 
-
 ### -field dwDenominator
 
 Denominator of the frequency ratio.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

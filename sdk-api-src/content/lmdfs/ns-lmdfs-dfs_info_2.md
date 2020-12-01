@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: c5fe27be-fd6e-4cf0-abf6-8363c78edf5b
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_2, *PDFS_INFO_2, DFS_INFO_2, DFS_INFO_2 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_2, LPDFS_INFO_2 structure pointer [Distributed File System], PDFS_INFO_2, PDFS_INFO_2 structure pointer [Distributed File System], _win32_dfs_info_2_str, dfs.dfs_info_2_str, fs.dfs_info_2_str, lmdfs/DFS_INFO_2, lmdfs/LPDFS_INFO_2, lmdfs/PDFS_INFO_2, netmgmt.dfs_info_2_str'
-f1_keywords:
-- lmdfs/DFS_INFO_2
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_2
 targetos: Windows
 req.typenames: DFS_INFO_2, *PDFS_INFO_2, *LPDFS_INFO_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_2
+ - lmdfs/_DFS_INFO_2
+ - PDFS_INFO_2
+ - lmdfs/PDFS_INFO_2
+ - DFS_INFO_2
+ - lmdfs/DFS_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_2
 ---
 
 # DFS_INFO_2 structure
@@ -49,20 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a Distributed File System (DFS) root or link. This structure contains the name, 
     status, and number of DFS targets for the root or link. This structure is only for use with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>, and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> functions and the 
-    <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+    <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>, 
+    <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>, and 
+    <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> functions and the 
+    <a href="/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
     code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field EntryPath
 
@@ -90,11 +90,9 @@ or
 
 where the values of the names are the same as those described previously.
 
-
 ### -field Comment
 
 Pointer to a null-terminated Unicode string that contains a comment associated with the DFS root or link.
-
 
 ### -field State
 
@@ -136,15 +134,11 @@ The system sets this flag if the root is associated with a stand-alone DFS names
 
 The system sets this flag if the root is associated with a domain-based DFS namespace.
 
-
 ### -field NumberOfStorages
 
 Specifies the number of DFS targets.
 
-
 ## -remarks
-
-
 
 The DFS functions use the <b>DFS_INFO_2</b> structure to 
     retrieve information about a DFS root or link.
@@ -162,35 +156,26 @@ StateBits = (Flags &amp; DFS_VOLUME_STATES)
 //  (DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_INCONSISTENT, 
 //   DFS_VOLUME_STATE_OFFLINE or DFS_VOLUME_STATE_ONLINE)</code></pre>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

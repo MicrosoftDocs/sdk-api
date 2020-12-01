@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
-f1_keywords:
-- winsync/ILoadChangeContext
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ILoadChangeContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadChangeContext
+ - winsync/ILoadChangeContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ILoadChangeContext
 ---
 
 # ILoadChangeContext interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about a change to be loaded from the item store.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadChangeContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILoadChangeContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadChangeContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILoadChangeContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>ILoadChangeContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-getsyncchange">GetSyncChange</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-getsyncchange">GetSyncChange</a>
 </td>
 <td align="left" width="63%">
 Gets the change item for which the change data should be retrieved from the item store.
@@ -81,7 +79,7 @@ Gets the change item for which the change data should be retrieved from the item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchange">SetRecoverableErrorOnChange</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchange">SetRecoverableErrorOnChange</a>
 </td>
 <td align="left" width="63%">
 Indicates that a recoverable error occurred when data for this item was loaded from the item store.
@@ -91,7 +89,7 @@ Indicates that a recoverable error occurred when data for this item was loaded f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchangeunit">SetRecoverableErrorOnChangeUnit</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchangeunit">SetRecoverableErrorOnChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Indicates that a recoverable error occurred when data for the specified change unit was loaded from the item store.
@@ -99,16 +97,8 @@ Indicates that a recoverable error occurred when data for the specified change u
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

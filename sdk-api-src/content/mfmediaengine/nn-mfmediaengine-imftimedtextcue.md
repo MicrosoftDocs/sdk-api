@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
-f1_keywords:
-- mfmediaengine/IMFTimedTextCue
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextCue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextCue
+ - mfmediaengine/IMFTimedTextCue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextCue
 ---
 
 # IMFTimedTextCue interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents the timed-text-cue object. 
-
+Represents the timed-text-cue object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextCue</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextCue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextCue</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextCue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMFTimedTextCue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getcuekind">GetCueKind</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getcuekind">GetCueKind</a>
 </td>
 <td align="left" width="63%">
 Gets the kind of timed-text cue.
@@ -79,7 +78,7 @@ Gets the kind of timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getdata">GetData</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Gets the data content of the timed-text cue.
@@ -88,7 +87,7 @@ Gets the data content of the timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getduration">GetDuration</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration time of the cue in the track.
@@ -97,7 +96,7 @@ Gets the duration time of the cue in the track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getid">GetId</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getid">GetId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier of a timed-text cue.
@@ -106,7 +105,7 @@ Gets the identifier of a timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getline">GetLine</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getline">GetLine</a>
 </td>
 <td align="left" width="63%">
 Gets a line of text in the cue from the index of the line.
@@ -115,7 +114,7 @@ Gets a line of text in the cue from the index of the line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getlinecount">GetLineCount</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getlinecount">GetLineCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of lines of text in the timed-text cue.
@@ -124,7 +123,7 @@ Gets the number of lines of text in the timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getoriginalid">GetOriginalId</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getoriginalid">GetOriginalId</a>
 </td>
 <td align="left" width="63%">
 Gets the cue identifier that is provided in the text-track data format, if available.
@@ -133,7 +132,7 @@ Gets the cue identifier that is provided in the text-track data format, if avail
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getregion">GetRegion</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getregion">GetRegion</a>
 </td>
 <td align="left" width="63%">
 Gets info about the display region  of the timed-text cue.
@@ -142,7 +141,7 @@ Gets info about the display region  of the timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getstarttime">GetStartTime</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getstarttime">GetStartTime</a>
 </td>
 <td align="left" width="63%">
 Gets the start time of the cue in the track.
@@ -151,7 +150,7 @@ Gets the start time of the cue in the track.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getstyle">GetStyle</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-getstyle">GetStyle</a>
 </td>
 <td align="left" width="63%">
 Gets info about the style  of the timed-text cue.
@@ -160,23 +159,15 @@ Gets info about the style  of the timed-text cue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-gettrackid">GetTrackId</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextcue-gettrackid">GetTrackId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier of the timed-text cue.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

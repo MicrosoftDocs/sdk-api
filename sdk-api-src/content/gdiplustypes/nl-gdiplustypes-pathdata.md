@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdata.htm
 ms.date: 12/05/2018
 ms.keywords: PathData, PathData class [GDI+], PathData class [GDI+],described, _gdiplus_CLASS_PathData_Class, gdiplus._gdiplus_CLASS_PathData_Class, gdiplustypes/PathData
-f1_keywords:
-- gdiplustypes/PathData
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- PathData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathData
+ - gdiplustypes/PathData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - PathData
 ---
 
 ## -description
@@ -65,3 +66,4 @@ The <b>PathData</b> class is a helper class for the <a href="/windows/win32/api/
 <a href="/windows/win32/gdiplus/-gdiplus-paths-about">Paths</a>
 
 <a href="/windows/win32/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

@@ -4,7 +4,7 @@ title: SizeF::operator-
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Subtraction operator for the [**SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef) class.
+description: Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - SizeF::operator-
 f1_keywords:
+ - SizeF::operator-
  - gdiplustypes/SizeF::operator-
 dev_langs:
  - c++
@@ -41,19 +42,19 @@ dev_langs:
 
 ## -description
 
-Subtraction operator for the [**SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef) class. Subtracts the argument from the current instance of **SizeF**.
+Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class. Subtracts the argument from the current instance of **SizeF**.
 
 ## -parameters
 
 ### -param sz
 
-Type: [in] **const [SizeF](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef)&**
+Type: [in] **const [SizeF](./nl-gdiplustypes-sizef.md)&**
 
 The value to subtract from the current instance of **SizeF**.
 
 ## -returns
 
-Type: **[SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef)**
+Type: **[SizeF**](./nl-gdiplustypes-sizef.md)**
 
 The resulting **SizeF** value.
 

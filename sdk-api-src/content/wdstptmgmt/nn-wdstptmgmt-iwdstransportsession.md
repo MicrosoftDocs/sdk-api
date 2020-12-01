@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
-f1_keywords:
-- wdstptmgmt/IWdsTransportSession
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportSession
+ - wdstptmgmt/IWdsTransportSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportSession
 ---
 
 # IWdsTransportSession interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents an active transport session on the WDS transport server. 
-
+Represents an active transport session on the WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSession</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSession</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IWdsTransportSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-retrieveclients">RetrieveClients</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-retrieveclients">RetrieveClients</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of WDS clients joined to the transport session.
@@ -80,7 +79,7 @@ Retrieves a collection of WDS clients joined to the transport session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-terminate">Terminate</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-terminate">Terminate</a>
 </td>
 <td align="left" width="63%">
 Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
@@ -98,7 +97,7 @@ Terminates an active session on the WDS transport server and disconnects all WDS
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_content">Content</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_content">Content</a>
 
 
 </td>
@@ -107,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Receives a pointer to an object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontent">IWdsTransportContent</a> interface that represents an active transport session on the WDS transport server.
+Receives a pointer to an object of the <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontent">IWdsTransportContent</a> interface that represents an active transport session on the WDS transport server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_id">Id</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_id">Id</a>
 
 
 </td>
@@ -130,7 +129,7 @@ Receives a unique session ID that identifies this session on the server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_masterclientid">MasterClientId</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_masterclientid">MasterClientId</a>
 
 
 </td>
@@ -146,7 +145,7 @@ Receives a unique client ID assigned by the WDS server that identifies the maste
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_networkinterfaceaddress">NetworkInterfaceAddress</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_networkinterfaceaddress">NetworkInterfaceAddress</a>
 
 
 </td>
@@ -162,7 +161,7 @@ Receives the MAC address of the server network interface used by this transport 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_networkinterfacename">NetworkInterfaceName</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_networkinterfacename">NetworkInterfaceName</a>
 
 
 </td>
@@ -178,7 +177,7 @@ Receives the name of the server network interface used by this transport session
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_transferrate">TransferRate</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsession-get_transferrate">TransferRate</a>
 
 
 </td>
@@ -191,5 +190,4 @@ Receives the data transfer rate for this session in bytes per second.
 
 </td>
 </tr>
-</table> 
-
+</table>

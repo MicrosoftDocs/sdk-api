@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397
 ms.date: 12/05/2018
 ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IGPMClientSideExtension interface [GPMC],described, _win32_igpmclientsideextension, gpmc.igpmclientsideextension, gpmgmt/IGPMClientSideExtension
-f1_keywords:
-- gpmgmt/IGPMClientSideExtension
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMClientSideExtension
-- GPMClientSideExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMClientSideExtension
+ - gpmgmt/IGPMClientSideExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMClientSideExtension
+ - GPMClientSideExtension
 ---
 
 # IGPMClientSideExtension interface
@@ -50,14 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMClientSideExtension</b> interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces. You can also check whether a client-side extension can be called during the processing of policy.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMClientSideExtension</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMClientSideExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMClientSideExtension</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMClientSideExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +72,7 @@ The <b>IGPMClientSideExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-iscomputerenabled">IsComputerEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-iscomputerenabled">IsComputerEnabled</a>
 </td>
 <td align="left" width="63%">
 Checks whether a client-side extension can be called during the processing of computer policy.
@@ -82,7 +81,7 @@ Checks whether a client-side extension can be called during the processing of co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-isuserenabled">IsUserEnabled</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmclientsideextension-isuserenabled">IsUserEnabled</a>
 </td>
 <td align="left" width="63%">
 Checks whether a client-side extension can be called during the processing of user policy.
@@ -99,7 +98,7 @@ Checks whether a client-side extension can be called during the processing of us
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">DisplayName</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">DisplayName</a>
 
 
 </td>
@@ -111,7 +110,7 @@ Display name of the client-side extension.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">ID</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmclientsideextension-property-methods">ID</a>
 
 
 </td>
@@ -120,24 +119,16 @@ GUID of the client-side extension.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>

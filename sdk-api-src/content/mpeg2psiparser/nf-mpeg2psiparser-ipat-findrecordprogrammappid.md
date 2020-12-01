@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 148cb123-7cac-46a8-8d60-ce2a28e89230
 ms.date: 12/05/2018
 ms.keywords: FindRecordProgramMapPid, FindRecordProgramMapPid method [Microsoft TV Technologies], FindRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],FindRecordProgramMapPid method, IPAT.FindRecordProgramMapPid, IPAT::FindRecordProgramMapPid, IPATFindRecordProgramMapPid, mpeg2psiparser/IPAT::FindRecordProgramMapPid, mstv.ipat_findrecordprogrammappid
-f1_keywords:
-- mpeg2psiparser/IPAT.FindRecordProgramMapPid
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPAT.FindRecordProgramMapPid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPAT::FindRecordProgramMapPid
+ - mpeg2psiparser/IPAT::FindRecordProgramMapPid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPAT.FindRecordProgramMapPid
 ---
 
 # IPAT::FindRecordProgramMapPid
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>FindRecordProgramMapPid</b> method returns the packet identifier (PID) for the program map table (PMT) associated with a given program number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wProgramNumber [in]
 
 Specifies the program number.
 
-
 ### -param pwVal [out]
 
 Receives the PID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -116,18 +105,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>

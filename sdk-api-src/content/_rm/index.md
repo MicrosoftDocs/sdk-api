@@ -19,5 +19,4 @@ To develop Active Directory Rights Management Services SDK, you need these heade
  * [msdrmdefs.h](../msdrmdefs/index.md)
 
 For programming guidance for this technology, see:
-* [Active Directory Rights Management Services SDK](https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk)
-
+* [Active Directory Rights Management Services SDK](/previous-versions/windows/desktop/adrms_sdk)

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c45295f9-df77-4a23-b6c2-65d5b2c9c360
 ms.date: 12/05/2018
 ms.keywords: GetReservedBits, GetReservedBits method [Microsoft TV Technologies], GetReservedBits method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetReservedBits method, IIsdbCADescriptor.GetReservedBits, IIsdbCADescriptor::GetReservedBits, dvbsiparser/IIsdbCADescriptor::GetReservedBits, mstv.iisdbcadescriptor_getreservedbits
-f1_keywords:
-- dvbsiparser/IIsdbCADescriptor.GetReservedBits
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCADescriptor.GetReservedBits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCADescriptor::GetReservedBits
+ - dvbsiparser/IIsdbCADescriptor::GetReservedBits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCADescriptor.GetReservedBits
 ---
 
 # IIsdbCADescriptor::GetReservedBits
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the reserved bits from a conditional access (CA) descriptor. 
-
+Gets the reserved bits from a conditional access (CA) descriptor.
 
 ## -parameters
 
-
-
-
 ### -param pbVal [out]
 
-Receives the reserved bits. 
-
+Receives the reserved bits.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcadescriptor">IIsdbCADescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcadescriptor">IIsdbCADescriptor</a>

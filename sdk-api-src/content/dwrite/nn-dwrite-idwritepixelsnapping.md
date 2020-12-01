@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: b1b1eeb7-934f-42f4-ac01-50973a94996e
 ms.date: 12/05/2018
 ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write], IDWritePixelSnapping interface [Direct Write],described, directwrite.IDWritePixelSnapping, dwrite/IDWritePixelSnapping
-f1_keywords:
-- dwrite/IDWritePixelSnapping
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWritePixelSnapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWritePixelSnapping
+ - dwrite/IDWritePixelSnapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWritePixelSnapping
 ---
 
 # IDWritePixelSnapping interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the pixel snapping properties such as pixels per DIP(device-independent pixel) and the current transform matrix of a text renderer.
-
 
 ## -inheritance
 
@@ -88,12 +87,11 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/dd371281(v=vs.85)">IsPixelSnappingDisabled</a>
+<a href="/previous-versions/windows/win32/legacy/dd371281(v=vs.85)">IsPixelSnappingDisabled</a>
 </td>
 <td align="left" width="63%">
  Determines whether pixel snapping is disabled. The recommended default is <b>FALSE</b>, unless doing animation that requires subpixel vertical placement.
 
 </td>
 </tr>
-</table> 
-
+</table>

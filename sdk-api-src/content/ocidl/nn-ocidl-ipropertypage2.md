@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 65cd8f97-f88c-433c-b4e7-9dace7193ec1
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage2, IPropertyPage2 interface [COM], IPropertyPage2 interface [COM],described, _ctrl_ipropertypage2, com.ipropertypage2, ocidl/IPropertyPage2
-f1_keywords:
-- ocidl/IPropertyPage2
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPropertyPage2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyPage2
+ - ocidl/IPropertyPage2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPropertyPage2
 ---
 
 # IPropertyPage2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
+An extension to <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> to support initial selection of a property on a page.
 
-An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> to support initial selection of a property on a page.
-
-This method works in conjunction with the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>. That method, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
-
+This method works in conjunction with the implementation of <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>. That method, <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
 
 ## -inheritance
 
@@ -72,7 +71,7 @@ The <b>IPropertyPage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies which field is to receive the focus when the property page is activated.
@@ -80,28 +79,20 @@ Specifies which field is to receive the focus when the property page is activate
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>

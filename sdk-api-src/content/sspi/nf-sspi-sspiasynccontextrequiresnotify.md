@@ -34,20 +34,24 @@ api_location:
 api_name:
  - SspiAsyncContextRequiresNotify
 f1_keywords:
+ - SspiAsyncContextRequiresNotify
  - sspi/SspiAsyncContextRequiresNotify
 dev_langs:
  - c++
 ---
 
 ## -description
+
 Determines whether the given async context requires notification on completion of the call.
 
 ## -parameters
 
 ### -param AsyncContext
+
 The async call context.
 
 ## -returns
+
 Returns **True** if the async context requires notification on call completion. Otherwise, **False**.
 
 ## -remarks

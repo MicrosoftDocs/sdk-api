@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
-f1_keywords:
-- msinkaut/IInkRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRectangle
+ - msinkaut/IInkRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkRectangle
 ---
 
 # IInkRectangle interface
@@ -51,10 +52,9 @@ ms.custom: 19H1
 
 Represents an ink rectangle.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRectangle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRectangle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRectangle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRectangle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IInkRectangle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-getrectangle">GetRectangle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-getrectangle">GetRectangle</a>
 </td>
 <td align="left" width="63%">
-Gets the elements of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
+Gets the elements of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-setrectangle">SetRectangle</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-setrectangle">SetRectangle</a>
 </td>
 <td align="left" width="63%">
-Sets the elements of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
+Sets the elements of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Sets the elements of the <a href="https://docs.microsoft.com/windows/desktop/tab
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the bottom position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
+Gets or sets the bottom position of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_data">Data</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_data">Data</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Gets or sets access to the rectangle structure (C++ only).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left</a>
 
 
 </td>
@@ -138,14 +138,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the left position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
+Gets or sets the left position of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right</a>
 
 
 </td>
@@ -154,14 +154,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the right position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
+Gets or sets the right position of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top</a>
 
 
 </td>
@@ -170,11 +170,11 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the top position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
+Gets or sets the top position of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 

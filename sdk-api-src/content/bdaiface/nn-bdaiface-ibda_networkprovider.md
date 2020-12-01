@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
-f1_keywords:
-- bdaiface/IBDA_NetworkProvider
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_NetworkProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_NetworkProvider
+ - bdaiface/IBDA_NetworkProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_NetworkProvider
 ---
 
 # IBDA_NetworkProvider interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IBDA_NetworkProvider</b> interface is implemented on a Network Provider filter. It provides methods that BDA device filters call to register themselves after they are added to the graph.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +69,7 @@ The <b>IBDA_NetworkProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getnetworktype">GetNetworkType</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getnetworktype">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network type.
@@ -82,7 +78,7 @@ Called by a BDA device filter to retrieve the network type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getsignalsource">GetSignalSource</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getsignalsource">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the signal source.
@@ -91,7 +87,7 @@ Called by a BDA device filter to retrieve the signal source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-gettuningspace">GetTuningSpace</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-gettuningspace">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network provider.
@@ -100,7 +96,7 @@ Called by a BDA device filter to retrieve the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-putsignalsource">PutSignalSource</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-putsignalsource">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the network provider.
@@ -109,7 +105,7 @@ Called by a BDA device filter to specify the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-puttuningspace">PutTuningSpace</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-puttuningspace">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the tuning space.
@@ -118,7 +114,7 @@ Called by a BDA device filter to specify the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-registerdevicefilter">RegisterDeviceFilter</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-registerdevicefilter">RegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to register itself in the filter graph.
@@ -127,32 +123,19 @@ Called by a BDA device filter to register itself in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-unregisterdevicefilter">UnRegisterDeviceFilter</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-unregisterdevicefilter">UnRegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by BDA device filters when they are removed from the filter graph.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_NetworkProvider)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

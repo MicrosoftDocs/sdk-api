@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.date: 12/05/2018
 ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceTlg, DecodingSourceWPP, DecodingSourceWbem, DecodingSourceXMLFile, etw.decoding_source_enum, tdh.decoding_source_enum, tdh/DECODING_SOURCE, tdh/DecodingSourceTlg, tdh/DecodingSourceWPP, tdh/DecodingSourceWbem, tdh/DecodingSourceXMLFile
-f1_keywords:
-- tdh/DECODING_SOURCE
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- DECODING_SOURCE
 targetos: Windows
 req.typenames: DECODING_SOURCE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DECODING_SOURCE
+ - tdh/_DECODING_SOURCE
+ - DECODING_SOURCE
+ - tdh/DECODING_SOURCE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - DECODING_SOURCE
 ---
 
 # DECODING_SOURCE enumeration
@@ -49,47 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the source of the event data.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DecodingSourceXMLFile
 
 The source of the event data is a XML manifest.
 
-
 ### -field DecodingSourceWbem
 
 The source of the event data is a WMI MOF class.
-
 
 ### -field DecodingSourceWPP
 
 The source of the event data is a TMF file.
 
-
 ### -field DecodingSourceTlg
 
 Indicates that the event was a self-describing event and was decoded using TraceLogging metadata.
 
-
 ### -field DecodingSourceMax
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>

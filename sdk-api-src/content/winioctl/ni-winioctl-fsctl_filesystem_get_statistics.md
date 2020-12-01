@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d975d32c-1290-4397-8c05-6c515af4c450
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILESYSTEM_GET_STATISTICS, FSCTL_FILESYSTEM_GET_STATISTICS control, FSCTL_FILESYSTEM_GET_STATISTICS control code [Files], base.fsctl_filesystem_get_statistics, fs.fsctl_filesystem_get_statistics, winioctl/FSCTL_FILESYSTEM_GET_STATISTICS
-f1_keywords:
-- winioctl/FSCTL_FILESYSTEM_GET_STATISTICS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_FILESYSTEM_GET_STATISTICS
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_FILESYSTEM_GET_STATISTICS
+ - winioctl/FSCTL_FILESYSTEM_GET_STATISTICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_FILESYSTEM_GET_STATISTICS
 ---
 
 # FSCTL_FILESYSTEM_GET_STATISTICS IOCTL
 
 
 ## -description
-
 
 Retrieves the information from various file system performance counters.
 
@@ -70,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -107,10 +100,9 @@ SMB 3.0 with Scale-out File Shares (SO) | Yes
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FILESYSTEM_STATISTICS](ns-winioctl-filesystem_statistics.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)

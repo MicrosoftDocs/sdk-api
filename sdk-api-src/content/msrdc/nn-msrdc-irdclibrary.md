@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
-f1_keywords:
-- msrdc/IRdcLibrary
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcLibrary
+ - msrdc/IRdcLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcLibrary
 ---
 
 # IRdcLibrary interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcLibrary</b> interface is the primary interface 
     for using RDC.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcLibrary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcLibrary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcLibrary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,14 +70,14 @@ The <b>IRdcLibrary</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-computedefaultrecursiondepth">ComputeDefaultRecursionDepth</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-computedefaultrecursiondepth">ComputeDefaultRecursionDepth</a>
 </td>
 <td align="left" width="63%">
 Computes the maximum level of recursion for the specified file size.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">CreateComparator</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">CreateComparator</a>
 </td>
 <td align="left" width="63%">
 Creates a signature comparator. The caller must create a separate signature comparator for each 
@@ -86,7 +85,7 @@ Creates a signature comparator. The caller must create a separate signature comp
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategenerator">CreateGenerator</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategenerator">CreateGenerator</a>
 </td>
 <td align="left" width="63%">
 Creates a signature generator that will generate the specified levels of 
@@ -94,15 +93,15 @@ Creates a signature generator that will generate the specified levels of
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">CreateGeneratorParameters</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-creategeneratorparameters">CreateGeneratorParameters</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
+Returns an <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
      interface pointer initialized with the  parameters necessary for a signature generator.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createsignaturereader">CreateSignatureReader</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createsignaturereader">CreateSignatureReader</a>
 </td>
 <td align="left" width="63%">
 Creates a signature reader to allow an application to decode the contents of a signature 
@@ -110,7 +109,7 @@ Creates a signature reader to allow an application to decode the contents of a s
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-getrdcversion">GetRDCVersion</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-getrdcversion">GetRDCVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the version of the installed RDC runtime and the oldest version of the RDC interfaces 
@@ -118,27 +117,19 @@ Returns the version of the installed RDC runtime and the oldest version of the R
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-opengeneratorparameters">OpenGeneratorParameters</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-opengeneratorparameters">OpenGeneratorParameters</a>
 </td>
 <td align="left" width="63%">
 Opens an existing serialized parameter block and returns an 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer 
+     <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer 
      initialized with the data.</p> (Inherited from <b>IRdcLibrary</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>

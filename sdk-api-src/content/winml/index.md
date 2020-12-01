@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: machinelearning
 archived: true
+f1_keywords:
+ - winml
+ - winml/winml
 ---
 
 # Winml.h header
 
 
 ## -description
-
 
 This header is used by Windows Machine Learning. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 0642C2FA-03D0-4233-B8C4-27E4549B30BB
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFamily1, IDWriteFontFamily1 interface [Direct Write], IDWriteFontFamily1 interface [Direct Write],described, directwrite.idwritefontfamily1, dwrite_3/IDWriteFontFamily1
-f1_keywords:
-- dwrite_3/IDWriteFontFamily1
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFamily1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFamily1
+ - dwrite_3/IDWriteFontFamily1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily1
 ---
 
 # IDWriteFontFamily1 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a family of related fonts.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Gets the current location of a font given its zero-based index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
- 
-
- 
 

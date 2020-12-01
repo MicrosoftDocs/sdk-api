@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
-f1_keywords:
-- sspi/SspiDecryptAuthIdentity
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- SspiCli.dll
-api_name:
-- SspiDecryptAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiDecryptAuthIdentity
+ - sspi/SspiDecryptAuthIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - SspiCli.dll
+api_name:
+ - SspiDecryptAuthIdentity
 ---
 
 # SspiDecryptAuthIdentity function
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrypts the specified  encrypted credential.
 
-
 ## -parameters
-
-
-
 
 ### -param EncryptedAuthData [in, out]
 
 On input, a  pointer to the encrypted credential structure to be decrypted. On output, a pointer to the decrypted credential structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-
-
 

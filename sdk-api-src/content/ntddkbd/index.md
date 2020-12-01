@@ -6,10 +6,15 @@ ms.date: 08/06/2020
 ms.keywords: 
 ms.topic: conceptual
 tech.root: hid
+f1_keywords:
+ - ntddkbd
+ - ntddkbd/ntddkbd
 ---
 
 # Ntddkbd.h header
 
+
 ## -description
 
 This header file defines types and constants used to access the keyboard device. For more information, see [Human Interface Devices Reference](../_hid/index.md)
+

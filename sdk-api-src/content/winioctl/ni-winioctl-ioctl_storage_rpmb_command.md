@@ -3,10 +3,6 @@ UID: NI:winioctl.IOCTL_STORAGE_RPMB_COMMAND
 title: IOCTL_STORAGE_RPMB_COMMAND
 ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_RPMB_COMMAND
-f1_keywords:
-- IOCTL_STORAGE_RPMB_COMMAND
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 
@@ -23,14 +19,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
+f1_keywords:
+ - IOCTL_STORAGE_RPMB_COMMAND
+ - winioctl/IOCTL_STORAGE_RPMB_COMMAND
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winioctl.h
+ - winioctl.h
 api_name:
-- IOCTL_STORAGE_RPMB_COMMAND
+ - IOCTL_STORAGE_RPMB_COMMAND
 ---
 
 ## -description
@@ -39,27 +40,27 @@ This IOCTL sends an RPMB command to the underlying storage device.
 
 ## -ioctlparameters
 
-## -input-buffer
+### -input-buffer
 
 An array of STORAGE_RPMB_DATA_FRAME structures.
 
-## -input-buffer-length
+### -input-buffer-length
 
-A multiple of sizeof(STORAGE_RPMB_DATA_FRAME). InputBufferLength / sizeof(STORAGE_RPMB_DATA_FRAME) indicates the number of input frames. 
+A multiple of sizeof(STORAGE_RPMB_DATA_FRAME). InputBufferLength / sizeof(STORAGE_RPMB_DATA_FRAME) indicates the number of input frames.
 
-## -output-buffer
+### -output-buffer
 
 An array of STORAGE_RPMB_DATA_FRAME structures.
 
-## -output-buffer-length
+### -output-buffer-length
 
 A multiple of sizeof(STORAGE_RPMB_DATA_FRAME). The number of frames included can be calculated by OutputBufferLength / sizeof(STORAGE_RPMB_DATA_FRAME)
 
-## -in-out-buffer
+### -in-out-buffer
 
-## -inout-buffer-length
+### -inout-buffer-length
 
-## -status-block
+### -status-block
 
 ## -remarks
 

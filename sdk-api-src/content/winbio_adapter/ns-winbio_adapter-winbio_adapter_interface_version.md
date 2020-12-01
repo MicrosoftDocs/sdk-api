@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
 ms.date: 12/05/2018
 ms.keywords: '*PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API], WINBIO_ADAPTER_INTERFACE_VERSION, WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API], secbiomet.winbio_adapter_interface_version, winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION, winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION'
-f1_keywords:
-- winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbio_adapter.h
-api_name:
-- WINBIO_ADAPTER_INTERFACE_VERSION
 targetos: Windows
 req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WINBIO_ADAPTER_INTERFACE_VERSION
+ - winbio_adapter/_WINBIO_ADAPTER_INTERFACE_VERSION
+ - PWINBIO_ADAPTER_INTERFACE_VERSION
+ - winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION
+ - WINBIO_ADAPTER_INTERFACE_VERSION
+ - winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - WINBIO_ADAPTER_INTERFACE_VERSION
 ---
 
 # WINBIO_ADAPTER_INTERFACE_VERSION structure
@@ -49,28 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WINBIO_ADAPTER_INTERFACE_VERSION</b> structure contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 Contains the major version number.
 
-
 ### -field MinorVersion
 
 Contains the minor version number.
 
-
 ## -remarks
-
-
 
 This structure is used by the following structures:
 
@@ -86,19 +82,10 @@ This structure is used by the following structures:
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>

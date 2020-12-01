@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
 ms.date: 12/05/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Company property, IFaxSender.Company, IFaxSender.get_Company, IFaxSender::Company, IFaxSender::get_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_cpp_mfax_faxsender_company_cpp, faxcomex/IFaxSender::Company, faxcomex/IFaxSender::get_Company, faxcomex/IFaxSender::put_Company, get_Company
-f1_keywords:
-- faxcomex/IFaxSender.Company
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxSender.Company
-- IFaxSender.get_Company
-- IFaxSender.put_Company
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxSender::get_Company
+ - faxcomex/IFaxSender::get_Company
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxSender.Company
+ - IFaxSender.get_Company
+ - IFaxSender.put_Company
 ---
 
 # IFaxSender::get_Company
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxSender::get_Company</b> property is a null-terminated string that contains the company name associated with the sender.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

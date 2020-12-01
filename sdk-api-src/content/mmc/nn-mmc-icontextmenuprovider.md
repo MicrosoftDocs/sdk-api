@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 3f9a5945-9b34-41fe-9c91-c782eb7eb739
 ms.date: 12/05/2018
 ms.keywords: IContextMenuProvider, IContextMenuProvider interface [MMC], IContextMenuProvider interface [MMC],described, _slate_icontextmenuprovider, mmc.icontextmenuprovider, mmc/IContextMenuProvider
-f1_keywords:
-- mmc/IContextMenuProvider
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IContextMenuProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuProvider
+ - mmc/IContextMenuProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IContextMenuProvider
 ---
 
 # IContextMenuProvider interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IContextMenuProvider</b> interface implements methods that create new context menus, for the purpose of adding items to those menus, to enable extensions to extend those menus, and to display the resulting context menus.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,18 +70,18 @@ The <b>IContextMenuProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814824(v=vs.85)">AddItem</a>
+<a href="/previous-versions/windows/desktop/legacy/aa814824(v=vs.85)">AddItem</a>
 </td>
 <td align="left" width="63%">
 Adds one item to the context menu.
 
-(Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback</a>.)
+(Inherited from <a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback</a>.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addprimaryextensionitems">AddPrimaryExtensionItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addprimaryextensionitems">AddPrimaryExtensionItems</a>
 </td>
 <td align="left" width="63%">
 Enables a specified snap-in to extend the context menu.
@@ -91,7 +90,7 @@ Enables a specified snap-in to extend the context menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addthirdpartyextensionitems">AddThirdPartyExtensionItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-addthirdpartyextensionitems">AddThirdPartyExtensionItems</a>
 </td>
 <td align="left" width="63%">
 Enables all snap-ins that have registered as third-party context menu extensions for this node type to extend the context menu.
@@ -100,7 +99,7 @@ Enables all snap-ins that have registered as third-party context menu extensions
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">EmptyMenuList</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-emptymenulist">EmptyMenuList</a>
 </td>
 <td align="left" width="63%">
 Clears the context menu.
@@ -109,12 +108,11 @@ Clears the context menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">ShowContextMenu</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">ShowContextMenu</a>
 </td>
 <td align="left" width="63%">
 Displays the context menu.
 
 </td>
 </tr>
-</table> 
-
+</table>

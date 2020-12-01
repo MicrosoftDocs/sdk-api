@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: b42c7b46-9f3c-46d2-a6a7-b5176fc40645
 ms.date: 12/05/2018
 ms.keywords: ComputeDefaultRecursionDepth, ComputeDefaultRecursionDepth method [Remote Differential Compression], ComputeDefaultRecursionDepth method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],ComputeDefaultRecursionDepth method, IRdcLibrary.ComputeDefaultRecursionDepth, IRdcLibrary::ComputeDefaultRecursionDepth, fs.irdclibrary_computedefaultrecursiondepth, msrdc/IRdcLibrary::ComputeDefaultRecursionDepth, rdc.irdclibrary_computedefaultrecursiondepth
-f1_keywords:
-- msrdc/IRdcLibrary.ComputeDefaultRecursionDepth
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: MsRdc.dll
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcLibrary.ComputeDefaultRecursionDepth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcLibrary::ComputeDefaultRecursionDepth
+ - msrdc/IRdcLibrary::ComputeDefaultRecursionDepth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcLibrary.ComputeDefaultRecursionDepth
 ---
 
 # IRdcLibrary::ComputeDefaultRecursionDepth
 
 
 ## -description
-
 
 The 
    <b>ComputeDefaultRecursionDepth</b> 
@@ -57,39 +57,21 @@ The
  returned through the <i>depth</i> parameter with 
  <b>MSRDC_MAXIMUM_DEPTH</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param fileSize [in]
 
 The approximate size of the file.
-
 
 ### -param depth [out]
 
 Pointer to a <b>ULONG</b> that will receive the suggested maximum recursion 
     depth.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw'
-f1_keywords:
-- advpub/STRENTRYW
-dev_langs:
-- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library: Advpack.lib
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- advpack.lib
-api_name:
-- STRENTRYW
 targetos: Windows
 req.typenames: STRENTRYW, *LPSTRENTRYW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _StrEntryW
+ - advpub/_StrEntryW
+ - LPSTRENTRYW
+ - advpub/LPSTRENTRYW
+ - STRENTRYW
+ - advpub/STRENTRYW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - advpack.lib
+api_name:
+ - STRENTRYW
 ---
 
 # STRENTRYW structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a registry string replacement.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszName
 
 The name of the string to substitute.
-
 
 ### -field pszValue
 

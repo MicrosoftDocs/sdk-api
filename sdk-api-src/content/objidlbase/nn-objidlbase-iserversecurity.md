@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
-f1_keywords:
-- objidlbase/IServerSecurity
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IServerSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServerSecurity
+ - objidlbase/IServerSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IServerSecurity
 ---
 
 # IServerSecurity interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Used by a server to help authenticate the client and to manage impersonation of the client. 
-
-
+Used by a server to help authenticate the client and to manage impersonation of the client.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IServerSecurity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>
 </td>
 <td align="left" width="63%">
 Enables a server to impersonate a client for the duration of a call.
@@ -80,7 +78,7 @@ Enables a server to impersonate a client for the duration of a call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating">IsImpersonating</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating">IsImpersonating</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the server is currently impersonating the client.
@@ -89,7 +87,7 @@ Indicates whether the server is currently impersonating the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">QueryBlanket</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">QueryBlanket</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the client that invoked one of the server's methods.
@@ -98,31 +96,23 @@ Retrieves information about the client that invoked one of the server's methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a>
 </td>
 <td align="left" width="63%">
 Restores the authentication information of a thread to what it was before impersonation began.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
- 
-
- 
-
+<a href="/windows/desktop/com/security-in-com">Security in COM</a>

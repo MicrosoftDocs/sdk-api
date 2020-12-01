@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.date: 12/05/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
-f1_keywords:
-- comcat/ICatInformation
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatInformation
+ - comcat/ICatInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatInformation
 ---
 
 # ICatInformation interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains information about the categories implemented or required by a certain class, as well as information about the categories registered on the specified computer.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>ICatInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumcategories">EnumCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumcategories">EnumCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the component categories registered on the system.
@@ -80,7 +78,7 @@ Retrieves an enumerator for the component categories registered on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumclassesofcategories">EnumClassesOfCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumclassesofcategories">EnumClassesOfCategories</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the classes that implement one or more specified category identifiers.
@@ -89,7 +87,7 @@ Retrieves an enumerator for the classes that implement one or more specified cat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumimplcategoriesofclass">EnumImplCategoriesOfClass</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumimplcategoriesofclass">EnumImplCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs implemented by the specified class.
@@ -98,7 +96,7 @@ Retrieves an enumerator for the CATIDs implemented by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-enumreqcategoriesofclass">EnumReqCategoriesOfClass</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-enumreqcategoriesofclass">EnumReqCategoriesOfClass</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the CATIDs required by the specified class.
@@ -107,7 +105,7 @@ Retrieves an enumerator for the CATIDs required by the specified class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-getcategorydesc">GetCategoryDesc</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-getcategorydesc">GetCategoryDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves the localized description string for a specific category ID.
@@ -116,23 +114,15 @@ Retrieves the localized description string for a specific category ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatinformation-isclassofcategories">IsClassOfCategories</a>
+<a href="/windows/desktop/api/comcat/nf-comcat-icatinformation-isclassofcategories">IsClassOfCategories</a>
 </td>
 <td align="left" width="63%">
 Determines whether a class implements one or more categories.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr16, InterlockedOr16 function, base.interlockedor16, winnt/InterlockedOr16
-f1_keywords:
-- winnt/InterlockedOr16
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedOr16
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedOr16
+ - winnt/InterlockedOr16
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedOr16
 ---
 
 # InterlockedOr16 function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an atomic OR operation on the specified <b>SHORT</b> values. The function prevents more than one thread from using the same variable simultaneously.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination [in, out]
 
 A pointer to the first operand. This value will be replaced with the result of the operation.
 
-
 ### -param Value [in]
 
 The second operand.
 
-
 ## -returns
-
-
 
 The function returns the original value of the <i>Destination</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
@@ -93,10 +80,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
 
 <a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -163,3 +147,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+

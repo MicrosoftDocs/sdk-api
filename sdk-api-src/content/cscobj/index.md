@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: of
+f1_keywords:
+ - cscobj
+ - cscobj/cscobj
 ---
 
 # Cscobj.h header
 
 
 ## -description
-
 
 This header is used by Offline Files. For more information, see:
 

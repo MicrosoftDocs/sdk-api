@@ -6,9 +6,13 @@ ms.date: 04/25/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3d11
+f1_keywords:
+ - windows.graphics.directx.direct3d11.interop
+ - windows.graphics.directx.direct3d11.interop/windows.graphics.directx.direct3d11.interop
 ---
 
 # Windows.Graphics.DirectX.Direct3D11.Interop.h header
+
 
 ## -description
 

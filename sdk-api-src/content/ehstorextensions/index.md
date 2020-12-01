@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: enstor
+f1_keywords:
+ - ehstorextensions
+ - ehstorextensions/ehstorextensions
 ---
 
 # Ehstorextensions.h header
 
 
 ## -description
-
 
 This header is used by Enhanced Storage. For more information, see:
 

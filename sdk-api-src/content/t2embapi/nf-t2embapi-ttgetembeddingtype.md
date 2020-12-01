@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c442447f-221d-4bce-9749-fb9fbe333808
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTGetEmbeddingType, TTGetEmbeddingType function [Windows GDI], _win32_TTGetEmbeddingType, gdi.ttgetembeddingtype, t2embapi/TTGetEmbeddingType
-f1_keywords:
-- t2embapi/TTGetEmbeddingType
-dev_langs:
-- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- T2embed.dll
-api_name:
-- TTGetEmbeddingType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TTGetEmbeddingType
+ - t2embapi/TTGetEmbeddingType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - T2embed.dll
+api_name:
+ - TTGetEmbeddingType
 ---
 
 # TTGetEmbeddingType function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the embedding privileges of a font.
 
-
 ## -parameters
-
-
-
 
 ### -param hDC [in]
 
 Device context handle.
-
 
 ### -param pulEmbedType [in]
 
@@ -113,46 +108,27 @@ Restricted License Embedding.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If successful, returns E_NONE.
 
 This function reads the embedding privileges stored in the font and transfers the privileges to <i>pulPrivStatus</i>.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
-
-
-
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 ## -remarks
 
-
-
-Alternatively, an application can determine embedding privileges by using <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> and then checking the value returned in <i>pulPrivStatus</i> for success or failure of the function.
-
-
-
+Alternatively, an application can determine embedding privileges by using <a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> and then checking the value returned in <i>pulPrivStatus</i> for success or failure of the function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
- 
-
- 
-
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>

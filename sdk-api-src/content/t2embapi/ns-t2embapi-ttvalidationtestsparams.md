@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
 ms.date: 12/05/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
-f1_keywords:
-- t2embapi/TTVALIDATIONTESTSPARAMS
-dev_langs:
-- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- T2embapi.h
-api_name:
-- TTVALIDATIONTESTSPARAMS
 targetos: Windows
 req.typenames: TTVALIDATIONTESTSPARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TTVALIDATIONTESTSPARAMS
+ - t2embapi/TTVALIDATIONTESTSPARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - T2embapi.h
+api_name:
+ - TTVALIDATIONTESTSPARAMS
 ---
 
 # TTVALIDATIONTESTSPARAMS structure
@@ -49,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TTVALIDATIONTESTSPARAMS</b> structure contains parameters for testing a Microsoft OpenType font.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ulStructSize
 
 Size, in bytes, of this structure. The client should set this value to <b>sizeof</b>(TTVALIDATIONTESTSPARAMS).
 
-
 ### -field lTestFromSize
 
 First character point size to test. This value is the smallest font size (lower bound) of the font sizes to test.
 
-
 ### -field lTestToSize
 
 Last character point size to test. This value is an largest font size (upper bound) of the font sizes to test.
-
 
 ### -field ulCharSet
 
@@ -94,35 +84,23 @@ Flag specifying the character set of the font to validate. This flag can have on
 <td>Symbol character set, requiring 16-bit-character encoding.</td>
 </tr>
 </table>
- 
-
 
 ### -field usReserved1
 
 Currently not used.
 
-
 ### -field usCharCodeCount
 
 If zero, test over all glyphs.
-
 
 ### -field pusCharCodeSet
 
 Pointer to array of Unicode characters.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>

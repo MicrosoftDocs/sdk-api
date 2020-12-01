@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
 ms.date: 12/05/2018
 ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
-f1_keywords:
-- comsvcs/IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
+ - comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 ---
 
 # IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the COMTI intrinsics for the enclosed work.
-
 
 ## -parameters
 
-
-
-
 ### -param comtiIntrinsicsConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a> enumeration.
-
+A value from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a> enumeration.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecomtiintrinsicsconfig">IServiceComTIIntrinsicsConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicecomtiintrinsicsconfig">IServiceComTIIntrinsicsConfig</a>

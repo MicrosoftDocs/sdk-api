@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2459ab16-56c0-4812-bc61-4a17978b04f3
 ms.date: 12/05/2018
 ms.keywords: SWFO_COOKIEPASSED, SWFO_INCLUDEPENDING, SWFO_NEEDDISPATCH, ShellWindowFindWindowOptions, ShellWindowFindWindowOptions enumeration [Windows Shell], _win32_ShellWindowFindWindowOptions, exdisp/SWFO_COOKIEPASSED, exdisp/SWFO_INCLUDEPENDING, exdisp/SWFO_NEEDDISPATCH, exdisp/ShellWindowFindWindowOptions, shell.ShellWindowFindWindowOptions
-f1_keywords:
-- exdisp/ShellWindowFindWindowOptions
-dev_langs:
-- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ExDisp.h
-api_name:
-- ShellWindowFindWindowOptions
 targetos: Windows
 req.typenames: ShellWindowFindWindowOptions
 req.redist: 
 req.product: Internet Explorer 5
 ms.custom: 19H1
+f1_keywords:
+ - ShellWindowFindWindowOptions
+ - exdisp/ShellWindowFindWindowOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ExDisp.h
+api_name:
+ - ShellWindowFindWindowOptions
 ---
 
 # ShellWindowFindWindowOptions enumeration
@@ -50,45 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies options for finding window in the Shell windows collection.
-        
-
 
 ## -enum-fields
 
-
-
-
 ### -field SWFO_NEEDDISPATCH
 
-The window must have an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. 
-            
-
+The window must have an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 ### -field SWFO_INCLUDEPENDING
 
-Include windows that were registered with <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>.
-            
-
+Include windows that were registered with <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>.
 
 ### -field SWFO_COOKIEPASSED
 
-Causes <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a> to interpret <i>pvarLoc</i>  as a cookie rather than a PIDL.
-            
-
+Causes <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a> to interpret <i>pvarLoc</i>  as a cookie rather than a PIDL.
 
 ## -see-also
 
+<a href="/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a>

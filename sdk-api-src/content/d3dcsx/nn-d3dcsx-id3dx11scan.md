@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: f57401b9-fa1e-4470-a974-825749773f95
 ms.date: 12/05/2018
 ms.keywords: ID3DX11Scan, ID3DX11Scan interface [Direct3D 11], ID3DX11Scan interface [Direct3D 11],described, d3dcsx/ID3DX11Scan, direct3d11.id3dx11scan, f606bccf-3795-f179-4742-0c561a907373
-f1_keywords:
-- d3dcsx/ID3DX11Scan
-dev_langs:
-- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3dcsx.lib
-- d3dcsx.dll
-api_name:
-- ID3DX11Scan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DX11Scan
+ - d3dcsx/ID3DX11Scan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3dcsx.lib
+ - d3dcsx.dll
+api_name:
+ - ID3DX11Scan
 ---
 
 # ID3DX11Scan interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Scan context.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11Scan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11Scan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11Scan</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11Scan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>ID3DX11Scan</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-multiscan">Multiscan</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-multiscan">Multiscan</a>
 </td>
 <td align="left" width="63%">
 Performs a multiscan of a sequence.
@@ -80,7 +79,7 @@ Performs a multiscan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-scan">Scan</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-scan">Scan</a>
 </td>
 <td align="left" width="63%">
 Performs an unsegmented scan of a sequence.
@@ -89,23 +88,15 @@ Performs an unsegmented scan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-setscandirection">SetScanDirection</a>
+<a href="/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-setscandirection">SetScanDirection</a>
 </td>
 <td align="left" width="63%">
 Sets which direction to perform scans in.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>

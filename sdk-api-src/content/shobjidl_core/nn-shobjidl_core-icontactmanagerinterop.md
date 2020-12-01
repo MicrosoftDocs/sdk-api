@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.date: 12/05/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
-f1_keywords:
-- shobjidl_core/IContactManagerInterop
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IContactManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactManagerInterop
+ - shobjidl_core/IContactManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IContactManagerInterop
 ---
 
 # IContactManagerInterop interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables access to <b>ContactManager</b> methods in an app that manages multiple windows.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactManagerInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactManagerInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactManagerInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactManagerInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +69,11 @@ The <b>IContactManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontactmanagerinterop-showcontactcardforwindow">ShowContactCardForWindow</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontactmanagerinterop-showcontactcardforwindow">ShowContactCardForWindow</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for a contact on the specified window.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: iphlp
+f1_keywords:
+ - ip2string
+ - ip2string/ip2string
 ---
 
 # Ip2String.h header
 
 
 ## -description
-
 
 This header is used by IP Helper. For more information, see:
 

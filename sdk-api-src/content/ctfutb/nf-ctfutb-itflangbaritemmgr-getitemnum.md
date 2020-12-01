@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 0caf54b1-f862-4fc2-b593-c0e9f60d71cc
 ms.date: 12/05/2018
 ms.keywords: GetItemNum, GetItemNum method [Text Services Framework], GetItemNum method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemNum method, ITfLangBarItemMgr.GetItemNum, ITfLangBarItemMgr::GetItemNum, _tsf_itflangbaritemmgr_getitemnum_ref, ctfutb/ITfLangBarItemMgr::GetItemNum, tsf.itflangbaritemmgr_getitemnum
-f1_keywords:
-- ctfutb/ITfLangBarItemMgr.GetItemNum
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemMgr.GetItemNum
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemMgr::GetItemNum
+ - ctfutb/ITfLangBarItemMgr::GetItemNum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemMgr.GetItemNum
 ---
 
 # ITfLangBarItemMgr::GetItemNum
@@ -53,17 +54,11 @@ Obtains the number of items in the language bar.
 
 ## -parameters
 
-
-
-
 ### -param pulCount [out]
 
 Pointer to a <b>ULONG</b> that receives the number of items in the language bar.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

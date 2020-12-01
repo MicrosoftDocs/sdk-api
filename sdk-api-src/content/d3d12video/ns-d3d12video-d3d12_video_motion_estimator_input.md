@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_ESTIMATOR_INPUT
 f1_keywords:
+ - D3D12_VIDEO_MOTION_ESTIMATOR_INPUT
  - d3d12video/D3D12_VIDEO_MOTION_ESTIMATOR_INPUT
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ Specifies the input parameters for calls to [ID3D12VideoEncodeCommandList::Estim
 
 ### -field pInputTexture2D
 
-An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the current frame. The motion estimation operation applies to the entire frame.
+An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) representing the current frame. The motion estimation operation applies to the entire frame.
 
 ### -field InputSubresourceIndex
 
@@ -51,7 +52,7 @@ The base plane of the MIP and array slice to use for the input.
 
 ### -field pReferenceTexture2D
 
-An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the reference frame, or past frame, used for motion estimation.
+An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) representing the reference frame, or past frame, used for motion estimation.
 
 ### -field ReferenceSubresourceIndex
 
@@ -59,9 +60,8 @@ The base plane of the MIP and array slice to use for the reference.
 
 ### -field pHintMotionVectorHeap
 
-An [ID3D12VideoMotionVectorHeap](nn-d3d12video-id3d12videomotionvectorheap.md) representing the buffer containing the hardware-dependent output of the previous motion estimator operation which may be used for hinting the current operation. This parameter may be NULL, indicating that previous motion estimator output should not be considered for the current operation. 
+An [ID3D12VideoMotionVectorHeap](nn-d3d12video-id3d12videomotionvectorheap.md) representing the buffer containing the hardware-dependent output of the previous motion estimator operation which may be used for hinting the current operation. This parameter may be NULL, indicating that previous motion estimator output should not be considered for the current operation.
 
 ## -remarks
 
 ## -see-also
-

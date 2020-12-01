@@ -6,10 +6,6 @@ tech.root: mf
 helpviewer_keywords: ["D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1"]
 ms.date: 4/26/2019
 ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
-f1_keywords:
-- D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,14 +22,19 @@ req.target-type:
 req.typenames: D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+ - d3d12video/D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
+ - D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS1
 ---
 
 ## -description
@@ -48,7 +49,7 @@ An array of [D3D12_VIDEO_PROCESS_INPUT_STREAM](ns-d3d12video-d3d12_video_process
 
 ### -field Transform
 
-A [D3D12_VIDEO_PROCESS_TRANSFORM](ns-d3d12video-d3d12_video_process_transform.md) structure specifying the flip, rotation, scale and destination translation for the video input.  
+A [D3D12_VIDEO_PROCESS_TRANSFORM](ns-d3d12video-d3d12_video_process_transform.md) structure specifying the flip, rotation, scale and destination translation for the video input.
 
 ### -field Flags
 
@@ -76,3 +77,4 @@ A value from the [D3D12_VIDEO_FIELD_TYPE](ne-d3d12video-d3d12_video_field_type.m
 
 -[D3D12_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12video-d3d12_video_process_input_stream_arguments.md)
 -[ID3D12VideoProcessCommandList1::ProcessFrames1](nf-d3d12video-id3d12videoprocesscommandlist-processframes.md)
+

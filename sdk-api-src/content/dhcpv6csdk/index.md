@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: dhcp
+f1_keywords:
+ - dhcpv6csdk
+ - dhcpv6csdk/dhcpv6csdk
 ---
 
 # Dhcpv6Csdk.h header
 
 
 ## -description
-
 
 This header is used by Dynamic Host Configuration Protocol (DHCP). For more information, see:
 

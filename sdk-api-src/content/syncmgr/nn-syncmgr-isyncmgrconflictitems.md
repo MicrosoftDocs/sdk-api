@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1dea310d-137b-4180-99c9-e40cd4fa3a98
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows Shell], ISyncMgrConflictItems interface [Windows Shell],described, _shell_ISyncMgrConflictItems, shell.ISyncMgrConflictItems, syncmgr/ISyncMgrConflictItems
-f1_keywords:
-- syncmgr/ISyncMgrConflictItems
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrConflictItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrConflictItems
+ - syncmgr/ISyncMgrConflictItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrConflictItems
 ---
 
 # ISyncMgrConflictItems interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get conflict item data and item count.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflictItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflictItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISyncMgrConflictItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictitems-getcount">GetCount</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictitems-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the conflict item count.
@@ -79,12 +78,11 @@ Gets the conflict item count.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictitems-getitem">GetItem</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictitems-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Gets a specified conflict data item.
 
 </td>
 </tr>
-</table> 
-
+</table>

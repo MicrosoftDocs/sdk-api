@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
 ms.date: 12/05/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
-f1_keywords:
-- wincrypt/CryptEnumOIDInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptEnumOIDInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptEnumOIDInfo
+ - wincrypt/CryptEnumOIDInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptEnumOIDInfo
 ---
 
 # CryptEnumOIDInfo function
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
-		
-
+The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
 
 ## -parameters
-
-
-
 
 ### -param dwGroupId [in]
 
@@ -91,35 +86,20 @@ The currently defined OID group IDs are:
 
 This parameter is reserved for future use. It must be zero.
 
-
 ### -param pvArg [in]
 
 A pointer to arguments to be passed through to the callback function.
 
-
 ### -param pfnEnumOIDInfo [in]
 
-A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_info">CRYPT_ENUM_OID_INFO</a>.
-
+A pointer to the callback function that is executed for each OID information entry enumerated. For information about the callback parameters, see <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_oid_info">CRYPT_ENUM_OID_INFO</a>.
 
 ## -returns
-
-
 
 If the callback function  completes the enumeration, this function returns <b>TRUE</b>. 
 
 If the callback function has stopped the enumeration, this function returns <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

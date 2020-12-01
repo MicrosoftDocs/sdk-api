@@ -35,12 +35,14 @@ api_location:
 api_name:
  - RoIsApiContractPresent
 f1_keywords:
+ - RoIsApiContractPresent
  - rometadataresolution/RoIsApiContractPresent
 dev_langs:
  - c++
 ---
 
 # RoIsApiContractPresent function
+
 
 ## -description
 

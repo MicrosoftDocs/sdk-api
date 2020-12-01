@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
 ms.date: 12/05/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], wcs.xyzcolorf, wcsplugin/XYZColorF
-f1_keywords:
-- wcsplugin/XYZColorF
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- XYZColorF
 targetos: Windows
 req.typenames: XYZColorF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _XYZColorF
+ - wcsplugin/_XYZColorF
+ - XYZColorF
+ - wcsplugin/XYZColorF
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - XYZColorF
 ---
 
 # XYZColorF structure
@@ -48,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -struct-fields
-
-
-
 
 ### -field X
 
 TBD
 
-
 ### -field Y
 
 TBD
-
 
 ### -field Z
 

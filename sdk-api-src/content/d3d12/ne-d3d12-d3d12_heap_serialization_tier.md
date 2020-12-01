@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_HEAP_SERIALIZATION_TIER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_HEAP_SERIALIZATION_TIER
-f1_keywords:
-- d3d12/D3D12_HEAP_SERIALIZATION_TIER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D12_HEAP_SERIALIZATION_TIER
+ - d3d12/D3D12_HEAP_SERIALIZATION_TIER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_HEAP_SERIALIZATION_TIER
+ - D3D12_HEAP_SERIALIZATION_TIER
 ---
 
 ## -description
@@ -49,3 +50,4 @@ Indicates that heap serialization is supported. Your application can serialize r
 ## -remarks
 
 ## -see-also
+

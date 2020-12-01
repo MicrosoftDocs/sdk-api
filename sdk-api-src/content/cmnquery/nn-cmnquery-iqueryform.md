@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: fd4f41f0-8aeb-4c83-a079-a5a77685c143
 ms.date: 12/05/2018
 ms.keywords: IQueryForm, IQueryForm interface [Active Directory], IQueryForm interface [Active Directory],described, _glines_iqueryform, ad.iqueryform, cmnquery/IQueryForm
-f1_keywords:
-- cmnquery/IQueryForm
-dev_langs:
-- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dsquery.dll
-api_name:
-- IQueryForm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryForm
+ - cmnquery/IQueryForm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dsquery.dll
+api_name:
+ - IQueryForm
 ---
 
 # IQueryForm interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IQueryForm</b> interface is implemented by a query form extension object to allow the form object to add forms and pages  to the system-supplied directory service query dialog box.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryForm</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryForm</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryForm</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryForm</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IQueryForm</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">AddForms</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">AddForms</a>
 </td>
 <td align="left" width="63%">
 Add forms.
@@ -79,7 +78,7 @@ Add forms.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages">AddPages</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages">AddPages</a>
 </td>
 <td align="left" width="63%">
 Add pages.
@@ -88,19 +87,16 @@ Add pages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize">Initialize</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the query form  object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A query form extension object must be registered in the Windows registry to be available to the query handler. This is accomplished by adding the following registry key.
 
@@ -150,18 +146,7 @@ The form should be visible in the optional form list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
- 
-
- 
-
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>

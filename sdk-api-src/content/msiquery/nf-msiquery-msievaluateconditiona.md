@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.date: 12/05/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition
-f1_keywords:
-- msiquery/MsiEvaluateCondition
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEvaluateCondition
-- MsiEvaluateConditionA
-- MsiEvaluateConditionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEvaluateConditionA
+ - msiquery/MsiEvaluateConditionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEvaluateCondition
+ - MsiEvaluateConditionA
+ - MsiEvaluateConditionW
 ---
 
 # MsiEvaluateConditionA function
@@ -51,44 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEvaluateCondition</b> function evaluates a conditional expression containing property names and values.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szCondition [in]
 
 Specifies the conditional expression. This parameter must not be <b>NULL</b>. For the syntax of conditional expressions see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/conditional-statement-syntax">Conditional Statement Syntax</a>.
-
+<a href="/windows/desktop/Msi/conditional-statement-syntax">Conditional Statement Syntax</a>.
 
 ## -returns
 
-
-
 This function returns MSICONDITION.
-
-
-
 
 ## -remarks
 
-
-
 The following table shows the feature and component state values used by the 
 <b>MsiEvaluateCondition</b> function. These states are not set until 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> is called, either directly or by the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. Therefore, state checking is generally only useful for conditional expressions in an action sequence table.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> is called, either directly or by the 
+<a href="/windows/desktop/Msi/costfinalize-action">CostFinalize action</a>. Therefore, state checking is generally only useful for conditional expressions in an action sequence table.
 
 <table>
 <tr>
@@ -127,15 +114,8 @@ The following table shows the feature and component state values used by the
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

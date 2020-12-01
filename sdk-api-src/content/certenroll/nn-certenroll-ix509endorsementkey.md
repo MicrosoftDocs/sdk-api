@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
-f1_keywords:
-- certenroll/IX509EndorsementKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- IX509EndorsementKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EndorsementKey
+ - certenroll/IX509EndorsementKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - IX509EndorsementKey
 ---
 
 # IX509EndorsementKey interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 X.509 Endorsement Key Interface
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EndorsementKey</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EndorsementKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EndorsementKey</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EndorsementKey</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IX509EndorsementKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-addcertificate">AddCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-addcertificate">AddCertificate</a>
 </td>
 <td align="left" width="63%">
 Add an endorsement key certificate to the key storage provider (KSP) that supports endorsement keys.
@@ -80,7 +79,7 @@ Add an endorsement key certificate to the key storage provider (KSP) that suppor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-close">Close</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the endorsement key.
@@ -89,7 +88,7 @@ Closes the endorsement key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-exportpublickey">ExportPublicKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-exportpublickey">ExportPublicKey</a>
 </td>
 <td align="left" width="63%">
 Exports the endorsement public key.
@@ -98,7 +97,7 @@ Exports the endorsement public key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-getcertificatebyindex">GetCertificateByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-getcertificatebyindex">GetCertificateByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
@@ -107,7 +106,7 @@ Gets the endorsement certificate associated with the endorsement key from the ke
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-getcertificatecount">GetCertificateCount</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-getcertificatecount">GetCertificateCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of the endorsement certificates in the key storage provider.
@@ -116,7 +115,7 @@ Gets the count of the endorsement certificates in the key storage provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the endorsement key.
@@ -125,7 +124,7 @@ Opens the endorsement key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-removecertificate">RemoveCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-removecertificate">RemoveCertificate</a>
 </td>
 <td align="left" width="63%">
 Removes an endorsement certificate related to the endorsement key from the key storage provider.
@@ -143,7 +142,7 @@ Removes an endorsement certificate related to the endorsement key from the key s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_length">Length</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_length">Length</a>
 
 
 </td>
@@ -159,7 +158,7 @@ The bit length of the endorsement key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_opened">Opened</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_opened">Opened</a>
 
 
 </td>
@@ -168,14 +167,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method has been successfully called.
+Indicates whether the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method has been successfully called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_providername">ProviderName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-get_providername">ProviderName</a>
 
 
 </td>
@@ -188,5 +187,4 @@ The name of the encryption provider. The default is the Microsoft Platform Crypt
 
 </td>
 </tr>
-</table> 
-
+</table>

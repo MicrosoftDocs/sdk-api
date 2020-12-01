@@ -8,10 +8,6 @@ tech.root: bltooth
 ms.assetid: 81D05AA7-B16C-4705-919F-8563FFA4A58E
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR_VALUE, PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_descriptor_value, bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE, bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE'
-f1_keywords:
-- bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE
-dev_langs:
-- c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthLEDef.h
-api_name:
-- BTH_LE_GATT_DESCRIPTOR_VALUE
 targetos: Windows
 req.typenames: BTH_LE_GATT_DESCRIPTOR_VALUE, *PBTH_LE_GATT_DESCRIPTOR_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BTH_LE_GATT_DESCRIPTOR_VALUE
+ - bthledef/_BTH_LE_GATT_DESCRIPTOR_VALUE
+ - PBTH_LE_GATT_DESCRIPTOR_VALUE
+ - bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE
+ - BTH_LE_GATT_DESCRIPTOR_VALUE
+ - bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthLEDef.h
+api_name:
+ - BTH_LE_GATT_DESCRIPTOR_VALUE
 ---
 
 ## -description
@@ -124,10 +129,10 @@ A pointer to the descriptor value data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
+<a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptorvalue">BluetoothGATTGetDescriptorValue</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetdescriptorvalue">BluetoothGATTGetDescriptorValue</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetdescriptorvalue">BluetoothGATTSetDescriptorValue</a>
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattsetdescriptorvalue">BluetoothGATTSetDescriptorValue</a>

@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 7666A28B-42B2-473F-852F-BD3F6CAA6AC7
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity class, TraceLoggingThreadActivity class,described, tracelogging.traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity
-f1_keywords:
-- traceloggingactivity/TraceLoggingThreadActivity
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingThreadActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingThreadActivity
+ - traceloggingactivity/TraceLoggingThreadActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingThreadActivity
 ---
 
 # TraceLoggingThreadActivity class
 
 
 ## -description
-
 
 Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.
 
@@ -65,7 +65,7 @@ Provides support for logging ETW events during an activity. Events will be autom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975141(v=vs.85)">TraceLoggingThreadActivity Constructor</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975141(v=vs.85)">TraceLoggingThreadActivity Constructor</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>TraceLoggingThreadActivity</b> object.
@@ -74,7 +74,7 @@ Creates a new <b>TraceLoggingThreadActivity</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-traceloggingthreadactivity(traceloggingthreadactivity__)">TraceLoggingThreadActivity Constructor</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-traceloggingthreadactivity(traceloggingthreadactivity__)">TraceLoggingThreadActivity Constructor</a>
 </td>
 <td align="left" width="63%">
 Transfers ownership of an activity from an existing instance to a new instance.
@@ -83,7 +83,7 @@ Transfers ownership of an activity from an existing instance to a new instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975140(v=vs.85)">TraceLoggingThreadActivity Destructor</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975140(v=vs.85)">TraceLoggingThreadActivity Destructor</a>
 </td>
 <td align="left" width="63%">
 Writes a default stop event if the activity has been started, but has not been stopped.
@@ -99,7 +99,7 @@ Writes a default stop event if the activity has been started, but has not been s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)">TraceLoggingThreadActivity::Id</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)">TraceLoggingThreadActivity::Id</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the activity’s unique identifier (GUID). 
@@ -108,7 +108,7 @@ Returns a pointer to the activity’s unique identifier (GUID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)">TraceLoggingThreadActivity::IsStarted</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)">TraceLoggingThreadActivity::IsStarted</a>
 </td>
 <td align="left" width="63%">
 Returns true if the activity has been started.
@@ -117,7 +117,7 @@ Returns true if the activity has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider">TraceLoggingThreadActivity::Provider</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider">TraceLoggingThreadActivity::Provider</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to the TraceLogging provider associated with this activity.
@@ -134,7 +134,7 @@ Returns the handle to the TraceLogging provider associated with this activity.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
+<a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
 
 
 </td>
@@ -146,7 +146,7 @@ The value of the keyword that will be used in the activity’s start and stop ev
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/level-constant">Level constant</a>
+<a href="/windows/desktop/tracelogging/level-constant">Level constant</a>
 
 
 </td>
@@ -155,8 +155,7 @@ Contains the value of the level that will be used in the activity’s start and 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -168,7 +167,7 @@ The <b>TraceLoggingThreadActivity</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)">TraceLoggingThreadActivity::Id</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)">TraceLoggingThreadActivity::Id</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the activity’s unique identifier (GUID). 
@@ -177,7 +176,7 @@ Returns a pointer to the activity’s unique identifier (GUID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)">TraceLoggingThreadActivity::IsStarted</a>
+<a href="/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)">TraceLoggingThreadActivity::IsStarted</a>
 </td>
 <td align="left" width="63%">
 Returns true if the activity has been started.
@@ -186,7 +185,7 @@ Returns true if the activity has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider">TraceLoggingThreadActivity::Provider</a>
+<a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider">TraceLoggingThreadActivity::Provider</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to the TraceLogging provider associated with this activity.
@@ -210,7 +209,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivity</b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
+<a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
 
 
 </td>
@@ -222,7 +221,7 @@ The value of the keyword that will be used in the activity’s start and stop ev
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/level-constant">Level constant</a>
+<a href="/windows/desktop/tracelogging/level-constant">Level constant</a>
 
 
 </td>
@@ -232,27 +231,22 @@ Contains the value of the level that will be used in the activity’s start and 
 </td>
 </tr>
 </table>
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
+<a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
 
 
 The value of the keyword that will be used in the activity’s start and stop events.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tracelogging/level-constant">Level constant</a>
+<a href="/windows/desktop/tracelogging/level-constant">Level constant</a>
 
 
 Contains the value of the level that will be used in the activity’s start and stop events.
 
- 
-
-
 ## -remarks
-
-
 
 This class works by setting a per-thread variable. Only events occurring on the active thread will be automatically tagged.
 
-In order to use TraceLogging activities, you need to define an instance of either <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
+In order to use TraceLogging activities, you need to define an instance of either <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingfunction">TraceLoggingFunction</a>, <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>, <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestop">TraceLoggingWriteStop</a>, and <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritetagged">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
 
 Any active threads will be automatically nested in this instance when you start logging with a <b>TraceLoggingThreadActivity</b> object. In addition, all events will be automatically logged with this object's unique identifier.
@@ -266,18 +260,7 @@ Any active threads will be automatically nested in this instance when you start 
 </div>
 <div> </div>
 This class is not available for store applications.
-         
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity Class</a>
- 
-
- 
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity Class</a>

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 17fe7602-c050-46a2-b55c-aac6c277a5ce
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONSTRAINTS, WS_SECURITY_CONSTRAINTS structure [Web Services for Windows], webservices/WS_SECURITY_CONSTRAINTS, wsw.ws_security_constraints
-f1_keywords:
-- webservices/WS_SECURITY_CONSTRAINTS
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_CONSTRAINTS
 targetos: Windows
 req.typenames: WS_SECURITY_CONSTRAINTS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_SECURITY_CONSTRAINTS
+ - webservices/_WS_SECURITY_CONSTRAINTS
+ - WS_SECURITY_CONSTRAINTS
+ - webservices/WS_SECURITY_CONSTRAINTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_CONSTRAINTS
 ---
 
 # WS_SECURITY_CONSTRAINTS structure
@@ -49,16 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 This structure specifies the security related constraints
-                as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a>.
-            
-
+                as part of <a href="/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field securityPropertyConstraints
 
@@ -75,9 +72,7 @@ If a security property constraint is not specified for a given property,
                 
 
 Note that the defaults constraints for <a href="/windows/win32/api/webservices/ns-webservices-ws_security_property_constraint">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
-                    are the same as the defaults for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a>.
-                
-
+                    are the same as the defaults for <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a>.
 
 ### -field securityPropertyConstraintCount
 
@@ -86,8 +81,6 @@ The number of elements specified in the securityPropertyConstraints
                 
 
 If this value is 0, then the securityPropertyConstraints array may be <b>NULL</b>.
-                
-
 
 ### -field securityBindingConstraints
 
@@ -96,13 +89,11 @@ Any array of security binding constraints which taken as a unit specify
                 
 
 The type of each <a href="/windows/win32/api/webservices/ns-webservices-ws_security_binding_constraint">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
-                    to the types of security that is specified using a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
+                    to the types of security that is specified using a <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
                     each security binding constraint specifies constraints on one security token.
                 
 
 Specifying zero constraints indicates no security.
-                
-
 
 ### -field securityBindingConstraintCount
 
@@ -111,5 +102,3 @@ The number of elements specified in the securityBindingConstraints
                 
 
 If this value is 0, then the securityBindingConstraints array may be <b>NULL</b>.
-                
-

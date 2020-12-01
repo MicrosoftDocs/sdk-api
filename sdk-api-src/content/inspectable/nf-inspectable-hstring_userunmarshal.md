@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
-f1_keywords:
-- inspectable/HSTRING_UserUnmarshal
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -29,72 +25,47 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- HSTRING_UserUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HSTRING_UserUnmarshal
+ - inspectable/HSTRING_UserUnmarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - HSTRING_UserUnmarshal
 ---
-
-# HSTRING_UserUnmarshal function
-
 
 ## -description
 
-
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
-
+Unmarshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - pBuffer [in]
-
-The current buffer. This pointer may or may not be aligned on entry.
-
-
-#### - pFlags [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
+### -param arg2 [in]
 
-#### - ppidl [out]
+The current buffer. This pointer may or may not be aligned on entry.
+
+### -param arg3 [out]
 
 The string.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -126,18 +97,7 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

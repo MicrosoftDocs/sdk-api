@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: D66D2172-9308-4138-A321-867589787FED
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DUPLICATE_EXTENTS_TO_FILE, FSCTL_DUPLICATE_EXTENTS_TO_FILE control, FSCTL_DUPLICATE_EXTENTS_TO_FILE control code [Files], fs.fsctl_duplicate_extents_to_file, winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
-f1_keywords:
-- winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_DUPLICATE_EXTENTS_TO_FILE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_DUPLICATE_EXTENTS_TO_FILE
+ - winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_DUPLICATE_EXTENTS_TO_FILE
 ---
 
 # FSCTL_DUPLICATE_EXTENTS_TO_FILE IOCTL
 
+
 ## -description
 
-Instructs the file system to copy a range of file bytes on behalf of an application. The destination file may be the same as, or different from, the source file. See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information.
+Instructs the file system to copy a range of file bytes on behalf of an application. The destination file may be the same as, or different from, the source file. See [Block Cloning](/windows/desktop/FileIO/block-cloning) for more information.
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,14 +86,13 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
-See [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning) for more information on this operation.
+See [Block Cloning](/windows/desktop/FileIO/block-cloning) for more information on this operation.
 
 In Windows Server 2016, this function is supported by the following technologies.
 
@@ -109,10 +104,9 @@ SMB 3.1.1 with Scale-out File Shares (SoFS) | Yes
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
-* [Block Cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning)
+* [Block Cloning](/windows/desktop/FileIO/block-cloning)
 * [DUPLICATE_EXTENTS_DATA](../winioctl/ns-winioctl-duplicate_extents_data.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)

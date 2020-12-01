@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b97116f7-d42e-4619-bc5b-0a55ac012f0c
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_ShowHideChildWindows method, IBrowserService2.v_ShowHideChildWindows, IBrowserService2::v_ShowHideChildWindows, shdeprecated/IBrowserService2::v_ShowHideChildWindows, shell.IBrowserService2_v_ShowHideChildWindows, v_ShowHideChildWindows, v_ShowHideChildWindows method [Windows Shell], v_ShowHideChildWindows method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_ShowHideChildWindows
-f1_keywords:
-- shdeprecated/IBrowserService2.v_ShowHideChildWindows
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.v_ShowHideChildWindows
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::v_ShowHideChildWindows
+ - shdeprecated/IBrowserService2::v_ShowHideChildWindows
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.v_ShowHideChildWindows
 ---
 
 # IBrowserService2::v_ShowHideChildWindows
@@ -50,30 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Allows a derived class to update its child windows after a sizing event.
 
-
 ## -parameters
-
-
-
 
 ### -param fChildOnly [in]
 
 Type: <b>BOOL</b>
 
 A value of type <b>BOOL</b> that indicates whether child windows should be shown or hidden.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

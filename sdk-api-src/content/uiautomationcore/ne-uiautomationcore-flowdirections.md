@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 5c18758c-8b0d-4c54-babb-78dc6c8eba02
 ms.date: 12/05/2018
 ms.keywords: FlowDirections, FlowDirections enumeration [Windows Accessibility], FlowDirections_BottomToTop, FlowDirections_Default, FlowDirections_RightToLeft, FlowDirections_Vertical, uiauto.uiauto_FlowDirectionsEnum, uiauto_FlowDirectionsEnum, uiautomationcore/FlowDirections, uiautomationcore/FlowDirections_BottomToTop, uiautomationcore/FlowDirections_Default, uiautomationcore/FlowDirections_RightToLeft, uiautomationcore/FlowDirections_Vertical, winauto.uiauto_FlowDirectionsEnum
-f1_keywords:
-- uiautomationcore/FlowDirections
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- FlowDirections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlowDirections
+ - uiautomationcore/FlowDirections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - FlowDirections
 ---
 
 # FlowDirections enumeration
@@ -49,42 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains values for the TextFlowDirections text attribute. 
-
+Contains values for the TextFlowDirections text attribute.
 
 ## -enum-fields
-
-
-
 
 ### -field FlowDirections_Default
 
 The default flow direction.
 
-
 ### -field FlowDirections_RightToLeft
 
 The text flows from right to left.
-
 
 ### -field FlowDirections_BottomToTop
 
 The text flows from bottom to top.
 
-
 ### -field FlowDirections_Vertical
 
 The text flows vertically.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>

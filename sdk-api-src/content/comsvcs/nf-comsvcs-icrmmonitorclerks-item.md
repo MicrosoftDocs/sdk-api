@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: af25d159-95e6-4695-9350-9a3c1bc034e9
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],Item method, ICrmMonitorClerks.Item, ICrmMonitorClerks::Item, Item, Item method [COM+], Item method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_Item, comsvcs/ICrmMonitorClerks::Item, cos.icrmmonitorclerks_item
-f1_keywords:
-- comsvcs/ICrmMonitorClerks.Item
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorClerks.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorClerks::Item
+ - comsvcs/ICrmMonitorClerks::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorClerks.Item
 ---
 
 # ICrmMonitorClerks::Item
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the instance CLSID of the CRM clerk for the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 The index of the required CRM clerk as a numeric <b>Variant</b>.
 
-
 ### -param pItem [out]
 
 A pointer to <b>Variant</b> string returning the instance CLSID corresponding to this numeric index.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -113,18 +105,7 @@ One of the arguments is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 71da439f-4666-4e49-93f8-26acd222ed1e
 ms.date: 12/05/2018
 ms.keywords: GetTags, GetTags method [Direct2D], GetTags method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetTags method, ID2D1RenderTarget.GetTags, ID2D1RenderTarget::GetTags, d2d1/ID2D1RenderTarget::GetTags, direct2d.ID2D1RenderTarget_GetTags
-f1_keywords:
-- d2d1/ID2D1RenderTarget.GetTags
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.GetTags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::GetTags
+ - d2d1/ID2D1RenderTarget::GetTags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.GetTags
 ---
 
 # ID2D1RenderTarget::GetTags
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the label for subsequent drawing operations.
 
-
 ## -parameters
-
-
-
 
 ### -param tag1 [out, optional]
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
-When this method returns, contains the first label for subsequent drawing operations. This parameter is passed uninitialized. If <b>NULL</b> is specified, no value is retrieved for this parameter. 
-
+When this method returns, contains the first label for subsequent drawing operations. This parameter is passed uninitialized. If <b>NULL</b> is specified, no value is retrieved for this parameter.
 
 ### -param tag2 [out, optional]
 
@@ -71,23 +66,11 @@ Type: <b><a href="/windows/win32/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 When this method returns, contains the second label for subsequent drawing operations. This parameter is passed uninitialized. If <b>NULL</b> is specified, no value is retrieved for this parameter.
 
-
 ## -remarks
 
-
-
-If the same address is passed for both parameters, both parameters receive the value of the second tag. 
-
-
-
+If the same address is passed for both parameters, both parameters receive the value of the second tag.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

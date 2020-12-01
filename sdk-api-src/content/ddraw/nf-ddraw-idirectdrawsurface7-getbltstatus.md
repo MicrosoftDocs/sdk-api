@@ -44,42 +44,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetBltStatus
-
-
 ## -description
-
 
 Obtains status about a bit block transfer (bitblt) operation.
 
-
 ## -parameters
 
+### -param arg1 [in]
 
-
-
-
-
-#### - dwFlags [in]
-
-A value that can be set to one of the following flags:
-
-
+A value that can be set to one of the following flags.
 
 #### DDGBS_CANBLT
 
 Inquires whether a bitblt that involves this surface can occur immediately, and returns DD_OK if the bitblt can be completed.
 
-
-
 #### DDGBS_ISBLTDONE
 
 Inquires whether the bitblt is done, and returns DD_OK if the last bitblt on this surface has completed.
 
-
 ## -returns
-
-
 
 If the method succeeds, a bitbltter is present, and the return value is DD_OK.
 
@@ -95,24 +78,10 @@ If it fails, the method returns DDERR_WASSTILLDRAWING if the bitbltter is busy, 
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetBltStatus</b> method.
-
-
-
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetBltStatus</b> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

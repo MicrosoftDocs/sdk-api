@@ -8,10 +8,6 @@ tech.root: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
 ms.date: 12/05/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
-f1_keywords:
-- amsi/AmsiInitialize
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- amsi.dll
-api_name:
-- AmsiInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AmsiInitialize
+ - amsi/AmsiInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - amsi.dll
+api_name:
+ - AmsiInitialize
 ---
 
 ## -description
@@ -64,8 +65,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-When the app is finished with the AMSI API it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
+When the app is finished with the AMSI API it must call <a href="/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: bb20c9ea-a2b1-4fa5-a0e3-b788fe493993
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeX method, ID2D1BitmapBrush.SetExtendModeX, ID2D1BitmapBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeX, direct2d.ID2D1BitmapBrush_SetExtendModeX
-f1_keywords:
-- d2d1/ID2D1BitmapBrush.SetExtendModeX
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1BitmapBrush.SetExtendModeX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1BitmapBrush::SetExtendModeX
+ - d2d1/ID2D1BitmapBrush::SetExtendModeX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1BitmapBrush.SetExtendModeX
 ---
 
 # ID2D1BitmapBrush::SetExtendModeX
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies how the brush horizontally tiles those areas that extend past its bitmap. 
-
+Specifies how the brush horizontally tiles those areas that extend past its bitmap.
 
 ## -parameters
-
-
-
 
 ### -param extendModeX
 
 Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
-A value that specifies how the brush horizontally tiles those areas that extend past its bitmap. 
-
+A value that specifies how the brush horizontally tiles those areas that extend past its bitmap.
 
 ## -remarks
-
-
 
 Sometimes, the  bitmap for a bitmap brush doesn't completely fill the area being painted. When this happens, Direct2D uses the brush's horizontal (<b>SetExtendModeX</b>) and vertical (<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">SetExtendModeY</a>) extend mode settings to determine how to fill the remaining area.
 
@@ -93,21 +86,11 @@ m_pRenderTarget->FillRectangle(exampleRectangle, m_pBitmapBrush);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
 
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmapbrush-getextendmodex">ID2D1BitmapBrush::GetExtendModeX</a>
- 
-
- 
 

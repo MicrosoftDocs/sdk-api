@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_CHECK_ONLY, InitOnceBeginInitialize, InitOnceBeginInitialize function, base.initoncebegininitialize, synchapi/InitOnceBeginInitialize, winbase/InitOnceBeginInitialize
-f1_keywords:
-- synchapi/InitOnceBeginInitialize
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- InitOnceBeginInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitOnceBeginInitialize
+ - synchapi/InitOnceBeginInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - InitOnceBeginInitialize
 ---
 
 # InitOnceBeginInitialize function
@@ -54,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Begins one-time initialization.
 
-
 ## -parameters
-
-
-
 
 ### -param lpInitOnce [in, out]
 
 A pointer to the one-time initialization structure.
-
 
 ### -param dwFlags [in]
 
@@ -100,8 +95,6 @@ This function call does not begin initialization. The return value indicates whe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fPending [out]
 
@@ -113,11 +106,9 @@ If this parameter is **FALSE**, initialization has already completed and the cal
 
 If this parameter is **TRUE** and *dwFlags* does not contain **INIT_ONCE_CHECK_ONLY**, initialization has been started and the caller can perform the initialization tasks.
 
-
 ### -param lpContext [out, optional]
 
 An optional parameter that receives the data stored with the one-time initialization structure upon success. The low-order **INIT_ONCE_CTX_RESERVED_BITS** bits of the data are always zero.
-
 
 ## -returns
 
@@ -147,3 +138,4 @@ For an example that uses this function, see [Using One-Time Initialization](/win
 ## -see-also
 
 [InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete), [InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce), [One-Time Initialization](/windows/desktop/Sync/one-time-initialization), [Synchronization Functions](/windows/desktop/Sync/synchronization-functions)
+

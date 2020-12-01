@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
 ms.date: 12/05/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
-f1_keywords:
-- objidl/IGlobalInterfaceTable
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IGlobalInterfaceTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGlobalInterfaceTable
+ - objidl/IGlobalInterfaceTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IGlobalInterfaceTable
 ---
 
 # IGlobalInterfaceTable interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables any apartment in a process to get access to an interface implemented on an object in any other apartment in the process.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IGlobalInterfaceTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal">GetInterfaceFromGlobal</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal">GetInterfaceFromGlobal</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface on an object that is usable by the calling apartment.
@@ -79,7 +78,7 @@ Retrieves a pointer to an interface on an object that is usable by the calling a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">RegisterInterfaceInGlobal</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">RegisterInterfaceInGlobal</a>
 </td>
 <td align="left" width="63%">
 Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
@@ -88,19 +87,16 @@ Registers the specified interface on an object residing in one apartment of a pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">RevokeInterfaceFromGlobal</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">RevokeInterfaceFromGlobal</a>
 </td>
 <td align="left" width="63%">
 Revokes the registration of an interface in the global interface table.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IGlobalInterfaceTable</b> interface is an efficient way for a process to store an interface pointer in a memory location that can be accessed from multiple apartments within the process, such as processwide variables and agile (free-threaded marshaled) objects containing interface pointers to other objects. 
 
@@ -108,9 +104,4 @@ The <b>IGlobalInterfaceTable</b> interface is an efficient way for a process to 
 
 An agile object is unaware of the underlying COM infrastructure in which it runsâ€”in other words, what apartment, context, and thread it is executing on. The object may be holding on to interfaces that are specific to an apartment or context. For this reason, calling these interfaces from wherever the agile component is executing may not always work properly. The global interface table avoids this problem by guaranteeing that a valid proxy (or direct pointer) to the object is used, based on where the agile object is executing.
 
-The global interface table is not portable across process or machine boundaries, so it cannot be used in place of the normal parameter-passing mechanism. 
-
-
-
-
-
+The global interface table is not portable across process or machine boundaries, so it cannot be used in place of the normal parameter-passing mechanism.

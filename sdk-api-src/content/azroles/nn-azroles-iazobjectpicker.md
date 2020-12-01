@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
-f1_keywords:
-- azroles/IAzObjectPicker
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzObjectPicker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzObjectPicker
+ - azroles/IAzObjectPicker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzObjectPicker
 ---
 
 # IAzObjectPicker interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to select one or more principals from a list.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,10 +70,10 @@ The <b>IAzObjectPicker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-getprincipals">GetPrincipals</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-getprincipals">GetPrincipals</a>
 </td>
 <td align="left" width="63%">
-Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
+Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 </td>
 </tr>
@@ -88,7 +87,7 @@ Displays a dialog box from which users can choose one or more principals, and th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-get_name">Name</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-get_name">Name</a>
 
 
 </td>
@@ -97,14 +96,8 @@ Gets the name of the <b>IAzObjectPicker</b> object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implement this interface when you need a custom dialog box that allows users to choose principals.
-
-
-

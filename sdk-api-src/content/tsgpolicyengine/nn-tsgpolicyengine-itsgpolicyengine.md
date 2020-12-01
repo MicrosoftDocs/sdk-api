@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
-f1_keywords:
-- tsgpolicyengine/ITSGPolicyEngine
-dev_langs:
-- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSGPolicyEngine.h
-api_name:
-- ITSGPolicyEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSGPolicyEngine
+ - tsgpolicyengine/ITSGPolicyEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSGPolicyEngine.h
+api_name:
+ - ITSGPolicyEngine
 ---
 
 # ITSGPolicyEngine interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that authorize connections and resources. Implement this interface when you want to override the default authorization logic of Remote Desktop Gateway (RD Gateway).
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGPolicyEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGPolicyEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGPolicyEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGPolicyEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITSGPolicyEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeconnection">AuthorizeConnection</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeconnection">AuthorizeConnection</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified connection is authorized to connect to  RD Gateway.
@@ -79,7 +78,7 @@ Determines whether the specified connection is authorized to connect to  RD Gat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a>
 </td>
 <td align="left" width="63%">
 Determines which resources the specified connection is authorized to connect to.
@@ -88,7 +87,7 @@ Determines which resources the specified connection is authorized to connect to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-isquarantineenabled">IsQuarantineEnabled</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-isquarantineenabled">IsQuarantineEnabled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
@@ -97,12 +96,11 @@ Indicates whether the authorization plug-in requires a statement of health (SoH)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-refresh">Refresh</a>
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 This method is reserved.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\initcommoncontrolsex.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPINITCOMMONCONTROLSEX, ICC_ANIMATE_CLASS, ICC_BAR_CLASSES, ICC_COOL_CLASSES, ICC_DATE_CLASSES, ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, ICC_LINK_CLASS, ICC_LISTVIEW_CLASSES, ICC_NATIVEFNTCTL_CLASS, ICC_PAGESCROLLER_CLASS, ICC_PROGRESS_CLASS, ICC_STANDARD_CLASSES, ICC_TAB_CLASSES, ICC_TREEVIEW_CLASSES, ICC_UPDOWN_CLASS, ICC_USEREX_CLASSES, ICC_WIN95_CLASSES, INITCOMMONCONTROLSEX, INITCOMMONCONTROLSEX structure [Windows Controls], LPINITCOMMONCONTROLSEX, LPINITCOMMONCONTROLSEX structure pointer [Windows Controls], _win32_INITCOMMONCONTROLSEX_4vvx, _win32_INITCOMMONCONTROLSEX_4vvx_cpp, commctrl/INITCOMMONCONTROLSEX, commctrl/LPINITCOMMONCONTROLSEX, controls.INITCOMMONCONTROLSEX_4vvx, controls._win32_INITCOMMONCONTROLSEX_4vvx'
-f1_keywords:
-- commctrl/INITCOMMONCONTROLSEX
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- INITCOMMONCONTROLSEX
 targetos: Windows
 req.typenames: INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagINITCOMMONCONTROLSEX
+ - commctrl/tagINITCOMMONCONTROLSEX
+ - LPINITCOMMONCONTROLSEX
+ - commctrl/LPINITCOMMONCONTROLSEX
+ - INITCOMMONCONTROLSEX
+ - commctrl/INITCOMMONCONTROLSEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - INITCOMMONCONTROLSEX
 ---
 
 # INITCOMMONCONTROLSEX structure
@@ -49,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function. 
-
+Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The size of the structure, in bytes. 
-
+The size of the structure, in bytes.
 
 ### -field dwICC
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The set of bit flags that indicate which common control classes will be loaded from the DLL. This can be a combination of the following values. 
 
@@ -264,4 +263,3 @@ Load animate control, header, hot key, list-view, progress bar, status bar, tab,
 </td>
 </tr>
 </table>
- 

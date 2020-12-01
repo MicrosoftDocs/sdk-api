@@ -7,10 +7,6 @@ tech.root: hid
 ms.assetid: 8320d76f-bef6-4a0f-afef-721d4b288481
 ms.date: 08/06/2020
 ms.keywords: '*PKEYBOARD_EXTENDED_ATTRIBUTES, KEYBOARD_EXTENDED_ATTRIBUTES, KEYBOARD_EXTENDED_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_EXTENDED_ATTRIBUTES, PKEYBOARD_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], hid.KEYBOARD_EXTENDED_ATTRIBUTES, ntddkbd/KEYBOARD_EXTENDED_ATTRIBUTES, ntddkbd/PKEYBOARD_EXTENDED_ATTRIBUTES'
-f1_keywords:
-- ntddkbd/KEYBOARD_EXTENDED_ATTRIBUTES
-dev_langs:
-- c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -28,22 +24,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddkbd.h
-api_name:
-- KEYBOARD_EXTENDED_ATTRIBUTES
 targetos: Windows
 req.typenames: KEYBOARD_EXTENDED_ATTRIBUTES, *PKEYBOARD_EXTENDED_ATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KEYBOARD_EXTENDED_ATTRIBUTES
+ - ntddkbd/_KEYBOARD_EXTENDED_ATTRIBUTES
+ - PKEYBOARD_EXTENDED_ATTRIBUTES
+ - ntddkbd/PKEYBOARD_EXTENDED_ATTRIBUTES
+ - KEYBOARD_EXTENDED_ATTRIBUTES
+ - ntddkbd/KEYBOARD_EXTENDED_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddkbd.h
+api_name:
+ - KEYBOARD_EXTENDED_ATTRIBUTES
 ---
 
 # KEYBOARD_EXTENDED_ATTRIBUTES structure
+
 
 ## -description
 
@@ -100,7 +106,7 @@ Keyboard Physical Layout (Usage ID: *0x2C3*).
 | 0x05  | 106 (DOS/V Japan)                                                                        |
 | 0x06  | Vendor‐specific – If specified, **VendorSpecificPhysicalLayout** must also be specified. |
 
-This value does not refer to the legend set printed on the keys, but only to the physical keyset layout, defined by the relative location and shape of the textual keys in relation to each other. This value indicates which of the de facto standard physical layouts to which the keyboard conforms. These layouts are commonly understood. 
+This value does not refer to the legend set printed on the keys, but only to the physical keyset layout, defined by the relative location and shape of the textual keys in relation to each other. This value indicates which of the de facto standard physical layouts to which the keyboard conforms. These layouts are commonly understood.
 
 ### -field VendorSpecificPhysicalLayout
 
@@ -116,7 +122,7 @@ Type: **UCHAR**
 
 String index of a String Descriptor having an IETF Language Tag (Usage ID: 0x2C5).
 
-Actual string can be obtained via [IOCTL_HID_GET_INDEXED_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string) IOCTL in kernel-mode drivers or [HidD_GetIndexedString](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring) call in user-mode applications.
+Actual string can be obtained via [IOCTL_HID_GET_INDEXED_STRING](/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string) IOCTL in kernel-mode drivers or [HidD_GetIndexedString](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getindexedstring) call in user-mode applications.
 
 This Language Tag specifies the intended primary locale of the keyboard legend set, conformant to [IETF BCP 47](https://www.rfc-editor.org/rfc/bcp/bcp47.txt) or its successor.
 

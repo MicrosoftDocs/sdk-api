@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
-f1_keywords:
-- mergemod/IMsmConfigureModule
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmConfigureModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmConfigureModule
+ - mergemod/IMsmConfigureModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmConfigureModule
 ---
 
 # IMsmConfigureModule interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMsmConfigureModule</b> interface is a callback interface; it enables the client to provide merge configuration information during the
 merge process.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IMsmConfigureModule</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata">ProvideIntegerData</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata">ProvideIntegerData</a>
 </td>
 <td align="left" width="63%">
 Retrieves integer data from the client tool.
@@ -80,27 +79,19 @@ Retrieves integer data from the client tool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-providetextdata">ProvideTextData</a>
+<a href="/windows/desktop/api/mergemod/nf-mergemod-imsmconfiguremodule-providetextdata">ProvideTextData</a>
 </td>
 <td align="left" width="63%">
 Retrieves text data from the client tool.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

@@ -34,29 +34,37 @@ api_location:
 api_name:
  - SspiSetAsyncNotifyCallback
 f1_keywords:
+ - SspiSetAsyncNotifyCallback
  - sspi/SspiSetAsyncNotifyCallback
 dev_langs:
  - c++
 ---
+
 # SspiSetAsyncNotifyCallback function
 
+
 ## -description
+
 Registers a callback that is notified on async call completion.
 
 ## -parameters
 
 ### -param Context
+
 The async call context.
 
 ### -param Callback
+
 The SspiAsyncNotifyCallback that will be notified on call completion.
 
 ### -param CallbackData
+
 An opaque pointer that is passed to [SspiAsyncNotifyCallback](nc-sspi-sspiasyncnotifycallback.md).
 
 ## -returns
 
 ## -remarks
+
 The *Callback* and *CallbackData* parameters can be set to **null** in order to specify that the caller is not interested in the result of the operation. 
 
 > [!NOTE]
@@ -65,3 +73,4 @@ The *Callback* and *CallbackData* parameters can be set to **null** in order to 
 ## -see-also
 
 [SspiAsyncNotifyCallback](nc-sspi-sspiasyncnotifycallback.md)
+

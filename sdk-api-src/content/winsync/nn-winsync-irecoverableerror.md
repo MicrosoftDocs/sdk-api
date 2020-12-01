@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: a8b8a84a-6083-4696-bef1-46145a4d71c8
 ms.date: 12/05/2018
 ms.keywords: IRecoverableError, IRecoverableError interface [Windows Sync], IRecoverableError interface [Windows Sync],described, winsync.irecoverableerror, winsync/IRecoverableError
-f1_keywords:
-- winsync/IRecoverableError
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError
+ - winsync/IRecoverableError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError
 ---
 
 # IRecoverableError interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a recoverable error that occurred when an item was loaded or when an item was saved.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRecoverableError</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecoverableError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRecoverableError</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecoverableError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IRecoverableError</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getchangewithrecoverableerror">GetChangeWithRecoverableError</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getchangewithrecoverableerror">GetChangeWithRecoverableError</a>
 </td>
 <td align="left" width="63%">
 Gets the item change that caused the error.
@@ -81,7 +79,7 @@ Gets the item change that caused the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getprovider">GetProvider</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getprovider">GetProvider</a>
 </td>
 <td align="left" width="63%">
 Gets the role of the provider that skipped the item change.
@@ -91,7 +89,7 @@ Gets the role of the provider that skipped the item change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getrecoverableerrordataforchange">GetRecoverableErrorDataForChange</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getrecoverableerrordataforchange">GetRecoverableErrorDataForChange</a>
 </td>
 <td align="left" width="63%">
 Gets additional data about the recoverable error.
@@ -101,7 +99,7 @@ Gets additional data about the recoverable error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getrecoverableerrordataforchangeunit">GetRecoverableErrorDataForChangeUnit</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getrecoverableerrordataforchangeunit">GetRecoverableErrorDataForChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Gets additional data about the recoverable error for a specified change unit.
@@ -111,7 +109,7 @@ Gets additional data about the recoverable error for a specified change unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getstage">GetStage</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irecoverableerror-getstage">GetStage</a>
 </td>
 <td align="left" width="63%">
 Gets the stage in the synchronization session when the error occurred.
@@ -119,16 +117,8 @@ Gets the stage in the synchronization session when the error occurred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

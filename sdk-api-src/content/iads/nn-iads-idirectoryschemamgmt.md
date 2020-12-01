@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 96062c41-6e95-4024-b16d-4002ed84ec5d
 ms.date: 12/05/2018
 ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirectorySchemaMgmt interface [ADSI],described, adsi.idirectoryschemamgmt, iads/IDirectorySchemaMgmt
-f1_keywords:
-- iads/IDirectorySchemaMgmt
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IDirectorySchemaMgmt
-- IDirectorySchemaMgmt.EnumAttributes
-- IDirectorySchemaMgmt.CreateAttributeDefinition
-- IDirectorySchemaMgmt.WriteAttributeDefinition
-- IDirectorySchemaMgmt.DeleteAttributeDefinition
-- IDirectorySchemaMgmt.EnumClasses
-- IDirectorySchemaMgmt.CreateClassDefinition
-- IDirectorySchemaMgmt.WriteClassDefinition
-- IDirectorySchemaMgmt.DeleteClassDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectorySchemaMgmt
+ - iads/IDirectorySchemaMgmt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IDirectorySchemaMgmt
+ - IDirectorySchemaMgmt.EnumAttributes
+ - IDirectorySchemaMgmt.CreateAttributeDefinition
+ - IDirectorySchemaMgmt.WriteAttributeDefinition
+ - IDirectorySchemaMgmt.DeleteAttributeDefinition
+ - IDirectorySchemaMgmt.EnumClasses
+ - IDirectorySchemaMgmt.CreateClassDefinition
+ - IDirectorySchemaMgmt.WriteClassDefinition
+ - IDirectorySchemaMgmt.DeleteClassDefinition
 ---
 
 # IDirectorySchemaMgmt interface
@@ -57,13 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectorySchemaMgmt</b> interface is not currently implemented and should not be used.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectorySchemaMgmt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectorySchemaMgmt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectorySchemaMgmt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectorySchemaMgmt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -132,14 +131,8 @@ Reserved for future use.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The methods for this interface are not fully implemented at this time.
-
-
-

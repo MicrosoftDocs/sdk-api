@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 898645ce-4bd5-4491-a31c-f60a17578872
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollectionLoader, IDWriteFontCollectionLoader interface [Direct Write], IDWriteFontCollectionLoader interface [Direct Write],described, directwrite.IDWriteFontCollectionLoader, dwrite/IDWriteFontCollectionLoader
-f1_keywords:
-- dwrite/IDWriteFontCollectionLoader
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontCollectionLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontCollectionLoader
+ - dwrite/IDWriteFontCollectionLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontCollectionLoader
 ---
 
 # IDWriteFontCollectionLoader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-  Used to construct a collection of fonts given a particular type of key. 
-
+  Used to construct a collection of fonts given a particular type of key.
 
 ## -inheritance
 
@@ -78,14 +77,9 @@ The <b>IDWriteFontCollectionLoader</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The font collection loader interface is recommended to be implemented by a singleton object. Note that font collection loader implementations must not register themselves with DirectWrite factory inside their constructors and must not unregister themselves in their destructors, because registration and unregistraton operations increment and decrement the object reference count respectively. Instead, registration and unregistration of font file loaders with DirectWrite factory should be performed outside of the font file loader implementation as a separate step.
-
-
 

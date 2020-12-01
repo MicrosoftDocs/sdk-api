@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\resizevideo.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],ResizeVideo method, IWiaVideo.ResizeVideo, IWiaVideo::ResizeVideo, ResizeVideo, ResizeVideo method [WIA], ResizeVideo method [WIA],IWiaVideo interface, _wia_IWiaVideo_ResizeVideo, wia._wia_IWiaVideo_ResizeVideo, wiavideo/IWiaVideo::ResizeVideo
-f1_keywords:
-- wiavideo/IWiaVideo.ResizeVideo
-dev_langs:
-- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wiavideo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiavideo.dll
-api_name:
-- IWiaVideo.ResizeVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaVideo::ResizeVideo
+ - wiavideo/IWiaVideo::ResizeVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiavideo.dll
+api_name:
+ - IWiaVideo.ResizeVideo
 ---
 
 # IWiaVideo::ResizeVideo
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaVideo::ResizeVideo</b> method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
 
-
 ## -parameters
-
-
-
 
 ### -param bStretchToFitParent [in]
 
@@ -64,23 +60,13 @@ Type: <b>BOOL</b>
 
 Specifies whether the video playback is stretched to fill the parent window.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 By default, the video is displayed in a supported resolution smaller than the parent window. If <i>bStretchToFitParent</i> is set to <b>TRUE</b>, the video display fills the window.
-
-
 

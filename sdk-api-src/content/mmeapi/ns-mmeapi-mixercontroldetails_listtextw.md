@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLDETAILS_LISTTEXTW, *PMIXERCONTROLDETAILS_LISTTEXTW, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_LISTTEXTW, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
-f1_keywords:
-- mmeapi/MIXERCONTROLDETAILS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROLDETAILS
-- mixercontroldetails_listtextw
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_LISTTEXTW, *PMIXERCONTROLDETAILS_LISTTEXTW, *LPMIXERCONTROLDETAILS_LISTTEXTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMIXERCONTROLDETAILS_LISTTEXTW
+ - mmeapi/tagMIXERCONTROLDETAILS_LISTTEXTW
+ - PMIXERCONTROLDETAILS_LISTTEXTW
+ - mmeapi/PMIXERCONTROLDETAILS_LISTTEXTW
+ - MIXERCONTROLDETAILS_LISTTEXTW
+ - mmeapi/MIXERCONTROLDETAILS_LISTTEXTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROLDETAILS
+ - mixercontroldetails_listtextw
 ---
 
 # MIXERCONTROLDETAILS_LISTTEXTW structure
 
-## -description
 
+## -description
 
 The MIXERCONTROLDETAILS_LISTTEXT structure retrieves list text, label text, and/or band-range information for multiple-item controls. This structure is used when the MIXER_GETCONTROLDETAILSF_LISTTEXT flag is specified in the mixerGetControlDetails function.
 
-
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwParam1
 
@@ -71,16 +68,10 @@ The MIXERCONTROLDETAILS_LISTTEXT structure retrieves list text, label text, and/
 | EQUALIZER  | MIXERCONTROL. Bounds dwMinimum member.|
 | MIXER and MUX  | MIXERLINEdwLineID member.|
 | MULTIPLESELECT and SINGLESELECT | Undefined; must be zero |
- 
-
-
 
 ### -field dwParam2
 
 See dwParam1.
-
-
-
 
 ### -field szName
 
@@ -110,27 +101,20 @@ MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
+<a href="/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
- 
-
- 
-
+<a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>

@@ -27,39 +27,50 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSELECT
+ - LPWSPSELECT
+f1_keywords:
+ - LPWSPSELECT
+ - ws2spi/LPWSPSELECT
 ---
 
 ## -description
+
 The **LPWSPSelect** function determines the status of one or more sockets.
 
 ## -parameters
 
 ### -param nfds [in]
+
 Ignored and included only for the sake of compatibility.
 
 ### -param readfds [in, out]
+
 Optional pointer to a set of sockets to be checked for readability.
 
 ### -param writefds [in, out]
+
 Optional pointer to a set of sockets to be checked for writability.
 
 ### -param exceptfds [in, out]
+
 Optional pointer to a set of sockets to be checked for errors.
 
 ### -param timeout [in]
-Maximum time for **LPWSPSelect** to wait, or **null** for a blocking operation, in the form of a [**timeval**](timeval-2.md) structure.
+
+Maximum time for **LPWSPSelect** to wait, or **null** for a blocking operation, in the form of a [**timeval**](../winsock2/ns-winsock2-timeval.md) structure.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 The **LPWSPSelect** function returns the total number of descriptors that are ready and contained in the <a href="/windows/win32/api/winsock/nf-winsock-fd_set">fd_set</a> structures, or SOCKET_ERROR if an error occurred. If the return value is SOCKET_ERROR, a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -136,9 +147,10 @@ One of the descriptor sets contains an entry that is not a socket.
 </table>
 
 ## -remarks
+
 This function is used to determine the status of one or more sockets. For each socket, the caller can request information on read, write, or error status. The set of sockets for which a given status is requested is indicated by an <a href="/windows/win32/api/winsock/nf-winsock-fd_set">fd_set</a> structure. All entries in an **fd_set** correspond to sockets created by the service provider (that is, the <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structures describing their protocols have the same *providerId* value). Upon return, the structures are updated to reflect the subset of these sockets that meet the specified condition, and **LPWSPSelect** returns the total number of sockets meeting the conditions. A set of macros is provided for manipulating an **fd_set**. These macros are compatible with those used in the Berkeley software, but the underlying representation is completely different.
 
-The parameter <i>readfds</i> identifies those sockets that are to be checked for readability. If the socket is currently listening through <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b>, it will be marked as readable if an incoming connection request has been received, so that a **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** is guaranteed to complete without blocking. For other sockets, readability means that queued data is available for reading so that a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> or [**LPWSPRecvFrom**](LPWSPRecvFrom-2.md) is guaranteed not to block.
+The parameter <i>readfds</i> identifies those sockets that are to be checked for readability. If the socket is currently listening through <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a></b>, it will be marked as readable if an incoming connection request has been received, so that a [LPWSPAccept](nc-ws2spi-lpwspaccept.md) is guaranteed to complete without blocking. For other sockets, readability means that queued data is available for reading so that a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> or [LPWSPRecvFrom](./nc-ws2spi-lpwsprecvfrom.md) is guaranteed not to block.
 
 For connection-oriented sockets, readability can also indicate that a close request has been received from the peer. If the virtual circuit was closed gracefully, then a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b> will return immediately with zero bytes read. If the virtual circuit was reset, then a **LPWSPRecv** will complete immediately with an error code, such as WSAECONNRESET. The presence of OOB data will be checked if the socket option SO_OOBINLINE has been enabled (see <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt">LPWSPSetSockOpt</a></b>).
 
@@ -207,7 +219,7 @@ which will return nonzero if <i>s</i> is a member of the *set* or otherwise zero
 
 </dd> </dl>
 
-The parameter <i>timeout</i> controls how long the **LPWSPSelect** can take to complete. If <i>timeout</i> is a **null** pointer, **LPWSPSelect** will block indefinitely until at least one descriptor meets the specified criteria. Otherwise, <i>timeout</i> points to a [**timeval**](timeval-2.md) structure that specifies the maximum time that **LPWSPSelect** should wait before returning. When **LPWSPSelect** returns, the contents of the **timeval** structure are not altered. If **timeval** is initialized to {0, 0}, **LPWSPSelect** will return immediately; this is used to poll the state of the selected sockets. If this is the case, then the **LPWSPSelect** call is considered nonblocking and the standard assumptions for nonblocking calls apply. For example, the blocking hook will not be called, and the Windows Sockets provider will not yield.
+The parameter <i>timeout</i> controls how long the **LPWSPSelect** can take to complete. If <i>timeout</i> is a **null** pointer, **LPWSPSelect** will block indefinitely until at least one descriptor meets the specified criteria. Otherwise, <i>timeout</i> points to a [**timeval**](../winsock2/ns-winsock2-timeval.md) structure that specifies the maximum time that **LPWSPSelect** should wait before returning. When **LPWSPSelect** returns, the contents of the **timeval** structure are not altered. If **timeval** is initialized to {0, 0}, **LPWSPSelect** will return immediately; this is used to poll the state of the selected sockets. If this is the case, then the **LPWSPSelect** call is considered nonblocking and the standard assumptions for nonblocking calls apply. For example, the blocking hook will not be called, and the Windows Sockets provider will not yield.
 
 > [!Note]  
 > The **LPWSPSelect** function has no effect on the persistence of socket events registered with **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** or <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a></b>.

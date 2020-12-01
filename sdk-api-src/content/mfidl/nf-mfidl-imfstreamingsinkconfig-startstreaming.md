@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
-f1_keywords:
-- mfidl/IMFStreamingSinkConfig.StartStreaming
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFStreamingSinkConfig.StartStreaming
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFStreamingSinkConfig::StartStreaming
+ - mfidl/IMFStreamingSinkConfig::StartStreaming
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFStreamingSinkConfig.StartStreaming
 ---
 
 # IMFStreamingSinkConfig::StartStreaming
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
 
-
 ## -parameters
-
-
-
 
 ### -param fSeekOffsetIsByteOffset [in]
 
@@ -88,32 +84,16 @@ The <i>qwSeekOffset</i> parameter specifies the time position in 100-nanosecond 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param qwSeekOffset [in]
 
 A byte offset or a time offset, depending on the value passed in <i>fSeekOffsetIsByteOffset</i>.  Time offsets are specified in
     100-nanosecond units.
 
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamingsinkconfig">IMFStreamingSinkConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamingsinkconfig">IMFStreamingSinkConfig</a>

@@ -27,30 +27,38 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSENDDISCONNECT
+ - LPWSPSENDDISCONNECT
+f1_keywords:
+ - LPWSPSENDDISCONNECT
+ - ws2spi/LPWSPSENDDISCONNECT
 ---
 
 ## -description
+
 The **LPWSPSendDisconnect** function initiates termination of the connection for the socket and sends disconnect data.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying a socket.
 
 ### -param lpOutboundDisconnectData [in]
+
 Pointer to the outgoing disconnect data.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPSendDisconnect** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -127,6 +135,7 @@ The <i>lpOutboundDisconnectData</i> parameter is not totally contained in a vali
 </table>
 
 ## -remarks
+
 The **LPWSPSendDisconnect** function is used on connection-oriented sockets to disable transmission, and to initiate termination of the connection along with the transmission of disconnect data, if any.
 
 After this function has been successfully issued, subsequent sends are disallowed.
@@ -144,3 +153,4 @@ Note that **LPWSPSendDisconnect** does not close the socket, and that resources 
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+

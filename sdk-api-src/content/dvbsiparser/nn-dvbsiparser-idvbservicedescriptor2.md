@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 795c4a5c-c363-401b-8b26-447903163f80
 ms.date: 12/05/2018
 ms.keywords: IDvbServiceDescriptor2, IDvbServiceDescriptor2 interface [Microsoft TV Technologies], IDvbServiceDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceDescriptor2, mstv.idvbservicedescriptor2
-f1_keywords:
-- dvbsiparser/IDvbServiceDescriptor2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbServiceDescriptor2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbServiceDescriptor2
+ - dvbsiparser/IDvbServiceDescriptor2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbServiceDescriptor2
 ---
 
 # IDvbServiceDescriptor2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get the string values from fields in a Digital Video Broadcast (DVB) service descriptor. The service descriptor describes the service type, and provides the names of the service provider and the service in text form.
-
 
 ## -inheritance
 
@@ -70,7 +69,7 @@ The <b>IDvbServiceDescriptor2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getservicenamew">GetServiceNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getservicenamew">GetServiceNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service name from the DVB service descriptor.
@@ -79,12 +78,11 @@ Gets the service name from the DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getserviceprovidernamew">GetServiceProviderNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor2-getserviceprovidernamew">GetServiceProviderNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service provider name from the DVB service descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>

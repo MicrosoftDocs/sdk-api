@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: smi
+f1_keywords:
+ - wcmconfig
+ - wcmconfig/wcmconfig
 ---
 
 # Wcmconfig.h header
 
 
 ## -description
-
 
 This header is used by Settings Management Infrastructure (SMI). For more information, see:
 

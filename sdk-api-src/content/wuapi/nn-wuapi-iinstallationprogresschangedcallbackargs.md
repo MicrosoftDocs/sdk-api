@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 9175bcaf-8015-466d-ae0c-7ba685bdf192
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs
-f1_keywords:
-- wuapi/IInstallationProgressChangedCallbackArgs
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationProgressChangedCallbackArgs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationProgressChangedCallbackArgs
+ - wuapi/IInstallationProgressChangedCallbackArgs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationProgressChangedCallbackArgs
 ---
 
 # IInstallationProgressChangedCallbackArgs interface
 
 
 ## -description
-
 
 Contains information about the change in the progress of an asynchronous installation or uninstallation at the time the callback was made.
 

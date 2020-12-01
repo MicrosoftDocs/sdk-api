@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: indexsrv
+f1_keywords:
+ - oledbguid
+ - oledbguid/oledbguid
 ---
 
 # Oledbguid.h header
 
 
 ## -description
-
 
 This header is used by Indexing Service. For more information, see:
 

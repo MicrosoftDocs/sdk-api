@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
 ms.date: 12/05/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
-f1_keywords:
-- uiautomationcore/UiaPoint
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- UiaPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaPoint
+ - uiautomationcore/UiaPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - UiaPoint
 ---
 
 # UiaPoint structure
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the coordinates of a point. 
-
+Contains the coordinates of a point.
 
 ## -struct-fields
-
-
-
 
 ### -field x
 
 Type: <b>double</b>
 
 The horizontal screen coordinate.
-
 
 ### -field y
 

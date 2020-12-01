@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3f55acbf-1e15-42c3-a610-c5742e74883d
 ms.date: 12/05/2018
 ms.keywords: GetDefaultColumnState, GetDefaultColumnState method [Windows Shell], GetDefaultColumnState method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumnState method, IShellFolder2.GetDefaultColumnState, IShellFolder2::GetDefaultColumnState, SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_PREFER_VARCMP, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, _win32_IShellFolder2_GetDefaultColumnState, shell.IShellFolder2_GetDefaultColumnState, shobjidl_core/IShellFolder2::GetDefaultColumnState
-f1_keywords:
-- shobjidl_core/IShellFolder2.GetDefaultColumnState
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolder2.GetDefaultColumnState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolder2::GetDefaultColumnState
+ - shobjidl_core/IShellFolder2::GetDefaultColumnState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolder2.GetDefaultColumnState
 ---
 
 # IShellFolder2::GetDefaultColumnState
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the default state for a specified column.
 
-
 ## -parameters
-
-
-
 
 ### -param iColumn [in]
 
 Type: <b>UINT</b>
 
 An integer that specifies the column number.
-
 
 ### -param pcsFlags [out]
 
@@ -123,16 +118,10 @@ Not displayed in the user interface.
 
 #### SHCOLSTATE_PREFER_VARCMP
 
-Uses default sorting rather than <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">CompareIDs</a> to get the sort order.
-
+Uses default sorting rather than <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">CompareIDs</a> to get the sort order.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME control code [Files], _win32_fsctl_lock_volume, base.fsctl_lock_volume, fs.fsctl_lock_volume, winioctl/FSCTL_LOCK_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_LOCK_VOLUME"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - FSCTL_LOCK_VOLUME
+ - winioctl/FSCTL_LOCK_VOLUME
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,10 +43,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_LOCK_VOLUME
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # FSCTL_LOCK_VOLUME IOCTL
@@ -49,11 +50,10 @@ req.redist:
 
 ## -description
 
-
 Locks a volume if it is not in use. A locked volume can be accessed only through handles to the file object (*<i>hDevice</i>) that locks the volume. For more information, see the Remarks section.
 
 To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -71,87 +71,47 @@ To perform this operation, call the
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-
-
-The <i>hDevice</i> handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form: 
+The <i>hDevice</i> handle passed to <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form: 
 
 \\.&#92;<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 If the specified volume is a system volume or contains a page file, the operation fails.
 
@@ -163,13 +123,13 @@ A locked volume remains locked until one of the following occurs:
 
 <ul>
 <li>The application uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a> control code to unlock the volume.</li>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a> control code to unlock the volume.</li>
 <li>The handle closes, either directly through 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>, or indirectly when a process terminates.</li>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>, or indirectly when a process terminates.</li>
 </ul>
 The system flushes all cached data to the volume before locking it. For example, any data held in a lazy-write cache is written to the volume.
 
-The NTFS file system treats a locked volume as a dismounted volume. The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume">FSCTL_DISMOUNT_VOLUME</a> control code functions similarly but does not check for open files before dismounting. Note that without a successful lock operation, a dismounted volume may be remounted by any process at any time. This would not be an ideal state for performing a volume backup, for example.
+The NTFS file system treats a locked volume as a dismounted volume. The <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume">FSCTL_DISMOUNT_VOLUME</a> control code functions similarly but does not check for open files before dismounting. Note that without a successful lock operation, a dismounted volume may be remounted by any process at any time. This would not be an ideal state for performing a volume backup, for example.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -223,38 +183,28 @@ See comment
 
 On CsvFs Lock Volume, PNP notification will be sent only on the node where the lock request was issued. A lock will succeed only if the CsvFs filter on top of NTFS does not see any opened files.
 
-After acquiring a lock on a CSV volume, you must close the handle used to lock that volume before opening a handle to the volume. Unlocking the volume by using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a> is not sufficient.
-
-
-
+After acquiring a lock on a CSV volume, you must close the handle used to lock that volume before opening a handle to the volume. Unlocking the volume by using <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a> is not sufficient.
 
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume">FSCTL_DISMOUNT_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume">FSCTL_DISMOUNT_VOLUME</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>

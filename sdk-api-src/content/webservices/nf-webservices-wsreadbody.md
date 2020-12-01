@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.date: 12/05/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
-f1_keywords:
-- webservices/WsReadBody
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadBody
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadBody
+ - webservices/WsReadBody
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadBody
 ---
 
 # WsReadBody function
@@ -49,67 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 This is a helper function that deserializes a value from the XML Readerof the message.
-            The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> must be set to <b>WS_MESSAGE_STATE_READING</b>.  This function does
+            The <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> must be set to <b>WS_MESSAGE_STATE_READING</b>.  This function does
                 not cause any state transitions.
-            
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param message [in]
 
-A pointer to the <b>Message</b> object to read the body from.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
-                
-                
-
+A pointer to the <b>Message</b> object to read the body from.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
 
 ### -param bodyDescription [in]
 
 A pointer to the object encapsulating the metadata that describes the mapping of the value to an element.
-                
-
 
 ### -param readOption [in]
 
 Determines whether the value is required and how to allocate the value.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
-                
-
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
 
 ### -param heap [in, optional]
 
-A pointer to the <b>Heap</b> object to read the element into.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> object.
-                
-
+A pointer to the <b>Heap</b> object to read the element into.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> object.
 
 ### -param value
 
 The interpretation of the data referenced by this parameter depends on the <b>WS_READ_OPTION</b>.
-                
-
 
 ### -param valueSize [in]
 
 The interpretation of the value of this parameter depends on the <b>WS_READ_OPTION</b>.
-                
-
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -163,14 +139,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This functions supports the following scenarios, based on the contents
                 of the <b>WS_ELEMENT_DESCRIPTION</b>supplied:
@@ -186,12 +156,10 @@ This functions supports the following scenarios, based on the contents
                 envelope/addressing version of the message).
                 </li>
 <li>Reading multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 </li>
 <li>Reading multiple elements as multiple values.  Reading multiple distinct values can be
                 accomplished by simply calling the function multiple times.
             </li>
 </ul>
-
-

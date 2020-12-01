@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBRESTORE, LPNMTBRESTORE, LPNMTBRESTORE structure pointer [Windows Controls], NMTBRESTORE, NMTBRESTORE structure [Windows Controls], _win32_NMTBRESTORE, _win32_NMTBRESTORE_cpp, commctrl/LPNMTBRESTORE, commctrl/NMTBRESTORE, controls.NMTBRESTORE, controls._win32_NMTBRESTORE'
-f1_keywords:
-- commctrl/NMTBRESTORE
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,50 +25,59 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTBRESTORE
 targetos: Windows
 req.typenames: NMTBRESTORE, *LPNMTBRESTORE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMTBRESTORE
+ - commctrl/tagNMTBRESTORE
+ - LPNMTBRESTORE
+ - commctrl/LPNMTBRESTORE
+ - NMTBRESTORE
+ - commctrl/NMTBRESTORE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTBRESTORE
 ---
 
 ## -description
 
-Allows applications to extract the information that was placed in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-nmtbsave">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-restore">TBN_RESTORE</a> notification code.
+Allows applications to extract the information that was placed in <a href="/windows/desktop/api/commctrl/ns-commctrl-nmtbsave">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="/windows/desktop/Controls/tbn-restore">TBN_RESTORE</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field pData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the data stream with the stored save information. It contains Shell-defined blocks of information for each button, alternating with application-defined blocks. Applications may also place a block of global data at the start of 
 					<b>pData</b>. The format and length of the application-defined blocks are determined by the application.
 
 ### -field pCurrent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the current block of application-defined data. After extracting the data, the application must advance 
 					<b>pCurrent</b> to the end of the block, so it is pointing to the next block of Shell-defined data.
 
 ### -field cbData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of 
 					<b>pData</b>.
@@ -100,6 +105,6 @@ Number of bytes needed to hold the data for each button. When the restore starts
 
 ### -field tbButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning.
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning.

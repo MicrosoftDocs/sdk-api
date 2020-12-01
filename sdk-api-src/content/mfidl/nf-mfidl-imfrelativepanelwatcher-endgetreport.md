@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFRelativePanelWatcher::EndGetReport
 f1_keywords:
+ - IMFRelativePanelWatcher::EndGetReport
  - mfidl/IMFRelativePanelWatcher::EndGetReport
 dev_langs:
  - c++
@@ -44,8 +45,6 @@ dev_langs:
 Ends an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
 
 ## -parameters
-
-
 
 ### -param pResult
 

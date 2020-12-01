@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: tracelogging
+f1_keywords:
+ - traceloggingprovider
+ - traceloggingprovider/traceloggingprovider
 ---
 
 # Traceloggingprovider.h header
 
 
 ## -description
-
 
 This header is used by TraceLogging. For more information, see:
 

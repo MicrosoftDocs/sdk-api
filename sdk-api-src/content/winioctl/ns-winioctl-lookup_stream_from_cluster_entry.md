@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2f4de631-8bb4-4b2a-a750-43f06554b22f
 ms.date: 12/05/2018
 ms.keywords: '*PLOOKUP_STREAM_FROM_CLUSTER_ENTRY, LOOKUP_STREAM_FROM_CLUSTER_ENTRY, LOOKUP_STREAM_FROM_CLUSTER_ENTRY structure [Files], LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_DATA, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_INDEX, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_MASK, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_SYSTEM, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_DENY_DEFRAG_SET, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_FS_SYSTEM_FILE, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_PAGE_FILE, LOOKUP_STREAM_FROM_CLUSTER_ENTRY_FLAG_TXF_SYSTEM_FILE, PLOOKUP_STREAM_FROM_CLUSTER_ENTRY, PLOOKUP_STREAM_FROM_CLUSTER_ENTRY structure pointer [Files], fs.lookup_stream_from_cluster_entry, winioctl/LOOKUP_STREAM_FROM_CLUSTER_ENTRY, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_ENTRY'
-f1_keywords:
-- winioctl/LOOKUP_STREAM_FROM_CLUSTER_ENTRY
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 targetos: Windows
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_ENTRY, *PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
 req.redist: 
+f1_keywords:
+ - _LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - winioctl/_LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - winioctl/PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - winioctl/LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 ---
 
 # LOOKUP_STREAM_FROM_CLUSTER_ENTRY structure
@@ -48,25 +53,19 @@ req.redist:
 
 ## -description
 
-
 Returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
     <a href="/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OffsetToNext
 
 Offset in bytes from the beginning of this structure to the next 
       <b>LOOKUP_STREAM_FROM_CLUSTER_ENTRY</b> 
       structure returned. If there are no more entries, this value is zero.
-
 
 ### -field Flags
 
@@ -99,7 +98,7 @@ The stream is part of the system pagefile.
 </td>
 <td width="60%">
 The stream is locked from defragmentation. The <b>HandleInfo</b> member of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
         the <b>MARK_HANDLE_PROTECT_CLUSTERS</b> flag set.
 
 </td>
@@ -160,19 +159,15 @@ The stream is part of another attribute for the file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 This value is reserved and is currently zero.
 
-
 ### -field Cluster
 
 This is the cluster that this entry refers to. It will be one of the clusters passed in the input 
       structure.
-
 
 ### -field FileName
 
@@ -184,10 +179,7 @@ A <b>NULL</b>-terminated Unicode string containing the path of the object relati
       in the form 
       "<i>full</i>&#92;<i>path</i>&#92;<i>to</i>&#92;<i>file</i>&#92;<i>filename.ext</i>:<i>streamname</i>:<i>typename</i>".
 
-
 ## -remarks
-
-
 
 The name in the <b>FileName</b> member can be very long and in a format not recognized by 
     a customer with the stream name and attribute type name following the filename. While it's appropriate to log the 
@@ -196,15 +188,9 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
     member has any flag other than <b>LOOKUP_STREAM_FROM_CLUSTER_ENTRY_ATTRIBUTE_DATA</b> set then 
     an appropriate message should be displayed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
 
 
 
@@ -212,8 +198,4 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

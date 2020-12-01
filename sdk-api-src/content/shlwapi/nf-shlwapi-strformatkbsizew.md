@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.date: 12/05/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
-f1_keywords:
-- shlwapi/StrFormatKBSize
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- StrFormatKBSize
-- StrFormatKBSizeA
-- StrFormatKBSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrFormatKBSizeW
+ - shlwapi/StrFormatKBSizeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - StrFormatKBSize
+ - StrFormatKBSizeA
+ - StrFormatKBSizeW
 ---
 
 # StrFormatKBSizeW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
 
-
 ## -parameters
-
-
-
 
 ### -param qdw
 
@@ -66,13 +62,11 @@ Type: <b>LONGLONG</b>
 
 The numeric value to be converted.
 
-
 ### -param pszBuf [out]
 
 Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the converted number.
-
 
 ### -param cchBuf
 
@@ -80,21 +74,13 @@ Type: <b>UINT</b>
 
 The size of <i>pszBuf</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>PTSTR</b>
 
 Returns a pointer to the converted string, or <b>NULL</b> if the conversion fails.
 
-
-
-
 ## -remarks
-
-
 
 In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 KB is 1000 bytes rather than 1024.
 
@@ -107,15 +93,8 @@ In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 
 
 ## -see-also
 
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>

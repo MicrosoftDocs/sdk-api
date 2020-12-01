@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: bdc91cac-c0ec-4484-a415-8cd1aa1e18e8
 ms.date: 12/05/2018
 ms.keywords: ITCallHub, ITCallHub interface [TAPI 2.2], ITCallHub interface [TAPI 2.2],described, _tapi3_itcallhub, tapi3.itcallhub, tapi3if/ITCallHub
-f1_keywords:
-- tapi3if/ITCallHub
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallHub
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallHub
+ - tapi3if/ITCallHub
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallHub
 ---
 
 # ITCallHub interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITCallHub</b> interface provides methods to retrieve information concerning a CallHub object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumcallhub-next">IEnumCallHub::Next</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">ITTapi::get_CallHubs</a> methods create the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumcallhub-next">IEnumCallHub::Next</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">ITTapi::get_CallHubs</a> methods create the 
 <b>ITCallHub</b> interface.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallHub</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallHub</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallHub</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>ITCallHub</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-clear">Clear</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Attempts to remove all calls and participants from Call Hub.
@@ -83,7 +82,7 @@ Attempts to remove all calls and participants from Call Hub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-enumeratecalls">EnumerateCalls</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-enumeratecalls">EnumerateCalls</a>
 </td>
 <td align="left" width="63%">
 Enumerates calls currently associated with the call hub.
@@ -92,7 +91,7 @@ Enumerates calls currently associated with the call hub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_calls">get_Calls</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_calls">get_Calls</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Microsoft Visual Basic.
@@ -101,7 +100,7 @@ Creates a collection of calls associated with the current call hub. This method 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_numcalls">get_NumCalls</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_numcalls">get_NumCalls</a>
 </td>
 <td align="left" width="63%">
 Gets the number of calls currently in the CallHub.
@@ -110,27 +109,19 @@ Gets the number of calls currently in the CallHub.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">get_State</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallhub-get_state">get_State</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of the CallHub.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

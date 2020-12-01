@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 12c26507-c729-4143-a0bd-e043d42744f6
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMResizerProps interface [Media Foundation],described, codecapi.iwmresizerpropsinterface, mf.iwmresizerprops, mf.iwmresizerpropsinterface, wmcodecdsp/IWMResizerProps
-f1_keywords:
-- wmcodecdsp/IWMResizerProps
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMResizerProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMResizerProps
+ - wmcodecdsp/IWMResizerProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMResizerProps
 ---
 
 # IWMResizerProps interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets properties on the video resizer DSP.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResizerProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResizerProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWMResizerProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-getfullcropregion">GetFullCropRegion</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-getfullcropregion">GetFullCropRegion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source and destination rectangles.
@@ -79,7 +78,7 @@ Retrieves the source and destination rectangles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setclipregion">SetClipRegion</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setclipregion">SetClipRegion</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle.
@@ -88,7 +87,7 @@ Sets the source rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setfullcropregion">SetFullCropRegion</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setfullcropregion">SetFullCropRegion</a>
 </td>
 <td align="left" width="63%">
 Sets the source and destination rectangles.
@@ -97,7 +96,7 @@ Sets the source and destination rectangles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setinterlacemode">SetInterlaceMode</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setinterlacemode">SetInterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the input video stream is interlaced.
@@ -106,27 +105,19 @@ Specifies whether the input video stream is interlaced.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setresizerquality">SetResizerQuality</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setresizerquality">SetResizerQuality</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/videoresizer">Video Resizer DSP</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/videoresizer">Video Resizer DSP</a>

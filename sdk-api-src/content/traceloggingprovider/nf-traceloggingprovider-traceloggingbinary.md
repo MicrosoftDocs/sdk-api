@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary, traceloggingprovider/TraceLoggingBinary
-f1_keywords:
-- traceloggingprovider/TraceLoggingBinary
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingBinary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingBinary
+ - traceloggingprovider/TraceLoggingBinary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingBinary
 ---
 
 # TraceLoggingBinary macro
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Wrapper macro for raw binary data.
 
-
 ## -parameters
-
-
-
 
 ### -param pbData [in]
 
 The binary data to process.
-
 
 ### -param cbData [in]
 

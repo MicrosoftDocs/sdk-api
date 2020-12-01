@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
-f1_keywords:
-- mstask/ITaskScheduler
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskScheduler
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskScheduler
+ - mstask/ITaskScheduler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskScheduler
 ---
 
 # ITaskScheduler interface
@@ -49,17 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
-
+It is the primary interface of the <a href="/windows/desktop/TaskSchd/t">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskScheduler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskScheduler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskScheduler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskScheduler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +73,7 @@ The <b>ITaskScheduler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">Activate</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">Activate</a>
 </td>
 <td align="left" width="63%">
 Returns an active interface to the specified task.
@@ -83,7 +82,7 @@ Returns an active interface to the specified task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">AddWorkItem</a>
 </td>
 <td align="left" width="63%">
 Adds a task to the schedule of tasks.
@@ -92,7 +91,7 @@ Adds a task to the schedule of tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-delete">Delete</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes a task.
@@ -101,7 +100,7 @@ Deletes a task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-enum">Enum</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-enum">Enum</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an OLE enumerator object that enumerates the tasks in the current task folder.
@@ -110,7 +109,7 @@ Retrieves a pointer to an OLE enumerator object that enumerates the tasks in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-gettargetcomputer">GetTargetComputer</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-gettargetcomputer">GetTargetComputer</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the computer on which 
@@ -120,7 +119,7 @@ Returns the name of the computer on which
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-isoftype">IsOfType</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-isoftype">IsOfType</a>
 </td>
 <td align="left" width="63%">
 Checks the object type.
@@ -129,7 +128,7 @@ Checks the object type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">NewWorkItem</a>
 </td>
 <td align="left" width="63%">
 Allocates space for a new task and retrieves its address.
@@ -138,7 +137,7 @@ Allocates space for a new task and retrieves its address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-settargetcomputer">SetTargetComputer</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-settargetcomputer">SetTargetComputer</a>
 </td>
 <td align="left" width="63%">
 Selects the computer that the 
@@ -146,5 +145,4 @@ Selects the computer that the
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm
 ms.date: 12/05/2018
 ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], ID3D10EffectMatrixVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectMatrixVariable, direct3d10.id3d10effectmatrixvariable
-f1_keywords:
-- d3d10effect/ID3D10EffectMatrixVariable
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10EffectMatrixVariable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10EffectMatrixVariable
+ - d3d10effect/ID3D10EffectMatrixVariable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10EffectMatrixVariable
 ---
 
 # ID3D10EffectMatrixVariable interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 A matrix-variable interface accesses a matrix.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectMatrixVariable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectMatrixVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectMatrixVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectMatrixVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>ID3D10EffectMatrixVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrix">GetMatrix</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrix">GetMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix.
@@ -80,7 +79,7 @@ Get a matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixarray">GetMatrixArray</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixarray">GetMatrixArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of matrices.
@@ -89,7 +88,7 @@ Get an array of matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtranspose">GetMatrixTranspose</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtranspose">GetMatrixTranspose</a>
 </td>
 <td align="left" width="63%">
 Transpose and get a floating-point matrix.
@@ -98,7 +97,7 @@ Transpose and get a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtransposearray">GetMatrixTransposeArray</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-getmatrixtransposearray">GetMatrixTransposeArray</a>
 </td>
 <td align="left" width="63%">
 Transpose and get an array of floating-point matrices.
@@ -107,7 +106,7 @@ Transpose and get an array of floating-point matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix">SetMatrix</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Set a floating-point matrix.
@@ -116,7 +115,7 @@ Set a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixarray">SetMatrixArray</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixarray">SetMatrixArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of floating-point matrices.
@@ -125,7 +124,7 @@ Set an array of floating-point matrices.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtranspose">SetMatrixTranspose</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtranspose">SetMatrixTranspose</a>
 </td>
 <td align="left" width="63%">
 Transpose and set a floating-point matrix.
@@ -134,27 +133,19 @@ Transpose and set a floating-point matrix.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtransposearray">SetMatrixTransposeArray</a>
+<a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrixtransposearray">SetMatrixTransposeArray</a>
 </td>
 <td align="left" width="63%">
 Transpose and set an array of floating-point matrices.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>

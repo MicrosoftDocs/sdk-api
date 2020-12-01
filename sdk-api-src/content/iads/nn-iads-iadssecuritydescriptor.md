@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: c77547ab-e666-4d72-b8ef-4b2f3d61ad38
 ms.date: 12/05/2018
 ms.keywords: ADsSecurityUtility, IADsSecurityDescriptor, IADsSecurityDescriptor interface [ADSI], IADsSecurityDescriptor interface [ADSI],described, _ds_iadssecuritydescriptor, adsi.iadssecuritydescriptor, iads/IADsSecurityDescriptor
-f1_keywords:
-- iads/IADsSecurityDescriptor
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsSecurityDescriptor
-- ADsSecurityUtility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsSecurityDescriptor
+ - iads/IADsSecurityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsSecurityDescriptor
+ - ADsSecurityUtility
 ---
 
 # IADsSecurityDescriptor interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsSecurityDescriptor</b> interface provides access to properties on an ADSI security descriptor object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsSecurityDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityDescriptor</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsSecurityDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +71,7 @@ The <b>IADsSecurityDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecuritydescriptor-copysecuritydescriptor">CopySecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadssecuritydescriptor-copysecuritydescriptor">CopySecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Copies the security descriptor.
@@ -90,7 +89,7 @@ Copies the security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Control</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Control</a>
 
 
 </td>
@@ -106,7 +105,7 @@ Gets and sets the Security_Descriptor_Control flag.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">DaclDefaulted</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">DaclDefaulted</a>
 
 
 </td>
@@ -122,7 +121,7 @@ Gets and sets the flag that indicates if the DACL is derived from a default mech
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">DiscretionaryAcl</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">DiscretionaryAcl</a>
 
 
 </td>
@@ -138,7 +137,7 @@ Gets and sets the discretionary ACL associated with the security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Group</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Group</a>
 
 
 </td>
@@ -154,7 +153,7 @@ Gets and sets the group that owns the object associated with the security descri
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">GroupDefaulted</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">GroupDefaulted</a>
 
 
 </td>
@@ -170,7 +169,7 @@ Gets and sets the flag that indicates if the group data is derived by a default 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Owner</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Owner</a>
 
 
 </td>
@@ -186,7 +185,7 @@ Gets and sets the owner of the object associated with the security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">OwnerDefaulted</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">OwnerDefaulted</a>
 
 
 </td>
@@ -202,7 +201,7 @@ Gets and sets the flag that indicates if the owner data is derived by a default 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Revision</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">Revision</a>
 
 
 </td>
@@ -218,7 +217,7 @@ Gets and sets the revision number assigned to the security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">SaclDefaulted</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">SaclDefaulted</a>
 
 
 </td>
@@ -234,7 +233,7 @@ Gets and sets the flag that indicates if the SACL is derived from a default mech
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">SystemAcl</a>
+<a href="/windows/desktop/ADSI/iadssecuritydescriptor-property-methods">SystemAcl</a>
 
 
 </td>
@@ -247,21 +246,18 @@ Gets and sets the system ACL associated with the security descriptor.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
+Use this interface to examine and change the access controls to an Active Directory directory service object. You can also use it to create copies of a security descriptor. To get this interface, use the <a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs.Get</a> method to obtain the <b>ntSecurityDescriptor</b> attribute of the object. For more information about how  to create  a new security descriptor and set it on an object, see <a href="/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory Object</a> and <a href="/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>.
 
-
-Use this interface to examine and change the access controls to an Active Directory directory service object. You can also use it to create copies of a security descriptor. To get this interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs.Get</a> method to obtain the <b>ntSecurityDescriptor</b> attribute of the object. For more information about how  to create  a new security descriptor and set it on an object, see <a href="https://docs.microsoft.com/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory Object</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>.
-
-Often, it is not possible to modify all portions of the security descriptor. For example, if the current user has full control of an object, but is not an administrator and does not own the object, the user can modify the DACL, but cannot modify the owner. This will cause an error when the <b>ntSecurityDescriptor</b> is updated. To avoid this problem, the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface can be used to specify the specific portions of the security descriptor that should be modified.
+Often, it is not possible to modify all portions of the security descriptor. For example, if the current user has full control of an object, but is not an administrator and does not own the object, the user can modify the DACL, but cannot modify the owner. This will cause an error when the <b>ntSecurityDescriptor</b> is updated. To avoid this problem, the <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface can be used to specify the specific portions of the security descriptor that should be modified.
 
 
 #### Examples
 
-The following code example shows how to use the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface to only modify specific portions of the security descriptor.
+The following code example shows how to use the <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface to only modify specific portions of the security descriptor.
 
 
 ```vb
@@ -369,34 +365,23 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory
+<a href="/windows/desktop/AD/creating-a-security-descriptor-for-a-new-directory-object">Creating a Security Descriptor for a New Directory
     Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>
- 
-
- 
-
+<a href="/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>

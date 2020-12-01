@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1a1266dc-a223-48bd-be30-80c8b50c5b21
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_COMMAND_NONE, CLUSREG_CONDITION_EXISTS, CLUSREG_CONDITION_IS_EQUAL, CLUSREG_CONDITION_IS_GREATER_THAN, CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, CLUSREG_CONDITION_IS_LESS_THAN, CLUSREG_CONDITION_IS_NOT_EQUAL, CLUSREG_CONDITION_KEY_EXISTS, CLUSREG_CONDITION_NOT_EXISTS, CLUSREG_CONTROL_COMMAND, CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_LAST_COMMAND, CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSREG_SET_KEY_SECURITY, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_REG_COMMAND, CLUSTER_REG_COMMAND enumeration [Failover Cluster], _CLUSTER_REG_COMMAND, _CLUSTER_REG_COMMAND enumeration [Failover Cluster], clusapi/CLUSREG_COMMAND_NONE, clusapi/CLUSREG_CONDITION_EXISTS, clusapi/CLUSREG_CONDITION_IS_EQUAL, clusapi/CLUSREG_CONDITION_IS_GREATER_THAN, clusapi/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, clusapi/CLUSREG_CONDITION_IS_LESS_THAN, clusapi/CLUSREG_CONDITION_IS_NOT_EQUAL, clusapi/CLUSREG_CONDITION_KEY_EXISTS, clusapi/CLUSREG_CONDITION_NOT_EXISTS, clusapi/CLUSREG_CONTROL_COMMAND, clusapi/CLUSREG_CREATE_KEY, clusapi/CLUSREG_DELETE_KEY, clusapi/CLUSREG_DELETE_VALUE, clusapi/CLUSREG_LAST_COMMAND, clusapi/CLUSREG_READ_ERROR, clusapi/CLUSREG_READ_VALUE, clusapi/CLUSREG_SET_KEY_SECURITY, clusapi/CLUSREG_SET_VALUE, clusapi/CLUSREG_VALUE_DELETED, clusapi/CLUSTER_REG_COMMAND, clusapi/_CLUSTER_REG_COMMAND, msclus/CLUSREG_COMMAND_NONE, msclus/CLUSREG_CONDITION_EXISTS, msclus/CLUSREG_CONDITION_IS_EQUAL, msclus/CLUSREG_CONDITION_IS_GREATER_THAN, msclus/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, msclus/CLUSREG_CONDITION_IS_LESS_THAN, msclus/CLUSREG_CONDITION_IS_NOT_EQUAL, msclus/CLUSREG_CONDITION_KEY_EXISTS, msclus/CLUSREG_CONDITION_NOT_EXISTS, msclus/CLUSREG_CONTROL_COMMAND, msclus/CLUSREG_CREATE_KEY, msclus/CLUSREG_DELETE_KEY, msclus/CLUSREG_DELETE_VALUE, msclus/CLUSREG_LAST_COMMAND, msclus/CLUSREG_READ_ERROR, msclus/CLUSREG_READ_VALUE, msclus/CLUSREG_SET_KEY_SECURITY, msclus/CLUSREG_SET_VALUE, msclus/CLUSREG_VALUE_DELETED, msclus/CLUSTER_REG_COMMAND, msclus/_CLUSTER_REG_COMMAND, mscs.cluster_reg_command
-f1_keywords:
-- clusapi/CLUSTER_REG_COMMAND
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_REG_COMMAND
 targetos: Windows
 req.typenames: CLUSTER_REG_COMMAND
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_REG_COMMAND
+ - clusapi/_CLUSTER_REG_COMMAND
+ - CLUSTER_REG_COMMAND
+ - clusapi/CLUSTER_REG_COMMAND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_REG_COMMAND
 ---
 
 ## -description
 
-Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
+Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
 
 ## -enum-fields
 
@@ -57,7 +60,7 @@ This constant is not a valid command. It and the <b>CLUSREG_LAST_COMMAND</b> con
 
 ### -field CLUSREG_SET_VALUE
 
-This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+This command sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 ### -field CLUSREG_CREATE_KEY
 
@@ -69,7 +72,7 @@ This command will delete a key with all values and nested subkeys.  No commands 
 
 ### -field CLUSREG_DELETE_VALUE
 
-This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+This command deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if not provided) relative to a key passed into  the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 ### -field CLUSREG_SET_KEY_SECURITY
 
@@ -157,12 +160,12 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -33,14 +33,19 @@ api_location:
  - cimfs.h
 api_name:
  - CimCloseStream
+f1_keywords:
+ - CimCloseStream
+ - cimfs/CimCloseStream
 ---
 
 ## -description
+
 Frees resources associated with the stream handle.
 
 ## -parameters
 
 ### -param cimStreamHandle
+
 Type: **CIMFS_STREAM_HANDLE**
 
 An opaque handle that represents a writer for the stream created with CimCreateFile or CimCreateAlternateStream.

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: d8206138-92cc-4ed7-937e-baf2ed432b6b
 ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],IRegisteredSyncProvider interface, IRegisteredSyncProvider interface [Windows Sync],GetInstanceId method, IRegisteredSyncProvider.GetInstanceId, IRegisteredSyncProvider::GetInstanceId, syncregistration/IRegisteredSyncProvider::GetInstanceId, winsync.iregisteredsyncprovider_getinstanceid
-f1_keywords:
-- syncregistration/IRegisteredSyncProvider.GetInstanceId
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IRegisteredSyncProvider.GetInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredSyncProvider::GetInstanceId
+ - syncregistration/IRegisteredSyncProvider::GetInstanceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IRegisteredSyncProvider.GetInstanceId
 ---
 
 # IRegisteredSyncProvider::GetInstanceId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the synchronization provider's instance ID.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidInstanceId [out]
 
 The instance ID of the synchronization provider.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -86,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>

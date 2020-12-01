@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: C8964494-339B-4198-A544-3BBCCFEB9596
 ms.date: 12/05/2018
 ms.keywords: DEVICE_IMMERSIVE, DEVICE_PRIMARY, DISPLAY_DEVICE_TYPE, DISPLAY_DEVICE_TYPE enumeration [Windows Shell], shell.display_device_type, shellscalingapi/DEVICE_IMMERSIVE, shellscalingapi/DEVICE_PRIMARY, shellscalingapi/DISPLAY_DEVICE_TYPE
-f1_keywords:
-- shellscalingapi/DISPLAY_DEVICE_TYPE
-dev_langs:
-- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ShellScalingAPI.h
-api_name:
-- DISPLAY_DEVICE_TYPE
 targetos: Windows
 req.typenames: DISPLAY_DEVICE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DISPLAY_DEVICE_TYPE
+ - shellscalingapi/DISPLAY_DEVICE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ShellScalingAPI.h
+api_name:
+ - DISPLAY_DEVICE_TYPE
 ---
 
 # DISPLAY_DEVICE_TYPE enumeration
@@ -49,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the device is a primary or immersive type of display.
 <div class="alert"><b>Note</b>  The functions that use these enumeration values are no longer supported as of Windows 8.1.</div><div> </div>
 
 ## -enum-fields
 
-
-
-
 ### -field DEVICE_PRIMARY
 
 The device is a primary display device.
-
 
 ### -field DEVICE_IMMERSIVE
 
 The device is an immersive display device.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a>
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangenotifications">RegisterScaleChangeNotifications</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>

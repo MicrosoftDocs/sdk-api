@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1aa70db8-4225-49de-8b8f-ec86b1aafa22
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3, IShellFolderViewDual3 interface [Windows Shell], IShellFolderViewDual3 interface [Windows Shell],described, _shell_IShellFolderViewDual3, shell.IShellFolderViewDual3, shldisp/IShellFolderViewDual3
-f1_keywords:
-- shldisp/IShellFolderViewDual3
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shldisp.h
-api_name:
-- IShellFolderViewDual3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewDual3
+ - shldisp/IShellFolderViewDual3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shldisp.h
+api_name:
+ - IShellFolderViewDual3
 ---
 
 # IShellFolderViewDual3 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that modify the current folder view.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewDual3</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>. <b>IShellFolderViewDual3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IShellFolderViewDual3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-filterview">FilterView</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-filterview">FilterView</a>
 </td>
 <td align="left" width="63%">
 Sets the filter on the contents of the current view.
@@ -79,7 +78,7 @@ Sets the filter on the contents of the current view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_folderflags">get_FolderFlags</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_folderflags">get_FolderFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the settings for the current folder.
@@ -88,7 +87,7 @@ Gets the settings for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_groupby">get_GroupBy</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_groupby">get_GroupBy</a>
 </td>
 <td align="left" width="63%">
 Gets the column used for grouping the folder view.
@@ -97,7 +96,7 @@ Gets the column used for grouping the folder view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_iconsize">get_IconSize</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_iconsize">get_IconSize</a>
 </td>
 <td align="left" width="63%">
 Gets the icon size setting for the current folder.
@@ -106,7 +105,7 @@ Gets the icon size setting for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_sortcolumns">get_SortColumns</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-get_sortcolumns">get_SortColumns</a>
 </td>
 <td align="left" width="63%">
 Gets the names of the columns used to sort the current folder.
@@ -115,7 +114,7 @@ Gets the names of the columns used to sort the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_folderflags">put_FolderFlags</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_folderflags">put_FolderFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the current folders settings.
@@ -124,7 +123,7 @@ Sets the current folders settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_groupby">put_GroupBy</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_groupby">put_GroupBy</a>
 </td>
 <td align="left" width="63%">
 Sets the column used in grouping the folder view.
@@ -133,7 +132,7 @@ Sets the column used in grouping the folder view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_iconsize">put_IconSize</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_iconsize">put_IconSize</a>
 </td>
 <td align="left" width="63%">
 Sets the icon size setting for the current folder.
@@ -142,36 +141,23 @@ Sets the icon size setting for the current folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_sortcolumns">put_SortColumns</a>
+<a href="/windows/desktop/api/shldisp/nf-shldisp-ishellfolderviewdual3-put_sortcolumns">put_SortColumns</a>
 </td>
 <td align="left" width="63%">
 Sets the names of the columns to be sorted.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a> interfaces, from which it inherits.
-
-
-
+This interface also provides the methods of the <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a> and <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a> interfaces, from which it inherits.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual">IShellFolderViewDual</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual2">IShellFolderViewDual2</a>

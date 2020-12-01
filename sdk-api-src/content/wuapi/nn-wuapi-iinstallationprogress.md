@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgress, IInstallationProgress interface [Windows Update Agent], IInstallationProgress interface [Windows Update Agent],described, wua.iinstallationprogress, wuapi/IInstallationProgress
-f1_keywords:
-- wuapi/IInstallationProgress
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationProgress
+ - wuapi/IInstallationProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationProgress
 ---
 
 # IInstallationProgress interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the progress of an asynchronous installation or uninstallation.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationProgress</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IInstallationProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationProgress</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IInstallationProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +70,7 @@ The <b>IInstallationProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-getupdateresult">GetUpdateResult</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-getupdateresult">GetUpdateResult</a>
 </td>
 <td align="left" width="63%">
 Returns the result of the installation or uninstallation of a specified update.
@@ -89,7 +88,7 @@ Returns the result of the installation or uninstallation of a specified update.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/aa386047(v=vs.85)">CurrentUpdateIndex</a>
+<a href="/previous-versions/windows/desktop/aa386047(v=vs.85)">CurrentUpdateIndex</a>
 
 
 </td>
@@ -105,7 +104,7 @@ Gets a zero-based index value that specifies the update that is  currently being
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-get_currentupdatepercentcomplete">CurrentUpdatePercentComplete</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-get_currentupdatepercentcomplete">CurrentUpdatePercentComplete</a>
 
 
 </td>
@@ -121,7 +120,7 @@ Gets how far the installation or uninstallation process for the current update h
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-get_percentcomplete">PercentComplete</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationprogress-get_percentcomplete">PercentComplete</a>
 
 
 </td>
@@ -134,5 +133,4 @@ Gets how far the overall installation or uninstallation process has progressed, 
 
 </td>
 </tr>
-</table> 
-
+</table>

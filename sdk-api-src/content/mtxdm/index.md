@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: cos
+f1_keywords:
+ - mtxdm
+ - mtxdm/mtxdm
 ---
 
 # Mtxdm.h header
 
 
 ## -description
-
 
 This header is used by COM+ (Component Services). For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2f5f9be2-e7b5-4d34-a2ad-89a99db78ad0
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS enumeration pointer [Security], SECPKG_CRED_CLASS, SECPKG_CRED_CLASS enumeration [Security], SecPkgCredClass_Ephemeral, SecPkgCredClass_Explicit = 40, SecPkgCredClass_None, SecPkgCredClass_PersistedGeneric, SecPkgCredClass_PersistedSpecific, security.secpkg_cred_class, sspi/PSECPKG_CRED_CLASS, sspi/SECPKG_CRED_CLASS, sspi/SecPkgCredClass_Ephemeral, sspi/SecPkgCredClass_Explicit = 40, sspi/SecPkgCredClass_None, sspi/SecPkgCredClass_PersistedGeneric, sspi/SecPkgCredClass_PersistedSpecific'
-f1_keywords:
-- sspi/SECPKG_CRED_CLASS
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SECPKG_CRED_CLASS
 targetos: Windows
 req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECPKG_CRED_CLASS
+ - sspi/_SECPKG_CRED_CLASS
+ - PSECPKG_CRED_CLASS
+ - sspi/PSECPKG_CRED_CLASS
+ - SECPKG_CRED_CLASS
+ - sspi/SECPKG_CRED_CLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SECPKG_CRED_CLASS
 ---
 
 # SECPKG_CRED_CLASS enumeration
@@ -49,37 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_credinfo">SecPkgContext_CredInfo</a> structure.
-
+Indicates the type of credential used in a client context. The <b>SECPKG_CRED_CLASS</b> enumeration is used in the <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_credinfo">SecPkgContext_CredInfo</a> structure.
 
 ## -enum-fields
-
-
-
 
 ### -field SecPkgCredClass_None
 
 No credentials are supplied.
 
-
 ### -field SecPkgCredClass_Ephemeral
 
 Indicates the credentials used to log on to the system.
-
 
 ### -field SecPkgCredClass_PersistedGeneric
 
 Indicates saved credentials that are not target specific.
 
-
 ### -field SecPkgCredClass_PersistedSpecific
 
 Indicates saved credentials that are target specific.
 
-
-
 ### -field SecPkgCredClass_Explicit = 40
 
 Indicates credentials explicitly supplied by the user.
-

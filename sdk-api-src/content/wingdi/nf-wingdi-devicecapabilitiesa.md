@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af
 ms.date: 12/05/2018
 ms.keywords: DC_BINNAMES, DC_BINS, DC_COLLATE, DC_COLORDEVICE, DC_COPIES, DC_DRIVER, DC_DUPLEX, DC_ENUMRESOLUTIONS, DC_EXTRA, DC_FIELDS, DC_FILEDEPENDENCIES, DC_MAXEXTENT, DC_MEDIAREADY, DC_MEDIATYPENAMES, DC_MEDIATYPES, DC_MINEXTENT, DC_NUP, DC_ORIENTATION, DC_PAPERNAMES, DC_PAPERS, DC_PAPERSIZE, DC_PERSONALITY, DC_PRINTERMEM, DC_PRINTRATE, DC_PRINTRATEPPM, DC_PRINTRATEUNIT, DC_SIZE, DC_STAPLE, DC_TRUETYPE, DC_VERSION, DeviceCapabilities, DeviceCapabilities function [Windows GDI], DeviceCapabilitiesA, DeviceCapabilitiesW, _win32_DeviceCapabilities, gdi.devicecapabilities, wingdi/DeviceCapabilities, wingdi/DeviceCapabilitiesA, wingdi/DeviceCapabilitiesW
-f1_keywords:
-- wingdi/DeviceCapabilities
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinSpool.drv
-- Ext-MS-Win-printer-WinSpool-l1-1-2.dll
-- WinSpool.drv
-- Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-api_name:
-- DeviceCapabilities
-- DeviceCapabilitiesA
-- DeviceCapabilitiesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeviceCapabilitiesA
+ - wingdi/DeviceCapabilitiesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinSpool.drv
+ - Ext-MS-Win-printer-WinSpool-l1-1-2.dll
+ - WinSpool.drv
+ - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
+api_name:
+ - DeviceCapabilities
+ - DeviceCapabilitiesA
+ - DeviceCapabilitiesW
 ---
 
 # DeviceCapabilitiesA function
@@ -54,24 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeviceCapabilities</b> function retrieves the capabilities of a printer driver.
 
-
 ## -parameters
-
-
-
 
 ### -param pDevice [in]
 
 A pointer to a null-terminated string that contains the name of the printer. Note that this is the name of the printer, not of the printer driver.
 
-
 ### -param pPort [in]
 
 A pointer to a null-terminated string that contains the name of the port to which the device is connected, such as LPT1.
-
 
 ### -param fwCapability [in]
 
@@ -305,7 +299,7 @@ Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
+Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
 
 </td>
 </tr>
@@ -439,39 +433,28 @@ Returns the specification version to which the printer driver conforms.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pOutput [out]
 
 A pointer to an array. The format of the array depends on the setting of the <i>fwCapability</i> parameter. See each capability above to find out what is returned if <i>pOutput</i> is <b>NULL</b>.
 
-
 ### -param pDevMode [in]
 
 A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. If this parameter is <b>NULL</b>, <b>DeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver. Otherwise, the function retrieves the values contained in the structure to which <i>pDevMode</i> points.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value depends on the setting of the <i>fwCapability</i> parameter. A return value of zero generally indicates that, while the function completed successfully, there was some type of failure, such as a capability that is not supported. For more details, see the descriptions for the <i>fwCapability</i> values.
 
 If the function returns -1, this may mean either that the capability is not supported or there was a general function failure.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
+The <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure pointed to by the <i>pDevMode</i> parameter may be obtained by calling the <a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a> function.
 
-If a printer driver supports custom device capabilities, the driver must call the <a href="https://docs.microsoft.com/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
+If a printer driver supports custom device capabilities, the driver must call the <a href="/windows/desktop/printdocs/setprinterdata">SetPrinterData</a> function for each custom capability. The <b>SetPrinterData</b> function adds the appropriate printer data to the print system, which enables 32-bit applications to access the custom capabilities on 64-bit Windows installations.
 
 For each custom capability, you must first add printer data that describes the type of the capability. To do this, when you call <b>SetPrinterData</b>, set the <i>pValueName</i> string to <b>CustomDeviceCapabilityType_Xxx</b>, where "Xxx" is the hexadecimal representation of the capability. For example, you might have "CustomDeviceCapabilityType_1234". The registry data that you set must be of the <b>REG_DWORD</b> type, and you must set its value to one of the following:
 
@@ -491,47 +474,40 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>

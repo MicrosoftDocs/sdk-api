@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab
 ms.date: 12/05/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetIconInfo method, IUserNotification.SetIconInfo, IUserNotification::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetIconInfo, shell.IUserNotification_SetIconInfo, shobjidl_core/IUserNotification::SetIconInfo
-f1_keywords:
-- shobjidl_core/IUserNotification.SetIconInfo
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IUserNotification.SetIconInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserNotification::SetIconInfo
+ - shobjidl_core/IUserNotification::SetIconInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IUserNotification.SetIconInfo
 ---
 
 # IUserNotification::SetIconInfo
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the notification area icon associated with specific user information.
 
-
 ## -parameters
-
-
-
 
 ### -param hIcon [in]
 
@@ -64,21 +60,15 @@ Type: <b>HICON</b>
 
 A handle to the icon.
 
-
 ### -param pszToolTip [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a string that contains the tooltip text to display for the specified icon. This value can be <b>NULL</b>, although it is not recommended.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

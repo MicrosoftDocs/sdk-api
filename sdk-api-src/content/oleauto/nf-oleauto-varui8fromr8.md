@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f
 ms.date: 12/05/2018
 ms.keywords: VarUI8FromR8, VarUI8FromR8 function [Automation], _oa96_VarUI8FromR8, automat.varui8fromr8, oleauto/VarUI8FromR8
-f1_keywords:
-- oleauto/VarUI8FromR8
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI8FromR8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI8FromR8
+ - oleauto/VarUI8FromR8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI8FromR8
 ---
 
 # VarUI8FromR8 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts a double value to an 8-byte unsigned integer value. 
-
+Converts a double value to an 8-byte unsigned integer value.
 
 ## -parameters
-
-
-
 
 ### -param dblIn [in]
 
 The value to convert.
 
-
 ### -param pi64Out [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

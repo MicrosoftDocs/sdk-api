@@ -36,30 +36,39 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticRecordSummary
+f1_keywords:
+ - DdqGetDiagnosticRecordSummary
+ - diagnosticdataquery/DdqGetDiagnosticRecordSummary
 ---
 
 ## -description
+
 Fetches general statistics about the diagnostic data records, filterable by producer.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the Diagnostic Data Query session.
 
 ### -param producerNames
+
 Type: **[PCWSTR\*](/windows/desktop/winprog/windows-data-types)**
-List of producer names to search for. A diagnostic data record that matches at least one of the producer names is included as a result in this search criteria. Use `nullptr` for this value to indicate no filter by producers.  
+List of producer names to search for. A diagnostic data record that matches at least one of the producer names is included as a result in this search criteria. Use `nullptr` for this value to indicate no filter by producers.
 
 ### -param producerNameCount
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
 The number of producer names in the list of producer names to search for. Use `0` for this value to indicate no filter by producers.
 
 ### -param generalStats
+
 Type: **[DIAGNOSTIC_DATA_GENERAL_STATS\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_general_stats)**
-This output parameter is a pointer to the resource that contains information about the general statistics for the diagnostic data records. 
+This output parameter is a pointer to the resource that contains information about the general statistics for the diagnostic data records.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

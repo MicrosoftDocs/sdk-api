@@ -7,10 +7,6 @@ old-location: dshow\avistreamheader.htm
 tech.root: dshow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.date: 12/05/2018
-f1_keywords:
-- avifmt/AVISTREAMHEADER
-dev_langs:
-- c++
 req.header: avifmt.h
 req.include-header: Aviriff.h
 req.target-type: Windows
@@ -28,25 +24,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avifmt.h
-api_name:
-- AVISTREAMHEADER
 targetos: Windows
 req.typenames: AVIStreamHeader
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamHeader
+ - avifmt/AVIStreamHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avifmt.h
+api_name:
+ - AVISTREAMHEADER
 ---
 
 ## -description
 
 The <b>AVISTREAMHEADER</b> structure contains information about one stream in an AVI file.
-        
+
 ## -struct-fields
 
 ### -field fccType
@@ -145,7 +146,7 @@ Language tag.
 
 ### -field dwInitialFrames
 
-Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader">AVIMAINHEADER</a> structure.
+Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader">AVIMAINHEADER</a> structure.
 
 ### -field dwScale
 
@@ -173,7 +174,7 @@ Specifies an indicator of the quality of the data in the stream. Quality is repr
 
 ### -field dwSampleSize
 
-Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure describing the audio.
+Specifies the size of a single sample of data. This is set to zero if the samples can vary in size. If this number is nonzero, then multiple samples of data can be grouped into a single chunk within the file. If it is zero, each sample of data (such as a video frame) must be in a separate chunk. For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure describing the audio.
 
 ### -field rcFrame
 
@@ -181,12 +182,12 @@ Specifies the destination rectangle for a text or video stream within the movie 
 
 ## -remarks
 
-Some of the members of this structure are also present in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
+Some of the members of this structure are also present in the <a href="/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avimainheader">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
 
 The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equivalent to this structure, but omits the <b>fcc</b> and <b>cb</b> members.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
+<a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

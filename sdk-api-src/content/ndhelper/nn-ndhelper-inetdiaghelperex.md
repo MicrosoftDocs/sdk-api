@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
-f1_keywords:
-- ndhelper/INetDiagHelperEx
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperEx
+ - ndhelper/INetDiagHelperEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperEx
 ---
 
 # INetDiagHelperEx interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a> interface to capture and provide information associated with diagnoses and resolution of network-related issues.
-
+The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a> interface to capture and provide information associated with diagnoses and resolution of network-related issues.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>INetDiagHelperEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth">INetDiagHelperEx::ReconfirmLowHealth</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reconfirmlowhealth">INetDiagHelperEx::ReconfirmLowHealth</a>
 </td>
 <td align="left" width="63%">
 Adds a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved. This method is optional when building a Helper Class extension.
@@ -79,7 +78,7 @@ Adds a second Low Health pass after hypotheses have been diagnosed and before re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure">INetDiagHelperEx::ReproduceFailure</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-reproducefailure">INetDiagHelperEx::ReproduceFailure</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -88,23 +87,15 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities">INetDiagHelperEx::SetUtilities</a>
+<a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperex-setutilities">INetDiagHelperEx::SetUtilities</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 23f47a1a-c2d1-43ed-871a-ca80aab2eed6
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Storage], IEnhancedStorageACT2 interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT2, enstor.ienhancedstorageact2
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT2
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT2
+ - ehstorapi/IEnhancedStorageACT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT2
 ---
 
 # IEnhancedStorageACT2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnhancedStorageACT2</b> interface is used to obtain information for a 1667 Addressable Contact Target (ACT).
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>. <b>IEnhancedStorageACT2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageACT2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>. <b>IEnhancedStorageACT2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IEnhancedStorageACT2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-getdevicename">GetDeviceName</a>
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-getdevicename">GetDeviceName</a>
 </td>
 <td align="left" width="63%">
 Returns the device name associated with the ACT.
@@ -79,23 +78,15 @@ Returns the device name associated with the ACT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-isdeviceremovable">IsDeviceRemovable</a>
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact2-isdeviceremovable">IsDeviceRemovable</a>
 </td>
 <td align="left" width="63%">
 Returns information that indicates if the device associated with the ACT is removable.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

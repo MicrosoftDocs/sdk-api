@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\indextostateimagemask.htm
 ms.date: 12/05/2018
 ms.keywords: INDEXTOSTATEIMAGEMASK, INDEXTOSTATEIMAGEMASK macro [Windows Controls], _win32_INDEXTOSTATEIMAGEMASK, _win32_INDEXTOSTATEIMAGEMASK_cpp, commctrl/INDEXTOSTATEIMAGEMASK, controls.INDEXTOSTATEIMAGEMASK, controls._win32_INDEXTOSTATEIMAGEMASK
-f1_keywords:
-- commctrl/INDEXTOSTATEIMAGEMASK
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- INDEXTOSTATEIMAGEMASK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INDEXTOSTATEIMAGEMASK
+ - commctrl/INDEXTOSTATEIMAGEMASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - INDEXTOSTATEIMAGEMASK
 ---
 
 # INDEXTOSTATEIMAGEMASK macro
@@ -49,28 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Prepares the index of a state image so that a tree-view control or list-view control can use the index to retrieve the state image for an item. 
-
+Prepares the index of a state image so that a tree-view control or list-view control can use the index to retrieve the state image for an item.
 
 ## -parameters
 
-
-
-
 ### -param i
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The index of a state image. 
-
+The index of a state image.
 
 ## -remarks
-
-
 
 The <b>INDEXTOSTATEIMAGEMASK</b> macro is defined as follows: 
 
 <pre class="syntax" xml:space="preserve"><code>#define INDEXTOSTATEIMAGEMASK(i) ((i) &lt;&lt; 12)</code></pre>
-
-

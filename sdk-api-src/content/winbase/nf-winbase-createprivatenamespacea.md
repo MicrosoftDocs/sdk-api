@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreatePrivateNamespace"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - CreatePrivateNamespaceA
+ - winbase/CreatePrivateNamespaceA
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_name:
  - CreatePrivateNamespace
  - CreatePrivateNamespaceA
  - CreatePrivateNamespaceW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # CreatePrivateNamespaceA function
@@ -57,24 +58,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a private namespace.
-
 
 ## -parameters
 
-
-
-
 ### -param lpPrivateNamespaceAttributes [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
-
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that specifies the security attributes of the namespace object.
 
 ### -param lpBoundaryDescriptor [in]
 
-A descriptor that defines how the namespace is to be isolated. The caller must be within this boundary. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
-
+A descriptor that defines how the namespace is to be isolated. The caller must be within this boundary. The <a href="/windows/desktop/api/winbase/nf-winbase-createboundarydescriptora">CreateBoundaryDescriptor</a> function creates a boundary descriptor.
 
 ### -param lpAliasPrefix [in]
 
@@ -82,48 +76,29 @@ The prefix for the namespace. To create an object in this namespace, specify the
 
 The system supports multiple private namespaces with the same name, as long as they define different boundaries.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the new namespace. 
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-     
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+Other applications can access the namespace using the <a href="/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> function.
 
-
-Other applications can access the namespace using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> function.
-
-The application that created the namespace can use the <a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a> function to close the handle to the namespace. The handle is also closed when the creating process terminates. After the namespace handle is closed, subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> fail, but all operations on objects in the namespace succeed.
+The application that created the namespace can use the <a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a> function to close the handle to the namespace. The handle is also closed when the creating process terminates. After the namespace handle is closed, subsequent calls to <a href="/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a> fail, but all operations on objects in the namespace succeed.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-closeprivatenamespace">ClosePrivateNamespace</a>
+<a href="/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>

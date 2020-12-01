@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: rdp
+f1_keywords:
+ - rdpencomapi
+ - rdpencomapi/rdpencomapi
 ---
 
 # Rdpencomapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Desktop Sharing. For more information, see:
 

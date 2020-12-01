@@ -4,7 +4,7 @@ title: NotificationHookProc
 ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: \**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
+description: \**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - NotificationHookProc
 f1_keywords:
+ - NotificationHookProc
  - gdiplusinit/NotificationHookProc
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
+**NotificationHookProc** is the signature of the notification hook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 
 ## -parameters
 

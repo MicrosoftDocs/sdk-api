@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: iphlp
+f1_keywords:
+ - ws2ipdef
+ - ws2ipdef/ws2ipdef
 ---
 
 # Ws2Ipdef.h header
 
 
 ## -description
-
 
 This header is used by IP Helper. For more information, see:
 

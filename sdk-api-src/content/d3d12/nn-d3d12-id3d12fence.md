@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 2B388352-EF43-4D1E-851C-A670B4681F0F
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence, ID3D12Fence interface, ID3D12Fence interface,described, d3d12/ID3D12Fence, direct3d12.id3d12fence
-f1_keywords:
-- d3d12/ID3D12Fence
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Fence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Fence
+ - d3d12/ID3D12Fence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Fence
 ---
 
 # ID3D12Fence interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a fence, an object used for synchronization of the CPU and one or more GPUs. 
-
+Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 
 ## -inheritance
 
@@ -95,13 +94,9 @@ Sets the fence to the specified value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -116,7 +111,4 @@ Sets the fence to the specified value.
 
 
 <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
- 
-
- 
 

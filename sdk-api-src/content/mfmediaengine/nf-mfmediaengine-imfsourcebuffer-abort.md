@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 31253d0d-c53f-47bd-823a-fc564cb63b78
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [Media Foundation], Abort method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Abort method, IMFSourceBuffer.Abort, IMFSourceBuffer::Abort, mf.imfsourcebuffer_abort, mfmediaengine/IMFSourceBuffer::Abort
-f1_keywords:
-- mfmediaengine/IMFSourceBuffer.Abort
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBuffer.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBuffer::Abort
+ - mfmediaengine/IMFSourceBuffer::Abort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBuffer.Abort
 ---
 
 # IMFSourceBuffer::Abort
@@ -49,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Aborts the processing of the current media segment. 
-
+Aborts the processing of the current media segment.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>

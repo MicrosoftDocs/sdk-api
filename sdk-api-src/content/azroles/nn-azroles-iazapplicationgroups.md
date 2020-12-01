@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e96c4cae-0a0a-4ac4-805f-2042312f0267
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroups, IAzApplicationGroups interface [Security], IAzApplicationGroups interface [Security],described, azroles/IAzApplicationGroups, security.iazapplicationgroups
-f1_keywords:
-- azroles/IAzApplicationGroups
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroups
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroups
+ - azroles/IAzApplicationGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroups
 ---
 
 # IAzApplicationGroups interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzApplicationGroups</b> interface represents a collection of  
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects.
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,28 +71,28 @@ The <b>IAzApplicationGroups</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">_NewEnum</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">_NewEnum</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">get_Count</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">Count</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">Count</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">get_Item</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">Item</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">Item</a> property.
 
 </td>
 </tr>
@@ -108,7 +107,7 @@ Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -117,14 +116,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">Count</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_count">Count</a>
 
 
 </td>
@@ -133,14 +132,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects in the collection.
+Retrieves the number of <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">Item</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">Item</a>
 
 
 </td>
@@ -149,9 +148,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object at the specified index into the <b>IAzApplicationGroups</b> collection.
+Retrieves the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object at the specified index into the <b>IAzApplicationGroups</b> collection.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.date: 01/25/2019
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
-f1_keywords:
-- holographicspaceinterop/IHolographicSpaceInterop
-dev_langs:
-- c++
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- HolographicSpaceInterop.h
-api_name:
-- IHolographicSpaceInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IHolographicSpaceInterop
+ - holographicspaceinterop/IHolographicSpaceInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - HolographicSpaceInterop.h
+api_name:
+ - IHolographicSpaceInterop
 ---
 
 # IHolographicSpaceInterop interface
+
 
 ## -description
 
@@ -62,3 +64,4 @@ The **ISpatialInteractionManagerInterop** interface has these methods.
 * [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace)
 * [Mixed Reality Dev Center](/windows/mixed-reality)
 * [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)
+

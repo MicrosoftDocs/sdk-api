@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: xblidp
+f1_keywords:
+ - xblidpauthmanager
+ - xblidpauthmanager/xblidpauthmanager
 ---
 
 # Xblidpauthmanager.h header
 
 
 ## -description
-
 
 This header is used by XblIdpAuthManager. For more information, see:
 

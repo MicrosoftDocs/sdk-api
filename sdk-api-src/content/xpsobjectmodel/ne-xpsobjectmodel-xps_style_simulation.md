@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 3f77c349-ba78-44e9-866a-9f654ed0e9dd
 ms.date: 12/05/2018
 ms.keywords: XPS_STYLE_SIMULATION, XPS_STYLE_SIMULATION enumeration [XPS Documents and Packaging], XPS_STYLE_SIMULATION_BOLD, XPS_STYLE_SIMULATION_BOLDITALIC, XPS_STYLE_SIMULATION_ITALIC, XPS_STYLE_SIMULATION_NONE, xps.xps_style_simulation, xpsobjectmodel/XPS_STYLE_SIMULATION, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLD, xpsobjectmodel/XPS_STYLE_SIMULATION_BOLDITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_ITALIC, xpsobjectmodel/XPS_STYLE_SIMULATION_NONE
-f1_keywords:
-- xpsobjectmodel/XPS_STYLE_SIMULATION
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_STYLE_SIMULATION
 targetos: Windows
 req.typenames: XPS_STYLE_SIMULATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0004
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0004
+ - XPS_STYLE_SIMULATION
+ - xpsobjectmodel/XPS_STYLE_SIMULATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_STYLE_SIMULATION
 ---
 
 # XPS_STYLE_SIMULATION enumeration
 
 
 ## -description
-
 
 Describes the simulation style of a font or glyph.
 
@@ -57,36 +59,23 @@ To simulate the appearance of a style that is not provided by the font or glyph,
 
 ## -enum-fields
 
-
-
-
 ### -field XPS_STYLE_SIMULATION_NONE
 
 No font style simulation.
-
 
 ### -field XPS_STYLE_SIMULATION_ITALIC
 
 Italic style simulation.
 
-
 ### -field XPS_STYLE_SIMULATION_BOLD
 
 Bold style simulation.
-
 
 ### -field XPS_STYLE_SIMULATION_BOLDITALIC
 
 Both bold and italic style simulation: first bold, then italic.
 
-
 ## -see-also
 
-
-
-
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

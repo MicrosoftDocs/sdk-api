@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: a978986c-6cb0-4333-9bfe-0456a133ee08
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Updates property, ISearchResult.Updates, ISearchResult.get_Updates, ISearchResult::Updates, ISearchResult::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],ISearchResult interface, get_Updates, wua.isearchresult_updates, wuapi/ISearchResult::Updates, wuapi/ISearchResult::get_Updates
-f1_keywords:
-- wuapi/ISearchResult.Updates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchResult.Updates
-- ISearchResult.get_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchResult::get_Updates
+ - wuapi/ISearchResult::get_Updates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchResult.Updates
+ - ISearchResult.get_Updates
 ---
 
 # ISearchResult::get_Updates
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface collection of the updates that result from a search.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>

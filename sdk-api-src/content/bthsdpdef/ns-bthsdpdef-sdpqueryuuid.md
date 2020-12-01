@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
-f1_keywords:
-- bthsdpdef/SdpQueryUuid
-dev_langs:
-- c++
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bthsdpdef.h
-api_name:
-- SdpQueryUuid
 targetos: Windows
 req.typenames: SdpQueryUuid
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SdpQueryUuid
+ - bthsdpdef/_SdpQueryUuid
+ - SdpQueryUuid
+ - bthsdpdef/SdpQueryUuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bthsdpdef.h
+api_name:
+ - SdpQueryUuid
 ---
 
 # SdpQueryUuid structure
@@ -49,29 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SdpQueryUuid</b> structure facilitates searching for UUIDs.
 
-
 ## -struct-fields
-
-
-
 
 ### -field u
 
 Union containing the UUID on which to search.
 
-
 ### -field u.switch_is
 
- 
-
-
 ### -field u.switch_is.uuidType
-
- 
-
 
 ### -field uuidType
 
@@ -84,15 +75,6 @@ Type of UUID being searched. Must be one of the three valid values from the SDP_
 <li>SDP_ST_UUID128 - indicates u.uuid128 will be used in the search.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>

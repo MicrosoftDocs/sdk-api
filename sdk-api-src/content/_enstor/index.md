@@ -19,5 +19,4 @@ To develop Enhanced Storage, you need these headers:
  * [ehstorextensions.h](../ehstorextensions/index.md)
 
 For programming guidance for this technology, see:
-* [Enhanced Storage](https://docs.microsoft.com/previous-versions/windows/desktop/enstor)
-
+* [Enhanced Storage](/previous-versions/windows/desktop/enstor)

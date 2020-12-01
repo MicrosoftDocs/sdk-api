@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/01/2019
 ms.keywords: WSAGetUdpSendMessageSize, WSAGetUdpSendMessageSize function [Winsock], winsock.wsagetudpsendmessagesize, ws2tcpip/WSAGetUdpSendMessageSize
 ms.topic: function
-f1_keywords:
-- ws2tcpip/WSAGetUdpSendMessageSize
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +25,21 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetUdpSendMessageSize
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - WSAGetUdpSendMessageSize
+ - ws2tcpip/WSAGetUdpSendMessageSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetUdpSendMessageSize
 ---
 
 ## -description
@@ -59,10 +60,10 @@ A pointer to a **DWORD**. On success, the function sets the DWORD to the message
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSAGetUdpSendMessageSize** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt).
+UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSAGetUdpSendMessageSize** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](../winsock/nf-winsock-getsockopt.md).
 
 ## -see-also

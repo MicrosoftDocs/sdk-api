@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::GetFlags
 f1_keywords:
+ - IMFExtendedCameraControl::GetFlags
  - mfidl/IMFExtendedCameraControl::GetFlags
 dev_langs:
  - c++

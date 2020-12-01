@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.operator = (const XMUBYTE4)
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMUBYTE4.operator =, DirectX::PackedVector::XMUBYTE4::operator =, XMUBYTE4 structure [DirectX Math Support APIs],operator = method, XMUBYTE4.operator =, XMUBYTE4.operator-assign, XMUBYTE4.operator=, XMUBYTE4::operator-assign, XMUBYTE4::operator=, dxmath.xmubyte4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUBYTE4 structure, operator=
-f1_keywords:
-- directxpackedvector/XMUBYTE4.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTE4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTE4::operator=
+ - directxpackedvector/XMUBYTE4::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTE4.operator =
 ---
 
 # XMUBYTE4::operator-assign
+
 
 ## -description
 
 Assigns the vector component data from one instance of <code>XMUBYTE4</code> to the current instance of <code>XMUBYTE4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/210300b6-9bf2-4ac4-94e3-b2df2d228365">XMUBYTE4</a> to the current instance of <code>XMUBYTE4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a> to the current instance of <code>XMUBYTE4</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -66,6 +68,7 @@ The current instance of <code>XMUBYTE4</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/210300b6-9bf2-4ac4-94e3-b2df2d228365">XMUBYTE4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
 
 <a href="https://msdn.microsoft.com/cb04f598-5a69-42f6-af36-8f5a3820843a">XMUBYTE4 Operators</a>
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 83fea16a-f9af-4c39-87b2-4f2eb69130d9
 ms.date: 12/05/2018
 ms.keywords: DWordToWord, Int64ToDWord, ULongToUShort, ULongToUShort function [Windows Shell], ULongToWord, _shell_ULongToUShort, intsafe/ULongToUShort, shell.ULongToUShort
-f1_keywords:
-- intsafe/ULongToUShort
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Intsafe.h
-api_name:
-- ULongToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ULongToUShort
+ - intsafe/ULongToUShort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Intsafe.h
+api_name:
+ - ULongToUShort
 ---
 
 # ULongToUShort function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>ULONG</b> to a value of type <b>USHORT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param ulOperand [in]
 
@@ -64,28 +60,19 @@ Type: <b>ULONG</b>
 
 The value to be converted.
 
-
 ### -param pusResult [out]
 
 Type: <b>USHORT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -94,6 +81,4 @@ This is one of a set of inline functions designed to provide type conversions an
 <b>ULongToWord</b> is an alias for this function.
 
 <b>DWordToWord</b> is an alias for this function.
-
-
 

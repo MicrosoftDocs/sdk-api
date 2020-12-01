@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: properties
+f1_keywords:
+ - shellapi
+ - shellapi/shellapi
 ---
 
 # Shellapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Property System. For more information, see:
 

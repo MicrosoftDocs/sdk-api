@@ -8,10 +8,6 @@ tech.root: Backup
 ms.assetid: 32169173-eb19-4082-bf05-a52ee4ab95ba
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Backup], TAPE_LOCK, TAPE_PREPARE, TAPE_PREPARE structure [Backup], TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _TAPE_PREPARE, _win32_tape_prepare_str, backup.tape_prepare_str, base.tape_prepare_str, winnt/PTAPE_PREPARE, winnt/TAPE_PREPARE'
-f1_keywords:
-- winnt/TAPE_PREPARE
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TAPE_PREPARE
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TAPE_PREPARE
+ - winnt/_TAPE_PREPARE
+ - PTAPE_PREPARE
+ - winnt/PTAPE_PREPARE
+ - TAPE_PREPARE
+ - winnt/TAPE_PREPARE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TAPE_PREPARE
 ---
 
 # TAPE_PREPARE structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TAPE_PREPARE</b> structure describes how to prepare the tape.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Operation
 
@@ -115,12 +115,6 @@ Unlocks the tape ejection mechanism.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Immediate
-
- 
-
-
 

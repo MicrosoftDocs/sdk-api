@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
 ms.date: 12/05/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
-f1_keywords:
-- wabiab/IAddrBook
-dev_langs:
-- c++
 req.header: wabiab.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IAddrBook
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IAddrBook
+ - wabiab/IAddrBook
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IAddrBook
 ---
 
 # IAddrBook interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface supports access to the Windows Address Book (WAB) and includes operations such as displaying common dialog boxes, opening containers, messaging users (contacts) and distribution lists (groups) in the address book, and performing name resolution.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAddrBook</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IAddrBook</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAddrBook</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IAddrBook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>IAddrBook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629532(v=vs.85)">Address</a>
+<a href="/previous-versions/ms629532(v=vs.85)">Address</a>
 </td>
 <td align="left" width="63%">
 Displays the common address book dialog box.
@@ -80,7 +79,7 @@ Displays the common address book dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629533(v=vs.85)">Advise</a>
+<a href="/previous-versions/ms629533(v=vs.85)">Advise</a>
 </td>
 <td align="left" width="63%">
 Registers the caller with the WAB to receive notifications.
@@ -90,7 +89,7 @@ Registers the caller with the WAB to receive notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629534(v=vs.85)">CompareEntryIDs</a>
+<a href="/previous-versions/ms629534(v=vs.85)">CompareEntryIDs</a>
 </td>
 <td align="left" width="63%">
 Compares two entry identifiers.
@@ -99,7 +98,7 @@ Compares two entry identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-copyprops">CopyProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-copyprops">CopyProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -108,7 +107,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-copyto">CopyTo</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -117,7 +116,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629638(v=vs.85)">CreateOneOff</a>
+<a href="/previous-versions/ms629638(v=vs.85)">CreateOneOff</a>
 </td>
 <td align="left" width="63%">
 Creates an entry identifier for a <a href="https://docs.microsoft.com/">one-off</a> address.
@@ -126,7 +125,7 @@ Creates an entry identifier for a <a href="https://docs.microsoft.com/">one-off<
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-deleteprops">DeleteProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-deleteprops">DeleteProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -135,7 +134,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629640(v=vs.85)">Details</a>
+<a href="/previous-versions/ms629640(v=vs.85)">Details</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box that shows details, and allows editing, 
@@ -145,7 +144,7 @@ Displays a dialog box that shows details, and allows editing,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629641(v=vs.85)">GetDefaultDir</a>
+<a href="/previous-versions/ms629641(v=vs.85)">GetDefaultDir</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -154,7 +153,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-getidsfromnames">GetIDsFromNames</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-getidsfromnames">GetIDsFromNames</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -163,7 +162,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-getlasterror">GetLastError</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -172,7 +171,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-getnamesfromids">GetNamesFromIDs</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-getnamesfromids">GetNamesFromIDs</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -181,7 +180,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629645(v=vs.85)">GetPAB</a>
+<a href="/previous-versions/ms629645(v=vs.85)">GetPAB</a>
 </td>
 <td align="left" width="63%">
 Returns the entry identifier of the default WAB container.
@@ -190,7 +189,7 @@ Returns the entry identifier of the default WAB container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-getproplist">GetPropList</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-getproplist">GetPropList</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -199,7 +198,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-getprops">GetProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-getprops">GetProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -208,18 +207,18 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629648(v=vs.85)">GetSearchPath</a>
+<a href="/previous-versions/ms629648(v=vs.85)">GetSearchPath</a>
 </td>
 <td align="left" width="63%">
 Returns an ordered list of the entry identifiers of containers 
 		to be included in the name resolution process initiated by the 
-		<a href="https://docs.microsoft.com/previous-versions/ms629656(v=vs.85)">ResolveName</a> method.
+		<a href="/previous-versions/ms629656(v=vs.85)">ResolveName</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629650(v=vs.85)">NewEntry</a>
+<a href="/previous-versions/ms629650(v=vs.85)">NewEntry</a>
 </td>
 <td align="left" width="63%">
 Displays a blank dialog box that enables the user to create a new entry.
@@ -228,7 +227,7 @@ Displays a blank dialog box that enables the user to create a new entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629651(v=vs.85)">OpenEntry</a>
+<a href="/previous-versions/ms629651(v=vs.85)">OpenEntry</a>
 </td>
 <td align="left" width="63%">
 Opens a container or mail user object and returns a pointer 
@@ -238,7 +237,7 @@ Opens a container or mail user object and returns a pointer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-openproperty">OpenProperty</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-openproperty">OpenProperty</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -247,7 +246,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629653(v=vs.85)">PrepareRecips</a>
+<a href="/previous-versions/ms629653(v=vs.85)">PrepareRecips</a>
 </td>
 <td align="left" width="63%">
 Prepares a recipient list for later use by the messaging system.
@@ -257,7 +256,7 @@ Prepares a recipient list for later use by the messaging system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629654(v=vs.85)">QueryDefaultRecipOpt</a>
+<a href="/previous-versions/ms629654(v=vs.85)">QueryDefaultRecipOpt</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -266,7 +265,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629655(v=vs.85)">RecipOptions</a>
+<a href="/previous-versions/ms629655(v=vs.85)">RecipOptions</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -275,7 +274,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629656(v=vs.85)">ResolveName</a>
+<a href="/previous-versions/ms629656(v=vs.85)">ResolveName</a>
 </td>
 <td align="left" width="63%">
 Resolves a partial recipient list to full addresses.
@@ -285,7 +284,7 @@ Resolves a partial recipient list to full addresses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-savechanges">SaveChanges</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-savechanges">SaveChanges</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -294,7 +293,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629658(v=vs.85)">SetDefaultDir</a>
+<a href="/previous-versions/ms629658(v=vs.85)">SetDefaultDir</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -303,7 +302,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629660(v=vs.85)">SetPAB</a>
+<a href="/previous-versions/ms629660(v=vs.85)">SetPAB</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -312,7 +311,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iaddrbook-setprops">SetProps</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iaddrbook-setprops">SetProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -321,7 +320,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629665(v=vs.85)">SetSearchPath</a>
+<a href="/previous-versions/ms629665(v=vs.85)">SetSearchPath</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -330,7 +329,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms629668(v=vs.85)">Unadvise</a>
+<a href="/previous-versions/ms629668(v=vs.85)">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Unregisters the caller from the WAB 
@@ -338,5 +337,4 @@ Unregisters the caller from the WAB
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: battery
+f1_keywords:
+ - batclass
+ - batclass/batclass
 ---
 
 # Batclass.h header
 
 
 ## -description
-
 
 This header is used by Battery Devices Reference. For more information, see:
 

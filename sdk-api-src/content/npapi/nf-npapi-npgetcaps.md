@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
 ms.date: 12/05/2018
 ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTION, WNNC_DIALOG, WNNC_ENUMERATION, WNNC_NET_TYPE, WNNC_SPEC_VERSION, WNNC_START, WNNC_USER, _mnp_npgetcaps, npapi/NPGetCaps, security.npgetcaps
-f1_keywords:
-- npapi/NPGetCaps
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPGetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPGetCaps
+ - npapi/NPGetCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPGetCaps
 ---
 
 # NPGetCaps function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information about which services are supported on the network.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
@@ -138,7 +134,7 @@ WNet API version supported by the provider.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the network provider.
+The <a href="/windows/desktop/SecGloss/s-gly">state</a> of the network provider.
 
 </td>
 </tr>
@@ -153,12 +149,8 @@ A bitmask that indicates which user functions the network provider supports.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>NPGetCaps</b> function returns either a constant or a bitmask, depending on the value of the <i>nIndex</i> parameter. A few of the <i>nIndex</i> values cause a constant to be returned. But in most cases, the <i>nIndex</i> parameter specifies which set of services to query, and the returned value is a bitmask that indicates which services in this set are supported. In these cases, a zero return value indicates that none of the services in the set are supported.
 
@@ -169,8 +161,8 @@ Returns a mask that indicates which of the administrative functions the network 
 
 | Flag |	Function supported |
 | -----|------------------------ |
-WNNC_ADM_DIRECTORYNOTIFY | [NPDirectoryNotify](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npdirectorynotify)
-WNNC_ADM_GETDIRECTORYTYPE | [NPGetDirectoryType](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetdirectorytype)
+WNNC_ADM_DIRECTORYNOTIFY | [NPDirectoryNotify](./nf-npapi-npdirectorynotify.md)
+WNNC_ADM_GETDIRECTORYTYPE | [NPGetDirectoryType](./nf-npapi-npgetdirectorytype.md)
 
  
 
@@ -179,12 +171,12 @@ Returns a mask that indicates which of the connection functions the network prov
 
 | Flag |	Function supported |
 | -----|------------------------ |
-| WNNC_CON_ADDCONECTION (0x00000001) | [NPAddConnection](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npaddconnection) | 
-| WNNC_CON_CANCELCONNECTION (0x00000002) | [NPCancelConnection](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npcancelconnection) |
-| WNNC_CON_GETCONNECTIONS (0x00000004) | [NPGetConnection](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetconnection) |
-| WNNC_CON_ADDCONECTION3 (0x00000008) | [NPAddConnection3](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npaddconnection3) |
-| WNNC_CON_GETPERFORMANCE (0x00000040) | [NPGetConnectionPerformance](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetconnectionperformance) |
-| WNNC_CON_DEFER (0x00000080) | Deferred connections are supported with [NPAddConnection3](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npaddconnection3). |
+| WNNC_CON_ADDCONECTION (0x00000001) | [NPAddConnection](./nf-npapi-npaddconnection.md) | 
+| WNNC_CON_CANCELCONNECTION (0x00000002) | [NPCancelConnection](./nf-npapi-npcancelconnection.md) |
+| WNNC_CON_GETCONNECTIONS (0x00000004) | [NPGetConnection](./nf-npapi-npgetconnection.md) |
+| WNNC_CON_ADDCONECTION3 (0x00000008) | [NPAddConnection3](./nf-npapi-npaddconnection3.md) |
+| WNNC_CON_GETPERFORMANCE (0x00000040) | [NPGetConnectionPerformance](./nf-npapi-npgetconnectionperformance.md) |
+| WNNC_CON_DEFER (0x00000080) | Deferred connections are supported with [NPAddConnection3](./nf-npapi-npaddconnection3.md). |
 
 
 ####WNNC_DIALOG
@@ -192,13 +184,13 @@ Returns a mask that indicates which of the dialog box functions the network prov
 
 | Flag |	Function supported |
 | -----|------------------------ |
-| WNNC_DLG_DEVICEMODE| [NPDeviceMode](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npdevicemode) |
-| WNNC_DLG_FORMATNETNAME| [NPFormatNetworkName](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npformatnetworkname) |
-| WNNC_DLG_GETRESOURCEINFORMATION | [NPGetResourceInformation](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetresourceinformation) |
-| WNNC_DLG_GETRESOURCEPARENT | [NPGetResourceParent](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetresourceparent) |
+| WNNC_DLG_DEVICEMODE| [NPDeviceMode](./nf-npapi-npdevicemode.md) |
+| WNNC_DLG_FORMATNETNAME| [NPFormatNetworkName](./nf-npapi-npformatnetworkname.md) |
+| WNNC_DLG_GETRESOURCEINFORMATION | [NPGetResourceInformation](./nf-npapi-npgetresourceinformation.md) |
+| WNNC_DLG_GETRESOURCEPARENT | [NPGetResourceParent](./nf-npapi-npgetresourceparent.md) |
 | WNNC_DLG_PERMISSIONEDITOR | This flag is not used. |
-| WNNC_DLG_PROPERTYDIALOG | [NPPropertyDialog](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-nppropertydialog) and NPGetPropertyText |
-| WNNC_DLG_SEARCHDIALOG | [NPSearchDialog](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npsearchdialog) |
+| WNNC_DLG_PROPERTYDIALOG | [NPPropertyDialog](./nf-npapi-nppropertydialog.md) and NPGetPropertyText |
+| WNNC_DLG_SEARCHDIALOG | [NPSearchDialog](./nf-npapi-npsearchdialog.md) |
 
  
 
@@ -208,11 +200,11 @@ Returns a mask that indicates which scopes of enumeration, if any, are supported
 
 | Flag | Enumeration type supported |
 -------|-----------------------------
-| WNNC_ENUM_GLOBAL (0x00000001) | [NPOpenEnum](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npopenenum) is implemented and supports a scope of all resources on the network. In other words, NPOpenEnum supports RESOURCE_GLOBALNET. |
-| WNNC_ENUM_LOCAL (0x00000002) | [NPOpenEnum](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npopenenum) is implemented and supports a scope of all currently connected resources. In other words, NPOpenEnum supports RESOURCE_CONNECTED.|
-| WNNC_ENUM_CONTEXT (0x00000004) | [NPOpenEnum](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npopenenum) is implemented and supports a scope of all resources associated with the user's current and default network context. In other words, NPOpenEnum supports RESOURCE_CONTEXT. |
+| WNNC_ENUM_GLOBAL (0x00000001) | [NPOpenEnum](./nf-npapi-npopenenum.md) is implemented and supports a scope of all resources on the network. In other words, NPOpenEnum supports RESOURCE_GLOBALNET. |
+| WNNC_ENUM_LOCAL (0x00000002) | [NPOpenEnum](./nf-npapi-npopenenum.md) is implemented and supports a scope of all currently connected resources. In other words, NPOpenEnum supports RESOURCE_CONNECTED.|
+| WNNC_ENUM_CONTEXT (0x00000004) | [NPOpenEnum](./nf-npapi-npopenenum.md) is implemented and supports a scope of all resources associated with the user's current and default network context. In other words, NPOpenEnum supports RESOURCE_CONTEXT. |
 
-**Note** If WNNC_ENUMERATION returns a nonzero bitmask, you know that the network provider supports [NPOpenEnum](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npopenenum) and can infer that the provider also supports [NPEnumResource](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npenumresource) and [NPCloseEnum](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npcloseenum). This is because a network provider that supports NPOpenEnum is also expected to support NPEnumResource and NPCloseEnum.
+**Note** If WNNC_ENUMERATION returns a nonzero bitmask, you know that the network provider supports [NPOpenEnum](./nf-npapi-npopenenum.md) and can infer that the provider also supports [NPEnumResource](./nf-npapi-npenumresource.md) and [NPCloseEnum](./nf-npapi-npcloseenum.md). This is because a network provider that supports NPOpenEnum is also expected to support NPEnumResource and NPCloseEnum.
  
 ####WNNC_NET_TYPE
 Returns a value that indicates the type of network that the network provider supports. The high word contains the provider type, and the low word may contain a subtype. Developers who are working on new providers should obtain a new network type from Microsoft. A provider that does not return the correct network type may cause the WNET functions to behave in unpredictable ways.
@@ -275,29 +267,16 @@ Returns one of the following values to indicate if and when the provider is like
 
  
 ####WNNC_USER
-Returns WNNC_USR_GETUSER if the network provider supports the [NPGetUser](https://docs.microsoft.com/windows/win32/api/npapi/nf-npapi-npgetuser) function.
-
+Returns WNNC_USR_GETUSER if the network provider supports the [NPGetUser](./nf-npapi-npgetuser.md) function.
 
 ## -remarks
 
-
-
 When a start time is returned by <b>NPGetCaps</b>, the MPR uses this value to determine when to try to start all network providers again. MPR uses the longest start time returned by the providers it called.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a>

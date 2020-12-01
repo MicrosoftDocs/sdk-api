@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 29054321-a805-4a4e-90fb-a5b8e2858da0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_MODIFY_RM, FSCTL_TXFS_MODIFY_RM control, FSCTL_TXFS_MODIFY_RM control code [Files], base.fsctl_txfs_set_rm_information, fs.fsctl_txfs_modify_rm, fs.fsctl_txfs_set_rm_information, winioctl/FSCTL_TXFS_MODIFY_RM
-f1_keywords:
-- winioctl/FSCTL_TXFS_MODIFY_RM
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_MODIFY_RM
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_MODIFY_RM
+ - winioctl/FSCTL_TXFS_MODIFY_RM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_MODIFY_RM
 ---
 
 # FSCTL_TXFS_MODIFY_RM IOCTL
 
+
 ## -description
 
 > [!NOTE]
-> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf).
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](/windows/desktop/FileIO/deprecation-of-txf).
 
 Sets the log mode and log parameter information for a secondary resource manager (RM).
 
@@ -67,26 +69,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -94,8 +89,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -109,9 +103,8 @@ This control code is for remote clients to use when setting log parameters, and 
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Secondary Resource Managers for TxF Volumes](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-reference)
+* [Secondary Resource Managers for TxF Volumes](/windows/desktop/FileIO/transactional-ntfs-reference)
 * [TXFS_MODIFY_RM](ns-winioctl-txfs_modify_rm.md)

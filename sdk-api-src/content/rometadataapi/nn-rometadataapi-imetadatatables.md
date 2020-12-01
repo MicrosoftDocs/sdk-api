@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 30d06e87-93a2-4a9c-8843-4c42d7d9e3c8
 ms.date: 12/05/2018
 ms.keywords: IMetaDataTables, IMetaDataTables interface [Windows Runtime], IMetaDataTables interface [Windows Runtime],described, rometadataapi/IMetaDataTables, winrt.imetadatatables
-f1_keywords:
-- rometadataapi/IMetaDataTables
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataTables
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataTables
+ - rometadataapi/IMetaDataTables
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataTables
 ---
 
 # IMetaDataTables interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for the storage and retrieval of metadata information in tables.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataTables</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataTables</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataTables</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataTables</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IMetaDataTables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblob">GetBlob</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblob">GetBlob</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the binary large object (BLOB) at the specified column index.
@@ -81,7 +80,7 @@ Gets a pointer to the binary large object (BLOB) at the specified column index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblobheapsize">GetBlobHeapSize</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getblobheapsize">GetBlobHeapSize</a>
 </td>
 <td align="left" width="63%">
 A pointer to a pointer to the binary data retrieved.
@@ -90,7 +89,7 @@ A pointer to a pointer to the binary data retrieved.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcodedtokeninfo">GetCodedTokenInfo</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcodedtokeninfo">GetCodedTokenInfo</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to an array of tokens associated with the specified row index.
@@ -99,7 +98,7 @@ Gets a pointer to an array of tokens associated with the specified row index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumn">GetColumn</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumn">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the value contained in the cell of the specified column and row in the given table.
@@ -108,7 +107,7 @@ Gets a pointer to the value contained in the cell of the specified column and ro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumninfo">GetColumnInfo</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getcolumninfo">GetColumnInfo</a>
 </td>
 <td align="left" width="63%">
 Gets data about the specified column in the specified table.
@@ -117,7 +116,7 @@ Gets data about the specified column in the specified table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguid">GetGuid</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguid">GetGuid</a>
 </td>
 <td align="left" width="63%">
 Gets a GUID from the row at the specified index.
@@ -126,7 +125,7 @@ Gets a GUID from the row at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguidheapsize">GetGuidHeapSize</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getguidheapsize">GetGuidHeapSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size, in bytes, of the GUID heap.
@@ -135,7 +134,7 @@ Gets the size, in bytes, of the GUID heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextblob">GetNextBlob</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextblob">GetNextBlob</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the next binary large object (BLOB) in the table.
@@ -144,7 +143,7 @@ Gets the index of the next binary large object (BLOB) in the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextguid">GetNextGuid</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextguid">GetNextGuid</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the next GUID value in the current table column.
@@ -153,7 +152,7 @@ Gets the index of the next GUID value in the current table column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextstring">GetNextString</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextstring">GetNextString</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the next string in the current table column.
@@ -162,7 +161,7 @@ Gets the index of the next string in the current table column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextuserstring">GetNextUserString</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnextuserstring">GetNextUserString</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the row that contains the next hard-coded string in the current table column.
@@ -171,7 +170,7 @@ Gets the index of the row that contains the next hard-coded string in the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnumtables">GetNumTables</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getnumtables">GetNumTables</a>
 </td>
 <td align="left" width="63%">
 Gets the number of tables in the scope of the current IMetaDataTables instance.
@@ -180,7 +179,7 @@ Gets the number of tables in the scope of the current IMetaDataTables instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getrow">GetRow</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getrow">GetRow</a>
 </td>
 <td align="left" width="63%">
 Gets the row at the specified row index, in the table at the specified table index.
@@ -189,7 +188,7 @@ Gets the row at the specified row index, in the table at the specified table ind
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstring">GetString</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Gets the string at the specified index from the table column in the current reference scope.
@@ -198,7 +197,7 @@ Gets the string at the specified index from the table column in the current refe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstringheapsize">GetStringHeapSize</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getstringheapsize">GetStringHeapSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size, in bytes, of the string heap.
@@ -207,7 +206,7 @@ Gets the size, in bytes, of the string heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/hh870662(v=vs.85)">GetTableIndex</a>
+<a href="/previous-versions/hh870662(v=vs.85)">GetTableIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index for the table referenced by the specified token.
@@ -216,7 +215,7 @@ Gets the index for the table referenced by the specified token.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-gettableinfo">GetTableInfo</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-gettableinfo">GetTableInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the name, row size, number of rows, number of columns, and key column index of the specified table.
@@ -225,7 +224,7 @@ Gets the name, row size, number of rows, number of columns, and key column index
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstring">GetUserString</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstring">GetUserString</a>
 </td>
 <td align="left" width="63%">
 Gets the hard-coded string at the specified index in the string column in the current scope.
@@ -234,12 +233,11 @@ Gets the hard-coded string at the specified index in the string column in the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstringheapsize">GetUserStringHeapSize</a>
+<a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatatables-getuserstringheapsize">GetUserStringHeapSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size, in bytes, of the user string heap.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
-f1_keywords:
-- rtworkq/IRtwqPlatformEvents
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqPlatformEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqPlatformEvents
+ - rtworkq/IRtwqPlatformEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqPlatformEvents
 ---
 
 # IRtwqPlatformEvents interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides events related platform work queue.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqPlatformEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqPlatformEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRtwqPlatformEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRtwqPlatformEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IRtwqPlatformEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete">InitializationComplete</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-initializationcomplete">InitializationComplete</a>
 </td>
 <td align="left" width="63%">
 Called after the platform has been initialized.  
@@ -79,7 +78,7 @@ Called after the platform has been initialized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete">ShutdownComplete</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdowncomplete">ShutdownComplete</a>
 </td>
 <td align="left" width="63%">
 Called after the platform has  shutdown. 
@@ -88,12 +87,11 @@ Called after the platform has  shutdown.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart">ShutdownStart</a>
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqplatformevents-shutdownstart">ShutdownStart</a>
 </td>
 <td align="left" width="63%">
 Called before the platform is about to shutdown. 
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ecdf8652-0e1c-47df-bd19-80390bdf6c7f
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetFont method, IVisualProperties.SetFont, IVisualProperties::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
-f1_keywords:
-- shobjidl/IVisualProperties.SetFont
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IVisualProperties.SetFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualProperties::SetFont
+ - shobjidl/IVisualProperties::SetFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IVisualProperties.SetFont
 ---
 
 # IVisualProperties::SetFont
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets attributes of the font.
 
-
 ## -parameters
-
-
-
 
 ### -param plf [in]
 
@@ -64,21 +60,15 @@ Type: <b>const LOGFONTW*</b>
 
 A pointer to a <a href="/windows/win32/api/dimm/ns-dimm-logfonta">LOGFONT</a> structure that contains the attributes to set.
 
-
 ### -param bRedraw [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the item should be redrawn after the new attributes are set; otherwise <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

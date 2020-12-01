@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: d25e5a11-8394-4fc5-b210-afa753223307
 ms.date: 12/05/2018
 ms.keywords: ActivateLanguageProfile, ActivateLanguageProfile method [Text Services Framework], ActivateLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],ActivateLanguageProfile method, ITfInputProcessorProfiles.ActivateLanguageProfile, ITfInputProcessorProfiles::ActivateLanguageProfile, _tsf_itfinputprocessorprofiles_activatelanguageprofile_ref, msctf/ITfInputProcessorProfiles::ActivateLanguageProfile, tsf.itfinputprocessorprofiles_activatelanguageprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.ActivateLanguageProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.ActivateLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::ActivateLanguageProfile
+ - msctf/ITfInputProcessorProfiles::ActivateLanguageProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.ActivateLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::ActivateLanguageProfile
@@ -59,20 +60,15 @@ Sets the active text service for a specific language.
 
 Contains the CLSID of the text service to make active.
 
-
 ### -param langid [in]
 
 Contains a <b>LANGID</b> value that specifies which language to set the default profile for. This method fails if this is not the currently active language.
-
 
 ### -param guidProfiles [in]
 
 Contains a GUID value that identifies the language profile to make active.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -137,7 +133,4 @@ No thread manager has been created for the calling thread.
 </td>
 </tr>
 </table>
- 
-
-
 

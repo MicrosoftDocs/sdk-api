@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
 ms.date: 12/05/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
-f1_keywords:
-- comsvcs/ITransactionStatus
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionStatus
+ - comsvcs/ITransactionStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionStatus
 ---
 
 # ITransactionStatus interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Used to discover the status of the transaction that is completed by the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> when <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> is configured to use transactions in the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
-
+Used to discover the status of the transaction that is completed by the call to <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a> when <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> is configured to use transactions in the call to <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionStatus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ITransactionStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionstatus-gettransactionstatus">GetTransactionStatus</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionstatus-gettransactionstatus">GetTransactionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transaction status.
@@ -79,7 +78,7 @@ Retrieves the transaction status.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionstatus-settransactionstatus">SetTransactionStatus</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionstatus-settransactionstatus">SetTransactionStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
@@ -87,24 +86,16 @@ Sets the transaction status to either committed or aborted. Do not use this meth
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--transactions">COM+ Transactions</a>
+<a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>

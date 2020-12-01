@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 7f384720-7673-4dd2-883f-a52da4a51729
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetResourceUriPrefix, MI_OperationOptions_SetResourceUriPrefix function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetResourceUriPrefix, wmi_v2.mi_operationoptions_setresourceuriprefix
-f1_keywords:
-- mi/MI_OperationOptions_SetResourceUriPrefix
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_OperationOptions_SetResourceUriPrefix
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_OperationOptions_SetResourceUriPrefix
+ - mi/MI_OperationOptions_SetResourceUriPrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_OperationOptions_SetResourceUriPrefix
 ---
 
 # MI_OperationOptions_SetResourceUriPrefix function
@@ -49,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the resource URI prefix to use for an operation.
-
 
 ## -parameters
 
-
-
-
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
-
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param ruriPrefix
 
 A null-terminated string that represents the resource URI to use for the operation.
 
-
 ## -returns
 
-
-
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
-
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getresourceuriprefix">MI_OperationOptions_GetResourceUriPrefix</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_getresourceuriprefix">MI_OperationOptions_GetResourceUriPrefix</a>

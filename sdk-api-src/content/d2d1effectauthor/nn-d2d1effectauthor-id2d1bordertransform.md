@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 79C4E7E8-6042-4ECA-BD95-069760CF2A55
 ms.date: 12/05/2018
 ms.keywords: ID2D1BorderTransform, ID2D1BorderTransform interface [Direct2D], ID2D1BorderTransform interface [Direct2D],described, d2d1effectauthor/ID2D1BorderTransform, direct2d.id2d1bordertransform
-f1_keywords:
-- d2d1effectauthor/ID2D1BorderTransform
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1BorderTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1BorderTransform
+ - d2d1effectauthor/ID2D1BorderTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1BorderTransform
 ---
 
 # ID2D1BorderTransform interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the input rectangle to infinity using the specified extend modes.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +70,7 @@ The <b>ID2D1BorderTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodex">GetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodex">GetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the x direction.
@@ -80,7 +79,7 @@ Gets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodey">GetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-getextendmodey">GetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Gets the extend mode in the y direction.
@@ -89,7 +88,7 @@ Gets the extend mode in the y direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodex">SetExtendModeX</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodex">SetExtendModeX</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the x direction.
@@ -98,23 +97,15 @@ Sets the extend mode in the x direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodey">SetExtendModeY</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1bordertransform-setextendmodey">SetExtendModeY</a>
 </td>
 <td align="left" width="63%">
 Sets the extend mode in the y direction.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - MFCreateEncryptedMediaExtensionsStoreActivate
 f1_keywords:
+ - MFCreateEncryptedMediaExtensionsStoreActivate
  - mfcontentdecryptionmodule/MFCreateEncryptedMediaExtensionsStoreActivate
 dev_langs:
  - c++
@@ -41,18 +42,17 @@ dev_langs:
 
 ## -description
 
-This function creates an object that implements [IMFActivate](/windows/win32/api/mfobjects/nn-mfobjects-imfactivate). This object’s implementation of ActivateObject is based on the specified IMFPMPHostApp and class ID.
+This function creates an object that implements [IMFActivate](../mfobjects/nn-mfobjects-imfactivate.md). This object’s implementation of ActivateObject is based on the specified IMFPMPHostApp and class ID.
 
 ## -parameters
 
 ### -param pmpHost
 
-An [IMFPMPHostApp](/windows/win32/api/mfidl/nn-mfidl-imfpmphostapp) with the necessary information to create the **IMFActivate** for this app package.
-
+An [IMFPMPHostApp](../mfidl/nn-mfidl-imfpmphostapp.md) with the necessary information to create the **IMFActivate** for this app package.
 
 ### -param objectStream
 
-An [IStream](/windows/win32/api/objidl/nn-objidl-istream) representing the object stream that will be loaded via IMFActivate::Load.
+An [IStream](../objidl/nn-objidl-istream.md) representing the object stream that will be loaded via IMFActivate::Load.
 
 ### -param classId
 
@@ -71,4 +71,3 @@ Returns S_OK on success.
 The **IMFActivate** can be created in a protected process and activated in an app process.
 
 ## -see-also
-

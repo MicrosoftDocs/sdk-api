@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
-f1_keywords:
-- wsdbase/IWSDTransportAddress
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDTransportAddress
+ - wsdbase/IWSDTransportAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDTransportAddress
 ---
 
 # IWSDTransportAddress interface
@@ -49,15 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an IP-based transport address.
 
-You should not create an instance of the <b>IWSDTransportAddress</b> interface. Instead, create an instance of either the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> interface if an address object is required.
-
+You should not create an instance of the <b>IWSDTransportAddress</b> interface. Instead, create an instance of either the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a> interface if an address object is required.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDTransportAddress</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDTransportAddress</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>. <b>IWSDTransportAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +71,7 @@ The <b>IWSDTransportAddress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-getport">GetPort</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-getport">GetPort</a>
 </td>
 <td align="left" width="63%">
 Gets the IP port number associated with this transport address.
@@ -81,7 +80,7 @@ Gets the IP port number associated with this transport address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddress">GetTransportAddress</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddress">GetTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a string representation of the address object.
@@ -90,7 +89,7 @@ Gets a pointer to a string representation of the address object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddressex">GetTransportAddressEx</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-gettransportaddressex">GetTransportAddressEx</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a string representation of the address object.
@@ -99,7 +98,7 @@ Gets a pointer to a string representation of the address object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-setport">SetPort</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-setport">SetPort</a>
 </td>
 <td align="left" width="63%">
 Sets the IP port number for this transport address.
@@ -108,23 +107,15 @@ Sets the IP port number for this transport address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a>
 </td>
 <td align="left" width="63%">
 Sets the string representation of the transport address. 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a>

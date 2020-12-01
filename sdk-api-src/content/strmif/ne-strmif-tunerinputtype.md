@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e25ec8e2-6d94-4059-a34e-a9e7887582fb
 ms.date: 12/05/2018
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType
-f1_keywords:
-- strmif/TunerInputType
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- TunerInputType
 targetos: Windows
 req.typenames: TunerInputType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTunerInputType
+ - strmif/tagTunerInputType
+ - TunerInputType
+ - strmif/TunerInputType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - TunerInputType
 ---
 
 # TunerInputType enumeration
@@ -49,37 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the frequency of a TV tuner (cable or antenna).
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field TunerInputCable
 
 Indicates cable frequency.
-          
-
 
 ### -field TunerInputAntenna
 
 Indicates broadcast antenna frequency.
-          
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

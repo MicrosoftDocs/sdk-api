@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: f72b0709-1a55-49c9-ab5d-22f9259c41f0
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], IWorkspaceClientExt interface [Remote Desktop Services],described, termserv.iworkspaceclientext, workspaceruntimeclientext/IWorkspaceClientExt
-f1_keywords:
-- workspaceruntimeclientext/IWorkspaceClientExt
-dev_langs:
-- c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Workspaceruntimeclientext.h
-api_name:
-- IWorkspaceClientExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceClientExt
+ - workspaceruntimeclientext/IWorkspaceClientExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Workspaceruntimeclientext.h
+api_name:
+ - IWorkspaceClientExt
 ---
 
 # IWorkspaceClientExt interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow the runtime to disconnect a custom client in RemoteApp and Desktop Connection.  This interface is the outbound interface of the custom client.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceClientExt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceClientExt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceClientExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWorkspaceClientExt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IWorkspaceClientExt</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourcedisplayname">GetResourceDisplayName</a>
+<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourcedisplayname">GetResourceDisplayName</a>
 </td>
 <td align="left" width="63%">
 Returns the display name of the custom client in RemoteApp and Desktop Connection.
@@ -79,7 +78,7 @@ Returns the display name of the custom client in RemoteApp and Desktop Connectio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourceid">GetResourceId</a>
+<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-getresourceid">GetResourceId</a>
 </td>
 <td align="left" width="63%">
 Returns the ID of the custom client in RemoteApp and Desktop Connection.
@@ -88,12 +87,11 @@ Returns the ID of the custom client in RemoteApp and Desktop Connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-issuedisconnect">IssueDisconnect</a>
+<a href="/windows/desktop/api/workspaceruntimeclientext/nf-workspaceruntimeclientext-iworkspaceclientext-issuedisconnect">IssueDisconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the custom client in RemoteApp and Desktop Connection.
 
 </td>
 </tr>
-</table> 
-
+</table>

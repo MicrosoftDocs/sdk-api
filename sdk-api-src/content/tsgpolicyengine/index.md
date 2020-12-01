@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: termserv
+f1_keywords:
+ - tsgpolicyengine
+ - tsgpolicyengine/tsgpolicyengine
 ---
 
 # Tsgpolicyengine.h header
 
 
 ## -description
-
 
 This header is used by Remote Desktop Services. For more information, see:
 

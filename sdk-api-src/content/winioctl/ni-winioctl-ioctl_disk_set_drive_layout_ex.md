@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a600e841-c692-4aa4-bea2-a33931d9b007
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_DRIVE_LAYOUT_EX, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control, IOCTL_DISK_SET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_set_drive_layout_ex, base.ioctl_disk_set_drive_layout_ex, fs.ioctl_disk_set_drive_layout_ex, winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-f1_keywords:
-- winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_SET_DRIVE_LAYOUT_EX
+ - winioctl/IOCTL_DISK_SET_DRIVE_LAYOUT_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_SET_DRIVE_LAYOUT_EX
 ---
 
 # IOCTL_DISK_SET_DRIVE_LAYOUT_EX IOCTL
+
 
 ## -description
 
@@ -122,3 +124,4 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
 * [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md)
+

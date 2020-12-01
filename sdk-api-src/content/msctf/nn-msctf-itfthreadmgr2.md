@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: B80A0DBA-349A-450D-BD9D-14BD36308590
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], ITfThreadMgr2 interface [Text Services Framework],described, msctf/ITfThreadMgr2, tsf.itfthreadmgr2
-f1_keywords:
-- msctf/ITfThreadMgr2
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2
+ - msctf/ITfThreadMgr2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2
 ---
 
 # ITfThreadMgr2 interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfThreadMgr2</b> defines the primary object implemented by the TSF manager. <b>ITfThreadMgr2</b> is used by applications and text services to activate and deactivate text services, create document managers, and maintain the document context focus.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgr2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgr2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgr2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgr2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +69,7 @@ The <b>ITfThreadMgr2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activate">Activate</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activate">Activate</a>
 </td>
 <td align="left" width="63%">
  Activates TSF for the calling thread.
@@ -81,7 +78,7 @@ The <b>ITfThreadMgr2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activateex">ActivateEx</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activateex">ActivateEx</a>
 </td>
 <td align="left" width="63%">
 Initializes and activates TSF for the calling thread with a flag that specifies how TSF is activated.
@@ -90,7 +87,7 @@ Initializes and activates TSF for the calling thread with a flag that specifies 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-createdocumentmgr">CreateDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-createdocumentmgr">CreateDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Creates a document manager object.
@@ -99,7 +96,7 @@ Creates a document manager object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-deactivate">Deactivate</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-deactivate">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Deactivates TSF for the calling thread.
@@ -108,7 +105,7 @@ Deactivates TSF for the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumdocumentmgrs">EnumDocumentMgrs</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumdocumentmgrs">EnumDocumentMgrs</a>
 </td>
 <td align="left" width="63%">
 Returns an enumerator for all the document managers within the calling thread.
@@ -117,7 +114,7 @@ Returns an enumerator for all the document managers within the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumfunctionproviders">EnumFunctionProviders</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-enumfunctionproviders">EnumFunctionProviders</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator for all of the function providers registered for the calling thread.
@@ -126,7 +123,7 @@ Obtains an enumerator for all of the function providers registered for the calli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getactiveflags">GetActiveFlags</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getactiveflags">GetActiveFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the active flags of the calling thread.
@@ -135,7 +132,7 @@ Gets the active flags of the calling thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfocus">GetFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfocus">GetFocus</a>
 </td>
 <td align="left" width="63%">
 Returns the document manager that has the input focus.
@@ -144,7 +141,7 @@ Returns the document manager that has the input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider">GetFunctionProvider</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider">GetFunctionProvider</a>
 </td>
 <td align="left" width="63%">
  Obtains the specified function provider object.
@@ -153,7 +150,7 @@ Returns the document manager that has the input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getglobalcompartment">GetGlobalCompartment</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getglobalcompartment">GetGlobalCompartment</a>
 </td>
 <td align="left" width="63%">
 Obtains the global compartment manager object.
@@ -162,7 +159,7 @@ Obtains the global compartment manager object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-isthreadfocus">IsThreadFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-isthreadfocus">IsThreadFocus</a>
 </td>
 <td align="left" width="63%">
 Determines if the calling thread has the TSF input focus.
@@ -171,7 +168,7 @@ Determines if the calling thread has the TSF input focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-resumekeystrokehandling">ResumeKeystrokeHandling</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-resumekeystrokehandling">ResumeKeystrokeHandling</a>
 </td>
 <td align="left" width="63%">
 Resumes suspended keystroke handling.
@@ -180,7 +177,7 @@ Resumes suspended keystroke handling.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-setfocus">SetFocus</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the input focus to the specified document manager.
@@ -189,23 +186,15 @@ Sets the input focus to the specified document manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-suspendkeystrokehandling">SuspendKeystrokeHandling</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-suspendkeystrokehandling">SuspendKeystrokeHandling</a>
 </td>
 <td align="left" width="63%">
 Suspends handling keystrokes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

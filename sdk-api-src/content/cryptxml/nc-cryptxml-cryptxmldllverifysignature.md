@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, CryptXmlDllVerifySignature callback function [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
-f1_keywords:
-- cryptxml/CryptXmlDllVerifySignature
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,40 +25,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cryptxml.h
-api_name:
-- CryptXmlDllVerifySignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlDllVerifySignature
+ - cryptxml/CryptXmlDllVerifySignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cryptxml.h
+api_name:
+ - CryptXmlDllVerifySignature
 ---
 
 ## -description
 
 The <b>CryptXmlDllVerifySignature</b>  function verifies a signature.
 
-The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 ## -parameters
 
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
 ### -param hKey [in]
 
-A handle to the public key. 
+A handle to the public key.
 
 ### -param pbInput [in]
 
-A pointer to a buffer that contains the signed data. The <i>cbInput</i> parameter contains the size of this buffer. 
+A pointer to a buffer that contains the signed data. The <i>cbInput</i> parameter contains the size of this buffer.
 
 ### -param cbInput [in]
 
@@ -70,7 +71,7 @@ The size, in bytes, of the buffer pointed to by the <i>pbInput</i> parameter.
 
 ### -param pbSignature [in]
 
-A pointer to a buffer that contains the signature value to be verified. The <i>cbSignature</i> parameter contains the size of this buffer. 
+A pointer to a buffer that contains the signature value to be verified. The <i>cbSignature</i> parameter contains the size of this buffer.
 
 ### -param cbSignature [in]
 

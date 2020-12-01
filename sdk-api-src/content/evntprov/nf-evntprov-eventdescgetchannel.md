@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 193786ad-751e-477d-8747-a38b43292648
 ms.date: 12/05/2018
 ms.keywords: EventDescGetChannel, EventDescGetChannel function [ETW], base.eventdescgetchannel_func, etw.eventdescgetchannel_func, evntprov/EventDescGetChannel
-f1_keywords:
-- evntprov/EventDescGetChannel
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EventDescGetChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventDescGetChannel
+ - evntprov/EventDescGetChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EventDescGetChannel
 ---
 
 # EventDescGetChannel function
@@ -49,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves
 		
 		
 	
 	the channel from the event descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param EventDescriptor [in]
 
-Event descriptor from which to retrieve the channel. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
-
+Event descriptor from which to retrieve the channel. See <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ## -returns
 
-
-
 Channel that defines the category of events to which this event belongs.
-
-
-
 
 ## -remarks
 
-
-
-This is a convenience macro for retrieving the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
-
-
-
+This is a convenience macro for retrieving the member of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
-f1_keywords:
-- ocidl/IViewObjectEx
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx
+ - ocidl/IViewObjectEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx
 ---
 
 # IViewObjectEx interface
@@ -49,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-An extension derived from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a> to provide support for:
+An extension derived from <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a> to provide support for:
 <ul>
 <li>Enhanced, flicker-free drawing for non-rectangular objects and transparent objects</li>
 <li>Hit testing for non-rectangular objects</li>
@@ -59,7 +59,7 @@ An extension derived from <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObjectEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>. <b>IViewObjectEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObjectEx</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>. <b>IViewObjectEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IViewObjectEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">GetNaturalExtent</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">GetNaturalExtent</a>
 </td>
 <td align="left" width="63%">
 Provides sizing hints from the container for the object to use as the user resizes it.
@@ -83,7 +83,7 @@ Provides sizing hints from the container for the object to use as the user resiz
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">GetRect</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">GetRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rectangle describing a requested drawing aspect.
@@ -92,7 +92,7 @@ Retrieves a rectangle describing a requested drawing aspect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">GetViewStatus</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">GetViewStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the opacity of the object, and what drawing aspects are supported.
@@ -101,7 +101,7 @@ Retrieves information about the opacity of the object, and what drawing aspects 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">QueryHitPoint</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">QueryHitPoint</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a point is within a given aspect of an object.
@@ -110,23 +110,15 @@ Indicates whether a point is within a given aspect of an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">QueryHitRect</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">QueryHitRect</a>
 </td>
 <td align="left" width="63%">
 Indicates whether any point in a rectangle is within a given drawing aspect of an object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>

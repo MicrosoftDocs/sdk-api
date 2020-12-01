@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap
  - d3d12video/ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap
 dev_langs:
  - c++

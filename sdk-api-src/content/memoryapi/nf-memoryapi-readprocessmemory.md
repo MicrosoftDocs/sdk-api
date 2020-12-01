@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
 ms.date: 03/10/2020
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
-f1_keywords:
-- memoryapi/ReadProcessMemory
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,40 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- ReadProcessMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadProcessMemory
+ - memoryapi/ReadProcessMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - ReadProcessMemory
 ---
-
 
 # ReadProcessMemory function
 
 ## Description
 
 Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
+
 
 ## -parameters
 
@@ -81,13 +82,12 @@ The number of bytes to be read from the specified process.
 
 A pointer to a variable that receives the number of bytes transferred into the specified buffer. If *lpNumberOfBytesRead* is **NULL**, the parameter is ignored.
 
-
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+[GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 The function fails if the requested read operation crosses into an area of the process that is inaccessible.
 
@@ -99,4 +99,4 @@ The entire area to be read must be accessible, and if it is not accessible, the 
 
 ## -see-also
 
-[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex), [WriteProcessMemory](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)
+[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](../processthreadsapi/nf-processthreadsapi-openprocess.md), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](./nf-memoryapi-virtualallocex.md), [WriteProcessMemory](./nf-memoryapi-writeprocessmemory.md)

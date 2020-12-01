@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
-f1_keywords:
-- uianimation/UI_ANIMATION_SLOPE
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAnimation.h
-api_name:
-- UI_ANIMATION_SLOPE
 targetos: Windows
 req.typenames: UI_ANIMATION_SLOPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_UIAnimation_0000_0009_0001
+ - uianimation/__MIDL___MIDL_itf_UIAnimation_0000_0009_0001
+ - UI_ANIMATION_SLOPE
+ - uianimation/UI_ANIMATION_SLOPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAnimation.h
+api_name:
+ - UI_ANIMATION_SLOPE
 ---
 
 # UI_ANIMATION_SLOPE enumeration
@@ -49,32 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines animation slope characteristics.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_ANIMATION_SLOPE_INCREASING
 
 An increasing slope.
 
-
 ### -field UI_ANIMATION_SLOPE_DECREASING
 
 A decreasing slope.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromrange">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromrange">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ual
+f1_keywords:
+ - ual
+ - ual/ual
 ---
 
 # Ual.h header
 
 
 ## -description
-
 
 This header is used by User Access Logging. For more information, see:
 

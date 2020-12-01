@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: B371DB94-EE4A-4BAC-B61D-F6C4A719E176
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE_ASPECT_RATIO, DWRITE_PANOSE_ASPECT_RATIO enumeration [Direct Write], DWRITE_PANOSE_ASPECT_RATIO_ANY, DWRITE_PANOSE_ASPECT_RATIO_CONDENSED, DWRITE_PANOSE_ASPECT_RATIO_EXPANDED, DWRITE_PANOSE_ASPECT_RATIO_NORMAL, DWRITE_PANOSE_ASPECT_RATIO_NO_FIT, DWRITE_PANOSE_ASPECT_RATIO_VERY_CONDENSED, DWRITE_PANOSE_ASPECT_RATIO_VERY_EXPANDED, directwrite.dwrite_panose_aspect_ratio, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_ANY, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_CONDENSED, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_EXPANDED, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_NORMAL, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_NO_FIT, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_VERY_CONDENSED, dwrite_1/DWRITE_PANOSE_ASPECT_RATIO_VERY_EXPANDED
-f1_keywords:
-- dwrite_1/DWRITE_PANOSE_ASPECT_RATIO
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dwrite_1.h
-api_name:
-- DWRITE_PANOSE_ASPECT_RATIO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_PANOSE_ASPECT_RATIO
+ - dwrite_1/DWRITE_PANOSE_ASPECT_RATIO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dwrite_1.h
+api_name:
+ - DWRITE_PANOSE_ASPECT_RATIO
 ---
 
 # DWRITE_PANOSE_ASPECT_RATIO enumeration
@@ -49,57 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DWRITE_PANOSE_ASPECT_RATIO</b> enumeration contains values that specify info about the ratio between width and height of the character face.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DWRITE_PANOSE_ASPECT_RATIO_ANY
 
 Any aspect ratio.
 
-
 ### -field DWRITE_PANOSE_ASPECT_RATIO_NO_FIT
 
 No fit for aspect ratio.
-
 
 ### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_CONDENSED
 
 Very condensed aspect ratio.
 
-
 ### -field DWRITE_PANOSE_ASPECT_RATIO_CONDENSED
 
 Condensed aspect ratio.
-
 
 ### -field DWRITE_PANOSE_ASPECT_RATIO_NORMAL
 
 Normal aspect ratio.
 
-
 ### -field DWRITE_PANOSE_ASPECT_RATIO_EXPANDED
 
 Expanded aspect ratio.
-
 
 ### -field DWRITE_PANOSE_ASPECT_RATIO_VERY_EXPANDED
 
 Very expanded aspect ratio.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>
- 
-
- 
 

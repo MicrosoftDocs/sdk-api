@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 5c05ed2b-98ff-417c-bc48-4e8a3dd95460
 ms.date: 12/05/2018
 ms.keywords: FindProxyForURL, FindProxyForURL method [windows Media Format], FindProxyForURL method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],FindProxyForURL method, IWMSInternalAdminNetSource.FindProxyForURL, IWMSInternalAdminNetSource::FindProxyForURL, IWMSInternalAdminNetSourceFindProxyForURL, wmformat.iwmsinternaladminnetsource_findproxyforurl, wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource.FindProxyForURL
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSInternalAdminNetSource.FindProxyForURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource::FindProxyForURL
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSInternalAdminNetSource.FindProxyForURL
 ---
 
 # IWMSInternalAdminNetSource::FindProxyForURL
@@ -52,42 +53,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>FindProxyForURL</b> method finds a proxy server name and port to use for the client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrProtocol [in]
 
 String containing the protocol for which to find the proxy server. Typically, this is either "http" or "mms".
 
-
 ### -param bstrHost [in]
 
 String containing the DNS name or IP address of the server with which you want to communicate. Depending upon the server, the proxy might be different.
-
 
 ### -param pfProxyEnabled [out]
 
 Pointer to a Boolean value that is True if the user has enabled a proxy that applies to the specified protocol and host.
 
-
 ### -param pbstrProxyServer [out]
 
 Pointer to a string containing the proxy server DNS name.
 
-
 ### -param pdwProxyPort [out]
 
 Pointer to a <b>DWORD</b> containing the proxy port number.
-
 
 ### -param pdwProxyContext [in, out]
 
@@ -95,10 +83,7 @@ Pointer to a <b>DWORD</b> containing the proxy port number.
 
 This method has internal algorithms that determine how it looks for proxy servers. You can override this and make it find the proxy server set by the client's Web browser, by setting the context to 3.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -130,27 +115,11 @@ When calling this method multiple times to find all proxies configured, this val
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-shutdownproxycontext">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
-
-
-
+When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-shutdownproxycontext">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>

@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 83a267b7-8b25-49b8-b1d0-83efbad8fa2a
 ms.date: 12/05/2018
 ms.keywords: '*PIMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_FULL, IMAPI_BURN_VERIFICATION_LEVEL, IMAPI_BURN_VERIFICATION_LEVEL enumeration [IMAPI], IMAPI_BURN_VERIFICATION_NONE, IMAPI_BURN_VERIFICATION_QUICK, imapi.imapi_burn_verification_level, imapi2/IMAPI_BURN_VERIFICATION_FULL, imapi2/IMAPI_BURN_VERIFICATION_LEVEL, imapi2/IMAPI_BURN_VERIFICATION_NONE, imapi2/IMAPI_BURN_VERIFICATION_QUICK'
-f1_keywords:
-- imapi2/IMAPI_BURN_VERIFICATION_LEVEL
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- imapi2.h
-api_name:
-- IMAPI_BURN_VERIFICATION_LEVEL
 targetos: Windows
 req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAPI_BURN_VERIFICATION_LEVEL
+ - imapi2/_IMAPI_BURN_VERIFICATION_LEVEL
+ - PIMAPI_BURN_VERIFICATION_LEVEL
+ - imapi2/PIMAPI_BURN_VERIFICATION_LEVEL
+ - IMAPI_BURN_VERIFICATION_LEVEL
+ - imapi2/IMAPI_BURN_VERIFICATION_LEVEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - imapi2.h
+api_name:
+ - IMAPI_BURN_VERIFICATION_LEVEL
 ---
 
 # IMAPI_BURN_VERIFICATION_LEVEL enumeration
@@ -49,33 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines values for the burn verification implemented by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a> interface.
-
+Defines values for the burn verification implemented by the <a href="/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerification</a> interface.
 
 ## -enum-fields
-
-
-
 
 ### -field IMAPI_BURN_VERIFICATION_NONE
 
 No burn verification.
 
-
 ### -field IMAPI_BURN_VERIFICATION_QUICK
 
 A quick, heuristic burn verification.
-
 
 ### -field IMAPI_BURN_VERIFICATION_FULL
 
 This verification compares the checksum to the referenced stream for either the last session or each track.  A full verification includes the heuristic checks of a quick verification for both burn formats.
 
-
 ## -remarks
-
-
 
 Depending on the format used for the burned media, the values defined by this enumeration will elicit the following behavior during verification:
 
@@ -157,16 +152,6 @@ The time required for a full verification is relative to the read speed of the d
 
 This enumeration is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerfication</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iburnverification">IBurnVerfication</a>

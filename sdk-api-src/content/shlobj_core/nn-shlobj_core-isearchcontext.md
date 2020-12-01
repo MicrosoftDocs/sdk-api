@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e
 ms.date: 12/05/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
-f1_keywords:
-- shlobj_core/ISearchContext
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ISearchContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchContext
+ - shlobj_core/ISearchContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ISearchContext
 ---
 
 # ISearchContext interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that channel customization information to the search hooks.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>ISearchContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchstyle">GetSearchStyle</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchstyle">GetSearchStyle</a>
 </td>
 <td align="left" width="63%">
 Overrides the registry settings that determine how an autosearch is performed.
@@ -79,7 +78,7 @@ Overrides the registry settings that determine how an autosearch is performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchtext">GetSearchText</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchtext">GetSearchText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text that is in the browser's Address bar.
@@ -88,12 +87,11 @@ Retrieves the text that is in the browser's Address bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchurl">GetSearchURL</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-isearchcontext-getsearchurl">GetSearchURL</a>
 </td>
 <td align="left" width="63%">
 Retrieves the URL that is being searched for.
 
 </td>
 </tr>
-</table> 
-
+</table>

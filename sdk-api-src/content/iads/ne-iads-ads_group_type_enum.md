@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: c046ffbf-15e2-44d7-a997-f992c6289bcd
 ms.date: 12/05/2018
 ms.keywords: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, ADS_GROUP_TYPE_ENUM, ADS_GROUP_TYPE_ENUM enumeration [ADSI], ADS_GROUP_TYPE_GLOBAL_GROUP, ADS_GROUP_TYPE_LOCAL_GROUP, ADS_GROUP_TYPE_SECURITY_ENABLED, ADS_GROUP_TYPE_UNIVERSAL_GROUP, _ds_ads_group_type_enum, adsi.ads__group__type__enum, adsi.ads_group_type_enum, iads/ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, iads/ADS_GROUP_TYPE_ENUM, iads/ADS_GROUP_TYPE_GLOBAL_GROUP, iads/ADS_GROUP_TYPE_LOCAL_GROUP, iads/ADS_GROUP_TYPE_SECURITY_ENABLED, iads/ADS_GROUP_TYPE_UNIVERSAL_GROUP
-f1_keywords:
-- iads/ADS_GROUP_TYPE_ENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_GROUP_TYPE_ENUM
 targetos: Windows
 req.typenames: ADS_GROUP_TYPE_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0001_0023_0001
+ - iads/__MIDL___MIDL_itf_ads_0001_0023_0001
+ - ADS_GROUP_TYPE_ENUM
+ - iads/ADS_GROUP_TYPE_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_GROUP_TYPE_ENUM
 ---
 
 # ADS_GROUP_TYPE_ENUM enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADS_GROUP_TYPE_ENUM</b> enumeration specifies the type of group objects in ADSI.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_GROUP_TYPE_GLOBAL_GROUP
 
 Specifies a group that can contain accounts from the same domain and other global groups from the same domain. This type of group can be exported to a different domain.
-
 
 ### -field ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP
 
@@ -69,25 +66,19 @@ Specifies a group that can contain accounts from any domain, other domain local 
 
 This type of group is intended for use with the LDAP provider.
 
-
 ### -field ADS_GROUP_TYPE_LOCAL_GROUP
 
 Specifies a group that is identical to the <b>ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</b> group, but is intended for use with the WinNT  provider.
-
 
 ### -field ADS_GROUP_TYPE_UNIVERSAL_GROUP
 
 Specifies a group that can contain accounts from any domain, global groups from any domain,  and other universal groups. This type of group cannot contain domain local groups.
 
-
 ### -field ADS_GROUP_TYPE_SECURITY_ENABLED
 
 Specifies a group that is security enabled. This group can be used to apply an access-control list on an ADSI object or a file system.
 
-
 ## -remarks
-
-
 
 Because VBScript cannot read data from a type library, VBScript applications do not understand recognize constants, as defined above. Use the numerical constants, instead, to set the appropriate flags in your VBScript application. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here, in your VBScript application.
 
@@ -185,18 +176,7 @@ Set grp = Nothing
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
- 
-
- 
-

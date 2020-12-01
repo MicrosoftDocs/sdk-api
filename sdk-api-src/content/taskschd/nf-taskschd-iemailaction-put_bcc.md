@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 7f0a4da7-d2de-433a-ab0d-79b9741aae59
 ms.date: 12/05/2018
 ms.keywords: Bcc property [Task Scheduler], Bcc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Bcc property, IEmailAction.Bcc, IEmailAction.put_Bcc, IEmailAction::Bcc, IEmailAction::get_Bcc, IEmailAction::put_Bcc, put_Bcc, taskschd.iemailaction_bcc, taskschd/IEmailAction::Bcc, taskschd/IEmailAction::get_Bcc, taskschd/IEmailAction::put_Bcc
-f1_keywords:
-- taskschd/IEmailAction.Bcc
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,32 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IEmailAction.Bcc
-- IEmailAction.get_Bcc
-- IEmailAction.put_Bcc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEmailAction::put_Bcc
+ - taskschd/IEmailAction::put_Bcc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IEmailAction.Bcc
+ - IEmailAction.get_Bcc
+ - IEmailAction.put_Bcc
 ---
 
 # IEmailAction::put_Bcc
 
 
 ## -description
-
-
 
 <p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
 ">Send-MailMessage</a> cmdlet as a workaround.]
@@ -60,14 +59,9 @@ Gets or sets the email address or addresses that you want to Bcc in the email me
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 

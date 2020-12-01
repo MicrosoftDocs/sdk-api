@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
 ms.date: 12/05/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
-f1_keywords:
-- shobjidl/IBandHost
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IBandHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBandHost
+ - shobjidl/IBandHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IBandHost
 ---
 
 # IBandHost interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that create and destroy bands and specifiy their availability.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IBandHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-createband">CreateBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-createband">CreateBand</a>
 </td>
 <td align="left" width="63%">
 Creates a specified band.
@@ -79,7 +78,7 @@ Creates a specified band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-destroyband">DestroyBand</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-destroyband">DestroyBand</a>
 </td>
 <td align="left" width="63%">
 Destroys a specified band.
@@ -88,12 +87,11 @@ Destroys a specified band.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-setbandavailability">SetBandAvailability</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ibandhost-setbandavailability">SetBandAvailability</a>
 </td>
 <td align="left" width="63%">
 Sets the availability of a specified band.
 
 </td>
 </tr>
-</table> 
-
+</table>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
 ms.date: 12/05/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
-f1_keywords:
-- winbase/GetDllDirectory
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- Kernel32Legacy.dll
-api_name:
-- GetDllDirectory
-- GetDllDirectoryA
-- GetDllDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDllDirectoryW
+ - winbase/GetDllDirectoryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetDllDirectory
+ - GetDllDirectoryA
+ - GetDllDirectoryW
 ---
 
 # GetDllDirectoryW function
@@ -53,29 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the application-specific portion of the search path used to locate DLLs for the 
    application.
 
-
 ## -parameters
-
-
-
 
 ### -param nBufferLength [in]
 
 The size of the output buffer, in characters.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the application-specific portion of the search path.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the length of the string copied to 
        <i>lpBuffer</i>, in characters, not including the terminating null character. If the return 
@@ -83,18 +75,13 @@ If the function succeeds, the return value is the length of the string copied to
        the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0502 
     or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -105,15 +92,8 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 ## -see-also
 
+<a href="/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>

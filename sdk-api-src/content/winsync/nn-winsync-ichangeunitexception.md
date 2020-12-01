@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync], IChangeUnitException interface [Windows Sync],described, winsync.ichangeunitexception, winsync/IChangeUnitException
-f1_keywords:
-- winsync/IChangeUnitException
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitException
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitException
+ - winsync/IChangeUnitException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitException
 ---
 
 # IChangeUnitException interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a change unit to exclude from a knowledge object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeUnitException</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IChangeUnitException</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeUnitException</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IChangeUnitException</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IChangeUnitException</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getchangeunitid">GetChangeUnitId</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getchangeunitid">GetChangeUnitId</a>
 </td>
 <td align="left" width="63%">
 Gets the change unit ID for the change unit that is associated with the exception.
@@ -80,7 +79,7 @@ Gets the change unit ID for the change unit that is associated with the exceptio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getclockvector">GetClockVector</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getclockvector">GetClockVector</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with this exception.
@@ -91,7 +90,7 @@ Gets the clock vector that is associated with this exception.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getitemid">GetItemId</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeunitexception-getitemid">GetItemId</a>
 </td>
 <td align="left" width="63%">
 Gets the item ID for the item that contains the change unit that is associated with the exception.
@@ -99,16 +98,8 @@ Gets the item ID for the item that contains the change unit that is associated w
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

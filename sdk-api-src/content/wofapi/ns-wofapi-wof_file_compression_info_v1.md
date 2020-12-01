@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
 ms.date: 12/05/2018
 ms.keywords: '*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1'
-f1_keywords:
-- wofapi/WOF_FILE_COMPRESSION_INFO_V1
-dev_langs:
-- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wofapi.h
-api_name:
-- WOF_FILE_COMPRESSION_INFO_V1
 targetos: Windows
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WOF_FILE_COMPRESSION_INFO_V1
+ - wofapi/_WOF_FILE_COMPRESSION_INFO_V1
+ - PWOF_FILE_COMPRESSION_INFO_V1
+ - wofapi/PWOF_FILE_COMPRESSION_INFO_V1
+ - WOF_FILE_COMPRESSION_INFO_V1
+ - wofapi/WOF_FILE_COMPRESSION_INFO_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wofapi.h
+api_name:
+ - WOF_FILE_COMPRESSION_INFO_V1
 ---
 
 # WOF_FILE_COMPRESSION_INFO_V1 structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Algorithm
 
@@ -80,10 +80,8 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 <td>Indicates that the data for the file should be compressed in 16kb chunks with the XPress algorithm.</td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
-Specifies flags for the operation. Reserved for future use, should be 0. 
+Specifies flags for the operation. Reserved for future use, should be 0.
 

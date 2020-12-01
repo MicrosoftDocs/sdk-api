@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 61e94e50-9e12-4a2c-a6c7-64a9181f80b8
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommand, IExplorerCommand interface [Windows Shell], IExplorerCommand interface [Windows Shell],described, _shell_IExplorerCommand, shell.IExplorerCommand, shobjidl_core/IExplorerCommand
-f1_keywords:
-- shobjidl_core/IExplorerCommand
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerCommand
+ - shobjidl_core/IExplorerCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerCommand
 ---
 
 # IExplorerCommand interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get the command appearance, enumerate subcommands, or invoke the command.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerCommand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerCommand</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IExplorerCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands">EnumSubCommands</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands">EnumSubCommands</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enemerator for a command's subcommands.
@@ -79,7 +78,7 @@ Retrieves an enemerator for a command's subcommands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getcanonicalname">GetCanonicalName</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getcanonicalname">GetCanonicalName</a>
 </td>
 <td align="left" width="63%">
 Gets the GUID of an Windows Explorer command.
@@ -88,7 +87,7 @@ Gets the GUID of an Windows Explorer command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags">GetFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the flags associated with a Windows Explorer command.
@@ -97,7 +96,7 @@ Gets the flags associated with a Windows Explorer command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-geticon">GetIcon</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-geticon">GetIcon</a>
 </td>
 <td align="left" width="63%">
 Gets an icon resource string of the icon associated with the specified Windows Explorer command item.
@@ -106,7 +105,7 @@ Gets an icon resource string of the icon associated with the specified Windows E
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">GetState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Gets state information associated with a specified Windows Explorer command item.
@@ -115,7 +114,7 @@ Gets state information associated with a specified Windows Explorer command item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-gettitle">GetTitle</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-gettitle">GetTitle</a>
 </td>
 <td align="left" width="63%">
 Gets the title text of the button or menu item that launches a specified Windows Explorer command item.
@@ -124,7 +123,7 @@ Gets the title text of the button or menu item that launches a specified Windows
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-gettooltip">GetToolTip</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-gettooltip">GetToolTip</a>
 </td>
 <td align="left" width="63%">
 Gets the tooltip string associated with a specified Windows Explorer command item.
@@ -133,21 +132,15 @@ Gets the tooltip string associated with a specified Windows Explorer command ite
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-invoke">Invoke</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Invokes a Windows Explorer command.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 None of the methods of this interface should communicate with network resources. These methods are called on the UI thread, so communication with network resources could cause the UI to stop responding.
-
-
-

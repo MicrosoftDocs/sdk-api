@@ -6,10 +6,6 @@ tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
-f1_keywords:
-- ID3D11VideoContext3::DecoderBeginFrame1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +26,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D11VideoContext3::DecoderBeginFrame1
+ - d3d11_4/ID3D11VideoContext3::DecoderBeginFrame1
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d11_4.h
+ - d3d11_4.h
 api_name:
-- ID3D11VideoContext3::DecoderBeginFrame1
+ - ID3D11VideoContext3::DecoderBeginFrame1
 ---
 
 ## -description
@@ -48,11 +49,11 @@ Starts a decoding operation to decode a video frame.
 
 ### -param pDecoder
 
-A pointer to the [ID3D11VideoDecoder](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoder) interface. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoder](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder)
+A pointer to the [ID3D11VideoDecoder](../d3d11/nn-d3d11-id3d11videodecoder.md) interface. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoder](../d3d11/nf-d3d11-id3d11videodevice-createvideodecoder.md)
 
 ### -param pView
 
-A pointer to a [ID3D11VideoDecoderOutputView](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoderoutputview) interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoderOutputView](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview
+A pointer to a [ID3D11VideoDecoderOutputView](../d3d11/nn-d3d11-id3d11videodecoderoutputview.md) interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoderOutputView](../d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview.md
 ).
 
 ### -param ContentKeySize
@@ -69,7 +70,7 @@ The number of components to record a histograms for.  Use [D3D11_FEATURE_VIDEO_D
 
 ### -param pHistogramOffsets
 
-An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.  
+An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.
 
 ### -param ppHistogramBuffers
 
@@ -81,7 +82,7 @@ Returns **S\_OK** if successful.
 
 ## -remarks
 
-The following [D3D11_RESOURCE_MISC](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flags are allowed when allocating resources for video decode histograms.
+The following [D3D11_RESOURCE_MISC](../d3d11/ne-d3d11-d3d11_resource_misc_flag.md) flags are allowed when allocating resources for video decode histograms.
 
 - D3D11_RESOURCE_MISC_SHARED
 - D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS
@@ -95,4 +96,3 @@ The following [D3D11_RESOURCE_MISC](/windows/win32/api/d3d11/ne-d3d11-d3d11_reso
 All other D3D11_RESOURCE_MISC flags are disallowed.
 
 ## -see-also
-

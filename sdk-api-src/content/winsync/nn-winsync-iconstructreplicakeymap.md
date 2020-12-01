@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 742b5606-5d24-4494-9f96-e381af1145db
 ms.date: 12/05/2018
 ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], IConstructReplicaKeyMap interface [Windows Sync],described, winsync.iconstructreplicakeymap, winsync/IConstructReplicaKeyMap
-f1_keywords:
-- winsync/IConstructReplicaKeyMap
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IConstructReplicaKeyMap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConstructReplicaKeyMap
+ - winsync/IConstructReplicaKeyMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IConstructReplicaKeyMap
 ---
 
 # IConstructReplicaKeyMap interface
@@ -49,14 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds entries to an <b>IReplicaKeyMap</b> object.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConstructReplicaKeyMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConstructReplicaKeyMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConstructReplicaKeyMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConstructReplicaKeyMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IConstructReplicaKeyMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iconstructreplicakeymap-findoraddreplica">FindOrAddReplica</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iconstructreplicakeymap-findoraddreplica">FindOrAddReplica</a>
 </td>
 <td align="left" width="63%">
 Adds entries to or finds entries in an <b>IReplicaKeyMap</b>object.
@@ -80,29 +78,16 @@ Adds entries to or finds entries in an <b>IReplicaKeyMap</b>object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 An <b>IConstructReplicaKeyMap</b> object can be obtained by passing <b>IID_IConstructReplicaKeyMap</b> to the <b>QueryInterface</b> method of an <b>IReplicaKeyMap</b> object.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

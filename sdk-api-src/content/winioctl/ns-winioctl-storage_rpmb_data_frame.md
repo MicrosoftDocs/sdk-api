@@ -3,10 +3,6 @@ UID: NS:winioctl._STORAGE_RPMB_DATA_FRAME
 title: STORAGE_RPMB_DATA_FRAME
 ms.date: 4/26/2019
 ms.keywords: _STORAGE_RPMB_DATA_FRAME, STORAGE_RPMB_DATA_FRAME
-f1_keywords:
-- _STORAGE_RPMB_DATA_FRAME
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,15 +19,24 @@ req.target-type:
 req.typenames: STORAGE_RPMB_DATA_FRAME, *PSTORAGE_RPMB_DATA_FRAME
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _STORAGE_RPMB_DATA_FRAME
+ - winioctl/_STORAGE_RPMB_DATA_FRAME
+ - PSTORAGE_RPMB_DATA_FRAME
+ - winioctl/PSTORAGE_RPMB_DATA_FRAME
+ - STORAGE_RPMB_DATA_FRAME
+ - winioctl/STORAGE_RPMB_DATA_FRAME
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winioctl.h
+ - winioctl.h
 api_name:
-- _STORAGE_RPMB_DATA_FRAME
-- STORAGE_RPMB_DATA_FRAME
+ - _STORAGE_RPMB_DATA_FRAME
+ - STORAGE_RPMB_DATA_FRAME
 ---
 
 ## -description
@@ -43,7 +48,6 @@ Using the information from <a href="/windows/win32/api/winioctl/ni-winioctl-ioct
 •	Authenticated Read
 •	Authenticated Device Configuration Write
 •	Authenticated Device Configuration Read
-
 
 ## -struct-fields
 
@@ -86,3 +90,4 @@ The type of request or response.
 ## -remarks
 
 ## -see-also
+

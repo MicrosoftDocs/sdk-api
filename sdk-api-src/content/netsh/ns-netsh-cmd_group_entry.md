@@ -8,10 +8,6 @@ tech.root: netshell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.date: 12/05/2018
 ms.keywords: '*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry'
-f1_keywords:
-- netsh/CMD_GROUP_ENTRY
-dev_langs:
-- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netsh.h
-api_name:
-- CMD_GROUP_ENTRY
 targetos: Windows
 req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMD_GROUP_ENTRY
+ - netsh/_CMD_GROUP_ENTRY
+ - PCMD_GROUP_ENTRY
+ - netsh/PCMD_GROUP_ENTRY
+ - CMD_GROUP_ENTRY
+ - netsh/CMD_GROUP_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netsh.h
+api_name:
+ - CMD_GROUP_ENTRY
 ---
 
 # CMD_GROUP_ENTRY structure
@@ -49,51 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 the 
 <b>CMD_GROUP_ENTRY</b> structure defines a group of helper commands.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pwszCmdGroupToken
 
 The token (name) for the command group
 
-
 ### -field dwShortCmdHelpToken
 
 A short help message.
-
 
 ### -field ulCmdGroupSize
 
 The number of elements in the command group.
 
-
 ### -field dwFlags
 
 Flags. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>.
-
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>.
 
 ### -field pCmdGroup
 
 An array of CMD_ENTRY structures.
 
-
 ### -field pOsVersionCheck
 
 An operating system version check function. This is the function used to determine whether the command can be run on the operating system running on the local and/or remote context before invoking or displaying commands. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
-
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_osversioncheck">NS_OSVERSIONCHECK</a>.
 
 ## -remarks
-
-
 
 Macros are available that can simplify the creation of the 
 <b>CMD_GROUP_ENTRY</b> structure, as follows:
@@ -134,25 +126,14 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_context_commit_fn">NS_CONTEXT_COMMIT_FN</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>

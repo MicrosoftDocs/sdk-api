@@ -3,10 +3,6 @@ UID: NI:winioctl.IOCTL_STORAGE_REINITIALIZE_MEDIA
 title: IOCTL_STORAGE_REINITIALIZE_MEDIA
 ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA
-f1_keywords:
-- IOCTL_STORAGE_REINITIALIZE_MEDIA
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 
@@ -23,35 +19,40 @@ req.target-min-winversvr:
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
+f1_keywords:
+ - IOCTL_STORAGE_REINITIALIZE_MEDIA
+ - winioctl/IOCTL_STORAGE_REINITIALIZE_MEDIA
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winioctl.h
+ - winioctl.h
 api_name:
-- IOCTL_STORAGE_REINITIALIZE_MEDIA
+ - IOCTL_STORAGE_REINITIALIZE_MEDIA
 ---
 
 ## -description
 
-This IOCTL offloads the erasure process to the storage device. 
+This IOCTL offloads the erasure process to the storage device.
 
 ## -ioctlparameters
 
-## -input-buffer
+### -input-buffer
 
-## -input-buffer-length
+### -input-buffer-length
 
-## -output-buffer
+### -output-buffer
 
-## -output-buffer-length
+### -output-buffer-length
 
-## -in-out-buffer
+### -in-out-buffer
 
-## -inout-buffer-length
+### -inout-buffer-length
 
-## -status-block
+### -status-block
 
 ## -remarks
 

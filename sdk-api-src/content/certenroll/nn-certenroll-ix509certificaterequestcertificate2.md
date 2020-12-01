@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4f4b5c95-3213-4ccb-9bdd-05cb221f54bd
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate2, IX509CertificateRequestCertificate2 interface [Security], IX509CertificateRequestCertificate2 interface [Security],described, certenroll/IX509CertificateRequestCertificate2, security.ix509certificaterequestcertificate2
-f1_keywords:
-- certenroll/IX509CertificateRequestCertificate2
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCertificate2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCertificate2
+ - certenroll/IX509CertificateRequestCertificate2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCertificate2
 ---
 
 # IX509CertificateRequestCertificate2 interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IX509CertificateRequestCertificate2</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. It includes all of the methods defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface and adds methods that enable initialization from certificate request templates.
-
+The <b>IX509CertificateRequestCertificate2</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. It includes all of the methods defined by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface and adds methods that enable initialization from certificate request templates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>. <b>IX509CertificateRequestCertificate2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCertificate2</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>. <b>IX509CertificateRequestCertificate2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,16 +70,16 @@ The <b>IX509CertificateRequestCertificate2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromprivatekeytemplate">InitializeFromPrivateKeyTemplate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromprivatekeytemplate">InitializeFromPrivateKeyTemplate</a>
 </td>
 <td align="left" width="63%">
-Initializes the certificate request by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object and a certificate template.
+Initializes the certificate request by using an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object and a certificate template.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromtemplate">InitializeFromTemplate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-initializefromtemplate">InitializeFromTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request by using a template.
@@ -98,7 +97,7 @@ Initializes the certificate request by using a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_policyserver">PolicyServer</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_policyserver">PolicyServer</a>
 
 
 </td>
@@ -114,7 +113,7 @@ Retrieves the certificate enrollment policy (CEP) server that contains the templ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_template">Template</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcertificate2-get_template">Template</a>
 
 
 </td>
@@ -127,20 +126,12 @@ Retrieves the certificate request template used during initialization.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

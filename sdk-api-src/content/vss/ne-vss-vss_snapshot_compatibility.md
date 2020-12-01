@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e
 ms.date: 12/05/2018
 ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_COMPATIBILITY, VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS], _win32_vss_snapshot_compatibility, base.vss_snapshot_compatibility, vss/VSS_SC_DISABLE_CONTENTINDEX, vss/VSS_SC_DISABLE_DEFRAG, vss/VSS_SNAPSHOT_COMPATIBILITY
-f1_keywords:
-- vss/VSS_SNAPSHOT_COMPATIBILITY
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_SNAPSHOT_COMPATIBILITY
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_COMPATIBILITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_SNAPSHOT_COMPATIBILITY
+ - vss/_VSS_SNAPSHOT_COMPATIBILITY
+ - VSS_SNAPSHOT_COMPATIBILITY
+ - vss/VSS_SNAPSHOT_COMPATIBILITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_SNAPSHOT_COMPATIBILITY
 ---
 
 # VSS_SNAPSHOT_COMPATIBILITY enumeration
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_SNAPSHOT_COMPATIBILITY</b> enumeration 
     indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_SC_DISABLE_DEFRAG
 
 The provider managing the shadow copies for a specified volume does not support defragmentation operations 
       on that volume.
-
 
 ### -field VSS_SC_DISABLE_CONTENTINDEX
 

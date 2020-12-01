@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_movegroup.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_MoveGroup, ListView_MoveGroup macro [Windows Controls], _win32_ListView_MoveGroup, _win32_ListView_MoveGroup_cpp, commctrl/ListView_MoveGroup, controls.ListView_MoveGroup, controls._win32_ListView_MoveGroup
-f1_keywords:
-- commctrl/ListView_MoveGroup
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_MoveGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_MoveGroup
+ - commctrl/ListView_MoveGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_MoveGroup
 ---
 
 # ListView_MoveGroup macro
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 This macro is not implemented.
-      
-      
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param iGroupId
 

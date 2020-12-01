@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: eef63792-9dc6-49f5-bca3-e8056d0750f3
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY_ID, WS_SECURITY_ALGORITHM_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID, wsw.ws_security_algorithm_property_id
-f1_keywords:
-- webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_ALGORITHM_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_SECURITY_ALGORITHM_PROPERTY_ID
+ - webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_ALGORITHM_PROPERTY_ID
 ---
 
 # WS_SECURITY_ALGORITHM_PROPERTY_ID enumeration
@@ -49,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the properties representing security algorithm knobs.
-            
-
 
 ## -enum-fields
 
-
 ## -remarks
-
-
 
 All properties defined by the keys here have reasonable defaults; so
 specifying them is optional.  In the common case, one should be able
@@ -69,5 +64,4 @@ the properties below.
 
 <div class="alert"><b>Note</b>  This <b>enum</b> is reserved for future use and currently contains no values.</div>
 <div> </div>
-
 

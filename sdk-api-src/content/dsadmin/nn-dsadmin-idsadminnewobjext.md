@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
-f1_keywords:
-- dsadmin/IDsAdminNewObjExt
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminNewObjExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminNewObjExt
+ - dsadmin/IDsAdminNewObjExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminNewObjExt
 ---
 
 # IDsAdminNewObjExt interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsAdminNewObjExt</b> interface is implemented by an object creation wizard extension. This interface is used by the Active Directory administrative MMC snap-ins to control the object creation extension. The snap-in creates an instance of this object by using the CLSID of the extension.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjExt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +69,7 @@ The <b>IDsAdminNewObjExt</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-addpages">AddPages</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-addpages">AddPages</a>
 </td>
 <td align="left" width="63%">
 Called to enable the object creation wizard extension to add the desired  pages to the wizard.
@@ -79,7 +78,7 @@ Called to enable the object creation wizard extension to add the desired  pages 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo">GetSummaryInfo</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo">GetSummaryInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains a string that contains a summary of the data gathered by the new object wizard extension page.
@@ -88,7 +87,7 @@ Obtains a string that contains a summary of the data gathered by the new object 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">Initialize</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object creation wizard extension.
@@ -97,7 +96,7 @@ Initializes an object creation wizard extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-onerror">OnError</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-onerror">OnError</a>
 </td>
 <td align="left" width="63%">
 Called when an error occurs in the wizard pages.
@@ -106,7 +105,7 @@ Called when an error occurs in the wizard pages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">SetObject</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">SetObject</a>
 </td>
 <td align="left" width="63%">
 Provides the object creation extension with a pointer to the  object created.
@@ -115,35 +114,27 @@ Provides the object creation extension with a pointer to the  object created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">WriteData</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">WriteData</a>
 </td>
 <td align="left" width="63%">
 Enables the object creation wizard extension to write its data into the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
+<a href="/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobj">IDsAdminNewObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobj">IDsAdminNewObj</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>

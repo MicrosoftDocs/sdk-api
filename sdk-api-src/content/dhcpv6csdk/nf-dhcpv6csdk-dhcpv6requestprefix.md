@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
-f1_keywords:
-- dhcpv6csdk/Dhcpv6RequestPrefix
-dev_langs:
-- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc6.lib
 req.dll: Dhcpcsvc6.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc6.dll
-api_name:
-- Dhcpv6RequestPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Dhcpv6RequestPrefix
+ - dhcpv6csdk/Dhcpv6RequestPrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc6.dll
+api_name:
+ - Dhcpv6RequestPrefix
 ---
 
 # Dhcpv6RequestPrefix function
@@ -49,37 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Dhcpv6RequestPrefix</b> function requests a specific prefix.
-
 
 ## -parameters
 
-
-
-
 ### -param adapterName [in]
 
-GUID of the adapter on which the prefix request must be sent. 
-
+GUID of the adapter on which the prefix request must be sent.
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire. This parameter is optional.
+Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire. This parameter is optional.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
+Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
 
-The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure must follow these guidelines.
+The following members of the <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure must follow these guidelines.
 
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> member</th>
+<a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> member</th>
 <th>Consideration</th>
 </tr>
 <tr>
@@ -100,17 +95,13 @@ The following members of the <a href="https://docs.microsoft.com/windows/desktop
 </table>
  
 
-The caller must follow these considerations when assigning the values of the <b>nPrefixes</b>,  <b>iaid</b>, and <b>ServerIdLen</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure.  Based on these values, memory must also be  properly allocated to the <b>ServerId</b> and <b>PrefixArray</b> members before the <b>Dhcpv6RequestPrefix</b> function is called.
-
+The caller must follow these considerations when assigning the values of the <b>nPrefixes</b>,  <b>iaid</b>, and <b>ServerIdLen</b> members of the <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure.  Based on these values, memory must also be  properly allocated to the <b>ServerId</b> and <b>PrefixArray</b> members before the <b>Dhcpv6RequestPrefix</b> function is called.
 
 ### -param pdwTimeToWait [out]
 
-Contains the number of seconds a requesting application needs to wait before calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6renewprefix">Dhcpv6RenewPrefix</a> function to renew its acquired prefixes.  A value of 0xFFFFFFFF indicates that the application does not need to renew its lease.
-
+Contains the number of seconds a requesting application needs to wait before calling the <a href="/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6renewprefix">Dhcpv6RenewPrefix</a> function to renew its acquired prefixes.  A value of 0xFFFFFFFF indicates that the application does not need to renew its lease.
 
 ## -returns
-
-
 
 Returns ERROR_SUCCESS upon successful completion.
 
@@ -126,7 +117,7 @@ Returns ERROR_SUCCESS upon successful completion.
 </dl>
 </td>
 <td width="60%">
-The value of the <b>nPrefixes</b> or the <b>ServerIdLen</b> member specified is less than the number of prefixes available from the server or the available server ID length. Increase the <b>nPrefixes</b> or the <b>ServerIdLen</b> member  and make sure the corresponding memory has been allocated properly before calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6RequestPrefix</a> function again.
+The value of the <b>nPrefixes</b> or the <b>ServerIdLen</b> member specified is less than the number of prefixes available from the server or the available server ID length. Increase the <b>nPrefixes</b> or the <b>ServerIdLen</b> member  and make sure the corresponding memory has been allocated properly before calling the <a href="/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6RequestPrefix</a> function again.
 
 
 </td>

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutgoingmessageadded.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingMessageAdded, OnOutgoingMessageAdded, OnOutgoingMessageAdded method [Fax Service], OnOutgoingMessageAdded method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingMessageAdded method, _IFaxAccountNotify.OnOutgoingMessageAdded, _IFaxAccountNotify::OnOutgoingMessageAdded, _mfax_ifaxaccountnotify_onoutgoingmessageadded, fax._mfax_ifaxaccountnotify_onoutgoingmessageadded, faxcomex/_IFaxAccountNotify::OnOutgoingMessageAdded
-f1_keywords:
-- faxcomex/_IFaxAccountNotify.OnOutgoingMessageAdded
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- _IFaxAccountNotify.OnOutgoingMessageAdded
-- IFaxAccountNotify.OnOutgoingMessageAdded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IFaxAccountNotify::OnOutgoingMessageAdded
+ - faxcomex/_IFaxAccountNotify::OnOutgoingMessageAdded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - _IFaxAccountNotify.OnOutgoingMessageAdded
+ - IFaxAccountNotify.OnOutgoingMessageAdded
 ---
 
 # _IFaxAccountNotify::OnOutgoingMessageAdded
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The fax service calls the <b>IFaxAccountNotify::OnOutgoingMessageAdded</b> method when an outgoing message is added to the outbound fax archive.
-
 
 ## -parameters
 
-
-
-
 ### -param pFaxAccount [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>*</b>
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
-
+A <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a> object.
 
 ### -param bstrMessageId [in]
 
@@ -72,34 +67,16 @@ Type: <b>BSTR</b>
 
 Null-terminated string that contains the ID of the message added to the outbound fax archive.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To implement this functionality in Visual Basic, select and implement the appropriate event procedure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
- 
-
- 
-
