@@ -131,12 +131,14 @@ A pointer to a value to be passed to the window through the <a href="/windows/de
 
 If an application calls <b>CreateWindow</b> to create a MDI client window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-clientcreatestruct">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="/windows/desktop/api/winuser/ns-winuser-mdicreatestructa">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
-> [!NOTE]
->Return value
->Type: **HWND**
->
->If the function succeeds, the return value is a handle to the new window.
->If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+
+## Returns
+
+Type: <b>HWND</b>
+
+If the function succeeds, the return value is a handle to the new window.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
