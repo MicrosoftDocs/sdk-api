@@ -59,7 +59,7 @@ Creates a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</
 
 ### -param srtid
 
-[Sort order identifier](/windows/win32/intl/sort-order-identifiers)
+[Sort order identifier](/windows/win32/intl/sort-order-identifiers).
 
 ## -see-also
 
